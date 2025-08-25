@@ -1,0 +1,929 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Über den Geschlechtsunterschied und dessen Einfluß auf die organische Natur</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1794-12">Dezember 1794</date>
+         </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-2895044">Jena</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Essay</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philosophie</term>
+                <term>Anthropologie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="1.311" xml:id="pbI311"/>
+            <head>
+               <title type="main">Über den Geschlechtsunterschied und dessen Einfluß auf die
+                  organische Natur</title>
+            </head>
+            <p>Von der Wichtigkeit des Endzwecks erfüllt, welchem der Unterschied der Geschlechter
+               zunächst gewidmet ist, pflegt man die Bestimmung derselben auf ihn allein zu
+               beschränken. Man nimmt ihn unmittelbar mit in den Begriff derselben auf, denkt sich
+               unter dieser Anstalt der Natur weiter nichts, als ein zur Erzeugung nothwendiges
+               Mittel, und würde, wenn diese auf einem andern Wege zu erhalten wäre, einen
+               Unterschied leicht entbehren zu können glauben, der die Entwicklung der Gattung in
+               den Indivuen nicht selten zu hindern scheint. Nur allenfalls im Menschen wird auch
+               die gemeinste Beobachtung mehr auf die heilsame Einwirkung des einen Geschlechts auf
+               das andere aufmerksam gemacht. Allein auch in der übrigen Natur ist diese Erscheinung
+               nicht weniger sichtbar, und es bedarf nur einer mässigen Anstrengung des Nachdenkens,
+               um den Begriff des Geschlechts weit über die beschränkte Sphäre hinaus, in die man
+               ihn einschliesst, in ein unermessliches Feld zu versetzen. Die Natur wäre ohne ihn
+               nicht Natur, ihr Räderwerk stände still, und sowohl der Zug, welcher alle Wesen
+               verbindet, als der Kampf, welcher jedes einzelne nöthigt, sich mit seiner, ihm
+               eigenthümlichen Energie zu wafnen, hörte auf, wenn an die Stelle dieses Unterschiedes
+               eine langweilige und erschlaffende Gleichheit träte.</p>
+            <p>Das Streben der Natur ist auf etwas Unbeschränktes gerichtet. Alles Grosse und
+               Trefliche, was in endlichen Kräften wohnt, will <pb n="1.312" xml:id="pbI312"/> sie,
+               ohne Ausnahme, und zwar in ein Ganzes vereint, besitzen. Aber da diese Kräfte immer
+               endlich und an die Gesetze der Zeit gebunden sind, so hebt die eine, sofern sie
+               thätig ist, die andre auf, und es ist nicht möglich, dass sie alle
+                  <emph>zugleich</emph> wirken. Diess gilt aber nicht bloss von ihren einzelnen
+               Kräften, sondern überhaupt von ihren beiden hauptsächlichsten Wirkungsarten, der
+               Ausbildung des Einzelnen, und der Verbindung des Ganzen. Denn indess die Kraftübung
+                  <emph>Einseitigkeit</emph> hervorbringt, auf die auch die Beschaffenheit des
+               Stoffs führt; so verlangt die verbindende Form <emph>Vielseitigkeit</emph>, und die
+               eine Forderung vernichtet in dem Augenblick, da sie geschieht, nothwendig die andre.
+               Wenn also, bei allen Schranken der Endlichkeit, ein unendliches Wirken zu Stand
+               kommen sollte, so blieb nichts anders übrig, als die zugleich unverträglichen
+               Eigenschaften in verschiedene Kräfte, oder wenigstens in verschiedene Zustände
+               derselben Kraft zu vertheilen, und sie nun durch den Drang eines Bedürfnisses zu
+               gegenseitiger Einwirkung zu nöthigen. Diese beiden Merkmale sind aber gerade auch die
+               einzigen, welche der Geschlechtsbegriff in sich fasst. Denn, geht man auch, um
+               denselben so aufzufinden, wie er sich wirklich in der Natur zeigt, am besten von dem
+               Begriff der Zeugung aus, so kann man ihn doch auch, ohne alle Rücksicht auf diese, in
+               seiner völligen Allgemeinheit fassen; und alsdann bezeichnet er nichts anders, als
+               eine so eigenthümliche Ungleichartigkeit verschiedener Kräfte, dass sie nur verbunden
+               ein Ganzes ausmachen, und ein gegenseitiges Bedürfniss, diess Ganze durch
+               Wechselwirkung in der That herzustellen.</p>
+            <p>Denn auf der Wechselwirkung allein beruht das Geheimniss der Natur. Ungleichartiger
+               Stoff verknüpft sich, das Verknüpfte wird wiederum Theil eines grösseren Ganzen, und
+               bis ins Unendliche hin umfasst immer jede neue Einheit eine reichere Fülle, dient
+               jede neue Mannigfaltigkeit einer schöneren Einheit. Stoff und Form, so vielfach in
+               einander verschränkt, vertauschen ihr Wesen, und nirgends ist etwas bloss bildend
+               oder gebildet. So erhält die Natur zugleich Einheit und Fülle, zwei scheinbar
+               entgegengesetzte, aber nah verwandte Eigenschaften, deren eine dem Geist wohlthätige
+               Ruhe gewährt, wenn ihn die andre zu thätigem Nachdenken angespannt hat.</p>
+            <p>Von dem zauberähnlichen Wirken dieser zahllosen Kräfte erstaunt, verzweifelt der
+               menschliche Geist, je in diess heilige Dunkel zu dringen. Dennoch fühlt er sich durch
+               seine Natur aufgefordert, <pb n="1.313" xml:id="pbI313"/> es zu versuchen. Soll nun
+               der Versuch nicht gänzlich mislingen, so wende er seinen Blick von dem Zusammenfluss
+               der Wirkungen ab auf die vereinzelten wirkenden Kräfte. Was dort durch vielfaches
+               Eingreifen in fremder und mannigfaltig verschiedener Gestalt erscheint, sieht er
+               hier, vereinzelt, in seiner eigenthümlichen wieder. Denn jede Verbindung in der Natur
+               geht aus der innren Beschaffenheit der Wesen hervor, und ihr stilles Wirken
+               unterbricht keine eigenmächtige Willkühr. Was sich mit einander vereinigt, trägt in
+               seinem Wesen selbst das Bedürfniss dieser Vereinigung; und alle Erscheinungen der
+               Natur bestimmt der Charakter der wirkenden Kräfte. Ist indess der Weg auf diese Weise
+               vereinfacht, so darf man ihn nicht zugleich auch erleichtert nennen. Sehr schwierig
+               ist es, diesen verborgenen Charakter zu erspähen, der nicht in dem Inbegriff der, oft
+               nur zufälligen Aeusserungen eines Dinges besteht, sondern ihr innerstes Wesen selbst
+               ausmacht, nicht durch rhapsodistische Aufzählung der einzelnen Merkmale erschöpft
+               wird, sondern in seiner ganzen Einheit aufgefasst werden muss. Gerade weil er die
+               letzte Verbindung von jenen ist, darf er keine Trennung verstatten, ist er für die
+               innere Anschauung, was die äussere Gestalt dem Auge, und enthüllt sich fast nur einem
+               gewissen ahnenden Gefühle, da er doch auf Begriffe zurückgeführt, und durch Beweise
+               bestätigt werden soll.</p>
+            <p>Was, so wie dieser Charakter, das letzte Resultat aller vereinigten Kräfte ist, kann
+               wieder nur mit vereinigten Kräften verstanden werden. In harmonischem Bunde muss das
+               Gefühl mit dem Gedanken gemeinschaftlich thätig seyn. Hat der Verstand die Natur und
+               die Wirkungsart des Wesens nach Begriffen untersucht, so muss die Phantasie das
+               äussere Bild seines Erscheinens, die Form jenes Inhalts, auffassen, und nur die
+               Einheit, zu welcher der Geist diess doppelte Resultat zu verknüpfen strebt, kann dem
+               Gesuchten einigermaassen entsprechen. Keine Erscheinung einer Kraft darf daher der
+               Forscher zurückweisen, und durch das ganze Gebiet ihrer Wirksamkeit muss er sie
+               verfolgen. Bei Untersuchung der Körperwelt muss er mit der moralischen ebenso wohl,
+               als bei dieser mit jener vertraut seyn, und sein Bemühen gehe auf die grössere
+               Naturökonomie oder den kleineren Kreis des Menschen, so darf er nie das Ganze aus dem
+               Gesichte verlieren. Denn die äussere sinnliche Gestalt der Gegenstände giebt ihm
+               einen Spiegel in die Hand, in welchem sein Auge ihre innere Beschaffenheit
+               erblickt.</p>
+            <pb n="1.314" xml:id="pbI314"/>
+            <p>
+                Vorzüglich aber bedarf der Mensch zu Ergründung und
+               Veredlung auch seiner moralischen Natur einer anhaltenden und ernsten Betrachtung der
+               physischen um ihn her, und ihre Vorsorge hat ihm sogar diess Studium erleichtert.
+               Schon in dem bloss körperlichen Theil seines Wesens findet er mit unverkennbarer
+               Schrift dasjenige ausgedrückt, was er in seinem moralischen zum Daseyn zu bringen
+               streben soll. Freilich verweilt das Auge des Betrachters nur selten hinlänglich auf
+               den Zügen dieser Schrift. Vorsichtige Besorgniss durch leere Bilder der Phantasie
+               getäuscht zu werden, zieht oft die Aufmerksamkeit davon ab, und noch weit öfterer
+               hindert sie Mangel an Feinheit des Sinns, überhaupt nur rege zu werden. Dennoch ist
+               es unläugbar, dass die physische Natur nur Ein grosses Ganze mit der moralischen
+               ausmacht, und die Erscheinungen in beiden nur einerlei Gesetzen gehorchen. Nach der
+               Erforschung der Körperwelt und dem Studium des innern Lebens der Geister bleibt daher
+               noch endlich ein Blick auf das gegenseitige Verhältniss dieser beiden völlig
+               ungleichartigen Reiche übrig, um diejenigen Gesetze aufzufinden, welche, in beiden
+               herrschend, die höchste Verknüpfung des Naturganzen vollenden. Dieser Gesetze werden
+               freilich immer nur sehr wenige und äusserst einfache seyn können, da sie die reiche
+               Mannigfaltigkeit aller besondren unter sich befassen müssen. Allein eben dadurch wird
+               es dem Menschen leichter werden, ihnen auch an seinem Theil zu gehorchen, und gerade
+               die verborgensten Geheimnisse seines Wesens in ihnen besser enthüllt zu sehn. Denn
+               vorzüglich in dem Felde der menschlichen Empfindung und Begierde giebt es Tiefen,
+               welche der Forscher nie zu ergründen vermag, wenn er den Blick unmittelbar und allein
+               auf sie heftet. Wo die Verwandtschaft mit der schlechterdings physischen Natur des
+               Menschen zu nah ist, hört die Möglichkeit auf, alles durch seine bloss moralische zu
+               erklären. Er muss daher zugleich auf jene zurückgehn, und dasjenige, was in einer
+               feinen und verwickelten Organisation undeutlich erscheint, muss er da aufsuchen, wo
+               es in grossen und einfachen Zügen ausgedrückt ist. Wohin aber wendete er sich da
+               besser, als an dieselbe Natur in ihrer weniger verwickelten, aber grössern Oekonomie?
+               Aus ihr muss der Mensch sich besser verstehn lernen, und bei ihr den Stamm aufsuchen,
+               von dem nur die feinste Blüthe in ihm sprosst. Hat er diesen entdeckt, so ist es nun
+               weniger schwer, den wunderbaren Bau bis in seine äussersten Zweige zu verfolgen. Hier
+               ist der Standpunkt, auf welchem der <pb n="1.315" xml:id="pbI315"/> Kenner der
+               physischen und der Erforscher der moralischen Natur einander gegenseitig die Hand
+               bieten, um die steile Höhe zu ersteigen, von welcher jedes sein eignes Gebiet in
+               einer neuen und nun erst in der wahren Gestalt erblickt. Den äussersten Gipfel dieser
+               Höhe zu erreichen, dürfte allerdings wohl menschlichen Kräften verwehrt seyn. Aber
+               die Kenntniss der Natur wird sich immer ganz und gar von der Wahrheit entfernen, wenn
+               man demselben nicht wenigstens entgegenstrebt, und er nicht der Gesichtspunkt ist,
+               den man, auch bei der Beschäftigung in jedem einzelnen der beiden Reiche, unverrückt
+               im Auge behält.</p>
+            <p>Aus endlichen Kräften bestehend, weiss die Natur sich durch ihre Form Unendlichkeit
+               zu verschaffen. Dem Gesetze derselben gehorsam, hinterlässt das hinschwindende Wesen,
+               ehe es von dem Schauplatz seiner Thätigkeit scheidet, ein neues an seiner Stelle, und
+               indem so das Einzelne wechselt, bleibt das Ganze in ununterbrochener Einheit. Diese
+               Sorgfalt für die Fortdauer der Gattungen, bei der Vergänglichkeit der Individuen, ist
+               die erste Erscheinung, welche sich dem allgemeinsten Blick auf das gesammte Gebiet
+               der Natur darstellt. Aber nicht auf blosse Fortdauer allein beschränkt, ist ihre
+               Absicht hiebei zugleich auf etwas höheres gerichtet. Weil bei endlichen Wesen das
+               Vortrefliche nicht auf einmal entsteht, so erhebt sie sie von Stufe zu Stufe des
+               bessren. Dadurch hat sie es möglich gemacht, nach dem ersten Wurf der Keime, ihre
+               Hand von ihrem Werk abziehen zu können, und nun mit ruhigem Blick auf den Reihen der
+               Wesen zu verweilen, die sich jetzt, unendlichen Ketten gleich, von selbst, und doch
+               immer Einem Ziele zueilend entwickeln. Unter allen Verbindungen, die wir in ihr
+               gewahr werden, sind gerade die höchsten, mannigfaltigsten und innigsten diesem
+               doppelten Endzweck gewidmet; und gelänge es dem menschlichen Geist diese durch
+               Erforschung des Charakters der dabei wirksamen Kräfte genauer zu durchspähen, so wäre
+               es ihm dann möglich, diess tiefe Geheimniss mit grösserem Recht zu bewundern.</p>
+            <p>Bei allem Erzeugen entsteht etwas vorher nicht vorhandenes. Gleich der Schöpfung,
+               ruft die Zeugung neues Daseyn hervor, und unterscheidet sich nur dadurch von
+               derselben, dass dem neu Entstehenden ein schon vorhandener Stoff vorhergehen muss.
+               Dieser Nothwendigkeit ungeachtet, hat indess das Erzeugte dennoch eine von dem
+               Erzeugenden unabhängige Kraft des Lebens, und weit entfernt, dass diese aus demselben
+               erklärbar wäre, bleibt es <pb n="1.316" xml:id="pbI316"/> vielmehr ein
+               unergründliches Geheimniss, wie nur sein Daseyn daraus hervorgeht. Was durch
+               Entwicklung oder Wachsthum entsteht, ist ein Theil desjenigen, zu dem es gehört, und
+               empfängt aus fremder Hand seine belebende Kraft. Was aber durch Zeugung ans Licht
+               tritt, ist ein Wesen für sich, besitzt selbst Leben und Organisation, und kann, wie
+               es selbst hervorgebracht wurde, eben so wieder hervorbringen. Obgleich die Fähigkeit
+               zu zeugen durch die ganze Natur verbreitet ist, so vermag doch keine Kraft Leben und
+               Organisation mechanisch zu bilden; keine Weisheit den Weg dazu vorzuschreiben. Daher
+               ist Zeugung von Bildung verschieden, und darf nur Erweckung genannt werden; die
+               nachfolgende Bildung des Erzeugten gehört ihm selbst, nicht dem Erzeugenden an. Man
+               kennt, was der Zeugung vorhergeht, und sieht das Daseyn, das darauf erfolgt; wie
+               beides verknüpft ist? umhüllt ein undurchdringlicher Schleier. Denn wie die Zeugung
+               von Seiten des Erzeugten Erweckung ist, so ist sie von Seiten des erzeugenden Wesens
+               nur eine augenblickliche Stimmung, die nicht bloss durch die höchste Anstrengung der
+               Kräfte, sondern besonders durch die Vereinigung aller bezeichnet wird. Die Kraft,
+               welche das Lebendige und Organische beseelt, kann, wie sie selbst in sich Eins ist,
+               nur aus dem ihr Gleichen, hervorgehen, und nicht bloss dass jedes zeugende Wesen
+               seine eigenen gleichartigen Kräfte zur höchsten Harmonie gestimmt fühlt, so ist auch
+               jede Zeugung eine Verbindung zweier verschiedener ungleichartiger Principien, die
+               man, da die einen mehr thätig, die andern mehr leidend sind, die zeugenden (im engern
+               Verstande des Worts) und die empfangenden nennt. So hat die Natur ihre Kinder,
+               welchen, als endlichen Wesen, nicht alles zugleich zu besitzen vergönnen war,
+               wenigstens an die Einheit erinnert, die allein jedem höheren Streben genügt, und
+               ihrer Sehnsucht Momente geschenkt, die sie vergessen lassen, dass sie zu getrenntem
+               Daseyn verurtheilt sind.</p>
+            <p>Diesem gegenseitigen Zeugen und Empfangen ist nicht bloss die Fortdauer der Gattungen
+               in der Körperwelt anvertraut. Auch die reinste und geistige Empfindung geht auf
+               demselben Wege hervor, und selbst der Gedanke, dieser feinste und letzte Sprössling
+               der Sinnlichkeit, verleugnet diesen Ursprung nicht. Die geistige Zeugungskraft ist
+               das Genie. Wo es sich zeigt, sey es in der Phantasie des Künstlers, oder in der
+               Entdeckung des Forschers, oder in der Energie des handlenden Menschen, erweisst es
+               sich schöpferisch. Was seiner Zeugung das Daseyn dankt, war vorher <pb n="1.317" xml:id="pbI317"/> nicht vorhanden, und ist eben so wenig aus schon Vorhandenem
+               oder schon Bekanntem bloss abgeleitet. Zwar wird sich im Gebiete des Denkens, in
+               welchem durchgängiger logischer Zusammenhang herrschen muss, immer die Verbindung
+               desselben mit dem schon Gegebenen zeigen lassen, aber dieser Weg ist darum nicht auch
+               ebenderselbe, auf welchem es gefunden werden konnte. Denn das wahrhaft Genialische
+               ist keine Folgerung aus, bloss schnell übersehenen, unmittelbar zusammenhängenden
+               Sätzen, es ist wirkliche Erfindung, wenn gleich das, was nicht dieser Art ist,
+               ebenfalls auf genieähnliche Weise hervorgebracht seyn kann. Was hingegen das ächte
+               Gepräge des Genies an der Stirn trägt, gleicht einem eigenen Wesen für sich mit
+               eignem organischen Leben. Durch seine Natur schreibt es Gesetze vor. Nicht wie die
+               Theorie, welche der Verstand langsam auf Begriffe gründet, giebt es die Regel in
+               todten Buchstaben, sondern unmittelbar durch sich selbst, und mit ihr zugleich den
+               Sporn sie zu üben. Denn jedes Werk des Genies ist wiederum begeisternd für das Genie,
+               und pflanzt so sein eignes Geschlecht fort.</p>
+            <p>Durch Begeisterung gewirkt, ist dem Genie seine eigene Wirksamkeit unbegreiflich. Es
+               geht nicht auf gebrochenen Bahnen fort, hier erscheint es und dort, aber vergebens
+               suchten wir die Spuren seines wandlenden Fusstritts. Daher ist es nie zu berechnen,
+               und vermag selbst nicht zu verbürgen, ob sein Product gesetzlos oder regelmässig seyn
+               werde? Es kann diess Letztere nur mittelbar befördern, <emph>indem es sich selbst
+                  gesetzmäsig macht</emph>, und es ist ihm kein andrer Einfluss auf das Erzeugte, in
+               dem Augenblicke der Zeugung, erlaubt, als durch die allgemeine Stimmung seiner
+               selbst, als des Erzeugenden. Da alle seine Kräfte in diesem Momente vereinigt sind,
+               bleibt keine zu müssigem Zuschauen, oder kalter Leitung übrig. Selbstthätigkeit und
+               Empfänglichkeit sind beide gleich geschäftig in ihm, und dasjenige, dessen es sich
+               einzig bewusst ist, ist gerade die Vermählung dieser ungleichartigen Naturen. Nur
+               durch diese Wechselwirkung der Selbstthätigkeit und Empfänglichkeit wird es ihm
+               möglich, sich aus sich selbst herauszustellen, und sich selbst, abgesondert von allem
+               Zufälligen, zum Object seiner Reflexion zu machen. Diese Trennung aber ist zu jeder
+               genialischen Hervorbringung unentbehrlich, da das Genie das Nothwendige nur aus der
+               Tiefe seiner Vernunft hervorziehn, und es nicht anders, als durch gänzliche
+               Entfernung aus dem Kreise seines empirischen Daseyns, rein ab- <pb n="1.318" xml:id="pbI318"/> sondern kann. Daher erfordert dasselbe, wofern es schöpferisch
+               werden soll, die höchste Objectivität, d. h. ein, in Bedürfniss übergehendes
+               Vermögen, das Nothwendige zu ergreifen. Dieses aber kann es nur aus seinem Innren
+               schöpfen, oder es muss vielmehr sein eignes subjectives und zufälliges Daseyn in ein
+               nothwendiges verwandeln. Nie wird der Hand des Künstlers ein Meisterwerk gelingen,
+               wenn er nicht die idealische Schönheit, zu der doch seine Phantasie die Züge selbst
+               bildend entwarf, als eine wirkliche Gestalt zu umfassen vermag; nie wird der
+               Philosoph einen Fortschritt gewinnen, der die Masse der Ideen wesentlich bereichert,
+               wenn nicht die Wahrheit, die er aus der Tiefe seines Geistes hervorzog, seinen innren
+               Sinn, gleich einem äussren Objecte bewegt; und nie wird in schwierigen Fällen des
+               Lebens der handlende Mensch alle verwickelte Knoten gegen einander wirkender
+               Triebfedern genialisch lösen, wenn er nicht über der Welt sein eignes Ich vergisst,
+               oder vielmehr sein Ich zu dem Umfang einer Welt erweitert.</p>
+            <p>Leichter als der Augenblick, in welchem das neue Daseyn erweckt wird, ist der Zustand
+               zu beobachten, welcher demselben vorhergeht. In dieser Stimmung der schöpferischen
+               Weihe ist, von welcher Art auch die Zeugung seyn möge, das Gefühl einer
+               überfliessenden Fülle mit dem eines bedürftigen Mangels verbunden. Die Kraft sammelt
+               sich in sich selbst, nie fühlt sie sich reicher und grösser, nie lebhafter bewegt,
+               nie rüstiger zur herrlichsten Thätigkeit. Selbst die Erinnerung an diese Stärke
+               vermag noch, sie in der Folge begeisternd zu erwecken. Aber in dieser Bewegung liegt
+               der Keim einer unruhvollen Sehnsucht, die zur Hervorbringung reizt. Sich, ihres
+               Reichthums ungeachtet, so wie sie ist, nicht genügend, ahnet sie etwas andres, mit
+               dem vereint sie erst ein vollendetes Ganze bildet. Wird ihr Suchen hier mit
+               glücklichem Finden gekrönt, so strebt sie nach einer Vereinigung, welche jedes
+               einzelne Daseyn vertilgt. Es entsteht ein Wogen, ein Hin- und Herwanken, und jene
+               Sehnsucht erreicht eine schmerzliche Höhe. Die ganze Erwartung ist nun auf die
+               Hervorbringung gespannt, und das eigne Ich entäussert sich bis zu dem Grade, dass es
+               sich selbst gern für die neue Schöpfung hingeben möchte. Aus diesem höchsten Daseyn
+               springt das Daseyn hervor. Auf diesem einzigen Moment beruht die Erzeugung auch des
+               geistigsten Products. Hat die Phantasie des Künstlers einmal das Bild lebendig
+               geboren, so ist das Meisterwerk vollendet, wenn auch seine Hand in <pb n="1.319" xml:id="pbI319"/> demselben Augenblick erstarrte. Die wirkliche Darstellung gehört
+               nur noch dem Nachhall jenes entscheidenden Moments an.</p>
+            <p>Eine befremdende Erscheinung ist es, dass Kräfte, die sich so nothwendig sind, und so
+               heftig suchen, getrennt existiren sollen, und dass das zur Verbindung Bestimmte nicht
+               Eins seyn kann. Denn überall sehen wir zur Zeugung zwei ungleichartige Kräfte
+               erforderlich, dieselben mögen nun, wie in einem Theil der Natur, in Einem Wesen
+               verknüpft, oder in zwei verschiedne vertheilt seyn. Da das Erzeugte mit dem
+               Erzeugenden immer gleichartig und ihm ähnlich ist, so scheint es wunderbar, warum
+               nicht unmittelbar aus dem Leben das Leben, aus einer Kraft die andere hervorgehen
+               könne? und da der Begriff der reinen Kraft die andere hervorgehen könne? und da der
+               Begriff der reinen Kraft hier nichts Widersprechendes enthält, so müssen wir diess in
+               den Schranken derselben aufsuchen.</p>
+            <p>Die lebendige Kraft, welche jedes organische Wesen beseelt, fordert einen Körper.
+               Dieser Körper und jene Kraft stehen in unaufhörlicher Gemeinschaft, indem sie
+               gegenseitig auf einander ein und zurück wirken. So ist in jedem organischen Wesen
+               Wirkung und Rückwirkung verbunden. Wie unbegreiflich nun auch das Geschäft der
+               Zeugung ist, so wird doch soviel wenigstens klar, dass das Erzeugte aus einer
+               Stimmung des Erzeugenden hervorgeht, und, wie vorzüglich die Produkte des Genies
+               auffallend zeigen, derselben ähnlich ist. Die Erzeugung organischer Wesen erfordert
+               daher eine doppelte, eine auf Wirkung und eine andre auf Rückwirkung gerichtete
+               Stimmung, und diese ist in derselben Kraft und zu gleicher Zeit unmöglich.</p>
+            <p>Hier nun beginnt der Unterschied der Geschlechter. Die zeugende Kraft ist mehr zur
+               Einwirkung, die empfangende mehr zur Rückwirkung gestimmt. Was von der erstern belebt
+               wird, nennen wir <emph>männlich</emph>, was die letztere beseelt,
+                  <emph>weiblich</emph>. Alles Männliche zeigt mehr Selbstthätigkeit, alles
+               Weibliche mehr leidende Empfänglichkeit. Indess besteht dieser Unterschied nur in der
+               Richtung, nicht in dem Vermögen. Denn wie die thätige Kraft eines Wesens, so auch
+               seine leidende, und wiederum umgekehrt. Etwas bloss Leidendes ist nicht denkbar. Zu
+               allem Leiden (Empfinden einer fremden Einwirkung) gehört doch aufs mindeste
+               Berührung. Was aber gar kein Vermögen der Thätigkeit besitzt, ist gar nichts, wird
+               durchdrungen, aber nicht berührt. Daher überall gleichviel Entgegenwirken, als
+               Leiden. Die thätige Kraft hingegen ist (wenn wir uns erinnern, dass hier nur von
+               einer <pb n="1.320" xml:id="pbI320"/> endlichen geredet wird) den Bedingungen der
+               Zeit unterworfen, und an einen Stoff, mithin an etwas Leidendes gebunden. Ohne auch
+               in tiefere Beweise einzugehen, sehen wir im Menschen immer Selbstthätigkeit und
+               Empfänglichkeit einander gegenseitig entsprechen. Der selbstthätigste Geist ist auch
+               der reizbarste; und das Herz, das für jeden Eindruck am meisten empfänglich ist,
+               giebt auch jeden mit der lebhaftesten Energie zurück. Nur also die verschiedene
+               Richtung unterscheidet hier die männliche Kraft von der weiblichen. Die erstere
+               beginnt, vermöge ihrer Selbstthätigkeit, mit der Einwirkung; nimmt aber, vermöge
+               ihrer Empfänglichkeit, die Rückwirkung gegenseitig auf. Die letztere geht gerade den
+               entgegengesetzten Weg. Mit ihrer Empfänglichkeit nimmt sie die Einwirkung auf, und
+               erwiedert sie mit Selbstthätigkeit.</p>
+            <p>Diesen zwiefachen Charakter drückt auch der verschiedene Zustand aus, welcher in
+               beiden der Hervorbringung unmittelbar vorhergeht. In beiden ist das Gefühl eines
+               überströmenden Vermögens mit dem eines schmerzlichen Entbehrens gepaart. Aber wo die
+               Männlichkeit herrscht, ist das Vermögen: Kraft des Lebens, bis zur Dürftigkeit von
+               Stoff entblösst; und die entbehrende Sehnsucht auf ein Wesen gerichtet, das der
+               Energie zugleich Stoff zur Thätigkeit gebe, und, indem es durch Rückwirkung ihre
+               Empfänglichkeit beschäftigt; ihre glühende Heftigkeit lindre. In dem Kreise der
+               Weiblichkeit hingegen ist das Vermögen: eine üppig überströmende Fülle, zu reich, als
+               dass die eigne Kraft allein ihrer Belebung genügte; indess die entbehrende Sehnsucht
+               ein Wesen sucht, das zugleich den innern Stoff erwecke, und der eignen Kraft, indem
+               es sie durch Einwirkung zu selbstthätiger Rückwirkung nöthigt, eine grössere Stärke
+               ertheile. In dem ersteren Fall ist daher eine Stärke, die, auf Einen Punkt
+               versammelt, von diesem <emph>nach aussen hin</emph> strebt. Ausser sich sucht
+               dasjenige einen Stoff, was in sich nicht genug Beschäftigung seiner Thätigkeit
+               findet. In dem letzteren ist eine Fülle des Stoffs, die sich einen fremden Gegenstand
+               in einem Punkt <emph>innerhalb</emph> ihres Wesens aufzunehmen, und von ihm Einheit
+               zu empfangen sehnt. So befriedigt die eine Kraft die Sehnsucht der andren, und beide
+               umschlingen einander zu einem harmonischen Ganzen.</p>
+            <p>Auch in der geistigen Zeugung nehmen wir nicht bloss dieselbe Wechselwirkung, sondern
+               auch denselben Unterschied zwei verschiedner Geschlechter wahr. Ganz anders ist es in
+               Gemüthern beschaffen, die zu zeugen; anders in solchen, die zu empfangen <pb n="1.321" xml:id="pbI321"/> bestimmt sind. Es ist schon schwer, so feine
+               Verschiedenheiten im intellectuellen und moralischen Leben nur zu bemerken, und bei
+               weitem schwerer noch, sie darzustellen. Wo indess das Genie männliche Kraft besitzt,
+               da wird es, zeugend, mit selbstthätiger Vernunft auf das idealische Object einwirken.
+               Wo demselben hingegen weibliche Fülle eigen ist, wird es, empfangend, die Einwirkung
+               dieses Objects durch das Uebergewicht der Phantasie erfahren und erwiedern.
+               Vorzüglich offenbart sich dieser Unterschied in der innren Stimmung bei der
+               Hervorbringung selbst; dem geübten Blick aber wird er ebenso wenig in den Producten
+               entgehn. Denn ist gleich jedes ächte Werk des Genies die Frucht einer freien, in sich
+               selbst gegründeten, und in ihrer Art unbegreiflichen Uebereinstimmung der Phantasie
+               mit der Vernunft; so kann ihm dennoch bald die männlichere Vernunft mehr Tiefe, bald
+               die weiblichere Phantasie mehr üppige Fülle und reitzende Anmuth gewähren.<note type="footnote" n="1)" resp="gnd-118554727">Diese Vergleichung in einzelnen Fällen wirklich
+                  anzustellen, ist schon darum von vielen Schwierigkeiten begleitet, weil selten
+                  zwei Köpfe übrigens Aehnlichkeit genug zeigen, um gerade diesen Unterschied
+                  auffallend sichtbar zu machen. Nur also um an Beispiele zu erinnern, sey es
+                  erlaubt, hier <emph>
+                     <persName ref="gnd-11855333X">Homer</persName>
+                  </emph> und <emph>
+                     <persName ref="gnd-118626574">Virgil</persName>
+                  </emph>, <emph>
+                     <persName ref="gnd-118503952">Ariost</persName>
+                  </emph> und <emph>
+                     <persName ref="gnd-118523708">Dante</persName>
+                  </emph>, <emph>
+                     <persName ref="gnd-118622277">Thompson</persName>
+                  </emph> und <emph>
+                     <persName ref="gnd-118635964">Young</persName>
+                  </emph>, <emph>
+                     <persName ref="gnd-118594893">Plato</persName>
+                  </emph> und <emph>
+                     <persName ref="gnd-118650130">Aristoteles</persName>
+                  </emph> einander gegenüber zu stellen. Wenigstens dürfte niemand leicht in Abrede
+                  seyn, dass, in Rücksicht auf ihre Gegentheile, in den zuerst genannten, wenigstens
+                  in Vergleichung mit der aus ihnen hervorleuchtenden Kraft, mehr Ueppigkeit der
+                  Phantasie herrscht, da aus den lezteren die Form der Vernunft mit einer fast an
+                  Härte gränzenden Bestimmheit spricht. Zugleich von dieser Härte und von einer zu
+                  grossen Ueppigkeit frei, kann <emph>
+                     <persName ref="gnd-118615688">Sophokles</persName>
+                  </emph>, in der Mitte zwischen <emph>
+                     <persName ref="gnd-118500856">Aeschylus</persName>
+                  </emph> und <emph>
+                     <persName ref="gnd-118531395">Euripides</persName>
+                  </emph>, zum Beispiel des geschlechtlosen Genies dienen.</note> Da aber der
+               Geschlechtsunterschied überhaupt, als ein Unterschied der Natur, durch den formenden
+               Willen, so viel als möglich zur Einheit erhoben werden muss; so wird freilich
+               dasjenige Genie, das sich auf seine Bildung versteht, jene beiden Kräfte, bis zur
+               gänzlichen Verkennung desselben, in ein reines Gleichgewicht zu stimmen bemüht seyn.
+               Deutlicher, als hier, erscheint daher dieser Unterschied im praktischen Leben. Wo
+               dort der Tugendhafte, von dem erhabenen Gefühl der Achtung des Gesetzes durchdrungen,
+               der Ausübung seiner Pflicht sein Glück und sein Leben opfert, da ist eine grosse und
+               heroische Handlung mit männlicher Kraft erzeugt. Der moralische Sinn fühlt sich in
+               rüstiger Stärke, die Stimme der Pflicht ruft ihn zur That, und er empfindet sich
+               gedrungen, dem Rufe zu folgen. Wo hingegen die Tugend, im Bündniss mit der Phantasie,
+               durch <pb n="1.322" xml:id="pbI322"/> ihre Anmuth reizt, da ist jenes moralische
+               Gefühl mehr empfangend, als zeugend. Es erhält aus der Hand der Einbildungskraft die
+               wohlthätige Gestalt, schliesst sich mit Innigkeit an sie an, und strebt, sie mit
+               seinem Wesen zu vereinigen; und so ist die tugendhafte Handlung, welche hervorgeht,
+               nicht sowohl das Werk einer völlig frei und selbstthätig, als einer zurückwirkenden
+               Kraft.</p>
+            <p>Dieselbe Eigenthümlichkeit der zeugenden und empfangenden Kräfte, welche wir in den
+               Momenten ihrer höchsten Thätigkeit wahrnehmen, offenbart sich auch durch ihr ganzes
+               Daseyn hindurch. Ueberall spricht aus den ersteren hervorbringende Kraft durch freies
+               Geben aus eigner Fülle; überall ist in den letzteren Stärke des Auffassens durch
+               festes Umschliessen des Aufgenommenen sichtbar. Aber über das stille Daseyn der Wesen
+               unaufmerksam hinwegrollend, eilt unser Blick immer nur ihren Wirkungen zu, und doch
+               ist es eben diess unbemerkte Leben, dem die Kräfte der Natur ihrer Fortdauer danken.
+               Denn was ist jenes Daseyn andres, als eine ununterbrochene Wirksamkeit, welche
+               unaufhörlich die Thätigkeit vorbereitet, die wir nur in dem letzten Theil ihrer
+               Laufbahn erblicken, wenn das fortgesetzte Streben die Kraft endlich bis zum
+               Ueberströmen anschwellt? Nur die körperliche Wirkung rührt unsren gröberen Sinn,
+               indess der feine, aber mächtige Einfluss, den alles, was lebt, unmittelbar dadurch
+               verbreitet, dass es ist, uns gleich einem unsichtbaren Hauch entschlüpft. Eben so ist
+               nun auch den zeugenden und empfangenden Kräften nicht die Sorge der Fortpflanzung
+               allein anvertraut, nicht bloss die Erzeugung, die vor unsren Augen geschieht. Auch
+               die Erhaltung, die vor unsren Augen geschieht. Auch die Erhaltung, und da die
+               Erhaltung des Endlichen nur unaufhörlicher Tod ist, an den immer wiederkehrendes
+               Leben sich anknüpft, auch die uns verborgene Wiedererzeugung ist ihr Werk. Vermöchte
+               daher auch die Natur jenen Zweck der Fortpflanzung auf einem andren Wege zu
+               erreichen, so könnte sie doch nie die Wechselwirkung entbehren, in der die Kräfte der
+               Geschlechter einander gegenseitig ergänzen.</p>
+            <p>Die Natur, welche mit endlichen Mitteln unendliche Zwecke verfolgt, gründet ihr
+               Gebäude auf den Widerstreit der Kräfte. Alles Beschränkte zielt auf Zerstörung, und
+               der himmlische Friede wohnt allein in dem Wirkungskreis dessen, was sich selbst
+               genügt. Der zerstörenden Thätigkeit des einen muss daher das andre entgegenstreben,
+               und indem beide gegenseitig einander ihren Endzweck vereiteln, erfüllen sie den
+               schrankenlosen Plan der Natur. <pb n="1.323" xml:id="pbI323"/> Allein auch sie
+               gewinnt diesen Sieg nur, wenn man sie in ihrem ganzen Umfang und durch die Dauer
+               aller ihrer Epochen betrachtet; oder vielmehr derselbe liegt allein in dem Inhalte
+               ihrer Gesetze. In jeder einzelnen Periode dauert der Kampf noch fort, und das
+               Vollendete entbehrend, muss sie sich das Höchstmögliche zu besitzen begnügen. Da sie
+               die Schranken nicht entfernen kann, muss eine Kraft die Lücken der andren ausfüllen;
+               und da jede Thätigkeit sich endlich selbst aufreibt, Unthätigkeit aber verbannt ist,
+               so muss die Ruhe in dem Wechsel der Wirksamkeit bestehen. Denn die höchste Kraft
+               erfordert die Vereinigung widersprechende Bedingungen. Mit rastloser Anstrengung soll
+               beharrliches Ausdauern verbunden seyn. Aber die Anstrengung ist ein Feuer, das sich
+               selbst verzehrt; um nicht an Intension zu verlieren, muss sie sich aller hindernden
+               Masse entledigen, und den Stoff, den sie besitzt, energisch zusammendrängen. Denn
+               giebt es gleich auch Kräfte, welche gerade durch Masse mächtig sind, wovon vorzüglich
+               die unbelebte Natur auffallende Beispiele zeigt, so wirkt doch da eigentlich nur die
+               vereinte Stärke vieler einzelnen, zufällig in Gemeinschaft stehenden Theile. Indem
+               nun die Anstrengung die Empfänglichkeit ausschliesst, nimmt sie sich selbst den
+               Genuss erquickender Ruhe. Dagegen erfordert die Stärke des Widerstandes, welche zur
+               ausdauernden Beharrlichkeit nothwendig ist, mehr Fähigkeit, die fremde Einwirkung
+               aufzunehmen, als sie zurückzuweisen, mehr Stimmung zu leiden, und daher einen
+               reicheren Stoff. Ist aber dieser, in sich zurückgezogen, so sehr zur Beschäftigung
+               mit fremder Energie aufgelegt, so verbietet er sich dadurch selbst die Möglichkeit
+               eigner selbstthätiger Anstrengung. So verschliesst die Dichtungskraft, wenn sie in
+               glühendem Feuer Bilder auf Bilder schaft, die Sinne den äusseren Eindrücken; und so
+               verwehren diese, wenn sie mit lebendiger Wärme die Wirklichkeit umfassen, jener den
+               kühnen Aufflug ins Land der Erfindung.</p>
+            <p>Die männliche Kraft, zu beleben bestimmt, sammelt sich von selbst, und durch eigne
+               Bewegung. Allen Stoff, den sie besitzt, drängt sie zu ungetheilter Einheit zusammen.
+               Je reicher und mannigfaltiger derselbe ist, desto ermattender ist die Anstrengung,
+               aber auch desto grösser die Wirkung. Der Stoff darf nicht schon durch seine eigne
+               Natur zur Verbindung gestimmt seyn. Von ihr, als einem herrschenden Princip, muss er
+               die Leitung erhalten. So ins ich versammelt, wirkt sie aus sich heraus. Von heftigem
+                  <pb n="1.324" xml:id="pbI324"/> Drange thätig zu seyn beseelt, wünscht sie einen
+               Gegenstand zu finden, den sie durchdringe; aber ganz nur Selbstthätigkeit, ist sie in
+               diesem Augenblick aller Empfänglichkeit verschlossen. Einer solchen Anstrengung folgt
+               jedoch bald Ermattung nach, und sie gleicht einem Hauche, der mächtig belebt, aber
+               bald verschwindet. Mit dem Gefühl der sinkenden Stärke erwacht in ihr die Sehnsucht
+               der Empfänglichkeit, und gern ruht sie da aus, wo sie vorher bloss schöpferisch war.
+               So ist sie, was sie ist, durch sich selbst, und ihre eigenthümliche Form. Der Mann,
+               dessen Brust ein thatenkühner Muth begeistert, fühlt sich in sich verengt. Viel
+               Erfahrung hat er mit beobachtendem Geiste auf der Bahn des Lebens gesammelt; hohe
+               Ideale aus seinem Innren hervorzuschaffen; mannigfaltige Gefühle bewegen ihn, bald
+               die Würde der neuen Schöpfung, nach der er sich sehnt, bald theilnehmendes Mitgefühl
+               mit den Wesen, die er zu veredlen strebt. Für alle diese erhabenen Bilder hat sein
+               Busen nicht Raum genug, und heisser Durst nach Thätigkeit treibt ihn. Er sucht eine
+               Welt, die seiner Sehnsucht entspreche. Uneigennützig und fern von jedem Gedanken an
+               eignen Genuss, befruchtet er sie mit der Fülle seiner Kraft. Die neue Schöpfung steht
+               da, und freudig ruht er aus im Anblicke seiner Kinder.</p>
+            <p>Die weibliche Kraft, zur Rückwirkung bestimmt, sammelt sich auf einen fremden
+               Gegenstand und durch fremden Reitz. Da der Stoff, den sie in reicher Fülle besitzt,
+               sich durch seine eigenthümliche Natur vereint; so wirkt er mehr durch ein leidendes,
+               als ein selbstthätiges Vermögen. Mit dem Grade seiner Mannigfaltigkeit wächst
+               gleichfalls die Schönheit der Wirkung, nicht aber zugleich auch die Anstrengung.
+               Vielmehr wird diese durch vielfachere Berührungspunkte erleichtert, und ihr Grad nur
+               durch die Innigkeit des Umschliessens bestimmt, die von der gegenseitigen Harmonie
+               abhängt. Der Stoff der weiblichen Kraft bedarf weniger der Herrschaft eines
+               vereinenden Princips, sondern verbindet sich mehr durch seine eigene Gleichartigkeit.
+               In dieser Einheit erwiedert sie die Einwirkung mit immer steigendem Feuer, bis
+               endlich ihre ganze Thätigkeit angespannt ist. Aber da ihre eigenthümliche Natur sie
+               fähiger macht, Widerstand zu leiden, und sie von der glühenden Heftigkeit frei ist,
+               welche die männliche verzehrt, so vergütet sie die Langsamkeit ihrer Wirkung durch
+               längeres Ausdauern. So dankt sie der Beschaffenheit ihres Stoffs selbst einen Theil
+               ihrer Wirksamkeit, die durch ihn vorbereitet und unterstützt <pb n="1.325" xml:id="pbI325"/> wird. Ein Herz, das sich, von mannigfaltigen Empfindungen bewegt
+               und von einer edeln Strebsamkeit beseelt, reich ins ich selbst fühlt, aber den kühnen
+               Muth vermisst, sich eine eigne Richtung zu geben, wird von unruhiger Sehnsucht
+               gefoltert. Sich selbst unverständlich, und arm im Schoosse des Ueberflusses, wünscht
+               es ein Wesen zu finden, das die verschlungenen Knoten seiner Gefühle freundlich löse.
+               Je tiefer die Quelle dieser verworrenen Stimmung verborgen liegt, desto schwerer
+               begegnet es der Gewährung seines Wunsches, aber desto inniger schliesst es sich an
+               die gefundene Erscheinung an. Je länger es an ihr verweilt, desto mehr
+               Berührungspunkte entdeckt es, und verlässt sie nicht eher, bis der Keim zur
+               vollendeten Frucht gereift ist.</p>
+            <p>Nicht also ihrem Grade, sondern allein ihrer Gattung nach, sind die zeugenden und
+               empfangenden Kräfte von einander verschieden. Blosses Aufnehmen ist kein Empfangen,
+               sondern steht eben so unter diesem, als das Geben unter dem Zeugen. Beide, Zeugen und
+               Empfangen, sind höhere und kraftvollere Energien, beide ein Hervorbringen durch Geben
+               und Aufnehmen. Eigne fruchtbare Fülle muss bei jenem das Entäusserte begleiten, bei
+               diesem das Aufgenommene umfassen. Der wahre Charakterunterschied beider Kräfte
+               besteht darin, dass den empfangenden mehr Stoff, mehr Körper, den zeugenden mehr
+               Seele eigen ist, wenn nemlich Seele jedes selbstthätige Princip bezeichnet. Gerade
+               aber durch diese Verschiedenheit thun sie der Forderung der Natur ein Genüge. Sollte
+               der Zerstörung drohenden Heftigkeit der männlichen Kraft eine andre entgegengestellt
+               werden, so durfte es keine gleichartige seyn. Gegenseitige Ermattung hätte dann den
+               Kampf beschlossen, in dem, wie überall in der Natur, der Unterliegende selbst neues
+               Leben aus den Händen des Überwinders erhalten sollte. Der überströmenden Fülle musste
+               daher ein Bedürfniss gegenüberstehn; aber da die Natur in ihrem Gebiet eben so wenig
+               Armuth als Selbstgenügsamkeit verstattet, so ist das Bedürfniss wieder mit Reichthum
+               verknüpft. Indem nun alles Männliche <emph>angestrengte Energie</emph>, alles
+               Weibliche <emph>beharrliches Ausdauern</emph> besitzt, bildet die unaufhörliche
+               Wechselwirkung von beiden die unbeschränkte Kraft der Natur, deren Anstrengung nie
+               ermattet, und deren Ruhe nie in Unthätigkeit ausartet.</p>
+            <p>Zu jeder Zeugung wird also zweierlei erfordert, lebendige Energie der Kraft, die auf
+               Einen Punkt sich zusammenzieht, und <pb n="1.326" xml:id="pbI326"/> lebendige Fülle
+               des Stoffs, der ihre Einströmung in allen seinen Punkten empfängt. Jene wird daher
+               ihrer Natur nach, auf Trennung gerichtet seyn, weil alles, was nicht sie selbst ist,
+               sie in ihrer reinen Wirksamkeit hindert: Diese wird auf Einheit gerichtet seyn, um
+               von allen Seiten aus die einwirkende Kraft zu umschliessen. Wenn das Genie (da diese
+               Erscheinungen durch die ganze Kette der hervorbringenden Wesen dieselben sind)
+               vermöge der reinen Selbstthätigkeit der Vernunft, die belebende Flamme ausströmt,
+               der, gleich einem Funken, das göttliche Werk entsprüht, so muss die Phantasie sie in
+               ihren Schooss aufnehmen, und wohlthätig umschliessen. Die zeugende Kraft vermöchte
+               sich nicht energisch zu sammeln, wenn sie nicht alles zurückwiese, was diese
+               Anstrengung stören könnte; und der empfangenden wäre es unmöglich, sich von allen
+               Seiten her nach Einem Punkt hin zu neigen, wenn sie nicht die höchste
+               Uebereinstimmung in sich bewahrte. Die Heftigkeit, mit der die erstere fortstrebt,
+               richtet sie auf einzelne Gesichtspunkte, und ihre unaufgehaltene Wirkung müsste
+               überall Trennung und Zerstörung seyn. Dagegen macht der letzteren die harmonische
+               Sanftmuth, mit der sie entgegenkommt, eine mehr umfassende Einheit zum Gesetz, und
+               ihre Frucht ist Erhaltung. Was zu beleben bestimmt ist, muss reitzend erwecken. Aller
+               Reitz aber richtet die Aufmerksamkeit auf einen einzelnen Zustand, und das Gefühl
+               durchgängiger Gleichgültigkeit würde Schlummer oder Tod seyn. Das Belebende darf
+               daher nicht, mit allzugrosser Schonung, jede Erschütterung vermeiden. Dagegen muss
+               der Stoff, welcher der Belebung entgegengeführt wird, gleichmässig und ganz von ihr
+               durchdrungen werden. Was endlich mehr Form besitzt, zielt zwar auf Verbindung, aber,
+               wie die Form überhaupt, nur durch Trennung; so wie, was dem Stoffe näher liegt, wie
+               dieser selbst, zwar in sich ein Mannigfaltiges, aber noch wenig geschieden ist.</p>
+            <p>Ueberall, wo der männliche und weibliche Charakter sichtbar ist, wird man in ihm
+               diese Seiten gewahr; in dem ersteren ein Streben, mit trennender Heftigkeit
+               erzeugend, in dem letzteren ein Bemühen, durch Verbindung erhaltend zu seyn. Alle
+               Eigenschaften, in welche gekleidet beide Geschlechter durch die ganze Natur, aber
+               vorzüglich im Menschen, erscheinen, bringen denselben verschiedenen Eindruck hervor.
+               Die reizende Anmuth und die liebliche Fülle der Weiblichkeit bewegt die Sinne; die
+               nicht sowohl anschauliche, als bildliche Vorstellungsart und der sinnliche <pb n="1.327" xml:id="pbI327"/> Zusammenhang aller Begriffe geben der Phantasie ein
+               reiches und lebendiges Bild; und die Einheit des Charakters, der, jedem Eindruck
+               offen, jeden mit entsprechender Innigkeit erwiedert, rührt die Empfindung. So wirkt
+               alles Weibliche vorzüglich auf diejenigen Kräfte, welche den ganzen Menschen in
+               seiner ursprünglichen Einfachheit zeigen. Was dem Mann und seinem Geschlechte
+               angehört, lässt dagegen diese minder befriedigt, beschäftigt aber mehr das Vermögen
+               der Begriffe. Die Gestalt hat mehr Bestimmtheit, als anmuthige Schönheit; die
+               Begriffe sind deutlicher und sorgfältiger geschieden, stehn aber auch in weniger
+               leichter Verbindung; der Charakter ist stark und hat feste Richtungen, erscheint aber
+               nicht selten auch einseitig und hart. Alles Männliche, kann man daher sagen, ist mehr
+               aufklärend, alles Weibliche mehr rührend. Das eine gewährt mehr Licht, das andere
+               mehr Wärme. Da in der endlichen Natur das Leben immer dem Tode zur Seite steht, und
+               das Bessre nur an die Stelle des minder Guten tritt; so muss dem neuen Daseyn das
+               schon vorhandene weichen. Die Kraft nun, die, von eignem Entschluss getrieben, ausser
+               sich thätig ist, muss mit einer Willkühr handeln, die, wenn sie Hindernisse
+               zerstörend hinwegräumt, nicht anders als gewaltthätig erscheinen kann. Daher ist kein
+               Muth zu grösseren Unternehmungen, ohne eine gewisse Härte denkbar. Da aber die neue
+               Schöpfung nicht gedeiht, wenn sie nicht mit weiblicher Schonung gepflegt wird, so
+               wandelt in einem wahrhaft zum handlenden Leben gebornen Genie sanfte Milde die Härte
+               in ernste Festigkeit um.</p>
+            <p>Denn nur die Verbindung der Eigenthümlichkeiten beider Geschlechter bringt das
+               Vollendete hervor, und wenn das Studium des männlichen den Verstand anhaltender
+               beschäftigt, und die Betrachtung des weiblichen die die Empfindung lebhafter bewegt,
+               so befriedigt nur die Verknüpfung beider, oder vielmehr das reine Wesen, abgesondert
+               von allem Geschlechtsunterschied, die Vernunft, als das Vermögen der Ideen. Die
+               höchste Einheit erfordert allemal zwei entgegengesetzte Richtungen. Da die Einheit
+               überhaupt nur dann Werth hat, wenn sie aus der Fülle, nie aber, wenn sie aus der
+               Armuth entspringt; so darf die Stärke und Ausbildung der einzelnen Theile nicht
+               minder gross seyn, als die Innigkeit des Zusammenhangs aller. Allein um das Einzelne
+               zu üben, wird <emph>Trennung</emph> erfordert, und eben diese Trennung schränkt die
+               Möglichkeit der <emph>Verbindung</emph> ein. Da nun das eine Geschlecht jene, das
+               andre diese mehr begünstigt, so befördern <pb n="1.328" xml:id="pbI328"/> beide,
+               indem sie einander entgegenwirken, gemeinschaftlich die wunderbare
+                  <emph>Einheit</emph> der Natur, welche zugleich das Ganze aufs innigste verknüpft,
+               und das Einzelne aufs vollkommenste ausgebildet zeigt.</p>
+            <p>Denn die ursprünglich anfangende Thätigkeit ist den zeugenden Kräften, so wie die
+               erwiedernde den empfangenden eigen, und die Zeugung, als das gemeinschaftliche Werk
+               beider, ist auf diese Weise zwischen ihnen vertheilt. Alle Hervorbringung setzt ein
+               Stoff voraus; denn nur an das schon vorhandene knüpft die Natur das Neue an. Dieser
+               Stoff bildet sich aus, und zwar durch einen Trieb, welcher mit eigenthümlicher Kraft,
+               und nach einer Regel (die, wie vorhin bemerkt worden, die Erzeugung des Gleichartigen
+               scheint) thätig ist. In diesem Triebe aber, als zu einer ihm vorher fremden Energie,
+               muss er erweckt werden, und diese Erweckung ist der Anfang des Lebens, als der
+               Verbindung des Bildungstriebes (im allgemeinsten Verstande) mit der rohen Materie.
+               Das erste Geschäft dieses Bildungstriebes ist die Ausbildung selbst, und, ist diese
+               vollendet, die Ersetzung dessen, was der organische Körper zufällig verliert. Allein
+               auch ausserdem ist er ununterbrochen fort thätig, um die einmal vollendete Bildung zu
+               erhalten. Denn da die Gesetze der Materie hier vorzüglich die chemischen
+               Verwandtschaften den Gesetzen des Lebens, d. i. der Organisation, immerfort
+               entgegenarbeiten, und das Leben wie die Resultate neuerer Untersuchungen zeigen,
+               nichts andres ist, als der Sieg der letzteren über die ersteren; so ist ein
+               unaufhörlicher Kampf nöthig, diese Oberherrschaft zu behaupten. Das Princip, das hier
+               thätig ist, pflegt man die Lebenskraft zu nennen, und von ihr macht der Bildungstrieb
+               (im engern Verstande) nur eine besondre Modification aus. Die Hervorbringung
+               erfordert daher zwei unentbehrliche Elemente, rohen Stoff, und Belebung desselben zur
+               Ausbildung.</p>
+            <p>Sollen diese beide unter die zeugenden und empfangenden Kräfte vertheilt werden, so
+               scheint es natürlich den Stoff den letzteren, die Belebung den ersteren
+               zuzuschreiben. Wenigstens zeigte sich, nach dem bisherigen Raisonnement, bei den
+               zeugenden Kräften die Energie, bei den empfangenden das ursprünglich Vorhandne,
+               worauf die Energie wirkt, in höherem Grade. So schien in Absicht der hervorbringenden
+               Kraft den erstern mehr selbstthätiges Feuer, den letztern mehr entgegenwirkende
+               Stärke; in Absicht der Einheit der Wirkung den ersteren ein stärkeres ver- <pb n="1.329" xml:id="pbI329"/> einendes Princip, den letzteren mehr freiwillige
+               Uebereinstimmung des Einzelnen eigen zu seyn. Auch in der Betrachtung der Natur
+               entdeckt schon ein flüchtiger Blick überall in dem männlichen Geschlecht mehr
+               Ausdruck von Kraft, in dem weiblichen, zwar nicht an sich, aber in Vergleichung mit
+               der, aus demselben hervorleuchtenden Kraft, mehr Ausdruck von Fülle.</p>
+            <p>Jeder reinen Theilung widerspricht indess schon die Analogie der Naturgesetze. Denn
+               soweit unsre Beobachtung reicht, sehen wir, dass die Natur, immer bemüht, den
+               höchsten Reichthum durch die einfachsten Mittel hervorzuschaffen, Wesen von
+               ungleichartiger Wirksamkeit nicht sowohl durch den Grad, als die Richtung ihrer
+               Kräfte von einander unterscheidet. Eben so ist nun auch in den empfangenden nicht
+               weniger Kraft, als in den zeugenden Stoff in dem Augenblick der Hervorbringung
+               wirksam; und die Verschiedenheit liegt allein in der Art, wie beide gegenseitig
+               gestimmt sind. In dem männlichen Geschlechte ist alles allein auf die Einwirkung
+               gerichtet. Da der Stoff bloss bestimmt ist, sie dadurch zu verstärken, dass er ihr
+               gleichsam einen Körper leiht, so sucht sie ihn sich, fast bis zur Vertilgung seiner
+               eigenthümlichen Natur, zu assimiliren. In dem weiblichen geht dagegen die ganze
+               Stimmung auf die Rückwirkung. Indem die Kraft diese in dem Stoff zu erhöhen strebt,
+               behandelt sie ihn mit grösserer Schonung. Eigentlich geschieht daher die Belebung
+               durch beide Geschlechter zugleich, nur dass die männliche Kraft doch allein die
+               Erweckung bewirkt, indess die weibliche nur ihre Möglichkeit vorbereitet, und ihre
+               Fortdauer sichert. Nie vermöchte auch die belebende Kraft auf den Stoff zu wirken,
+               wenn nicht zugleich eigne Thätigkeit desjenigen Wesens hinzukäme, welchem derselbe
+               angehört. Selbst die stärkste Einwirkung kann nur durch Rückwirkung in das eigne
+               Wesen aufgenommen werden, und aus dem ganzen Umfange ihres Gebiets hat die organische
+               Natur bloss unthätiges Leiden verbannt. Dadurch, dass sie jedem Geschlecht beide zur
+               Erzeugung nothwendige Kräfte verliehen, hat sie es möglich gemacht, dass Mangel der
+               Kraft auf der einen Seite durch ein Uebergewicht auf der andern gleichsam übertragen
+               werden kann. Wo es der männlichen Kraft an Stärke gebricht, da kann die Lebendigkeit
+               der weiblichen noch die Möglichkeit der Fruchtbarkeit retten, wie diess die Erfahrung
+               in der That nicht selten beweisst, und umgekehrt kann, wo die weibliche einen zur
+               Empfänglichkeit wenig vorbereiteten Stoff darbietet, die männliche <pb n="1.330" xml:id="pbI330"/> diesen Fehler wiederum gut machen. Mag man sich diess nun durch
+               einen wirklichen Austausch der Functionen, oder, was wahrscheinlicher ist, durch eine
+               Erweckung und Unterstützung der Schwäche des einen Theils vermöge einer
+               ausserordentlichen Stärke des andren erklären, die, indem sie ihrer Verrichtung in
+               einem eminenten Grade genügt, die gegenseitige erleichtert; so bestätigen Fälle
+               dieser Art, ebenso wie die, wo augenblickliche Stimmungen der Mutter auf die
+               Beschaffenheit der Frucht wirksam schienen, das hier Gesagte auch auf dem Weg der
+               Erfahrung. Wenn indess Zeugung und Empfängniss beide einen Stoff und eine Kraft
+               erfordern; so ist bei der ersteren der Stoff nur nothwendig, weil die Kraft nicht
+               ohne Stoff zu wirken vermöchte, und bei der letzteren die Kraft nur erforderlich,
+               weil ohne sie die Einwirkung auf den Stoff nicht geschehen kann. Redet man daher
+               bloss von der Hauptrichtung beider Geschlechter; so gehört dennoch die Kraft bei der
+               Hervorbringung bloss dem zeugenden, der Stoff bloss dem empfangenden an.</p>
+            <p>Den geweihten Schleier zu durchdringen, in den die Natur gerade ihr heiligstes Bilden
+               verhüllt, ist von einer Schwierigkeit begleitet, welche sich schon durch dir
+               mannigfaltigen und gänzlich verschiedenen Theorien über diesen Gegenstand verräth.
+               Die wahrscheinlichste unter denselben stimmt jedoch genau mit dem eben Gesagten
+               überein. Ueberall, wo die Natur Zeugung und Empfängniss zwei verschiedenen Wesen
+               anvertraut hat, ist der Stoff in dem empfangenden, das belebende Princip in dem
+               zeugenden. Damit aber beide miteinander in Verbindung gesetzt werden können, muss
+               noch eine Thätigkeit auch des ersteren hinzukommen, durch welche ein Theil des Stoffs
+               sich losreisst, und Keim zur ferneren Ausbildung wird. Gerade in ihrer geheimsten
+               Werkstätte wirkt daher die Natur am meisten schöpferisch und am wenigsten mechanisch.
+               Gerade hier lässt sich am wenigsten die Wirkung aus den Ursachen berechnen; vielmehr
+               zündet nur ein Funke den andern an. Diess haben am meisten diejenigen gefühlt, welche
+               diess Phänomen durch jene Wirkungsart zu erklären unternahmen, da doch dem
+               menschlichen Verstand hier nichts übrig blieb, als die hervorbringenden Ursachen
+               aufzusuchen, den Erfolg zu beobachten, und nicht zu erklären, sondern schweigend zu
+               bewundern, ein Gipfel der bescheidenen Achtung gegen die grosse Werkmeisterin, zu
+               welchem nur die neuere philosophische Naturkunde führen konnte. Wunderbar ist es zu
+                  <pb n="1.331" xml:id="pbI331"/> sehen, wie die Natur, indem sie sich jener
+               körperlichen Kräfte nur in soweit bedient, als es ihr gleichsam unentbehrlich schien,
+               die Freiheit, diess grosse Vorrecht der Geisterwelt, auch in das andre Gebiet ihres
+               Reichs hinüberzuführen strebt. Nur eine Partikel des Stoffs nimmt sie auf, nur zur
+               ersten Belebung entlehnt sie eine fremde Kraft. Wie der erste Funke glimmt, lodert er
+               durch sich selbst auf, empfängt Nahrung, aber die er nach eignen Gesetzen
+               gebraucht.</p>
+            <p>Achtung für alles wirkliche Daseyn, und Streben demselben eine bestimmte Gestalt nach
+               eigner Willkühr zu geben, bezeichnen überall den weiblichen und männlichen Charakter,
+               und so erfüllen sie beide dadurch gemeinschaftlich den grossen Endzweck der Natur,
+               die unaufhörliche <emph>Wechselwirkung</emph> der Form und des Stoffes. Unmittelbar
+               gegenübergestellt, müssten Form und Stoff einander feindlich begegnen. Da aber, bei
+               der, den beiden Geschlechtern eigenthümlichen Wirkungsart, die Strenge der Form durch
+               den Stoff, den dieselbe annehmen muss, gemildert, und der Stoff durch eine formende
+               Kraft zur Empfänglichkeit vorbereitet wird; so ist nun die innige Vereinigung
+               möglich, auf welcher allein das Geheimniss der Organisation beruht. Die
+               Nothwendigkeit, mit welcher alle wechselseitig aufeinander wirkende Kräfte eine oder
+               andren bedürfen, macht auch die zeugenden und empfangenden abhängig von einander.
+               Indess ist den ersteren doch nicht alle Beschäftigung ihrer Wirksamkeit für sich
+               allein, so wie den letzteren, verwehrt, und diess begründet eine grössere
+               Unabhängigkeit von ihrer Seite. Eben darum aber sind die entgegengesetzten das
+               höchste Beförderungsmittel aller Verbindung, und da nun gerade die Kunst der
+               Verbindung das höchste Daseyn in der Natur bewahrt, so sind dieselbe durch ihre innre
+               Beschaffenheit mehr und dringender, diess zu befördern, veranlasst. Sie sind es, die
+               man als das eigentlich verknüpfende Band in dem Ganzen der Natur ansehen kann; die am
+               emsigsten Gegenstände aufsuchen, welche ihre Energie zu beleben vermögen, und bei den
+               gefundenen am längsten verweilen.</p>
+            <p>Durch diess Verweilen führt die Fähigkeit zu empfangen zu dauernder Beharrlichkeit.
+               Mehr in sich zurückzukehren, als in weite Fernen zu schweifen durch ihre Natur selbst
+               veranlasst, sind alle empfangende Wesen an einen stäteren, minder wechselnden Gang
+               gefesselt. Um der Kraft, die ihnen entgegen kommt, ausdauernde Stärke entgegen zu
+               setzen, das Getrennte zu ver- <pb n="1.332" xml:id="pbI332"/> binden, und die
+               Einwirkung zu erwiedern, bedürfen sie eines harmonischen und gleichgestimmten
+               Strebens. Da mit dem Empfangen auch zugleich die Ausbildung des Keims verbunden ist,
+               so erfordert diese häufig eine verwickeltere Organisation; und wenigstens muss die
+               Natur, um diesen Zweck nicht zu verfehlen, Wesen, die hiezu bestimmt sind, mit
+               doppelter Wachsamkeit an ihre Gesetze binden. Beharrlichkeit aber ist die
+               Unveränderlichkeit des Endlichen, und so schient die Natur auch diesen letzten
+               Vorzug, welcher erst allen übrigen, die ohne ihn nur ein erbetenes und vergängliches
+               Daseyn besitzen würden, den wahren innren Werth und den schönsten äussern Glanz
+               giebt, den empfangenden Kräften vorzugsweise von selbst und aus freier Gunst zu
+               ertheilen.</p>
+            <p>Aber die Beharrlichkeit hat nur dann einen Werth, wenn sie das Gesetz der Thätigkeit
+               ist, nicht wenn sie zur Unthätigkeit herabsinkt. Besitzt nun das weibliche Geschlecht
+               ein Princip der Beharrlichkeit, so ist ihm nicht auch zugleich ein andres der
+               Thätigkeit eigen, sondern es muss diess von der wechselseitigen Einwirkung des
+               männlichen erwarten. Die Kraft, die mit so grosser Heftigkeit wirkt, dass sie selbst
+               die Zerstörung nicht scheut, und fremden Stoff nach eigner Willkühr zu formen
+               unternimmt, ist unermüdet, aber auch leicht dem Wechsel unterworfen. Da sie nicht
+               Raum genug in sich fühlt, das schwellende Streben zu fassen, so ist ihr Ruhe
+               unerträglich; und da sie nicht sowohl der Beschaffenheit des Stoffs nachgiebt, als
+               von eignem Feuer beseelt wird, so lässt sich die Stätigkeit ihrer Wirksamkeit nicht
+               verbürgen. In demjenigen Theil der Natur, in welchem überhaupt wenig oder gar keine
+               Willkühr herrscht, wird diess wenig sichtbar seyn; vielleicht aber ist es auch nur,
+               wie so vieles in diesem Gebiet, wenig beobachtet, und wenigstens bestätigt in dem
+               übrigen die Erfahrung diese, hier bloss aus Begriffen gefolgerte Behauptung. Soll der
+               Mensch zu dem Ideale gelangen, das die Vernunft ihm vorschreibt; so muss der Mann
+               seine natürliche Thätigkeit an ein festes Gesetz binden, das Weib die
+               Gesetzmässigkeit, welche es seinem Wesen eingeprägt fühlt, durch innre Antriebe mit
+               Thätigkeit beleben. Unterliegt aber das Bemühen der Vernunft hier dem Hang der Natur,
+               so hebt der doppelte Fehler beider Geschlechter sich selbst wieder auf. Mit
+               verschiedenen Eigenschaften versehen und doch unzertrennlich von einander,
+               beschränken sie sich selbst bis auf die Gränze, welche dem Endzweck des Ganzen
+               entspricht.</p>
+            <pb n="1.333" xml:id="pbI333"/>
+            <p>
+                Die Natur, in ihrem ganzen Umfang betrachtet, ist
+               unveränderlich. Die Thätigkeit ihrer Kräfte rostet nie, und ihre Gesetze verschaffen
+               sich immer gleichen Gehorsam. So unterbricht nichts je weder den Grad, noch die Form
+               ihrer Wirksamkeit. Diese Thätigkeit aber unveränderlich zu erhalten findet sie in der
+               gegenseitigen Eigenthümlichkeit beider Geschlechter eine mächtige Stütze. Indess sie
+               aus dem einen Rastlosigkeit schöpft, verbürgt ihr das andre die Stätigkeit.</p>
+            <p>So sind nun zwischen beiden Geschlechtern die Anlagen vertheilt, welche es ihnen
+               möglich machen, diess unermessliche Ganze zu bilden. Nur dadurch gelang es der Natur,
+               widersprechende Eigenschaften zu verbinden, und das Endliche dem Unendlichen zu
+               nähern. Denn überall droht angestrengte Thätigkeit dem ruhigen Daseyn, so wie
+               erhaltende Ruhe der regen Energie den Untergang. Darum beseelte die Natur ihre Söhne
+               mit Kraft, Feuer und Lebhaftigkeit, und hauchte ihren Töchtern Haltung, Wärme und
+               Innigkeit ein. Indess nun die einen ihr Gebiet zu erweitern streben, bereichern es
+               die andern mit sorgsamer Hand innerhalb seiner Gränzen. Denn der ganze Charakter des
+               männlichen Geschlechts ist auf Energie gerichtet; dahin zielt seine Kraft, seine
+               zerstörende Heftigkeit, sein Streben nach Aussenwirkung, seine Rastlosigkeit. Dagegen
+               geht die Stimmung des weiblichen, seine ausdauernde Stärke, seine Neigung zur
+               Verbindung, sein Hang die Einwirkung zu erwiedern und seine holde Stätigkeit, allein
+               auf Erhaltung und Daseyn. Mit gemeinschaftlicher Sorgfalt verrichten sie daher die
+               beiden grossen Operationen der Natur, die, ewig wiederkehrend, doch so oft in
+               veränderter Gestalt erscheine, Erzeugung und Ausbildung des Erzeugten. Verglicht man
+               indess ihre eigenthümliche Beschaffenheit noch näher mit einander; so hat die Natur
+               die empfangenden Kräfte noch unter genauern Obhut genommen. Sie theilen mit ihr ihre
+               entschiedensten Vorzüge, und, gleich den Töchtern im Hause, schliessen sie sich näher
+               an die sorgsame Mutter an.</p>
+            <p>Daseyn, von Energie beseelt, ist Leben, und das höchste Leben das letzte Ziel, in dem
+               sich das Streben aller verschiedenen Kräfte der Natur vereint. Die Verschiedenheit
+               beider Geschlechter befördert die Erreichung dieses Ziels, oder vielmehr ihre
+               eigenthümliche Beschaffenheit führt sie zu demselben hin, ohne dass <pb n="1.334" xml:id="pbI334"/> sie selbst sich dessen bewusst sind. Dann keine Kraft der Natur
+               dient als Mittel einem Zweck, oder strebt einer fremden Absicht entgegen. Indem alle
+               harmonisch wirksam sind, folgt jede nur ihrem eignen Triebe, und das letzte Resultat
+               der Thätigkeit aller geht mit einer Nothwendigkeit hervor, die, da sie alle Absicht
+               ausschliesst, auf den ersten Anblick zufällig scheinen kann. In gleicher Freiheit
+               wirken nun auch die Kräfte beider Geschlechter, und so kann man dieselben als zwei
+               wohlthätige Gestalten ansehen, aus deren Händen die Natur ihre letzte Vollendung
+               empfängt. Dieser erhabenen Bestimmung genügen sie aber nur dann, wenn’s ich ihre
+               Wirksamkeit gegenseitig umschlingt, und die Neigung, welche das eine dem andren
+               sehnsuchtsvoll nähert, ist die Liebe. So gehorcht daher die Natur derselben Gottheit,
+               deren Sorgfalt schon der ahnende Weisheitssinn der <placeName ref="geo-390903">Griechen</placeName> die Anordnung des Chaos übertrug.</p>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte </title>
+            </head>
+            <p>Erster Druck: <bibl>
+                  <editor>
+                     <persName ref="gnd-118607626">Schiller</persName>s </editor>
+                  <title>
+                     <orgName ref="gnd-4132118-2">Horen</orgName>
+                  </title>, <date when="1795">Jahrgang 1795</date>
+                  <biblScope unit="issue">2</biblScope>, <biblScope unit="page">99—132</biblScope>
+               </bibl>.</p>
+            <p>Als <persName ref="gnd-118607626">Schiller</persName> im Sommer <date when="1794">1794</date> die <orgName ref="gnd-4132118-2">Horen</orgName> gründete, hatte er
+                  <persName ref="gnd-118554727">Humboldt</persName> in den engeren
+               Redaktorenausschuß mit aufgenommen und dieser wurde durch das Erscheinen des Journals
+               und <persName ref="gnd-118607626">Schiller</persName>s Aufmunterung bewogen, seine
+               damaligen Studien über den menschlichen Charakter (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1797-03-07">7. März 1797</date> zum vorläufigen
+               Abschluß zu bringen in zwei Aufsätzen über die Geschlechter oder, wie sie in den
+               Briefwechseln des <persName ref="gnd-118607626">Schiller</persName>schen Kreises
+               heißen, über die Weiber. Schon eine Stelle der <bibl>
+                  <title>Woldemarrezension</title>
+               </bibl> ließ klar erkennen, daß er von diesem Punkte aus dem Geheimnis des Charakters
+               nahezukommen hoffte. Der erste Aufsatz wurde um <date when="1795-01">Neujahr
+                  1795</date> fertig und am <date when="1795-01-07">7. Januar</date> von <persName ref="gnd-118607626">Schiller</persName> an <persName ref="gnd-11856448X">Körner</persName> zur Begutachtung gesandt (<bibl>
+                  <title>Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">97</biblScope>
+               </bibl>); das Manuskript des zweiten ging am <date when="1795-03-16">16. März</date>
+               an <persName ref="gnd-11852240X">Cotta</persName> ab (<bibl>
+                  <title>ebenda</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">146</biblScope>
+               </bibl>). Bei der Ausarbeitung hatte sich <persName ref="gnd-118554727">Humboldt</persName> der besonderen Teilnahme <persName ref="gnd-118607626">Schiller</persName>s zu erfreuen, dessen kritische Bemerkungen in erster Linie
+               dem Stil zu gute kamen (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1795-05-07">7. Mai 1795</date>). Trotzdem war er mit der Diktion unzufrieden
+               und glaubte darin unrecht getan zu haben, daß er seine Studien über den Charakter mit
+               diesen Erörterungen angefangen hatte, mit denen sie eigentlich hätten abschließen
+               sollen (an <persName ref="gnd-118607626">Schiller</persName>, <date when="1795-08-31">31. August</date> und <date when="1795-11-27">27. November 1795</date>). Zwei
+               Zitate aus <persName ref="gnd-116208503">Blumenbach</persName> und <persName ref="gnd-118554700">Alexander von Humboldt</persName>, die das Manuskript des
+               ersten Aufsatzes enthielt, wurden auf <persName ref="gnd-118607626">Schiller</persName>s Anraten gestrichen, um die Anonymität nicht zu durchsichtig
+               zu machen (<bibl>
+                  <author>
+                     <persName ref="gnd-118607626">Schiller</persName>s</author>
+                  <title>Briefe</title>
+                  <biblScope unit="volume">10</biblScope>, <biblScope unit="page">231</biblScope>
+               </bibl>; <bibl>
+                  <title>
+                     <persName ref="gnd-118607626">Schiller</persName>s Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">116</biblScope>
+               </bibl>). <persName ref="gnd-118607626">Schiller</persName> dachte vom Wert und der
+               Bedeutung der beiden Aufsätze sehr hoch: er fand darin trotz der noch immer nicht
+               ganz beseitigten Trockenheit der Schreibart einen schönen und großen Sinn und hoffte,
+               daß <persName ref="gnd-118554727">Humboldt</persName>s Ideen, namentlich wenn er sie
+               noch weiter ausführen würde, noch ganz kurrente Münze werden würden; ja er hatte die
+               Absicht selbst ihren Wert öffentlich ins Licht zu stellen (<bibl>
+                  <title>Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">91</biblScope>.
+                     <biblScope unit="page">284</biblScope>. <biblScope unit="page">343</biblScope>.</bibl>). <persName ref="gnd-11856448X">Körner</persName>, der
+               scharfe Kritiker der <persName ref="gnd-118554727">Humboldt</persName>schen Eigenart,
+               fand den Stoff gehaltvoll und mit Geist und Feinheit behandelt, hatte aber am Vortrag
+               allerhand, besonders das Abstrakte auszusetzen und vermißte an vielen Stellen die
+               individuelle Begeisterung (<bibl>
+                  <title>Briefwechsel zwischen <persName ref="gnd-118607626">Schiller</persName> und
+                        <persName ref="gnd-11856448X">Körner</persName>
+                  </title>
+                  <biblScope unit="volume">3</biblScope>, <biblScope unit="page">238</biblScope>
+               </bibl>). Von <persName ref="gnd-118540238">Goethe</persName> besitzen wir keine
+               Äußerung über den Eindruck der Aufsätze. <persName ref="gnd-118556312">Jacobi</persName> tadelte neben vielem Lobe das <persName ref="gnd-118607626">Schiller</persName>isierende des Stils (<bibl>
+                  <title>Auserlesener Briefwechsel</title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">219</biblScope>
+               </bibl>). Nur herben Spott hatte der romantische Kreis über die <persName ref="gnd-118554727">Humboldt</persName>schen Weiblichkeiten (<bibl>
+                  <title>
+                     <persName ref="gnd-118771272">Karoline</persName>
+                  </title>
+                  <biblScope unit="volume">1</biblScope>, <biblScope unit="page">168</biblScope>
+               </bibl>): <persName ref="gnd-118607987">Friedrich Schlegel</persName> erklärte, man
+               könne die Aufsätze wirklich nicht wohl verstehen (<bibl>
+                  <title>Briefe an seinen Bruder <persName ref="gnd-118607960">August
+                        Wilhelm</persName>
+                  </title>
+                  <biblScope unit="page">S. 236</biblScope>
+               </bibl>). Am meisten schmerzlich war <persName ref="gnd-118554727">Humboldt</persName> das Urteil <persName ref="gnd-118559796">Kant</persName>s,
+               das dieser brieflich <persName ref="gnd-118607626">Schiller</persName> ausgesprochen
+               hatte: er könne sich die Abhandlung, die an Schwärmerei grenze, nicht enträtseln, ein
+               so guter Kopf auch der Verfasser sei, da er selbst den Geschlechtsunterschied immer
+               als etwas Unerklärbares angesehen habe (<bibl>
+                  <title>Briefwechsel</title>
+                  <biblScope unit="volume">3</biblScope>, <biblScope unit="page">11</biblScope>
+               </bibl>); <persName ref="gnd-118554727">Humboldt</persName> wollte seine Darlegungen
+               gar nicht so transszendent genommen wissen (an <persName ref="gnd-11856448X">Körner</persName>,<date when="1795-05-07">7. Mai 1795</date>, vgl. auch <bibl>
+                  <title>
+                     <persName ref="gnd-118607987">Friedrich Schlegel</persName>s Briefe an seinen
+                     Bruder <persName ref="gnd-118607960">August Wilhelm</persName>
+                  </title>
+                  <biblScope unit="page">S. 236</biblScope>
+               </bibl>, <bibl>
+                  <title>
+                     <persName ref="gnd-118607626">Schiller</persName>s Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">170</biblScope>
+               </bibl> und <bibl>
+                  <title>Briefwechsel zwischen <persName ref="gnd-118626175">Rahel</persName> und
+                        <persName ref="gnd-119357704">David Veit</persName>
+                  </title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">232</biblScope>
+               </bibl>). Die Rezensenten der <orgName ref="gnd-4132118-2">Horen</orgName> gehen
+               zumeist mit den <persName ref="gnd-118554727">Humboldt</persName>schen Aufsätzen
+               streng ins Gericht (<bibl>
+                  <author>
+                     <persName ref="gnd-121429741">Braun</persName>
+                  </author>, <title>
+                     <persName ref="gnd-118607626">Schiller</persName> im Urteile seiner
+                     Zeitgenossen</title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">48</biblScope>.<biblScope unit="page">78</biblScope>
+               </bibl>). Um so erfreulicher war es für ihn, von naturhistorischer Seite in einem
+               wissenschaftlichen Werke über den Menschen zitiert zu werden (an <persName ref="gnd-118607626">Schiller</persName>, <date when="1795-09-28">28. September
+                  1795</date>).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

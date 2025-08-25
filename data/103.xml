@@ -1,0 +1,362 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ideen über Staatsverfassung, durch die neue Französische Constitution
+               veranlasst</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1791-07">Juli 1791</date>
+         </creation>
+                  <settingDesc>
+            <setting>
+                <placeName ref="geo-12503954">Burgörner-Altdorf</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+            <language ident="fr">Français</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Brief</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Politik</term>
+                <term>Philosophie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="original">
+            <pb n="1.77" xml:id="pbI77"/>
+            <head>
+               <title type="main">Ideen über Staatsverfassung, durch die neue <placeName ref="geo-3017382">Französisch</placeName>e Constitution veranlasst</title>
+               <title type="sub">Aus einem Briefe an einen Freund vom <date when="1791-08">August
+                     1791</date>
+               </title>
+            </head>
+            <p> Ich beschäftige mich in meiner Einsamkeit<note type="footnote" n="i)" resp="gnd-116890657">
+                  <hi>Nachdem <persName ref="gnd-118554727">Humboldt</persName> den juristischen
+                     Staatsdienst verlassen und am <date when="1791-06-29">29. Juni 1791</date>
+                     geheiratet hatte, verlebte er den Rest des Jahres auf seinem Landgut <placeName ref="geo-12503954">Burgörner</placeName> bei <placeName ref="geo-2873852">Mansfeld</placeName>
+                  </hi>
+               </note> mehr mit politischen Gegenständen, als ich es je bei den häufigen
+               Veranlassungen dazu, die das geschäftige Leben darbietet, gethan habe. Ich lese die
+               politischen Zeitungen regelmässiger als sonst und ob ich gleich nicht sagen kann,
+               dass sie ein grosses Interesse in mir erwekten, so reizen mich doch noch am meisten
+               die <placeName ref="geo-3017382">Französisch</placeName>en Angelegenheiten. Es fällt
+               mir dabei alles Kluge und Einfältige ein, was ich seit zwei Jahren darüber gehört
+               habe, und am Ende komme ich gewöhnlich auf <persName ref="gnd-118538489">Sie</persName>, lieber *, und den lebhaften Antheil, den <persName ref="gnd-118538489">Sie</persName> an diesen Gegenständen nahmen,<note type="footnote" n="ii)" resp="gnd-116890657">
+                  <hi>Über <persName ref="gnd-118538489">Gentz</persName>ens Interesse für die
+                     Entwicklung der <placeName ref="geo-3017382">französisch</placeName>en Bewegung
+                     vgl. seine Briefe an <persName ref="gnd-118537636">Garve</persName> S. 58. 100
+                     und <persName ref="gnd-116920475">Guglia</persName>, <persName ref="gnd-118538489">Friedrich von Gentz</persName> S. 97.</hi>
+               </note> zurück. Mein eignes Urteil — wenn ich, um mir doch selbst von mir
+               Rechenschaft zu geben, mich eins zu fällen zwinge — stimmt dann mit keinem andren
+               geradezu überein; es mag sogar paradox scheinen, aber <persName ref="gnd-118538489">Sie</persName> sind ja einmal mit meinen Paradoxien vertraut, und <pb n="1.78" xml:id="pbI78"/> wenigstens sollen <persName ref="gnd-118538489">Sie</persName> in
+               der gegenwärtigen auch Konsequenz mit den übrigen nicht vermissen.</p>
+            <p> Was ich am häufigsten, und, ich kann es nicht läugnen, mit dem meisten Interesse
+               über die <orgName ref="gnd-35994-4">Nationalversammlung</orgName> und ihre
+               Gesezgebung hörte, war Tadel, nur leider ein Tadel, für den die Abfertigung immer so
+               nah lag. Bald Mangel an Sachkenntniss, bald Vorurtheil, bald ein kleingeistiger
+               Schauder vor allem Neuen und Ungewöhnlichen, und wer weiss was noch für leicht zu
+               widerlegende Irrthümer; und hielt auch einmal ein Tadel jede Widerlegung aus; so
+               blieb doch immer der leidige Entschuldigungsgrund, dass zwölfhundert auch weise
+               Menschen doch immer nur Menschen sind. Mit dem Tadel, wie überhaupt mit dem
+               Beurtheilen einzelner Anordnungen kommt man also schwerlich ins Reine. Dagegen giebt
+               es, dünkt mich, ein ganz offenbares, kurzes, von jedermann anerkanntes Faktum,
+               welches schlechterdings alle Data zur gründlichen Prüfung des ganzen Unternehmens
+               vollständig enthält. </p>
+            <p> Die <orgName ref="gnd-35994-4">constituirende Nationalversammlung</orgName> hat es
+               unternommen, ein völlig neues Staatsgebäude, nach blossen Grundsäzen der Vernunft,
+               aufzuführen. Diess Faktum muss jedermann, und sie selbst muss es einräumen. Nun aber
+               kann keine Staatsverfassung gelingen, welche die Vernunft — vorausgesezt, dass sie
+               ungehinderte Macht habe, ihren Entwürfen Wirklichkeit zu geben — nach einem
+               angelegten Plane gleichsam von vornher gründet; nur eine solche kann gedeihen, welche
+               aus dem Kampfe des mächtigeren Zufalls mit der entgegenstrebenden Vernunft
+               hervorgeht. Dieser Saz ist mir so evident, dass ich ihn nicht auf Staatsverfassungen
+               allein einschränken möchte, sondern ihn gern auf jedes praktische Unternehmen
+               überhaupt ausdehne. Für einen so rüstigen Vertheidiger der Vernunft indess, als
+                  <persName ref="gnd-118538489">Sie</persName> sind, möchte er dieselbe Evidenz
+               nicht haben. Ich verweile daher länger dabei. </p>
+            <p> Ehe ich jedoch zu den Gründen übergehe, noch vorher ein Paar Worte zur näheren
+               Bestimmung desselben. Zuvörderst, sehen Sie, lasse ich den Entwurf der <orgName ref="gnd-35994-4">Nationalversammlung</orgName> zu einer Gesezgebung für den
+               Entwurf der Vernunft selbst gelten. Zweitens will ich auch nicht sagen, dass die
+               Grundsäze ihres Systems zu spekulativ, nicht auf die Ausführung berechnet sind. Ich
+               will sogar voraussezen, alle Gesezgeber zusammen hätten den wirklichen Zustand
+                  <placeName ref="geo-3017382">Frankreich</placeName>s und seiner Bewohner auf das
+               anschaulichste vor Augen gehabt, und die Grundsäze der Vernunft diesem Zu- <pb n="1.79" xml:id="pbI79"/> stande, soviel als es nur überhaupt, und jenem Ideal
+               unbeschadet, möglich war, angepasst. Endlich rede ich nicht von den Schwierigkeiten
+               der Ausführung. Wie wahr und wizig es auch sein mag <hi xml:lang="fr" rend="italic">qu’il ne faut pas donner des leçons d’anatomie sur un corps vivant</hi>
+               <note type="translation" n="*" resp="sbp">(="Anatomieunterricht muss man nicht auf
+                  einem lebenden Körper geben.")</note>; so müsste doch erst der Erfolg zeigen, ob
+               nicht dennoch das Unternehmen Dauer gewinnt, und nicht festgegründetes Wohl des
+               Ganzen vorübergehenden Uebeln Einzelner vorgezogen zu werden verdient? Ich gehe also
+               bloss von den simpeln Säzen aus: 1. die <orgName ref="gnd-35994-4">Nationalversammlung</orgName> wollte eine völlig neue Staatsverfassung gründen,
+               2. sie wollte dieselbe in allen ihren einzelnen Theile nach den reinen, wenn gleich
+               der individuellen Lage <placeName ref="geo-3017382">Frankreich</placeName>s
+               angepassten Grundsäzen der Vernunft bilden. Ich nehme diese Staatsverfassung — für
+               den Augenblik — als völlig ausführbar, oder wenn man will, auch als schon wirklich
+               ausgeführt an. Dennoch, sag' ich, kann eine solche Staatsverfassung nicht gedeihen. </p>
+            <p> Eine neue Verfassung soll auf die bisherige folgen. An die Stelle eines Systems, das
+               allein darauf berechnet war, soviel Mittel, als möglich, aus der Nation zur
+               Befriedigung des Ehrgeizes und der Verschwendungssucht eines Einzigen zu ziehen, soll
+               ein System treten, das nur die Freiheit, die Ruhe, und das Glük jedes Einzelnen zum
+               Zwek hat. Zwei ganz entgegengesezte Zustände sollen also auf einander folgen. Wo ist
+               nun das Band, das beide verknüpft? Wer traut sich Erfindungskraft und Geschiklichkeit
+               genug zu, es zu weben? Man studire noch so genau den gegenwärtigen Zustand, man
+               berechne noch so genau darnach das, was man auf ihn folgen lässt, immer reicht es
+               nicht hin. Alles unser Wissen und Erkennen beruht auf allgemeinen, d. i. wenn wir von
+               Gegenständen der Erfahrung reden, unvollständigen und halbwahren Ideen, von dem
+               Individuellen vermögen wir nur wenig aufzufassen, und doch kommt hier alles auf
+               individuelle Kräfte, individuelles Wirken, Leiden, und Geniessen an. Ganz anders ist
+               es, wenn der Zufall wirkt, und die Vernunft ihn nur zu lenken strebt. Aus der ganzen,
+               individuellen Beschaffenheit der Gegenwart — denn diese von uns unerkannten Kräfte
+               heissen uns doch nur Zufall — geht dann die Folge hervor, die Entwürfe, welche die
+               Vernunft dann durchzusezen bemüht ist, erhalten, wenn auch ihre Bemühungen gelingen,
+               von dem Gegenstande selbst noch, auf den sie angelegt sind, Form und Modifikation. So
+               können sie Dauer gewinnen, so Nuzen stiften. Auf jene Weise, wenn sie auch ausgeführt
+               werden, bleiben sie ewig unfruchtbar. Was im <pb n="1.80" xml:id="pbI80"/> Menschen
+               gedeihen soll, muss aus seinem Innren entspringen, nicht ihm von aussen gegeben
+               werden, und was ist ein Staat, als eine Summe menschlicher wirkender und leidender
+               Kräfte? </p>
+            <p> Auch fordert jede Wirkung eine gleich starke Gegenwirkung, jedes Zeugen ein gleich
+               thätiges Empfangen. Die Gegenwart muss daher schon auf die Zukunft vorbereitet sein.
+               Darum wirkt der Zufall so mächtig. Die Gegenwart reisst da die Zukunft an sich. Wo
+               diese ihr noch fremd ist, da ist alles todt und kalt. So, wo Absicht hervorbringen
+               will. Die Vernunft hat wohl Fähigkeit, vorhandnen Stoff zu bilden, aber nicht Kraft,
+               neuen zu erzeugen. Diese Kraft ruht allein im Wesen der Dinge, diese wirken, die
+               wahrhaft weise Vernunft reizt sie nur zur Thätigkeit, und sucht sie zu lenken.
+               Hierbei bleibt sie bescheiden stehen. Staatsverfassungen lassen sich nicht auf
+               Menschen, wie Schösslinge auf Bäume pfropfen. Wo Zeit und Natur nicht vorgearbeitet
+               haben, da ists, als bindet man Blüthen mit Fäden an. Die erste Mittagssonne versengt
+               sie. </p>
+            <p> Indess entsteht hier noch immer die Frage, ob die <placeName ref="geo-3017382">Französisch</placeName>e Nation nicht hinlänglich vorbereitet ist, die neue
+               Staatsverfassung aufzunehmen? Allein für eine, nach blossen Grundsäzen der Vernunft,
+               systematisch entworfene Staatsverfassung kann nie eine Nation reif genug sein. Die
+               Vernunft verlangt ein vereintes, und verhältnissmässiges Wirken aller Kräfte. Ausser
+               dem Grade der Vollkommenheit jeder einzelnen, hat sie noch die Festigkeit ihrer
+               Vereinigung, und das richtigste Verhältniss einer jeden zu den übrigen vor Augen.
+               Wenn aber auf der einen Seite die Vernunft nur durch das vielseitigste Wirken
+               befriedigt wird, so ist auf der andren Seite das Loos der Menschheit Einseitigkeit.
+               Jeder Augenblik übt nur Eine Kraft in Einer Art der Aeusserung. Häufige Widerholung
+               geht in Gewohnheit über, und diese Eine Aeusserung dieser Einen Kraft wird nun mehr
+               oder minder, länger oder kürzer, Charakter. Wie der Mensch auch ringen mag, die
+               einzelne, in jedem Moment wirkende Kraft durch die Mitwirkung aller übrigen
+               modificiren zu lassen; so erreicht er es nie, und was er der Einseitigkeit abgewinnt,
+               das verliert er an Kraft. Wer sich auf mehrere Gegenstände verbreitet, wirkt
+               schwächer auf alle. So stehen Kraft und Bildung ewig in umgekehrtem Verhältniss. Der
+               Weise verfolgt keine ganz, jede ist ihm zu lieb, sie ganz der andren zu opfern. So
+               ist auch in dem höchsten Ideale menschlicher Natur, das die glühende Phantasie sich
+               zu bilden vermag, jeder Augen- <pb n="1.81" xml:id="pbI81"/> blik der Gegenwart eine
+               schöne, aber nur Eine Blüthe. Den Kranz vermag nur das Gedächtniss zu flechten, das
+               die Vergangenheit mit der Gegenwart verknüpft. Wie mit dem einzelnen Menschen, so mit
+               ganzen Nationen. Sie nehmen auf einmal nur Einen Gang. Daher ihre Verschiedenheiten
+               unter einander, daher ihre Verschiedenheiten in ihnen selbst in verschiedenen
+               Epochen. Was thut nun der weise Gesezgeber? Er studirt die gegenwärtige Richtung,
+               dann, je nachdem er sie findet, befördert er sie, oder strebt ihr entgegen; so erhält
+               sie eine andre Modifikation, und diese wieder eine andre, und so fort. So begnügt er
+               sich, sie dem Ziele der Vollkommenheit zu nähern. Was aber muss entstehen, wenn sie
+               auf einmal nach dem Plane der blossen Vernunft, nach dem Ideale, arbeiten, wenn sie
+               nicht mehr genügsam Eine Treflichkeit verfolgen, sondern zu gleicher Zeit nach allen
+               ringen soll? Schlaffheit und Unthätigkeit. Alles, was wir mit Wärme und Enthusiasmus
+               ergreifen, ist eine Art der Liebe. Wenn nun nicht Ein Ideal mehr die Seele füllt, so
+               ist Kälte, wo ehemals Glut war. Ueberhaupt vermag mit Energie nie der zu wirken, der
+               mit allen Kräften auf Einmal gleichmässig wirken soll. Mit der Energie aber schwindet
+               jede andre Tugend hin. Ohne sie wird der Mensch Maschine. Man bewundert, was er thut;
+               man verachtet, was er ist. </p>
+            <p> Lassen Sie uns einen Blik auf die Geschichte der Staatsverfassungen werfen, und wir
+               werden in keiner einen nur irgend hohen Grad der Vollkommenheit finden, allein von
+               den Vorzügen, die das Ideal eines Staats alle vereinen müsste, werden wir auch in den
+               verderbtesten immer einen, oder den andren entdekken. Die erste Herrschaft schuf das
+               Bedürfniss. Man gehorchte nie länger, als man entweder den Herrscher nicht entbehren,
+               oder ihm nicht widerstehen konnte. Diess ist die Geschichte aller, auch der
+               blühendsten alten Staaten. Eine dringende Gefahr nöthigte die Nation einem Herrscher
+               zu gehorchen. War die Gefahr vorüber, so strebte sie das Joch abzuschütteln. Allein
+               oft hatte sich der Herrscher zu sehr festgesezt, ihr Ringen war vergebens. Dieser
+               Gang ist auch der menschlichen Natur völlig angemessen. Der Mensch vermag ausser sich
+               zu wirken, und sich in sich zu bilden. Bei dem Ersteren kommt es bloss auf Kraft, und
+               zwekmässige Richtung derselben an; bei dem Lezteren auf Selbstthätigkeit. Daher ist
+               zu diesem Freiheit, zu jenem, da mehrere Kräfte nie besser gerichtet werden, als wenn
+               Ein Wille <pb n="1.82" xml:id="pbI82"/> sie lenkt, Unterwürfigkeit nothwendig. Diess
+               Gefühl unterwarf die Menschen der Herrschaft, sobald sie wirken wollten; aber das
+               höhere Gefühl ihrer innren Würde erwachte, wenn dieser Zwek nun erreicht war. Ohne
+               diese Betrachtung würde es auch nie begreiflich sein, wie derselbe Römer in der Stadt
+               dem Senat Geseze vorschrieb, und im Lager seinen Rükken willig den Streichen der
+               Centurionen darbot. Aus dieser Beschaffenheit der alten Staaten entspringt es, dass,
+               wenn man unter Systemen absichtliche Plane versteht, sie eigentlich gar kein
+               politisches System hatten, und dass, wenn wir jezt bei politischen Einrichtungen
+               philosophische, oder politische Gründe angeben, wir bei ihnen immer nur historische
+               finden. Diese Verfassung dauerte bis ins Mittelalter hin. Zu dieser Zeit, da die
+               tiefste Barbarei alles überdekte, musste, sobald sich mit dieser Barbarei Macht
+               vereinte, der ärgste Despotismus entstehn, und billig hätte man der Freiheit ihren
+               gänzlichen Untergang verkündigen sollen. Allein der Kampf der Herrschsüchtigen unter
+               einander erhielt sie. Nur konnte freilich, bei dieser gewaltsamen Lage der Sachen,
+               niemand selbst frei sein, der nicht zugleich Unterdrükker der Freiheit der andren
+               war. Das Lehnssystem war es, in welchem die ärgste Sklaverei, und ausgelassene
+               Freiheit unmittelbar neben einander existirte. Denn der Vasall trozte dem Lehnsherrn
+               nicht weniger, als er seine Unterthanen unmenschlich bedrükte. Die Eifersucht der
+               Regenten auf die Macht der Vasallen schuf diesen ein Gegengewicht in den Städten und
+               dem Volk, und endlich gelang es ihm, sie zu unterdrükken. Statt dass nun ehemals doch
+               Ein Stand <hi xml:lang="fr" rend="italic">Dépot</hi> der Freiheit gewesen war, war
+               jezt alles Sklave. Der Adel verband sich mit dem Regenten, das Volk zu unterdrükken,
+               und von hier aus hebt die Verderblichkeit des Adels an, der immer nur ein
+               nothwendiges Uebel war, und jezt ein überflüssiges geworden ist.<note type="footnote" n="iii)" resp="gnd-116890657">
+                  <hi>Dieser Satz über den Adel fehlt im ersten Druck; er fiel vermutlich der Zensur
+                     des Herausgebers <persName ref="gnd-116167580">Biester</persName> zum
+                     Opfer.</hi>
+               </note> Seitdem diente nun alles den Absichten des Regenten allein. Dennoch gewann
+               die Freiheit. Denn das das Volk mehr dem Regenten, als dem Adel unterworfen war; so
+               verschafte schon die weitere Entfernung von jenem mehr Luft. Dann konnten jene
+               Absichten auch nicht sowohl mehr, wie sonst, unmittelbar durch die physischen Kräfte
+               der Unterthanen — woraus vorzüglich die persönliche Sklaverei entstand — erreicht
+               werden. Es <pb n="1.83" xml:id="pbI83"/> war ein Mittel nothwendig, das Geld. Alles
+               Streben gieng nun also dahin, von der Nation, soviel als möglich, Geld aufzubringen.
+               Diese Möglichkeit beruhte aber auf zwei Dingen. Die Nation musste Geld haben, und man
+               musste es von ihr bekommen. Jenen Zwek nicht zu verfehlen, mussten ihr allerlei
+               Quellen der Industrie eröfnet werden; diesen am besten zu erreichen, musste man
+               mannigfaltige Wege entdekken, theils um nicht durch aufbringende Mittel zu Empörungen
+               zu reizen, theils um die Kosten zu vermindern, welche die Hebung selbst verursachte.
+               Hierauf grünen sich eigentlich alle unsre heutigen politischen Systeme. Teil aber, um
+               den Hauptzwek zu erreichen, also im Grunde nur als untergeordnetes Mittel, Wohlstand
+               der Nation beabsichtet wurde, und man ihr, als unerlassbare Bedingung dieses
+               Wohlstandes, einen höheren Grad der Freiheit zugestand; so kehrten gutmüthige
+               Menschen, vorzüglich Schriftsteller, die Sache um, nannten jenen Wohlstand den Zwek,
+               die Erhebung der Abgaben nur das nothwendige Mittel dazu. Hie und da kam diese Idee
+               auch wohl in den Kopf eines Fürsten, und so entstand das Princip, dass die Regierung
+               für das Glük und das Wohl, das physische und moralische, der Nation sorgen muss.
+               Gerade der ärgste und drükkendste Despotismus. Denn weil die Mittel der Unterdrükkung
+               so verstekt, so verwikkelt waren; so glaubten sich die Menschen frei, und wurden an
+               ihren edelsten Kräften gelähmt. Indess entsprang aus dem Uebel auch wieder das
+               Heilmittel. Der auf diesem Wege zugleich entdekte Schaz von Kenntnissen, die
+               allgemeiner verbreitete Aufklärung belehrten die Menschheit wieder über ihre Rechte,
+               brachten wieder Sehnsucht nach Freiheit hervor. Auf der andren Seite wurde das
+               Regieren so künstlich, dass es unbeschreibliche Klugheit und Vorsicht erheischte.
+               Gerade in dem Lande nun, in welchem Aufklärung die Nation zur furchtbarsten für den
+               Despotismus gemacht hatte, vernachlässigte sich die Regierung am meisten, und gab die
+               gefährlichsten Blössen. Hier musste also auch die Revolution zuerst entstehen, und
+               nun konnte kein andres System folgen, als das System einer gemässigten, aber doch
+               völligen und unumschränkten Freiheit, das System der Vernunft, das Ideal der
+                  Staatsverfassung.<note type="footnote" n="iv)" resp="gnd-116890657">
+                  <hi>Im ersten Druck lautet dieser Satz: „ . . . . und nun konnte bei der bekannten
+                     Unfähigkeit der Menschen, die Mittelwege zu finden, und besonders bei dem
+                     raschen und feurigen Charakter der Nation kein andres System folgen als das,
+                     worin man die grösstmögliche Freiheit beabsichtigte . . . ." Stil und Inhalt
+                     zeigen in gleicher Weise, daß wir es hier mit keiner authentischen Korrektur,
+                     sondern wohl mit einem Zusatz <persName ref="gnd-116167580">Biester</persName>s
+                     zu tun haben. </hi>
+               </note>
+               <pb n="1.84" xml:id="pb184"/>Die Menschheit hatte an einem Extrem gelitten, in einem
+               Extrem musste sie ihre Rettung suchen. Ob diese Staatsverfassung Fortgang haben wird?
+               Der Analogie der Geschichte nach, Nein! Aber sie wird die Ideen aufs neue aufklären,
+               aufs neue jede thätige Jugend anfachen, und so ihren Segen weit über <placeName ref="geo-3017382">Frankreich</placeName>s Gränzen verbreiten. Sie wird dadurch den
+               Gang aller menschlichen Begebenheiten bewähren, in denen das Gute nie an der Stelle
+               wirkt, wo es geschieht, sondern in weiten Entfernungen der Räume oder der Zeiten, und
+               in denen jene Stelle ihre wohlthätige Wirkung wieder von einer andren, gleich fernen,
+               empfängt. </p>
+            <p> Ich kann mich nicht enthalten, dieser lezten Betrachtung noch einige Beispiele
+               hinzuzufügen. In jeder Periode hat es Dinge gegeben, die, verderblich an sich, der
+               Menschheit ein unschäzbares Gut retteten. Was erhielt die Freiheit in den Zeiten des
+               Mittelalters? Das Lehnssystem. Was Aufklärung und Wissenschaften in den Zeiten der
+               Barbarei? Das Mönchswesen. Was die edle Liebe zum andren Geschlecht in den Zeiten der
+               Herabwürdigung dieses Geschlechts bei den <placeName ref="geo-390903">Griechen</placeName>, um auch aus dem häuslichen Leben ein Beispiel zu wählen?
+               Die Knabenliebe. Ja, wir bedürfen nicht einmal der Geschichte; der Gang des
+               Menschenlebens überhaupt ist das treffendste Beispiel. In jeder Epoche desselben ist
+               Eine Art des Daseins Hauptfigur in dem Gemälde, indess alle übrigen ihr, als
+               Nebenfiguren, dienen. In einer andren Epoche wird sie zur Nebenfigur, und eine von
+               jenen tritt auf den Vordergrund. So danken wir allen bloss heitren, sorgenfreien
+               Genuss der Kindheit; allen Enthusiasmus für das empfundene Schöne, alle Verachtung
+               der Arbeit und Gefahr, es zu erringen, dem blühenden Jünglingsalter; alle sorgsame
+               Ueberlegung, allen Eifer aus Gründen der Vernunft der Reife des Mannes; alle
+               Gewöhnung an den Gedanken der Hinfälligkeit selbst, alle wehmüthige Freude an der
+               Betrachtung, das war, und ist nun nicht mehr! dem Hinwelken des Greises. In jeder
+               Periode existirt der Mensch ganz. Aber in jeder schimmern nur Ein Funke seines Wesens
+               hell und leuchtend: bei der andren ists der matte Schein, bald des schon
+               halbverloschnen, bald des erst künftig aufflammenden Lichts. Eben so ists in jedem
+               einzelnen Menschen, mit <pb n="1.85" xml:id="pbI85"/> jeder seiner Fähigkeiten und
+               Empfindungen. Allein ein Individuum Einer Art erschöpft selbst in der Folge aller
+               Zustände nicht alle Gefühle. Der Mann z. B. bei den Menschen, ewig beschäftigt ausser
+               sich zu wirken, ewig strebend nach Freiheit und Herrschaft, besizt nur selten die
+               Sanftmuth, die Güte, den Wunsch, auch durch das Glük zu beglükken, das man empfindet,
+               nicht immer durch das, was man giebt — welches alles dem Weibe so eigen ist. Dagegen
+               fehlt es dem Weibe so oft an Stärke, Thätigkeit, Muth. Um daher die volle Schönheit
+               des ganzen Menschen zu fühlen, muss es ein Mittel geben, das beider Vorzüge, wenn
+               auch nur auf Momente, und in verschiednen Graden vereint fühlen lässt, und diess
+               Mittel muss des schönsten Lebens schönsten Genuss bewahren. </p>
+            <p> Was folgt nun aus diesem allem? dass kein einzelner Zustand der Menschen und Dinge
+               Aufmerksamkeit verdient an sich, sondern nur im Zusammenhang mit dem vorhergehenden
+               und folgenden Dasein; dass die Resultate an sich nichts sind, alles nur die Kräfte,
+               die sie hervorbringen, und die das aus ihnen entspringen. </p>
+            <p> Und nun genug für heute, lieber *. Leben Sie wohl!</p>
+         </div>
+         <div type="notes" xml:id="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte</title>
+            </head>
+            <p>Handschrift (12 Quartseiten, ein undatierter Brief an <persName ref="gnd-118538489">Gentz</persName>, mit Titel versehen und durch zwischen die Zeilen geschriebene
+               Veränderungen bearbeitet) im Archiv in <placeName ref="geo-2823708">Tegel</placeName>. — Erster Druck: <bibl>
+                  <title>
+                     <orgName ref="zdb-4144698-7">Berlinische Monatsschrift</orgName>
+                  </title>
+                  <biblScope unit="issue">19</biblScope>, <biblScope unit="page">84—98</biblScope>
+                     (<date when="1792-01">Januarheft 1792</date>)</bibl>.</p>
+            <p>Seit seinem Austritt aus dem Staatsdienst, seiner Heirat und der Übersiedelung in die
+               Einsamkeit von <placeName ref="geo-12503954">Burgörner</placeName> im <date when="1791-07">Juli 1791</date> verfolgte <persName ref="gnd-118554727">Humboldt</persName> mit lebhaftem Interesse den Fortgang der politischen
+               Ereignisse in <placeName ref="geo-3017382">Frankreich</placeName>, dessen <orgName ref="gnd-35994-4">Nationalversammlung</orgName> soeben das in Verfassungswerk
+               abgeschlossen hatte, und trat darüber einen eingehenden Briefwechsel mit <persName ref="gnd-118538489">Gentz</persName>. Ein Brief an <persName ref="gnd-118538489">Gentz</persName>, nur wenig im Eingang verändert und hie und da stilistisch
+               überarbeitet, ist auch dieser Aufsatz. <persName ref="gnd-118554727">Humboldt</persName> nennt ihn <persName ref="gnd-118534416">Forster</persName>
+               gegenüber (<date when="1792-06-01">1. Juni 1792</date>) zufällig und zum Teil deshalb
+               mit vielen sinnentstellenden Druckfehlern ans Licht gekommen: unrichtig behauptet
+                  <persName ref="gnd-116474874">Fester</persName>, daß er ohne <persName ref="gnd-118554727">Humboldt</persName>s Wissen gedruckt worden sei, denn seine
+               eigenhändige Redaktion des Briefes liegt vor.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

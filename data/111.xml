@@ -1,0 +1,363 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rezension von Wolfs Ausgabe der Odyssee</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1795-05">Mai 1795</date>
+         </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-12503954">Burgörner-Altdorf</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+            <language ident="grc">Altgriechisch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Rezension</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philologie</term>
+                <term>Antike</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="1.370" xml:id="pbI370"/>
+            <head>
+               <title type="main">Rezension von <persName ref="gnd-117444154">Wolf</persName>s
+                  Ausgabe der <title>Odyssee</title>
+               </title>
+               <title type="sub">Philologie.</title>
+               <title type="sub">
+                  <bibl>
+                            <pubPlace>
+                                <placeName ref="geo-2911522">Halle</placeName>
+                            </pubPlace>, in der
+                        <publisher>Waisenhausbuchh</publisher>.: <title>Homeri Odyssea et Batracho-
+                        myomachia. In usum Scholarum et praelectionum. Editio altera, priore
+                        emendatior</title>. <date when="1794">1794</date>. XXXIV Vorb. u. 478 S. 8.
+                     (1 Rthlr.)</bibl>
+               </title>
+            </head>
+            <p>So wenig auch die Absicht des <persName ref="gnd-117444154">Hn. Prof. Wolf</persName>
+               dahin gieng, in diesem Abdruck, der allein den Mangel der Exemplarien der
+                  <title>Odyssee</title> bis zur Vollendung seiner jetzigen neuen Ausgabe des
+                  <persName ref="gnd-11855333X">Homer</persName>
+               <note type="footnote" n="i)" resp="gnd-116890657">
+                  <hi>Vgl. die berühmte, nur die <title>Ilias</title> umfassende Ausgabe, deren
+                     Erscheinen der Veröffentlichung von <bibl corresp="wolfs2">„Significatio de
+                        operum homericorum critica editione a se curata“</bibl> im Jahr 1794
+                     vorausgegangen war, <persName ref="gnd-116300914">Körte</persName>, Leben und
+                     Studien <persName ref="gnd-117444154">Friedrich August Wolf</persName>s des
+                     Philologen, 1, 263.</hi>
+               </note> zu ersetzen bestimmt ist, eine vollständige Recension des Textes vorzunehmen;
+               so hat doch eine nicht unbeträchtliche Anzahl von Stellen schon hier ihre
+               Berichtigung erhalten. Die Beurtheilung dieser Textverbesserungen bleibt
+               schicklicherweise bis zur Erscheinung der grössern Ausgabe ausgesetzt, und nur also
+               um bestimmter anzugeben, wodurch sich auch schon dieser Abdruck vor dem vorigen<note type="footnote" n="ii)" resp="gnd-116890657">
+                  <hi>Die erste Auflage war <placeName ref="geo-2911522">Halle</placeName>
+                     <date>1784-85</date> erschienen.</hi>
+               </note> auszeichnet, wollen wir einige der selben ausheben, uns aber auch diese bloss
+               anzuzeigen begnugen. So steht III. 73. für <hi xml:lang="grc">τοίγ᾽ ἀλόωνται: τοί τ᾽
+                  ἀλόωνται</hi> (wie schon sonst IX. 234.). IV. 372. f. <hi xml:lang="grc">μεθίης:
+                  μεθίεις</hi> (vergl. <persName ref="gnd-100059376">Brunck</persName> ad Soph. Oed.
+               Tyr. 628). 667. f. <hi xml:lang="grc">ἀλλὰ οἱ αὐτῷ: ἀλλὰ οἷ αὐτῷ</hi> (ihm selbst,
+                  <pb n="1.371" xml:id="pbI371"/> im Gegensatz mit dem gleich darauf folgenden <hi xml:lang="grc">πρὶν ἡμῖν</hi>). VIII. 337. 342. XVII. 37. und sonst f. <hi xml:lang="grc">χρτσῇ: χρυσέῃ</hi> (nach dem alten Jonismus, wie schon sonst
+                  <title>Od</title>. VII. 90. <title>Il</title>. V. 427. u. a. a. O. m.). VIII. 483.
+               f. <hi xml:lang="grc">ἥρωι: ἥρῳ</hi>. 539. f. <hi xml:lang="grc">δῖος ἀοιδὸς: θεῖος
+                  ἀ</hi>. X. 7. f. <hi xml:lang="grc">ἀκοίτας: ἀκοίτις</hi>. 11. f. <hi xml:lang="grc">αἰδοίοις ἀλόχοισιν: αἰδοίῃς ἀ</hi>. XI. 335. f. <hi xml:lang="grc">ὅγε: ὅδe</hi>. XII. 87. f. <hi xml:lang="grc">πέλωρ κακὸς: πέλωρ κακόν</hi>. XIV.
+               101. f. συβόσεια: συβόσια (wie <title>Il</title>. XI. 678. neue <persName ref="gnd-117444154">Wolf</persName>. <bibl corresp="#wolfs1">Ausg</bibl>. 679.).
+               445. f. <hi xml:lang="grc">ἐθέλει: ἐθέλῃ</hi> (wegen des vorhergehenden <hi xml:lang="grc">κὲ</hi>). XV. 105. f. <hi xml:lang="grc">ἔνθʼ ἔσαν οἱ πέπλοι: ἔνθʼ
+                  ἔσάν οἱ π</hi>. (nach einer besondern Ausnahme, welche die alten Grammatiker hier
+               machten, damit nicht οἱ als Nominativ zu πέπλοι gezogen würde). XVIII. 356. f. <hi xml:lang="grc">ἦ ἄρ κ᾽ ἐθέλεις: ἦ ἄρ τ ἐθέλοις</hi>. XXII. 14 f. <hi xml:lang="grc">οἱ: οἷ</hi>. Batrachom. 248. f. <hi xml:lang="grc">φύγῃ:
+               φύγοι</hi>, und um einige noch wichtigere zusammenzustellen: XIII. 439. f. <hi xml:lang="grc">τὼ –διέτμαγον: τ. –διέτμαγεν</hi> (vergl. <title>Il</title>. I.
+               531. VII. 302.). XIV. 92. f. <hi xml:lang="grc">οὐδ᾽ ἔτι φειδὼ: οὐδ᾽ ἔπι φ</hi>. XVI.
+               387. f. <hi xml:lang="grc">βoύλεσθε: βόλεσθε</hi>. XVIII. 359. f. <hi xml:lang="grc">ἔνθα δ᾽ἐγὼ: ἔνθα κ᾽ ἐγὼ</hi>. XIX. 590. f. <hi xml:lang="grc">οὔ μοι: οὔ κέ
+                  μοι</hi>. Vorzüglich aber hat der Herausgeber den ganzen Text in Absicht auf die
+               Accentuation und Orthographie überhaupt, im weitesten Sinne dieses Worts, durchaus
+               umgeformt, und mit den Grundsätzen des gelehrten Alterthums, vorzuglich der besten
+               Alexandrinischen Grammatiker, übereinstimmend gemacht. Ueber einige dieser Grundsätze
+               selbst, die zum Theil vor Bekanntmachung der venetianischen Scholien<note type="footnote" n="iii)" resp="gnd-116890657">
+                  <hi>Diese wurden zum ersten Mal <placeName ref="geo-3164603">Venedig</placeName>
+                     <date when="1788">1788</date> durch <persName ref="gnd-117428272">Villoison</persName> herausgegeben.</hi>
+               </note> nicht vollständig ausgefunden werden konnten, hat er sich in der Vorrede
+               erklärt, und damit den Freunden der <placeName ref="geo-390903">Griechischen</placeName> Literatur ein neues schätzbares Geschenk gemacht, da es
+               jetzt z. B. möglich ist, die verwickelte Lehre der Anastrophe, über welche bisher nur
+               höchst unbestimmte Begriffe herrschten, in einigen wenigen allgemeinen Regeln (unter
+               denen wir nur diejenigen, welche <hi xml:lang="grc">ὡς</hi> betreffen, vermissen) zu
+                  übersehen.<note type="footnote" n="iv)" resp="gnd-116890657">
+                  <hi>Vgl. <persName ref="gnd-117444154">Wolf</persName> S. XVII.</hi>
+               </note> Ueberhaupt lässt sich, nach dem nun durch diese <persName ref="gnd-117444154">Wolf</persName>ische Ausgabe der <title>Odyssee</title>, und die eben erschienene
+               der <title>Iliade</title>, ein vollständiges Muster einer Textberichtigung von dieser
+               Seite (bei der wir hier allein verweilen) gegeben ist. die Hofnung schöpfen, dass
+               auch die künftigen Herausgeber der Classiker, wenigstens durch diese Erleichterung
+               aufgemuntert, ihre Ausmerksamkeit endlich auf diese Dinge richten, und die
+               Meisterwerke des Alterthums auch in dieser Rücksicht in ihrer wahren Gestalt
+               herstellen werden; – eine Hofnung, die <pb n="1.372" xml:id="pbI372"/> freilich
+               vielen höchst unbedeutend scheinen wird, es aber wahrlich am wenigsten in einem
+               Zeitraume ist, in welchem die Kritik schon offenbar an schwankender Unbestimmtheit
+               krank liegt, und in welchem (einige seltene Ausnahmen abgerechnet) gerade gründliche
+               Genauigkeit am meisten vermisst wird. Der Herausg. Erklärt sich an mehreren Stellen
+               der Vorrede bald ernsthaft, bald mit feiner Ironie über die Sitte, diese
+               grammatikalischen Dinge als geringfügige Kleinigkeiten zu verachten, gegen welche
+               schon allein die Betrachtung sprechen sollte, wie subtil die alten Theoristen von
+                  <persName ref="gnd-118650130">Aristoteles</persName> an über diese Gegenstände zu
+               raisonniren pflegten.<note type="footnote" n="v)" resp="gnd-116890657">
+                  <hi>Vgl. <persName ref="gnd-117444154">Wolf</persName> S. VII. IX. XIV. XXIV.
+                     XXVII. XXXIV.</hi>
+               </note> Und gewiss ist es auch nirgends so sehr, als in der Kritik der Fall, dass
+               selbst das Kleinste in sehr naher Beziehung auf das Wichtigste steht. Denn um die
+               Denkmäler des Alterthums, so viel es möglich ist, wieder in ihrer Aechtheit
+               herzustellen, darf auch die geringfügigste Kleinigkeit nicht verabsäumt werden,
+               sobald sie nur irgend dazu dienen kann, diese Aechtheit zu erkennen, oder gleichsam
+               festzuhalten. Ueberhaupt aber ist es schwer zu sagen, was denn eigentlich Kleinigkeit
+               heissen solle? Für denjenigen, der sich gewöhnt hat, irgend ein Fach der
+               Wissenschaften mit philosophischem Geist zu studiren, hat kein Theil desselben eine
+               abgesonderte Wichtigkeit, sondern jeder erhält dieselbe nur durch sein Verhältniss
+               zum Ganzen. Nur durch den Gesichtspunkt aufs Ganze, nicht aber durch flüchtiges
+               Vorübergehn vor dem scheinbar Geringfügigen, unterscheidet sich die geistvolle
+               Behandlung von der pedantischen. Nun aber hängt in den Wissenschaften alles mit allem
+               zusammen, und wenn der Kritiker z. B. die Sprache in ihrem ganzen Umfange studiren
+               muss, so ist es schwer zu begreifen, wie er z. B. Accentuation und Orthographie
+               übergehen, oder doch nicht erschöpfend, sondern allenfalls nur bis auf einen gewissen
+               beliebigen Grad studiren könne. Wie viel aber von der Kenntniss der Lehre der
+               Accentuation, und gerade in ihren bisher weniger bemerkten Feinheiten abhängt, davon
+               führt der Vf. vorzuglich S. XV. ein merkwürdiges Beispiel bei Gelegenheit der <hi xml:lang="la">pronominum</hi>
+               <hi xml:lang="grc">ἐγκλιτικῶν</hi> und <hi xml:lang="grc">ὀρθοτονουμένων</hi> an. In
+               der bekannten Stelle der <title>Iias</title> nemlich (V. 116.), wo <persName ref="gnd-119315238">Diomedes</persName> die <persName ref="gnd-118986155">Minerva</persName> um Beistand anruft, liess man bisher durchaus in allen
+               Uebersetzungen den Helden sagen: „wenn Du mir und dem Vater sonst beistandest, so
+               stehe mir jetzt bei“: (eben als würde <hi xml:lang="grc">εἴποτ᾽ </hi>
+                    <pb n="1.373" xml:id="pbI373"/>
+                    <hi>ἐμοὶ καὶ πατρί</hi> gelesen), da er sich doch, wenn man genau
+               dem in allen Ausgaben vorkommenden Accente folgt (<hi xml:lang="grc">εἴποτέ μοι κ.
+                  π</hi>), mit wahrhaft Griechischer, auch dem Heldenalter nicht fremder
+               Bescheidenheit so ausdrückt: „Wenn Du einst meinem Vater beistandest, so stehe nun
+               auch mir bei.“ Schwerlich würden sich manche, die stolz darauf zu thun Scheinen, nur
+               den Geist und den ästhetischen Gehalt der Alten aufzusuchen, eingebildet haben, dass
+               mangelhafte Kenntniss der Accentuation sie dahin bringen könnte, der Zartheit eines
+               Heldencharakters Unrecht zu thun. Allein selbst wo der Einfluss der Lehre von der
+               Accentuation auf den Sinn nicht so offenbar ist, als hier, giebt sie doch oft eine
+               dringende Veranlassung, nicht nur in den Sinn einzelner Stellen, sondern in die Natur
+               der Sprache und der Wortfügung überhaupt tiefer einzugehen, und auch hiezu liefert
+               diese Vorrede einige trefliche Belege. Es ist nemlich bekannt, dass, wenn das Nomen,
+               zu welchem eine Präposition gehört, vor derselben vorausgeht, die Präposition alsdann
+               in der Regel ihren Accent von der letzten Silbe auf die erste zurückzieht, damit sie
+               in der Aussprache mit dem vorhergehenden, nicht aber mit dem folgenden Worte
+               verbunden werde. Ist nun der Fall so, dass einige Worte später ein Verbum folgt, mit
+               dem die Präposition wohl sonst auch verbunden zu werden pflegt (wie z. B.
+                  <title>Od</title>. III. 408. IX. 6. <title>Il</title>. X. 274. XIII. 561.), so ist
+               eine doppelte Beziehung der Präposition auf das Verbum vorwärts und auf das Nomen
+               rückwärts möglich, von welchen jede eine verschiedene Stellung des Accents erfodert,
+               und hier hängt nun die Entscheidung, die nicht in allen Fällen dieselbe seyn kann,
+               von einer feinen Untersuchung der Natur der Wortfügung und der Aussprache überhaupt,
+               der Eigenthümlichkeit der <placeName ref="geo-390903">Griechischen</placeName>
+               Sprache insbesondre, und sogar der Sitte des besondern Zeitalters und Schriftstellers
+               ab. So bemerkt der Herausg. bei dieser Gelegenheit, Z. B. S. XXV. sehr scharfsinnig,
+               dass in der alten <persName ref="gnd-11855333X">Homer</persName>ischen Sprache über
+               die Trennung der Präpositionen von ihren Verbis, und über die Tmesis überhaupt
+               anders, als in der späteren geurtheilt werden müsse, da jene noch freier trennt, was
+               diese regelmässiger verbindet. Aus diese Weise leitet also die Accentuation selbst,
+               und gerade durch ihre sogenannten Spitzfindigkeiten auf eben die Dinge, die man jetzt
+               so oft im Munde führt, auf Sprachphilosophie, Geist des Zeitalters u. s. f., über die
+               es aber freilich bequemer ist, oberflächlich zu raisonniren, als gründliche
+               historische Untersuchungen anzustellen. Freilich <pb n="1.374" xml:id="pbI374"/> wäre
+               es nun hiezu nicht eben nöthig, die Accente wirklich zu schreiben, genug wenn man nur
+               auch auf die nicht geschriebenen achtete; hierauf aber muss Rec. den Leser bitten,
+               die Antwort bei dem Herausg. selbst nachzusehen. (S. XXI.)<note type="footnote" n="vi)" resp="gnd-116890657">
+                        <hi>Dort heißt es:</hi> „<hi xml:lang="la">Dicunt
+                     quidem ii, qui scribentes tonis non utuntur, contextu cujusque loci facile
+                     indicari, quo modo illa distinguenda sint. Recte. Quo modo ambigua pronuntiando
+                     distinguenda sint, contextus indicat; quo et alia plura nituntur et tota
+                     interpunctio. Hac tamen nobiscum utuntur isti. Cur ergo tonos minus volunt
+                     notis suis insigniri, quos se certe recitando et tacite legendo distinguere non
+                     dissimulant?</hi>“</note> Bei den <placeName ref="geo-390903">Griechen</placeName> endlich, in deren Charakter das feinste, und auf das höchste
+               ausgebildete Schönheitsgefühl ein hervorstechender Zug ist, sollte nicht bloss die
+               Materie, der Gedankengehalt, sondern auch die Form, und zwar im weitesten Sinne des
+               Worts, wichtig scheinen. Dahin aber gehört ganz vorzüglich die Declamation, der
+               Vortrag der Poesie sowohl als der Prose, und da es der Natur der Sache nach äusserst
+               schwierig ist, von dieser einen richtigen Begriff zu fassen; so wäre es mehr als
+               sonderbar, wenn man gerade dasjenige Studium vernachlässigen wollte, was hier eine
+               entschiedene Wichtigkeit hat, das Studium der Accentuation und Orthographie. Immer
+               wird freilich der Versuch vergeblich bleiben, die Declamation der Alten ganz wieder
+               unter uns herzustellen, und den <persName ref="gnd-11855333X">Homer</persName> eben
+               so als <persName ref="gnd-118594893">Plato</persName>, oder auch nur als <persName ref="gnd-11882158X">Longin</persName> zu lesen; aber unläugbar bleibt es doch,
+               dass das Studium derselben uns nicht nur über die Feinheit des <placeName ref="geo-390903">Griechischen</placeName> Organs wichtige Aufschlüsse, sondern
+               auch über unsere eigene Declamation in unsrer Sprache nicht unbedeutende Winke
+               ertheilt. In dieser letzten Rücksicht führt der Herausg. z. B. die Sorgfalt an, mit
+               welcher die <placeName ref="geo-390903">Griechen</placeName> bei apostrophirten
+               Wörtern den Consonans, der zur weggelassenen Silbe gehört, mit der folgenden Silbe
+               verbanden, da bei uns ungeübte Leser ihn so oft an die vorhergehende anschliessen,
+               und die sie bewog, diesen Consonans, wenn das Wort am Ende eines Verses stand, allein
+               zu trennen, und zum Anfang des folgenden hinüberzuziehen, wie z. B.
+               <title>Il</title>. VIII. 207.</p>
+            <lg type="poem">
+               <l>Ζῆ-</l>
+               <l>ν, αὐτοῦ κ᾽ ἔνθ᾽ ἀκάχοιτο καθήμενος οἶος ἐν Ἴδῃ. <note type="footnote" n="vii)" resp="gnd-116890657">
+                     <hi>Vgl. <persName ref="gnd-117444154">Wolf</persName> S. IX.</hi>
+                  </note>
+               </l>
+            </lg>
+            <p>Im <persName ref="gnd-118594427">Pindar</persName> (<title>Ol. III. 46.</title>) muss
+               sogar ein einzelnes solches ν einmal aus dem Ende einer Antistrophe in den Anfang der
+               folgenden Epode hinüberwandern. In der That klingt auch, wie <pb n="1.375" xml:id="pbI375"/> jedem nicht ungebildeten Ohr auffallend seyn muss, die
+               entgegengesetzte Aussprache nicht nur höchst unangenehm, sondern giebt noch ausserdem
+               manchmal zu Zweideutigkeiten Anlass. So kann, um ein Beispiel aus unserer Sprache
+               anzuführen, das apostrophirte Imperfectum: winkt' durch unrichtiges Lesen in das
+               Präsens verwandelt werden, und ein lächerliches Misverständnis derselben Art erzählt
+               der Scholiast des <persName ref="gnd-118531395">Euripides</persName> von dem
+                  <placeName ref="place-000002">Atheniensischen Theater</placeName>. Als nemlich
+                  <persName ref="gnd-118736558">Orestes</persName> beim <persName ref="gnd-118531395">Euripides</persName> (Eur. Or. 279.) aus einem Anfall der
+               Raserei erwacht, ruft er aus: </p>
+            <lg type="poem">
+               <l>Ἐκ κυμάτων γὰρ αὖθις αὖ γαλήν᾽ ὁρῶ.</l>
+               <l>„Die Woge schweigt; ich seh' die Heitre wieder!“</l>
+            </lg>
+            <p> Der Schauspieler <persName ref="person-000014">Hegelochus</persName> hielt, als er
+               diese Rolle spielte, weil ihm gerade nach der zweiten Silbe der Odem ausgieng, hinter
+               γαλήν' ein, und nun klang der Vers:</p>
+            <lg type="poem">
+               <l>Ἐκ κυμάτων γὰρ αὖθις αὖ γαλῆν ὁρῶ.</l>
+               <l>„Die Woge schweigt; ich seh' das Wiesel wieder!“</l>
+            </lg>
+            <p>Die Comödiendichter versäumten diese Gelegenheit nicht, sich über das tragische
+               Theater lustig zu machen. <persName ref="gnd-102405301">Sannyrion</persName> unter
+               andern liess einen Verfolgten, der vor seinen Feinden floh, ausrufen:</p>
+            <lg type="poem">
+               <l>„Wie mach' ichs, dass ich in ein Loch entschlüpfe? </l>
+               <l>Könnt' ich nur schnell zum Wiesel werden!</l>
+               <l>Allein was hülf' es mir? Es käme </l>
+               <l>
+                  <persName ref="person-000014">Hegelochus</persName>, der Tragiker, und schriee </l>
+               <l>Laut meinen Feinden zu: </l>
+               <l>Die Woge schweigt; ich seh' das Wiesel wieder!“</l>
+            </lg>
+            <p> und auf eine ähnliche Art wird der arme <persName ref="person-000014">Hegelochus</persName> auch von Aristophanes verspottet. (S. Aristoph. Ran. v.
+               304., wo <persName ref="gnd-100059376">Brunck</persName>s Note, so wie Markland ad
+               Eur. Suppl. 901. zu berichtigen ist.) Diese Materie, noch ein wenig weiter verfolgt,
+               könnte noch zu andern sehr interessanten Bemerkungen führen. Wenn z. B. in solchem
+               Fall gerade nach einem Apostroph der Sinn einen Abschnitt verlangt, wie schwebend
+               muss dann die <placeName ref="geo-390903">Griechische</placeName> Stimme beide Wörter
+               gehalten, wie sanft sie in einander haben überfliessen lassen? und ebenso, wenn
+               dieser Fall am Ende des Verses eintritt, da der Herausg. bemerkt, dass das Ende des
+               Verses allemal im Lesen angedeutet wurde<note type="footnote" n="viii)" resp="gnd-116890657">
+                  <hi>Vgl. <persName ref="gnd-117444154">Wolf</persName> S. XIX.</hi>
+               </note>; wohin vielleicht auch gehört, dass die <placeName ref="geo-390903">Griechischen</placeName> Dichter, vorzüglich die lyrischen, zu den Endsilben der
+               Verse gern lange Silben wählten, (wie denn namentlich <pb n="1.376" xml:id="pbI376"/>
+               bei <persName ref="gnd-118594427">Pindar</persName> bei weitem der grösste Theil der
+               Endsilben lang ist,) um dadurch das Schweben und Innehalten der Stimme zu
+               erleichtern, (vergl. <persName ref="gnd-118577964">Marius Victorinus</persName>
+               <title>ed. Putsch.</title>
+               <note type="footnote" n="ix)" resp="gnd-116890657">„<hi xml:lang="la">
+                     <hi>Desinit autem spondeo, quia constat ex duabus longis vel quia omnis
+                        depositio recipit moram</hi>“ Keil, <hi xml:lang="la">Grammatici latini</hi>
+                     6, 131. <persName ref="gnd-118554727">Humboldt</persName> zitiert die alten
+                     Grammatiker nach Putsches Hanau 1605 erschienenen „<title>Grammaticae latinae
+                        auctores antiqui</title>."</hi>
+               </note> p. 2569.) die, doch gewiss wieder sehr schnell zum folgenden Verse
+               hinübereilte, da die Endsilbe des einen Verses oft durch Position der Anfangssilbe
+               des andern lang wird, und die <placeName ref="geo-390903">Griechen</placeName>
+               überhaupt weit schneller, als wir, declamirten. Aber vielleicht hat sich Rec. durch
+               das Interesse, das diese, noch so wenig behandelte Materie in ihm erweckte, schon zu
+               weit führen lassen. Er begnügt sich daher, nur noch anzumerken, dass der Leser,
+               ausser den genannten Gegenständen, noch über andere Materien, z. B. über die richtige
+               Abtheilung der Wörter (z. B. <hi xml:lang="grc">πρέ-σβα</hi> oder <hi xml:lang="grc">πρές-βα</hi>), <hi xml:lang="grc">Ἀτρείδης</hi> oder <hi xml:lang="grc">Ἀτρεΐδης</hi>, die <hi xml:lang="grc">Ἀπίη γαῖα</hi>, das <hi xml:lang="grc">ν
+                  ἐφελκυστικόν</hi>, die Verdoppelung der Consonanten, und vorzüglich der fünf
+               Halbvocale, die Zusammenziehung einiger Wörter (z. B. <hi xml:lang="grc">ἀμπέλαγος</hi>) und die Diastole, lehrreiche Bemerkungen findet, welche die
+               Resultate gelehrter und scharfsinniger Untersuchungen sind.<note type="footnote" n="x)" resp="gnd-116890657">Vgl. <persName ref="gnd-117444154">Wolf</persName> S.
+                  VIII. XI. XXVII. XXVIII. XXX. XXXI. XXXIII.</note> Denen, die sich nicht scheuen,
+               tiefer einzugehen, empfehlen wir die Vergleichung einiger Stellen der Reitzischen
+               Schrift <hi xml:lang="la">de prosodiae Graecae accentus inclinatione</hi>, vorzüglich
+               p. 124–126. von der Anastrophe.<note type="footnote" n="xi)" resp="gnd-116890657">Auch <persName ref="gnd-117444154">Wolf</persName> S. XVIII verweist auf diese
+                  Erörterung von Reiz, dessen Schrift er selbst 1791 neu herausgegeben hatte.</note>
+               Endlich dürfen wir nicht unbemerkt lassen, dass der Druck sehr sauber, und weniger
+               klein und angreifend für das Auge, als in der vorigen Ausgabe ist, und dass sich auch
+               dieser Abdruck durch die, den <persName ref="gnd-117444154">Wolfischen</persName>
+               Ausgaben so eigenthümliche Correctheit auszeichnet. </p>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte</title>
+            </head>
+            <p>Erster Druck: <bibl>
+                  <title>
+                     <orgName ref="gnd-6146667-0">Allgemeine Literaturzeitung</orgName>
+                  </title> vom Jahre <date when="1795">1795</date>
+                  <biblScope unit="issue">2</biblScope>, <biblScope unit="page">569–573</biblScope>,
+                     (<biblScope unit="number">Nr. 167</biblScope>, <date when="1795-06-16">16.
+                     Juni</date>)</bibl>.</p>
+            <p>Als im <date when="1793-10">Herbst 1793</date> der Druck von <persName ref="gnd-117444154">Wolf</persName>s verbesserter kleiner Ausgabe der
+                  <title>Odyssee</title> begann, erhielt <persName ref="gnd-118554727">Humboldt</persName>, der im lebhaftestem philologischen Briefwechsel mit
+                  <persName ref="gnd-117444154">Wolf</persName> stand, von diesem die einzelnen
+               Aushängebogen nach <placeName ref="geo-2823708">Tegel</placeName> und später nach
+                  <placeName ref="geo-12503954">Burgörner</placeName> zugesandt und widmete ihnen
+               ein eingehendes Studium, indem er den Text mit der älteren Ausgabe genau verglich und
+               über wichtigere Abweichungen mit <persName ref="gnd-117444154">Wolf</persName> in
+               brieflichen Meinungsaustausch trat (an <persName ref="gnd-117444154">Wolf</persName>,
+                  <date when="1793-10-28">28. Oktober</date> und <date when="1793-11-28">28.
+                  November</date> sowie in einem undatierten Briefe aus dem <date when="1793-11">Herbst 1793</date>). Am <date when="1794-07-25">25. Juli 1794</date> dankte er
+               für die Übersendung des fertigen Exemplars und sprach sich sehr befriedigt über die
+               Vorrede aus. So war er wie kaum ein Zweiter gerüstet, auch in einer öffentlichen
+               Besprechung auf die Bedeutung der Edition hinzuweisen, und trug bei Gelegenheit eines
+               Besuches <persName ref="gnd-117444154">Wolf</persName>s in <placeName ref="geo-2895044">Jena</placeName> im <date when="1795-05">Mai 1795</date> diesem
+               und Schütz eine Rezension des Buches für die <orgName ref="gnd-6146667-0">Allgemeine
+                  Literaturzeitung</orgName> an, die Ende Mai im Manuskript fertiggestellt, Anfang
+               Juni an <persName ref="gnd-117444154">Wolf</persName> zur Einsicht überschickt und
+               auf seinen Wunsch noch in einigen Kleinigkeiten verbessert wurde (an <persName ref="gnd-117444154">Wolf</persName>, <date when="1795-06-03">3.</date> und <date when="1795-06-15">15. Juni 1795</date>). Im Interesse der dilettantischen Leser
+               wurde der Anzeige, die am <date when="1795-06-16">16. Juni</date> gedruckt erschien,
+               durch die Erzählung der Anekdote von dem athenischen Schauspieler und die Verszitate
+               ein vergnüglicheres Element beigemischt.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

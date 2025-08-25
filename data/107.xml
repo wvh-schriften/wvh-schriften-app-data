@@ -1,0 +1,287 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Theorie der Bildung des Menschen</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1793-12">Dezember 1793</date>
+         </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-12503954">Burgörner-Altdorf</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Bruchstück</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philosophie</term>
+                <term>Anthropologie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="original">
+            <pb n="1.282" xml:id="pbI282"/>
+            <head>
+               <title type="main">Theorie der Bildung des Menschen</title>
+               <title type="sub">Bruchstück</title>
+            </head>
+            <div type="section" n="1">
+               <head>
+                        <title type="sub">
+                     <hi>[I.]</hi>
+                  </title>
+               </head>
+               <p>Es wäre ein grosses und treffliches Werk zu liefern, wenn jemand die
+                  eigenthümlichen Fähigkeiten zu schildern unternähme, welche die verschiedenen
+                  Fächer der menschlichen Erkenntnis zu ihrer glücklichen Erweiterung voraussetzen;
+                  den ächten Geist, in dem sie einzeln bearbeitet, und die Verbindung, in die sie
+                  alle mit einander gesetzt werden müssen, um die Ausbildung der Menschheit, als ein
+                  Ganzes, zu vollenden. Der Mathematiker, der Naturforscher, der Künstler, ja oft
+                  selbst der Philosoph beginnen nicht nur jetzt gewöhnlich ihr Geschäft, ohne seine
+                  eigentliche Natur zu kennen und es in seiner Vollständigkeit zu übersehen, sondern
+                  auch nur wenige erheben sich selbst späterhin zu diesem höheren Standpunkt und
+                  dieser allgemeineren Uebersicht. In einer noch schlimmeren Lage aber befindet sich
+                  derjenige, welcher, ohne ein einzelnes jener Fächer ausschließend zu wählen, nur
+                  aus allen für seine Ausbildung Vortheil ziehen will. In der Verlegenheit der Wahl
+                  unter mehreren, und aus Mangel an Fertigkeit, irgend eins, aus den engeren
+                  Schranken desselben heraus, zu seinem eignen allgemeineren Endzweck zu benutzen,
+                  gelangt er nothwendig früher oder später dahin, sich allein dem Zufall zu
+                  überlassen und was er etwa ergreift, nur zu untergeordneten Absichten, oder bloss
+                  als ein zeitverkürzendes Spielwerk zu gebrauchen. Hierin liegt einer der
+                  vorzüglichsten Gründe der häufigen und nicht <pb n="1.283" xml:id="pbI283"/>
+                  ungerechten Klagen, dass das Wissen unnütz und die Bearbeitung des Geistes
+                  unfruchtbar bleibt, dass zwar Vieles um uns her zu Stande gebracht, aber nur wenig
+                  in uns verbessert wird, und dass man über der höheren, und nur für Wenige
+                  tauglichen wissenschaftlichen Ausbildung des Kopfes die allgemeiner und
+                  unmittelbarer nützliche der Gesinnungen vernachlässigt. </p>
+               <p>Im Mittelpunkt aller besonderen Arten der Tätigkeit nämlich steht der Mensch, der
+                  ohne alle, auf irgendetwas Einzelnes gerichtete Absicht, nur die Kräfte seiner
+                  Natur stärken und erhöhen, seinem Wesen Werth und Dauer verschaffen will. Da
+                  jedoch die blosse Kraft einen Gegenstand braucht, an dem sie sich üben, und die
+                  blosse Form, der reine Gedanke, einen Stoff, in dem sie, sich darin ausprägend,
+                  fortdauern könne, so bedarf auch der Mensch einer Welt außer sich. Daher
+                  entspringt sein Streben, den Kreis seiner Erkenntnisse und seiner Wirksamkeit zu
+                  erweitern, und ohne dass er sich selbst deutlich dessen bewusst ist, liegt es ihm
+                  nicht eigentlich an dem, was er von jener erwirbt, oder vermöge dieser außer sich
+                  hervorbringt, sondern nur an seiner inneren Verbesserung und Veredlung, oder
+                  wenigstens an der Befriedigung der innren Unruhe, die ihn verzehrt. Rein und in
+                  seiner Endabsicht betrachtet, ist sein Denken immer nur ein Versuch seines
+                  Geistes, vor sich selbst verständlich, sein Handeln ein Versuch seines Willens, in
+                  sich frei und unabhängig zu werden, seine ganze äußere Geschäftigkeit überhaupt
+                  aber nur ein Streben, nicht in sich müßig zu bleiben. Bloss weil beides, sein
+                  Denken und sein Handeln nicht anders, als nur vermöge eines Dritten, nur vermöge
+                  des Vorstellens und des Bearbeitens von etwas möglich ist, dessen eigentlich
+                  unterscheidendes Merkmal es ist, Nicht-Mensch, d. i. Welt zu sein, sucht er, so
+                  viel Welt, als möglich zu ergreifen, und so eng, als er nur kann, mit sich zu
+                  verbinden. </p>
+               <p>Die letzte Aufgabe unseres Daseyns: dem Begriff der Menschheit in unsrer Person,
+                  sowohl während der Zeit unsres Lebens, als auch noch über dasselbe hinaus, durch
+                  die Spuren des lebendigen Wirkens, die wir zurücklassen, einen so großen Inhalt,
+                  als möglich, zu verschaffen, diese Aufgabe löst sich allein durch die Verknüpfung
+                  unsres Ichs mit der Welt zu der allgemeinsten, regesten und freiesten
+                  Wechselwirkung. Dies allein ist nun auch der eigentliche Massstab zur Beurteilung
+                  der Bearbeitung jedes Zweiges menschlicher Erkenntnis. Denn nur diejenige Bahn
+                  kann in jedem die richtige sein, auf welcher das Auge ein unverrücktes <pb n="1.284" xml:id="pbI284"/> Fortschreiten bis zu diesem letzten Ziele zu
+                  verfolgen im Stande ist, und hier allein darf das Geheimnis gesucht werden, das,
+                  was sonst ewig tot und unnütz bleibt, zu beleben und zu befruchten. </p>
+               <p>Die Verknüpfung unsres Ichs mit der Welt scheint vielleicht auf den ersten Anblick
+                  nicht nur ein unverständlicher Ausdruck, sondern auch ein überspannter Gedanke.
+                  Bei genauerer Untersuchung aber wird wenigstens der letztere Verdacht
+                  verschwinden, und es wird sich zeigen, dass, wenn man einmal das wahre Streben des
+                  menschlichen Geistes (das, worin ebensowohl sein höchster Schwung, als sein
+                  ohnmächtiger Versuch enthalten ist) aufsucht, man unmöglich bei etwas Geringerem
+                  stehen bleiben kann. </p>
+               <p>Was verlangt man von einer Nation, einem Zeitalter, von dem ganzen
+                  Menschengeschlecht, wenn man ihm seine Achtung und seine Bewunderung schenken
+                  soll? Man verlangt, dass Bildung, Weisheit und Tugend so mächtig und allgemein
+                  verbreitet, als möglich, unter ihm herrschen, dass es seinen innern Werth so hoch
+                  steigern, dass der Begriff der Menschheit, wenn man ihn von ihm, als dem einzigen
+                  Beispiel, abziehen müsste, einen großen und würdigen Gehalt gewönne. Man begnügt
+                  sich nicht einmal damit. Man fordert auch, dass der Mensch den Verfassungen, die
+                  er bildet, selbst der leblosen Natur, die ihn umgibt, das Gepräge seines Werthes
+                  sichtbar aufdrücke, ja dass er seine Tugend und seine Kraft (so mächtig und so
+                  allwaltend sollen sie sein ganzes Wesen durchstrahlen) noch der Nachkommenschaft
+                  einhauche, die er erzeugt. Denn nur so ist eine Fortdauer der einmal erworbenen
+                  Vorzüge möglich, und ohne diese, ohne den beruhigenden Gedanken einer gewissen
+                  Folge in der Veredlung und Bildung, wäre das Daseyn des Menschen vergänglicher,
+                  als das Daseyn der Pflanze, die, wenn sie hinwelkt, wenigstens gewiss ist, den
+                  Keim eines ihr gleichen Geschöpfs zu hinterlassen. </p>
+               <p>Beschränken sich indess auch alle diese Forderungen nur auf das innere Wesen des
+                  Menschen, so dringt ihn doch seine Natur beständig von sich aus zu den
+                  Gegenständen außer ihm überzugehen, und hier kommt es nun darauf an, dass er in
+                  dieser Entfremdung nicht sich selbst verliere, sondern vielmehr von allem, was er
+                  außer sich vornimmt, immer das erhellende Licht und die wohltätige Wärme in sein
+                  Innres zurückstrahle. Zu dieser Absicht aber muss er die Masse der Gegenstände
+                  sich selbst näher bringen, diesem Stoff die Gestalt seines Geistes aufdrücken und
+                  beide einander ähnlicher machen. In ihm ist vollkommene Ein- <pb n="1.285" xml:id="pbI285"/> heit und durchgängige Wechselwirkung, beide muss er also auch
+                  auf die Natur übertragen; in ihm sind mehrere Fähigkeiten, ihm denselben
+                  Gegenstand in verschiedenen Gestalten, bald als Begriff des Verstandes, bald als
+                  Bild der Einbildungskraft, bald als Anschauung der Sinne vor seine Betrachtung zu
+                  führen. Mit allen diesen, wie mit ebenso viel verschiedenen Werkzeugen, muss er
+                  die Natur aufzufassen versuchen, nicht sowohl um sie von allen Seiten kennen zu
+                  lernen, als vielmehr um durch diese Mannigfaltigkeit der Ansichten die eigene
+                  inwohnende Kraft zu stärken, von der sie nur anders und anders gestaltete
+                  Wirkungen sind. Gerade aber diese Einheit und Allheit bestimmt den Begriff der
+                  Welt. Allein auch außerdem finden sich nun in eben diesem Begriff in vollkommenem
+                  Grade die Mannigfaltigkeit, mit welcher die äußeren Gegenstände unsre Sinne
+                  rühren, und das eigne selbstständige Daseyn, wodurch sie auf unsre Empfindung
+                  einwirken. Denn nur die Welt umfasst alle nur denkbare Mannigfaltigkeit, und nur
+                  sie besitzt eine so unabhängige Selbstständigkeit, dass sie dem Eigensinn unsres
+                  Willens die Gesetze der Natur und die Beschlüsse des Schicksals entgegenstellt. </p>
+               <p>Was also der Mensch nothwendig braucht, ist bloss ein Gegenstand, der die
+                  Wechselwirkung seiner Empfänglichkeit mit seiner Selbsttätigkeit möglich mache.
+                  Allein wenn dieser Gegenstand genügen soll, sein ganzes Wesen in seiner vollen
+                  Stärke und seiner Einheit zu beschäftigen; so muss er der Gegenstand schlechthin,
+                  die Welt sein, oder doch (denn dies ist eigentlich allein richtig) als solcher
+                  betrachtet werden. Nur um der zerstreuenden und verwirrenden Vielheit zu
+                  entfliehen, sucht man Allheit; um sich nicht auf eine leere und unfruchtbare Weise
+                  ins Unendliche hin zu verlieren, bildet man einen, in jedem Punkt leicht
+                  übersehbaren Kreis; um an jeden Schritt, den man vorrückt, auch die Vorstellung
+                  des letzten Zwecks anzuknüpfen, sucht man das zerstreute Wissen und Handeln in ein
+                  geschlossenes, die blosse Gelehrsamkeit in eine gelehrte Bildung, das bloss
+                  unruhige Streben in eine weise Tätigkeit zu verwandeln. </p>
+            </div>
+            <div type="section" n="2">
+               <head>
+                  <title type="sub">
+                     <hi>[II.]</hi>
+                  </title>
+               </head>
+               <p>Dies aber nun würde gerade durch ein Werk, wie das oben erwähnte auf die
+                  kräftigste Weise befördert werden. Denn bestimmt, die mannigfaltigen Arten
+                  menschlicher Tätigkeit in den Richtungen, die sie dem Geiste geben, und den
+                  Forderungen, die <pb n="1.286" xml:id="pbI286"/> sie an ihn machen, zu betrachten
+                  und zu vergleichen, führte es geradezu in den Mittelpunkt, zu dem alles, was
+                  eigentlich auf uns einwirken soll, nothwendig gelangen muss. Von ihm geleitet,
+                  flüchtete sich die Betrachtung aus der Unendlichkeit der Gegenstände in den
+                  engeren Kreis unsrer Fähigkeiten und ihres mannigfaltigen Zusammenwirkens; das
+                  Bild unsrer Tätigkeit, die wir sonst nur stückweise, und in ihren äußeren Erfolgen
+                  erblicken, zeigte sich uns hier, wie in einem zugleich erhellenden und
+                  versammelnden Spiegel, in unmittelbarer Beziehung auf unsre innere Bildung. Den
+                  Einfluss, den jedes Geschäft des Lebens auf diese ausüben kann, leicht und
+                  fasslich übersehend, fände vorzüglich derjenige seine Belehrung darin, dem es nur
+                  um die Erhöhung seiner Kräfte und die Veredlung seiner Persönlichkeit zu thun ist. </p>
+               <p>Zugleich aber lernt der, welcher eine einzelne Arbeit verfolgt, nur da sein
+                  Geschäft in seinem echten Geist und in einem großen Sinne ausführen. Er will nicht
+                  mehr bloss dem Menschen Kenntnisse oder Werkzeuge zum Gebrauch zubereiten, nicht
+                  mehr nur einen einzelnen Teil seiner Bildung befördern helfen; er kennt das Ziel,
+                  das ihm gesteckt ist, er sieht ein, dass, auf die rechte Weise betrieben, sein
+                  Geschäft dem Geiste eine eigne und neue Ansicht der Welt und dadurch eine eigne
+                  neue Stimmung seiner selbst geben, dass er von der Seite, auf der er steht, seine
+                  ganze Bildung vollenden kann; und dies ist es, wohin er strebt. Wie er aber nur
+                  für die Kraft und ihre Erhöhung arbeitet, so tut er sich auch nur Genüge, wenn er
+                  die seinige vollkommen in seinem Werk ausprägt. Nun aber wird das Ideal größer,
+                  wenn man darin die Anstrengung, die es erreichen, als wenn man den Gegenstand
+                  ausmisst, den es darstellen soll. Überall hat das Genie nur die Befriedigung des
+                  innern Dranges zum Zweck, der es verzehrt, und der Bildner z. B. will nicht
+                  eigentlich das Bild eines Gottes darstellen, sondern die Fülle seiner plastischen
+                  Einbildungskraft in dieser Gestalt ausdrücken und heften. Jedes Geschäft kennt
+                  eine ihm eigentümliche Geistesstimmung, und nur in ihr liegt der echte Geist
+                  seiner Vollendung. Äußere Mittel es auszuführen gibt es immer mehrere, aber die
+                  Wahl unter ihnen kann nur jene, nur ob sie geringere oder vollere Befriedigung
+                  findet, bestimmen. </p>
+               <p>Das Verfahren unseres Geistes, besonders in seinen geheimnisvolleren Wirkungen,
+                  kann nur durch tiefes Nachdenken und anhaltende Beobachtung seiner selbst
+                  ergründet werden. Aber es <pb n="1.287" xml:id="pbI287"/> ist selbst damit noch
+                  wenig geschehen, wenn man nicht zugleich auf die Verschiedenheit der Köpfe, auf
+                  die Mannigfaltigkeit der Weise Rücksicht nimmt, wie sich die Welt in verschiedenen
+                  Individuen spiegelt. Jenes Werk müsste daher zugleich auch diese Mannigfaltigkeit
+                  schildern, und dürfte unter denen, die sich in irgend einem Fache hervorgetan
+                  haben, niemanden übergehen, durch den dasselbe eine neue Gestalt, oder einen
+                  erweiterten Begriff gewonnen hätte. Diese müsste es in ihrer vollständigen
+                  Individualität, und dem ganzen Einflusse zeichnen, den ihr Zeitalter und ihre
+                  Nation auf sie ausgeübt hätte. Dadurch nun übersähe man nicht nur die
+                  mannigfaltigen Arten, wie jedes einzelne Fach bearbeitet werden kann, sondern auch
+                  die Folge, in der eine nach und nach aus der andern entspringt. Da jedoch diese
+                  Folge immer wieder durch den Einfluss des Nationalcharakters, des Zeitalters und
+                  der äußeren Umstände überhaupt unterbrochen wird, so erhielte man zwei
+                  verschiedene aber immer gegenseitig auf einander einwirkende Reihen: die eine der
+                  Veränderungen, welche irgendeine Geistestätigkeit nach und nach in ihrem
+                  Fortschreiten gewinnt, die andre derjenigen, welche der Charakter der Menschen in
+                  einzelnen Nationen und Zeiten sowohl, als im Ganzen, durch die Beschäftigungen
+                  annimmt, die er nach und nach ergreift; und in beiden zeigten sich außerdem die
+                  Abweichungen, durch die genievolle Individuen diesen sonst ununterbrochen
+                  fortschreitenden Naturgang plötzlich stören, und ihre Nation oder ihr Zeitalter
+                  auf einmal in andre, neue Aussichten eröffnende Bahnen hinschleudern. </p>
+               <p>Allein nur, indem man dies schrittweise verfolgt und am Ende im Ganzen überschaut,
+                  gelangt man dahin, sich vollkommne Rechenschaft abzulegen, wie die Bildung des
+                  Menschen durch ein regelmäßiges Fortschreiten Dauer gewinnt, ohne doch in die
+                  Einförmigkeit auszuarten, mit welcher die körperliche Natur, ohne jemals etwas
+                  Neues hervorzubringen, immer nur von neuem dieselben Umwandlungen durchgeht.</p>
+            </div>
+            <div type="notes">
+               <head>
+                  <title type="main">Bemerkungen zur Entstehungsgeschichte</title>
+               </head>
+               <p> Handschrift (8 halbbeschriebene Quartseiten, ohne Titel) im Archiv in <placeName ref="geo-2823708">Tegel</placeName>.</p>
+               <p>
+                  <persName ref="gnd-116890657">Ich</persName> setze dies Bruchstück in den Beginn
+                  des <placeName ref="geo-12503954">burgörner</placeName>schen <date>Winters
+                     1793</date>; früher kann es der Orthographie wegen nicht fallen, da <persName ref="gnd-118554727">Humboldt</persName>s Prinzip „ck“ für „k“ und „kk“, „tz“
+                  für „z“ und „seyn“ für „sein“ zu schreiben mit dem <date>Herbst 1793</date>
+                  momentan einsetzt. Briefe an <persName ref="gnd-11856448X">Körner</persName> vom
+                     <date when="1793-10-27">27. Oktober</date> und <date when="1793-11-19">19.
+                     November</date> sprechen von einem Plan, die Prinzipien der Menschenbildung im
+                  Zusammenhange zu behandeln und eine philosophische Geschichte der Menschheit, über
+                     <persName ref="gnd-118549553">Herder</persName> hinausgehend (an <persName ref="gnd-116519770">Brinkmann</persName>, <date when="1793-10-19">19. Dezember
+                     1793</date>), dadurch vorzubereiten; den Ansatz zu seiner Ausführung haben wir
+                  wohl in dem Fragment zu erkennen.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

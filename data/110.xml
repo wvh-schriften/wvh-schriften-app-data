@@ -1,0 +1,1265 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Über die männliche und weibliche Form</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1795-03">März 1795</date>
+         </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-2895044">Jena</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Essay</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philosophie</term>
+                <term>Anthropologie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="1.335" xml:id="pbI335"/>
+            <head>
+               <title type="main">Über die männliche und weibliche Form</title>
+            </head>
+            <p>Die Einheit der Gattung abgerechnet, welche sich in der männlichen und weiblichen
+               Bildung gemeinschaftlich ausdrückt, stehen selbst die Geschlechtsverschiedenheiten
+               beider in einer so vollkommenen Uebereinstimmung mit einander, dass sie dadurch zu
+               einem Ganzen zusammenschmelzen. Man abstrahire nun entweder von dem
+               Geschlechtscharakter oder man vereinige denselben, so erhält man in beiden Fällen ein
+               Bild des <emph>Menschen</emph> in seiner allgemeinen Natur. Die Züge beider Gestalten
+               beziehen sich daher wechselweis auf einander; der Ausdruck der Kraft in der einen
+               wird durch den Ausdruck von Schwäche in der andern gemildert, und die weibliche
+               Zartheit richtet sich an der männlichen Festigkeit auf. So wendet sich das Auge von
+               jeder einzelnen unbefriedigt zur andern, und jede wird nur durch die andere ergänzt.
+               Und eben so wie das Ideal der menschlichen Vollkommenheit, so ist auch das Ideal der
+               menschlichen Schönheit unter beiden auf solche Art vertheilt, dass wir von den zwei
+               verschiedenen Principien, deren Vereinigung die Schönheit ausmacht, in jedem
+               Geschlecht ein anderes überwiegen sehen. Unverkennbar wird bei der Schönheit des
+               Mannes mehr der Verstand durch die Oberherrschaft der Form (<hi xml:lang="la">formositas</hi>) und durch die kunstmässige Bestimmtheit der Züge, bei der
+               Schönheit des Weibes mehr das Gefühl durch die freie Fülle des Stoffes und durch die
+               liebliche Anmuth der Züge (<hi xml:lang="la">venustas</hi>) befriedigt; obgleich
+               keine von beiden auf den Namen der Schönheit Anspruch machen könnte, wenn <pb n="1.336" xml:id="pbI336"/> die nicht beide Eigenschaften in sich vereinigte. Aber
+               die höchste und vollendete Schönheit erfordert nicht bloss Vereinigung, sondern
+                  <emph>das genaueste Gleichgewicht</emph> der Form und des Stoffes, der
+               Kunstmässigkeit und der Freiheit, der geistigen und sinnlichen Einheit, und dieses
+               erhält man nur, wenn man das Charakteristische beider Geschlechter in Gedanken
+               zusammenschmelzt, und aus dem innigsten Bunde der reinen Männlichkeit und der reinen
+               Weiblichkeit die Menschlichkeit bildet.</p>
+            <p>Aber eine solche reine Männlichkeit und Weiblichkeit auch nur aufzufinden, ist
+               unendlich schwer, und in der Erfahrung schlechterdings unmöglich. In der Erfahrung
+               kommt immer der eigenthümliche Charakter des Individuums dazwischen, der den
+               allgemeinen Geschlechtscharakter in demselben theils durch Einmischung fremder Züge
+               entstellt, theils durch Mittheilung seiner eigenen zufälligen Schranken ihn hindert,
+               seine höchste Vollendung zu erreichen. Jenes Fremdartige muss also durch den Verstand
+               davon abgesondert, diese Schranken des Individuums müssen entfernt werden, wenn der
+               reine Geschlechtscharakter zur Darstellung kommen soll. Der Verstand aber kann nur
+               dürftige Abstractionen liefern, und hier ist es uns gerade um ein vollständiges
+               sinnliches Bild zu thun, weil der wahre Geist der Geschlechtseigenthümlichkeit nur in
+               dem lebendigen Zusammenwirken aller einzelnen Züge sich ausdrücken kann.</p>
+            <p>Aus dieser Verlegenheit nun werden wir durch die productive Einbildungskraft
+               gerissen, welche aus dem Gebiet der Erfahrung in ein idealisches übergeht, allen
+               zufälligen Ueberfluss und alle zufällige Schranken von ihrem Gegenstand absondert,
+               und das Unendliche der Vernunft in eben so bestimmte Formen einkleidet, als sonst nur
+               die zufällige und beschränkte Geburt der Zeit, das wirkliche Individuum, zeigt. Mit
+               diesem wunderbaren Vermögen vorzugsweise von der Natur ausgestattet, bevölkerte der
+               Grieche seinen <placeName ref="geo-734890">Olymp</placeName> mit idealischen
+               Gestalten. Wenn er nun reine Eigenthümlichkeit und Schönheit suchte, wandte er sich
+               zum Kreise der Götter, und fand da, was er auf der Erde vermisste. Niemand in den
+               folgenden Jahrhunderten hat diess Volk in der Kunst übertroffen, den verborgensten
+               Charakter eines Wesens in seiner noch unentfalteten Knospe zu pflücken, und in dieser
+               Zartheit mit einer bestimmten Gestalt zu umgeben. Nur dem <placeName ref="geo-390903">Griechischen</placeName> Künstler gelang es, das Ideal selbst zu einem Individuum
+               zu machen, und bei ihm werden wir auch den be- <pb n="1.337" xml:id="pbI337"/>
+               friedigendsten Aufschluss über den vorliegenden Gegenstand schöpfen.</p>
+            <p>In dem Kreise der Göttinnen begegnet uns das Ideal der Weiblichkeit zuerst in <emph>
+                  <persName ref="person-000006">Dione</persName>ns</emph>
+               <persName ref="gnd-11876800X">Tochter</persName>. Der kleine und zarte Gliederbau,
+               welcher jeden schmeichelnden Liebreiz vereint, der üppige Wuchs, das schmachtend
+               feuchte Auge, der sehnsuchtsvoll geöfnete Mund, die holde Sittsamkeit, welche mehr
+               jungfräuliche Schüchternheit als entfernende Strenge verräth, und die himmlische
+               Anmuth, die, gleich einem Hauche, über ihre ganze Gestalt ausgegossen ist, kündigen
+               ein Geschlecht an, das auf seine Schwäche selbst seine Macht gründet. Was sich ihrem
+               Kreise naht, athmet Liebe und Genuss, und ihr Blick selbst ladet freundlich dazu ein.
+               Es war eine grosse und weitumfassende Idee, welche die <emph>
+                  <persName ref="gnd-11876800X">Venus</persName>
+               </emph> der <placeName ref="geo-390903">Griechen</placeName> darstellte: die alles
+               hervorbringende, und alles Lebendige durchströmende Kraft. Zu dieser Idee konnten sie
+               kein glücklicheres Sinnbild wählen, als die aufblühende Idealgestalt des Weibes, des
+               schönsten aller hervorbringenden Wesen, und keinen glücklichern Moment, als
+               denjenigen, wo das erste, noch unbestimmte Verlangen den Busen schwellt.</p>
+            <p>In diesem ersten Jugendalter erscheint die Weiblichkeit reiner, und lässt sich eben
+               deswegen, weil sie sich der übrigen Natur noch nicht ganz angeeignet hat, mehr
+               vereinzelt wahrnehmen; sie ist weniger Charakter, als Stimmung des Moments und der
+               Neigung. In der seelenvollsten Mine, in dem lebendigsten Ausdruck des moralischen und
+               sogar des intellectuellen Charakters kann zwar die weibliche Eigenthümlichkeit
+               sichtbar seyn; aber am treuesten offenbart sie sich in der physischen Gestalt und dem
+               sinnlichen Ausdruck, und gerade diess, zum Ideale erhoben, strahlt aus der Göttin der
+               Schönheit hervor. Was unser dunkles Gefühl von weiblicher Bildung erwartet, finden
+               wir darum in ihr am leichtesten wieder, und wenn wir den Eindruck prüfen, den ihr
+               Anblick in uns erregt, so fühlen wir uns von einer üppigen Fülle des Reizes
+               durchdrungen, die von wundervoller Schönheit des Baues gehalten, und von feiner
+               Grazie gemässigt wird. Darum erscheint sie uns menschlicher, und obgleich sie auf
+               keine Weise die Gottheit verläugnet, so nahen wir ihr dennoch mit vertrauender
+               Hofnung.</p>
+            <p>Was aus der <persName ref="gnd-11876800X">Göttin der Liebe</persName> laut und
+               unverkennbar spricht, das ruht in <emph>
+                  <persName ref="gnd-118678132">Diane</persName>ns</emph> Gestalt noch schlummernd
+               und unentfaltet. Mit jedem Reiz ihres Geschlechts geschmückt, verschmäht sie die <pb n="1.338" xml:id="pbI338"/> süssen Freuden der Liebe, und ergötzt sich nur an
+               männlichen Beschäftigungen. Mitten unter einer Schaar gleichgesinnter Gespielinnen,
+               verfolgt sie in den Tiefen der Wälder das Wild mit grausamem Bogen, und bestraft mit
+               Strenge den Frevler, der sich ihr mit unkeuschen Augen naht. Durch diese
+               jungfräuliche Sitte ist sie mit <emph>
+                  <persName ref="gnd-118986155">Minerve</persName>n</emph> verwandt; aber der
+               Charakter beider Göttinnen ist dennoch wesentlich unterschieden. In <persName ref="gnd-118558897">Jupiter</persName>s furchtbarer Tochter hat der Ernst der
+               Weisheit jede weibliche Schwäche vertilgt; das zeigt der ruhige, nachdenkend
+               niedergeschlagene Blick. <persName ref="gnd-118678132">Diane</persName>ns Auge hängt
+               mit lebhafter Begierde an dem Gegenstand ihres Strebens; sie hat nur Neigung mit
+               Neigung vertauscht. Die Weiblichkeit ist ihr nicht fremd, vielmehr zeigt sie nirgends
+               männliche Kraft; in fröhlicher Unbefangenheit ist sie sich ihrer nur selbst nicht
+               bewusst. Ueberhaupt ist sie kein Ideal einer Gattung, vielmehr einer individuellen
+               Stimmung, oder bestimmter, einer gewissen Stufe des Alters. Die zarte Sehnsucht,
+               welche ein Geschlecht an das andere knüpft, braucht zu ihrer Entwicklung den ruhigen
+               Einfluss eines in sich gekehrten Sinnes. Aber die ersten Aufwallungen des
+               jugendlichen Gefühls schweifen, wie <persName ref="gnd-118678132">Diane</persName>ns
+               Blick, in die Ferne. Daher ist das früheste jungfräuliche Alter nicht selten von
+               einer gewissen Gefühllosigkeit, ja sogar, da ein grosser Theil der weiblichen Milde
+               von der Entwicklung jener Empfindungen abhängt, von einer gewissen Härte begleitet.
+               Nur schlüpfen einige Charaktere so schnell über diese Periode hinweg, dass sie kaum
+               noch bemerkbar ist, indess sie sich in andern länger erhält. Dieser Zustand bringt
+               die eigenthümliche Bildung hervor, welche Latonens Tochter aus der Hand des Künstlers
+               empfieng. Der weibliche Reiz strömt nicht in schmelzender Schönheit von ihr aus,
+               sondern ist noch verschlossen in sich, und sich selbst verborgen. Der Bau der Glieder
+               hat mehr Festigkeit und schlanke Behendigkeit, und der ganze Ausdruck sagt, dass die
+               Seele nicht in sich zurücksinkt, sondern auswärts nach fremden Gegenständen strebt.
+               Dabei aber stellt sich der Hauptcharakter der göttlichen Weiblichkeit, Anmuth von
+               Würde getragen, in so hohem Grade dar, dass er nur desto mächtiger erscheint, je mehr
+               er zurücktritt. <persName ref="gnd-118678132">Diane</persName>ns Strenge hat auch
+               schon die Phantasie der Dichter gemildert. Wenn die nächtliche Einsamkeit und das
+               Schweigen der tosenden Jagd die Göttin mehr in sich selbst zurückführen, wird sie von
+               Endymions Reizen gerührt, indess man die ernste <persName ref="gnd-1189463628">Pallas</persName> keiner Schwachheit zu zeihen vermag. </p>
+            <pb n="1.339" xml:id="pbI339"/>
+            <p>Wenn man <persName ref="gnd-118649809">Cythere</persName>ns Anmuth mit der Würde der <emph>
+                  <persName ref="gnd-118800574">Juno</persName>
+               </emph> vergleicht, so sieht man die Weiblichkeit in eine neue und erweiterte Sphäre
+               versetzt. In der ersteren ist sie rege und thätig; bei der letzteren ergiesst sie
+               sich ruhig durch das ganze Wesen, und erscheint weder allein, noch in einem einzelnen
+               Moment der Neigung oder des Affects, sondern ist, aufs innigste in die göttliche
+               Persönlichkeit verwebt, zum Charakter geworden. Zwar muss es dem Leser der Dichter
+               schwer werden, diese Züge in derjenigen Gottheit zu finden, die mit Rache athmender
+               Eifersucht ihre Feinde verfolgt, und an den Trümmern des rauchenden <placeName ref="geo-298885">Ilium</placeName>s sich weidet. Aber man muss den allgemeinen
+               Charakter der Götter von den Fabeln unterscheiden, womit die spielende Phantasie
+               eines sinnlichen Volks denselben verunstaltet hat. Denn so wenig <persName ref="gnd-118558897">Jupiter</persName>s Lüsternheit dem <persName ref="gnd-118558897">Vater der Götter</persName> wesentlich ist, so wenig ist es
+                  <persName ref="gnd-118800574">Juno</persName>s Eifersucht und Rachgier der
+                  <persName ref="gnd-118800574">Königin des Himmels</persName>. Doch selbst in den
+               Fabeln der Dichter verläugnet die Göttin weder den Charakter der Erhabenheit noch der
+               Milde, und nur auf Augenblicke kann ihn die Macht der Affecte verdunkeln. Allein in
+               die höchste weibliche Anmuth und Würde gekleidet, erscheint sie aus der Hand des
+               bildenden Künstlers, der seiner Phantasie aus leicht begreiflichen Gründen weniger
+               Willkührlichkeit, als der Dichter verstattete. Zwar zieht auch hier ehrwürdige Hoheit
+               einen heiligen Kreis um die Göttin. Aber ist es dem stillen Verehrer gelungen, sich
+               ihr mit geweihtem Herzen zu nahen, so umstralt ihn nun auf einmal ihre holdselige
+               Schönheit. Die Ungleichheit, mit welcher der bildende Künstler und der Dichter
+               dieselbe Gottheit behandelten, beruht offenbar auf der ungleichen Entwicklung der
+               Begriffe von der moralischen und physischen Bildung des Geschlechts; denn nothwendig
+               musste der Künstler, der sich auf den Ausdruck der letztern einschränkte, es dem
+               Dichter eben so weit zuvorthun, als das Ideal der äussern Gestalt mehr geläutert und
+               ausgebildet war. Das Bild hingegen, welches der Dichter von der Göttin entwarf,
+               richtete sich nach den eingeschränkten Begriffen, die man sich von der moralischen
+               Bestimmung des Geschlechts bilden mochte; sein Muster war die züchtige Gattin, die
+               Freundin der Ordnung und Häuslichkeit, aber zugleich auch die eifrige Beschützerin
+               ihrer Rechte, und diese idealisirte er in der Königin der Götter.</p>
+            <p>Haben wir indess unsre Phantasie von diesen Nebenbegriffen gereinigt, so stellt sich
+               uns in dieser Gottheit das Bild wahrer <pb n="1.340" xml:id="pbI340"/> Weiblichkeit
+               nur auf einer erhabenen Stufe dar. In keinem einzelnen Zuge dringt sie sich vor,
+               sondern wirft um die ganze Gestalt einen zarten Schleier, durch welchen die Gottheit
+               frei und ungehindert durchblickt. Sie zeigt sich daher auch nicht in der
+               Beschränkung, welche ein bestimmter einzelner Zustand allemal mit sich führt, sondern
+               umschliesst vielmehr jede noch unentwickelte Anlage, und giebt dem Verstande und der
+               Phantasie ein unbegränztes Feld zu verfolgen. Denn nicht, wie die <persName ref="gnd-11876800X">Göttin der Liebe</persName>, durch einladende Sehnsucht, noch,
+               wie Latonens Tochter, durch jugendliche Unbefangenheit verräth <persName ref="gnd-118800574">Juno</persName> das Weib, sondern durch eine ruhige, über das
+               ganze Wesen verbreitete Fülle. Auch der Schatten der Begierde verschwindet, und innre
+               Selbstgenügsamkeit hebt sie aus dem Kreise irrdischer Beschränktheit hinweg. Ihre
+               hehre Gestalt, ihr weites rundgewölbtes Auge, und der Ausdruck der Hoheit in ihrem
+               Munde geben ihr eine Würde, welche jede Spur der Bedürftigkeit vertilgt. Indem sie
+               aber hierin die Weiblichkeit gleichsam verläugnet, dankt sie derselben ihre ganze
+               übrige Schönheit. Weiblich ist die Fülle ihres Wesens, eine weibliche, langsam
+               ausströmende Kraft ihre wohlthätige Macht, und zugleich ist beides mit lieblicher
+               Anmuth und allen Reizen der Jugend geschmückt. Denn wie sich jede Gottheit des
+               Vorrechts erfreut, alles Menschliche zu geniessen und zu leiden, ohne über den
+               Augenblick der Gegenwart hinaus, den Sterblichen gleich, beschränkende Folgen zu
+               erfahren, so kehrt auch <persName ref="gnd-118800574">Juno</persName> ewig als
+               jungfräuliche Braut in <persName ref="gnd-118772635">Zevs</persName> Umarmung
+               zurück.</p>
+            <p>Dennoch erscheint die Weiblichkeit nicht in ihrer ursprünglichen Beschaffenheit in
+               ihr, nicht wie sie, noch unverändert durch die Persönlichkeit, aus der Hand der Natur
+               kommt. Vielmehr mit der Gottheit vereint, wird sie von dieser emporgetragen. Kühner
+               erhebt sich daher die Gestalt der Göttin, freier wölbt sich das Auge, stolzer
+               gebietet der Mund, und frei von den Schranken des Geschlechts, ist sie allein mit den
+               Vorzügen desselben begabt. Der Ausdruck der göttlichen und weiblichen Natur verliert
+               sich sanft in einander, und jeder wird durch den andern gegenseitig erhöht oder
+               gemässigt. Die üppige Fülle der Weiblichkeit, der es leicht an Haltung gebricht, wird
+               in einen sich selbst beherrschenden Reichthum verwandelt, und die weibliche Kraft,
+               die von äussrer Nothwendigkeit abhängt, erscheint mehr durch eine innre gebunden. Wo
+               hingegen die furchtbare Grösse der Gottheit Schrecken erregen könnte, da verbannt ihn
+               die Sanftmuth des <pb n="1.341" xml:id="pbI341"/> Weibes. Durch sie erscheint der
+               feste Rathschluss, den die Götterstirn verkündet, nicht von der Willkühr der Laune
+               abhängig, sondern an die hohe Ordnung der Dinge geknüpft, und der feierliche Ernst,
+               welcher die Göttin umgiebt, verliert jeden Anschein der Härte, da er aus weiblicher
+               Zucht und Sittsamkeit hervorgeht. </p>
+            <p>Hier also tritt die Weiblichkeit in einer neuen Gestalt auf. Es ist nicht das eigene
+               Ideal derselben, welches wir sehen, nicht eine Gestalt, welche ihre Vorzüge, wie ihre
+               nothwendigen Schranken, zu zeigen bestimmt wäre; es ist das Ideal einer geistigen
+               Natur überhaupt, welche, um einen Körper anzunehmen, sich nothwendig zu einem
+               Geschlechte bekennen musste, und nun das weibliche wählte. Denn unabhängig von der
+               Form der Geschlechter, muss es noch eine andere mittlere geben, die ein reiner
+               Abdruck der Menschlichkeit, oder, wenn wir uns diese idealisch erhöht denken, der
+               Göttlichkeit im Sinne der Alten ist, und zu welcher jedes einzelne Geschlecht
+               emporstreben sollte. Die Schwierigkeit ist nur, bei diesem Uebertritt in ein fremdes
+               Gebiet, doch gleichsam das eigne nicht zu verlassen, sondern es vielmehr idealisch zu
+               erweitern. Gerade diese Forderung aber ist hier erfüllt, da die Göttlichkeit den
+               Charakter der Weiblichkeit als Naturcharakter vertilgt, und als Willenscharakter
+               dargestellt, ihm eine unendliche Fläche eingeräumt, und, indem sie seine Schranken
+               entfernte, seinen Vorzügen selbst einen neuen Glanz mitgetheilt hat. Jeder Zug der
+               erhabenen Bildung ist weiblich; unverkennbar aber spricht zugleich aus jedem die
+               Gottheit; und so gewinnt bei Weibern und Göttinnen die Menschlichkeit und
+               Göttlichkeit immer in eben dem Grade, in welchem die Weiblichkeit ihr ganzes Wesen
+               lebendiger beseelt.</p>
+            <p>Wenn man sich ruhig den Eindrücken überlässt, welche in diesen Idealen, wie in der
+               Wirklichkeit selbst, die weibliche Schönheit in dem Gemüthe hervorbringt, und sie auf
+               einen bestimmten und allgemeinen Begriff zurückzuführen versucht; so sind es
+               Lieblichkeit und Anmuth, welche den Sinnen von allen Seiten entgegenkommen. Ein
+               zarter Gliederbau von verhältnissmässiger Grösse und mit schön wallenden Linien
+               umschlossen, in allen Theilen Fülle und Weichheit, eine sanfte und doch lebhafte
+               Farbenmischung, eine feine und glatte Haut, lange und anmuthig fliessende Locken —
+               diese und ähnliche Züge sind es, welche in der Phantasie des Betrachters
+               zurückbleiben, und sich in keiner wahrhaft weiblichen Bildung verläugnen, wenn sie
+               gleich <pb n="1.342" xml:id="pbI342"/> in mannigfaltig verschiedenen Gestalten
+               erscheinen. Das charakteristische Merkmal der weiblichen Bildung ist daher die
+               ununterbrochene Stätigkeit der Umrisse, mit welcher ein Theil aus dem andern
+               gleichsam auszufliessen scheint. Sie verwandelt die aus der Gestalt hervorleuchtende
+               Kraft in reizende Fülle, und verbindet alle einzelne Züge in ungezwungener
+               Leichtigkeit zu einem harmonischen Ganzen.</p>
+            <p>Dieser materielle Reiz, welcher allein den Sinnen schmeichelt, muss, um zur Anmuth zu
+               werden, eine Form annehmen, durch welche er der höheren Forderung des Geistes Genüge
+               leistet. Ohne sie geht er nicht in das Gebiet der Schönheit über, und sie ist es
+               allein, die ihn zur Grazie erhebt. Zwar wird die Kunstmässigkeit in der Bildung des
+               weiblichen Körpers durch die grössere Weichheit und den sanfteren Fluss der Umrisse
+               versteckt; aber sie darf nicht verschwinden, und in einem wahrhaft schönen weiblichen
+               Bau muss die technische Vollkommenheit ebenso durchschimmern, als sie in einigen
+               übriggebliebenen Kunstwerken des Alterthums dem Auge in der That sichtbar ist,
+               wenigstens wenn dasselbe die Leitung des Gefühlsinns zu Hülfe ruft. Wie aus der
+               sinnlichen Harmonie des Baues die reine Kunstmässigkeit hervorblicken muss, so wird,
+               wenn die Gestalt vollendet heissen soll, von beiden noch ein Ausdruck der sittlichen
+               Harmonie des Charakters gefordert. Würde und Selbstständigkeit stralen alsdann aus
+               dem Wuchs und den Gesichtszügen hervor. Ohne ein übermüthiges Streben nach Herrschaft
+               zu verrathen, begnügt sich die aufgerichtete Gestalt, der Fesseln entledigt zu seyn,
+               die sonst alles Lebendige binden. In eigner Kraft erhebt sie sich, und unterwirft
+               sich willig den Gesetzen einer Ordnung, die sich mit ihrer Freiheit vertragen. Also
+               weit entfernt, dass der Ausdruck des Geistes an der weiblichen Bildung vermisst
+               werden sollte, so ordnet sich derselbe vielmehr nur jener gefälligen Grazie
+               freiwillig unter.</p>
+            <p>An diesem Charakter einer grösseren Anmuthigkeit, als man sie von der bloss
+               menschlichen Bildung erwartet, ist die Weiblichkeit überall ohne Mühe erkennbar.
+               Gleich sichtbar muss nun zwar in der hohen männlichen Schönheit die Männlichkeit
+               seyn; nur zeigt sich hier der sehr merkwürdige Unterschied, dass die letztere nicht
+               sowohl, wenn sie da ist, leicht bemerkt, als, wo sie fehlt, vermisst wird. Der
+               eigentliche Geschlechtsausdruck ist in der männlichen Gestalt weniger hervorstechend,
+               und kaum dürfte <pb n="1.343" xml:id="pbI343"/> es möglich seyn, das Ideal reiner
+               Männlichkeit eben so, wie in der <persName ref="gnd-11876800X">Venus</persName> das
+               Ideal reiner Weiblichkeit, zu <emph>vereinzeln</emph>. Schon bei dem ersten Anblick
+               beider Gestalten wird man gewahr, dass der Geschlechtsbau bei der männlichen bei
+               weitem weniger mit dem ganzen übrigen Körper verbunden ist. Bei der weiblichen hat
+               die Natur mit unverkennbarer Sorgfalt alle Theile, die das Geschlecht bezeichnen,
+               oder nicht bezeichnen, in Eine Form gegossen, und die Schönheit sogar davon abhängig
+               gemacht. Bei jener hat sie sich hierin eine grössere Sorglosigkeit erlaubt; sie
+               verstattet ihr mehr Unabhängigkeit von dem, was nur dem Geschlecht angehört, und ist
+               zufrieden, dieses, unbekümmert um die Harmonie mit dem Ganzen, nur angedeutet zu
+               haben. Vielleicht aber verwebte sie auch den männlichen Charakter nur feiner in das
+               übrige Wesen des Mannes, und zeichnete ihn durch den Ausdruck grösserer Kraft, mehr
+               reger und schneller Anstrengung und geringerer Masse. Diese besondere
+               Eigenthümlichkeit aber lässt sich nicht gerade auf die Rechnung seines Geschlechts
+               setzen. Denn da sie von keiner Seite dem Charakter der reinen Menschheit
+               widerspricht, so kann sie der rein menschlichen, so wie die entgegengesetzte der
+               weiblichen Form eigenthümlich seyn; und die grössere Unabhängigkeit von dem
+               Geschlechtsunterschied gehört daher unmittelbar mit zu dem Begriff der männlichen
+               Bildung.</p>
+            <p>Je mehr Kraft und Freiheit auch die Gestalt des Mannes verräth, desto männlicher
+               erklärt ihn selbst das alltägliche Urtheil. Noch mehr, als in der weiblichen
+               Schönheit muss die Kraft die Masse überwunden haben, und wir verzeihen es eher, wenn
+               sich jene, selbst mit Verletzung der blossen Anmuth, zu sichtbar hervordrängt, als
+               wenn sie im Gegentheil dieser unterliegt. Daher wird die männliche Schönheit immer in
+               dem Grade erhöht, in welchem die Kraft gestärkt wird, und sinkt immer um so viel
+               herab, als man dem Genuss Uebergewicht über die Thätigkeit verstattet. Selbst die
+               Art, wie man das Wachsthum der Kraft befördert, ist nicht gleichgültig, und immer
+               wird sie da weniger männlich erscheinen, wo man sie mehr mit Fülle nährt, als durch
+               Anstrengung übt. So dachten sich die Alten den <emph>
+                  <persName ref="gnd-118651439">Bacchus</persName>
+               </emph>. Reiche Fülle bezeichnet ihn; in fröhlichem Taumel durchzog er die Erde und
+               bezwang entfernte und mächtige Völker mehr durch die üppige Macht seiner Natur, als
+               durch die Anstrengung seines Willens. Seine Bildung ist noch zarter und jugendlicher,
+               als die der übrigen Götter, seine Hüften sind weiblicher ausgeschweift, <pb n="1.344" xml:id="pbI344"/> und der ganze Bau seiner Glieder ist voller und runder. Indess
+               er, mit der thätigen Kraft des Mannes gerüstet, gerade die Eigenthümlichkeiten des
+               Geschlechts in seinem Charakter ausdrückt, nähert er sich dennoch der Gränze der
+               Weiblichkeit. Wie <emph>
+                  <persName ref="gnd-11876800X">Venus</persName>
+               </emph> bezeichnet er eine Naturkraft, und ist überhaupt, eben so wie diese, näher
+               als die höheren Gottheiten, mit der Natur verwandt. Aber gerade wie sie das treuste
+               Bild reiner Weiblichkeit ist, so stellt er eine Abweichung von der Mannheit dar; und
+               überhaupt wird der Mann jederzeit in demselben Grade mehr von seinem Geschlechte
+               ausarten, als er sich von demselben beherrschen lässt. Obgleich diess im Ganzen auch
+               bei den Weibern der Fall ist, und in der Heftigkeit des Affects die lieblichsten Züge
+               der Weiblichkeit erlöschen, so ist doch hier die Gränze weiter gesteckt, und es ist
+               den Weibern in einem hohen Grade ihrem Geschlecht nachzugeben verstattet, indess der
+               Mann das seinige fast überall der Menschheit zum Opfer bringen muss. Aber gerade
+               diess bestätigt aufs neue die grosse Freiheit seiner Gestalt von den Schranken des
+               Geschlechts. Denn ohne an seine ursprüngliche Naturbestimmung zu erinnern, kann er
+               die höchste Männlichkeit verrathen; da hingegen dem genauen Beobachter der weiblichen
+               Schönheit jene allemal sichtbar seyn wird, wie fein auch übrigens die Weiblichkeit
+               über das ganze Wesen mag verbreitet seyn. Schon von selbst stimmt der männliche
+               Körperbau fast durchaus mit den Erwartungen überein, die man sich von dem
+               menschlichen Körper überhaupt bildet, und nicht die Partheilichkeit der Männer allein
+               erhebt ihn gleichsam zur Regel, von welcher die Verschiedenheiten des weiblichen mehr
+               eine Abweichung vorstellen. Auch der partheiloseste Betrachter muss gestehen, dass
+               der letztere mehr den bestimmten, der männliche dagegen den allgemeinen Naturzweck
+               alles Lebendigen ausdrückt, die Masse durch Form zu besiegen.</p>
+            <p>Aber auch an der männlichen Bildung bleiben noch immer Spuren genug von der
+               Geschlechtseigenthümlichkeit übrig, welche da, wo die höchste Schönheit hervorgehen
+               soll, in der reinen Menschlichkeit sich verlieren müssen. Wenn der Körper des Weibes
+               eine sanfte Fläche, von wellenförmigen Linien begränzt, darbietet, so erhebt die dem
+               Manne eigenthümliche Kraft und Heftigkeit auf dem seinigen hervorragende Sehnen, und
+               sein stärkerer Bau, weniger mit milderndem Fleische bekleidet, deutet alle Umrisse
+               sichtbarer an. Alle Ecken springen schneller und <pb n="1.345" xml:id="pbI345"/>
+               minder vorbereitet hervor, der ganze Körper ist in bestimmtere Abschnitte abgetheilt,
+               und gleicht einer Zeichnung, die eine kühne Hand mit strenger Richtigkeit, aber wenig
+               bekümmert um Grazie, entwirft. Was hier in seinen Extremen geschildert ist, lässt
+               freilich, auch mit genauer Beobachtung der natürlichen Wahrheit, eine grosse
+               Veredlung zu. Aber selbst bei der höchsten wird eine Bestimmtheit übrig bleiben,
+               welche sich der Gränze der Härte nähert. Solch ein Ideal ist, nach dem Urtheil der
+               Kunstkenner, der <emph>Farnesische <persName ref="gnd-118639552">Hercules</persName>
+               </emph>. Nach langer Arbeit ruht er aus, gestützt auf das Werkzeug seiner Kraft.
+               Riesen und Ungeheuer hat er bezwungen, aber nicht mit der leichten Macht der Götter,
+               die mit dem Gebot ihres Mundes und dem Wink ihrer Hand ihre Gegner vernichten; mit
+               der Anstrengung eines Sterblichen hat er gerungen, mit mühevollem Schweiss den Sieg
+               erkämpft. Zu derselben Gattung gehören auch die Fechterkörper. Arbeit und Kraftübung
+               leuchten aus ihnen hervor, und der Ausdruck des empfangenden Genusses ist überall,
+               selbst da entfernt, wo derselbe die männliche Kraft belohnt. Festigkeit, Bestimmtheit
+               und eine Schärfe der Umrisse, die leicht in Härte auszuarten Gefahr läuft, machen
+               also ein zweites wesentliches Merkmal der Bildung des Mannes aus. Wo nicht schon die
+               Hand der Natur oder die moralische Kultur diese Züge wohlthätig gemildert hat, da
+               rauben sie der männlichen Schönheit wieder etwas von der Freiheit, die sie durch ihre
+               grössere Unabhängigkeit von dem Geschlecht gewann.</p>
+            <p>In der Natur des Göttlichen strebt alles der Reinheit und Vollkommenheit des
+               Gattungsbegriffs entgegen. Auch der Charakter der Geschlechter fängt an in demselben
+               zu erlöschen, und in der jugendlichen Gestalt der Götter verliert sich die scharfe
+               Zeichnung des männlichen Körpers in einer milden Grazie, welche die Härte
+               hinwegnimmt, ohne die Bestimmtheit zu vertilgen. Wenn <emph>
+                  <persName ref="gnd-118639552">Hercules</persName>
+               </emph> sich zum <placeName ref="geo-734890">Olymp</placeName> emporgeschwungen hat,
+               und in <persName ref="gnd-119353008">Hebes</persName> Umarmung des mühevollen
+               Erdelebens vergisst, so umwallt auch seine körperliche Bildung eine mehr geläuterte
+               Schönheit, und mit jugendlicher Leichtigkeit bewegen sich die entfesselten Glieder.
+               Sich diesem Ideale zu nähern, kann auch der Mensch versuchen, und die Verbindung der
+               menschlichen Schönheit mit der männlichen hilft erst die letztere vollenden.
+               Grossentheils vermag die Seele von innen heraus diesen Vorzug hervorzuschaffen; aber
+               noch mehr ist er, insofern er nicht den Ausdruck <pb n="1.346" xml:id="pbI346"/> des
+               moralischen Charakters verstärken, sondern die eigentliche Schönheit erhöhen soll,
+               eine Gabe der Natur. Vorzüglich ist diess in der <emph>Jugend</emph> der Fall, die,
+               wenn die Bildung der <emph>Kindheit</emph> gewissermaassen weiblicher ist, auf der
+               schmalen Gränze zwischen beiden Geschlechtern steht. Alsdann erscheint die
+               eigenthümliche Schönheit des Mannes in ihrem herrlichsten Glanze. Jede einengende
+               Schranke ist entfernt, und alles vereint sich zu dem lebendigsten Ausdruck einer mit
+               Stärke gerüsteten Energie, die durch Anmuth gemässigt ist. Ein solches Ideal ächter
+               Männlichkeit erblicken wir im <emph>
+                  <placeName ref="geo-6691831">Vatican</placeName>ischen <persName ref="gnd-118503642">Apoll</persName>
+               </emph>. Die höchste männliche Kraft und Bestimmtheit ist in ihm in die schönste
+               Götterjugend gekleidet; alle Züge der Bildung sind sanft und oft nur noch dem Gefühle
+               bemerkbar gezeichnet; und wenn uns der Bogen in seiner Hand und der Köcher auf der
+               Schulter in Schrecken setzen, so durchdringt uns die stille Erhabenheit des Gottes
+               mit ruhiger Ehrfurcht. </p>
+            <p>Wäre unser Sinn genug an Schönheit gewöhnt, um überall auch Schönheit zu fordern; so
+               würden wir die Härte, welche die Gestalt des Mannes so oft begleitet, minder
+               übersehn, und durch sie mehr an das Geschlecht, als an die Gattung erinnert werden.
+               Indess liegt es doch nicht sowohl an einem Mangel aesthetischer Reizbarkeit in uns,
+               als vielmehr an dem ganzen Geist seiner Bildung, wenn wir bei ihm mehr auf
+               Bestimmtheit, als auf Schönheit der Formen achten. Diese Bestimmtheit ist ein eben so
+               charakteristisches Merkmal seiner Bildung, als es Reiz und Anmuth bei der weiblichen
+               ist; daher man ihm eben so wenig Unbestimmtheit und Leere, als dem Weibe Mangel an
+               Grazie verzeiht. Diess bringt den hohen Ausdruck selbstthätiger Kraft in ihm hervor,
+               und verbindet alle einzelne Theile mehr zu der Einheit des Begriffs eines lebendigen
+               und selbstständigen Wesens, als zu der sinnlichen Einheit der Form, auf der wir so
+               gern in dem weiblichen Körper verweilen.</p>
+            <p>Nach diesen Merkmalen sollte man indess in der Gestalt des Mannes nur Vollkommenheit
+               ahnden, und an Schönheit verzweifeln, wenn sich mit jener strengen Richtigkeit des
+               Baues nicht zugleich reizende Anmuth verbinden könnte. Diess aber ist bei der
+               männlichen Schönheit in der That der Fall; die abstracte Einheit des Begriffs, welche
+               dem Verstand Genüge leistet, befriedigt durch die lebendige Einheit der Ausführung
+               das Gefühl, und mit der höchsten Bestimmtheit und Mannigfaltigkeit der Umrisse ist
+               der leiseste <pb n="1.347" xml:id="pbI347"/> Uebergang einer Form in die andere
+               verträglich. Hat unter uns Mangel an gymnastischen Uebungen, harte Arbeit, welche die
+               Bildung entstellt, mindere Freiheit von Sorge und von mechanischer Beschäftigung, und
+               die ganze der Schönheit ungünstige Neigung des Zeitalters es schwieriger gemacht,
+               diess an dem lebenden männlichen Körper zu bestätigen; so dürfen wir uns nur an die
+               Kunstwerke des Alterthums wenden. Auch der Schatten der Härte ist dort verbannt, und
+               die Umrisse der männlichen Gestalt fliessen gleich sanft, nur mit mehr Sparsamkeit
+               des Stoffs, als in der weiblichen, ineinander. Vorzüglich sichtbar ist diess in dem
+               höchsten Ideale des Mannes, wo der physischen Eigenthümlichkeit zugleich die
+               intellectuelle und moralische zur Seite steht. Reiz und Anmuth gatten sich also nicht
+               weniger mit der männlichen, als mit der weiblichen Form, nur dass sie der letzteren
+               das Gesetz selbst zu geben, bei der ersteren mehr das Gesetz des Verstandes
+               auszuführen scheinen.</p>
+            <p>Bei dieser Schilderung der Gestalt beider Geschlechter ist es unmöglich, nicht
+               zugleich auch an ihre innere Eigenthümlichkeiten erinnert zu werden. Wie sehr der
+               Betrachter vermeiden möchte, eine Vergleichung mit denselben anzustellen, um nicht
+               dadurch die Lauterkeit der Beobachtung zu stören, so muss sich die Aehnlichkeit,
+               selbst wider seinen Willen, ihm aufdringen. Denn überhaupt ist keine Gestalt eines
+               organischen Wesens rein, nur von sich selbst abhängig, sondern jede wird durch den
+               Begriff desselben und die ihm inwohnende Kraft bestimmt. In der unorganischen Natur
+               ist alle Gestalt blosse Masse, wenn nicht willkührlich, doch wenigstens nicht nach
+               innren Gesetzen, sondern durch äussre Einwirkungen an einander gehäuft. Von Kraft ist
+               keine Spur, als von derjenigen, durch welche die Masse mächtig ist; und daher sind
+               Formen dieser Art keiner andern Bedeutung fähig, als welche die Phantasie ihnen
+               willkührlich nach unbestimmten Aehnlichkeiten beilegen will. Ganz anders ist es schon
+               in dem Reiche, welches zunächst an dieses gränzt. Die Pflanze strebt mit eignem Leben
+               empor, und streckt vielfach getheilte Wurzeln und Zweige aus, um fremden Stoff
+               aufzunehmen und eignen abzusondern. Hier ist nicht mehr, wie dort, wo eine rohe
+               ungeschiedene Masse auf einem sichren Grunde ruhte, die Gestalt bloss nach
+               mechanischen Gesetzen begreiflich; es offenbart sich in ihr eine innre formende
+               Kraft. Dieser strebt indess die Materie entgegen, und daher stellt jeder organische
+               Körper das Bild eines <pb n="1.348" xml:id="pbI348"/> Kampfes dar, in welchem bald
+               der eine, bald der andere Theil die Oberhand behält. Wenn die Materie aufhört
+               Widerstand zu leisten, so begünstigt sie die Kraft, indem sie derselben, gerade wie
+               in dem innren Wesen die Empfänglichkeit der Selbstthätigkeit, einen körperlichen
+               Stoff leiht, und sie durch Leichtigkeit mildert. Die Beschaffenheit und das
+               Verhältniss dieser beiden Elemente, der Umfang der Kraft, und die Art, wie die
+               Materie sie verkörpert, bestimmen eine Stufenfolge mehr oder weniger edler Bildungen,
+               nach welcher sich jeder Naturgestalt ihr Rang anweisen liesse. Bei diesem Geschäft
+               müsste man sich aber hüten, über die äussre Bildung hinauszugehn. Unmittelbar die
+               Gestalt muss die Kraft ankündigen, auf die es hier ankommt, und thut diess auch in
+               der That. Wo die ganze Masse, in mehrere einzelne Glieder vertheilt, Leichtigkeit und
+               Beweglichkeit gewinnt, wo in dieser Vertheilung, wie in den Umrissen überhaupt,
+               Ebenmaass und Regel herrscht, da ist eine bildende Kraft sichtbar, welche diese, aus
+               den Gesetzen der blossen Materie unerklärbare Erscheinungen hervorbringt, und der
+               Thätigkeit sowohl ihren <emph>Umfang</emph> als ihre <emph>Gränzen</emph> bestimmt.
+               Das erstere ist vorzüglich in der menschlichen Gestalt offenbar, die nicht bloss, wie
+               jede organische Bildung, eine bildende Kraft und einen bildsamen Stoff überhaupt
+               zeigt, sondern auch eine unbeschränkte, schlechterdings zu keiner einzelnen
+               Verrichtung ausschliesslich bestimmte Kraft, und einen Stoff, der, anstatt derselben
+               zu widerstreben, ihr vielmehr entgegenzukommen scheint.</p>
+            <p>Durch die ganze übrige thierische Schöpfung sehen wir, dass jedem Wesen eine
+               bestimmte Anzahl von Wegen zu verfolgen angewiesen, alle übrigen hingegen versagt
+               sind. Nicht genug aber, dass es die letzteren nicht wirklich einzuschlagen vermag, so
+               ist es nicht einmal im Stande, diess zu begehren, und seine Neigung ist, wie sein
+               Vermögen gefesselt. Dagegen ist der Thätigkeit des Menschen schlechterdings keine
+               einzelne Richtung ausschliesslich vorgeschrieben; was seiner Natur unmittelbar
+               versagt scheint, dazu kann er die innern Schwierigkeiten durch Uebung, die äussern
+               durch allerlei Hülfsmittel entfernen, und das gänzlich Unmögliche selbst kann er
+               wenigstens verlangend versuchen. Diese Eigenthümlichkeit nun verräth auch unmittelbar
+               seine Gestalt, und das unterscheidende physiognomische Merkmal derselben ist eine
+               solche Beschaffenheit der Bildung, mit welcher selbst der Gedanke des <pb n="1.349" xml:id="pbI349"/> Zwangs unverträglich, und die nur durch Freiheit erklärbar
+                  ist.<note type="footnote" n="1)" resp="gnd-118554727">Auf ähnliche Weise, als hier, wenn
+                  gleich nur in den ersten Grundzügen, beim Menschen geschehn ist, liesse sich eine
+                  Physiognomik aller Thiergattungen entwerfen, bei der nur vorzüglich die beiden
+                  Klippen zu vermeiden wären, weder der Willkühr einer spielenden Einbildungskraft,
+                  noch dem mit den innren Eigenschaften des Geschöpfs vertrauten Verstande ein
+                  einseitiges Uebergewicht einzuräumen; folglich 1., nicht blossen Grillen zu
+                  folgen, sondern überall, an der Hand der Naturgeschichte, von dem eigentlichen
+                  Körperbau, insofern er auf die Gestalt Einfluss hat, auszugehen; 2.. dem Begriff
+                  der innren Vollkommenheit des Geschöpfs, wie schon oben erinnert ist, auf diese
+                  physiognomische Beurtheilung seiner Gestalt keinen Einfluss zu verstatten, und es
+                  sich anfangs wenigstens nicht stören zu lassen, wenn auch vollkommnere Thiere in
+                  Absicht ihrer Gestalt einen niedrigeren Platz erhielten, oder umgekehrt. Von dem
+                  Thierreich dürfte man hernach den Uebergang zu den Pflanzen um vieles erleichtert
+                  finden.</note> Zwar offenbart sich dieses nicht in irgend einem einzelnen Zuge,
+               sondern in dem ganzen Habitus des Körperbaues und in der freien Zusammenstimmung
+               aller Theile, daher es auch nur gesehn und empfunden, und nicht mit Worten
+               beschrieben werden kann. Wenn aber gleich der Mensch durch diese ihm eigenthümliche
+               Freiheit über die Schranken der Endlichkeit hinweggerückt scheint, so tritt er darum
+               noch nicht aus den Gränzen der Natur, sondern diese sind in dem menschlichen Bau nur
+               weiter gerückt. Denn indem die Materie die freie Thätigkeit des Geistes durch ihre
+               Schwerfälligkeit und Trägheit beschränkt, so mildert sie auch durch ihre ruhige
+               Stätigkeit die ungestüme Gewalt, mit welcher die Willkühr sich äussert; und indem der
+               Geist durch seine strenge Gesetzmässigkeit der Materie Zwang anthut, so beschränkt er
+               zugleich ihren Ueberfluss, der unaufhörlich bestrebt ist, die Form zu vernichten.</p>
+            <p>Da der Mensch als ein gemischtes Wesen Freiheit mit Naturnothwendigkeit verknüpft, so
+               erreicht er nur durch das vollkommenste Gleichgewicht beider das Ideal reiner
+               Menschheit. Zwar müsste, wenn die moralische Würde behauptet werden sollte, der Wille
+               herrschen, aber nicht über eine widerstrebende, sondern mit ihm übereinstimmende
+               Natur, und eben diess müsste auch die äussre Bildung verkündigen. Hier aber sieht
+               sich die Einbildungskraft von der Wirklichkeit verlassen, welche ihr nirgends die
+               Gestalt eines solchen reinen, über alle Geschlechtseigenthümlichkeit erhabenen Wesens
+               zeigt, und es wird ihr sogar schwer, auch nur ein Bild davon zu entwerfen. Denn indem
+               sie den Charakter des einen Geschlechts zu verwischen bemüht ist, läuft sie Gefahr,
+               den des andern an die Stelle zu setzen, oder, wenn sie diess ver- <pb n="1.350" xml:id="pbI350"/> meiden will, die übrigbleibenden Merkmale bis zur Unbestimmtheit
+               zu schwächen. Indess ist es dennoch unläugbar, dass zuweilen selbst in der
+               Wirklichkeit, wenn gleich nur einzelne Züge einer Gestalt durchschimmern, die, als
+               rein menschlich, zwischen der männlichen und weiblichen mitten inne steht, und weil
+               jeder ein dunkles Bild davon in seiner Seele trägt, von niemand verkannt wird. Hie
+               und da findet man etwas Ueberweibliches, wenn der Ausdruck erlaubt ist, das doch
+               niemand darum unweiblich oder männlich nennen möchte; und eben so stösst man bei
+               Männern auf Züge, die man nicht auf die Rechnung des Geschlechts zu setzen vermag.
+               Von dieser Art ist z. B. eine gewisse ruhige Grösse, welche nicht durch Natur,
+               sondern durch Willensstärke entsteht, und die in einer weiblichen Gestalt niemals
+               unweiblich erscheinen wird, aber in einer männlichen auch nicht sowohl männlich, als
+               menschlich heissen muss. Sammelte man diess und ähnliche Merkmale (die man vielleicht
+               so am richtigsten aufsuchte, dass man sich fragte, was wohl von einer männlichen
+               Bildung, mit Beibehaltung der vollen Weiblichkeit, auf eine weibliche übergetragen
+               werden könnte?) in Ein Bild zusammen; so würde sich eine kunstmässige Bestimmtheit
+               der Züge zeigen, die aber von Härte und Gewaltthätigkeit gleich weit entfernt wäre,
+               und mit dieser würde sich eine Anmuth gatten, die, ohne sie verdrängen zu wollen,
+               eben so wenig von ihr verdrängt werden dürfte. Indem aber die eine der andern wiche,
+               würde alsdann jede sich schwächen; über dem Bemühen, beide ganz aufzufassen, würde
+               der Betrachter keine in ihrer Reinheit erblicken, und Vermischung würde an die Stelle
+               der Verknüpfung treten. </p>
+            <p>Von diesen beiden charakteristischen Merkmalen der menschlichen Gestalt, deren
+               eigenthümliche Verschiedenheit in der Einheit des Ideals verschwindet, herrscht in
+               jedem Geschlecht eins vorzugsweise, indess das andere nur nicht vermisst wird.
+               Dadurch beziehen sich beide, wie Hälften eines unsichtbaren Ganzen auf einander, und
+               nöthigen durch ihren gegenseitigen Mangel das Gemüth, sie im Ideal zu ergänzen. In
+               der Gestalt des Mannes offenbart sich durchaus eine strengere, in der Gestalt des
+               Weibes eine liberalere Herrschaft des Geistes; dort spricht der Wille lauter, hier
+               die Natur. So wie grössere Kraft und geringere Abhängigkeit von einzelnen bestimmten
+               Naturzwecken jenen fähiger machen, jede Lage zu ertragen und selbst hervorzubringen,
+               so verräth diess auch sein höherer Wuchs, seine mehr hervortretende Brust, seine <pb n="1.351" xml:id="pbI351"/> stärkere Knochenmasse, und das minder verdeckte Spiel
+               seiner Muskeln. Kleiner, mit grösserer Fülle begabt und mit stätigeren Umrissen,
+               geniesst das weibliche Geschlecht einer gleich grossen Beweglichkeit, die aber, von
+               geringerer Kraft begleitet, mehr als Geschmeidigkeit erscheint. In dem Manne hat der
+               Wille den vollkommensten Sieg errungen, und den Stoff, fast bis zur gänzlichen
+               Vertilgung seines Naturcharakters, ausgearbeitet. In dem Weibe hat der Stoff seine
+               Eigenthümlichkeit mehr zu behaupten gewusst, und indem er sich unterwirft, flieht er
+               den Ausdruck seines Unterliegens. Da nun auf diese Art jedes der beiden Geschlechter
+               zwar die ganze Menschheit in allen ihren Eigenthümlichkeiten, aber nach einer mehr
+               einseitigen Richtung zeigt; so muss nothwendig immer das eine zu dem andern leiten.
+               Gerade dadurch, dass Eine Seite überwiegend ist, entsteht unvermeidlich das
+               Verlangen, auch einmal die andere herrschen zu sehen, und so, wenn nicht in der
+               Wirklichkeit, doch wenigstens in der Phantasie, das gestörte Gleichgewicht wiederum
+               herzustellen.</p>
+            <p>So wie sich beide Geschlechter zum Ideal reiner und geschlechtsloser Menschheit
+               verhalten, so verhält sich auch ihre beiderseitige Schönheit zum Ideal der Schönheit.
+               In beiden, haben wir gehört, ist die Menschheit ausgedrückt, denn jedes stellt die
+               beiden, in ihr vereinten Naturen dar; nur dass in jedem eine dieser beiden Naturen
+               das Uebergewicht hat. Eben so kommt nun auch beiden Schönheit zu, aber in jedem
+               herrscht nur Ein Bestandtheil derselben, ohne jedoch den andern auszuschliessen. Wie
+               in der Menschheit sich die Naturnothwendigkeit mit der Freiheit gattet, so sehen wir
+               in der Schönheit die Materie mit der Form gepaart. Wie in der veredelten Menschheit
+               das Gebot der Vernunft als der freie Wunsch der Neigung, und die Stimme des Affects
+               als der Ausdruck des vernünftigen Willens erscheint; so erscheint in der hohen
+               Schönheit die Gesetzmässigkeit der Form als ein freies Spiel der Materie, und die
+               Geburt der Willkühr als ein Werk des Gesetzes. Wo sich daher die Menschheit zeigt, da
+               wird auch Schönheit möglich seyn; denn beide verhalten sich wie Wirklichkeit und
+               Erscheinung, Urbild und Abbild zu einander, und wie die Menschheit
+                  <emph>specificirt</emph> ist, so wird es auch jederzeit die Schönheit seyn. Der
+               Ausdruck strengerer Willensherrschaft wird in der männlichen Bildung mehr
+               Bestimmtheit der Formen erzeugen; der Ausdruck grösserer Naturfreiheit in der
+               weiblichen <pb n="1.352" xml:id="pbI352"/> mehr die Stätigkeit des Stoffs
+               unterstützen. Aber beide Gestalten müssten jedem Anspruch auf Schönheit entsagen,
+               wenn nicht jede diese beiden Vorzüge in sich vereinte, und es nicht bloss ein
+                  <emph>Uebergewicht</emph> Eines derselben wäre, welches die eine von der andern,
+               und beide vom Ideal unterscheidet. Denn erhaben über den Kampf, in den alles
+               Wirkliche durch seine Schranken verwickelt wird, und von der Eigenthümlichkeit frei,
+               welche die Gattungen von einander unterscheidet, behauptet das Ideal der Schönheit,
+               so wie das Ideal der Menschheit, das vollkommenste <emph>Gleichgewicht</emph>. Der
+               Formtrieb und der Sachtrieb werden daher gleich befriedigt, und tauschen in freiem
+               Spiel ihre gegenseitigen Functionen aus.<note type="footnote" n="2)" resp="gnd-118554727">Sowohl bei diesem, als den nächstfolgenden Absätzen wird der Leser ersucht, sich
+                  an den, in den <bibl>
+                     <title>Briefen über aesthetische Erziehung</title> im <biblScope unit="volume">1sten</biblScope> und <biblScope unit="volume">2ten</biblScope> St. der
+                        <orgName ref="gnd-4132118-2">Horen</orgName>
+                  </bibl> aufgestellten Begriff der Schönheit zu erinnern.</note>
+               <note type="footnote" n="i)" resp="gnd-116890657">
+                  <hi>Vgl. besonders <persName ref="gnd-118607626">Schiller</persName>, <bibl>
+                        <title>Sämmtliche Schriften</title>
+                        <biblScope unit="volume">10</biblScope>, <biblScope unit="page">323</biblScope>. </bibl>
+                  </hi>]</note>
+            </p>
+            <p>Wenn diess Gleichgewicht beider Principien der Schönheit gestört, nicht aber zugleich
+               auch ihre Verbindung aufgehoben wird; so entstehen statt der einfachen idealischen
+               Schönheit zwei verschiedene, aber minder vollkommene Gattungen. Beide bringen die
+               Harmonie hervor, welche das Schönheitsgefühl charakterisirt, aber jede geht diesem
+               Ziel auf einem andern Wege entgegen. Indem sich die eine durch einen überwiegenden
+               Ausdruck von Gesetzmässigkeit der Vernunft empfiehlt, so wird zugleich durch die
+               Anmuth der Darstellung die Einbildungskraft ins Interesse gezogen; indem die andere
+               durch eine scheinbare Willkührlichkeit der Einbildungskraft schmeichelt, so
+               unterwirft sie dieselbe zugleich durch eine wahre Nothwendigkeit dem Gesetze. Diess
+               erfahren wir in der Einwirkung der Schönheit beider Geschlechter auf das Gefühl. Die
+               männliche fodert durch verwickeltere Formen zunächst nur den Verstand auf, dessen
+               Befriedigung sich erst später in das wahre Schönheitsgefühl auflöst. Die weibliche
+               giebt durch ihre einfacheren Formen der Einbildungskraft mehr Freiheit, und ladet
+               zunächst bloss durch Ueppigkeit des Stoffes die Sinne ein, bis erst bei längerem
+               Verweilen und tieferem Studium auch die ernsteren Foderungen der Schönheit befriedigt
+               werden. Weil aber auf diesem Wege immer ein Uebergewicht auf der einen Seite,
+               folglich auf der andern ein Mangel bleibt, so thut keine von beiden dem aesthetischen
+               Gefühl Genüge, welches seiner <pb n="1.353" xml:id="pbI353"/> Natur nach zum
+               Vollendeten strebt, und sich nicht eher, als beim Ideale zur Ruhe giebt. Von der
+               einen Bildung geht es daher zur andern über, und strebt, indem es durch die
+               Eigenthümlichkeiten der einen die entgegengesetzten der andern aufhebt, beide in ein
+               Ganzes zu verknüpfen, um wenigstens Augenblicke lang das Ideal festzuhalten. Diese
+               Beziehung der zweifachen Geschlechtsbildung auf die idealische Schönheit macht, dass
+               jede nur eigentlich insofern wahrhaft schön erscheint, als ihr die andere
+               gegenübersteht, jede (um ein kühneres Bild zu gebrauchen) nur einen Accord anschlägt,
+               welcher erst in der andern vollkommen austönt. Auch hier stehen die Geschlechter in
+               gegenseitiger Abhängigkeit von einander; denn beschränkt für sich, gewinnen sie auch
+               hier nur durch ihre innige Gemeinschaft Vollendung. Aber eben so wie die Schranken
+               der Geschlechtsbildung die Phantasie unaufhörlich zu Hervorbringung des Ideals
+               auffodern, so führen die Schranken dieses Vermögens nothwendig wieder zu der
+               Geschlechtsbildung zurück. Vergebens würde die Phantasie die Herrschaft der Form
+               gegen die Freiheit des Stoffs völlig gleichmässig abzuwägen versuchen; denn da sie
+               immer nur von Einer Seite ausgehen könnte, so würde sie auch entweder der einen oder
+               der andern ein Uebergewicht einräumen, und dadurch, ohne es selbst zu bemerken, zur
+               männlichen und weiblichen Bildung zurückkehren. </p>
+            <p>Wenn nun aber das nach Vollendung strebende ästhetische Gefühl von der einen
+               Geschlechtsbildung unbefriedigt zur andern übergeht, so wird es hierin selbst von der
+               eigenthümlichen Beschaffenheit beider unterstützt. Denn ihrer charakteristischen
+               Verschiedenheiten ungeachtet, nähern sich die männliche und weibliche Bildung dadurch
+               einander, dass in jeder dem besondern Ausdruck des Geschlechts der allgemeine
+               Ausdruck der Menschheit zur Seite steht. Indem die Uebereinstimmung mit dem Ideal, zu
+               welcher der letztere berechtigt, durch die Schranken des ersteren begränzt wird.
+               entstehen die besondren Arten der Schönheit, die wir die männliche und die weibliche
+               nennen. Ohne den Charakter des Geschlechts besässe der Mann keine eigenthümliche
+               Schönheit, ohne den Charakter der Menschheit überhaupt keine Schönheit; und eben
+               diess ist mit dem Weibe der Fall, wenn gleich die weibliche Bildung, gerade insofern
+               sie weiblich ist, der Schönheit näher verwandt scheint. Ueberall muss man sich
+               gewöhnen, das Geschlecht als Schranke zu betrachten, da es von der Summe der Anlagen,
+               welche der Begriff der Gattung in sich fasst, immer eine <pb n="1.354" xml:id="pbI354"/> gewisse Anzahl einseitig ausschliesst. In der Menschheit hebt es
+               die gegenseitige Freiheit auf, mit welcher die Selbstthätigkeit und Empfänglichkeit
+               in dem Ideale zusammenwirken, und damit sich jede in einem eigenen Wesen darstelle,
+               muss (da sie einander doch niemals ganz entbehren können) die eine der andern
+               untergeordnet werden. Wo nun die Selbstthätigkeit die Empfänglichkeit unterdrückt, da
+               muss auch in der Erscheinung der Stoff der Form dienen, und das Gegentheil muss da
+               Statt finden, wo die Selbstthätigkeit der Empfänglichkeit weicht. Alle Schönheit aber
+               beruht auf einer <emph>freien Verbindung</emph> der Form mit dem Stoff, und wenn sich
+               dieselbe auch (insofern man von ihren höchsten Graden abstrahirt) mit dem einseitigen
+               Uebergewicht eines ihrer beiden Elemente verträgt, so erlaubt sie doch nie gänzliche
+               Unterdrückung des andern, oder was auf dasselbe hinausläuft, wirkliche Trennung
+               beider.</p>
+            <p>Kaum ist es indess nöthig, dasjenige noch aus Begriffen beweisen zu wollen, was sich
+               schon innerhalb des Kreises der Erfahrung so mannigfaltig bestätigt. Im Mann und im
+               Weibe findet unser ästhetisches Gefühl nur insofern Schönheit, als der Charakter der
+               Menschheit den Charakter des Geschlechts veredelt hat. Der uncultivirte männliche
+               Naturcharakter, ausser Zusammenhang mit dem moralischen Menschencharakter betrachtet,
+               drückt den Zügen das Gepräge der Härte und Gewaltthätigkeit auf, und die zu scharfe
+               Zeichnung der Form verbannt alle Weichheit des Stoffs, ohne deswegen auch nothwendig
+               den Verstand durch Gesetzmässigkeit zu befriedigen. Dagegen zeigt die weibliche
+               Bildung, wenn wir uns die Weiblichkeit gleich entblösst von menschlicher Cultur
+               denken, eine plumpe Masse, die allein Trägheit und Schlaffheit verräth, und der
+               Ueberfluss des Stoffs unterdrückt alle Spuren der Form. Unfähig zu jedem freieren
+               Aufschwung, wird die Gestalt nur durch den Ausdruck der Begierde belebt, und giebt
+               dadurch das widrige Bild einer kraftlosen Heftigkeit. Könnte man sich daher den
+               Geschlechtscharakter vereinzelt denken, so würde der Ausdruck der zeugenden Kraft
+               bloss in gewaltthätiger Anstrengung der Energie, der Ausdruck der empfangenden allein
+               in üppigem Uebermaasse des Stoffs bestehen, und indem jener dem auf einzelne Zwecke
+               gerichteten Verstande, dieser der groben Sinnlichkeit einseitig Genüge thäte. würde
+               jeder den ästhetischen Sinn unbefriedigt lassen.</p>
+            <p>Dass der Geschlechtscharakter in der That nur in Verbindung <pb n="1.355" xml:id="pbI355"/> mit dem höheren Menschencharakter der Schönheit fähig ist, wird
+               alsdann noch anschaulicher, wenn man ihn getrennt von diesem betrachtet. Unmittelbar
+               wie man das Gebiet der Menschheit verlässt, sinkt auch die Schönheit herab; aber
+               unmittelbar zeigt sich auch alsdann zwischen beiden Geschlechtern eine, in ihren
+               wesentlichen Eigenthümlichkeiten nothwendig gegründete Verschiedenheit. Das männliche
+               Geschlecht behält, auch wenn es gänzlich auf seinen blossen Naturcharakter
+               zurückgesetzt ist, doch immer den Ausdruck einer Kraft, die zwar, von roher Wildheit
+               begleitet, furchtbar und zurückstossend ist, aber doch immer, zumal wo alle
+               moralische Foderungen hinwegfallen, Interesse und Staunen erweckt. In dem weiblichen
+               hingegen unterdrückt alsdann die Materie die Kraft, und dieser Verlust wird durch
+               keine Anmuth vergütet. Hieraus muss man sich die auffallende Erscheinung erklären,
+               dass im Thierreiche beide Geschlechter in Absicht auf ihre Schönheit in einem so
+               gänzlich umgekehrten Verhältniss, als in der Menschheit, stehen. Denn anstatt dass im
+               Menschen das schwächere Geschlecht dem stärkeren an Schönheit nicht nur vollkommen
+               gleich ist, sondern es sogar darin übertrift; so sind dagegen durchaus alle weibliche
+               Thiere auffallend weniger schön, als die männlichen ihrer Gattung. Vergebens würde
+               man den Grund dieser Verschiedenheit in dem organischen Körperbau aufsuchen wollen,
+               da die, aus der eigentlichen Structur des Körpers erkennbaren Ursachen der
+               Geschlechtsverschiedenheit, der Analogie der Naturgesetze zufolge, nothwendig überall
+               dieselben seyn müssen. Auch findet man bei den Thieren in der That dieselben
+               physischen Eigenthümlichkeiten der Geschlechter, wie bei dem Menschen; auch dort ist
+               das weibliche, in Vergleichung mit dem männlichen, durchaus kleiner, schwächer, von
+               zarterem Knochenbau, und mit mehr Masse begabt. Die allgemeine Natur der Thierheit
+               ist es daher, welche allein den Grund jener Erscheinung enthält. Unfähig durch sich
+               selbst Ansprüche auf Würde zu machen, sinkt dieselbe durch weibliche Kleinheit.
+               Schwäche und Weichheit gänzlich herab, und kann nur noch durch männliche Grösse,
+               Kraft und Festigkeit gewinnen. Da die physische Schwäche der Weiblichkeit in ihr
+               nicht durch moralische Stärke gehoben wird, so erscheint dieselbe als blosser
+               Ausdruck des Unvermögens, der auch in der weiblich-menschlichen Gestalt erst
+               ausgelöscht seyn muss, wenn sie der Schönheit fahig seyn soll; da aber von der
+               thierischen Gestalt nur physische Vorzüge gefodert werden, <pb n="1.356" xml:id="pbI356"/> so schadet es dagegen nichts, wenn der Ausdruck männlicher
+               Unabhängigkeit in einen Ausdruck gesetzloser Willkühr ausartet.</p>
+            <p>Ohne indess bis zur Thierheit hinabzusteigen, lassen sich die obigen Behauptungen
+               auch durch Beispiele aus der menschlichen Natur selbst bestätigen. Unter denjenigen
+               Nationen, die noch, ohne alle Cultur, im ursprünglichen Stande der Wildheit leben,
+               ist die Gestalt der Weiber fast eben so wenig an Schönheit mit der Gestalt der Männer
+               vergleichbar; und wenn man auch unter gebildeten Nationen hie und da ähnliche
+               Ungleichheiten bemerkt, so würde eine genauere Untersuchung wahrscheinlich auch auf
+               ähnliche Ursachen führen. Wenigstens sehen wir auch unter uns, dass, wo männliche und
+               weibliche Gestalten das Gepräge ausschweifender Sittenlosigkeit an sich tragen, wo
+               die Menschheit in ihnen entadelt, und die Freiheit der Vernunft unterdrückt ist, die
+               letzteren immer einen noch ekelhafteren und widrigeren Eindruck hervorbringen, als
+               die ersteren, die wenigstens noch durch den Ausdruck physischer Kraft eine gewisse
+               Haltung bekommen. In allen diesen Fällen nun kehrt dieselbe Erscheinung zurück;
+               überall ist die weibliche Gestalt nur für den höchsten Ausdruck geschaffen, und wenn
+               sie nicht in menschlicher Schönheit auftritt, so ist ihr Schönheit überhaupt fremd.
+               Freilich aber gilt diess allein bei der ästhetischen Beurtheilung; nur da, wo der
+               Mensch, nicht das Geschlecht die Entscheidung fällt. Hier schmeichelt ohne
+               Unterschied die Bildung des einen Geschlechts der Neigung des andern, und leicht
+               gewinnt hier jedes bei dem andern den Preis. Nur wo in feiner organisirten Seelen das
+               Gefühl für das Schöne alle Empfindungen harmonisch gestimmt hat, ist auch diese
+               Neigung höheren Foderungen untergeordnet, nur da wird der blosse Geschlechtstrieb in
+               menschliche Liebe verwandelt, und von dem beschränkten Gebiet der Sinne in das
+               idealische der Phantasie hinübergeführt. Sonst dehnt sich vielmehr diese Unlauterkeit
+               des Geschmacks auf alle Gegenstände aus, die nur irgend diese Seite berühren; und
+               untersuchten wir die Urtheile genau, die im Kreise des gesellschaftlichen Lebens über
+               Bildung, Mode, Anstand, über Kunstwerke, Theater, Schriften u. s. w., kurz über alles
+               gefällt werden, was im weitesten Verstande zum Gebiete des Geschmacks gehört, so
+               würden wir mit Erstaunen wahrnehmen, wie selten uneigennütziger Beifall ächte
+               Schönheit krönt.</p>
+            <p>Der Geschlechtscharakter ist also als eine Schranke anzusehen, welche die männliche
+               und weibliche Schönheit von der idealischen <pb n="1.357" xml:id="pbI357"/> entfernt;
+               und so lange er auf die Form Einfluss hat, wird er es derselben unmöglich machen,
+               sich zum Ideal zu erheben. Aber da es das Gesetz der endlichen Natur ist, nur
+               vermittelst der Schranken zum Unendlichen aufzusteigen, nur durch Materie zur Form,
+               und nur durch Trennung zur Harmonie zu gelangen; so ist die Geschlechtsschönheit,
+               obgleich sie für sich allein der Idealschönheit ewig widerspricht, doch der einzige
+               Weg zu derselben. Ueberdiess ist der Mensch nur, insofern er dem Geschlecht angehört,
+               an diese Schranke gebunden, aber insofern er zugleich die Anlagen zur freien
+               geschlechtslosen Menschheit in sich trägt, davon losgesprochen. Vermöge der letztern
+               kann er die Vollendung, welche die Gränzen seines Geschlechts ihm versagen, sich
+               durch Freiheit erwerben, und seinen einseitigen Naturcharakter durch seinen
+               moralischen zum Ideal ergänzen; und je lebendiger dieser, sey es durch die Gunst der
+               Natur, oder durch die innere Wirksamkeit der Vernunft, auch aus der äussern Bildung
+               spricht, desto mehr verliert der Ausdruck des Geschlechtscharakters seine
+               Einseitigkeit. Wir sehen aus der Verbindung der Menschheit mit dem Geschlecht eine
+               neue mittlere Schönheit hervorgehn, und diese ist es, welche man gewöhnlich unter der
+               männlichen und weiblichen Schönheit versteht. In ihr ist das Gleichgewicht des Ideals
+               nur um so viel gestört, als es die Beschränktheit endlicher Naturen nothwendig macht,
+               und diese Störung selbst ertheilt der Gestalt eine so individuelle Mischung der Züge,
+               dass sie dadurch einen neuen Zauber gewinnt. Es ist weder die Menschheit allein, noch
+               das Geschlecht, welches im Mann und im Weibe erscheint; eigne, in sich geschlossene
+               Gestalten sind beide, welche weder an jene, noch an dieses einseitig erinnern. Der
+               Ausdruck der männlichen Stärke, welche vereinzelt für sich zu leicht das Ansehn
+               physischer Gewalt erhält, wird durch den Ausdruck menschlicher Würde gemildert, und
+               die blinde Herrschaft der Willkühr, die den Mann, ehe er sich der Herrschaft der
+               Vernunft unterwirft, in eine bedenkliche Anarchie versetzt, kündigt sich als
+               moralische Freiheit an. So weicht in den Idealen der Kunst der männliche Trotz des
+               Heroen der milden Erhabenheit des Gottes, und so finden wir in diesem den Charakter
+               der Männlichkeit, der fast bis auf seine letzten Spuren vertilgt ist, nur in seiner
+               Uebereinstimmung mit der reinen Menschheit wieder.</p>
+            <p>Noch inniger aber ist in der weiblichen Schönheit die Weiblichkeit mit der Menschheit
+               verbunden; und noch mehr, als in <pb n="1.358" xml:id="pbI358"/> der männlichen, geht
+               aus beiden eine neue mittlere Bildung hervor, welche, indem sie ihre Züge zugleich
+               von beiden entlehnt, den einseitigen Ausdruck jeder gleich täuschend verbirgt. Denn
+               selbst in den höchsten Graden der Vollendung erhält sich der Ausdruck der
+               Weiblichkeit unverkennbar neben dem Ausdruck der reinen Menschheit, und wenn er auch
+               unaufhörlich in ihn überfliesst, so geht er doch nie ganz in demselben unter. Allein
+               dieser Eigenthümlichkeit ungeachtet, vermag dennoch das Weib nicht weniger, als der
+               Mann, seiner Schönheit eine von der einseitigen Geschlechtsbildung unabhängige
+               Vollendung zu geben. Zwar kann weder die überwiegende Herrschaft des Stoffs gänzlich
+               aufgehoben, noch der Ausdruck physischer Schwäche und Abhängigkeit vertilgt werden,
+               welcher immer die weibliche Gestalt begleitet. Aber indem die freie Kraft der
+               Menschheit sich jener physischen Schwäche zur Seite stellt, bringt sie das Bild einer
+               moralischen, durch sich selbst gemässigten Stärke hervor, und eben so wird jene
+               Naturabhängigkeit in eine freiwillige Unterwerfung unter ein selbstgegebenes Gesetz
+               verwandelt. Gleich ungehemmte Kraft spricht daher aus der männlichen und weiblichen
+               Bildung, nur dass sie in der ersteren sich über einen schrankenlosen Wirkungskreis zu
+               verbreiten, in der letzteren sich freiwillig zu mässigen scheint.</p>
+            <p>Weil aber beide Geschlechter nie der Endlichkeit entfliehn, so setzt sich dieser
+               idealischen Vollendung der Gestalt in beiden ein ewiges Hinderniss entgegen; und nie
+               ist die höchste Schönheit in der Wirklichkeit erreichbar. Das Endliche müsste zum
+               Unendlichen werden, wenn jenes Gleichgewicht in der Erscheinung dargestellt werden
+               sollte, und selbst dann würde kein menschlicher Sinn es aufzufassen vermögen. Allein
+               auch hier zeigt der Ausdruck des zweifachen Geschlechtscharakters einen Weg, sich dem
+               Ziele zu nähern, und auch dem Betrachter kommt er zu Hülfe, der sich von der
+               Erscheinung zur Idee zu erheben versucht. Da beide Geschlechtsbildungen mit der rein
+               menschlichen verwandt sind, so wecken sie beide das Gefühl ächter Schönheit in ihm;
+               da aber jede eine besondere Gattung ausmacht, so wird auch seine Aufmerksamkeit durch
+               jede vorzugsweise auf eine der beiden Gattungen der Schönheit geheftet. Dadurch
+               empfängt er beide Elemente des Ideals einzeln und in verständlicher Klarheit, ohne
+               dass doch die Einheit aufgelöst wird, in welcher das Wesen desselben besteht.
+               Ungestört kann er es nun durch die Schöpfungskraft seiner Phantasie zu bilden
+               versuchen, und sich, indem er <pb n="1.359" xml:id="pbI359"/> auch hier, wie überall,
+               von der Wirklichkeit ausser ihm nur den beschränkten Stoff entlehnt, durch innere
+               selbstthätige Kraft zur schrankenlosen Idee erheben.</p>
+            <p>Man mag daher objectiv auf die Bildung der Geschlechter selbst, oder subjectiv auf
+               den Eindruck sehen, den sie hervorbringen; so muss der Geschlechtscharakter, der nur
+               in Vergleichung mit dem Ideal eine einengende Gränze ist, in Rücksicht auf die
+               Schranken endlicher Naturen vielmehr ein Mittel zur Vollkommenheit heissen. Der
+               Ausdruck des männlichen hebt in der Bestimmtheit der Züge die <emph>Herrschaft der
+                  Form</emph> mehr heraus, und da ihn der Ausdruck der reinen Menschheit mildernd
+               begleitet, so kann er sich nicht weiter vom Ideale entfernen, als an sich nothwendig
+               ist, jene Eine Seite des letzteren vorzugsweise darzustellen. Der Ausdruck des
+               weiblichen zeigt in der Anmuth der Züge die <emph>Freiheit des Stoffs</emph> in einem
+               lebhafteren Bilde, und wird auf eben die Weise von demselben Ausdruck der reinen
+               Menschheit beherrscht. Der Mann erscheint nun feuriger, das Weib sanfter, als man
+               sich den geschlechtslosen Menschen denkt; und daher pflegt man zu sagen, dass die
+               männliche Schönheit zur Anstrengung auffodere, die weibliche zur Ruhe einlade. Allein
+               diese Ausdrücke schildern nur die gemeine Wirkung der verschiednen Geschlechtsbildung
+               auf wenig verfeinerte Sinne, und vorzüglich den Eindruck, welchen die Gestalt des
+               einen Geschlechts in dem andern hervorbringt. Wenn die angestrengte Kraft des Mannes
+               erquickende Ruhe, die unbestimmte Sehnsucht des Weibes bestimmende Einheit sucht, so
+               muss beiden ihre gegenseitige Gestalt Befriedigung gewähren, die aber, weil sie
+               Bedürfnissen entspricht, immer eigennützig und der ästhetischen Beurtheilung
+               nachtheilig ist.</p>
+            <p>Wo sich der Mensch der Betrachtung des Schönen weiht, da muss er sich von aller
+               Partheilichkeit lossagen, und geschlechtslos allein der Menschheit angehören. Nur in
+               solchen glücklichen Momenten gelingt es ihm, sein Wesen zu dem höchsten
+               Gleichgewichte zu stimmen, und die Kräfte, womit er der Natur und womit er der
+               Gottheit verwandt ist, in Eins zu verschmelzen. Zu diesem Ziel führt ihn die
+               männliche und weibliche Form auf verschiedenen Wegen. Die weibliche bezaubert zuerst
+               die Sinne durch ihre Anmuth; da aber der Stoff ganz Form, die scheinbare Willkühr
+               ganz Nothwendigkeit, und die Fülle des sinnlichen Reizes nur Ausdruck zarter und
+               feiner Geistigkeit ist, so fliesst die zuerst <pb n="1.360" xml:id="pbI360"/>
+               geweckte sinnliche Empfindung in unentweihter Reinheit in die geistige über. Die
+               männliche fodert, indem sie zu den Sinnen spricht, unmittelbar zugleich durch
+               Bestimmtheit den Geist zur Thätigkeit auf; da aber die Form in ihr als Stoff, die
+               Nothwendigkeit als Freiheit, und die geistige Würde in dem Gewande sinnlicher Anmuth
+               auftritt, so geht die zuerst rege gemachte geistige Empfindung in die sinnliche über.
+               Dort geht das Gemüth vom Spiel zum Ernst, hier vom Ernst zum Spiele; und da in beiden
+               Fällen zwei verschiedene Empfindungen entstehen, zwischen welchen das Gemüth
+               unaufhörlich schwankt, und die es immer reproducirt; so bringt jede beider Bildungen
+               eine gemischte Stimmung hervor, in welcher der eigenthümliche Charakter einer jeden
+               durch den entgegengesetzten gemässigt ist. Die weibliche Gestalt legt durch diese
+               Verbindung ihre erschlaffende, die männliche ihre anspannende Eigenschaft ab; und
+               indem die erstere mit Kraft beseelt, die letztere durch Anmuth gemässigt wird, wirken
+               beide belebend auf das Herz. Dagegen hängt die Zuneigung zu jeder der beiden Formen
+               von der Uebereinstimmung des eignen Charakters mit dem ihrigen ab, und die sanftere
+               Empfindung wird lieber bei der weiblichen, die mehr energische bei der männlichen
+               Schönheit verweilen. Indem nun auf diese Weise die Betrachtung jeder von einer ihr
+               analogen einseitigen Stimmung auszugehn, aber eine gemischte hervorzubringen pflegt,
+               so wird das Gemüth immer von der einen für die andere, und dadurch von beiden für die
+               Ideal-Schönheit empfänglich gemacht.</p>
+            <p>Nie wird daher der Künstler, der nach der höchsten Wirkung streben soll, das Studium
+               beider Gestalten von einander trennen, oder sich ausschliesslich der Darstellung
+               Einer widmen dürfen. Aber selbst bei der sorgfältigsten Vermeidung einer solchen
+               Einseitigkeit wird er doch nie in beiden gleich glücklich seyn, und nie ganz die
+               Neigung überwinden können, die ihn überwiegend zu der Einen hinzieht. Denn auch das
+               Kunstgenie fühlt den Einfluss des Geschlechtscharakters, und das angestrengteste
+               Bemühen nach reiner Idealität wird denselben doch nur zu veredlen, schwerlich aber zu
+               vertilgen vermögen. Die männliche Bildung befriedigt sichtbarer durch Richtigkeit der
+               Verhältnisse die Anfoderungen der <emph>Kunst</emph>, die weibliche durch Anmuth der
+               Umrisse die Anfoderungen des <emph>Gefühls</emph> an die Schönheit. Das Gefühl aber
+               ist nur dann ein sichrer Führer, wenn der Verstand es ausgebildet hat, und der
+               angehende Künstler muss sich daher zuerst an der <pb n="1.361" xml:id="pbI361"/>
+               männlichen Gestalt üben, wo er den technischen Theil der Kunst fest und deutlich
+               gezeichnet findet. Erst wenn er in diesem Studium beträchtliche Fortschritte gemacht
+               hat, wird es auch seinem Auge gelingen, dieselbe Nothwendigkeit der Form auch unter
+               der Hülle weiblicher Anmuth zu entdecken, und der letzte schwere Schritt seiner
+               Ausbildung wird es seyn, diese Nothwendigkeit darzustellen, ohne der Grazie zu
+               schaden. In den höchsten Graden der Vollendung ist die Darstellung der weiblichen
+               Schönheit schwerer; denn zu allen Foderungen, welche die männliche an den Künstler
+               macht, kommt noch die schwierigste hinzu: indem er die strengste Gesetzmässigkeit
+               beweist, den Schein derselben zu vermeiden. Verlangt man hingegen nur geringere
+               Vollkommenheit, so ist die weibliche Gestalt wieder leichter. Denn wenn in der
+               männlichen jeder Fehler gegen die Wahrheit zu sichtbar ist, und es schon ein tieferes
+               Studium erfodert alle zu vermeiden; so begnügt sich dagegen bei der weiblichen der
+               mittelmässige Künstler, so wie der gewöhnliche Beurtheiler mit der blossen
+               Aussenseite der Weiblichkeit, mit Weichheit, Gefälligkeit und Reiz, und übersieht
+               darüber leichter wenn nicht wirkliche Unwahrheit, doch wenigstens Leere.</p>
+            <p>Selbst in dem ächten Künstler, der aber vorzugsweise für weibliche Schönheit gestimmt
+               ist, macht zuerst die Phantasie ihre Ansprüche auf sanfte Stätigkeit und liebliche
+               Anmuth geltend, und selbst er fängt von dem sinnlichen Theile der Kunst an (wenn der
+               Ausdruck erlaubt ist), nur dass er nicht auch dabei stehen bleibt, sondern von da zur
+               Idee übergeht. Diese sucht er nun in ihrer höchsten Lauterkeit und Präcision
+               aufzufassen und darzustellen; aber wegen jenes Uebergewichts der Phantasie besitzt er
+               nicht sowohl Schärfe als Feinheit des Blicks, nicht sowohl Kühnheit als Zartheit der
+               Hand, und scheint nicht sowohl die einzelnen Züge genau zu unterscheiden, als er
+               vielmehr das Ganze durch kaum bemerkbare Uebergänge verbindet. Gerade umgekehrt
+               werden in dem, mehr für männliche Schönheit gestimmten zuerst die Foderungen des
+               Geistes auf Bestimmtheit und Nothwendigkeit der Form rege; er fängt von dem geistigen
+               Theile der Kunst an, ergreift mit tiefeindringendem Blick den Charakter der Gestalt,
+               und zeichnet ihn mit kraftvollen Zügen, indem er ihn zugleich in anmuthige Grazie
+               kleidet, und sich dadurch von der Wahrheit zur Schönheit erhebt. Zwar ist es
+               unvermeidlich, bei Schilderungen, wie die hier entworfenen sind, nicht das noch zu
+               sehr zu trennen, <pb n="1.362" xml:id="pbI362"/> was in der Wirklichkeit innig
+               verbunden ist; allein unläugbar wird doch ein solches Uebergewicht entgegengesetzter
+               Eigenschaften in diesen beiden verschiednen Künstleranlagen herrschen, und durch das
+               Studium des Ideal-Schönen zwar vermindert, nie aber gänzlich aufgehoben werden.</p>
+            <p>In welchen Verhältnissen man daher die verschiedne Geschlechtsbildung betrachten mag,
+               so findet man dieselbe immer in einer doppelten Beziehung: auf sich selbst und auf
+               das Ideal; und eben so wie beide Geschlechter durch ihre innern, sich gegenseitig
+               unterstützenden Anlagen die menschliche Kraft, über den Kreis der Endlichkeit hinaus,
+               erweitern, so führen sie durch ihre äussere verschiedne Gestalt das Schönheitsgefühl
+               dem Ideal entgegen. Denn so schwer sich auch die äussere Bildung aus der innern
+               organischen Bestimmung verständlich machen lässt, so belohnend ist es doch, selbst
+               den verborgnen Zusammenhang der Natur aufzusuchen; und hier bedarf es keiner mühsamen
+               Anstrengung, um sich zu überzeugen, dass keines von beiden Geschlechtern, seiner
+               innern Eigenthümlichkeit nach, unter einer andern Gestalt, als die es wirklich zeigt,
+               zu erscheinen im Stande war. In dem männlichen ist Uebergewicht der Kraft
+               charakteristisch und zwar einer Kraft, die zu zeugen bestimmt ist, sich schnell zu
+               sammeln vermag, und immer von Einem Punkt aus nach aussen hin strebt. Mit
+               Schnelligkeit sehn wir sie daher die Muskeln anspannen, mit Heftigkeit sich aller
+               hindernden Masse entledigen, und, ununterbrochene Thätigkeit athmend, den ruhigen
+               Genuss entfernen. Dadurch nähert sie sich der bildenden Kunst, die eben so, wie sie,
+               dem lebenden Princip Herrschaft in der todten Masse verschaft.</p>
+            <p>Die empfangende Kraft hingegen besitzt eine grössere Fülle; sie ist mehr gemacht,
+               Thätigkeit zu erwiedern, als ursprünglich zu erzeugen, aber was ihr an Feuer
+               gebricht, das ersetzt sie durch Beharrlichkeit. Durch ununterbrochene Stätigkeit der
+               Umrisse, Zartheit und Weichheit kündigt sich daher die Weiblichkeit auch in der
+               äussern Gestalt an, und ertheilt derselben dadurch, selbst wenn ihr die Schönheit
+               fehlt, doch wenigstens immer den Reiz des Angenehmen, das so oft mit dem eigentlich
+               Schönen verwechselt wird. Da sie nun zugleich keinem Theil sich überwiegend
+               vorzudrängen verstattet, und nur die höchste sinnliche Einheit ihr vollkommen
+               entspricht, so steht die weibliche Gestalt überhaupt der Schönheit näher, als die
+               männliche, und hat selbst da wenigstens die Form derselben, wo sie auch ihren Gehalt
+               ent- <pb n="1.363" xml:id="pbI363"/> behrt. Denn da Freiheit von allem Zwang die
+               Seele jeder Schönheit ist, und die ächte Schönheit sich nur dadurch unterscheidet,
+               dass sie mit dieser Eigenschaft die höchste Realität und Bestimmtheit verbindet, so
+               muss schon die blosse Stätigkeit, Flüssigkeit und Kühnheit der Formen als ein
+               Analogon der Schönheit erscheinen, weil sie jenen wesentlichen Charakter derselben an
+               sich trägt. Hierauf gründet sich unstreitig die Foderung der Schönheit, die man
+               vorzugsweise vor dem männlichen Geschlecht an das weibliche richtet. Bei dem Mann ist
+               die Schönheit eine Zugabe und ein freies Geschenk der, über den einseitigen
+               Geschlechtscharakter siegenden Menschheit in ihm; von dem Weibe wird sie als eine
+               Schuld, die das Geschlecht entrichtet, wie die Weiblichkeit selbst, verlangt. Wie
+               diese, kann sie daher auch bei der Beurtheilung des Innern in Betrachtung kommen, und
+               gewissermaassen zur Pflicht gemacht werden; denn der innere Charakter der
+               Weiblichkeit kann keinen andern Ausdruck als Schönheit haben. Mit Unrecht aber würde
+               man diese noch gehaltlose Schönheit, die nur eine eigene beschränkte Gattung ist, mit
+               jener ächten und idealischen verwechseln, zu welcher vielmehr jedes Geschlecht sich
+               nur dadurch erhebt, dass es die reine Menschheit mehr in sich geltend zu machen, das
+               männliche, dass es mehr Freiheit, das weibliche, dass es mehr Nothwendigkeit zu
+               erlangen versucht.</p>
+            <p>Nicht immer aber wird durch diess doppelte Bemühen die eigentliche Schönheit erhöht.
+               Sehr oft erhält die Gestalt nur einen lebhafteren <emph>Ausdruck</emph> dadurch, und
+               der Ausdruck ist wesentlich von der Schönheit verschieden. Zwar werden in der
+               Erfahrung oft beide mit einander verwechselt, und nicht selten hören wir Bildungen
+               schön nennen, die bloss interessant heissen dürften. Wie sonst so oft durch die
+               Sinnlichkeit, so wird hier das ästhetische Gefühl durch den Verstand irre geführt,
+               und es bestätigt sich aufs neue, wie selten die harmonische Stimmung des Gemüths ist,
+               welche allein für Schönheit empfänglich macht. Wo der Ausdruck vorwaltet, da
+               beherrscht das Gemüth die Züge, und hindert sie, ihrer eignen Freiheit zu folgen.
+               Daher erklärt sich eine solche Bildung nicht, wie die bloss ästhetische, durch sich
+               selbst, und die Aufmerksamkeit wird von der äussern Gestalt auf den innern Charakter
+               gezogen. Die bloss gefällige Bildung hingegen verkündigt die höchste Freiheit der
+               Züge: an keinen bestimmten Ausdruck gebunden, überlassen sie sich allein einer
+               anmuthigen Stätigkeit. Darum wird zwar hier das Auge nicht von <pb n="1.364" xml:id="pbI364"/> der Gestalt hinweg zu etwas anderm hinübergeführt, aber es ist
+               ihm gleich unmöglich, auf dieser Leerheit zu verweilen. Nur die schöne Gestalt, die
+               zwischen beiden in der Mitte steht, enthält, in sich vollendet, zugleich alles, was
+               dem Sinn und was dem Geiste genügt, und nur in ihr ist der inhaltvollste Ausdruck
+               zugleich mit der freiesten Anmuth der Züge verbunden. Darum aber findet nun auch der
+               Betrachter in ihr seine kühnsten Erwartungen übertroffen, und da er das ganze Wesen
+               in vollkommener Einheit erblickt, so trennt seine Phantasie nicht mehr die äussre
+               Gestalt von der innern Bedeutung. Also nicht deswegen, weil ihr der Charakter
+               mangelt, sondern deswegen, weil sie ihn nicht auf Unkosten der Freiheit hervorstechen
+               lässt, ist die Schönheit von dem Ausdruck zu unterscheiden. Indem sich der letztere
+               bloss auf die Darstellung des <emph>gegenwärtigen</emph> Zustandes, also auf eine
+               enge Wirklichkeit beschränkt, drückt die Schönheit vielmehr das <emph>Total</emph>
+               des Charakters, und das unendliche Vermögen desselben aus, aus welchem alle einzelnen
+               Aeusserungen fliessen. Da aber das Unendliche in der Erscheinung unerreichbar ist, so
+               bleibt freilich auch die höchste menschliche Schönheit in gewissem Verstande nur
+               Ausdruck, und so kommt es nur darauf an, den letzteren der Schönheit zu nähern. Von
+               einem Bilde des vorübergehenden Affects muss er zu einem Bilde des bleibenden
+               Charakters erhoben werden, und zwar eines Charakters, der nicht bloss von einer
+               Seite, sondern von allen harmonisch ausgebildet ist.</p>
+            <p>Eine auffallende Erscheinung ist es, dass, obgleich der Ausdruck der Schönheit sogar
+               Gefahr droht, dennoch der bessere Geschmack unsers Zeitalters fast ausschliesslich
+               auf ihn gerichtet ist. Sowohl in Gemählden als in den Werken der bildenden Kunst
+               vergessen wir Grazie und Schönheit über der Zeichnung der Charaktere, und oft nur der
+               momentanen leidenschaftlichen Stimmung derselben; dem Dichter übersehen wir Fehler
+               der Composition des Ganzen, auf welcher die Schönheit beruht, wenn er uns nur durch
+               Charakter-Ausdruck Genüge leistet, und eben so verzeihen wir dem Schriftsteller
+               überhaupt Mangel an kunstvoller Einheit der Darstellung, wenn er uns nur durch kühne
+               und originelle Wendungen interessirt. Der wahre Tonkünstler, der sich über den
+               willkührlichen Anspruch der Mode hinaussetzt, führt eine ähnliche Klage, und wer sich
+               gewöhnt hat, das Gesetz der Schönheit auch auf Gegenstände des täglichen Lebens
+               anzuwenden, der muss in unserm Umgang, unserm Anstand, unsern Sitten sehr <pb n="1.365" xml:id="pbI365"/> oft die nöthige Grazie und das Bestreben nach ächter
+               Schönheit vermissen, so sehr auch der Verstand durch den innern Gehalt und Charakter
+               im einzelnen befriedigt wird. Kaum ist es möglich, sich hiebei nicht an den Einfluss
+               zu erinnern, welchen zwei Nationen von ganz entgegengesetztem Charakter nach und nach
+               auf unsern Geschmack ausgeübt haben, und seine Blicke nicht erwartungsvoll auf eine
+               dritte zu richten, welche den Gehalt, wie die Form, wieder in ihre Rechte einsetzte
+               und beiden einander zu verdrängen wehrte, wenn sich von einem besondern
+               Nationalcharakter die Vollendung erwarten liesse, die nur das Werk des allgemeinen
+               Vernunftcharakters seyn kann. Aber so unmöglich es auch ist, anders als auf diesem
+               Weg zu der ächten Schönheit hindurchzudringen, so sehr ist man wieder in Gefahr,
+               gerade auf diesem Weg sie gänzlich zu verfehlen.</p>
+            <p>Noch mehr, als die Schönheit selbst, muss die Weiblichkeit von dieser Gefahr bedroht
+               werden, da sie nicht bloss der Schönheit so nah verwandt ist, sondern sich ihr gerade
+               von derjenigen Seite nähert, welche durch den Ausdruck verloren geht; und in der That
+               müsste man für die ächte Weiblichkeit im Ausdruck besorgt seyn, wenn man jenem
+               herrschenden Zeitgeschmack einen Einfluss auf weibliche Bildung zutrauen dürfte. Denn
+               auch hier wird nicht selten das Anziehende mit dem Schönen verwechselt, und unter den
+               verschiedenen Arten des Ausdrucks selbst dem stärker hervorstechenden der mehr sanfte
+               und gefällige nachgesetzt. Wie es überhaupt das Schicksal der Weiber ist, weit öfter
+               den einseitigen Foderungen der Sinne oder des Verstandes, als dem Urtheil reiner
+               Empfindung unterworfen zu werden, so wird auch bei Beurtheilung ihrer Schönheit (wenn
+               man sich ja über das Sinnliche erhebt) noch zu sehr auf irgend einen hervorstechenden
+               Ausdruck von Geist, Witz und Lebhaftigkeit Rücksicht genommen, und dagegen zu leicht
+               der Ausdruck eines ruhigen, aber sanften und zarten Gefühls übersehn. Auch jetzt noch
+               hat man sich nicht ganz entwöhnt, nur, was piquant ist, zu suchen, und gleich als
+               wäre man sich seiner Schlaffheit bewusst, überall einen erweckenden Reiz zu
+               verlangen. Darum wird gerade der höchste Charakterausdruck, dessen durchgängige
+               Harmonie der Schönheit am meisten empfänglich ist, auch jetzt noch am meisten
+               verkannt, und der mehr in die Augen fallende Glanz des Verstandes dem bescheidenen
+               Ausdruck der Empfindung vorgezogen, die sich nur durch Ueberspannung interessant
+               machen kann. Gerade die <pb n="1.366" xml:id="pbI366"/> ächtweiblichen Gestalten, die
+               nichts Ausgezeichnetes besitzen, aus welchen aber Zartheit des Gefühls, ruhige
+               Sittsamkeit, und ein anspruchloser Eifer für alles Wahre und Gute spricht, werden mit
+               dem zweideutigen Lobe zurückgewiesen, womit man die blosse Herzensgüte mehr zu
+               beschämen als zu belohnen pflegt. Nichts aber ist dem Charakter wahrer Weiblichkeit
+               in der äussern Bildung verderblicher, als diese Stimmung des Geschmacks, die,
+               obgleich sie sich, der besseren Richtung des Zeitalters nach, ihrem Ende naht, und
+               bald nicht mehr die herrschende seyn dürfte, doch noch immer zu allgemein ist. Denn
+               da die Eigenthümlichkeit der weiblichen Gestalt auf Freiheit und Harmonie des Ganzen
+               beruht, der Ausdruck aber immer einzelne Züge mehr oder minder heraushebt, so muss er
+               mit demselben in einem nothwendigen Widerstreit stehen, und sehr oft wird man die
+               Unweiblichkeit gewisser Bildungen in der blossen Stärke des Ausdrucks gegründet
+               finden.</p>
+            <p>Wer indess von der Vollkommenheit der weiblichen Gestalt, selbst in ihrer
+               Unabhängigkeit von der Schönheit, durchdrungen ist, der wird derselben deshalb nicht
+                  <emph>weniger</emph> Ausdruck beimessen wollen, als der männlichen. Sie muss
+               vielmehr, da sie sich ihrer Natur nach weniger an den Verstand, als an die Sinne
+               wendet, noch sorgfältiger Leerheit vermeiden. Zwar sind die Gränzen, innerhalb
+               welcher der Ausdruck spielen darf, in der weiblichen Gestalt gewiss enger gezogen,
+               nur dass der weibliche Körper, durch seine grössere Geschmeidigkeit, feinere
+               Verschiedenheiten bemerkbar zu machen fähig ist, und dadurch vorzugsweise Feinheit
+               des Ausdrucks besitzt. Denn nicht in einzelnen, scharf gezeichneten Zügen, sondern
+               innig in die ganze Gestalt verwebt, auf den ersten Blick kaum bemerkbar, und in edle
+               Einfachheit gekleidet, muss sich der innere Charakter in wahrhaft weiblichen
+               Bildungen darstellen. Ist aber diese vollkommene Harmonie unerreichbar, so ist es
+               sogar weiblicher, wenn die Seele sich nur durchzublicken genügt, als wenn sie sich
+               vorzudrängen strebt. Unstreitig ist also die weibliche Schönheit mit dem Ausdruck,
+               aber nur mit dem höchsten verträglich. Nur der Charakter, nicht der beschränkte
+               Zustand vorübergehender Neigungen und Affecte stellt sich mit Glück in ihr dar, und
+               auch jener nur in der harmonischen Einheit seiner Kräfte, und der Totalität seiner
+               Anlagen. Leichter verstattet daher die Weiblichkeit den Ausdruck der Phantasie und
+               Empfindung, als des Verstandes, da dieser mehr auf <pb n="1.367" xml:id="pbI367"/>
+               Trennung, wie jene auf Verbindung gerichtet ist. Allein selbst die Verstandeskräfte
+               wirken in dem Weibe weniger trennend als verbindend, woraus vorzugsweise die
+               eigenthümliche Erscheinung entspringt, die wir <emph>Geist</emph> nennen, und die der
+               Mann nicht immer mit gleicher Leichtigkeit erwirbt. Durchaus stehen daher Schönheit
+               und Weiblichkeit in gleichem Verhältniss zum Ausdruck in der Gestalt: auf gleiche
+               Weise droht er beiden Gefahr, und auf gleiche Weise ist er mit beiden zu
+               vereinigen.</p>
+            <p>Ganz anders verhält sich dagegen der Ausdruck zur Eigenthümlichkeit der männlichen
+               Bildung. Er mag auf einzelnen hervorstechenden Zügen beruhen, oder in die ganze
+               übrige Gestalt feiner verflochten seyn, sich vordrängen oder bescheidner zurückstehn;
+               so kann er zwar durch seine Stärke die Schönheit beleidigen, welche immer beide
+               Geschlechter einander näher führt, aber das Charakteristische der Männlichkeit wird
+               dabei eher gewinnen, als verlieren. Ist er daher bei dem weiblichen Geschlecht mehr
+               versteckt, als sich von der rein menschlichen Gestalt erwarten liesse, so ist er bei
+               dem männlichen deutlicher ausgesprochen. Deutlicher fällt er daher auch in der
+               männlichen Bildung ins Auge, da er bei der weiblichen dem ungeübten Blick sogar oft
+               entgeht. Weil aber die Uebereinstimmung in der männlichen Gestalt mehr gedacht als
+               empfunden wird, so scheint der männliche Ausdruck oft räthselhafter und sonderbarer,
+               als der weibliche, der mit der ganzen Gestalt in Verbindung steht, und durch dieselbe
+               erklärt wird. Eben darum aber erfodert der letztere, um vollkommen verstanden zu
+               werden, einen von Natur feinen und vielfach geübten Tact, jener mehr eindringenden
+               Scharfsinn, und durch Erfahrung unterstützte Urtheilskraft.</p>
+            <p>Das freieste Gebiet eröfnet sich dem Ausdruck in der Bewegung der Gestalt, und hier
+               vorzüglich entfaltet der weibliche Charakter seine ganze Eigenthümlichkeit. die sich
+               ungleich sichtbarer in dem wechselnden Minenspiel, als in den bleibenden Zügen des
+               Gesichts offenbart. Durchaus ist die Gestalt der Weiber sprechender, als die
+               männliche: und, der Harmonie einer seelenvollen Musik ähnlich, sind alle ihre
+               Bewegungen feiner und sanfter modulirt, da hingegen der Mann auch hier eine grössere
+               Heftigkeit und Schwere verräth. Da in der weiblichen Secle die Phantasie immer dem
+               Verstande, die Empundung der Vernunfi zuvoreilt, und dadurch beide, indem sie auch
+               selbst unaufhörlich in einander übergehn, gemeinschaftlich die Einheit des Gemüths
+                  <pb n="1.368" xml:id="pbI368"/> hervorbringen, nach welcher der Mann nur mit
+               mühsamer Anstrengung strebt; so ist bei den Weibern auch das innre Leben weniger von
+               der äussern Erscheinungsweise geschieden, und mit freiwilliger Leichtigkeit mahlt
+               sich die Seele in dem bildsameren Bau. Von selbst theilt sich den Zügen die
+               unbeschränkte Freiheit der Umrisse mit, durch welche der blosse Ausdruck in die
+               Schönheit überfliesst; denn nicht eine einzelne Bewegung, sondern die ganze Seele ist
+               es, die aus derselben spricht, und zwar eine weibliche Seele, die, weil Phantasie und
+               Empfindung in ihr herrschen, mehr das Harte und Feste, als das Schwankende und
+               Unbestimmte flieht. Aber nicht die Gestalt allein, auch die Stimme, die noch
+               mächtiger ist, unmittelbar die Empfindung zu wecken, trägt dieselbe Eigenthümlichkeit
+               in beiden Geschlechtern an sich. Sanfter und melodischer, aber in mannigfaltiger
+               wechselnden Schwingungen ertönt sie aus dem Munde des Weibes; einfacher, aber
+               eindringender und stärker aus dem Munde des Mannes, und beide drücken die Gefühle
+               ihrer Seele ihrem Charakter gemäss aus.</p>
+            <p>Auf jener zarten Bildsamkeit der weiblichen Gestalt, durch die sie ein treuer und
+               heller Spiegel des Innern wird, beruht der eigenthümliche Genuss, welchen der Umgang
+               mit dem andern Geschlecht gewährt. Nirgends spricht die Empfindung so unmittelbar zu
+               uns, und nichts vermag daher auch so tiefe Gefühle zu wecken, so harmonische
+               Stimmungen hervorzubringen. Den Mann, der durch seine Thätigkeit leicht aus sich
+               selbst herausgerissen wird, wieder in sich zurückzuführen; was sein Verstand trennt,
+               durch das Gefühl zu verbinden; seinen langsamern Fortschritten zuvorzueilen, und die
+               höchste Vernunfteinheit, nach der er strebt, ihm in der Sinnlichkeit darzustellen,
+               ist die schöne Bestimmung dieses Geschlechts, mit der auch die äussere Bildung
+               desselben aufs genaueste zusammenstimmt. Daher beruht auch die Macht des Weibes
+               vorzugsweise auf der lebendigen Gegenwart, wo nicht vor den Sinnen, doch vor der
+               Einbildungskraft. Zwar gilt eben diess auch von dem Manne, wenn er in dem ganzen Adel
+               seiner Bildung auftreten soll; auch seiner Gestalt ist eine Sprache eigen, welche das
+               Herz mächtig ergreift, und die Stimmungen seiner Seele mit den feinsten Zügen mahlt.
+               Allein um sein Inneres zu dieser Zartheit zu stimmen, und seinen äussern Bau einer
+               solchen Bildsamkeit fähig zu machen, muss er sich von seinem Geschlecht gleichsam
+               lossagen, und über den Naturzweck hinausgehen; also mehr leisten, als selbst seine
+               höhere Bestimmung <pb n="1.369" xml:id="pbI369"/> erheischt. Das weibliche Geschlecht
+               hingegen muss gerade jede weibliche Eigenthümlichkeit mit schonender Sorgfalt zu
+               erhalten bemüht seyn, um nicht jenen lebendigen Ausdruck seiner Gestalt selbst zu
+               zernichten; und wenn ihm diess Bemühen gänzlich mislingt; so sinkt es allein zu
+               seiner Naturbestimmung und den Verrichtungen des äussern alltäglichen Lebens herab,
+               oder geht zu Beschäftigungen über, die eigentlich nicht zu seinem Kreise gehören.
+               Denn auch hier ist die Weiblichkeit, sobald man die Gränzen des blossen Naturzwecks
+               verlässt, nur das <emph>Höchste</emph> zu geben geschaffen, und wer sich mit andern
+               Foderungen an sie wendet, der beweist bloss seine Unkenntniss des Geschlechts.</p>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte </title>
+            </head>
+            <p>Erster Druck: <bibl>
+                  <editor>
+                     <persName ref="gnd-118607626">Schiller</persName>s</editor>
+                  <title>
+                     <orgName ref="gnd-4132118-2">Horen</orgName>
+                  </title>, <date when="1795">Jahrgang 1795</date>
+                  <biblScope unit="issue">3</biblScope>, <biblScope unit="page">80—103</biblScope>.
+                     <biblScope unit="issue">4</biblScope>, <biblScope unit="page">14—40</biblScope>.</bibl>
+            </p>
+            <p>Als <persName ref="gnd-118607626">Schiller</persName> im Sommer <date when="1794">1794</date> die <orgName ref="gnd-4132118-2">Horen</orgName> gründete, hatte er
+                  <persName ref="gnd-118554727">Humboldt</persName> in den engeren
+               Redaktorenausschuß mit aufgenommen und dieser wurde durch das Erscheinen des Journals
+               und <persName ref="gnd-118607626">Schiller</persName>s Aufmunterung bewogen, seine
+               damaligen Studien über den menschlichen Charakter (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1797-03-07">7. März 1797</date> zum vorläufigen
+               Abschluß zu bringen in zwei Aufsätzen über die Geschlechter oder, wie sie in den
+               Briefwechseln des <persName ref="gnd-118607626">Schiller</persName>schen Kreises
+               heißen, über die Weiber. Schon eine Stelle der <title>Woldemarrezension</title> ließ
+               klar erkennen, daß er von diesem Punkte aus dem Geheimnis des Charakters nahezukommen
+               hoffte. Der erste Aufsatz wurde um <date when="1795-01">Neujahr 1795</date> fertig
+               und am <date when="1795-01-07">7. Januar</date> von <persName ref="gnd-118607626">Schiller</persName> an <persName ref="gnd-11856448X">Körner</persName> zur
+               Begutachtung gesandt (<bibl>
+                  <title>Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">97</biblScope>
+               </bibl>); das Manuskript des zweiten ging am <date when="1795-03-16">16. März</date>
+               an <persName ref="gnd-11852240X">Cotta</persName> ab (<bibl>
+                  <title>ebenda</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">146</biblScope>
+               </bibl>). Bei der Ausarbeitung hatte sich <persName ref="gnd-118554727">Humboldt</persName> der besonderen Teilnahme <persName ref="gnd-118607626">Schiller</persName>s zu erfreuen, dessen kritische Bemerkungen in erster Linie
+               dem Stil zu gute kamen (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1795-05-07">7. Mai 1795</date>). Trotzdem war er mit der Diktion unzufrieden
+               und glaubte darin unrecht getan zu haben, daß er seine Studien über den Charakter mit
+               diesen Erörterungen angefangen hatte, mit denen sie eigentlich hätten abschließen
+               sollen (an <persName ref="gnd-118607626">Schiller</persName>, <date when="1795-08-31">31. August</date> und <date when="1795-11-27">27. November 1795</date>). Zwei
+               Zitate aus <persName ref="gnd-116208503">Blumenbach</persName> und <persName ref="gnd-118554700">Alexander von Humboldt</persName>, die das Manuskript des
+               ersten Aufsatzes enthielt, wurden auf <persName ref="gnd-118607626">Schiller</persName>s Anraten gestrichen, um die Anonymität nicht zu durchsichtig
+               zu machen (<bibl>
+                  <title>
+                     <persName ref="gnd-118607626">Schiller</persName>s Briefe</title>
+                  <biblScope unit="volume">10</biblScope>, <biblScope unit="page">231</biblScope>
+               </bibl>; <bibl>
+                  <title>
+                     <persName ref="gnd-118607626">Schiller</persName>s Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">116</biblScope>
+               </bibl>). <persName ref="gnd-118607626">Schiller</persName> dachte vom Wert und der
+               Bedeutung der beiden Aufsätze sehr hoch: er fand darin trotz der noch immer nicht
+               ganz beseitigten Trockenheit der Schreibart einen schönen und großen Sinn und hoffte,
+               daß <persName ref="gnd-118554727">Humboldt</persName>s Ideen, namentlich wenn er sie
+               noch weiter ausführen würde, noch ganz kurrente Münze werden würden; ja er hatte die
+               Absicht selbst ihren Wert öffentlich ins Licht zu stellen (<bibl>
+                  <title>Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">91</biblScope>.
+                     <biblScope unit="page">284</biblScope>. <biblScope unit="page">343</biblScope>.</bibl>). <persName ref="gnd-11856448X">Körner</persName>, der
+               scharfe Kritiker der <persName ref="gnd-118554727">Humboldt</persName>schen Eigenart,
+               fand den Stoff gehaltvoll und mit Geist und Feinheit behandelt, hatte aber am Vortrag
+               allerhand, besonders das Abstrakte auszusetzen und vermißte an vielen Stellen die
+               individuelle Begeisterung (<bibl>
+                  <title>Briefwechsel zwischen <persName ref="gnd-118607626">Schiller</persName> und
+                        <persName ref="gnd-11856448X">Körner</persName>
+                  </title>
+                  <biblScope unit="volume">3</biblScope>, <biblScope unit="page">238</biblScope>
+               </bibl>). Von <persName ref="gnd-118540238">Goethe</persName> besitzen wir keine
+               Äußerung über den Eindruck der Aufsätze. <persName ref="gnd-118556312">Jacobi</persName> tadelte neben vielem Lobe das <persName ref="gnd-118607626">Schiller</persName>isierende des Stils (<bibl>
+                  <title>Auserlesener Briefwechsel</title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">219</biblScope>
+               </bibl>). Nur herben Spott hatte der romantische Kreis über die <persName ref="gnd-118554727">Humboldt</persName>schen Weiblichkeiten (<bibl>
+                  <title>
+                     <persName ref="gnd-118771272">Karoline</persName>
+                  </title>
+                  <biblScope unit="volume">1</biblScope>, <biblScope unit="page">168</biblScope>
+               </bibl>): <persName ref="gnd-118607987">Friedrich Schlegel</persName> erklärte, man
+               könne die Aufsätze wirklich nicht wohl verstehen (<bibl>
+                  <title>Briefe an seinen Bruder <persName ref="gnd-118607960">August
+                        Wilhelm</persName>
+                  </title>
+                  <biblScope unit="page">S. 236</biblScope>
+               </bibl>). Am meisten schmerzlich war <persName ref="gnd-118554727">Humboldt</persName> das Urteil <persName ref="gnd-118559796">Kant</persName>s,
+               das dieser brieflich <persName ref="gnd-118607626">Schiller</persName> ausgesprochen
+               hatte: er könne sich die Abhandlung, die an Schwärmerei grenze, nicht enträtseln, ein
+               so guter Kopf auch der Verfasser sei, da er selbst den Geschlechtsunterschied immer
+               als etwas Unerklärbares angesehen habe (<bibl>
+                  <title>Briefwechsel</title>
+                  <biblScope unit="volume">3</biblScope>, <biblScope unit="page">11</biblScope>
+               </bibl>); <persName ref="gnd-118554727">Humboldt</persName> wollte seine Darlegungen
+               gar nicht so transszendent genommen wissen (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1795-05-07">7. Mai 1795</date>, vgl. auch <bibl>
+                  <title>
+                     <persName ref="gnd-118607987">Friedrich Schlegel</persName>s Briefe an seinen
+                     Bruder <persName ref="gnd-118607960">August Wilhelm</persName>
+                  </title>
+                  <biblScope unit="page">S. 236</biblScope>
+               </bibl>, <bibl>
+                  <title>
+                     <persName ref="gnd-118607626">Schiller</persName>s Briefe</title>
+                  <biblScope unit="volume">4</biblScope>, <biblScope unit="page">170</biblScope>
+               </bibl> und <bibl>
+                  <title>Briefwechsel zwischen <persName ref="gnd-118626175">Rahel</persName> und
+                        <persName ref="gnd-119357704">David Veit</persName>
+                  </title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">232</biblScope>
+               </bibl>). Die Rezensenten der <orgName ref="gnd-4132118-2">Horen</orgName> gehen
+               zumeist mit den <persName ref="gnd-118554727">Humboldt</persName>schen Aufsätzen
+               streng ins Gericht (<bibl>
+                  <author>
+                     <persName ref="gnd-121429741">Braun</persName>
+                  </author>, <title>
+                     <persName ref="gnd-118607626">Schiller</persName> im Urteile seiner
+                     Zeitgenossen</title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">48</biblScope>.
+                     <biblScope unit="page">78</biblScope>
+               </bibl>). Um so erfreulicher war es für ihn, von naturhistorischer Seite in einem
+               wissenschaftlichen Werke über den Menschen zitiert zu werden (an <persName ref="gnd-118607626">Schiller</persName>, <date when="1795-09-28">28. September
+                  1795</date>).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

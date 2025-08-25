@@ -1,0 +1,1199 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Plan einer vergleichenden Anthropologie</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      <creation>
+           <date when="1795-09">September 1795</date>
+        </creation>
+        <settingDesc>
+            <setting>
+                <placeName ref="geo-2823708">Tegel</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Bruchstück</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philosophie</term>
+                <term>Anthropologie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+    </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="1.377" xml:id="pbI377"/>
+            <head>
+               <title type="main">Plan einer vergleichenden Anthropologie</title>
+            </head>
+            <div type="section" n="1">
+               <head>
+                  <title type="sub">1.</title>
+               </head>
+               <p>Wie man in der vergleichenden Anatomie die Beschaffenheit des menschlichen Körpers
+                  durch die Untersuchung des thierischen erläutert; ebenso kann man in einer
+                  vergleichenden Anthropologie die Eigenthümlichkeiten des moralischen Charakters
+                  der verschiedenen Menschengattungen neben einander aufstellen und vergleichend
+                  beurtheilen.</p>
+               <p>Geschichtschreiber, Biographen, Reisebeschreiber, Dichter, Schriftsteller aller
+                  Art, selbst den speculativen Philosophen nicht ausgenommen, enthalten Data zu
+                  dieser Wissenschaft. Auf Reisen, wie zu Hause, im geschäftigen, wie im müssigen
+                  Leben bietet sich überall die Gelegenheit dar, sie zu bereichern und zu benutzen,
+                  und unter allen Studien ist kein anderes in so hohem Grade unser beständiger
+                  Begleiter, als das Studium des Menschen. Es kommt nur darauf an, den reichen
+                  Stoff, den das ganze Leben hergiebt, zu sammeln, zu sichten, zu ordnen und zu
+                  verarbeiten.</p>
+               <p>Diess zu thun ist die vergleichende Anthropologie bestimmt, welche, indem sie sich
+                  auf die allgemeine stützt, und den Gattungs-Charakter des Menschen als bekannt
+                  voraussetzt, nur seine individuellen Verschiedenheiten aufsucht, die bloss
+                  zufälligen und vorübergehenden von den wesentlichen und bleibenden absondert, die
+                  Beschaffenheit dieser erforscht, ihren Ursachen nachspürt, ihren Werth beurtheilt,
+                  die Art sie zu behandeln bestimmt, und den Fortgang ihrer Entwicklung
+                  vorhersagt.</p>
+            </div>
+            <div type="section" n="2">
+               <pb n="1.378" xml:id="pbI378"/>
+               <head>
+                  <title type="sub">2. Wichtigkeit dieser Untersuchungen</title>
+               </head>
+               <p>Es giebt kein praktisches Geschäft im menschlichen Leben, das nicht der Kenntniss
+                  des Menschen bedürfte, und zwar nicht bloss des allgemeinen, philosophisch
+                  gedachten, sondern des individuellen, wie er vor unsern Augen erscheint. Es ist
+                  schwer bei der Erwerbung dieser Kenntniss den doppelten Fehler zu vermeiden, sich
+                  weder einen zu unbestimmten und allgemeinen, noch auch einen zu particulairen
+                  Begriff von dem Individuum zu bilden; es weder zu sehr bloss nach seinen möglichen
+                  Anlagen, noch zu sehr mit allen bloss zufälligen Beschränkungen zu betrachten.
+                  Durch den ersteren beraubt gewöhnlich der bloss speculirende Philosoph seine
+                  Grundsätze ihrer praktischen Anwendbarkeit; durch den letzteren der blosse
+                  Geschäftsmann seine Einrichtungen ihrer längeren Dauer und ihres wohlthätigen
+                  Einflusses auf die Aufklärung und den innern Charakter.</p>
+               <p>Um zugleich den Menschen mit Genauigkeit zu kennen, wie er ist, und mit Freiheit
+                  zu beurtheilen, wozu er sich entwickeln kann, müssen der praktische
+                  Beobachtungssinn und der philosophirende Geist gemeinschaftlich thätig seyn. Diese
+                  Verbindung aber wird beträchtlich erleichtert, wenn die individuelle
+                  Charakterkenntniss in einer vergleichenden Anthropologie zu einem Gegenstände des
+                  wissenschaftlichen Nachdenkens erhoben wird, und wenn man in derselben von den
+                  Eigenthümlichkeiten verschiedener Menschenclassen, und dem gewöhnlichen Einfluss
+                  äusserer Lagen auf den innern Charakter bestimmte und getreue Schilderungen
+                  antrift. Der allgemeine Typus, den sie angiebt, kann alsdann mit Hülfe eigner
+                  Erfahrung weiter ausgezeichnet; in der Sphäre, welche sie einem Charakter
+                  überhaupt als möglich anweist, kann die Stelle bestimmt werden, welche er in dem
+                  jedesmaligen Moment wirklich einnimmt.</p>
+               <p>Der Gesetzgeber, hat man immer gesagt, muss seine Nation, ihren Geist und ihre
+                  Gesinnung studirt haben, wenn er mit Fortgang auf sie einwirken will. Wie aber ist
+                  es möglich den Charakter Einer Nation vollständig zu kennen, ohne nicht zugleich
+                  auch die andern erforscht zu haben, mit welchen jene in den nächsten Beziehungen
+                  steht, durch deren contrastirende<note type="footnote" n="i)" resp="gnd-116890657">
+                     <hi>„contrastirende“ verbessert aus „charakteristische“.</hi>
+                  </note> Verschiedenheit er theils wirklich entstanden ist, theils allein voll- <pb n="1.379" xml:id="pbI379"/> kommen begriffen werden kann? und wie ist es
+                  erlaubt, auf einen individuellen Charakter einzuwirken, ohne darüber nachgedacht
+                  zu haben, inwiefern Charakterverschiedenheiten überhaupt möglich? inwiefern mit
+                  den Foderungen einer freien und allgemeinen Ausbildung verträglich? oder gar
+                  politische oder moralisch nothwendig sind?</p>
+               <p>Um einzelnen Zügen gleichsam gewisse Kunstgriffe der Regierungskunst abzulernen,
+                  um einzusehen, dass man den Franzosen nicht pedantisch, den Engländer nicht
+                  sichtbar despotisch behandeln muss, bedarf es freilich so grosser Zurüstungen
+                  nicht. Mittel die empfindlichen Stellen des menschlichen Charakters zu schonen,
+                  und seine Schwächen zu benutzen, giebt auch eine oberflächliche Beobachtung leicht
+                  an die Hand.</p>
+               <p>Aber es soll etwas ganz andres geschehen. Die individuellen Charaktere sollen so
+                  ausgebildet werden, dass sie eigenthümlich bleiben, ohne einseitig zu werden, dass
+                  sie der Erfüllung der allgemeinen Foderungen an allgemeine idealische<note type="footnote" n="ii)" resp="gnd-116890657">
+                     <hi>„contrastirende“ verbessert aus „charakteristische“.</hi>
+                  </note> Vortreflichkeit keine Hindernisse in den Weg legen, nicht bloss durch
+                  Fehler und Extreme eigenthümlich sind, aber dagegen ihre wesentlichen Gränzen
+                  nicht überschreiten, und in sich consequent bleiben. In dieser innern Consequenz
+                  und äussern Congruenz mit dem Ideal sollen alsdann alle gemeinschaftlich
+                  zusammenwirken.</p>
+               <p>Denn nur gesellschaftlich kann die Menschheit ihren höchsten Gipfel erreichen, und
+                  sie bedarf der Vereinigung vieler nicht bloss um durch blosse Vermehrung der
+                  Kräfte grössere und dauerhaftere Werke hervorzubringen, sondern auch vorzüglich um
+                  durch grössere Mannigfaltigkeit der Anlagen ihre Natur in ihrem wahren Reichthum
+                  und ihrer ganzen Ausdehnung zu zeigen. Ein Mensch ist nur immer für Eine Form, für
+                  Einen Charakter geschaffen, ebenso eine Classe der Menschen. Das Ideal der
+                  Menschheit aber stellt soviele und mannigfaltige Formen dar, als nur immer mit
+                  einander verträglich sind. Daher kann es nie anders, als in der Totalität der
+                  Individuen erscheinen.</p>
+               <p>Man nehme in Gedanken aus der Reihe der Europäischen Nationen eine hinweg, die
+                  keinen im Ganzen sehr beträchtlichen Antheil an der Kultur und den Fortschritten
+                  dieses Welttheils genommen hat, und nicht einmal ein eigner Stamm, nur ein Zweig
+                  einer andern Nation ist, ich meyne die Schweizerische, und es würde auf einmal in
+                  dem kultivirten, üppigen, von der ersten <pb n="1.380" xml:id="pbI380"/>
+                  Einfachheit der Natur so weit entfernten Europa an einem Volke fehlen, das noch
+                  mitten unter unähnlichen Nachbarn eine vergleichungsweise so grosse Einfalt der
+                  Sitten besitzt, die Zahl seiner Bedürfnisse auf so wenige beschränkt, sich mit
+                  einem so dürftigen Vorrath von Mitteln und mit Verfassungen behilft, wie sie sonst
+                  nur die Kindheit der Nationen zeigt.</p>
+               <p>Wir haben mit Fleiss den schweitzerischen Charakter zum Beispiel gewählt, der
+                  wenigstens zum Theil der Natur so nah verwandt ist, dass niemand seine
+                  Eigenthümlichkeiten anders als mit innigem Mitgefühl untergehn sehen könnte. Denn
+                  sonst ist nicht freilich gleich jede Verschiedenheit des Aufbewahrens werth, und
+                  seltner gerade ist diess eine nationelle, die durch die Verbindung so vieler bloss
+                  zufälliger Umstände entspringt. </p>
+               <p>Aber gerade weil nicht jede Varietät empfehlungswürdig, ja viele sogar tadelhaft
+                  sind, und es doch (um nur diess Eine hier in Betrachtung zu ziehen) schon physisch
+                  unmöglich ist, die Menschen auf Einmal und gänzlich aus ihrem gewohnten Gleise
+                  herauszuheben, ihre Individualität zu vernichten und sie zu andern Menschen zu
+                  machen, muss man ihre Verschiedenheiten studiren, und was sich aus ihnen
+                  entwickeln lässt, überschlagen.</p>
+               <p>Der Mensch soll seinen Charakter, den er einmal durch die Natur und die Lage
+                  empfangen hat, beibehalten, nur in ihm bewegt er sich leicht, ist er thätig und
+                  glücklich. Darum soll er aber nicht minder die allgemeinen Foderungen der
+                  Menschheit befriedigen und seiner geistigen Ausbildung keinerlei Schranken setzen.
+                  Diese beiden einander widersprechenden Foderungen mit einander verbinden und beide
+                  Aufgaben zugleich lösen soll der praktische Menschenkenner, und wie kann er in
+                  diesem Geschäfte glücklich seyn, ohne die allgemeinen möglichen Verschiedenheiten
+                  der menschlichen Natur, und die allgemeinen Verhältnisse einzelner
+                  Eigenthümlichkeiten zum Ideal der Gattung sorgfältig erforscht zu haben?</p>
+               <p>Den Menschen zu bilden ist aber nicht bloss der Erzieher, der Religionslehrer, der
+                  Gesetzgeber bestimmt. So wie jeder Mensch neben allem, was er noch sonst seyn
+                  kann, zugleich immer noch Mensch ist, so hat er auch die Obliegenheit auf sich,
+                  neben allen Geschäften, die er sonst immer betreiben mag, zugleich auf die
+                  intellectuelle und moralische Bildung seiner und andrer praktische Rücksicht zu
+                  nehmen.</p>
+               <p>Es ist das allgemeine Gesetz, das die Vernunft aller Gemein- <pb n="1.381" xml:id="pbI381"/> schaft der Menschen unter einander unnachlasslich
+                  vorschreibt: ihre Moralität und ihre Cultur gegenseitig zu achten, nie nachtheilig
+                  auf sie einzuwirken, aber sie, wo es geschehen kann, zu reinigen und zu erhöhen.
+                  Die Stärke der Verbindlichkeit hiezu bei einzelnen bestimmten Geschäften wächst
+                  nun mit dem Grade ihres Einflusses auf den Geist und den Charakter, und wo ihr
+                  vollkommen ein Genüge geleistet werden soll, da muss ebensosehr auf die
+                  individuelle Charakterform, als auf die allgemeine gesehen werden.</p>
+               <p>Am wenigsten kann sich von dieser Verpflichtung der Gesetzgeber lossagen, da er
+                  die grösseste und gefährlichste Macht in Händen hat, auf die Menschen zu wirken.
+                  Die ganze Politik, vorzüglich die innere, wird dadurch einem Gesichtspunkte
+                  untergeordnet, der ihr an sich eigentlich fremd ist. Denn da sie für sich
+                  eigentlich nichts anders zu thun hat, als nur die Aufgabe zu lösen, wie der letzte
+                  Zweck aller bürgerlichen Vereinigung, die Sicherheit der Person und des Eigenthums
+                  am kürzesten und gewissesten erhalten werden kann? so muss sie nun bei jeder
+                  Veranstaltung, die sie vorschlägt, erst nach dem Einflusse fragen, welchen
+                  dieselbe auf den Charakter der Bürger, als Menschen, ausüben wird? und jede erst
+                  nach diesem Maassstabe prüfen. Da noch überdiess beide Gesichtspunkte fast überall
+                  auf ganz entgegengesetzte Resultate führen müssen, der rein politische auf Zwang,
+                  der erweiterte moralische auf Freiheit, so wird es ihr schwierigstes Geschäft
+                  seyn, diese beiden streitenden Foderungen mit einander zu vereinigen, und diese
+                  Schwierigkeit wird dadurch noch grösser, dass sie, sobald von einer Anwendung die
+                  Rede ist, einen individuellen Charakter zu schonen und zu leiten, also noch mehr
+                  particulaire Umstände in Acht zu nehmen hat.</p>
+               <p>Die gewöhnliche Theorie über diesen Gegenstand ist grossen Misbräuchen ausgesetzt.
+                  Sie lehrt den Gesetzgeber, die Eigenthümlichkeiten zu benutzen, um die Nation
+                  dadurch leichter zu lenken und zu beherrschen. Aber wie leicht führt dieser bloss
+                  politische Gesichtspunkt, ohne die höheren moralischen, in die Gefahr, auch
+                  offenbare Schwächen und Blössen absichtlich zu unterhalten.</p>
+               <p>Eine neue Schwierigkeit mehr findet der Staatsmann der neueren Zeit, wo mehrere
+                  Nationen nicht nur, wie auch vormals oft, unter Einem Scepter vereinigt sind,
+                  sondern auch im genauesten Verstande als Eine Masse wirken sollen. Soll diess mit
+                     <pb n="1.382" xml:id="pbI382"/> vollkommener Präcision und Schnelligkeit
+                  geschehen, so wäre es unstreitig besser die Verschiedenheiten der einzelnen Stoffe
+                  aufzuheben, Sprache, Sitten, Meynungen u. s. w. gleich zu machen. Aber ist diess
+                  ohne Verlust an Eigenthümlichkeit, und folglich zugleich an Selbstthätigkeit und
+                  Energie möglich, und welchen dieser beiden Vorzüge soll er nun dem andern
+                  aufopfern? Stellt er diese Untersuchung mit dem Geiste an, der weder die Würde des
+                  individuellen Charakters, noch den unläugbaren Nutzen grosser Staaten und Massen
+                  von Menschen verkennt, so wird er sie gar bald verlassen, und sich lieber zu der
+                  Aufgabe wenden, beide Vorzüge mit einander zu vereinigen. Die Auflösung dieser
+                  aber kann er sich nur noch allenfalls von dem genauesten Studium der wirklichen
+                  Individualität der Subjecte, die er zu behandeln hat, versprechen.</p>
+               <p>Die Religion scheint am wenigsten Einfluss von der Eigenthümlichkeit ihrer
+                  Bekenner leiden zu dürfen. Sie lehrt Wahrheit und die Wahrheit ist durchaus
+                  objectiv und allgemein. Dennoch ist gerade bei ihr die Sorgfalt, sie immer und
+                  Schritt vor Schritt die Umänderungen des Geistes begleiten zu lassen, am meisten
+                  nothwendig, wenn die doppelte Gefahr eines drückenden Gewissenszwanges, oder
+                  religiöser Gleichgültigkeit vermieden werden soll.</p>
+               <p>Die übrigen Geschäfte des Lebens haben selten einen nahen und grossen Einfluss auf
+                  die innre Individualität. Es ist hinreichend grobe Fehler zu vermeiden, um der
+                  Gefahr nachtheiliger Einwirkungen zu entgehen.</p>
+               <p>Desto mächtiger aber wirkt auf die eigenthümliche Charakterbildung der freie und
+                  alltägliche Umgang in engeren und weiteren Verbindungen: in der Ehe, der
+                  Freundschaft, kleineren und grösseren gesellschaftlichen Cirkeln. Die Kunst dieses
+                  Umgangs, wenn sie nicht, wie bisher immer geschehn ist, zu einem blossen Talent zu
+                  gefallen und zu gewinnen herabgewürdigt werden soll, beruht ganz und gar auf
+                  Charakterkenntniss und Charakterbildung.</p>
+               <p>Sie strebt zuerst jeden Umgang so wichtig für die Cultur und den Charakter zu
+                  machen, ihm soviel Seele zu geben, als nur immer möglich ist, dann aber noch in
+                  jedem die verschiedenen Individualitäten so einzeln zu stellen und in Massen zu
+                  gruppiren, dass sie dem Betrachter das Bild einer lehrreichen Mannigfaltigkeit
+                  geben, einander selbst aber durch ihre zweckmässige Berührung zugleich
+                  empfänglicher und eigenthümlicher machen. Beides will sie jedoch nicht anders, als
+                  unter der Bedingung einer voll- <pb n="1.383" xml:id="pbI383"/> kommenen Freiheit
+                  ausführen, mit gänzlicher Vermeidung alles Scheins von Absicht. Alles soll von
+                  selbst entstehn, alles Spiel und Erholung, nichts Ernst oder Geschäft seyn. Diess
+                  macht sie zur eigentlich schönen Kunst.</p>
+               <p>Die Grundlinien dieser Kunst zu entwerfen, wäre zugleich nützlich und
+                  unterhaltend, aber es könnte nur die Arbeit eines Mannes seyn, der einen grossen
+                  und vielseitigen eignen Charakter mit einer ausgebreiteten Kenntniss fremder
+                  Individualitäten verbände, und ebensoviel Gedanken- und Empfindungsgehalt besässe,
+                  ein enges Verhältniss interessant zu machen, als Leichtigkeit und Beweglichkeit,
+                  in den Cirkeln der grossen Welt eine Rolle zu spielen.</p>
+               <p>Gerade also zu dem, was als ein alltägliches Bedürfniss immer wiederkehrt,
+                  bedürfen wir am meisten einer individualisirenden Menschenkenntniss, und mit ihrer
+                  Hülfe können wir gerade die Stunden, die wir gewöhnlich leer und verloren achten,
+                  zu den inhaltvollsten unsres Lebens machen.</p>
+               <p>Der Erziehung ist im Vorigen nicht erwähnt worden. Es liegt zu sehr am Tage, wie
+                  unentbehrliche Vorarbeiten ihr Untersuchungen, wie die gegenwärtige seyn müssen.
+                  Andre Beziehungen sind der Kürze wegen übergangen. So muss z.B. der Arzt
+                  nothwendig auf den moralischen und gerade, da nur diesen ihm zu kennen wichtig
+                  seyn kann, auf den individuellen Charakter achten.</p>
+               <p>Die vergleichende Anthropologie ist daher zu einem doppelten Zweck und zu einem
+                  doppelten Geschäfte nützlich. Sie erleichtert die Kenntniss der Charaktere, und
+                  giebt zugleich eine philosophische Anleitung, ihren Werth zu beurtheilen, ihre
+                  ferneren Entwicklungen zu berechnen, und die Möglichkeit zu überschlagen, wie sie
+                  mit andern als ein Ganzes zusammenzuwirken fähig sind. Sie dient dem
+                  Geschäftsmann, der den Menschen benutzen und beherrschen will, und zugleich dem
+                  Erzieher und Philosophen, der ihn zu bessern und zu bilden bemüht ist.</p>
+               <p>Aber sie ist ausserdem die unterhaltendste Beschäftigung des menschlichen Geistes.
+                  Denn er findet in ihr 1. den erhabensten Gegenstand, den die Natur darbietet, am
+                  genauesten und vollständigsten geschildert; 2. eine Mannigfaltigkeit, die nicht
+                  bloss durch das bunte Farbenspiel des Gemähldes die Einbildungskraft und die Sinne
+                  vergnügt, sondern durch die Feinheit der Züge zugleich den Geist und die
+                  Empfindung bereichert, und die 3. immer zugleich so behandelt ist, dass nicht
+                  bloss jede einzelne Eigen- <pb n="1.384" xml:id="pbI384"/> thümlichkeit als ein
+                  Ganzes betrachtet, sondern auch alle zu einem Ganzen zusammengestellt werden.</p>
+            </div>
+            <div type="section" n="3">
+               <head>
+                  <title type="sub">3. Unmittelbarer Einfluss einer individuellen Menschenkenntniss
+                     auf die Charaktereigenthümlichkeit</title>
+               </head>
+               <p>Nicht genug, dass eine vergleichende Anthropologie die Verschiedenheit
+                  menschlicher Charaktere kennen lehrt; sie trägt auch selbst dazu bei, eine
+                  grössere hervorzubringen, und die schon wirklich vorhandene zweckmässiger zu
+                  leiten.</p>
+               <p>Ob das Erstere aber nun ein Vortheil zu nennen sey, oder ob nicht vielmehr eine
+                  noch grössere Mannigfaltigkeit der Charakterformen der allgemeinen Richtigkeit und
+                  der Objectivität der Kultur, des Geschmacks und der Sitten Hindernisse in den Weg
+                  lege? diess dürfte in den Augen der Meisten noch so ausgemacht nicht seyn. Alle
+                  Werke, welche der Mensch hervorbringt, gewinnen durch eine allgemeine und von
+                  Subjectivität Einzelner unabhängige Behandlung einen besseren Fortgang, und selbst
+                  die Arbeiten des Geistes können hievon nur in gewisser Rücksicht ausgenommen
+                  werden. Ebenso wird den Verfassungen und den praktischen Verhältnissen unter den
+                  Menschen Dauer und Sicherheit mehr durch Gleichförmigkeit der Sitten, als durch
+                  die unregelmässigeren Einwirkungen ungewöhnlicher Individuen verbürgt.</p>
+               <p>Dagegen hängt Kraft, Erfindungsgeist, Enthusiasmus von Originalität ab, und ohne
+                  ausserordentliche und eigen gewählte Bahnen des Geistes würde nie etwas Grosses
+                  entstanden seyn.</p>
+               <p>Ueberhaupt ist Verschiedenheit der Charakterformen, wenn sie auch sogar schädlich
+                  seyn sollte, dennoch einmal schlechterdings unvermeidlich, und die Frage ist bloss
+                  die, ob man dieselbe blindlings dem Zufall überlassen, oder durch vernünftige
+                  Leitung zur Eigenthümlichkeit umschaffen soll? Auf diese aber kann die Antwort
+                  unmöglich anders, als Eine seyn.</p>
+               <p>Die vergleichende Anthropologie sucht den Charakter ganzer Classen von Menschen
+                  auf, vorzüglich den der Nationen und der Zeiten. Diese Charaktere sind oft
+                  zufällig; sollen denn auch diese erhalten werden? soll der Philosoph, der
+                  Geschichtschreiber, der Dichter, der Mensch seinen Namen, seine Nation, sein
+                  Zeitalter, sein Individuum endlich sichtbar an sich tragen? — Allerdings, nur
+                  recht verstanden. Der Mensch soll alle Verhältnisse, in denen <pb n="1.385" xml:id="pbI385"/> er sich befindet, auf sich einwirken lassen, den Einfluss
+                  keines einzigen zurückweisen, aber den Einfluss aller aus sich heraus und nach
+                  objectiven Principien bearbeiten. So soll er <emph>seyn</emph>; wieviel er hernach
+                  hievon in den verschiedenen Gattungen seiner Thätigkeit <emph>zeige</emph>? hängt
+                  von den Erfordernissen dieser Gattung und der Natur seiner Individualität ab. Je
+                  mehr subjective Originalität er aber, dem objectiven Werthe des Werks unbeschadet,
+                  zeigen kann, desto besser.</p>
+               <p>Der Mensch kann wohl vielleicht in einzelnen Fällen und Perioden seines Lebens,
+                  nie aber im Ganzen Stoff genug sammeln. Je mehr Stoff er in Form, je mehr
+                  Mannigfaltigkeit in Einheit verwandelt, desto reicher, lebendiger, kraftvoller,
+                  fruchtbarer ist er. Eine solche Mannigfaltigkeit aber giebt ihm der Einfluss
+                  vielfältiger Verhältnisse. Je mehr er sich demselben öfnet, desto mehr neue Seiten
+                  werden in ihm angespielt, desto reger muss seine innere Thätigkeit seyn, dieselben
+                  einzeln auszubilden, und zusammen zu einem Ganzen zu verbinden. Das Zweckwidrige
+                  und Verderbliche ist bloss das unthätige Hingeben an einen einzelnen. Daraus
+                  entstehen die plumpen National- und Familiencharaktere, die uns in der
+                  Wirklichkeit unaufhörlich begegnen; daran aber ist die innere Schlaffheit und
+                  Trägheit, nicht die äussere Mannigfaltigkeit Schuld. Nach der Anleitung einer
+                  richtigen Bildungstheorie wird kein Mitglied einer Nation dem andern so auffallend
+                  ähnlich sehen; der National Charakter wird sich in allen Einzelnen spiegeln, aber
+                  gerade weil er in jedem durch den Einfluss aller übrigen Verhältnisse, und
+                  vorzüglich durch die prüfende und richtende Vernunft gemildert wird, so wird er im
+                  Ganzen nicht so plump und handgreiflich, dagegen reiner, eigenthümlicher, feiner
+                  und vielseitiger erscheinen.</p>
+               <p>Der Mensch ist allein genommen schwach, und vermag durch seine eigne kurzdauernde
+                  Kraft nur wenig. Er bedarf einer Höhe, auf die er sich stellen; einer Masse, die
+                  für ihn gelten; einer Reihe, an die er sich anschliessen kann. Diesen Vortheil
+                  erlangt er aber unfehlbar, je mehr er den Geist seiner Nation, seines Geschlechts,
+                  seines Zeitalters auf sich fortpflanzt. Was war ein Römer schon allein dadurch,
+                  dass <placeName ref="geo-8354456">Rom</placeName> ihn gebohren hatte? Was ein Scipio dadurch, dass er aus dem Geschlecht
+                  der Kornelier stammte? Was sind die neueren Dichter schon einzig dadurch, dass sie
+                  den ganzen Reichthum Griechischer Dichtkunst als ihr Eigenthum behandeln, und sich
+                  auf einmal zu einer solchen Höhe emporschwingen? </p>
+               <pb n="1.386" xml:id="pbI386"/>
+               <p>Aber von der subjectiven Kenntniss der Natur zu
+                  ihrer objectiven Beschaffenheit scheint ein mächtiger Sprung zu seyn. Wie kann die
+                  Erweiterung und Verfeinerung der ersteren unmittelbar die Veredlung der letzteren
+                  befördern? — Unläugbar dadurch, dass beides: das Beobachtende und das Beobachtete
+                  hier der Mensch ist, dass dieser sich überall, selbst ohne es immer zu bemerken,
+                  seiner inneren Geistesform anpasst, und dass die Masse herrschender Begriffe sich
+                  immer endlich auf eine uns selbst oft unbegreifliche Weise, nicht bloss den
+                  Menschen, sondern sogar die todte Natur unterwirft.</p>
+               <p>Dass eine erweiterte Kenntniss der Charaktereigenthümlichkeit Charaktere richtiger
+                  beurtheilen, und zweckmässigere Methoden ihrer Behandlung auffinden lehrt,
+                  versteht sich hiebei von selbst. Aber auch bloss dadurch, dass man feinere Nüancen
+                  in dem Charakter entdeckt, modificirt sich derselbe in der That auf eine
+                  mannigfaltigere Weise; dadurch dass man einzelne Gattungen studirt und ihre Formen
+                  so individuell, als sie sind, und so idealisch, als sie werden können, aufstellt,
+                  entwickeln sie sich wirklich reiner und bestimmter.</p>
+               <p>Der Charakter entsteht nicht anders, als durch das beständige Einwirken der
+                  Thätigkeit der Gedanken und Empfindungen. Dadurch dass diese gewisse Anlagen
+                  unaufhörlich, und andere niemals oder selten beschäftigen, werden die einen
+                  entwickelt und die andern unterdrückt, und so geht nach und nach die bestimmte
+                  Charakterform hervor. Durch diese durchgängige Correspondenz unsrer Art zu seyn
+                  und unsrer Art zu urtheilen, unsrer praktischen und unsrer theoretischen
+                  Beschaffenheit wird es uns möglich, bloss durch die Idee und von unserm Geiste aus
+                  thätig und praktisch auf uns einzuwirken. Man kann nichts durch den Verstand
+                  begreifen, was nicht auf irgend eine Weise in dem Gebiet der Sinne und der
+                  Empfindung angespielt ist; aber man kann auch nichts in sein Wesen aufnehmen, was
+                  nicht durch Begriffe einigermaassen vorbereitet ist. Man kann nicht einsehen,
+                  wofür man keinen Sinn hat, wozu der Stoff mangelt; aber man kann auch nichts seyn,
+                  wovon man gar keinen Begriff hat, wozu die Form fehlt.</p>
+               <p>Die Achtsamkeit auf das Charakteristische leistet aber noch mehr. Einestheils
+                  nimmt sie jeden Gegenstand zuerst und vorzüglich in seiner Beziehung auf das
+                  innere Wesen; anderntheils weckt sie den Charakter und erregt seine Thätigkeit.
+                  Sobald aber <pb n="1.387" xml:id="pbI387"/> einmal der Charakter erwacht ist, so
+                  eignet er sich von allen Dingen, die auf ihn einwirken, immer von selbst nur das
+                  an, was ihm homogen ist; von allen Seiten her wird also Stoff und Nahrung auf
+                  einen einzigen Punkt hin zusammengetragen. Man sieht diess sehr deutlich an
+                  Charakteren, die von Natur heftig, leidenschaftlich und einseitig sind. Von diesen
+                  pflegt man mit Recht zu sagen, dass sie überall nur sich sehen, in alles nur sich
+                  hinüber tragen; darum wächst auch ihre Einseitigkeit mit so verdoppelten
+                  Fortschritten. Der Fehler liegt aber bei ihnen nicht daran, dass ihre
+                  Individualität zu rege wäre, sondern nur daran, dass sie es durch Leidenschaft und
+                  Naturanlage wird. Würde sie aber durch eine Stimmung des Geistes rege gemacht,
+                  durch das Streben, überall eine schöne Individualität zu zeigen, so würde der
+                  Erfolg ganz und gar ein andrer seyn. Ein solcher Mensch würde gleichfalls alles
+                  charakteristisch auf sich einwirken lassen, und charakteristisch behandeln. Aber
+                  er würde dasjenige, was ihm heterogen wäre, nicht übersehen noch wegwerfen,
+                  sondern nur auf seine Weise und zu seinen Zwecken benutzen; er würde jeden
+                  Gegenstand durchaus objectiv und wie der Unbefangenste aufnehmen, der ganze, aber
+                  freilich wichtige Unterschied würde nur in dem Grade und der Art der Aneignung
+                  liegen. Der Contrast einiger auswärtigen Nationen mit der Deutschen zeigt diess
+                  sehr deutlich. Franzosen und Engländer gehen in auffallend bestimmten
+                  Charakterformen fort; aber sie behandeln auch sehr häufig die Welt um sich her nur
+                  auf ihre einseitige Weise, und verfehlen Wahrheit und Objectivität.</p>
+               <p>Vorzüglich aber bildet sich der Charakter gesellschaftlich zur Reinheit und
+                  Bestimmtheit aus, wenn er mit reinen und bestimmten Charakteren in Verbindung
+                  kommt. Es ist nicht die Aehnlichkeit allein, zu welcher sich einer dem andern
+                  anartet, es ist auch der Kontrast, in welchem sie sich einander entgegensetzen.
+                  Denn der moralischen, wie der physischen Organisation ist ein assimilirender
+                  Bildungstrieb eigen, der aber, sobald nur der eigne Charakter erst einige
+                  Bestimmtheit erlangt hat, nicht geradezu auf Aehnlichkeit, sondern auf eine
+                  verhältnissmässige Stellung der beiderseitigen Individualitäten gegen einander
+                  herausgeht. So wird der männliche Charakter reiner und männlicher, wenn ihm der
+                  weibliche gegenübergestellt ist, und umgekehrt. Uebrigens aber bemerkt man diese
+                  Eigenthümlichkeit freilich mehr bei einzelnen Individuen, als ganzen Gattungen.
+                  Vorzüglich wird sie noch bei <pb n="1.388" xml:id="pbI388"/> Charakteren von
+                  Nationen vermisst, die im Verkehr unter einander noch immer mehr ihre Originalität
+                  entweder übertreiben oder aufgeben als zweckmässig bestimmen und bilden. Selbst
+                  die äussre Gesichtsbildung erfährt einigermaassen diesen Einfluss, wie z. B. die
+                  gewiss nicht chimärische Aehnlichkeit von verheiratheten Personen unter einander
+                  beweist. Wenn aber einmal Ein Schritt geschehen ist, so folgen die übrigen mit
+                  unglaublicher Leichtigkeit nach. Denn nichts wirkt so lebendig rund um sich her,
+                  als die menschliche Individualität. Vorzüglich wirkt in dieser Hinsicht die
+                  Abstammung, welche dasjenige, was bisher erworben ist, dem neuen Individuum als
+                  fertige Anlage überliefert, und so jedesmal das in ein sichres Eigenthum
+                  verwandelt, was solange nur ein minder sichrer Besitz schien.</p>
+               <p>Das Studium der Charaktere in ihrer Individualität vermehrt also diese letztere
+                  selbst. Dass aber von dieser, von der Mannigfaltigkeit der Charakterformen die
+                  Veredlung der Gattungen abhängt, davon ist auch ausser der menschlichen Natur ein
+                  merkwürdiges Beispiel vorhanden — das bekannte Phänomen nemlich, dass die
+                  Hausthiere mehr Rassen, mehr Varietäten, und endlich auch mehr individuelle
+                  Merkmale zeigen, als alle übrige Thiergattungen.</p>
+            </div>
+            <div type="section" n="4">
+               <head>
+                  <title type="sub">4. Zweck und Verfahren der vergleichenden Anthropologie im
+                     Allgemeinen. — Gefahr eines möglichen Misbrauchs</title>
+               </head>
+               <p>Das Bestreben der vergleichenden Anthropologie geht dahin, die mögliche
+                  Verschiedenheit der menschlichen Natur in ihrer Idealität auszumessen; oder, was
+                  dasselbe ist, zu untersuchen, wie das menschliche Ideal, dem niemals Ein
+                  Individuum adäquat ist, durch viele dargestellt werden kann.</p>
+               <p>Was sie sucht, ist also kein Gegenstand der Natur, sondern etwas Unbedingtes, —
+                  Ideale, die aber auf Individuen, auf empirische Objecte so bezogen werden, dass
+                  man sie als das Ziel ansieht, dem diese sich nähern sollen.</p>
+               <p>Könnte sie diesen Zweck erreichen, ohne zu der Beobachtung der wirklichen Natur
+                  herabzusteigen, so würde sie eine rein philosophische und speculative Wissenschaft
+                  bleiben. Und in gewissem Verstande kann sie diess in der That. Sie kann bloss bei
+                  dem <pb n="1.389" xml:id="pbI389"/> allgemeinen Ideale des Menschen stehen
+                  bleiben; sie kann dasselbe nach seinen einzelnen Seiten zerlegen, und aus diesen
+                  einzelnen Virtuositäten einzelne idealische Gestalten bilden, in welchen sich um
+                  dieselben, als um die herrschenden Züge, die übrigen Eigenschaften, deren der
+                  vollkommen ausgebildete Mensch nicht entbehren kann, in gehöriger Unterordnung
+                  herum versammeln. In dem Ideale des Menschen findet sich z. B. Sinn für Schönheit
+                  und Streben nach Wahrheit, beide für sich in hoher Stärke, und gegeneinander in
+                  vollkommnem Gleichgewicht. Man zerlege diese beiden Tendenzen, mache jede zum
+                  Grundzug einer besondern Individualität, ergänze von diesem Gesichtspunkte aus die
+                  übrige Gestalt, und man erhält, ohne irgend eine specielle Erfahrung zu bedürfen,
+                  die reinen Charaktere des Künstlers und des Philosophen.</p>
+               <p>Aber um jene oben aufgestellte Foderung ganz zu erfüllen, muss die vergleichende
+                  Anthropologie sich nothwendig an eine strenge Beobachtung der Wirklichkeit
+                  gewöhnen, und sogar durchaus überall von dieser zuerst ausgehn. Denn</p>
+               <p>1. würde jenes mehr speculative Verfahren eine überaus nachtheilige Dürftigkeit,
+                  sowohl in der Mannigfaltigkeit aller Formen, als in der Bestimmtheit jeder
+                  einzelnen mit sich führen. Auch mit der glücklichsten Anstrengung würde es nicht
+                  möglich seyn, von da aus in eine nur irgend grosse Individualität
+                  herabzusteigen.</p>
+               <p>2. bedarf die Aufstellung des Ideales selbst einer gewissenhaften Beobachtung der
+                  Wirklichkeit. Denn diess Ideal ist nichts anders, als die nach allen Richtungen
+                  hin erweiterte, von allen beschränkenden Hindernissen befreite Natur.</p>
+               <p>3. leidet sie nur dann, wenn sie sich unmittelbar an die empirische Beobachtung
+                  hält, praktische Anwendung auf das wirkliche Leben, da sie sonst vergebens hohe
+                  Ideale aufstellen würde, wenn es ihr an Mitteln fehlte, dieselben an die
+                  Wirklichkeit anzuknüpfen.</p>
+               <p>Der Mensch entwickelt sich nur nach Maassgabe der physischen Dinge, die ihn
+                  umgeben. Umstände und Ereignisse, die auf den ersten Anblick seinem Innern völlig
+                  heterogen sind, Klima, Boden, Lebensunterhalt, äussere Einrichtungen u. s. f.
+                  bringen in ihm neue, und oft die feinsten und höchsten moralischen Erscheinungen
+                  hervor. Durch ein physisches Mittel, durch Zeugung und Abstammung, wird die einmal
+                  erworbene moralische Natur übertragen und fortgepflanzt, und dadurch nehmen die
+                  intellectuellen und moralischen Fortschritte, die sonst vielleicht vorübergehend
+                     <pb n="1.390" xml:id="pbI390"/> und wechselnd seyn würden, gewissermaassen an
+                  der Stätigkeit und der Dauer der Natur Theil. Die physische Beschaffenheit des
+                  Menschen spielt daher bei der Bildung seines Charakters eine in jeder Rücksicht
+                  bedeutende Rolle.</p>
+               <p>Noch deutlicher, als bei einzelnen Individuen, ist diess bei der Betrachtung des
+                  ganzen Menschengeschlechts. Grosse Massen, Stämme und Nationen, behalten
+                  Jahrhunderte hindurch einen gemeinsamen Charakter, und selbst, wo derselbe grosse
+                  Veränderungen erleidet, sind noch die Spuren seines Ursprungs sichtbar. Gleiche
+                  Ursachen bringen durch alle Zeiten hindurch gleiche Wirkungen hervor, und durchaus
+                  wird man daher im Ganzen ziemlich dieselben Resultate ähnlicher Kräfte finden,
+                  denselben Einfluss der äusseren Lagen, dasselbe Spiel der Leidenschaften, dieselbe
+                  Macht des Guten und Wahren, mit dem es aus dem verworrensten Gewebe von
+                  Begebenheiten und in den mannigfaltigsten Gestalten hervorgeht. Ueberall verrathen
+                  die Handlungen der Einzelnen eine eigenmächtige Willkühr der Neigung, indess die
+                  Schicksale der Masse das unverkennbare Gepräge der Natur an sich tragen. Wieviel
+                  bestimmter und klarer noch würden wir diess einsehen, wenn wir uns nicht immer nur
+                  auf einen so kurzen Zeitraum berufen müssten, und auch bei diesem nicht so oft
+                  durch die Unvollständigkeit unsrer Kenntniss aufgehalten würden.</p>
+               <p>Dadurch nun wird die vergleichende Anthropologie genöthigt, nicht bloss von der
+                  Erfahrung auszugehen, sondern sich so tief als möglich in dieselbe zu versenken.
+                  Sie muss die bleibenden Charaktere der Geschlechter, Alter, Temperamente, Nationen
+                  u. s. w. eben so sorgfältig aufsuchen, als der Naturforscher bemüht ist, die Racen
+                  und Varietäten der Thierwelt zu bestimmen. Ob es ihr gleich eigentlich und an sich
+                  durchaus nur darauf ankommt, zu wissen, wie verschieden der idealische Mensch seyn
+                  kann, muss sie den Anschein annehmen, als wäre es ihr darum zu thun, zu bestimmen,
+                  wie verschieden der individuelle Mensch in der That ist?</p>
+               <p>Ihre Eigenthümlichkeit besteht daher darin, dass sie einen empirischen Stoff auf
+                  eine speculative Weise, einen historischen Gegenstand philosophisch, die wirkliche
+                  Beschaffenheit des Menschen mit Hinsicht auf seine mögliche Entwicklung
+                  behandelt.</p>
+               <p>Bei der Verbindung einer naturhistorischen und einer philosophischen Beurtheilung
+                  leidet zwar gewöhnlich die erstere; hier indess drohet eine nicht minder grosse
+                  Gefahr auch der letzteren. Da die vergleichende Anthropologie die Charaktere von
+                  Menschen- <pb n="1.391" xml:id="pbI391"/> gattungen aufsucht, so wird sie leicht
+                  verleitet, dieselben theils bestimmter, theils dauernder anzunehmen, als die
+                  Wirklichkeit sie zeigt, und die Würde des Menschen sie verstattet. Eine solche
+                  Tendenz aber muss der Ausbildung der menschlichen Natur im höchsten Grade
+                  verderblich seyn, deren Adel ganz vorzüglich auf der Möglichkeit einer freien
+                  Individualität beruht. Es ist hier die gefährliche Klippe, die man bei jedem
+                  Urtheil über den Menschen vermeiden muss, ihn immer zugleich und doch nie zu sehr
+                  als Naturwesen zu behandeln. </p>
+               <p>Hier indess ist diese Klippe bei weitem weniger gefährlich. Denn unsre Absicht
+                  hier ist bloss die, überhaupt individuelle Verschiedenheiten aufzusuchen, und zwar
+                  solche, die auch noch mit idealischen Foderungen verträglich sind; nicht aber die,
+                  das Menschengeschlecht naturhistorisch zu classificiren. Diess Letztere brauchen
+                  wir nur als Mittel zur Erreichung jenes Zwecks, theils um den Individuen selbst
+                  näher zu treten, das Dauernde und Wesentliche sicherer zu erkennen, und uns durch
+                  vorübergehende Zufälligkeiten weniger irre führen zu lassen, theils um den Gang
+                  der Natur selbst besser zu beobachten, auf welchem diese vermöge der Aehnlichkeit
+                  der Gattungen die Originalität der Individuen befördert, indem sie sie benutzt,
+                  dieselben zu bestimmen, ohne doch ihre Freiheit zu binden.</p>
+               <p>Möchten also auch Geschlechts- Temperaments- und Nationalcharaktere noch weniger
+                  bestimmt seyn, als sie es in der That sind, so ist diess kein Einwurf gegen das
+                  Gelingen einer vergleichenden Anthropologie. Denn dieser ist es genug, nur auf
+                  wesentliche Verschiedenheiten geführt worden zu seyn, und dasjenige, was sich nun
+                  immer im Object wirklich findet, für den praktischen Gebrauch gehörig geprüft und
+                  gewürdigt zu haben.</p>
+            </div>
+            <div type="section" n="5">
+               <head>
+                  <title type="sub">5. Methode. Ausdehnung und Grenzen. Eintheilung</title>
+               </head>
+               <p>Die vergleichende Anthropologie ist nach dem Vorigen ein Zweig der
+                  philosophisch-praktischen Menschenkenntniss. Wie diese wird sie daher die Empirie,
+                  so wie die blosse Speculation vermeiden, und sich allein und durchaus auf
+                  Erfahrung stützen. Auch wird sie die Hauptregeln anerkennen, und befolgen, welche
+                  diese aufstellt. Sie wird demnach:</p>
+               <p>1. die Data zu ihren Charaktergemählden aus den Aeusserungen <pb n="1.392" xml:id="pbI392"/> des ganzen Menschen, zugleich aus seiner physischen,
+                  intellectuellen und moralischen Natur hernehmen, um sich des vollständigsten
+                  Stoffs zu versichern.</p>
+               <p>2. unter diesen vorzüglich auf diejenigen Züge achten, welche recht eigentlich den
+                  Charakter, und zwar denselben da, wo er individuell verschieden zu seyn pflegt,
+                  bezeichnen — auf das Verhältniss und die Bewegung der Kräfte.</p>
+               <p>3. immer nur auf die innere Beschaffenheit und Vollkommenheit, nie bloss oder auch
+                  nur hauptsächlich auf die Tauglichkeit zu äusseren Zwecken sehen.</p>
+               <p>4. den Charakter soviel als möglich genetisch schildern.</p>
+               <p>5. von den Thatsachen und Aeusserungen aus zu den allgemeinen Eigenschaften, und
+                  von da zum eigentlichen innern Wesen übergehen.</p>
+               <p>6. die zufälligen Eigenschaften von den wesentlichen genau absondern, und nach den
+                  verschiednen Graden ihrer Zufälligkeit ordnen.</p>
+               <p>7. den bisher mehr nach einzelnen Seiten betrachteten Charakter in die höchste
+                  Einheit zusammenziehn, aus dem vollständig gezeichneten Bilde den Begriff
+                  herausnehmen, — was dadurch am besten geschieht, dass man die Art, wie er zu den
+                  höchsten und ganz allgemeinen Zwecken des Menschen gelangt, auf einmal
+                  auszusprechen versucht.</p>
+               <p>Ihre besondre Tendenz, nicht bloss, wie die Menschenkenntniss überhaupt, den
+                  Menschen im Allgemeinen, oder einzelne gerade interessante Individuen zu studiren,
+                  sondern den Umfang der, ohne Verletzung der Idealität, möglichen Verschiedenheit
+                  im Menschengeschlecht zu erforschen, durch welche sie zugleich auf die
+                  Untersuchung von Gattungscharakteren geführt wird, fügt den vorigen Regeln noch
+                  folgende hinzu:</p>
+               <p>1. da es ihr vorzüglich darum zu thun ist, zu erforschen, wie die idealische
+                  Vollkommenheit, die Einem Individuum unerreichbar ist, sich in mehreren
+                  gesellschaftlich ausdrückt, so wird sie hauptsächlich durch diese Absicht bei der
+                  Wahl der Charaktere zu ihrem Studium geleitet werden. Sie wird soviel als möglich
+                  solche aufsuchen, die entweder den Begriff der Menschheit erweitern, oder sich so
+                  gegenseitig gegen einander verhalten, dass sie Züge, die zusammen nicht in
+                  gleicher Stärke verträglich seyn würden, einzeln darstellen.</p>
+               <p>2. da sie sich auf ihrem Wege besonders an Gattungscharak- <pb n="1.393" xml:id="pbI393"/> teren halten muss, so wird sie dieselben so rein als möglich
+                  von allem Einfluss der einzelnen Individualitäten bestimmen, und ihre
+                  Eigenthümlichkeiten daher vornemlich aus den gemeinschaftlich auf sie einwirkenden
+                  Ursachen, und aus ihrem Begriffe herleiten.</p>
+               <p>3. dagegen wird sie sich aber auch sorgfältig hüten, durch einen zu festen und
+                  engen Begriff der Gattung die Freiheit der Individuen zu beschränken.</p>
+               <p>Der Umfang der vergleichenden Anthropologie würde eigentlich dem des ganzen
+                  menschlichen Geschlechts gleich seyn, wenn nicht zwei Ursachen sie hinderten, ihre
+                  Grenzen so weit auszudehnen.</p>
+               <p>Der Mensch bedarf eines gewissen, nicht geringen Grades der Cultur, um eine
+                  individuelle Form zu erlangen. Seine erste Ausbildung ist durchaus nur in Massen,
+                  nur in rohen, noch durch wenige Züge bestimmten Formen. Dieser Grad der Cultur
+                  muss schon zu einer beträchtlichen Höhe gestiegen seyn, wenn der Charakter so
+                  verfeinert, und seine Form so bestimmt seyn soll, dass er auch nur einzelne Züge
+                  zeigt, welche eine Erweiterung des Begriffs der Menschheit in ihrer Vollendung
+                  erwarten lassen, noch mehr aber dass er als eine Bahn erscheine, in welcher der
+                  Mensch sich dieser Vollendung auf eine zweckmässige Weise nähern kann. Denn die
+                  ersten Eigenthümlichkeiten noch roherer Völker sind meistentheils entweder nur
+                  äussre, oder zufällige und unbedeutende, oder gar fehlerhafte Verschiedenheiten;
+                  auf diese folgen einzelne mehr oder weniger versprechende Züge; und erst die
+                  letzte Stufe ist es, wenn die Eigenthümlichkeit sich über alle Kräfte verbreitet,
+                  und einen durchaus individuellen Charakter zu bilden anfängt.</p>
+               <p>Selbst in unserm cultivirten Europa finden wir noch alle diese Stufen neben
+                  einander. Auf jener höchsten stehen unstreitig Franzosen, Engländer u. s. f.;
+                  Pohlen, Spanier und Portugiesen wohl nur auf der mittleren; und gewiss auf der
+                  untersten noch Russen und Türken. Wer möchte es unternehmen, von dieser letzteren
+                  einen individuell-idealischen Charakter aufzustellen, wer nur überhaupt, nach
+                  Abzug der äussern oder zufälligen Verschiedenheiten, einen individuellen
+                  Charakter, der sich noch von dem allgemeiner menschlichen auf eine irgend für die
+                  Betrachtung dankbare Weise unterschiede?</p>
+               <p>Wenn aber auch gegen die Tauglichkeit des Objects selbst nichts eingewendet werden
+                  kann, so gehört eine tiefe und genaue <pb n="1.394" xml:id="pbI394"/> Kenntniss
+                  desselben dazu, um eine solche Schilderung zu entwerfen, als hier nothwendig ist.
+                  Nur eine einzige innere und wesentliche Eigenheit als solche zu erforschen, ist
+                  schon schwierig; wieviel mehr aber alle in ihrer Verbindung zu einem Ganzen zu
+                  kennen. Wieviele Hülfsmittel auch z. B. zur Kenntniss der Nationen vorhanden seyn
+                  mögen, so wird doch derjenige, der hier selbst Hand an das Werk legt, sich bald
+                  gerade da verlassen fühlen, wo er am meisten eines sicheren Führers bedürfte.</p>
+               <p>Nur von sehr wenigen Menschengattungen ist es also möglich auch nur den Versuch zu
+                  wagen, ein vollständiges Bild ihrer innern und wesentlichen Eigenthümlichkeit zu
+                  geben. Denn zu dem vollkommnen Gelingen ist vielleicht, wenn man die Hindernisse,
+                  die im Object und in unserer Kenntniss desselben liegen, zusammennimmt, nicht eine
+                  einzige reif. Dennoch kann sich eine philosophische<note type="footnote" n="iii)" resp="gnd-116890657">
+                     <hi>„eine philosophische“ verbessert aus „die vergleichende“.</hi>
+                  </note> Anthropologie nicht mit etwas Geringerem begnügen. Sie muss immer ein
+                  Ganzes, eine vollendete Gestalt aufsuchen; bloss, wie die physiologische, nach
+                  einer Menge von Verschiedenheiten zu haschen, ist ihr durchaus fremd. Wenn daher
+                  diese letztere vorzüglich in den entferntesten Himmelsstrichen verweilt, welche
+                  die abweichendsten Verschiedenheiten aufweisen, so wird sie sich hauptsächlich auf
+                  den kleinen Kreis der höchsten Cultur beschränken, in welchem die
+                  Eigenthümlichkeiten am meisten bestimmt und vollendet erscheinen.</p>
+               <p>Was die Anordnung der Theile betrift, so wird der Schilderung der einzelnen
+                  Charaktere eine allgemeine Einleitung vorangehen müssen, um 1. die Möglichkeit,
+                  die Ursachen und den Werth der Verschiedenheit überhaupt, 2. die Natur der
+                  Gattungscharaktere im Allgemeinen, 3. die Natur einzelner unter denselben, z. B.
+                  der Geschlechter, Nationen u. s. f. insbesondre abzuhandeln.</p>
+            </div>
+            <div type="section" n="6">
+               <head>
+                  <title type="sub">6. Quellen und Hülfsmittel. Nothwendige Geistesstimmung</title>
+               </head>
+               <p>Wenn der individuelle Charakter des Menschen zum Behuf seiner möglichen
+                  Idealisirung erforscht, und dieser Stoff nicht fragmentarisch bloss an einzelnen
+                  Fällen, sondern in allgemeinen Sätzen, als eine Theorie, bearbeitet werden soll;
+                  so muss seine <pb n="1.395" xml:id="pbI395"/> Behandlung alle Arten der
+                  Betrachtung der Natur durchgehen, und zugleich naturhistorisch, historisch und
+                  philosophisch seyn.</p>
+               <p>Der Mensch, auch als Gattung betrachtet, ist offenbar ein Glied in der Kette der
+                  physischen Natur. Er artet, wie die übrigen Thiere, in Rassen aus, diese Rassen
+                  pflanzen ihre Eigenthümlichkeiten fort, und erzeugen mit einander halbschlächtige
+                  Blendlinge. Hier und in andern ähnlichen Fällen sind offenbar Naturwirkungen, die
+                  nicht zurückgewiesen werden können, nur benutzt und geleitet werden müssen. In
+                  dieser Rücksicht gehört der Mensch schlechterdings der Natur an. Er kann, wie sie,
+                  beobachtet werden, und, was das eigentlich charakteristische Kennzeichen hiebei
+                  ist, es ist möglich, mit ihm zu experimentiren. Der Naturnothwendigkeit im
+                  Menschen am meisten entgegen steht seine Willkühr. Vermöge dieser beginnt und
+                  endigt er Handlungen, ohne weder durch Naturzwang, noch auch gerade durch
+                  Vernunftnöthigung getrieben zu werden. Er folgt, wie man zu sagen pflegt, dem
+                  Zufall, äusseren Einwirkungen, oder inneren augenblicklichen Antrieben. Was er auf
+                  diese Weise thut, ist zwar oft physisch, da es auch nicht einmal mittelbar aus
+                  Vernunft entspringt, es ist aber doch immer das Resultat physischer oder andrer
+                  Veränderungen auf eine freie Natur, und daher weder nach Naturgesetzen zu
+                  berechnen, noch auch eines Experimentes fähig. Von dieser Seite kann der Mensch
+                  bloss historisch erkannt werden. So ist er; so ward er. Das Warum? erlaubt keine
+                  befriedigende Antwort.</p>
+               <p>Natur und Willkühr werden verknüpft in der ächt menschlichen Freiheit durch
+                  Vernunft. Denn die Vernunft bringt eine ebensogrosse Nothwendigkeit nach Gesetzen
+                  hervor, als die Natur, aber sie thut der Freiheit nicht den mindesten Eintrag, da
+                  sie sich selbst das Gesetz giebt. Hier sind also Gesetze, und zwar solche, die,
+                  ausserhalb des Gebiets der Erscheinungen, aus einer selbstständigen Kraft
+                  emaniren. Hier beginnt demnach das Gebiet der philosophischen und ästhetischen
+                  Beurtheilung.</p>
+               <p>Jede theoretische Bearbeitung eines Stoffs setzt eine Beurtheilung nach Gesetzen
+                  voraus, und nur insofern der menschliche Charakter einer solchen fähig ist,
+                  verstattet er eine wissenschaftliche Behandlung.</p>
+               <p>Die organische Natur des Menschen lässt allerdings Gesetze sehen, die regelmässig
+                  und unfehlbar eintreffen. So ist es z. B. ein allgemeines Naturgesetz, dass ein
+                  Theil der Individualität der <pb n="1.396" xml:id="pbI396"/> Eltern auf die Kinder
+                  übergeht. Aber die verwickelte Oekonomie des menschlichen Körpers, seine noch
+                  unbegreiflichere Verbindung mit dem moralischen Charakter, und die grosse
+                  Schwierigkeit, mit dem Menschen zu experimentiren, macht, dass jene Gesetze noch
+                  immer so unvollkommen, und schwerlich je durchaus vollständig erkannt werden. So
+                  ist es in dem vorigen Beispiel nicht möglich zu bestimmen, was gerade, in welchem
+                  Grade, und unter welchen Umständen mehr oder minder durch die Zeugung forterbt.
+                  Selbst, was doch bei weitem einfacher ist, die physische und physiologische
+                  Eigenthümlichkeit eines Individuums als ein Ganzes zu kennen, giebt es noch nicht
+                  einmal eine allgemeine Formel oder Methode. Man beobachtet und kennt bloss
+                  einzelne Verschiedenheiten, aus denen sich wenig oder nichts schliessen lässt.</p>
+               <p>Die grösseste Strenge und Gesetzmässigkeit verstattet die philosophische
+                  Beurtheilung, allein auch mehr da, wo sie dem Menschen für seine Gesinnungen
+                  Regeln vorschreibt, als da, wo sie zum Behuf der Erweiterung seines Wissens den
+                  wirklichen Zusammenhang zwischen seinen Kräften aufzudecken bemüht ist. Zwar wird
+                  sie einzelne Verhältnisse unfehlbar richtig bestimmen und aufklären, aber da diese
+                  nie ganz allein und vereinzelt vorhanden, also die Fälle nie rein gegeben sind, so
+                  werden die innern intellectuellen und moralischen Verhältnisse nie ganz fehlerlos
+                  dargestellt, oder vollständig erschöpft werden können.</p>
+               <p>Am wenigsten Gesetzmässigkeit zeigt ein bloss historisch behandelter Stoff. Alles
+                  Einzelne erscheint in demselben eben so regellos, als der Zufall und die Willkühr,
+                  die es hervorbringen. Dennoch kehren auch hier, sobald man nur grosse Massen auf
+                  einmal ins Auge fasst, gleiche Ereignisse in einer gewissen, obgleich weniger
+                  strengen und schwerer zu beobachtenden Regelmässigkeit zurück.</p>
+               <p>Der Stoff, den die vergleichende Anthropologie darbietet, ist daher nicht gerade
+                  einer wissenschaftlichen, ja nicht einmal durchaus einer theoretischen Behandlung
+                  fähig. In wie hohem Grade er indess auch empirisch seyn mag, so zeigen doch die
+                  einzelnen Erscheinungen immer eine gewisse Stätigkeit, Folge und Gesetzmässigkeit,
+                  und diese letztere muss nothwendig sowohl mit der Erweiterung unsrer Kenntniss,
+                  als mit der Veredlung der menschlichen Natur selbst, noch mit dem Fortschritte der
+                  Zeit immer höher steigen. Der Bearbeiter hat sich daher zwar zunächst so genau als
+                  möglich an die Wirklichkeit anzuschliessen, aber mit <pb n="1.397" xml:id="pbI397"/> der Beobachtung muss er zugleich immer soviel als möglich eine streng
+                  philosophische Behandlung verbinden, theils um die Masse der Thatsachen nach
+                  Gesetzen theoretisch zu ordnen, theils um die durch die Beobachtung erhaltenen
+                  Charaktere praktisch nach Gesetzen zu beurtheilen.</p>
+               <p>Wer hierin glücklich seyn, und die individuelle Menschenkenntniss wahrhaft
+                  erweitern will, der muss gewissermaassen die verschiedenen Geistesstimmungen des
+                  Naturbeobachters, des Historikers und des Philosophen in sich vereinigen. Wie der
+                  erstere muss er überall von dem Begriff der Organisation ausgehen, durchgängig
+                  vollkommene Gesetzmässigkeit voraussetzen, alles aus den innern und eignen Kräften
+                  des Wesens erklären, in diesen jede zugleich als Zweck und als Mittel betrachten,
+                  und nie zu andern als physischen Erklärungen seine Zuflucht nehmen. Wie dem
+                  zweiten liegt es ihm ob, mit der antheillosesten Gleichgültigkeit bloss nach dem,
+                  was geschehen ist? Zu fragen, und das Ganze, zu dem die einzelnen von ihm
+                  beobachteten Thatsachen gehören, weder als ein Naturprodukt, noch auch als ein
+                  reines Willensprodukt anzusehen, damit er auch nicht einmal versucht werde, von
+                  Ursachen und Gesetzen auf die einzelnen Erscheinungen, sondern immer von diesen
+                  auf jene überzugehen. Denn das ist es gerade, was den Historiker, wenn man ihn
+                  nemlich dem Naturbeobachter und Philosophen entgegensetzt, auszeichnet, dass er es
+                  einzig und allein mit dem, was geschehen ist, zu thun hat, und das Feld, auf dem
+                  er thätig ist, weder als das Gebiet der Natur, noch als das Gebiet eines reinen
+                  Willens, sondern als das Reich des Schicksals und des Zufalls betrachtet, von
+                  dessen Launen wenigstens im Einzelnen niemand Rechenschaft zu geben fähig ist. Wie
+                  der Philosoph endlich darf er nicht vergessen, dass ein freies und selbständiges
+                  Wesen der Gegenstand seiner Betrachtung ist, bei dem er erste, nothwendige,
+                  ausserhalb der Erscheinungen liegende Ursachen voraussetzen, und das er streng
+                  nach Gesetzen, nach Vernunftidealen beurtheilen muss.</p>
+               <p>Was das Schwierigste ist, so dürfen diese drei so verschiedenen Geistesstimmungen
+                  nicht einmal immer, wenn auch freilich oft, einzeln bei einzelnen Theilen der
+                  Charakterkenntniss thätig, sie müssen sehr häufig sehr nahe mit einander verbunden
+                  seyn. Denn da der Mensch ein freies Wesen in der Kette der Natur ist, so wird auch
+                  dasjenige, was durchaus selbstständig aus ihm entspringt, leicht zu einer Art von
+                  Organisation, und wenn daher der Stoff <pb n="1.398" xml:id="pbI398"/> des
+                  Charakters einmal hinlänglich historisch erforscht ist, so ist es immer nothwendig
+                  zugleich zu versuchen, ihn als Natur und Organisation zu erklären, und als die
+                  freieste Exertion rein menschlicher Kräfte idealisch zu beurtheilen. In der
+                  moralischen Natur des Menschen muss man gleichsam eine bewegliche Organisation
+                  annehmen, eine bewundernswürdige Leichtigkeit etwas zur Natur werden zu lassen,
+                  und es doch, bei veränderter Charakterrichtung, wieder gegen etwas anderes zu
+                  vertauschen. In der That sehen wir, dass auf der einen Seite der Mensch sich
+                  Eigenschaften dergestalt anzueignen vermag, dass sie sich mit allem in ihm
+                  verbinden, in seine physische Beschaffenheit sogar übergehen, und von ihm aus sich
+                  auch auf andere fortpflanzen; dass er auf der andern, sobald sein Geist eine
+                  andere Wendung nimmt, aus der bisherigen Form heraustreten und sie mit einer
+                  andern verwechslen kann. Diese letztere Kraft zeigt sich manchmal in dem Kampf
+                  individueller Züge mit dem Charakter des Geschlechts, oder der Nation in einem
+                  bewundernswürdigen Grade. Diese dem ersten Anblick nach so wenig begreifliche
+                  Verbindung der Stätigkeit und Versatilität findet unstreitig ihre Erklärung in dem
+                  Zusammenwirken der sinnlichen und rein geistigen Kräfte im Menschen. Die ersteren
+                  streben immer alles zu assimiliren, alles in Habitus und Natur zu verwandeln.
+                  Dagegen ist den letzteren jede Stätigkeit fremd, die nicht auf einer fortwährenden
+                  Billigung des gegenwärtigen Augenblicks, sondern auf einer Fortdauer voriger
+                  Eindrücke beruht. Nun gewinnen zwar im Kampfe die geistigen Kräfte immer die
+                  Oberhand, da aber die sinnlichen doch auch immer thätig bleiben, so entsteht
+                  immerfort eine habituelle Natur, die nur, wenn sie mit veränderten
+                  Geistesrichtungen in Widerspruch geräth, nicht alleinherrschend werden kann.</p>
+               <p>Die gehörige Mischung, in welcher die in so hohem Grade ungleichartigen Anlagen
+                  mit einander zu einer richtigen Menschenkenntniss verbunden seyn müssen, künstlich
+                  und regelmässig zu finden, dürfte schwer, wo nicht unmöglich seyn. Auch findet man
+                  in der That meistentheils entweder zu empirische oder zu speculative
+                  Menschenbeobachter. Die beste Schule für die Menschenkenntniss ist daher das
+                  Leben, und derjenige wird am besten in derselben gelingen, dessen Charakter selbst
+                  in vorzüglichem Grade kultivirt ist, der zugleich formenreich und hinlänglich
+                  gewöhnt ist, sich nach Gesetzen zu beurtheilen. Denn demjenigen, der selbst die
+                  nothwendige Freiheit und Gesetzmässigkeit in sich verbindet, <pb n="1.399" xml:id="pbI399"/> wird es auch weder an der Empfänglichkeit fehlen, den
+                  gegebnen Stoff aufzufassen, noch an der Kraft, ihn einer strengen Prüfung nach
+                  Gesetzen zu unterwerfen.</p>
+            </div>
+            <div type="section" n="7">
+               <head>
+                  <title type="sub">7. Von der Charakterverschiedenheit im Allgemeinen</title>
+               </head>
+               <p>Der erste Unterschied, den wir unter mehreren Menschen bemerken, und der auch dem
+                  flüchtigsten Blick nicht entgeht, ist die Verschiedenheit der Gegenstände ihrer
+                  Beschäftigung, der Producte ihres Fleisses, der Art, ihre Bedürfnisse zu
+                  befriedigen, und das Leben zu geniessen. An diese in die Augen fallenden Dinge
+                  heftet sich zuerst der Begriff der Eigenthümlichkeit bei einzelnen Individuen, wie
+                  bei ganzen Nationen, unter welchen letzteren man noch von sehr vielen gerade nur
+                  soviel, nur ihre Kleidung, Beschäftigungen, Vergnügungen, Lebensart u. s. f.
+                  kennt. </p>
+               <p>Die zweite Classe von Kennzeichen der Verschiedenheit unter Menschen geht schon
+                  näher ihre Persönlichkeit an, wenn sie auch gleich das Innre derselben noch nicht
+                  geradezu und unmittelbar schildert. Man kann dahin alles Aeussre in dem Körperbau
+                  und dem Betragen rechnen, Gestalt, Farbe des Gesichts und des Haars, Physiognomie,
+                  Sprache, Gang und Gebehrden überhaupt. Diese Gattung von Kennzeichen ist
+                  hauptsächlich wichtig, da sie auf der einen Seite dem Menschen selbst näher führt,
+                  als die vorige, und auf der andern ein wahreres und treueres Bild giebt, als
+                  dasjenige ist, was man unmittelbar von dem Innern doch immer mehr schliesst, als
+                  geradezu sieht. Daher bleibt nicht allein der gesunde und natürliche Tact, der,
+                  wenn auch manchmal im Einzelnen, doch selten im Ganzen grosse Fehlgriffe thut,
+                  schlechterdings bei diesen stehen, sondern auch der philosophischste
+                  Menschenkenner behält dieselben unverrückt vor Augen, um an ihnen, als an
+                  unmittelbaren Thatsachen, seine tiefer eingehenden Urtheile zu prüfen und zu
+                  berichtigen.</p>
+               <p>Von diesen beiden Gattungen der Kennzeichen aus kann man endlich auf die innern
+                  Verschiedenheiten selbst übergehen. Diese trift man alsdann zwar nicht in den
+                  Kräften selbst, da das ganze Menschengeschlecht durchaus mit denselben
+                  ausgestattet ist, wohl aber in ihrem Grade, da sie bei dem einen eine Höhe
+                  erlangen, zu der sich der andre nie emporschwingt, in ihrem Verhältniss, wenn bei
+                  dem einen die Phantasie, bei dem andern der Ver- <pb n="1.400" xml:id="pbI400"/>
+                  stand u. s. f. herrschend ist, oder in ihrer Bewegung, da der eine rastlos und
+                  thätig, der andre träg und unthätig ist, u. s. f. an; ferner in den Empfindungen,
+                  die bei dem einen sanfter und reizbarer, als bei dem andern sind, endlich in
+                  Neigungen und Leidenschaften.</p>
+               <p>Aber alle diese Verschiedenheiten, so einzeln, als sie hier dastehn, betrachtet,
+                  beweisen mehr Verschiedenheiten in einzelnen Aeusserungen, als in dem Charakter
+                  selbst. Solange man sie einzeln betrachtet, bleibt es immer ungewiss, ob sie nicht
+                  mehr bloss aus einer Verschiedenheit der äussern Lagen und Umstände, als aus einer
+                  innern Charakterform entspringen, aus welcher das Individuum entweder gar nicht
+                  oder doch nicht ganz herauszugehen im Stande ist. Nur in diesem letzteren Falle
+                  aber ist doch eine eigentliche Charakterverschiedenheit vorhanden, und um daher
+                  auf diese zu kommen, bedarf es noch andrer und tiefer eingreifender
+                  Beobachtungen.</p>
+            </div>
+            <div type="section" n="8">
+               <head>
+                  <title type="sub">[8]. Hauptsächlichste Thatsache, auf welche der Gedanke einer
+                     vergleichenden Anthropologie sich vorzüglich stützt</title>
+               </head>
+               <p>Diese Thatsache ist der Unterschied der Geschlechter, welche die Natur zu einer so
+                  unverkennbaren Eigenthümlichkeit eines jeden für sich, und einer sich so scharf
+                  entgegengesetzten Verschiedenheit bestimmt hat, dass vernünftiger Weise auch nicht
+                  einmal der Gedanke entstehen kann, den Charakter des einen mit dem des andern zu
+                  vertauschen, oder die Individualität beider durch eine dritte zu vertilgen.
+                  Ueberall, wo von individuellen Unterschieden die Rede ist, kann daher derselbe zum
+                  Muster dienen, an dem die Art, die Entstehung, die Entwicklung und das Verhältniss
+                  solcher Eigenthümlichkeiten unter einander und zur Gattung auf die auffallendste
+                  Weise sichtbar ist. Bei allem aber, was sich auf Naturbeobachtung gründet, ist es
+                  ein Haupterfoderniss einer guten Methode, jeden einzelnen Punkt gerade da
+                  aufzusuchen, wo er sich am sichtbarsten zeigt.</p>
+               <p>Unter beiden Geschlechtern selbst ist es hier, wo es darauf ankommt, die Einheit
+                  in den einzelnen Eigenthümlichkeiten zu bestimmen, welche dazu gehört, um eine
+                  eigentliche <emph>Charakter</emph>verschiedenheit zu begründen, besser, bei dem
+                  weiblichen stehen <pb n="1.401" xml:id="pbI401"/> zu bleiben, da dieses die
+                  Individualität der Art reiner und weniger mit der der Gattung vermischt, als das
+                  männliche, an sich trägt.</p>
+               <p>Betrachten wir nun die einzelnen Züge der Natur der Weiber in Vergleichung mit den
+                  Männern, so finden wir:</p>
+               <p>1. ihren Körperbau kleiner, schwächer und zarter; ihre Knochen feiner und
+                  biegsamer; die Muskelkraft mehr zum langsamen Ausdauern, als zur plötzlichen
+                  Anstrengung geschickt; ihre Gestalt von weichen, fliessenden Umrissen begränzt,
+                  voll Fülle und Anmuth; ihren Ausdruck in der Ruhe und der Bewegung mehr
+                  mannigfaltig, sprechend und sanft, als gerade, fest und bestimmt; ihre Schönheit
+                  überhaupt mehr durch die Freiheit des Stoffs in der Anmuth, als durch die
+                  Herrschaft der Form in der Bestimmtheit der Züge hervorstechend; ihre physische
+                  Organisation endlich durch eine überwiegende Reizbarkeit und Thätigkeit des
+                  Nervensystems, und eine gewisse Passivität, vermöge welcher sie Uebeln länger
+                  widerstehn, und leichter grosse Veränderungen erleiden kann, ausgezeichnet.</p>
+               <p>2. in Rücksicht auf ihre intellectuellen Fähigkeiten eine entschiedene Neigung zur
+                  Betrachtung der Natur und alles dessen, was einen unmittelbaren Werth und Gehalt
+                  besitzt, verbunden mit einer fast gleichen Abneigung gegen alles bloss Mittelbare
+                  und Symbolische; eine bewundernswürdige Stärke in demjenigen Theile der
+                  Erforschung der Wahrheit, welcher lebhafte und bewegliche Reizbarkeit, leichtes
+                  und schnelles Auffassen und Verknüpfen fodert, dagegen eine nicht minder
+                  auffallende Schwäche und einen fast noch grösseren Widerwillen gegen denjenigen,
+                  der mehr auf Selbstthätigkeit und scheidender Strenge beruht. Daher ist es den
+                  Frauen in so hohem Grade eigen, ihr forschendes Streben überall nach dem wahren
+                  Wesen der Dinge zu richten; aber ebendaher erreichen sie doch diess letztere so
+                  selten in seiner objectiven Reinheit. Sie behandeln ihren Gegenstand nicht so
+                  willkührlich, als nicht selten der Mann; dagegen aber mit einer nachsichtsvolleren
+                  Schonung, als die Foderung ihn zu durchschauen und vollkommen in ihn einzudringen
+                  verstattet. Ueber dem Geiste der Wahrheit verfehlen sie ihren Buchstaben. So
+                  wenden sie sich bei Objecten der Beobachtung gewiss immer unmittelbar an die
+                  Wirklichkeit selbst, aber da sie sich mehr den Eindrücken, welche dieselbe in
+                  ihnen hervorbringt, überlassen, als sie aufzudecken, zu zerlegen, und ihr mit
+                  Versuchen nachzugehen geneigt sind, so gelingt es ihnen nur selten, sie genau zu
+                     <pb n="1.402" xml:id="pbI402"/> ergründen; meistentheils knüpfen sie vielmehr
+                  ihre subjective Vorstellungsart an dieselbe an, und führen in ihr, wie in ihrem
+                  eigenthümlichsten Elemente, nur ihr eignes inneres Leben fort. Ebenso nehmen sie
+                  jedes Raisonnement gewiss immer von der Seite seiner bedeutendsten und
+                  fruchtbarsten Folgen, bringen es mit allen ihren übrigen Begriffen in gegenseitige
+                  Verbindung, sind aber nicht immer sorgfältig genug, es auf hinlänglich sichere
+                  Gründe zu stützen. Aus gleichen Gründen empfinden sie auch nach den letzten
+                  Resultaten der abstraktesten Philosophie ein dringendes Bedürfniss, weil schon
+                  ihre Natur ihnen nicht eher, als bis sie ihre ganze Gedankenmasse in eine Einheit
+                  verbunden haben, zu ruhen erlaubt; da indess die Abstraction ihrer Individualität
+                  doch durchaus widerspricht, so bleibt ihnen die eigentliche Speculation immer
+                  fremd. Der Wahrheitssinn existirt in ihnen im genauesten Verstande des Worts, als
+                  ein Sinn, sie sind durch ihre Natur selbst gedrungen, ihn zu lieben und ihm zu
+                  huldigen; aber aus einem ursprünglich in dieser gegründeten Mangel an derjenigen
+                  sondernden Kraft, welche das eigne Ich recht scharf von der Welt abscheidet, die
+                  es umgiebt, werden sie seinem letzten Ziel: der Erforschung der Wahrheit nicht so
+                  nah kommen, als der Mann.</p>
+               <p>Das Unterscheidende dieser intellectuellen Eigenthümlichkeit des andern
+                  Geschlechts beruht grösstentheils auf der Reizbarkeit und Lebhaftigkeit der
+                  Phantasie, welche den übrigen Kräften, am wenigsten dem Verstande und der
+                  Vernunft, nicht leicht abgesondert zu wirken verstattet, aber dagegen auch selbst
+                  nicht so willkührlich, als oft im Manne verfährt, sondern den Sinnen und dem
+                  Gefühl folgsamer getreu bleibt.</p>
+               <p>Nicht also gerade baaren Gewinn an einzelnen Kenntnissen oder Wahrheiten darf man
+                  von dem Geiste der Frauen erwarten; er leistet mehr, und seine Bestimmung ist
+                  höher und edler. Das Höchste und Beste in der allgemeinsten Geistesthätigkeit
+                  überhaupt, das Umfassen eines mannigfaltigen Reichthums, das treue Anhalten an die
+                  Natur und den unmittelbaren Gehalt, das Streben, alles und überall zu verknüpfen,
+                  das Bedürfniss, das eigne Ich und die umgebende Welt nicht nur immer auf einander
+                  zu beziehn, sondern auch durchaus in Eins zu verschmelzen, ist unmittelbar durch
+                  seine Natur selbst gegeben. Es fehlt ihm nur, dass er auch das Einzelne immer
+                  hinreichend sichre.</p>
+               <p>Darum wirkt gerade der weibliche Geist so wohlthätig auf den männlichen. Wo der
+                  letztere durch willkührliche Einfälle <pb n="1.403" xml:id="pbI403"/> und
+                  grübelndes Speculiren zweifelt, da beruhigt und befestigt ihn oft der gesunde und
+                  natürliche Blick des ersteren; wo jener hingegen, weil er seiner Meynung
+                  widersprechende Thatsachen übersieht oder gering achtet, zu früh gewiss ist,
+                  fodert dieser ihn zum Zweifel auf. Ausserdem aber sieht der Mann die unendliche
+                  Bahn, die er langsam und Schrittweise durchmessen soll, in dem Geiste des Weibes,
+                  der schnell und mit Ueberspringung der mittleren Schritte beide Enden
+                  zusammenknüpft, als einen kurzen Weg sinnlich dargestellt, und wird unaufhörlich
+                  durch denselben an das Letzte und Höchste erinnert, das er erreichensoll, ohne
+                  doch in seiner eigenthümlichen Thätigkeit gestört zu werden, in welcher er sich
+                  vielmehr durch den entgegengesetzten Mangel in der weiblichen aufgefodert fühlt,
+                  noch rüstiger fortzuarbeiten.</p>
+               <p>3. in Rücksicht auf den ästhetischen Charakter des Geschlechts.</p>
+               <p>Wenn der Schönheitssinn lebhaft und rege seyn soll, so muss die Energie des
+                  Geistes in einer gewissen mittleren Richtung zwischen der Thätigkeit der
+                  Sinnlichkeit und der des reinen Verstandes gehalten, kein Gegenstand weder von der
+                  Seite seines physischen Gebrauchs, noch von der seines Begriffs allein betrachtet
+                  werden; vielmehr ist es nothwendig, immer beide zugleich zusammenzunehmen und
+                  gleichsam zu vertauschen, und die Materie sowohl als den Begriff desselben bloss
+                  als Gestalt d. i. als etwas zwar sinnliches, aber doch unkörperliches zu
+                  behandeln. Diesem Verbinden heterogener Gemüthskräfte, diesem mittleren Schweben
+                  zwischen der Wirklichkeit und der reinen Geistigkeit ist nun die ganze
+                  intellectuelle Anlage der Frauen in hohem Grade günstig. Sie sind bei gleichen
+                  Graden der Kultur durchaus mehr als der Mann auf das Höchste und Idealische
+                  gerichtet (theils weil sie überhaupt mehr nach Einheit streben, theils weil die in
+                  ihnen vorzugsweise herrschende Phantasie dieselbe Richtung hat, theils endlich
+                  weil sie in einer niedrigeren Sphäre die Befriedigung durch reine
+                  Verstandesbeschäftigung weniger kennen) und trennen sich doch zu ungern so weit
+                  von der sinnlichen Wirklichkeit, um in dem Gebiete abgezogener Vernunftideen
+                  anhaltend zu verweilen. Nichts kann ihnen daher so willkommen seyn, als eine
+                  Beurtheilung, die so sehr, als nur irgend eine andre, Allgemeinheit und
+                  Nothwendigkeit mit sich führt, und doch nicht nach deutlich erkannten, vollkommen
+                  ausgesprochnen Grundsätzen bloss mechanisch geschieht. Dazu kommt die äussere
+                  Anmuth und Schönheit, welche die weibliche Gestalt selbst besitzt und die sie
+                  anzunehmen <pb n="1.404" xml:id="pbI404"/> fähig ist, die richtig vertheilte Fülle
+                  und Feinheit des Baus und der Züge, die Grazie der Bewegungen, die wohlklingende
+                  Stärke und Sanftheit der Stimme. Denn ausserdem, dass dieser eigne Reiz beständig
+                  die Sinne umgiebt, wirkt er auch auf die Beschaffenheit und den Rhythmus der
+                  Empfindungen zurück, oder ist vielleicht richtiger selbst in beiden gegründet.
+                  Endlich gesellt sich die äussere Lage hinzu, in welcher die ernsthaften Geschäfte
+                  gerade die am wenigsten anstrengenden sind, die alle übrige als Spiel und Erholung
+                  anzusehen verstattet, und überhaupt der Musse des Geistes und dem Umherschweifen
+                  der Phantasie soviel Zeit zu widmen erlaubt. Darum ist der Schönheitssinn der
+                  Frauen unaufhörlich rege, und in so bewundernswürdigem Grade lebhaft, darum
+                  beurtheilen sie alles nach den Regeln des Gefallenden, und suchen in die kleinsten
+                  Züge ihres Lebens Geschmack zu verweben. — Diess ist im eigentlichsten Verstande
+                  Anlage des Geschlechts, und muss unvermeidlich entstehen, sobald menschliche
+                  Kultur sich mit weiblichem Charakter verbindet. Nur ob dieser Schönheitssinn
+                  richtig und rein ist, ob er nicht z. B. das bloss Angenehme oft mit dem Schönen
+                  verwechselt? hängt mehr von der Individualität einzelner Subjecte ab.</p>
+               <p>Aber von diesem unbestimmteren Schönheitssinn ist noch ein weiter Weg bis zum
+                  eigentlichen Kunstgefühl, und noch mehr bis zum Kunstgenie. In allem, was der
+                  Kunst angehört, lässt sich das Technische, das bloss auf logischen Regeln beruht,
+                  von der Wahrheit in der Nachahmung der Natur und diese wiederum von dem eigentlich
+                  Künstlerischen oder Poetischen, der reinen Erzeugung der selbstthätigen Phantasie,
+                  abscheiden. Die Richtigkeit des Urtheils über das erste Erfoderniss hängt ganz und
+                  gar von einer bestimmt darauf gerichteten Verstandescultur ab. Weiblich wird es
+                  indess seyn, es hiemit nicht allzustreng zu nehmen, sondern vielmehr sogar
+                  bedeutendere Fehler anderen Schönheiten zu verzeihen. Ueber das zweite
+                  Erforderniss werden die Frauen vermöge der Feinheit ihres Beobachtungsgeistes und
+                  der Zuverlässigkeit ihres Taktes vortrefliche Richterinnen seyn. Selbst der Natur
+                  so nah, ist ihnen kein Zug fremd, der aus ihr entlehnt wird; in so hohem Grade
+                  reizbar und beweglich, werden sie nicht leicht für eine Empfindung, welche der
+                  Dichter in ihnen weckt, den entsprechenden Ton in ihrem Innern vermissen. So
+                  werden sie ihn tiefer und inniger verstehen; aber sie werden ihn auch strenger
+                  beurtheilen. Denn da sie ihrem natürlichen Gefühle, frei <pb n="1.405" xml:id="pbI405"/> von vorgefassten Meynungen (die den Mann so oft irre führen)
+                  folgen, so wird das Charakterlose und Unnatürliche sie weniger zu täuschen im
+                  Stande seyn. Die einzige Gefahr, die ihnen hier droht, ist nur die, ihrer
+                  Beurtheilung vielleicht eine zu einseitige, zu sehr aus ihrer Individualität
+                  entlehnte Erfahrung zum Grunde zu legen; doch ist selbst diese geringer, da ihr
+                     Charakter<note type="footnote" n="iv)" resp="gnd-116890657">
+                     <hi>Nach „Charakter“ gestrichen: „durch seine eigne Natur schon an sich“.</hi>
+                  </note> einen grösseren Kreis umschliesst. Die weibliche Natur ist an und für sich
+                  ungleich poetischer, als die männliche, und es kann daher nicht fehlen, dass nicht
+                  auch für das höchste und letzte Erfoderniss der Kunst der weibliche Geist ofner
+                  und empfänglicher seyn sollte. Er versenkt sich nicht leicht zu tief in die
+                  Wirklichkeit, und erhebt sich nur selten zum ganz reinen Gebiet der Ideen. Das
+                  Einzige, was ihm hier mangeln könnte, wäre vielleicht die Kraft, mit welcher die
+                  selbstthätige Einbildungskraft ihr Product durchaus individuell und doch ganz und
+                  gar idealisch, gleichsam in der Mitte zwischen der Natur und der Idee frei
+                  schwebend erhält; und in der That findet man auch von dieser Seite das weibliche
+                  Urtheil nicht immer rein, nicht selten mehr durch die Wahrheit, als durch das
+                  Poetische eines Kunstwerks bestimmt, und oft durch subjective Beziehungen,
+                  Uebereinstimmungen oder Verschiedenheiten, bestochen. Die Geschlechts-Anlage macht
+                  ein poetisches Urtheil überhaupt leichter und häufiger möglich, als in dem Manne,
+                  aber sie setzt der vollkommnen Freiheit und Reinheit desselben (da sie die
+                  Phantasie zu nah mit der Empfindung verknüpft und überhaupt den Gemüthskräften
+                  weniger abgesondert zu wirken verstattet) grössere Hindernisse in den Weg; indess
+                  nie so grosse, dass sie nicht mit völliger Beibehaltung ihrer Eigenthümlichkeit,
+                  was wenigstens das Urtheil betrift, sollten überwunden werden können.</p>
+               <p>Bei weitem schwieriger schon ist das eigne Schaffen, das Kunstgenie. Das Genie
+                  überhaupt kann zwar, als der freieste und höchste Schwung des menschlichen
+                  Geistes, nur der Individualität angehören, und muss in dem Gattungscharakter
+                  allemal Hindernisse antreffen; es fragt sich nur, in welchem mehr oder weniger?
+                  Ein gewisser Theil nun in der Ausübung der Kunst gelingt den Frauen unläugbar in
+                  hohem Grade. Ihre Productionen besitzen vorzugsweise Leichtigkeit und Anmuth, sind
+                  lieblich und gefällig, und wenigstens gewiss immer in einzelnen Zügen wahr und
+                  tief <pb n="1.406" xml:id="pbI406"/> aus der Natur genommen. Ob sie aber auch, wie
+                  nur das Genie vermag, im Stande sind, eine Gestalt so hinzustellen, dass sie sich
+                  durchaus über die Natur erhebt, und doch ganz und gar Natur ist, ob es ihrer
+                  Phantasie nicht dazu an Stärke, oder wenigstens an der Herrscherkraft, die sich
+                  eigenmächtig von jedem fremden Gesetz losmacht, und sich selbst das Gesetz giebt,
+                  ob nicht ihrem Geiste überhaupt an Objectivität gebricht? ist eine andere Frage.
+                  Wenigstens ist es gewiss, dass der weibliche Charakter vermöge seiner grösseren
+                  Empfänglichkeit auch eine bei weitem höhere Selbstthätigkeit erfodert, um das zur
+                  Production des Genies nöthige Gleichgewicht zu erhalten. Inwiefern indess dennoch
+                  ein einzelnes Individuum diese Schwierigkeiten überwinden kann? erlaubt keine
+                  allgemeine Bestimmung. Nur lehrt die Erfahrung soviel, dass Frauen sich nicht
+                  leicht an denjenigen Gattungen versuchen, deren Gelingen vorzugsweise auf ihrer
+                  künstlerischen, nur durch Genie möglichen Form beruht, wie die epische und
+                  dramatische Poesie und die plastische Kunst ist, sondern fast ausschliessend nur
+                  an denen, die gleichsam mehr Fläche darbieten, dem blossen Reiz und dem Reichthum
+                  des Stoffes mehr Raum verstatten, der Musik und Mahlerei, dem Roman und der
+                  lyrischen Dichtkunst, obgleich auch hieran die grössere Kunstfertigkeit und der
+                  ausharrendere Fleiss Schuld seyn kann, den jene Gattungen fodern.</p>
+               <p>Ueberhaupt muss die Weiblichkeit schon eine gewisse Läuterung erfahren haben, ehe
+                  wissenschaftliche oder dichterische Productionskraft möglich wird. Ohne diese
+                  fehlt es ihr, selbst in den vorzüglichsten Subjecten, an der hinlänglichen
+                  Klarheit und Ruhe, und noch mehr an der Kraft, und selbst an der Neigung eine
+                  Reihe einzelner Gedanken oder Empfindungen von der ganzen Masse abzusondern, und
+                  für sich zu bearbeiten.</p>
+               <p>4. in Rücksicht auf das Empfindungsvermögen und den Willen.</p>
+               <p>Um das weibliche Geschlecht von seiner eigenthümlichsten Seite zu sehen, muss man
+                  von dem moralischen Charakter ausgehen. Wie bei den Männern der Geist, so ist bei
+                  den Frauen die Gesinnung am meisten rege und thätig. Was sie irgendwoher
+                  aufnehmen, wird in dieselbe verwandelt; alles geht in sie über; alles entspringt
+                  wieder aus ihr. Dadurch ist ihnen eine so entschiedene und beständige Richtung
+                  nach der Wirklichkeit eigen. Denn indess der Geist, wenigstens seinen letzten
+                  Zwecken nach, immer im Gebiet der Allgemeinheit und Nothwendigkeit und die <pb n="1.407" xml:id="pbI407"/> Phantasie im Reiche der Möglichkeit verweilt,
+                  gehört dem Gefühl und der Gesinnung nur die individuelle Gegenwart an.</p>
+               <p>Der erste und ursprüngliche Grund hievon liegt in der Naturbestimmung des
+                  Geschlechts. Um Leben und Daseyn zu geben und zu erhalten, muss es der Natur und
+                  der Wirklichkeit treu bleiben, und sich streng an sie binden. Zwar beruht diess
+                  zunächst nur auf der physischen Organisation; aber der Einfluss davon verbreitet
+                  sich unmittelbar auch auf den moralischen Charakter. Denn da sich mit dem
+                  Bedürfniss der Natur zugleich in der Liebe die menschlichsten und geistigsten
+                  Gefühle verknüpfen, so ergiesst sich diese Empfindung durchaus durch das ganze
+                  Wesen, und theilt demselben ihre Eigenthümlichkeit mit. Dasselbe ist zwar auch in
+                  dem Manne der Fall, aber der wichtige Unterschied ist der, dass die Frauen der
+                  empfangende und bewahrende Theil sind, dass nur ihnen das durchaus eigne Gefühl
+                  angehört, Mutter zu seyn, und dass der Charakter des Geschlechts überhaupt inniger
+                  in ihre Persönlichkeit verwebt ist.</p>
+               <p>Die weibliche Empfindung zeichnet sich vor der männlichen zwar durch grössere
+                  Reizbarkeit, aber noch mehr durch grössere Innigkeit aus. Nicht dass nicht auch in
+                  die Seele des Mannes ein einzelnes Gefühl so tief eindringen könnte, dass es alle
+                  Kräfte und Triebfedern des Gemüths auf einmal anspannt; eine Eigenthümlichkeit,
+                  die ihm vielmehr sogar ausschliessend eigen ist. Aber in der Seele der Frauen
+                  erklingen (wenn das Bild erlaubt ist) von den Schwingungen einer einzelnen Saite
+                  immer zugleich alle übrigen; ihr Gemüth gleicht dem stillen und klaren Wasser, in
+                  dem die leiseste Bewegung von Welle zu Welle bis an die äussersten Gränzen
+                  fortzittert. Daher ist ihre Innigkeit mehr von Leichtigkeit und Wärme, die des
+                  Mannes mehr von Heftigkeit, Feuer und Anstrengung begleitet.</p>
+               <p>Aus der Innigkeit entspringt die weibliche Schaam, so wie aus dieser die weibliche
+                  Züchtigkeit. Die Empfindung der Schaam entsteht immer, wenn man sich in sich
+                  versenkt, Ueberlegung und Verstand nicht kaltblütig genug von Gefühl und Neigung
+                  gesondert fühlt, und durch den Anblick des entgegengesetzten Zustandes in einem
+                  andern auf diesen Contrast des eignen aufmerksam gemacht wird. Weil nun der Mann,
+                  seiner Natur nach, kälter und besonnener ist, so ist die weibliche Schaam am
+                  meisten sichtbar im Verhältniss gegen das andre Geschlecht. Die physische
+                  Organisation des Weibes ist ebenso zum Aufnehmen und <pb n="1.408" xml:id="pbI408"/> Empfangen geneigt, als die moralische, alles zurück auf den inneren Zustand zu
+                  reflectiren. Beides verbindet sich in der besondern Gattung dieser Empfindung, die
+                  wir die jungfräuliche Schaam nennen, und die man als die Quelle betrachten kann,
+                  aus der sich diess Gefühl überhaupt über die ganze Organisation und über alle
+                  Zustände derselben nur in verschiedenem Maass und in verschiednen Gestalten
+                  ergiesst.</p>
+               <p>Schlechterdings eigenthümlich ist den Weibern das Muttergefühl, vorzüglich ehe die
+                  Frucht noch gebohren ist. Eine Liebe, die durchaus durch keinen Eindruck der
+                  Individualität hervorgebracht (denn die Zuneigung zum Vater verstärkt und
+                  verändert nur, erzeugt aber nicht diese Empfindung) und doch mit der
+                  unbedingtesten Aufopferung verbunden ist, die allein darauf beruht, dass ein
+                  fremdes Wesen mit dem eignen in so durchgängiger Mittheilung, so inniger Berührung
+                  steht, dass es selbst nur einen Theil desselben ausmacht, und diess Wesen doch ein
+                  lebendiges und menschliches ist, das nur, um einem unabhängigen Daseyn
+                  entgegenzureifen, auf eine kurze Zeit an ein fremdes geknüpft ist — eine solche
+                  Liebe, die noch dazu mehr als bloss in der Anlage auch denen eingepflanzt ist, die
+                  sie nie aus eigner Erfahrung kennen, und die gewiss nicht bloss ihren physischen
+                  Endzweck erfüllt, sondern sich mit ihren Einflüssen über den ganzen Charakter
+                  verbreitet, öfnet den Frauen einen ganz anderen Sinn der Aneignung, und lehrt sie
+                  einen ganz anderen Weg kennen, äussre Objecte mit sich zu verknüpfen, in sich
+                  aufzubewahren, und wieder von sich zu scheiden, als wofür der Mann nur einen
+                  Begriff hat. Daher stammt es, dass in der weiblichen Seele jede tiefere
+                  Empfindung, jede eigenthümliche Idee ein Theil ihrer selbst wird, die sie nur mit
+                  Mühe und gleichsam mit Schmerzen aus sich loswindet, und dass sie eine Freude der
+                  entbehrenden und selbst der schmerzensvollen Aufopferung kennt, die der Mann nur
+                  selten und in einzelnen leidenschaftlichen Momenten empfindet.</p>
+               <p>Lebhafte Reizbarkeit der Empfindung und Anhänglichkeit an die einmal gefasste
+                  Meynung bringen natürlich einen leidenschaftlichen, leicht erregbaren und heftigen
+                  Charakter hervor. Da aber die intellectuelle Cultur die Einseitigkeit des
+                  Verstandes, und die ästhetische die Materialität der Empfindung vermindert; so
+                  verschwindet diese Leidenschaftlichkeit auch in gebildeten Frauen wiederum bis auf
+                  ihre letzten kaum noch erkennbaren Spuren. Das Gemüth erfährt in ihnen seltner
+                  jene ungleichen, stürmischen <pb n="1.409" xml:id="pbI409"/> Regungen, die wir mit
+                  dem Namen der Leidenschaften bezeichnen; aber es befindet sich dafür in dem
+                  Zustande einer fortdauernden höheren, jedoch gleichmässigeren Spannung,<note type="footnote" n="v)" resp="gnd-116890657">
+                     <hi>„Spannung” verbessert aus „Stimmung”.</hi>
+                  </note> und wenn sich eine Leidenschaft ihrer bemächtigt, so ist es nur für einen
+                  Gegenstand, auf den sich, wenigstens der Ansicht des Subjectes nach, alle Kräfte
+                  der Seele würdig vereinigen können, und nur auf eine edle und grosse Weise. In dem
+                  Zustande einer solchen Leidenschaft verliert alsdann, sobald die Umstände es
+                  erheischen, die schöne Weiblichkeit ihre gewohnte Schüchternheit, sie tritt, auf
+                  einmal frei geworden, hervor, erklärt sich laut für den geliebten Gegenstand, und
+                  schüttelt das Joch äusserer und conventioneller Rücksichten von sich ab.</p>
+               <p>Nichts ist der Weiblichkeit so sehr zuwider, als moralische Gleichgültigkeit. In
+                  den gemeineren Naturen kündigt sich diess durch Härte und Intoleranz an; in den
+                  besseren und höheren herrscht zwar die freieste und schönste Liberalität, aber sie
+                  unterscheidet sich von der männlichen dennoch dadurch, dass, wenn Dingen, die das
+                  sittliche Gefühl beleidigen, andere sonst achtungswerthe Eigenschaften zur Seite
+                  stehen, die Schätzung dieser der Geringschätzung jener nicht das mindeste abzieht,
+                  da hingegen der Mann hierin leicht zu weit geht, und den Fehler, den er bloss
+                  toleriren will, selbst mit theilt. Ueberhaupt sind Frauen — wenigstens gilt diess
+                  gewiss von den edleren — bei weitem strenger bei Beurtheilung der Grundsätze, als
+                  ihrer Anwendung in einzelnen Momenten, und es ist selbst weiblich, die Milde oder
+                  die Inconsequenz (denn beides ist sehr häufig der Fall) bei dieser sogar zu
+                  übertreiben.</p>
+               <p>Wenn man die Frage aufwirft, ob die sinnliche, ästhetische oder moralische
+                  Empfindung im Ganzen genommen bei den Frauen die Oberhand behauptet, so lässt sich
+                  dieselbe bei keiner einzelnen vorzugsweise bejahen. Ueberwiegende und heftige
+                  Sinnlichkeit ist den Weibern in der Regel und bei einer natürlichen Ausbildung so
+                  wenig eigen, dass der berüchtigte Streit über die Kälte oder die
+                  Leidenschaftlichkeit des Geschlechts in diesem Punkte ohne Zweifel zum Vortheil
+                  der ersteren Behauptung entschieden werden muss; die ästhetische wird, wo es auf
+                  Gefühl und Charakter ankommt, wenigstens nicht im Widerspruch mit der moralischen
+                  siegen; und der trockne und zugleich dürftige Ernst der mora- <pb n="1.410" xml:id="pbI410"/> lischen genügt für sich allein genommen wenigstens der
+                  besseren und vielseitigeren nicht, wenn er auch der gewöhnlichen und alltäglichen
+                  durchgängige Genüge leistet. Wo bei der schönen Weiblichkeit das Gemüth zu wahrer
+                  und heftiger Leidenschaft entflammt werden soll, da müssen jene drei Arten der
+                  Empfindung mit einander zusammentreffen; alsdann aber wird sich dieselbe in jeder
+                  mit einem so mächtigen Feuer äussern, dass der unerfahrne Beurtheiler die jedesmal
+                  vorwaltende leicht für die einzige erklären kann. Der rohen noch ganz der Natur
+                  angehörenden Weiblichkeit ist zwar Ausgelassenheit der sinnlichen Begierde nicht
+                  fremd, aber sie entsteht nicht sowohl aus positiver Stärke der Sinnlichkeit (die
+                  in dem selbstständigeren und objectiveren Manne ungleich grösser seyn muss) als
+                  aus Leere der Empfindung, und aus Mangel einer entgegenstehenden Kraft, die sie zu
+                  zügeln vermöchte. Daher wird sie mehr als im Manne durch die Kultur
+                  herabgespannt.</p>
+               <p>Die Harmonie, welche die Frauen in der ganzen Summe ihrer Empfindungen fodern, die
+                  Totalität, auf die sie bei jedem Gegenstande dringen, dem sie sich mit einer
+                  gewissen Wärme widmen sollen, und die Tiefe und Innigkeit ihres Gefühls müssen
+                  zusammengenommen in hohem Grade dasjenige hervorbringen, was man stäte und
+                  dauernde Gesinnungen nennt, und auf der einen Seite dem Wechsel der Laune, auf der
+                  andern der absichtlichen Wirkungsart des Willens entgegensetzt. Daher ruht die
+                  weibliche Moralität mehr auf der Natur, als auf Ueberlegung und Charakterstärke,
+                  und daher gewährt das weibliche Gemüth so oft das schöne Schauspiel einer
+                  freiwilligen Herrschaft edler Gesinnungen, da das männliche mehr das erhabene
+                  einzelner glücklich errungener Kämpfe darbietet. Dass es dem andern Geschlechte
+                  indess ebensowenig nothwendig an der Kraft gebricht, welche zu diesen erfodert
+                  wird, zeigen häufige Beispiele, nur dass freilich die unverbrüchliche
+                  Anhänglichkeit an reine Sittlichkeit mehr aus einmal in die Natur selbst
+                  übergegangenen Gesinnungen, als aus unmittelbarer Achtung für das Gesetz
+                  hervorgehen wird.</p>
+            </div>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte </title>
+            </head>
+            <p>Handschrift (43 Quartseiten) im Archiv in <placeName ref="geo-2823708">Tegel</placeName>.</p>
+            <p>Dieser Entwurf gehört nach den Wasserzeichen (vgl. Bemerkungen zum <bibl>Text 1.4.
+                     <title>Über die Gesetze der Entwicklung der menschlichen Kräfte</title>
+                    </bibl>) in den <date>August oder September 1795</date>, als <persName ref="gnd-118554727">Humboldt</persName>, mit den Druckanordnungen des <persName ref="gnd-118607626">schiller</persName>schen <orgName ref="zdb-1059621398">Musenalmanach</orgName>s
+               beschäftigt und durch häusliche Verhältnisse häufig an geistiger Sammlung verhindert,
+               in <placeName ref="geo-2823708">Tegel</placeName> den Faden seiner <placeName ref="geo-2895044">jena</placeName>ischen Untersuchungen weiterzuspinnen sich anschickte. In den
+               gleichzeitigen Korrespondenzen wird seiner nirgends gedacht, wohl weil er nach dem
+               ersten rasch hingeschriebenen Anfang bald als unbefriedigend vom Verfasser beiseite
+               gelegt wurde. Nach der Rückkehr nach <placeName ref="geo-2895044">Jena</placeName> gibt
+                  <persName ref="gnd-118554727">Humboldt</persName> in einem Briefe an <persName ref="gnd-117444154">Wolf</persName> vom <date when="1796-12-23">23. Dezember 1796</date> eine
+               skizzenhafte Übersicht über seine Absichten mit seiner Anthropologie, woraus wir
+               ersehen, daß mit der Charakterisierung der Geschlechter, die an die <orgName ref="gnd-4132118-2">Horen</orgName>aufsätze anknüpft, nur eben der erste Schritt auf der
+               dort vorgezeichneten Bahn getan war; daß schon ein Stück der Arbeit schriftlich
+               vorlag, wird dort nicht erwähnt, vielmehr ausdrücklich hervorgehoben, daß alles noch
+               im Stadium des Entwurfs und der vorbereitenden Studien sei. So wenig also schien das
+               Fertiggewordene den erhöhten Ansprüchen zu genügen, die <persName ref="gnd-118554727">Humboldt</persName> infolge der vertiefenden Einwirkungen des nunmehr
+               nebenherlaufenden Plans einer Charakteristik des achtzehnten Jahrhunderts jetzt an
+               die Anthropologie stellte. Noch in der ersten <placeName ref="geo-2988507">paris</placeName>er Zeit taucht der Plan einmal flüchtig wieder auf (an <persName ref="gnd-118540238">Goethe</persName>, <date>April 1798</date>).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,416 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Über die Gesetze der Entwicklung der menschlichen Kräfte</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      <creation>
+           <date when="1791">1791</date>
+        </creation>
+               <settingDesc>
+            <setting>
+                <placeName ref="geo-12503954">Burgörner-Altdorf</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Bruchstück</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philosophie</term>
+                <term>Geschichte</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+    </teiHeader>
+   <text>
+      <body>
+
+         <div type="original">
+            <pb n="1.86" xml:id="pbI86"/>
+            <head>
+               <title type="main">Über die Gesetze der Entwicklung der menschlichen Kräfte</title>
+               <title type="sub">Bruchstück</title>
+            </head>
+            <p>Unter allen Bildern, welche die Geschichte darbietet, zieht wohl keines eine
+               allgemeinere und regere Aufmerksamkeit an sich, als das Bild des Menschen in der
+               Verschiedenheit seiner Lebensweise nach der verschiedenen Beschaffenheit der leblosen
+               und lebendigen Natur um ihn her, unter deren unaufhörlichem Einwirken er lebt.
+               Gefesselt von dem Interesse, das den Menschen jedes Erdstrichs und jedes Jahrhunderts
+               an den Menschen knüpft, stellt der betrachtende Forscher ferne, längst
+               hingeschwundene Geschlechter neben sich und seine Zeitgenossen, vergleicht mit
+               prüfendem Blik ihr inneres Dasein, ihre Empfänglichkeit für äussere Eindrükke, ihre
+               Fähigkeit den empfangenen Stoff in ihr Eigenthum zu verwandeln, und mit bereicherter
+               Ideenfülle, und verstärkter Empfindungskraft eigene Schöpfungen hervorzubringen, ihre
+               äussere Lage, die Welt, die sie umgiebt, und die Gestalt, zu der sie sie umbilden,
+               den Genuss, den sie aus den Gaben des Schiksals und aus den Früchten ihrer Thätigkeit
+               ziehen. Bald sieht er aus seiner Lage, mit seinen Gesichtspunkten auf die Vorzeit
+               hin, bald versezt ihn seine Phantasie selbst in dieselbe, und eignet ihm den
+               Gesichtspunkt, den ehmals ihre Wirklichkeit gab, und so wägt er unrichtiger oder
+               richtiger das Gute und Beglükkende jedes Jahrhunderts, geniesst jezt des frohen
+               Bewusstseins des eigenen Vorzugs, und jezt wieder des wehmüthigeren <pb n="1.87" xml:id="pbI87"/> und dennoch süssen Gefühls, dass eine Treflichkeit hoher
+               beseligender Schönheit einmal blühte und nun nicht mehr ist! Wenn er auf diese Weise
+               die Schiksale der Nationen von Epoche zu Epoche verfolgt, so kann ihm der
+               Zusammenhang nicht entgehen, der, bald wirklich, bald scheinbar, jede Begebenheit mit
+               allen folgenden verbindet. Schon der eigenthümlichen Natur des menschlichen Geistes
+               nach, der unaufhörlich das Allgemeine sucht, und das Einzelne in ein Ganzes
+               zusammenzufassen strebt, wird er alle zerstreuten Züge in Ein Gemählde sammlen, und
+               der wechselnde Gang aller Schiksale der Erde und ihrer Bewohner wird in seinen Augen
+               zu Einer grossen, unzertrennbaren Einheit werden. Wenn gleich freilich kein einzelnes
+               Geschöpf die Umwandlungen dieses Ganzen in ihrer Folge erfährt, wenn selbst die
+               leblose Natur, die ihr Schauplaz ist, nicht unverändert bleibt, der Boden, der den
+               Enkel nährt, nicht mehr derselbe ist, den der Ayhnherr betrat, und selbst die
+               innerste Felsmasse unsrer Erdkugel vielleicht dem unaufhörlichen Flusse alles
+               Endlichen folgt; so schlingt sich doch mitten durch allen diesen Wechsel hindurch,
+               einer ununterbrochenen Kette gleich, die Reihe der auf einander folgenden
+               Menschengeschlechter, so erhält sich doch das, was, allein ewig und unvergänglich,
+               den hinfälligen Stoff seines Urhebers überlebt, der Vorrath von Ideen, den die
+               Vorwelt auf die Nachwelt vererbt. An diesen Fäden verfolgt der philosophische
+               Geschichtsforscher oft die Revolutionen des Menschengeschlechts, füllt mit Hypothesen
+               die Lükken, welche die Ueberlieferung lässt, sieht aus der Vergangenheit die
+               Gegenwart entspringen, ahndet aus dieser die nun neu sich entwikkelnde Zukunft, sucht
+               das Ziel zu bestimmen, dem diess ewig rege wirksame Ganze nachstrebt, und erklärt den
+               gleichen abgemessenen Fortschritt desselben entweder aus der Leitung einer weisen
+               Macht, oder aus der nach ewigen Gesezen ihrer Natur wirkenden Selbstthätigkeit der
+               einzelnen Kräfte. Unverkennbar ist es nun, dass diess Ganze nicht in seiner
+               Phantasie, oder in der Vernunft allein existirt, die ihre Gebilde so oft der
+               Wirklichkeit andichtet. Die wechselseitige Verschränkung aller Begebenheiten des
+               Menschengeschlechts ist klar, und jede folgende Generation tritt in keine andere Lage
+               der Dinge, als in die, welche die vorhergehenden bereiteten, empfängt keine andren
+               Ideen als die, welche diese erfanden oder modificirten. Mehr Schwierigkeit aber führt
+               die Frage mit sich: ob nun diese Verkertung von Begebenheiten Einem Ziele
+               entgegeneilt, oder das Ziel, das erreicht <pb n="1.88" xml:id="pbI88"/> werden soll,
+               mit jedem einzelnen Menschen von dieser Erde scheidet, ob die längere Dauer derselben
+               eine erhöhetere Vollkommenheit, oder noch dasselbe Maass von Kräften, denselben Grad
+               des Genusses, nur in ewig wechselnden, unendlich mannigfaltigen Gestalten zeigen
+               wird? Dennoch führt nicht leicht eine andere Frage, welche das Leben und Wirken des
+               Menschen betrift, ein höheres Interesse mit sich, weil die Entscheidung derselben
+               zugleich eine genaue Würdigung alles dessen enthalten müsste, was wir unter den
+               Menschen gross, und gut, und wichtig nennen, und weil sie den mancherlei Führern,
+               Verbesserern und Regierern der Menschen zeigte, wie das Vorbild — dem ihre
+               ohnmächtige Kraft nur nachzuahmen strebt — das allwaltende Schiksal sie leitet.
+               Selbst wenn die Entscheidung nicht diesen Nuzen gewährte, bliebe dennoch immer die
+               Untersuchung in mehr als Einer Rüksicht wichtig. Denn sie muss — wenn sie auf Tiefe
+               und Genauigkeit mit Recht Anspruch machen will — versuchen, alle einzelne Kräfte
+               auseinanderzusezen, welche den Menschen gross und glüklich machen, so wie alles in
+               und äusser ihm, wodurch diese Kräfte Nahrung und Stärkung erhalten, und was sie
+               schwächt und vernichtet; sie muss ferner sogar die ewigen Geseze zu entdekken suchen,
+               nach welchen der Mensch durch den natürlichen Fortschritt seiner inneren Kraft,
+               verbunden mit den, bei einer ewig wechselnden, und doch im Ganzen immer sich selbst
+               gleichen Natur, ewig neuen und doch immer wiederkehrenden Begebenheiten, bald von
+               dieser, bald von jener Seite entwikkelt, bald von dieser, bald von jener beglükt
+               wird. </p>
+            <p> Ehe aber auch nur ein Versuch über ein Problem gewagt wird, dessen vollständige und
+               fehlerfreie Auflösung wohl niemand von menschlichen Kräften erwarten wird, erfordert
+               zuvörderst die Möglichkeit der Auflösung überhaupt eine eigene Untersuchung. Denn
+               wenn in dem Gange menschlicher Begebenheiten, ihrer wechselseitigen Verkettungen
+               ungeachtet, keine Einheit, kein gleichförmiges Gesez vorhanden ist, oder wenn
+               dasselbe auf Dingen beruht, welche menschliche Einsicht nicht zu durchschauen vermag,
+               so wird die Phantasie im eitlen Tlaschen nach dem, was nirgend existirt, Hypothesen
+               an die Stelle der Wahrheit sezen, und der erträglichste Erfolg des Unternehmens wird
+               die Ueberzeugung seiner Unausführbarkeit sein. Um nun aber hierüber erst zur
+               Gewissheit zu gelangen, dürfen wir uns nicht reiner Vernunftsäze und Schlüsse
+               bedienen. Gesezt auch, wir besässen irgend eine <pb n="1.89" xml:id="pbI89"/>
+               Vernunftwahrheit, die auf die Nothwendigkeit eines gleichförmigen Gesezes führte; so
+               dürften wir dennoch dadurch über die Natur und die Beschaffenheit desselben keine
+               Aufschlüsse erwarten. Nur die Betrachtung der wirkenden Kräfte und ihrer Wirkungen,
+               nur also die Erfahrung, sei es die innere in unsrem eignen Bewusstsein, oder die
+               äussre durch Beobachrung, Ueberlieferung und Geschichte, kann hier Lehrmeisterin
+               sein. Der menschliche Geist hat die Geseze der Bewegung des Erdballs, und über seinen
+               Wohnsiz hinaus die Stellung und verschiedene Laufbahn der Körper des Sonnensystems
+               entdekt, zu dem er gehört, und mit Genauigkeit und Zuverlässigkeit weissagt er alle
+               Begebenheiten, die davon abhängen. Wunderbar ist es, dass er, vertraut mit den
+               Revolutionen millionenmeilen entfernter Sphären, ein Fremdling in den Veränderungen
+               ist, die ihn umgeben, auf die er selbst so mächtig wirkt, und deren Rükwirkung er
+               erfährt. Allein jene Geseze beruhen, wie fast alles, worüber wir zuverlässige
+               Theorien besizen, auf allgemeinen Ideen von Grössen und Verhältnissen des Raums und
+               der Zeit, und auf Beobachtungen, die meistentheils auch nur darauf hinauslaufen;
+               indess wir hier in einem Gebiete der Wissens sind, in dem alles von den wirklichen
+               Kräften, und dem Wesen der Dinge abhängt, in dem nur die Kenntniss des Individuums
+               der Wahrheit nähert, und jede allgemeine Idee immer gerade im Verhältniss der Menge
+               der Individuen, von denen sie abgezogen ist, von derselben entfernt. Dieser
+               Schwierigkeit und so vieler andren aber — unter welchen die einer in dem Grade
+               extensiv ausgebreiteten, und intensiv eindringenden Beobachtung, als hier eigentlich
+               erfordert würde, nicht vergessen werden muss — ungeachtet, ist dennoch soviel gewiss,
+               dass jegliche Veränderung auf der Erde eine Wirkung entweder der menschlichen Kräfte,
+               oder der übrigen lebendigen Geschöpfe, oder der leblosen Natur, oder vielmehr, da in
+               keinem dieser Theile der Schöpfung etwas vorgeht, das nicht einen, wenn gleich in den
+               nächsten Folgen nicht bemerkbaren Einfluss auf die übrigen hätte, ein Resultat der
+               Wirkungen und Rükwirkungen aller dieser Kräfte zusammengenommen ist. Nun sind die
+               Kräfte des Menschen im Ganzen genommen dieselben, die Nothwendigkeit ihrer Erhaltung
+               bringt dieselben Bedürfnisse hervor, und aus diesen, wie aus dem angenehmen Gefühl
+               ihrer Befriedigung entspringen ohngefehr dieselben Neigungen, Begierden und
+               Leidenschaften. Eben so hat auch die übrige Natur immer und überall im Ganzen einen
+               gleichen <pb n="1.90" xml:id="pbI90"/> Vorrath von Mitteln, den Bedürfnissen des
+               Menschen zu genügen. Wie ihre Natur, so bleibt auch der gegenseitige Einfluss dieser
+               Eigenschaften sich gleich. So lässt die Gleichförmigkeit der Kräfte, als der
+               Ursachen, auf eine Gleichförmigkeit der Wirkungen, der Ereignisse des
+               Menschengeschlechts, schliessen. Eine andre Bestätigung dieses Schlusses liesse sich
+               aus der Geschichte selbst hernehmen. Allein so wichtig und nothwendig ihr Zeugniss
+               bei dem ganzen Gegenstande bleibt, den ich behandle; so vermeide ich doch mit Fleiss,
+               die eigentlichen Beweise in ihr zu suchen, vorzüglich hier bei der Prüfung der
+               Ausführbarkeit meines Unternehmens, wo es am wichtigsten ist, nicht durch Irrthümer
+               getäuscht zu werden. Denn wenn unsre Geschichte auch einen grösseren Zeitraum
+               umfasste, wenn ihr Zusammenhang durch wenige Lükken unterbrochen wäre, und ihre
+               Gewissheit weniger Zweifel litte, als es überhaupt der Fall ist; so würde es dennoch
+               immer dem Schlusse von dem, was geschehen ist, auf das, was geschehen wird, von dem
+               Gewöhnlichen auf das Nothwendige an Zuverlässigkeit mangeln. Es musste daher, auch
+               die Schwierigkeit noch abgerechnet, das Einfache, und Beständige in einer so
+               verwikkelten und wech selnden Masse, als wir durch die Ueberlieferung erhalten,
+               aufzusuchen, auf die Kräfte zurükgegangen werden, welche eigentlich alle
+               Veränderungen hervorbringen. Wenn wir nun auf diesem Wege die Wirklichkeit
+               gleichförmiger Geseze in den menschlichen Begebenheiten entdekt zu haben glauben; so
+               müssen wir jezt, um auch die Möglichkeit zu untersuchen, die Natur dieser Geseze zu
+               entwikkeln, die einzelnen Kräfte, deren zusammengesezte Resultate die Begebenheiten
+               sind, von einander trennen, und sehen, wie weit wir die Eigenthümlichkeiten einer
+               jeden zu erforschen vermögen. Die Kräfte des Menschen kennen wir aus unsrem eignen
+               Gefühle, und über das Maass derselben sowohl, als über ihren wechselseitigen Einfluss
+               auf einander, und auf die Natur, die sie umgiebt, haben die Weltweisen aller Zeiten
+               eine grosse Menge von Beobachtungen gesammelt. Freilich aber hat man noch, diese
+               einzelnen Kräfte auf die Einzige zurükzuführen, von der sie eigentlich nur
+               verschiedene Seiten sind, zu sehr versäumt, die Entwikkelung einzelner
+               hervorstechender oft der Entwikklung des ganzen Wesens, in allen Theilen, vorgezogen,
+               und die Wichtigkeit des Einflusses mancher Ideen, Sensationen, und Gefühle, gegen den
+               Einfluss andrer, den man über die Gebühr erhöhte, zu sehr verkannt. Indess ist doch
+               hier klar, dass <pb n="1.91" xml:id="pbI91"/> angestrengte, und fortgesezte
+               Beobachtung seiner selbst und andrer und Vermeidung alles einseitigen und
+               partheiischen Raisonnements, wenn nicht wirklich zum Ziele, wenigstens demselben
+               immer näher führen müsse. Die Gattungen der Thiere, das Maass ihrer Kräfte, den
+               möglichen Einfluss derselben auf die Menschen, und der Menschen auf sie kennen wir
+               gleichfalls wenigstens im Ganzen, und so mangelhaft und dunkel unsre Kenntniss auch
+               ist; so ist dennoch hier noch einiges Licht. Völlig aber verschwindet diess bei der
+               leblosen Natur. Wohl lehrt uns eine lange Erfahrung ihre Erscheinungen, und —
+               wenigstens bei vielen — eine auf Erfahrung und Raisonnement gebaute Wissenschaft ihre
+               nothwendige oder gewöhnliche Folge. Allein, wenn wir gleich alle Dinge, uns selbst
+               nicht ausgenommen, nur als Erscheinung und nicht ihrem Wesen nach kennen, so vermögen
+               wir doch — unsre Vorstellung sei nun richtig oder nicht — uns gleichsam in die Natur
+               jedes lebendigen Wesens zu versezen, uns nicht bloss vorzustellen, wie es uns
+               erscheint, sondern auch, wie es wohl sich selbst in sich fühlt. Mit jedem lebendigen
+               Wesen sind wir gleichsam verwandt, und erwarten in ihm nichts, als wovon wir
+               wenigstens analoge Empfindungen haben. Allein mit der Vorstellung des Lebens verlässt
+               uns jede Vorstellung des Seins. Wie einem Volk auf einer durch weite Meere von andren
+               Nationen geschiedenen Insel ein Schiff fremder Ankömmlinge schreklich ist, so und
+               schreklicher sollte uns die leblose Natur sein, jedes Gebirge, das wir vor uns
+               erblikken, der Fussboden, den wir betreten. Was sichert uns, dass nicht das Gebürge
+               über uns herstürzt, und der Boden sich öfnet, und beide uns den Leichnamen
+               zugesellen, aus welchen ihre Masse besteht? Nur Gewohnheit und Erfahrung einer
+               Lebenszeit vermag unsre Besorgnisse zu schwächen. Allein so wahr auch diess im
+               Allgemeinen ist, so dürfen wir auf der andren Seite auch nicht vergessen, dass wir
+               mit den gewöhnlichen Erscheinungen auch der leblosen Natur, ihren Wirkungen auf uns,
+               und vielerlei Mitteln auch an ihr Veränderungen hervorzubringen vertraut sind, und
+               dass die grösseren nicht im Voraus zu berechnenden Revolutionen, ihre Seltenheit noch
+               abgerechnet, gewöhnlich nur kleinere Räume treffen. So wie aber hier die
+               Schwierigkeit kleiner erscheint, so ist bei denjenigen Veränderungen, welche aus
+               menschlichen Kräften entspringen, im Vorigen eine grössere übersehen worden. Wie
+               genau und rief man auch in die Natur der menschlichen Kräfte eingedrungen sein mag,
+               so kann und muss selbst <pb n="1.92" xml:id="pbI92"/> zu dem gegenwärtigen, wie zu
+               jedem wissenschaftlichen Zwekke, diese Kenntniss nur immer allgemein sein. Nun aber
+               ist jede menschliche Handlung ein Resultat der ganzen Beschaffenheit der Kräfte des
+               Handlenden, in ihrer durchaus bestimmten Individualität, und welche Revolutionen eine
+               einzelne That eines einzelnen Menschen hervorzubringen vermag, davon ist die ganze
+               Geschichte ein lebendiges Zeugniss. Hieraus vorzüglich entspringt es, dass bisher
+               über die gegenwärtige Materie noch eigentlich nichts gesagt ist, das innere
+               Konsequenz hätte, und mit Sicherheit zu irgend einem Ziele führte. Man hat die
+               Geschichte im Ganzen betrachtet, und den Zustand des jezigen Jahrhunderts mit dem der
+               vorhergehenden verglichen. Natürlich mussten viele wahre und unleugbare Vorzüge des
+               ersteren in die Augen fallen, nicht minder manche scheinbare hinzukommen, so wie sich
+               beinah darthun lässt, dass jedes Zeitalter, das die Untersuchung anstellt, auch
+               selbst bei eitelkeitfreier Anspruchlosigkeit sich den Vorzug beimessen wird. Denn
+               jedes Zeitalter pflegt vorzüglich Eine Seite seiner Kraft zu üben, in dieser findet
+               es sich natürlich überlegen, und es wäre nicht auf diese vorzügliche Uebung gerathen,
+               wenn es nicht zugleich dieser den Preis vor andren zuerkennte. Vor allem aber konnte
+               niemandem die Menge der Mittel entgehen, die unser Jahrhundert zur höheren Bildung
+               des Menschen erfand, und die mannigfaltigen Arten diese Mittel auch wiederum der
+               Nachwelt zu sichern. Diess bestimmt denn auch gewöhnlich die meisten für ihre Enkel
+               noch grössere Vollkommenheit und ein höheres Glük zu hoffen, als sie selbst um sich
+               erblikken. Dagegen wenden andre die Beispiele aus der Geschichte ein, wo schnelle und
+               grosse Revolutionen dergleichen Mittel wenn nicht ganz zernichtet, dennoch der
+               Nachwelt auf lange Zeit hin vorenthalten haben; und nun beruht der Streit auf
+               Vermuthungen und Wahrscheinlichkeiten, die jeder leicht seinem Interesse gemäss
+               wenden kann, ungerechnet, dass hiebei noch immer unentschieden bleibt, ob nun auch
+               wirklich die Vollkommenheit und das Glük der Menschen im Verhältniss der Menge der
+               Mittel — vorzüglich derer, welcher unser Jahrhundert sich rühmt — wächst, und ob,
+               wenn es eine Armuth giebt, die jede Kraft niederdrükt, sich nicht auch ein Reichthum
+               denken lässt, bei dem sie mitten im schwelgenden Genusse dahinschwinden? Diess
+               warnende Beispiel lehrt uns daher einen andren Weg einschlagen; es wird aber nicht
+               uns von dem ganzen Unternehmen abzuschrekken vermögen. Denn wie ver- <pb n="1.93" xml:id="pbI93"/> schieden in ihren Richtungen, und wie wichtig in ihren Einflüssen
+               die einzelnen menschlichen Handlungen auch sind, wie unmöglich es ist die Geseze zu
+               entdekken, nach welchen auch nur viele derselben auf einander folgen; so halten doch
+               die menschlichen Kräfte immer einen ihnen eigenthümlichen Gang. Auf einen bestimmten
+               Grad und eine bestimmte Richtung derselben kann wieder nur ein andrer gleich
+               bestimmter Grad, und eine andre gleich bestimmte Richtung folgen; und nichts, auch
+               die mächtigste physische Revolution, vermag diesen Gang zu verändern, sie kann nur
+               ihn beschleunigen oder zurükhalten. Diesem Raisonnement zufolge ist daher die
+               abgemessene Entwikklung der menschlichen Kräfte allemal das, was die Revolutionen
+               unsres Geschlechts vorzüglich bestimmt. Viele dieser Revolutionen sind unmittelbare
+               und alleinige Folgen derselben; bei den übrigen giebt es wenigstens bestimmte
+               Schranken, innerhalb welchen jene Kräfte allein von ihnen verändert werden können.
+               Nun aber ist es gerade die Entwikkelung dieser Kräfte, die wir am genauesten
+               erforschen können, gerade ihr Gang, der schon in mannigfaltigen Verhältnissen bekannt
+               ist, und dessen gänzliche genaue Entdekkung wenn gleich unendlich schwierig, doch
+               nicht unmöglich erscheint. <emph>Die Aufsuchung der Geseze der Entwikklung der
+                  menschlichen Kräfte auf Erden</emph> wird demnach den genauer bestimmten
+               Gegenstand der gegenwärtigen Arbeit ausmachen. Diese Geseze können aufgesucht werden
+               bei dem einzelnen Menschen, sobald man ihm zugleich eine bestimmte Lage auf der Erde
+               anweist; bei ganzen Nationen, insofern gemeinschaftliche Lage, und verbundenes Leben
+               eine Gleichförmigkeit ihrer Kräfte hervorbringt; endlich bei auf einander folgenden
+               Menschengeschlechtern, insofern ihre Wirksamkeit nicht durch Revolutionen
+               unterbrochen worden, die den Wirkungen ihrer fortschreitenden Kräfte fremd sind,
+               sowohl den unmittelbaren, als denjenigen mittelbaren, welche zunächst zwar aus der
+               physischen Natur entspringen, indess doch nur aus derjenigen Form derselben, welche
+               sie selbst von jenen Kräften erhielt, insofern also keine nachfolgende Generation
+               etwas andres erfährt, als was die immer vorhergehende vorbereitete. Nicht leicht zwar
+               werden sich nun in der wirklichen Welt auch nur zwei Generationen genau in dieser
+               Lage befinden; genau werden also auch die auf diesem Wege noch so richtig entdekten
+               Geseze auf die Wirklichkeit nicht passen, mehr oder weniger möglich aber wird ihre
+               Anwendung sein, je mehr oder weniger sie dieser <pb n="1.94" xml:id="pbI94"/> Lage
+               sich nähern. Revolutionen, welche jenen vorhergenannten Wirkungen fremd sind, können
+               entweder bloss ungewöhnliche physische, oder auch menschliche Unternehmungen und
+               einzelne Menschen und ganze Völker sein, welche mit denen, auf welche sie jezt
+               wirken, entweder ausser aller Verbindung standen, oder deren Art zu sein doch, sei es
+               in minderem oder höherem Grade, nicht durch die Verhältnisse dieser motivirt war, die
+               also, Theile einer Reihe für sich, sich in eine andre Reihe mischen. Wenn man sich
+               überhaupt alle Ereignisse des Menschengeschlechts als eine Menge einzelner Reihen
+               vorstellt, die sich zwar eine jede aus sich selbst entwikkeln, allein auch einander
+               mannigfaltig durchkreuzen, und sich mit einander verbinden, und durch die Berührung
+               und Verbindung den berührten und verbundenen andre Modifikationen mittheilen; so
+               lassen sich wohl — wenigstens scheint der Möglichkeit nichts entgegenzustehen, wenn
+               Geseze entdekken, nach welchen die einzelnen Theile einer gleich die Ausführung
+               selbst mancherlei erschwert — die Reihe auf einander folgen, und nach welchen eine
+               jede durch die Berührung einer andren — wofern nur diese gegeben ist — verändert
+               wird, allein unerforschbar menschlicher Einsicht möchten wohl die bleiben, nach
+               welchen das ganze Gewebe sich durch einander verschlingt. Je mehr also der einzelnen
+               Reihen, desto abgebrochner die Anwendung der entdekten Geseze, desto ausgebreiteter
+               aber, je mehr der verbundenen, und so möchten die leztverflossenen Jahrhunderte mit
+               Recht eine grössere Aufklärung erwarten, als die früheren. Da auch die hinterlassenen
+               Werke einer Generation nicht immer gleich von der nächstfolgenden, oft erst von einer
+               bei weitem späteren benuzt werden, und oft nicht von dieser ganzen, nicht einmal von
+               einzelnen ganzen Nationen, sondern nur einer, oder der andern ihrer Klassen, wenn
+               nicht gar Individuen; so kann die Reihe, die wir in dem gegenwärtigen Verstande Eine
+               nennen, nicht immer weder der Zeitfolge nachgehen, sondern muss oft mehrere
+               Jahrhunderte überspringen, noch den Massen der einzelnen Nationen, sondern kann oft
+               nur einzelne Mitglieder derselben berühren, je nachdem nemlich der Einfluss der
+               Fortschritte einer Generation diese mit der nächstfolgenden, oder einer späteren, mit
+               einer ganzen Nation, oder einzelnen Theilen derselben verbindet. Denn diese Reihen
+               sind — wie schon der Zusammenhang des Vorigen hinlänglich zeigt — nicht eigentlich
+               Reihen der <emph>Begebenheiten</emph>, sondern der physischen, intellektuellen, und
+                  <pb n="1.95" xml:id="pbI95"/> moralischen <emph>Kräfte</emph> der, durch den
+               gegenseitigen Einfluss dieser Kräfte mit einander verbundenen Generationen; der
+               Begebenheiten sind sie es nur insofern, als diese reine Wirkungen jener Kräfte sind.
+               Die Geseze, deren Aufsuchung uns beschäftigt, werden demnach eigentlich nur für die
+               Kräfte bestimmt sein, und auf die Schiksale des Menschengeschlechts überhaupt nur
+               Anwendung finden 1. insofern die Fortschritte einer Generation rein und ganz auf die
+               folgende übergehen, 2. Insofern die Begebenheiten selbst reine Wirkungen jener Kräfte
+               sind. Keine dieser beiden Bedingungen, am wenigsten beide zugleich treffen auch nur
+               Einmal in der wirklichen Welt ein; denn alle Kräfte, folglich auch die uns
+               unerforschbaren, sind in unaufhörlicher Wirksamkeit, und alles steht wiederum in
+               einem unzertrennbaren Zusammenhange. Auf jene Schiksale also werden unsre Geseze nur
+               immer mit sehr grossen Fehlern — obgleich freilich manchmal mit minderen — angewendet
+               werden können. Da nun einzelne Begebenheiten auch den Fortschritten der Kräfte oft
+               sehr unerwartete Wendungen geben, und jene Begebenheiten den entdekten Gesezen nur
+               sehr wenig unterworfen sein dürften; so wird die Anwendung derselben, auch auf die
+               Kräfte, viele Ausnahmen leiden. Allein so oft eine solche Begebenheit eintritt, ist
+               die Reihe — in dem Sinn, in dem oben davon geredet wurde — geendet, und für Eine
+               Reihe sollte ja das Gesez nur immer gelten; dann kann aber auch eine solche
+               Begebenheit den Fortschritt der Kräfte nur immer innerhalb bestimmter Gränzen
+               verändern. Denn selbst das allmächtige Schiksal vermag mit lebendigen Kräften nicht
+               nach seinem Gefallen zu walten; die Kräfte widerstreben, und das Resultat ist allemal
+               aus der Wirkung und Gegenwirkung zusammengesezt. Nun aber gehört die Gegenwirkung zu
+               dem Gebiet der uns erforschbaren Dinge. Freilich aber muss man gestehen, dass, wenn
+               man nicht unter den ebengenannten Begebenheiten nur die wichtigsten heraushebt,
+               sondern alle dahin rechnet, die nur überhaupt, wenn gleich in geringerem Grade,
+               Einfluss haben, eigentlich keine einzige Reihe der vorhinbeschriebenen Art vorhanden
+               ist, sondern das Ende der einen immer mit dem Anfange der andren zusammenfällt. Denn
+               das Zusammenwirken aller Kräfte ist ja unendlich und unaufhörlich. Auf die wirkliche
+               Welt dürften daher unsre Geseze ganz und gar keine Anwendung finden, wobei jedoch
+               auch in Betrachtung kommt, dass unsre Kenntniss der wirklichen Welt durch eigne und
+               fremde Erfahrung <pb n="1.96" xml:id="pbI96"/> ebendenselben, aus der Natur unsrer
+               Seelenkräfte entspringenden Mangel hat, Individualitäten der Wirklichkeit in
+               Allgemeinheiten der Ideen zu verwandeln, durch welchen doppelten Fehler wir zwar
+               keine grössere Richtigkeit, allein doch eine grössere Uebereinstimmung erhalten. Wäre
+               diess aber auch nicht, so zerstört doch der eben gemachte Einwurf unsre Absicht
+               nicht; er leitet sie vielmehr nur dahin, wo sie allein Nuzen gewähren kann. Immer
+               nemlich werden wir aus der gegenwärtigen Untersuchung — insofern sie nur ihren Zwek
+               gehörig erreicht — den Gewinn ziehen, das Fortschreiten unsrer eignen, sich
+               entwikkelnden Kräfte, und ihre Verhältnisse zu den Dingen um sie her, wir mögen sie
+               oder diese Dinge Ursach oder Wirkung nennen, tiefer und vollständiger einzusehen.
+               Diese Einsicht aber muss überhaupt jedem denkenden Menschen und vorzüglich
+               demjenigen, der auf andre, vielleicht auf ganze Nationen wirken will, unendlich
+               wichtig sein. Denn wenn sie sich auch nicht anmaassen darf, ihnen die Mittel genau
+               anzuzeigen, welche ihnen die Erreichung ihrer Absichten sichern; so wird sie sie doch
+               hindern, nach dem Unmöglichen zu haschen, ihnen Ehrfurcht für dasjenige einflössen,
+               was sie zum Gegenstände ihrer Thätigkeit machten, und sie vielleicht gar veranlassen,
+               die Zügel aus den Händen zu legen, und selbstthätige Kräfte der Freiheit zu
+               übergeben, die allein ihrer würdig ist.</p>
+         </div>
+
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte</title>
+            </head>
+            <p>Handschrift (10 Quartseiten, ohne Titel) im Archiv in <placeName ref="geo-2823708">Tegel</placeName>. </p>
+            <p>Für dieses Bruchstück, <persName ref="gnd-118554727">Humboldt</persName>s ersten Versuch auf
+               dem Gebiete der Geschichtsphilosophie, und seine chronologische Stellung war aus den
+               gleichzeitigen Briefquellen nichts zu gewinnen; <persName ref="gnd-116890657">ich</persName> habe es an dieser Stelle auf Grund des Wasserzeichens eingeordnet,
+               das sich sonst nur in Briefen der ersten <placeName ref="geo-12503954">burgörner</placeName>schen Monate wiederfindet. So wenig
+               man sonst oft bei literarhistorisch-chronologischen Fragen mit der Untersuchung der
+               Wasserzeichen ausrichten kann, so ergiebig erwies sich mir diese Betrachtung bei
+                  <persName ref="gnd-118554727">Humboldt</persName>. Bei dem bis <date>1820</date> fast
+               beständigen Ortswechsel hat <persName ref="gnd-118554727">Humboldt</persName> eine große Zahl
+               verschiedener Papiersorten verwendet, deren Firmenzeichen beständig wechseln, und
+               niemals, wie die sicher datierten Briefe zeigen, kehrt dasselbe Wasserzeichen in zwei
+               zeitlich auseinanderliegenden Epochen wieder. Da nun auch die Abhandlungen, deren
+               Entstehungszeit feststeht, ausnahmslos dieselben Wasserzeichen aufweisen wie die
+               gleichzeitigen Briefe, so kann meines Erachtens mit völliger Sicherheit in den
+               wenigen Fällen, wo für die Entstehung einer Abhandlung alle Daten fehlen, die
+               chronologische Entscheidung auf Grund dieser Zeichen gefällt werden.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

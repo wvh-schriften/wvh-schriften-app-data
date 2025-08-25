@@ -1,0 +1,451 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rezension der Agnes von Lilien</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Zweiter Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1904">1904</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif02humbuoft/page/n1/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1798">1798</date>
+         </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-2988507">Paris</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Rezension</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Literatur</term>
+                <term>Philosophie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="2.335" xml:id="pbII335"/>
+            <head>
+               <title type="main">Rezension der Agnes von Lilien</title>
+               <title type="sub">Bruchstück</title>
+            </head>
+            <p>Der schwerste Stoff, an dem sich der Künstler versuchen kann, ist die Individualität
+               einer zarten und feinen Seele. Um sie zu schildern, muss man sie empfinden, um sie
+               ganz zu empfinden, sie selbst besitzen; und nur bei dem glücklichsten Gleichgewichte
+               der Kräfte von innen und einer seltnen Milde und Schonung des Schicksals von aussen
+               gelingt es, die Empfindung und mit ihr den Charakter so edel und frei auszubilden,
+               dass er nicht bloss Wahrheit und Recht zu achten, Güte und Liebe zu üben bereit ist,
+               sondern dass Wahrheit und Recht, Güte und Liebe, unmittelbar aus ihm selbst
+               herstammend, nur als ebensoviele verschiedene Ausdrücke seiner, sie alle umfassenden
+               Kraft erscheinen. Der Künstler, der in diesem Felde arbeitet, stellt sich schon
+               dadurch selbst auf eine höhere Stufe. Wenn die Natur in ihren äusseren Formen eine
+               hohe und geheimnissvolle Bedeutung verbirgt und das Wesen der Kunst gerade darin
+               besteht, beide so darzustellen, dass sie wechselseitig einander hervorrufen; so zeigt
+               er, mehr als ein andrer, dass er in der anschaubaren Gestalt jenen Sinn nicht zu
+               verlieren, und mit diesem zugleich noch jene festzuhalten versteht. Wie der Bildner
+               und Maler die tausendfachen Formen der Natur, so muss dieser Dichter — denn nur der
+               Dichtkunst kann diese Gattung vollkommen angehören — die ganze Mannigfaltigkeit der
+               Empfindungen studirt, und viele in seinem eignen Busen bewegt haben; sein Gemüth muss
+               reich und stark genug seyn, <pb n="2.336" xml:id="pbII336"/> diese unverändert in
+               sich aufzunehmen, jeder den ihr gebührenden Ton zu geben, und sie mit kühner
+               Sicherheit rein und frei ausklingen zu lassen; sein Geist muss die einzelnen
+               Bestrebungen der Menschen an ihre letzten Zwecke anzuknüpfen, ihren häufigen Streit
+               an diesem Ziele auszugleichen wissen, und diesen langen und beschwerlichen Lauf von
+               dem Wollen des Augenblicks bis zum letzten Zwecke des Daseyns oft und auf
+               mannigfaltigen Wegen zurückgelegt haben; dann aber muss endlich seine
+               Einbildungskraft sich den auf diese Weise gesammelten Stoff so zu eigen machen und
+               bearbeiten, dass neue geistige Gestalten, lebendig, wie sie selbst, und in sich
+               vollendet und geschlossen, wie die Natur — also wahre Gebilde der Kunst — aus ihr
+               hervorgehen. Alsdenn erweitert die Kunst im eigentlichsten Verstande den
+               Gesichtskreis der Menschheit, und hilft noch unmittelbarer, als sonst, dem
+               philosophischen Forscher das menschliche Gemüth, das er studirt, in seinen
+               verborgensten Tiefen zu erkennen, und das erkannte zu bilden.</p>
+            <p>Wem solche Schilderungen der innern Gestalt der Seele, solche feine Zergliederungen
+               ihrer geheimsten Seiten werth sind, wer vorzugsweise die Werke aufsucht, die sie ihm
+               darbieten, dem wird <title> Agnes von Lilien </title>
+               <note type="footnote" n="i)" resp="gnd-116890657">
+                  <hi>Dieser bei seiner ersten anonymen Veröffentlichung in <persName ref="gnd-118607626">Schiller</persName>s <orgName ref="gnd-4132118-2">Horen</orgName>
+                     <date when="1796">1796</date> und <date when="1797">1797</date> vielfach,
+                     besonders in den Kreisen der Romantiker <persName ref="gnd-118540238">Goethe</persName> zugeschriebene Roman <persName ref="gnd-118771272">Karolinens von Wolzogen</persName> war <placeName ref="geo-2950159">Berlin</placeName>
+                     <date when="1798">1798</date> in Buchform erschienen.</hi>
+               </note> eine wohlthätige Erscheinung seyn. Er wird sich freuen eine Gestalt zu
+               finden, die seine Empfindung mächtig anspricht, seinen Busen zugleich erhebt und
+               erweitert, eine Ansicht der Menschheit und der Natur zu gewinnen, die, wenn sie auch
+               nicht die seinige wäre, ihn dennoch mit Ruhe und Harmonie zu erfüllen, die
+               streitenden Gefühle seines eignen Gemüths freundlich auszugleichen vermag. Denn
+               offenbar gehört die vorliegende Dichtung der Gattung von Werken an, von der wir eben
+               redeten, und fordert sogar unter ihnen selbst eine besondre und vorzügliche Stelle.
+               Indem sie den Lebenslauf eines Mädchens darlegt, dessen Herz die ersten Keime schöner
+               Weiblichkeit entfaltet, zeigt sie weniger die Verwicklung menschlicher Ereignisse und
+               den Gang der Welt, als die eigenthümliche Gestalt, welche das Leben einem reinen und
+               edlen Gemüth, und welche dieses dem Leben zurückgiebt; indem sie die anfangs durch
+               mannigfaltige Stürme gestörte und endlich glückliche Liebe zweier seltner Naturen
+               schildert, folgt sie nicht bloss dem Gange dieser Leidenschaft, sondern zeichnet die
+               ganze innere Stimmung, aus der sie entstanden ist, und in die sie wieder verhallt;
+               und stellt so einen schwereren Stoff dar, als die Hand der Kunst sonst leicht zu
+               bearbeiten gewagt hat, das Gemälde einer hohen und feinen, weiblichen, liebenden
+               Seele. Nie hat vielleicht dem Sinne des Dichters das Bild eines so vollendeten,
+               harmonischen, zartgewebten Wesens vorgeschwebt, nie ist es vielleicht einem gelungen,
+               durch den Zauber einer wunderbar ergreifenden, selbstgeschafnen Sprache, jenen
+               unerklärbaren Regungen des Herzens Ton und Gestalt zu geben, für <quote>deren
+                  bewegliche Flut</quote>, nach <persName ref="person-000023">Agnes</persName>
+               eignem Geständniss, <quote>selbst das Gedächtniss keine Zeichen besitzt, und mit
+                  denen nur das geheimnissvolle Wesen der Musik noch einigermassen vertraut
+                  ist.</quote>
+               <note type="footnote" n="ii)" resp="gnd-116890657">
+                  <hi>
+                     <bibl>
+                        <title> Agnes von Lilien </title>
+                        <biblScope unit="chapter">2</biblScope>, <biblScope unit="page">364</biblScope>
+                     </bibl>.</hi>
+               </note>
+            </p>
+            <p>Von den ersten Seiten dieses Buches an fühlt sich der Leser in einen Kreis hoher und
+               edler Naturen versetzt. Denn obgleich selbst die kleine Zahl von Charakteren, welche
+               die Erzählung umfasst, durch mannigfaltige Abstufungen verschieden sind; so waltet
+               doch über den Hauptpersonen derselbe Geist, dem sie alle, nur mehr oder minder,
+               angehören, und dieser Geist ist mit dem Gepräge einer ausserordentlichen Hoheit und
+               Würde der Gesinnung gestempelt. Wessen Blick gern auf der moralischen
+               Eigenthümlichkeit der Menschen verweilt, der wird auch im Leben manchmal auf Naturen
+               stossen, die ihn durch die ungewöhnliche Schönheit oder Erhabenheit ihrer geistigen
+               Gestalt auf einmal in ein freudiges Erstaunen versetzen. Wie er sich in einer
+               Gemäldesamlung durch die Werke der ersten Meister getroffen fühlt, wie sie von selbst
+               vor den übrigen hervortreten, und ihn mit magischer Kraft fesseln, so wirken auch
+               jene Charaktere auf ihn, und er empfindet eine wunderbare Verwandtschaft des Genies
+               der Kunst und des Genies der Tugend, wenn der Ausdruck erlaubt ist. So oft die
+               Erscheinung zurückkehrt, bemerkt er auch denselben Eindruck wieder, aber wenn es ihm
+               unmöglich ist, an der Wirklichkeit desselben zu zweifeln, so wird es ihm schwer ihn
+               sich zu erklären, zu begreifen, wie es jenen gleichsam von der Natur privilegirten
+               Menschen gelingen kann, dem grossen und erhabnen Begriff der Menschheit in ihrem
+               Wesen einen so reichen Gehalt und so <pb n="2.338" xml:id="pbII338"/> lebendigen
+               Ausdruck zu geben. In dieser Verlegenheit wird er gern eine Dichtung, wie die
+               gegenwärtige, um Rath fragen. Denn gerade solche Naturen findet er hier dargestellt,
+               und der Geist, der in ihnen herrscht, ist nicht bloss zufällig, weil er zu dem Stoff
+               der Erzählung passte, sondern absichtlich als derjenige geschildert, in dem die
+               Menschheit allein Befriedigung und Glückseligkeit zu finden vermag, sobald man nur,
+               was leicht geschehen kann, davon absondert, was den einzelnen Personen, der Stimmung
+               ihres Gemüths, der Lage und dem Augenblick angehört.</p>
+            <p>Die drei Haupteigenschaften, welche <persName ref="person-000023">Agnes</persName>
+               eignen Charakter, so wie das Ideal schöner Menschheit vor ihrer Phantasie vollenden,
+               sind Klarheit, Wahrheit und Freiheit des Denkens und des Empfindens. In der That
+               umschliessen sie auch alle Foderungen, die man an die Menschheit machen kann. Denn
+               was ist der letzte Zweck des Lebens und des Menschendaseyns anders, als die innigste
+               Berührung des Menschen mit dem Menschen, fruchtbar zur Gewinnung höherer
+               Vollkommenheit und Schönheit ausser sich und in ihrem Innern? Ohne Klarheit aber kann
+               der Mensch in seiner reinen Eigenthümlichkeit nicht vor sich selbst, ohne Wahrheit
+               nicht vor andren, ohne Freiheit nicht in dem vollen Spiel seiner Kräfte erscheinen.
+               Wo es an Klarheit der Gefühle und des Verhältnisses der äussern Gegenstände zu ihm
+               fehlt, da muss diese Verworrenheit nicht nur ein beständiges Hinderniss seyn, unter
+               den mannigfaltigen Formen des Lebens und den verschiednen Charakteren der Menschen
+               seine eigentliche Stelle zu finden; sondern der Geist muss sich auch, von ewiger
+               Dämmrung umgeben, niedergedrückt und in seinen besten Kräften gelähmt fühlen. Aus der
+               Klarheit aber folgt wenigstens die Achtung der Freiheit schon von selbst. Indem sie
+               jeden Gegenstand und jede Empfindung an ihren richtigen Platz verweist, befördert sie
+               das Gleichgewicht, auf dem die Freiheit beruht. Denn die Freiheit ist nichts anders,
+               als die Herrschaft der wahren Nothwendigkeit, das ungehinderte Wirken der ächten
+               Kräfte der Dinge, in welchen allein zuletzt, wenn man alle nur scheinbaren absondert,
+               die wahre Nothwendigkeit gegründet ist. Daher ist sie verletzt, wenn wir begehen, was
+               uns nicht gemäss ist, und mit Verlust des schönen Gleichgewichts unsrer Seele zum
+               Sklaven einer einzelnen Neigung werden (<bibl>
+                  <biblScope unit="chapter">1</biblScope>, <biblScope unit="page">28</biblScope>
+               </bibl>.); oder wenn wir, nicht mehr stark genug uns selbst unabhängig von dem Laufe
+               der Begebenheiten zu erhalten, uns von dem schnellen Strome des Lebens fortreissen
+               lassen, statt es <pb n="2.339" xml:id="pbII339"/>
+               <quote>mit weisem und ruhigem Gemüth mit freier Kraft zu ergreifen</quote> (<bibl>
+                  <biblScope unit="chapter">1</biblScope>,<biblScope unit="page">177</biblScope>.</bibl>); endlich, wenn wir uns, sey es auch durch die
+               dringendsten Rücksichten, bewegen lassen den gesetzmässigen Gang unsrer innersten
+               reingestimmten Empfindung zu unterbrechen.</p>
+            <p>Dieser letzte und feinste Grad ist auf eine überaus treffende Weise in der Stelle
+               gezeichnet, wo <persName ref="person-000024">Alban</persName>
+               <persName ref="person-000023">Agnes</persName> bereden will, dem Untergange <persName ref="person-000025">seines Bruders</persName> durch die Aufopfrung ihres
+               Verhältnisses mit <persName ref="person-000026">Nordheim</persName> zuvorzukommen. (<bibl>
+                  <biblScope unit="chapter">2</biblScope>, <biblScope unit="page">329</biblScope>.</bibl>) Hier ist das Glück, selbst das Leben eines edlen,
+               grossmüthigen Freundes mit der Stimme und was mehr als das ist, mit dem Rechte der
+               Liebe in Streit; wie rein entscheidet hier <persName ref="person-000023">Agnes</persName> hoher Sinn diesen Fall, wie wenig lässt sich ihre Empfindung
+               selbst in diesem Augenblick der höchsten Bewegung, in dieser schweren Prüfung
+               verwirren. <quote>Es ist hier nicht allein,</quote> sagt sie ihren Freunden,
+                  <quote>von Gefühlen, von Glück und Unglück die Rede, sondern von der
+                  Nothwendigkeit, von Recht und Unrecht. Ich gab <persName ref="person-000026">Nordheim</persName> mein Wort, wie mein Herz.</quote> und in der Erzählung
+               setzt sie hinzu: <quote>Wie manche Verwirrung richten gute Seelen im Leben an, wenn
+                  sie den Gesichtskreis edler Naturen mit ihren schwächern Augen beherrschen
+                  wollen!</quote> Nie ist in der That der Maassstab edler Naturen so richtig
+               bestimmt worden. Denn nur edle Naturen können dies höhere Recht der innern
+               Empfindung, diese Selbstständigkcit und Unabhängigkeit der eigentlichsten
+               Persönlichkeit anerkennen und achten, indess die andern, nur auf Glückseligkeit und
+               Nutzen bedacht, im Blinden umhertappen und immer die wahre Bahn verfehlen, weil ihnen
+               weder die innere Stimme eines reinentschiednen Verlangens erschallt, noch das höchste
+               Gesetz der wahren Nothwendigkeit klar wird.</p>
+            <p>Wo hingegen das Gemüth, klar und einig mit sich selbst, nur dem gesetzmässigen Gange
+               seiner Empfindungen ohne Unterbrechung folgt, da muss nothwendig Gleichmuth in den
+               Gefühlen, Mässigkeit in den Begierden herrschen; da muss die innere Harmonie auch auf
+               das Verhältniss zu der Welt und dem Schicksale übergehen, und da kann zuletzt das
+               nicht fehlen, was <persName ref="person-000023">Agnes</persName> (<bibl>
+                  <biblScope unit="chapter">2</biblScope>, <biblScope unit="page">366</biblScope>
+               </bibl>.) so treffend die bleibende Gestalt der Glückseligkeit nennt, <quote>das
+                  klare Gefühl unser Selbst in einem lebenreichen Ganzen</quote> — ein Ausdruck, der
+               so erschöpfend und so erhaben ist, dass er das geheimnissvolle Räthsel unsres Herzens
+               auf einmal zu lösen scheint, und dass ihn ganz durchdenken und vollkommen fassen fast
+               das Ziel seines Daseyns finden, die streitenden Verlangen seines Busens ausgleichen
+               heisst.</p>
+            <p>Zu diesem schönen Gleichgewicht, dieser vollendeten Harmonie <pb n="2.340" xml:id="pbII340"/> sehen wir hier ein weibliches Gemüth durch die Hand eines
+               freundlichen Schicksals geleitet. Was der Mensch sonst nur durch strengen Ernst,
+               durch Selbstbesiegung und Entsagen gewinnt, dahin gelangt <persName ref="person-000023">Agnes</persName> gleichsam von selbst mit Hülfe einer
+               glücklichen Natur anlage, und einer weisen und milden Erziehung, durch das Vertrauen
+               der Freundschaft, die Begeistrung der Liebe und den seelenvollen Genuss an der
+               Schönheit der Natur. Nur gewohnt in dem Odem der Liebe zu leben, selbst in der
+               leblosen Natur nur freundliche Geister erblickend, immer sich nahe fühlend einer
+               ewigwirkenden Kraft in oder über der Natur, und wenn im Sturm der Leidenschaften und
+               im Drange der Umstände dem Gemüthe auf Erden weiter fortzuleben versagt scheint, noch
+               sicher, im Odem des Ewiglebenden wieder neu aufzublühen, strömt ihre Seele immer in
+               ein anderes Wesen über, dem sie sich mit vertrauender Zuversicht und verlangender
+               Sehnsucht hingiebt. Mit allem Schönen und Edlen verwandt, sucht sie es überall auf,
+               und wo es ihr erscheint, in den lieblichen Formen der Natur, in den hohen Gestalten
+               der Kunst, in der Gegenwart des Geliebten, oder in dem Gedanken der ewigen Urquelle
+               alles Daseyns, da wendet sie sich sehnsuchtsvoll zu ihm hin und verliert sich in
+               Anschauen und Liebe. Was ihren Sinn lebhaft bewegen, und auf ihr Wesen dauernd
+               einwirken soll, muss seinen Weg durch ihre Phantasie und ihre Empfindung nehmen, und
+               beide, enger, als gewöhnlich, verschwistert, wissen überall zwischen dem innern Wesen
+               und dem äussern Erscheinen der Dinge ein unauflösliches Band zu knüpfen, nur eins in
+               dem andern zu sehen, und durch die Verschmelzung beider Gestalten zu schaffen, für
+               welche die Kunst keine Umrisse, die Sprache keinen Ausdruck besitzt, und die allein
+               noch der innere Sinn zu halten vermag.</p>
+            <p>Ist aber gleich der glücklichen Stimmung ihrer holden Weiblichkeit die Strenge des
+               Willens und die abgesonderte phantasielose Beschäftigung des Verstandes fremd, so
+               erscheint darum die Tugend nur liebenswürdiger, die Wahrheit nur milder, nicht jene
+               weniger sicher, diese weniger rein in ihr. Der festeste Standpunkt, einen richtigen
+               und genauen Anblick der Welt, des Menschen und seiner Verhältnisse zu erhalten, ist
+               der, auf welchen sie unmittelbar durch ihre Erziehung gestellt ist. Wenn diese
+               Erzählung dazu bestimmt war, zu zeigen, wie ein natürlicher aber lein und hoch
+               ausgebildeter Charakter entstehen, wie man ihm eine sichere Grundlage verschaffen
+               kann, von welcher aus er sich, ohne Gefahr <pb n="2.341" xml:id="pbII341"/> der
+               Uebertreibung oder Ueberspannung, dem kühnsten Schwunge der Einbildungskraft und der
+               Empfindung überlassen darf, so konnte man den Leser nicht besser dazu vorbereiten,
+               als indem man ihn in das Haus des <persName ref="person-000027">Pfarrers von
+                  Hohenfels</persName> führte. In dem Charakter und der Lage dieses Mannes vereinigt
+               sich alles zugleich, was die Menschheit in ihrer einfachsten und ursprünglichsten
+               Gestalt Edles und Ehrwürdiges hat. Durch das Leben mit ihm befindet sich <persName ref="person-000023">Agnes</persName> mitten unter Menschen, die, nur mit den
+               natürlichsten und nothwendigsten Verhältnissen der Menschheit vertraut, zwar für
+               alles Höhere und Bessere, was sich daraus entwickeln kann, Sinn besitzen, aber deren
+               reiner und gesunder Blick allem Verschrobenen und Ueberspannten verschlossen ist. Der
+               weise Greis, dem ihr Herz mit kindlicher Ergebenheit anhängt, gewöhnt sie, von den
+               ersten Zeiten ihres Lebens an, zur Ordnung und Geschäftigkeit, zeigt ihr, dass der
+               physische Wohlstand, der durch beide erzeugt und erhalten wird, die einzige sichre
+               Grundlage der Moralität ist, dass Tugend und Aufklärung nur <quote>aus dem gesunden
+                  Stamme eines ordentlichen reinlichen Lebens Nahrungssaft einsaugen,</quote>
+               <note type="footnote" n="iii)" resp="gnd-116890657">
+                  <hi>
+                     <bibl>
+                        <title> Agnes von Lilien </title>
+                        <biblScope unit="chapter">1</biblScope>, <biblScope unit="page">40</biblScope>
+                     </bibl>.</hi>
+               </note> und lehrt sie so immer zuerst von dem Punkte zu beginnen, auf dem sie
+               jedesmal steht. Er macht ihre Einbildungskraft mit den Werken der Dichter bekannt,
+               aber die reine und einfache Harmonie der Gesänge <persName ref="gnd-11855333X">Homer</persName>s ist es vor allen andern, durch die er ihr Gemüth zu stimmen
+               versucht; er übt ihren Sinn zur Empfänglichkeit für die Schönheit der Natur, und
+               lehrt sie in der Mannigfaltigkeit ihrer Gestalten, Umwandlungen und Gaben, ein
+               mächtiges und wohlthätiges Wesen mit Ehrfurcht zu erkennen, und mit Liebe zu
+               umfassen. So sind es die grössesten aber auch die cinfachsten Dinge, welche, von früh
+               an, ihren Geist und ihr Herz erfüllen: die Erhabenheit der Natur, die Schönheit der
+               Kunst, die Milde eines sanften und friedlichen Glaubens, die nothwendige Ordnung
+               einer auf physisches und moralisches Wohl berechneten Gesellschaft. Da sie jeden
+               Gegenstand in seiner eigentlichen Gestalt erblickt, jeden Eindruck in seiner reinen
+               Wahrheit aufnimmt, so hat sie auch überall nur für das Höchste Sinn, und ist allem
+               Mittelmässigen, allem Zwitterartigen feind. Daher kommt es, dass sie sich mit
+                  <persName ref="person-000024">Alban</persName> zuerst nur, durch den Zwang eines
+               steifen ihr widerwärtigen Zirkels gleichsam genöthigt, verbindet, und auch nachher
+               selbst an <persName ref="person-000025">Julius</persName> weniger aus freier
+               Sympathie <pb n="2.342" xml:id="pbII342"/> als in dankbarer Rührung über seine
+               aufopfernde Güte und seine treue Liebe hängt. Sie vermisst Selbstständigkeit und
+               ruhige Kraft in ihm, die sichre Stärke ihrer Empfindung verträgt sich nicht mit dem
+               Hin- und Herschwanken der seinigen, sein exaltirter Ausdruck gleitet an ihrer
+               schlichten Einfachheit unerwiedert ab, und ihr reiner Sinn kennt zu sehr die Hoheit
+               einer wahrhaft künstlerischen Einbildungskraft, um in den ohnmächtigen Versuchen der
+               seinigen etwas anders als das dunkle und kraftlose Streben zu erkennen, mit dem die,
+               welche weder die Wirklichkeit noch die Dichtung in ihrer wahren Gestalt zu ergreisen
+               verstehn, immer beide vermischen, und in der wirklichen Welt des Lebens, wie in der
+               idealischen der Kunst ewig Fremdlinge bleiben. Jede Kraft ihres Gemüths hat sich
+               ihrer ursprünglichen Eigenthümlichkeit getreu ausgebildet, und so kann sie sich mit
+               Sicherheit dem freien Zusammenwirken derselben überlassen, ohne durch ängstliches
+               Mistrauen gegen sich selbst ihren reinen und vollen Einklang zu stören.</p>
+            <p>Denn nichts ist <persName ref="person-000023">Agnes</persName> Charakter, und da sie
+               ihre eigne Geschichte erzählt, dem Geiste dieser Schrift so sehr zuwider, als Mangel
+               an Selbstvertrauen, ängstliches Ringen nach Tugend und mühseliges Kämpfen mit den ihr
+               entgegenstehenden Neigungen. Wie in einem Kunstwerk die Schönheit aus der
+               Mannigfaltigkeit und Harmonie der Formen, so soll im Charakter die Sittlichkeit aus
+               dem freiwilligen Einklange der Empfindungen hervorgehn, und das Gemüth dem Guten und
+               Edlen nicht anders, als seiner ursprünglichen und eigentlichen Natur getreu
+                  bleiben.<note type="footnote" n="ii)" resp="gnd-116890657">
+                  <hi>Hier ist folgende längere Stelle, die nicht vollständig erhalten ist,
+                     gestrichen: <quote>Selbst den Ausdruck der Tugend wird man nur selten in diesen
+                        Blättern antreffen, und wenn sie einen Vorwurf erfahren sollten, so dürfte
+                        es wohl nicht am wenigsten der seyn, zum Nachtheil des männlichen Ernstes
+                        und des mühevollen Bestrebens, welche sicher durchs Leben führen, zu sehr
+                        Empfindungen zu empfehlen, die oft dunkel und schwankend, und nicht selten
+                        sogar verführerisch und gefährlich sind. Unstreitig ist in demselben Wahres
+                        mit Falschem gemischt, und hiebei, wie bei dem oft wiederkehrenden Streit
+                        zwischen der Reinheit und Schönheit der Sittlichkeit kommt alles allein auf
+                        die Unterscheidung der gemeinen und edlen, und wiederum der schönen und
+                        erhabenen Sittlichkeit an. Ob der Mensch das Sittengesetz aus seiner
+                        überirrdischen Höhe zu sich herabzieht, oder ob er fühlt, dass es der
+                        einzige Berührungspunkt ist, in dem seine beschränkte Natur mit der
+                        Unendlichkeit steht? — dies allein begründet den Unterschied zwischen einer
+                        gewöhnlichen und einer edeln Natur. Jeder rein sittlich gestimmte Mensch
+                        erkennt dasselbe als die einzige Richtschnur seiner Handlungen und
+                        Gesinnungen an, der er jede andre Rücksicht willig opfert, aber nur der
+                        edler gebildete ist sich bewusst, dass es aus seiner eignen Natur herstammt,
+                        und indem es Gehorsam fordert, zugleich einzig seine Freiheit begründet; nur
+                        in ihm ist die Unterwerfung nicht knechtisch, und die Achtung rein, und
+                        unvermischt mit Furcht. Es ist ein Vorrecht edler Naturen, allem, was sie in
+                        ihren Kreis ziehen, den Glanz mitzutheilen, der ihr eignes Inneres
+                        überstralt; da hingegen diejenigen, welche nicht zu ihnen gehören, auch den
+                        besseren Theil ihrer selbst mit dem minder edeln vermischen, oder ihn
+                        wenigstens nicht in seiner vollen Reinheit und seiner erhabenen Grösse
+                        anerkennen. Knüpfen sie daher auch nicht ihre Moralität an ungleichartige
+                        Beweggründe an, und folgen sie gleich ohne Nebenrücksichten den Grundsätzen
+                        ihrer Vernunft, so sehen sie dieselben doch nicht in ihrem wahren Lichte und
+                        ihrem vollkommnen Umfange, und scheiden nicht hinlänglich die Empfindung,
+                        mit welcher sie diesem höchsten Gesetze der Freiheit gehorchen, von der, mit
+                        welcher sie die untergeordneten befolgen, die allein aus den Verhältnissen
+                        des Lebens entspringen. Nicht begeistert von der Grösse der Idee, der sie zu
+                        genügen streben, und nicht durchdrungen von dem Gefühl der Würde, die ....
+                        mit einander verwandt, da die Schönheit sogleich in Erhabenheit übergeht,
+                        sobald das Gemüth des Betrachters durch die Unendlichkeit ihrer Grösse
+                        gerührt wird. Die beiden hier angeführten Arten der Sittlichkeit setzen sich
+                        daher nur dann eigentlich gegen einander ab, wenn jede nicht mehr vollkommen
+                        rein ist, die schöne zu einer bloss pathologischen Zartheit des Gefühls
+                        herabsinkt, die erhabene in Strenge und Rauhigkeit ausartet; in ihrer ächten
+                        Gestalt hingegen nähern sie sich unaufhörlich einander, und gehen nach
+                        Massgabe der Lagen und Stimmungen gegenseitig in einander über</quote>.</hi>
+               </note>
+            </p>
+            <pb n="2.343" xml:id="pbII343"/>
+            <p>Daher sieht man hier die höchste und reinste Sittlichkeit zugleich mit allem
+               bekleidet, was ihre Anmuth und ihre Würde zu erhöhen vermag. Es ist ein Vorrecht
+               edler Naturen, dass der Glanz, der ihr Inneres überstralt, sich zugleich allem dem
+               mittheilt, was sie in ihren Kreis hinüberziehen, und dass ihre zartesten und
+               erhabensten Gesinnungen und Empfindungen durch ihre Handlungen, Reden und Gebehrden,
+               selbst durch ihre Gestalt und ihr Aeussres überhaupt, wie durch ein feines Medium in
+               ungeschwächter Reinheit durchblicken. Auf diese Weise fein, zart und seelenvoll
+               gebildet kann nur derjenige seyn, der, nicht bloss auf die Gesetzmässigkeit der
+               Gesinnungen, die jedem obliegt, bedacht, seinen Charakter wie ein freies und für sich
+               selbst bestehendes Kunstwerk betrachtet und bearbeitet, und von dem tiefen Gefühl
+               seiner Individualität durchdrungen, und mit dem allgemeinen Ideale der Menschheit
+               vertraut, aus dem Innern seiner Einbildungskraft ein Bild schaft, dem er in seinem
+               Aeussern und Innern zugleich Gültigkeit zu verschaffen bemüht ist. Diese wahrhaft
+               idealische Bildung ist es, die noch über die moralische hinausgeht, weil sie nicht
+               sowohl die davon an sich durchaus un- <pb n="2.344" xml:id="pbII344"/> abhängige
+               Moralität erst hervorzubringen, als dieselbe mit allen übrigen Kräften des Gemüths zu
+               einer reinen und vollen Harmonie zu stimmen strebt; sie erheischt aber auch zugleich,
+               ausser der Anstrengung des Willens, Begünstigung durch die Natur und das Schicksal in
+               der innern Organisation und der äusseren Lage. Von allem, was der Mensch als Zweck
+               seines Daseyns verfolgt, ist sie das höchste und letzte Ziel, da sie das Erhabenste
+               der Menschheit, die Sittlichkeit, erst in unsrer Natur einheimisch macht und dadurch
+               diese selbst zu einer ihr sonst unbekannten Höhe erhebt. Unter allem, was die
+               Bemühungen der Menschen zu befördern vermögen, sollte man ihr am eifrigsten
+               nachstreben, da sie, wo sie ist, sich auch von selbst weiter fortpflanzt. Denn auf
+               das Gefühl und die Einbildungskraft wirkend weckt sie überall, wo nur lebendige
+               Spuren ihres Daseyns zurückbleiben, nun ihr ähnliche Keime, und wenn irgend etwas von
+               Geschlecht zu Geschlecht übergeht, so sollte es wohl das seyn, was am feinsten und
+               tiefsten in die innerste und zarteste Organisation verwebt ist.</p>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte </title>
+            </head>
+            <p>Handschrift (12 halbbeschriebene Quartseiten, ohne Titel) im Archiv in <placeName ref="geo-2823708">Tegel</placeName>.</p>
+            <p>
+               <title>Agnes von Lilien</title>, anonym in <persName ref="gnd-118607626">Schiller</persName>s <orgName ref="gnd-4132118-2">Horen</orgName>
+               <date when="1796">1796</date> und <date when="1797">1797</date> zur Hälfte
+               erschienen, hatte allgemeine Aufmerksamkeit und Bewunderung erregt. Während der
+               kleine Kreis der Eingeweihten von Anfang an wußte, daß der Roman von <persName ref="gnd-118607626">Schiller</persName>s Schwägerin <persName ref="gnd-118771272">Karoline von Wolzogen</persName> verfaßt war, riet man außerhalb dieses Kreises
+               allgemein auf <persName ref="gnd-118607626">Schiller</persName>, oder <persName ref="gnd-118540238">Goethe</persName> als Verfasser (vgl. <bibl>
+                  <author>
+                     <persName ref="gnd-118607626">Schiller</persName>s</author>
+                  <title>Briefe</title>
+                  <biblScope unit="volume">5</biblScope>, <biblScope unit="page">127</biblScope>
+               </bibl>; <bibl>
+                        <persName ref="gnd-118771272">Karoline</persName>
+                  <biblScope unit="volume">1</biblScope>, <biblScope unit="page">181</biblScope>
+               </bibl>; <bibl>Briefwechsel zwischen <persName ref="gnd-118607626">Schiller</persName> und <persName ref="gnd-11852240X">Cotta</persName>
+                  <biblScope unit="page">S. 193</biblScope>
+                  <biblScope unit="note">Anm. 2.</biblScope>
+                  <biblScope unit="page">223</biblScope>. <biblScope unit="page">235</biblScope>
+               </bibl>). Um den zweiten Teil vermehrt, erschien das Werk <date when="1798-01">Anfang
+                  1798</date> in <orgName ref="gnd-6145654-8">Ungers Verlag</orgName> als Buch und
+               fand auch <persName ref="gnd-118540238">Goethe</persName>s lebhaften Beifall (<bibl>
+                  <title>Briefe</title>
+                  <biblScope unit="volume">13</biblScope>, <biblScope unit="page">54</biblScope>.
+                     <biblScope unit="page">58</biblScope>
+               </bibl>). Im Laufe des <date when="1798-06">Frühjahrs oder Sommers 1798</date> kam
+               das Buch nach <placeName ref="geo-2988507">Paris</placeName> in die Hände <persName ref="gnd-118554727">Humboldt</persName>s und <persName ref="gnd-116519770">Brinkmann</persName>s (<bibl>
+                  <author>
+                     <persName ref="gnd-118771272">Karoline von Wolzogen</persName>
+                  </author>, <title>Literarischer Nachlaß</title>
+                  <biblScope unit="volume">2</biblScope>
+                  <biblScope unit="chapter">2</biblScope>, <biblScope unit="page">290</biblScope>
+               </bibl>); in dasselbe Jahr gehört nach dem Wasserzeichen des Manuskripts auch der
+               erhaltene Anfang einer Rezension <persName ref="gnd-118554727">Humboldt</persName>s,
+               die er für die <placeName ref="geo-2895044">jena</placeName>ische <orgName ref="gnd-6146667-0">Allgemeine Literaturzeitung</orgName> bestimmt hatte (an
+                  <persName ref="gnd-118554514">Hufeland</persName>, <date when="1798-03-26">26.
+                  März 1798</date>). Seit den Jugendjahren verband eine enge Freundschaft <persName ref="gnd-118554727">Humboldt</persName> und die <persName ref="gnd-118771272">Verfasserin</persName>, die beide ihr ganzes langes Leben hindurch mit
+               unverminderter Wärme gegenseitiger Hingabe gepflegt haben; <persName ref="gnd-118771272">Karoline</persName> schien <persName ref="gnd-118554727">Humboldt</persName> die einzige Frau, die an schöner und tiefer Weiblichkeit mit
+                  <persName ref="gnd-118554719">seiner eigenen Gattin</persName> verglichen werden
+               könne. Dieselbe rückhaltlose Bewunderung, die <persName ref="gnd-118554727">er</persName> hier dem Romane der <persName ref="gnd-118771272">Freundin</persName> widmet, hat <persName ref="gnd-118554727">er</persName>
+               später als Greis ihrer Biographie <persName ref="gnd-118607626">Schiller</persName>s
+               entgegengebracht (an <persName ref="gnd-118771272">Karoline von Wolzogen</persName>,
+                  <date when="1830-12-29">29. Dezember 1830</date> und <date when="1831-02-04">4.
+                  Februar 1831</date>; an Charlotte Diede, <date when="1831-05-06">6. Mai
+                  1831</date>).</p>
+         </div>
+      </body>
+   </text>
+</TEI>

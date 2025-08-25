@@ -1,0 +1,1231 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Über Religion</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      <creation>
+           <date when="1789">1789</date>
+        </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-2918632">Göttingen</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Essay</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Antike</term>
+                <term>Religion</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+    </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="1.45" xml:id="pbI45"/>
+            <head>
+               <title type="main">Über Religion</title>
+            </head>
+            <p>In allen Staaten, deren Andenken uns die Geschichte aufbewahrt, finden wir religiöse
+               und bürgerliche Einrichtungen aufs innigste mit einander verbunden. Gleich
+               interessant für den Geschichtsforscher und Philosophen muss es sein, dem Ursprung
+               dieser Erscheinung nachzugehn. Ohne Zweifel liegt der Grund davon allein in dem
+               Glauben an die Macht überirrdischer Wesen, in den Erwartungen und Besorgnissen,
+               welche dieser Glaube erregte; die Menschen, welche die Gesellschaft schlossen,
+               mochten nun selbst zu sehr von diesen Ideen erfüllt sein, um nicht die Gottheit mit
+               in ihre Verfassung zu verflechten, oder der Gesetzgeber mochte sich, bald aus edler
+               menschenfreundlicher Absicht, bald aus schlauem Betrug, dieses Mittels bedienen, den
+               Gehorsam seiner Unterthanen zu fesseln. Vorzüglich war diess Letztere häufig der
+               Fall. So liess <persName ref="gnd-118641190">Moses</persName> den Gott seiner Väter,
+                  <persName ref="gnd-122673093">Numa</persName> die <persName ref="gnd-119073293">Egeria</persName>, <persName ref="gnd-118583158">Mahomet</persName> den heiligen
+               Geist, so die Inkas den <persName ref="person-000013">Sonnengott</persName> reden. Nur jeder
+               auf verschiedne Art nach den Einsichten und Bedürfnissen seines Zeitalters.<note type="footnote" n="i)" resp="gnd-116890657"> In der Umarbeitung lautet der erste
+                  Absatz: „In allen Staaten, deren Andenken uns die Geschichte aufbewahrt, zeigt sie
+                  uns Religion und Staatsverfassung aufs innigste mit einander verbunden. Dem
+                  Ursprunge dieser Erscheinung nachzugehen, zu untersuchen, wie die Summe von Ideen
+                  und Empfindungen, durch welche nun jeder Einzelne, zu Befriedigung seiner ihm
+                  eigenthümlichen intellektuellen oder moralischen Bedürfnisse, sich, seine
+                  Schiksale und Erwartungen an mehr als endliche Bande knüpft, wie diese ein Mittel
+                  geworden ist, allgemein, und zugleich auf verschieden Denkende und verschieden
+                  Empfindende zu wirken, muss dem Philosophen, wie dem Geschichtsforscher, eine
+                  überaus interessante Beschäftigung gewähren. Alle Gesezgeber suchen Triebfedern,
+                  den Willen der Bürger mit dem Sinn der Geseze übereinstimmend zu machen; und schon
+                  sehr früh fanden sie eine, mehr als jede andre wirksame, in der Furcht, welche die
+                  Macht, in der Liebe, welche die Schönheit und Güte überirrdischer Wesen einflösst.
+                  Oft suchten sie nun, ihr Ansehn geradezu durch das Ansehn der Götter zu
+                  verstärken, oft nur durch religiöse Ideen den Seelen ihrer Bürger die Stimmung zu
+                  geben, welche ihr Endzwek heischte. Allein einfacher, weniger künstlich und
+                  absichtsvoll war der Gang in den früheren, weniger kultivirten Staaten. Der Zorn
+                  der Gottheit bringt Verderben über das Volk; daher ist es Pflicht des Herrschers
+                  zu sorgen, dass Vernachlässigung diesen Zorn nicht errege, sondern anhaltender,
+                  wohlgefälliger Dienst ihn in Seegen umschaffe. Eben diese Vorstellungsart findet
+                  sich auch in späteren Zeiten wieder. Nur dass da nicht sowohl Verderben für das
+                  Volk und den Staat besorgt wird, als für den Alleinherrscher, der — da sich hier
+                  auf die sonderbarste Weise politische Ideen mit Religionsideen vermischen — für
+                  das Heil seiner Völker bei der Gottheit verantwortlich ist; und dass die Folgen
+                  des göttlichen Zorns mehr jenseits als diesseits des Grabes gefürchtet werden. Wie
+                  nun bald diese, bald jene der hier angegebenen Ursachen, wie bald eine allein,
+                  bald mehrere gemeinschaftlich wirkten, verdient noch eine genauere Bestimmung nach
+                  den verschiednen Epochen der Geschichte. Denn mit der grösseren oder geringeren
+                  Bildung ändert sich auch der Gesichtspunkt, aus welchem die Gottheit betrachtet
+                  wird; und hier kommt es nicht bloss auf diesen religiösen, sondern noch ausserdem
+                  auf den politischen an, aus welchem man das Verhältniss des Herrschers zu den
+                  Beherrschten ansieht.“ </note>
+            </p>
+            <pb n="1.46" xml:id="pbI46"/>
+            <p>In den älteren Staaten war die Religion unmittelbares Werkzeug in den Händen des
+            Herrschers. Die Gottheit hatte eigentlich alle Obergewalt, der Regent war nur Ausleger
+            ihrer Befehle; oder wo auch nicht auf diese Weise Theokratie im strengsten Verstande
+            waltete, da musse doch jedes neue Unternehmen erst der Prüfung der Gottheit unterworfen
+            werden. Sie beschüzte nicht sowohl den Bürger als Menschen, sondern den ganzen Staat,
+            den Bürger als Bürger. Das Gesez befahl nicht sowohl, sie zu ehren; sie gab vielmehr
+            selbst das Gesez, oder war doch Vertheidigerin und Rächerin desselben. Ihre Gunst
+            gewinnen oder ihren Zorn erregen, hiess dem ganzen Staat Segen oder Verderben bereiten.
+            Alle Vorstellungen von überirrdischen Wesen waren in jenen rohen unkultivirten Zeiten
+            noch völlig anthropomorphistisch; der Gottesdienst ein blosses Gewebe von Cärimonien.
+            Auf diese Cärimonien stüzte sich das Ansehen der Priester; auf dem Ansehen der Priester
+            beruhte die Gewalt der Magistratspersonen. So hieng an diesem einzigen Faden die ganze
+               Staatsverfassung.<note type="footnote" n="ii)" resp="gnd-116890657">
+               <hi>Bis zu dieser Stelle lautet der zweite Absatz in der Umarbeitung folgendermaßen:
+                  „Bei den älteren, roheren Völkern entsprang die Idee einer Gottheit aus
+                  unmittelbaren Gefühlen der Schwache, der Abhängigkeit von Schiksal und Natur, die
+                  ihre Phantasie in selbstthätige Wesen verwandelte, und auf den Thron der Schöpfung
+                  erhob. Diese Wesen — liehen sie ihnen auch andre, als menschliche Gestalten —
+                  dachten sie sich menschlich, mit menschlichen Neigungen und Leidenschaften, nur
+                  überlegen an Macht und Stärke. Abhängig von ihnen fürchteten sie ihren Zorn,
+                  flehten sie um ihre Huld. So war ein Einfluss, eine Oberherrschaft überirrdischer
+                  Wesen Grundidee aller Nationen, und eine Idee, die schon vor aller Vereinigung zur
+                  eigentlichen Gesellschaft existirte. Schon jede Familie brachte ihre Götter in die
+                  Staatsverbindung. Denn so erklärt man es ja, dass bei allen übrigen Völkern des
+                  Alterthums Vielgötterei, bei den Israeliten hingegen, die nur von Einer Familie
+                  herstammten, auch nur Anbetung Eines Gottes herrschte. Wie nun der Zwek der
+                  Staatsvereinigung überhaupt Ueberwindung aller Hindernisse, Erreichung aller
+                  Vortheile war, die ohne gemeinschaftliche Kraft unüberwindlich oder unerreichbar
+                  geblieben wären; so entstand jezt auch vereintes Streben, die Gunst der Gottheit
+                  durch gemeinsame Verehrung zu erhalten. Zu den Familiengöttern gesellten sich
+                  Nationalgötter; gottesdienstliche Nationalzusammenkünfte entstanden, und wurden
+                  durch die Bequemlichkeit, dabei auch über andre Angelegenheiten zu rathschlagen,
+                  durch die Neigung zum geselligen Leben, und zu gemeinschaftlich fröhlichem Genuss
+                  häufiger gemacht. Den Herrschern im Staat lag es ob, überhaupt für das Wohl des
+                  Ganzen zu sorgen; also auch den Willen der Götter zu erforschen, ihm zu gehorchen,
+                  oder kein Mittel zu verabsäumen, ihn nach den Wünschen des Volks umzustimmen. So
+                  wurde die Religion innigst in die Staatsverfassung verwebt; so war der Wille der
+                  Gottheit eigentlich der oberste Herrscher, der irrdische Regent nur Ausleger
+                  desselben. So befahl nicht sowohl das Gesez, sie zu ehren; sie gab vielmehr selbst
+                  das Gesez, oder war doch Vertheidigerin und Rächerin desselben. Zwar herrschte
+                  nicht überall Theokratie in diesem strengen Verstande des Worts; aber immer musste
+                  doch jedes neue Enternehmen erst der Prüfung der Gottheit unterworfen werden;
+                  immer musste ihr Ausspruch die wichtigsten Unternehmungen entscheiden, ihr Beifall
+                  die Wahl der Magistratspersonen bestätigen. Dadurch wurden ihre Diener zugleich
+                  Regierer des Staats. Und nun gewann bald alles eine veränderte Gestalt. Was
+                  anfangs bloss frommer Glaube gewesen war, dessen bediente man sich nun bald aus
+                  Herrschsucht, bald aber auch aus der menschenfreundlichen Absicht, das rohe,
+                  ungebändigte Volk zur Ordnung und Sittlichkeit zu führen, als eines Mittels, um
+                  den weniger aufgeklärten Theil der Nation dadurch zu leiten. Nach und nach wurde
+                  nun die Staatsverfassung künstlicher und verwikkelter, und je mehr Ausbildung und
+                  Verfeinerung sie erhielt, desto enger wurde auch die Religion mit ihr verbunden;
+                  so dass es nicht mehr möglich war jene anzugreifen, ohne zugleich diese zu
+                  verlezen.“ Der Rest des Absatzes einschließlich der Anmerkung stimmt nahezu
+                  wörtlich zu unserm Text: in der letzteren heißt es statt „den Nationalgeist“ „das
+                  Eigenthümliche des Nationalgeistes und des Nationalglaubens”, statt „der Sitten“
+                  „der Sitten und der Vorstellungsweise“, statt „für den Charakter“ „für den
+                  Charakter und die Aufklärung“; im vorletzten Satz des Haupttextes ist „<persName ref="gnd-118615270">Sokrates</persName>" durch „den Weltweisen“ ersetzt.</hi>
+                    </note>
+            <pb n="1.47" xml:id="pbI47"/> Daher war Neuerung in Religionssachen nicht bloss, als
+            Uebertretung eines Strafgesezes, Verbrechen, sondern Staatsverbrechen im eigentlichsten
+            Verstande; Befolgung der gottesdienstlichen Gebräuche nicht Bemühen den Göttern ihre
+            Verehrer, sondern dem Staat seine Verfassung zu erhalten. Daher war <persName ref="gnd-118615270">Sokrates</persName> und <persName ref="gnd-118580744">Moses
+               Mendelssohn</persName>s Erfüllung auch der eigensinnigsten Forderungen ihrer Religion
+            nicht mitleidige Schonung des Aberglaubens ihres <pb n="1.48" xml:id="pbI48"/> Volks,
+            sondern Erfüllung bei jenem der Bürger-, bei diesem – da Juden keinen eignen Staat mehr
+            bilden – der Nationalpflicht.<note type="footnote" n="1)" resp="gnd-118554727">Diese
+               Hypothese – denn für mehr gebe ich es nicht aus, troz des zuverlässigen Tons, den der
+               Zusammenhang entschuldigen mag – über einen erst vor so wenig Jahren verstorbenen
+               Mann – mag auffallend scheinen. Aber immer kam mir eine solche Schonung, oder
+               vielmehr Beförderung des rohesten Aberglaubens bedenklich, und eine so weit
+               getriebne, in dem Zeitalter, in dem <persName ref="gnd-118641190">Moses</persName>
+               lebte, unnöthig vor. Auf der andren Seite wäre vielleicht die Absicht, den
+               Nationalgeist seines Volks nicht untergehen zu lassen, eines so denkenden und
+               scharfsinnigen Kopfes nicht unwürdig. Wenigstens muss die Untersuchung: ob das
+               Ineinanderschmelzen der Sitten aller Nationen, das Hinschwinden alles Eigenthümlichen
+               für den Charakter des ganzen menschlichen Geschlechts – wenn ich mich so ausdrukken
+               darf – vortheilhaft sei oder nicht? auf sehr interessante Gesichtspunkte führen, und
+               die Entscheidung nicht wenig zweifelhaft machen.</note>
+            <note type="footnote" n="iii)" resp="gnd-116890657">
+                        <hi>
+                            <persName ref="gnd-118580744">Moses Mendelssohn</persName> war am <date when="1786-01-04">4. Januar
+                     1786</date> in <placeName ref="geo-2950159">Berlin</placeName> gestorben. In
+                  den eigenen Äußerungen des Philosophen über seine innere Stellung zum Judentum
+                  bietet sich für diese Hypothese keinerlei Anhalt; vgl. z. B. <title>Gesammelte
+                     Schriften</title> 3, 39. 355.</hi>
+                    </note>Daher war es nicht Intoleranz der
+               <placeName ref="geo-264371">Athen</placeName>ischen Richter, wenn sie <persName ref="gnd-118615270">Sokrates</persName> zum Giftbecher verdammten. Er war Verbrecher
+            gegen den Staat, wenn es erwiesen war, dass er den Altären ihre Opfrer entzog.</p>
+            <p>Die Gottheiten der alten Völker waren ferner Partikular-Gottheiten, eingeschränkt auf
+               die Gränzen menschlichen Eigenthums. Jede Gegend, jede Stelle wurde einem eignen
+               Gotte geweiht. So gab es Götter des Hauses, der Familie, des Stammes, der Nation;
+               Götter der einzelnen Aekker, Gärten, Haine, Quellen, Berge u. s. f. Der Schuz dieser
+               Gottheiten war ein Eigenthum der Bewohner dieser Gegenden, der Mitglieder dieser
+               Gesellschaften; aber ein Eigenthum, das an den Gegenden und den Gesellschaften
+               klebte, das man verlor, wenn man über die Gränze des Landes trat, oder aufhörte
+               Mitglied der Familie zu sein. Daher die mancherlei gottesdienstlichen Feierlichkeiten
+               bei Erbauung von Häusern, Uebertragung von Erbschaften, Uebertritt von einer <pb n="1.49" xml:id="pbI49"/> Familie in die andre;<note type="footnote" n="iv)" resp="gnd-116890657">
+                  <hi>Bis zu dieser Stelle ist der Wortlaut dieses Absatzes in der Umarbeitung
+                     folgender: „Jede einzelne große — furchterregende oder wohlthätige — Wirkung
+                     der Natur wird von dem Menschen, der noch auf der ersten Stufe der Bildung
+                     steht, für die unmittelbare Erscheinung eines höheren Wesens erklärt. Daher
+                     sind die Gottheiten aller unkultivierten Nationen, und daher waren die
+                     Gottheiten der Alten insbesondre Partikular-Gottheiten. Jede Gegend, jede
+                     Stelle wurde von einem eignen Gotte bewohnt. In jedem Hain, jeder Grotte, bei
+                     jedem Quell vernahmen sie das Walten eines Unsterblichen. Ihm musste dienen,
+                     wer die Gegend bewohnen wollte; seinen Schuz musste der Opferrauch des Altars
+                     erkaufen. Da man aber so die Gottheit sich innig verbunden dachte mit dem Ort,
+                     den sie bewohnte, da man ferner sie verwechselte mit dem Dienst, den man ihr
+                     erwies, ihr Wesen mit dem Bilde, worin man sie verehrte; so wurde nun wiederum
+                     die Gottheit Eigenthum der Sterblichen. Wie man sich unter den Schuz einer
+                     Gottheit begeben konnte; ebenso konnte man neue Gegenden ihrem Schuze weihen.
+                     Denn ihr Bild, ihr Dienst liess sich ja übertragen. Dadurch wurden nun die
+                     Götter eingeschränkt auf die Gränzen menschlichen Eigenthums; dadurch
+                     entstanden Götter des Grundstüks, des Hauses, der Familie, des Stammes, der
+                     Nation. Der Schuz dieser Gottheiten war ein Eigenthum der Bewohner dieser
+                     Gegenden, der Mitglieder dieser Gesellschaften ; aber ein Eigenthum, das an den
+                     Gegenden und an den Gesellschaften klebte, das man verlor, wenn man über die
+                     Gränze des Landes trat, oder aufhörte, Mitglied der Familie zu sein." Das
+                     Folgende bis zu den Worten „bei Göttern und Menschen" stimmt wörtlich zu unserm
+                     Text.</hi>
+               </note> daher die schrekkensvolle Vorstellung, die man mit der Verbannung verknüpfte.
+               Bei uns verlässt der Verbannte Weib, Kinder, väterlichen Heerd, heimischen Boden,
+               aber immer bleibt ihm noch Ein Band übrig, das Band, das ihn an seinen Gott knüpft.
+               Nach jenen Vorstellungen zerriss auch diess, auch seine Götter verliessen den
+               unglücklichen Vertriebnen, er war nun Fremdling überall, bei Göttern und Menschen.
+               Und wieviel Schauderhaftes muss selbst die Idee des Fremdlings verloren haben,
+               seitdem die Vorstellung eines allgemeinen Vaters und Sorgers das ganze
+               Menschengeschlecht vereint?<note type="footnote" n="v)" resp="gnd-116890657">
+                  <hi>Statt dieses Satzes steht folgendes in der Umarbeitung: „Daher das
+                     Schauderhafte in der Idee des Fremdlings überhaupt. Die Vorstellung eines
+                     allgemeinen Vaters und Sorgers vereinte noch nicht das ganze
+                     Menschengeschlecht. Daher endlich das Bedürfniss der Uebertragung der
+                     Gottheiten, wenn man Wohnort oder Gesellschaft mit andren vertauschte. Denn
+                     hieraus entsprangen alle gottesdietistliche Feierlichkeiten bei Erbauung von
+                     Häusern, Uebertritt von einer Familie in die andre, Uebertragung von
+                     Erbschaften, ehe noch die simplificirtere Form diese Uebertragung in einen
+                     Scheinkauf verwandelte; hieraus dass <persName ref="gnd-11850083X">Aeneas</persName>
+                     mit gleich sorgsamer Frömmigkeit seine <persName ref="person-000028">Penaten</persName>, als seinen <persName ref="gnd-135589746">Vater</persName>
+                     und <persName ref="gnd-1143256182">Sohn</persName> den Flammen <placeName ref="geo-298885">Ilion</placeName>s entriss.“ Der Rest des Absatzes stimmt fast
+                     wörtlich zu unserm Text. — <lang xml:lang="la">„Tu, genitor, cape sacra manu
+                        patriosque penates“</lang>
+                     <bibl>
+                        <author>
+                           <persName ref="gnd-118626574">Vergil</persName>
+                        </author>, <title>Aeneis</title>
+                        <biblScope unit="volume">2</biblScope>, <biblScope unit="line">717</biblScope>.</bibl>
+                  </hi>
+               </note> Hieraus ist nun auch be- <pb n="1.50" xml:id="pbI50"/> greiflich, wie alle
+               älteren Völker von der Neigung Proselyten zu machen frei sein, wie sie vielmehr
+               Fremde von ihren Tempeln entfernen mussten. Der wohlthätige Einfluss der
+               Nationalgötter war ausschliessendes Eigenthum. Man verlor, wenn man es theilte; man
+               raubte, wenn man es eigenmächtig an sich riss. Dazu kam, dass Theilnahme an der
+               Religion Theilnahme am Bürgerrecht war. Man konnte also nur Proselyten machen wollen,
+               insofern man neue Bürger wünschte. </p>
+            <p>Die Religion der Alten war ein Theil ihrer Staatsverfassung; aber auch nicht mehr,
+               als das. Uebrigens liess sie jedem Bürger unbegränzte Freiheit, sezte ihm keine
+               Schranken weder in Absicht seiner Ideen über die Entstehung des Weltalls, über die
+               Leitung menschlicher Begebenheiten, über seine Erwartungen jenseits des Grabes u.s.f.
+               noch in Absicht seiner Handlungen; kurz weder theoretische noch praktische
+               Philosophie kollidirten je mit der Religion. Denn auch die Handlungen der Bürger
+               bestimmte sie nur, insofern die Geseze sie bestimmten, und sie auf die Befolgung der
+               Geseze wachte.<note type="footnote" n="vi)" resp="gnd-116890657">
+                  <hi>Bis zu dieser Stelle lautet dieser Absatz in der Umarbeitung so: „Je roher die
+                     Idee der Alten von der Gottheit war, desto mehr schränkten sie ihre Verehrung
+                     allein auf äußern Dienst und Cärimonie ein. Wessen Opferrauch vom Altar
+                     emporstieg, war ihrer Huld, so wie der, welcher ihren Dienst vernachlässigte,
+                     ihres Zornes gewiss. Zwar belohnte sie den Guten, und bestrafte den Frevler;
+                     aber ungerechnet, dass in der Reihe der Tugenden Frömmigkeit gegen die Götter
+                     den ersten Plaz einnahm, war sie auch durch Opfer und Geschenke versöhnbar.
+                     Selbst da eine grössere Aufklärung herrschend wurde, da die Philosophie ihr
+                     Licht in seiner ganzen Fülle und Schönheit verbreitete, blieben die
+                     Religionsideen in ihrer vorigen Rohheit. Denn gleich anfangs waren sie in die
+                     Staatsverfassung übergegangen, und diess versperrte jeglicher Verbesserung den
+                     Zugang. Nur in dem Gange, den sie einmal genommen hatten, fortzuschreiten war
+                     es erlaubt; man durfte die Dichtung, die darauf sich stüzende Cärimonie nicht
+                     umstürzen, nur sie verfeinern, aufs höchste ihr reinen wahren Sinn
+                     unterschieben. Diess Geschäft fiel in die Hände des Dichters und der Künstler
+                     überhaupt, da gerade die gottesdienstlichen Feste den Künsten ihren Ursprung
+                     gaben. Daher die Verschiedenheiten der Religion der Alten von der unsren, dass
+                     bei uns so vieles zu den Religionslehren gehört, was wir bei ihnen nur in dem
+                     Gebiete der Philosophie finden, dass ihre Religion nicht, wie die unsrige,
+                     durch die Fortschritte der Philosophie mehr Richtigkeit, sondern nur durch die
+                     Fortschritte der Kunst mehr Schönheit und Grazie erhielt, dass in sie nicht,
+                     wie in die unsrige, die mehr geläuterte Vernunft, sondern die mehr verfeinerte
+                     Einbildungskraft übergieng. Den Staat interessirte die Religion nur als ein
+                     Theil seiner Verfassung, die sich auf ihre Cärimonien stüzte. Er begnügte sich
+                     also, diese unverlezt zu sehn, sorglos, ob die innere Ueberzeugung damit
+                     übereinstimme, oder nicht. Verfolgte er je irgend eine Lehre der Philosophie;
+                     so trieb ihn dazu mehr Besorgniss daraus entspringender Vernachlässigung auch
+                     des äusseren Gottesdienstes, als intoleranter Eifer gegen die Lehre selbst an.
+                     Auch waren die Religionslehren nicht, wie bei uns, in ein zusammenhängendes
+                     System gebracht, das Meiste beruhte auf ungewissen, oft einander
+                     widersprechenden Volkssagen, Ueberlieferungen, Erdichtungen der Priester,
+                     welche die Phantasie des Dichters noch auf mannigfaltige Art ausschmükte. In
+                     dem ganzen Reich des Denkens herrschte noch nicht, wie bei uns, Konsequenz,
+                     Uebersicht des Zusammenhanges aller Ideen. Leicht blieb es daher unbemerkt,
+                     wenn auch die Untersuchung auf Säze führte, deren Folgen den Volksglauben
+                     geradezu vernichtet hätten.“ Dann folgen die beiden nächsten Sätze unsres
+                     Textes bis zu den Worten „zu schweigen brauchte" nahezu wörtlich (statt
+                     „Philosophie" ist „Vernunft" gesetzt), aber in umgekehrter Reihenfolge,
+                     verbunden durch die in unserm Text schon zu Eingang des Absatzes vorkommenden
+                     Worte: „dass theoretische und praktische Philosophie fast nie mit der Religion
+                     kollidirten“; die Schlußwendung über <persName ref="gnd-118520814">Cicero</persName>
+                     fehlt.</hi>
+               </note> Ueberhaupt forderte sie nicht, als Werkzeug <pb n="1.51" xml:id="pbI51"/> den
+               Bürger sittlicher und dadurch den Gesezen gehorsamer zu machen, Ueberzeugung; sondern
+               bloss, als unmittelbares Triebrad in der Maschine des Staats, Beobachtung äusserer
+               Handlungen. Daher die unbeschränkte Denkfreiheit, die gränzenlose Toleranz der Alten,
+               die jede Sekte duldete, die eine herrschende Religion nicht anders, als wie eine
+               eingeführte Staatsverfassung, folglich nur in den Verhältnissen des Bürgers kannte;
+               daher dass die Philosophie nie vor priesterlichen Aussprüchen zu schweigen brauchte;
+               daher dass <persName ref="gnd-118520814">Cicero</persName> als Consul den Rath der Augurn
+               einholen musste, und als Privatmann sich öffentlich darüber wundern durfte, wie ein
+               Augur den andren ohne Lachen ansehen könnte.<note type="footnote" n="vii)" resp="gnd-116890657">
+                  <lang xml:lang="la">„Mirabile videtur, quod non rideat haruspex, cum haruspicem
+                     viderit“</lang>
+                  <persName ref="gnd-118520814">Cicero</persName>, <title>De natura deorum</title> 1, 71.
+               </note> Hätten Philosophie und Religion bei den Alten in der Verbindung gestanden, in
+               der sie jezt stehn;<note type="footnote" n="viii)" resp="gnd-116890657">
+                  <hi>Hier folgt in der Umarbeitung noch: „hätte man Glauben, und Glauben gewisser
+                     bestimmter Säze gefodert, hätte man endlich mit scharfsinnigem Eifer jeder
+                     Meinung, die diesen Glauben wankend zu machen drohte, nachgespürt“; im übrigen
+                     stimmt der Schlusssatz des Absatzes und damit des ganzen Fragments wörtlich zu
+                     unserm Text.</hi>
+               </note> so wäre schlechterdings alle Geistesfreiheit, alle Kultur verloren gegangen,
+               da die Staatsverfassung so unzertrennlich mit der Religion verknüpft war.</p>
+            <p>Nimmt man diese Eigenthümlichkeiten der Religion der weniger kultivirten Völker – die
+               ich hier nur angeben konnte, die es aber wohl der Mühe werth wäre, genauer
+               durchzugehn, und mit den gehörigen Beweisstellen zu belegen – zusammen; so findet man
+               in dem Gebrauch, der in den alten Staaten, und der in unsren heutigen von der
+               Religion gemacht wird, eben den Unterschied, <pb n="1.52" xml:id="pbI52"/> welcher
+               überhaupt diese vor jenen auszeichnet. Solange noch allein Zufall die Staaten schuf
+               und Bedürfniss sie ausbildete, suchte man bloss den Bürger zum gehorchenden Bürger zu
+               zwingen; jezt da die Gesezgebung nach überdachten Planen verfährt, ist sie bemüht,
+               ihn zum brauchbaren Bürger zu bilden. Daher war auch die Religion in jenen Zeiten nur
+               Zwangsmittel, und daher ist sie jezt Bildungsmittel.</p>
+            <p>Sie ist also nicht mehr so innig in die Staatsverfassung verwebt; diese könnte ohne
+               sie bestehen, wenn die Bürger ohne sie höhere Moralität und Bereitwilligkeit den
+               Gesezen zu gehorchen erlangen könnten. Abweichung von vorgeschriebnen
+               Religionsmeinungen ist nicht mehr Umsturz der Verfassung, es ist nur Uebertretung der
+               Geseze des Staats. Diese Geseze selbst gewinnen nun eine andre Gestalt. Da die
+               Religion auf den Charakter wirken soll, so muss sie von innerer Ueberzeugung
+               begleitet sein. Ueberzeugung aber lässt sich nicht durch Geseze hervorbringen oder
+               entreissen. Wer also einmal von der Lehre des Staats abweicht, den bringt kein Gesez
+               wieder zurück; das Gesez hindert ihn nur, seine abweichende Meinung weiter zu
+               verbreiten. So gewinnt die Freiheit des Bürgers, da die Bande zwischen Religion und
+               Staat lokkrer, Religions- und Bürgerpflicht weniger Eins sind.</p>
+            <p>Unsre Religion lehrt keine nationale, sondern eine allgemeine Gottheit; ist Religion
+               nicht des Bürgers, sondern des Menschen. Der Schuz der Gottheit ist nicht
+               ausschliessendes Eigenthum einiger Wenigen; ist Geschenk woran jeder Theil nehmen
+               kann, ohne dem andren etwas zu entreissen. Daher unsre Neigung Proselyten zu machen,
+               die durch die Hofnung eines doppelten Gewinnes erhöht wird, einmal für den
+               Neubekehrten, der zu einer höheren Stufe der Glückseligkeit geführt wird, dann für
+               den Bekehrer, der sich ein Verdienst bei seiner Gottheit erwirbt, die nun um eine
+               Zahl von Verehrern reicher wird.</p>
+            <p>Unsre Religion ist für den Menschen als Menschen bestimmt, bezieht sich auf seine
+               Sittlichkeit, seine individuelle Glückseligkeit. Sie fordert also Ueberzeugung.
+               Ueberzeugung ist ohne Consequenz in unsrem ganzen Gedankensysteme, ohne durchgängige
+               Uebereinstimmung nicht möglich. Die Vernunft darf also der Religion nicht
+               widersprechen; sie muss auf eben die Resultate führen, oder schweigen, wo sie andre
+               herausbringen würde. So sind Religion und Philosophie bei uns innigst verschwistert;
+               so entsteht der Begriff der Kezerei, und jede philosophische Meinung, <pb n="1.53" xml:id="pbI53"/> welche dem angenommenen Religionsbegriff widerspricht, oder nur
+               auf ihm widersprechende Folgen führt, muss unterdrükt werden. Wenn also die Freiheit
+               zu denken von jener Seite der weniger festen Verbindung des Staats und der Religion
+               gewann; so verliert sie wiederum und weit mehr von dieser. Denn der Zwang der
+               positiven Religion wird nunmehr auf Dinge ausgedehnt, die an sich gar keiner
+               positiven Bestimmung fähig sind. Schon die Geschichte zeigt an mehr als Einem
+               Beispiele, wie schädlich die zu nahe Verbindung von Gegenständen der Untersuchung mit
+               Gegenständen des Glaubens ist. Da man in den Zeiten der rohesten Barbarei
+               übernatürliche Wirkungen durch Bündnisse mit feindseligen Geistern für möglich hielt,
+               sah sich die Physik, und die Naturkunde überhaupt in allen ihren Fortschritten
+               gehemmt. Da man aus den Urkunden der Religionslehrer auch andre als
+               Religionswahrheiten ziehen zu können glaubte, wurde Copernikus als Kezer verdammt.
+               Und brauchen wir wohl so weit zurückzugehen? Würden nicht noch jezt manche
+               unsittliche Handlungen in einem ganz andren Lichte erscheinen, wenn wir gewohnt
+               wären, die Moral in einem weniger genauen Zusammenhange mit der Religion zu
+               betrachten? Selbst unser Kriminalrecht würde eine gute Anzahl solcher Beispiele an
+               die Hand geben, wenn man es einmal in dieser Absicht durchgienge. Ich erinnere jezt
+               nur an Eins, an die Bestrafung gewisser unnatürlicher Ausschweifungen.</p>
+            <p>Verfolgt man diese Betrachtungen weiter; so findet man, dass jede Bemühung, die
+               positive Religion zu reinigen, das heisst übereinstimmender mit der Philosophie und
+               der sich selbst überlassnen Vernunft zu machen, der Geistesfreiheit nachtheiligt ist.
+               Denn solange Religionswahrheiten bloss auf Glauben beruhn, kann die Vernunft nur dann
+               mit ihnen kollidiren, wenn sie diesen Glauben, als ihren Grundpfeiler, umstösst.
+               Werden sie aber durch Vernunftgründe unterstüzt, so widerspricht ihnen alles, was die
+               Beweiskraft dieser Gründe verdächtig macht. Kein rechtgläubiger Theologe wird es <persName ref="gnd-118559796">Kant</persName>
+               zum Vorwurf machen, wenn er der Vernunft die Kraft abspricht, über das Wesen der
+               Dinge an sich zu entscheiden; vielmehr wird ja eben dadurch der Glaube, auf den er
+               alles zurückführt, um so nothwendiger. Schwerlich aber wird man ihn bei dem
+               philosophischen Deisten von dem Verdachte des Atheismus retten können. Denn er
+               untergräbt alle Demonstrationen, worauf dieser seine Ueberzeugung baut. Sonderbar
+               scheint es, dass so gerade die vortreflichsten Bemühungen unsrer aufgeklär- <pb n="1.54" xml:id="pbI54"/> testen Religionslehrer der wahren Aufklärung und den
+               Fortschritten der Vernunft sollten geschadet haben. Und doch ist diess von der einen
+               Seite unleugbar, unleugbar dass dadurch die religiöse Intoleranz in eine weit
+               drükkendere philosophische verwandelt worden ist. Aber man vergesse auch ja nicht auf
+               der andren Seite, dass wir es eben diesen Bemühungen allein danken, wenn die positive
+               Religion jezt weniger positiv ist, wenn die Fürsten gelernt haben, da nicht Zwang zu
+               gebrauchen, wo Zwang rechtwidrig und verderblich ist, oder vielmehr wenn die
+               Menschheit zu aufgeklärt geworden ist, um das Joch länger zu erdulden!</p>
+            <p>Stellt sich der Gesezgeber in den Gesichtspunkt, den ich ihm hier zu bestimmen
+               versucht habe – und er muss sich in ihn stellen, wenn er nicht hinter den
+               Fortschritten der Philosophie und der Aufklärung seines Zeitalters zurükbleiben will
+               – so wird sein Unternehmen auf der einen Seite erhabner und belohnender, auf der
+               andren aber auch mit unendlich mehr Schwierigkeiten verknüpft. Er muss jezt nicht
+               bloss einen Staat bilden, in dem Gerechtigkeit die Geseze aufrecht erhält, Fürsorge
+               die Bedürfnisse und Bequemlichkeit des Lebens verschaft, Wachsamkeit vor äussren
+               Angriffen sichert; sondern einen Staat, in dem es dem Bürger möglich bleibt, auch
+               Mensch zu sein, das heisst, seine ganze Bestimmung als Mensch vollkommen zu erfüllen;
+               muss ihm selbst zu Erreichung dieses erhabnen Zwecks durch alle Mittel behülflich
+               sein, die ihm zu Gebote stehn. Wenn <persName ref="gnd-118640674">Lykurg</persName> und
+                  <persName ref="gnd-118615394">Solon</persName> nur die Beziehungen ihrer Staaten auf
+               fremde erwogen, sich nur mit dem Charakter ihres Volkes bekannt machten, und dann auf
+               Mittel sannen, Sicherheit von den Nachbarn her, und Ruhe daheim zu erhalten; so muss
+               der Gesezgeber jezt tief in das Studium des Menschen eingehn, alles erforschen, was
+               nur irgend Bezug auf Menschenbestimmung und Menschenglückseligkeit hat, und kein
+               Mittel ungeprüft lassen, wodurch diese erhöht oder vermindert wird. Nicht als sollte
+               er Erzieher seines Volks sein, nein vielmehr gerade in der Absicht um keine
+               Einrichtung zu treffen, kein Mittel zu wählen, wobei die Freiheit der eignen, sich
+               selbst gelassnen Bildung leide; und doch auch auf der andren Seite nichts unbenuzt zu
+               lassen, wodurch er im Stande ist, sie zu befördern. Auf diesem Wege allein darf er
+               hoffen, das Problem aufzulösen, von dem ich im Vorigen sprach, das Problem zugleich
+               die Freiheit des Menschen mit dem Zwange des Staats zu vereinen. Je tiefer er den
+               Menschen studirt, desto vollständiger und befriedigender wird <pb n="1.55" xml:id="pbI55"/> die Auflösung dieses Problems sein; je mehr er nur von der
+               Oberfläche schöpft, je eingeschränkter seine Ideen von Menschenbestimmung und
+               Menschenwerth sind, je mehr bei äussren Handlungen und Beziehungen, äussrem Genuss
+               und Entbehren stehn bleibt, desto weniger wird er seinen Endzwek erreichen.</p>
+            <p>Er muss das Ideal des moralischen Menschen aufsuchen, die verhältnissmässige Stimmung
+               aller Seelenfähigkeiten, die Mischung von Erkenntniss, Empfindung und Neigung, die
+               den vollsten, reinsten, dauerndsten Genuss gewährt, und zugleich die schnellsten
+               Fortschritte zu höherer Vollkommenheit möglich macht. Er darf daher nur auf das
+               hinsehn, was in sich fort arbeitet und wirkt, auf das im strengsten Verstande
+               Moralische, auf der Seele inneres Sein. Denn darin, dass diess rein Geistige zum
+               ersten Zweck gemacht, dass alles Uebrige nur in verschiednem Verhältniss, nach
+               Verschiedenheit seiner Beschaffenheit, darauf bezogen wird, besteht eigentlich die
+               wahre Tugend und moralische Vollkommenheit.</p>
+            <p>Wenn wir uns Wesen denken, körperlos und frei von allen sinnlichen Eindrükken und
+               Begierden, so würde das Leben und Weben dieser Wesen allein in Hervorbringung von
+               Ideen bestehn. Ihre Vollkommenheit, wie ihre Glükseligkeit würde auf der Klarheit und
+               der erhebenden Fülle dieser Ideen beruhen. Ihre Beschaffenheit und die Beschaffenheit
+               der Dinge um sie her, ihren Ursprung, ihre Abhängigkeit oder Unabhängigkeit von
+               lebendingen oder leblosen Naturen, die Möglichkeit der Fortdauer ihres Daseins würden
+               sie zu erspähen suchen, würden bemüht sein, das Ziel festzusetzen, nach dem ihre
+               wachsende Vollkommenheit hin arbeiten, den Weg zu entdekken, auf dem sie
+               fortschreiten müsste. In allen diesen Untersuchungen würden sie die höchsten
+               Beziehungspunkte wählen, alle Ideen bis in die feinsten Nüancen verfolgen; überall
+               verbreitetes Licht und duchgängige Harmonie würden die lezten Zwekke ihres Strebens
+               sein. Aber sie würden nicht stehen bleiben bei sich und der Eingeschränktheit ihres
+               Gesichtskreises, sie würden übergehn auf alle gleichartige Wesen um sie her, sich zu
+               eigen machen, was sie in ihnen fänden, ihnen geben, was ihnen noch mangelte. So würde
+               sich nach und nach in ihnen die Idee einer Harmonie aller Geister bilden, so würden
+               sie sich nach und nach ein Ideal aller geistigen Vollkommenheit schaffen, und dahin
+               gelangen, sich und alle übrige Wesen nur als ebensoviele Abdrülle einzelner Theile
+               dieses Ideals zu betrachten. Je mehr sie sich diese Vorstellungsart zu eigen machten,
+               desto höher <pb n="1.56" xml:id="pbI56"/> würde ihre Vollkommenheit wachsen; je
+               weniger sie bloss objektive Idee des Verstanden wäre, je inniger sie sie in ihre
+               Individualität verwebt hätten, je stärker sie in ihnen die Bewegung hervorbrächte,
+               das Gefühl des Mangels, die Sehnsucht den Mangel zu erfüllen, die wir Begierde
+               nennen, je mehr Leichtigkeit sie besässen, diese Begierde zu stillen, desto
+               gränzenloser würde ihre Glükseligkeit sein.</p>
+            <p>Denken wir uns auf der andren Seite Geschöpfe, bloss bestimmt zu sinnlichem Genuss,
+               jeder unkörperlichen Vorstellung unfähig; so werden wir diesen, da in ihnen alle
+               Möglichkeiten eigner Wahl, Entschliessung und Freiheit verschwindet, innere
+               Vollkommenheit nie, Glükseligkeit nach dem Verhältniss der Innigkeit, Dauer und
+               Mannigfaltigkeit ihres Genusses zuschreiben können.</p>
+            <p>In dem Menschen ist beides mit einander vereint; er ist auf der einen Seite
+               sinnliches und geniessendes Geschöpf, auf der andren denkendes und schaffendes Wesen.
+               Aber es giebt in ihm noch ein Drittes, oder vielmehr es giebt eine Beziehung dieser
+               beiden Naturen auf einander, wodurch sie mit einander vereint werden. Ich will hier
+               von der Fähigkeit reden, sinnliche Vorstellungen mit aussersinnlichen Ideen zu
+               verknüpfen, aus den sinnlichen Eindrükken allgemeine Ideen zu ziehn, die nicht mehr
+               sinnlich sind, die Sinnenwelt als ein Zeichen der unsinnlichen anzusehn, und
+               aussersinnlichen Gegenständen die Hülle sinnlicher Bilder zu leihen. Es fehlt der
+               Sprache an einem eignen Ausdruk für diese ganze Fähigkeit überhaupt.
+                  <emph>Aesthetisches Gefühl</emph> drükt einen Theil davon aus, aber es bezeichnet
+               mehr das Vermögen, in dem Verhältnisse sinnlicher Eindrükke zu einander gewisse
+               Allgemeinheiten zu bemerken, Allgemeinheiten nehmlich der Harmonie und Symmetrie;
+               indess sei es mir erlaubt diess Wort hier in ausgedehnterer Bedeutung zu nehmen.
+               Dieser Fähigkeit danken wir alle Empfindung des Schönen, desjenigen Verhältnisses des
+               Mannigfaltigen, das weder zu einfach ist, um die Seele ganz unbeschäftigt zu lassen,
+               noch zu verwikkelt, um sie zu ermüden. Durch sie erhalten wir unsinnliche
+               Vorstellungen durch sinnliche Gegenstände. Ich führe hier als ein Beispiel nur die
+               Physiognomik an, die aber viel weiter ausgedehnt werden könnte, zwar nicht insofern
+               die Bildung körperlicher Theile von unkörperlichen Beschaffenheiten abhängt; aber
+               doch insofern als körperliche Gestalten überhaupt wegen gewisser allgemeiner
+               Aehnlichkeiten an unsinnliche Ideen erinnern. Durch sie endlich stellen wir
+               unsinnliche Gegenstände sinnlich dar durch Bilder, Töne, <pb n="1.57" xml:id="pbI57"/> oder Gebehrden. Die weitre Ausführung der Art, wie das ganze Geschäft der
+               Bezeichnung aussersinnlicher Ideen vor sich geht, wie die ersten Zeichen natürliche
+               sind, und wie erst aus ihnen willkührliche entspringen, so interessant sie auch
+               gemacht werden könnte, gehört nicht hierher. Die Seelenfähigkeit, welche uns
+               vorzüglich zu dieser Verknüpfung des Sinnlichen mit dem Unsinnlichen dient, ist die
+               Einbildungskraft. Sie gewährt uns dadurch einen sehr mannigfaltigen Nuzen. Der
+               sinnliche Genuss wird dadurch verfeint, veredelt, und zugleich verstärkt. Denn es
+               gesellen sich eine Menge andrer Ideen zu ihm, welche der Seele eine befriedigendere
+               Fülle gewähren. Alle unsinnliche Vorstellungen werden lebhafter, die Neigungen,
+               welche sie erregen, stärker, die Begierde, sie zu realisiren, wird heftiger durch das
+               sinnliche Bild, in das man sie hüllt. Denn gerade unsre ersten und heftigsten
+               Begierden sind ursprünglich sinnlich.</p>
+            <p>Aus der Betrachtung dieser beiden Seiten der Seele, der sinnlichen Begierde und der
+               bloss geistigen Denkkraft und des Zusammenhanges, in dem diese beide mit einander
+               stehn, müssen alle Grundäze der Moral fliessen. Denn die Moral muss das Verhältniss
+               bestimmen, welches diese beiden Seiten gegen einander haben müssen.</p>
+            <p>Sehr viel hängt ab von der sinnlichen Begierde. Sie muss von keiner Seite ganz
+               erstikt, sondern vielmehr, nur nach Verschiedenheit der Charaktere, genährt werden.
+               Heftigkeit der sinnlichen Begierde ist schon an sich Zeichen der Kraft der Seele, so
+               wie ein Charakter wenig verspricht, in dem auch ursprünglich die sinnliche Begierde
+               schläft. Denn wenn, nach <persName ref="gnd-118594893">Plato</persName>s schöner Dichtung,
+               die Dürftigkeit die Mutter der Begierde ist;<note type="footnote" n="ix)" resp="gnd-116890657">
+                  <hi>Der Mythus von der Erzeugung des <lang xml:lang="grc">
+                        <persName ref="gnd-118530941">Ἔρως</persName>
+                     </lang> durch den <lang xml:lang="grc">
+                        <persName ref="person-000029">Πόρος</persName>
+                     </lang> und die <lang xml:lang="grc">
+                        <persName ref="person-000030">Πενία</persName>
+                     </lang> wird in <bibl>
+                        <author>
+                           <persName ref="gnd-118594893">Platon</persName>s</author>
+                        <title>Symposion</title>
+                        <biblScope unit="page">S. 203a</biblScope>
+                     </bibl> erzählt.</hi>
+               </note> so ist ihr Vater der Ueberfluss. Die sinnliche Begierde bringt Leben und
+               Strebekraft in die Seele; unbefriedigt macht sie thätig, zur Anlegung von Planen
+               erfindsam, muthig zur Ausübung, befriedigt befördert sie ein leichtes, ungehindertes
+               Ideenspiel. Ueberhaupt bringt sie alle Vorstellungen in grössere und mannigfaltigere
+               Bewegung, zeigt neue Ansichten, führt auf neue, vorher unbemerkt gebliebne Seiten;
+               ungerechnet wie die verschiedene Art ihrer Befriedigung auf den Körper und die
+               Organisation, und diess wieder auf eine Weise, die uns freilich nur in den Resultaten
+               sichtbar <pb n="1.58" xml:id="pbI58"/> wird, auf die Seele zurükwirkt. Aber auf der
+               andren Seite erfordert auch die sinnliche Begierde die grösseste Vorsicht. Denn wenn
+               sie die Oberhand gewinnt, wenn sie von untergeordnetem Mittel, was sie immer bleiben
+               sollte, Zweck wird; so vernichtet sie jede bessere Kraft der Seele, und stumpft
+               vorzüglich alles Gefühl, selbst des sinnlich Schönen ab. Unter den sinnlichen
+               Begierden giebt es schwächere und heftigere; gränzen einige mehr, andre weniger an
+               das Unsinnliche. Ihr wohlthätiger Einfluss, aber auch die damit verbundne Gefahrt
+               wächst immer im Verhältnisse ihrer Heftigkeit und ihrer Verwandtschaft mit dem
+               Unsinnlichen. Daher muss unter allen auf der einen Seite am meisten gehegt, auf der
+               andren am sorgsamsten bewacht werden die Begierde, um wieder mit <persName ref="gnd-118594893">Plato</persName> zu reden, das
+               Schöne im Schönen zu erzeugen.<note type="footnote" n="x)" resp="gnd-116890657">
+                  <lang xml:lang="grc">„Ἔστι γάρ, ὦ Σώκρατες, ἔφη, οὐ τοῦ καλοῦ ὁ ἔρως, ὡς σὺ οἴει.
+                     ἀλλὰ τί μήν; τῆς γεννήσεως καὶ τοῦ τόκου ἐν τῷ καλῷ“</lang>
+                  <bibl>
+                     <author>
+                        <persName ref="gnd-118594893">Platon</persName>
+                     </author>, <title>Symposion</title>
+                     <biblScope unit="page">S. 206e</biblScope>.</bibl>
+               </note>
+            </p>
+            <p>Ausbildung und Verfeinerung muss das bloss sinnliche Gefühl erhalten durch das
+               Aethetische. Hier beginnt das Gebiet der Kunst, und ihr Einfluss auf Bildung und
+               Moralität. Nichts ist von so ausgebreiteter Wirkung auf den ganzen Charakter, als der
+               Ausdruk des Unsinnlichen im Sinnlichen, des Erhabnen, des Einfachen, des Schönen in
+               allen Produkten der Kunst, die uns umgeben. Das was wir Geschmak nennen, bringt in
+               alle unsre, auch bloss geistigen Empfindungen und Neigungen so etwas Gemässigtes,
+               Gehaltnes, Harmonisches, auf Einen Punkt hin Gerichtetes. Wo dieser Geschmak fehlt,
+               da ist die sinnliche Begierde roh und ungebändigt, da ist jede andre Geisteskultur
+               todt und unfruchtbar, da haben selbst wissenschaftliche Untersuchungen vielleicht
+               Scharfsinn und Tiefsinn, aber nicht Feinheit, nicht Politur, nicht Fruchtbarkeit in
+               der Anwendung. Das Gefühl des Schönen zu erzeugen, zu nähren ist Bestimmung der
+               Kunst. So ist der Zwek aller Kunst moralisch im höchsten Verstande des Worts. Oft hat
+               man diesen Saz misverstanden, geglaubt, jedes Produkt der Kunst müsste darum irgend
+               eine Lehre einschärfen, irgend eine Empfindung rege machen, die unmittelbar auf
+               tugendhafte Handlungen führte; jedes Produkt, das diesen Zweck nicht beabsichtet,
+               unnüz, das ihm sogar entgegenzuarbeiten scheint, weil es vielleicht eine Handlung,
+               die wir unsrer Lage gemäss, nicht für tugendhaft halten, von reizenden Seiten zeigt,
+               schädlich genannt. Allein das heisst die Kunst in zu enge Gränzen ein- <pb n="1.59" xml:id="pbI59"/> schränken, und dennoch den Zwek der wahren sittlichen Bildung
+               verfehlen. Der Grund dieses Irrthums liegt darin, dass man zu unmittelbar wirken,
+               unmittelbar gute Gesinnungen, gute Handlungen hervorbringen, nicht bloss zur eignen
+               Hervorbringung vorbereiten will. Diess thut der Künstler, wenn er die Idee des
+               Schönen überall verbreitet, und sie allein bestimmt ihr daher auch ihre Gränzen. Doch
+               muss auch die Darstellung des sinnlich Schönen nie ein Uebergewicht in der Seele
+               gewinnen, muss dem reinen, unvermischt Geistigen immer untergeordnet bleiben. Sonst
+               bringt sie nicht Wärme des Gefühls, sondern ein Feuer hervor, das eben so schnell
+               wieder verlischt, als es aufloderte. Dann muss das Sinnliche nur immer als Zeichen
+               des Unsinnlichen genommen, nicht beider mit einander verwechselt, nicht auf jenes
+               angewandt werden, was nur auf dieses passt. So schwärmt die Art der Liebe, die wohl
+               nur die <persName ref="gnd-118594893">platon</persName>isch nannten, denen es an Sinn
+               fehlte, <persName ref="gnd-118594893">Plato</persName>s erhabne Ideen zu fassen.</p>
+            <p>Ich komme nun zu dem, was den Menschen eigentlich zum Menschen, zum denkenden und
+               wollenden Wesen macht, zu seiner geistigen Natur. Vermöge dieser gränzt sein Dasein
+               an das Dasein der Wesen, die wir uns frei denken von den einschränkenden Fesseln des
+               Körpers. Wie sie kann er in Ideen wirken, sich ein Ideal reiner, unvermischter
+               geistiger Vollkommenheit schaffen, und sich und andre diesem Ideale näher bringen.
+               Von der einen Seite an die Sinnlichkeit gebunden, da sie sich nur in ihr
+               darzustellen, mitzutheilen, überhaupt zu äussern vermag, ist diese geistige Natur von
+               der andren Seite unabhängig und frei. Allen sinnlichen Trieben, allen reizenden
+               Bildern der Einbildungskraft entgegen vermag sie Ideen zu realisiren, welche die
+               ruhige, kalte Ueberlegung für gut erkennt. Diess Vermögen der Seele, der reinen Idee
+               des Guten gemäss, Vollkommenheit in und um uns zu verbreiten, Dasein, Wirken und
+               Glükseligkeit überall zu schafgen und zu erhalten, nennen wir moralische Stärke, wenn
+               die Neigung ihm widerspricht, moralische Güte, moralisches Gefühl, wenn dem Willen
+               die Neigung die Hand bietet. Durch sie allein erlangt der Mensch wahre Würde. Denn
+               sie ist mit keinem andren Gute vergleichbar, da jedes andre Gut durch sie erst
+               hervorgebracht, oder doch durch sie erst des Wunsches werth gemacht wird. Durch sie
+               wahre Glükseligkeit. Denn durch sie wird die Idee der Vollkommenheit, die an sich so
+               reich und gross, so füllend und erhebend ist, auf das innigste mit seiner
+               Individualität verbunden.</p>
+            <pb n="1.60" xml:id="pbI60"/>
+            <p>Es schwindet also die Leere, welche das Leben wahrhaft
+               elend macht. Durch sie trägt er die Schiksale leicht, in die ihn seine Abhängigkeit
+               von den äussren Dingen um ihn her verwikkelt. Denn sie lehrt ihn alle seine
+               Gesichtspunkte in sich und sein inneres Sein zurükzuziehn, und so ist ihm jede Lage –
+               kummervoll, oder freudig – Veranlassung seiner Seele einen erhöheten Grad, oder eine
+               neue Seite der Bildung zu verschaffen. Durch sie wird er in das seligste Verhältniss
+               mit andren gesezt. Denn er sucht in ihnen eben die geistige Vollkommenheit, die er in
+               sich hervorzubringen strebt, und überall wo er sie findet, da glaubt er sich
+               verbunden, verschwistert, Eins. So entsteht das Gefühl der Freundschaft und Liebe. Er
+               fühlt seine eigne Vollkommenheit höher, voller, inniger, wenn er sie im andren
+               erblikt, er geht aus sich heraus, fliesst in den andren über, und gelangt endlich zu
+               dem erhebendsten und beseligendsten aller Gefühle, zu dem Gefühle sich, alles eigne
+               Geniessen und Wirken dahinzugeben für fremdes Wohl. Je reiner und lautrer diess
+               Gefühl ist, je unvermischter mit Bildern der Sinnlichkeit, desto höhere Wonne lässt
+               es geniessen; denn desto mehr beruht es auf feinen und tief empfundnen Ideen, welche
+               in die ganze Seele eingreifen, und auf die ganze Dauer der Existenz wirksam sind.</p>
+            <p>Sinnlichkeit, Einbildungskraft, Stärke des Willens sind nur Kraft der Hervorbringung,
+               Stoff des Genusses; es fehlt ihnen noch an dem, was ihnen die Richtung geben, das
+               Maass und die Art ihres Wirkens bestimmen muss. Diess ist das Geschäft der leitenden
+               Vernunft. Auf ihr beruht eigentlich alle wahre Vollkommenheit und Glükseligkeit des
+               denkenden Menschen. Denn sie ordnet, wählt Zwek und Mittel; allen übrigen Kräften
+               bleibt nur die Ausführung überlassen. Ich verstehe aber hier unter der Vernunft das
+               ganze intellektuelle Vermögen des Menschen, seine ganze Fähigkeit Ideen aufzufassen,
+               seis durch Beobachtung der Sinne, oder durch das Anstrengen der Seele auf der Dinge
+               innre Beschaffenheiten; und die aufgefassten Ideen zu verarbeiten durch Vergleichung,
+               Verknüpfung und Trennung. Je mehr diese Fähigkeit erweitert und gestärkt wird, je
+               mehr Genauigkeit der Beobachtungs-, je mehr Feinheit der Untersuchungsgeist erhält,
+               von je höheren Gesichtspunkten er ausgeht, je tiefer er in das Wesen der Ideen
+               eindringt; desto höher steigt der Grad der Vollkommenheit und Glükseligkeit. Denn
+               desto richtiger wird der Gang aller Seelenfähigkeiten geleitet, desto mannigfaltigere
+               Seiten werden an <pb n="1.61" xml:id="pbI61"/> den Gegenständen entdekt, desto
+               inniger wird der Zusammenhang der Ideen; und Fülle der Ideen und Innigkeit ihres
+               Zusammenhanges ist doch das, was den Grad alles intellektuellen Genusses
+               bestimmt.</p>
+            <p>So wären Lebhaftigkeit der Sinnlichkeit, Feuer der Einbildungskraft, Wärme des
+               moralischen Gefühls, Stärke des Willens, alle geleitet und beherrscht durch die Kraft
+               der prüfenden Vernunft, der Chrakater des vollendeten Menschen. So beruhte Tugend auf
+               dem richtigen Gleichgewichte aller Seelenfähigkeiten; so könnte man keiner absolute,
+               jeder nur relative Gränzen bestimmen. Ich glaube, dass dieser Gesichtspunkt, diese
+               Vorstellungsart in der Moral von der äussersten Wichtigkeit ist. Durch die äusseren
+               häuslichen und politischen Lagen, worin man lebt, durch die äusseren Folgen der
+               Handlungen, die man täglich bemerkt, wird man zu sehr darauf geleitet, Sittlichkeit
+               und Unsittlichkeit auf gewisse Handlungen und gewisse Gesinnungen einzuschränken,
+               vergisst man zu sehr auf den ganzen Zusammenhang der Ideen und Empfindungen zu
+               achten. So unrichtig es nun auch sein würde, diese äusseren Lagen und Umstände zu
+               übersehn, so thöricht, bei der Bestimmung unsrer Art zu wirken das nicht in Anschlag
+               zu bringen, worin und worauf wir wirken müssen; so kann die Grundlage aller Moral
+               doch nur aus dem Studium des Menschen fliessen, wie er an sich ist, ohne Rüksicht auf
+               gewisse äussre Beziehungen oder Verhältnisse. Die besondren Anwendungen auf bestimmte
+               individuelle Lagen müssen sich als blosse Folgerungen daraus leicht von selbst
+               ergeben. Vorzüglich wichtig ist dieser Gesichtspunkt wohl in der Wahl der Mittel zur
+               moralischen Bildung. Bloss gewisse Handlungen, Gesinnungen hervorzubringen giebt es
+               sehr viele Wege, von welchen doch keiner zur wahren moralischen Vollkommenheit führt.
+               Sinnliche Antriebe zur Begehung gewisser Handlungen, oder Nothwendigkeit sie zu
+               unterlassen bringen Gewohnheit hervor; durch die Gewohnheit wird das Vergnügen, das
+               anfangs nur mit jenen Antrieben verbunden war, auf die Handlung selbst übergetragen,
+               oder die Neigung, welche anfangs nur vor der Nothwendigkeit schwieg, gänzlich
+               erstikt; so wird der Mensch zu tugendhaften Handlungen, gewissermaassen auch zu
+               tugendhaften Gesinnungen geleitet. Allein die Kraft seiner Seele wird dadurch nicht
+               erhöht; weder seine Ideen über seine Bestimmung und seinen Werth erhalten dadurch
+               mehr Aufklärung, noch sein Wille mehr Kraft, die herrschende Neigung <pb n="1.62" xml:id="pbI62"/> zu besiegen; an wahrer eigentlicher Vollkommenheit gewinnt er
+               folglich nichts. Wer also Menschen bilden, nicht zu äussren Zwekken ziehn will, wird
+               sich dieser Mittel nie bedienen. Ich habe vielleicht in der Folge dieses Aufsazes
+               noch Gelegenheit, auf diesen Punkt zurükzukommen, der in der Anwendung auf Erziehung
+               und Gesezgebung in mehr als Einer Rüksicht wichtig ist. Auch bei der Beurtheilung des
+               Werths menschlicher Handlungen sollte man den hier angegebnen Gesichtspunkt nicht
+               vernachlässigen. Man redet immer von einzelnen Tugenden und Lastern, und doch würde
+               es sehr schwer werden, nur Eine einzige bestimmte Tugend anzugeben, die überall unter
+               allen Umständen und bei jedem Charakter Tugend wäre. Sittlichkeit oder Unsittlichkeit
+               ist ja nicht Eigenschaft einer Handlung, sondern allein des handlenden Subjekts.
+               Schon die Alten – die vielleicht darum in allem, was Moral und sittliche Bildung
+               angeht, unsre neuere Philosophie übertreffen, weil sie allein aus der Quelle der
+               Erfahrung und Beobachtung schöpften, und auch mehr Gelegenheit und nähere
+               Veranlassung hatten, den Menschen zu studiren – wiederholen es oft, dass keine
+               Handlung an sich weder gut noch böse ist.<note type="footnote" n="xi)" resp="gnd-116890657">
+                  <lang xml:lang="grc">„Πᾶσα γὰρ πρᾶξις ὧδ᾽ ἔχει: αὐτὴ ἐφ᾽ ἑαυτῆς πραττομένη οὔτε
+                     καλὴ οὔτε αἰσχρά“</lang>
+                  <bibl>
+                     <author>
+                        <persName ref="gnd-118594893">Platon</persName>
+                     </author>, <title>Symposion</title>
+                     <biblScope unit="page">S. 180e</biblScope>
+                  </bibl>; eine Anzahl andrer sinnverwanter Stellen aus den Alten giebt Hug in der
+                  Anmerkung zu dieser Stelle in seiner Ausgabe des Dialogs.</note> Alles kommt
+               einzig auf die Verschiedenheit des Charakters, und nicht bloss darauf, sondern auch
+               auf die Verschiedenheit der Stimmung der Seele in den verschiednen Epochen des Lebens
+               an; und man sollte nie eher eine Handlung beurtheilen, ehe man nicht die physischen,
+               intellektuellen, und moralischen Fähigkeiten und Bedürfnisse des Handlenden genau
+               geprüft hätte. Dass indess dieser Maasstab nur da wichtig ist, wo es auf Bestimmung
+               des innren moralischen Werthes ankommt, nicht da, wo man ganz andre, vielleicht gar
+               äussre Endzwekke beabsichtet, und dass es Allgemeinheiten von Fällen giebt, die
+               meistentheils hohe oder geringe moralische Vollkommenheit andeuten, bedarf wohl nicht
+               erst einer Erinnerung.</p>
+            <p>Was ich hier von einzelnen Menschen gesagt habe, leidet auch auf ganze Nationen
+               Anwendung. Die verscheidnen Stufen ihrer Kultur müssen nach den verschiednen
+               Seelenfähigkeiten beurtheilt werden, welche sich in ihnen vorzüglich ausgebildet
+               haben. Auf der niedrigsten steht der rohe unkultivirte Wilde, der nur sinn- <pb n="1.63" xml:id="pbI63"/> liche Begierde und sinnliches Vergnügen kennt, dem wir,
+               wenn Tugend moralische Vollkommenheit ist, nie Tugend zuschreiben können, den wir
+               aber tugendhaft nennen, wenn Klima, Bedürfnisse, äussere Umstände überhaupt von der
+               einen, Rohheit und Unwissenheit von der andren Seite eben das in ihm bewirken, was
+               sonst nur Wirkung wahrer Tugend ist. Von da bis zur moralischen Bildung ist eine
+               unüberspringbare Kluft, zu welcher nur die ästhetische den Uebergang bahnen kann. Aus
+               diesem Gesichtspunkt muss der Luxus angesehen werden. Solange er mit der wahren Kunst
+               gleichen Schritt hält, ist er wohlthätig, und muss – den Fall ausgenommen, wo
+               besondre politische Lagen den Verlust andrer noch wichtigerer Vortheile fürchten
+               lassen – befördert werden. Wo er aber über die Gränzen der Kunst und das Gebiet des
+               Schönen hinaus schweift, da fängt er an, auch dem Charakter der Nation schädlich zu
+               werden. Nach diesen Grundsäzen muss der Werth der Nationen und Zeitalter gegen
+               einander bestimmt werden; nach ihnen liesse sich entscheiden, ob unser Jahrhundert in
+               der That auf einen Vorzug an wahrer Kultur Anspruch machen darf? Vorzüglich können zu
+               einer solchen Vergleichung gewisse Neigungen und Leidenschaften dienen, welche die
+               rohesten Völker mit den kultivirstesten Nationen gemein haben. Von dieser Art ist die
+               Liebe und die Behandlungsart der Weiber überhaupt. Denn in der edlen ungekünstelten
+               und unverstimmten Liebe wirken Sinnlichkeit, ästhetisches und moralisches Gefühl
+               zugleich. Daher hätte man mit Recht der Idee einer Geschichte, nicht der Weiber, aber
+               des weiblichen Geschlechts eine glüklichere Ausführung wünschen dürfen, als sie
+               neuerlich erhalten hat.<note type="footnote" n="xii)" resp="gnd-116890657">
+                  <hi>
+                     <bibl>Der <biblScope unit="volume">erste Band</biblScope> einer
+                           „<title>Geschichte des weiblichen Geschlechts</title>“ von <persName ref="gnd-116863498">Meiners</persName> war <placeName ref="geo-2910831">Hannover</placeName>
+                        <date when="1788">1788</date>
+                     </bibl> erschienen; er stellt im wesentlichen nur die Zeugnisse für die
+                     Stellung der Frau bei den verschiedenen Völkern der Erde zusammen.</hi>
+               </note> Hätte man die Nothwendigkeit des Uebergangs immer genauer erwogen, der
+               allemal in der menschlichen Seele von dem bloss sinnlichen Gefühl durch das
+               ästhetische zu dem moralischen geschehn muss; so würde man die Zeitalter <placeName ref="geo-390903">Griechenland</placeName>s und <placeName ref="geo-8354456">Rom</placeName>s weniger streng beurtheilt haben, worin der
+               sinnliche Genuss bis zu den höchsten Graden der Ueppigkeit hinauf verfeinert wurde.
+               Es ist wahr, das bloss sinnliche Vergnügen gewinnt mehr Reiz, wenn es nicht mehr
+               bloss den gröberen, sondern auch den feineren Sinnen schmeichelt; es wird häufiger
+               genossen, und die <pb n="1.64" xml:id="pbI64"/> physischen schlimmen Folgen treffen
+               in erhöhtem Maasse ein. Allein auch nur die physischen; die moralischen werden
+               vermindert und gehemmt. Der Uebergang von der bloss sinnlichen Lust zu dem Gefühl des
+               sinnlich Schönen macht der Seele endlich jene unschmakhaft und bereitet den Schritt
+               zum sittlich Schönen vor. Ich weiss daher nicht, ob die Bemühung, auch der groben
+               Sinnlichkeit eine reizendere Gestalt zu leihen, nicht mehr unsren Dank, als unsren
+               Vorwurf verdienen sollte?<note type="footnote" n="2)" resp="gnd-118554727">Dürfte nicht diese
+                  Betrachtung dem sonderbaren Streit über den Ausdruk: <emph>Freudenmädchen</emph>
+                  eine andre Wendung geben?</note>
+               <note type="footnote" n="xiii" resp="gnd-116890657">
+                  <bibl>In der <orgName ref="zdb-4144698-7">Berlinischen Monatsschrift</orgName> vom
+                        <date when="1787-09">September 1787</date> (<biblScope unit="issue">10</biblScope>, <biblScope unit="issue">257</biblScope>) erschien ein
+                     anonymer kleiner Aufsatz „<title>Über den Ausdruck
+                     Freudenmädchen</title>“</bibl>, dessen Thema <bibl>im <date when="1788-08">Augustheft 1788</date>
+                     <orgName ref="zdb-4144698-7">derselben Zeitschrift</orgName> (<biblScope unit="issue">12</biblScope>, <biblScope unit="page">169</biblScope>) von
+                        <persName ref="gnd-11877414X">Hermes</persName> in einem Artikel „<title>Noch
+                        einmal über den Ausdruck Freudenmädchen</title>“</bibl> wiederaufgenommen
+                  wurde. Beide richten aus allgemein moralischen und pädagogischen Gesichtspunkten
+                  einen heftigen Angriff gegen das Wort und wollen es, der Anonymus durch „Metze“
+                  oder „Lustmädchen“, <bibl>
+                     <author>
+                        <persName ref="gnd-11877414X">Hermes</persName>
+                     </author> unter Hinweis auf sein Buch <title>Für Töchter edler Herkunft</title>
+                     <biblScope unit="volume">3</biblScope>, <biblScope unit="page">228</biblScope>
+                  </bibl> durch „Tochter des Leids“ oder „Jammermädchen“ ersetzen, was er auch in
+                  späteren Schriften anwendet. Noch <persName ref="gnd-118504118">Arndt</persName> (<bibl>
+                     <title>Bruchstücke aus einer Reise durch einen Teil <placeName ref="geo-3175395">Italien</placeName>s</title>
+                     <biblScope unit="volume">2</biblScope>, <biblScope unit="page">329</biblScope>
+                  </bibl>) gedenkt, wie <persName ref="gnd-116890657">mir</persName>
+                  <persName ref="gnd-116765275">Albert Gombert</persName> freundlich mitteilt, dieser
+                  Kontroverse.</note>
+            </p>
+            <p>Gehe ich auf die Resultate der bisherigen Betrachtungen zurük, so ist der Wohnsiz der
+               Tugend allein das Innere der Seele. Da allein liegt ihr Ursprung und ihr wohlthätiger
+               Einfluss. Aber wir sind nicht geistige Substanz allein; wir stehn in Verbindung mit
+               einer Sinnenwelt ausser uns, sind abhängig von ihren Veränderungen, werden
+               fortgerissen in dem unaufhörlichen Flusse alles Körperlichen. Wenn nun das waltende
+               Schiksal unsren Geist wieder vernichtete? wenn jede innere Bemühung höherer
+               Vervollkommnung von aussen wieder zerstört würde? wenn die Wahrheit, für die unser
+               Verstand erwärmt ist, die Vollkommenheit, für die unser Herz glüht, nur Wahn wäre,
+               nur beglükkender Traum, nirgend existirend, als in unsrer Idee? Diese Fragen, das
+               innere Interesse, sie auf eine für unsre Neigung befriedigende Art beantworten zu
+               sehn, führt unsre Empfindung zum Glauben an Religionswahrheiten, indess unser
+               Nachdenken auf einem andren Wege nach Ueberzeugung strebt.</p>
+            <p>Alle Religion – ich rede hier von Religion, insofern sie sich auf Sittlichkeit und
+               Glückseligkeit bezieht, nicht insofern die Vernunft irgendeine Religionswahrheit
+               wirklich erkennt, oder zu erkennen meint, denn Einsicht der Wahrheit ist unabhängig
+               von <pb n="1.65" xml:id="pbI65"/> allen Einflüssen des Wollens oder Begehrens – alle
+               Religion, sage ich, beruht auf einem Bedürfnis der Seele. Wir hoffen, wir ahnden,
+               weil wir wünschen. Da, wo noch alle Spur geistiger Kultur fehlt, ist auch das
+               Bedürfniss bloss sinnlich. Furch und Hofnung vor Naturbegebenheiten, welche die
+               Einbildungskraft in selbstthätige Wesen verwandelt, machen den Inbegriff der ganzen
+               Religion aus. Wo geistige Kultur anfängt, genügt diess nicht mehr. Die Seele sehnt
+               sich dann nach dem Anschauen irgend einer Vollkommenheit, von der ein Funke in ihr
+               glimmt, von der sie aber ein weit höheres Maass ausser sich ahndet. Diess Anschauen
+               geht in Bewunderung, und wenn der Mensch sich ein Verhältniss zu jenem Wesen
+               hinzudenkt, in Liebe über, aus der Begierde des Aehnlich Werdens, der Vereinigung
+               entspringt. Diess findet sich auch bei den Völkern, welche noch auf den niedrigsten
+               Stufen der Bildung stehn. Denn daraus entspringt es, wenn selbst bei den rohesten
+               Völkern die Ersten der Nation sich von den Göttern abzustammen, zu ihnen
+               zurückzukehren rühmen. Nur verschieden ist die Idee der Gottheit nach der
+               Verschiedenheit der Idee von Vollkommenheit, die in jedem Zeitalter und unter jeder
+               Nation herrscht. Die Götter der ältesten <placeName ref="geo-390903">Griechen</placeName> und <placeName ref="geo-8354456">Röm</placeName>er, und die
+               Götter unsrer Vorfahren waren Ideale körperlicher Macht und Stärke.</p>
+            <p>Als die Idee des sinnlich Schönen entstand und verfeinert ward, erhob man die
+               personificirte sinnliche Schönheit auf den Thron der Gottheit, und so entstand die
+               Religion, die man Religion der Kunst nennen könnte.<note type="footnote" n="3)" resp="gnd-118554727">Hätte man diesen Gesichtspunkt gewählt; so hätte man vielleicht weniger
+                  einseitig über ein Gedicht geurtheilt, das man mit Recht zu den Meisterstükken
+                  deutscher Dichtkunst zählen kann.Der Dichter wählt darin den Gesichtspunkt der
+                  Kunst, des sinnlich Schönen, und des sittlich Schönen, insofern es durch jenes
+                  ausgedrukt wird. Aus diesem Gesichtspunkt allein vergleicht er die Religion der
+                  Alten und die unsre, den Einfluss, den beide auf Sittlichkeit und Glükseligkeit
+                  haben. Aber er schliesst ja darum den Gesichtspunkt des rein und unvermischt
+                  Geistigen schlechterdings nicht aus.</note>
+               <note type="footnote" n="xiv" resp="gnd-116890657">Gemeint ist <bibl>
+                     <author>
+                        <persName ref="gnd-118607626">Schiller</persName>s</author> Gedicht „<title>Die
+                        Götter Griechenlands</title>“, das, im <date when="1788-03">März 1788</date>
+                     im <orgName ref="zdb-011285230">Teutschen Merkur</orgName> erschienen</bibl>, durch
+                  einen Aufsatz <bibl>
+                     <author>
+                        <persName ref="gnd-124742386">Fritz Stolberg</persName>s</author> im <date when="1788-08">Augustheft 1788</date> des <orgName ref="zdb-023811471">Deutschen Museums</orgName> (<biblScope unit="issue">2</biblScope>,
+                        <biblScope unit="page">97</biblScope>
+                  </bibl>; <bibl>
+                     <title>Gesammelte Werke</title>
+                     <biblScope unit="volume">10</biblScope>, <biblScope unit="page">424</biblScope>
+                  </bibl>) heftig angegriffen wurde, während <bibl>
+                     <author>
+                        <persName ref="gnd-118534416">Forster</persName>
+                     </author> im <date when="1789-05">Maiheft 1789</date> der <orgName ref="zdb-98929482X">Neuen Literatur und Völkerkunde</orgName> (<biblScope unit="issue">1</biblScope>, <biblScope unit="page">373</biblScope>
+                  </bibl>; <bibl>
+                     <title>Ausgewählte kleine Schriften</title>
+                     <biblScope unit="page">S. 80</biblScope>
+                  </bibl>) sich zu seiner Verteidigung gegen diesen Angriff erhob.</note> Als man
+               sich von dem Sinnlichen zum rein Geistigen, von dem Schönen zum Guten und Wahren
+               erhob, wurde der Inbegriff aller intellektuellen und moralischen Vollkommenheit
+               Gegenstand der Anbetung, und die <pb n="1.66" xml:id="pbI66"/> Religion ein Eigenthum
+               der Philosophie. Vielleicht könnte nach diesem Maassstab der Werth der verschiednen
+               Religionen gegen einander abgewogen werden, wenn Religionen nach Nationen oder
+               Partheien, nicht nach einzelnen Individuen verschieden wären. Allein so ist Religion
+               ganz subjektiv, beruht allein auf der Eigenthümlichkeit der Vorstellungsart jedes
+               Menschen. Wenn die Idee einer Gottheit die Frucht wahrer geistiger Bildung ist, so
+               wirkt sie schön und wohlthätig auf die innere Vollkommenheit zurük. Alle Dinge
+               erscheinen uns in veränderter Gestalt, wenn sie Geschöpfe planvoller Absicht, als
+               wenn sie ein Werk eines vernunftlosen Zufalls sind. Die Ideen von Weisheit, Ordnung,
+               Absicht, die uns zu unsrem Handlen so unentbehrlich sind, fassen festere Wurzel in
+               unsrer Seele, wenn wir sie überall entdekken. Das Endliche wird gleichsam unendlich,
+               das Hinfällige bleibend, das Wandelbare stät, das Verschlungne einfach, wenn wir uns
+               Eine ordnende Ursach an der Spize der Dinge, und eine endlose Dauer der geistigen
+               Substanzen denken. Unser Forschen nach Wahrheit, unser Streben nach Vollkommenheit
+               gewinnt mehr Festigkeit und Sicherheit, wenn es ein Wesen für uns giebt, das der
+               Quell aller Wahrheit, der Inbegriff aller Vollkommenheit ist. Widrige Schiksale
+               werden der Seele weniger fühlbar, da Zuversicht und Hofnung sich an sie knüpfl. Das
+               Gefühl, alles, was man besizt, aus der Hand der Liebe zu empfangen, erhöht zugleich
+               die Glükseligkeit und die moralische Güte. Durch Dankbarkeit bei der genossnen, durch
+               hinlehnendes Vertrauen bei der erschnten Freude geht die Seele aus sich heraus,
+               brütet nicht immer, in sich verschlossen, über den eignen Empfindungen, Planen,
+               Besorgnissen, Hofnungen. Wenn sie das erhebende Gefühl entbehrt, sich allein alles zu
+               danken, so geniesst sie das entzükkende, in der Liebe eines andren Wesens zu leben —
+               ein Gefühl, worin die eigne Vollkommenheit sich mit der Vollkommenheit jenes Wesens
+               gattet. Sie wird gestimmt, andren zu sein, was andre ihr sind; will nicht, dass andre
+               ebenso alles aus sich selbst nehmen sollen, als sie nichts von andren empfängt. Ich
+               habe hier nur die Hauptmomente dieser Untersuchung berührt. Tiefer in den Gegenstand
+               einzugehn würde nach <persName ref="gnd-118537636">Garve</persName>s meisterhafter
+                  Ausführung<note type="footnote" n="xv)" resp="gnd-116890657">
+                  <hi>In seinen Philosophischen Anmerkungen und Abhandlungen zu <bibl>
+                        <author>
+                           <persName ref="gnd-118520814">Cicero</persName>s</author> Büchern <title>von
+                           den Pflichten</title>
+                        <biblScope unit="volume">2</biblScope>, <biblScope unit="chapter">23</biblScope>; sie erschienen zuerst <placeName ref="geo-3081368">Breslau</placeName>
+                        <date when="1783">1783</date>
+                     </bibl>.</hi>
+               </note> unnüz und vermessen sein. </p>
+            <pb n="1.67" xml:id="pbI67"/>
+            <p>
+               So mitwirkend aber auf der einen Seite religiöse Ideen
+               bei der moralischen Vervollkommnung sind; so wenig sind sie doch auf der andren Seite
+               unzertrennlich mit ihr verbunden. Die blosse Idee geistiger Vollkommenheit ist gross
+               und füllend und erhebend genug, um nicht mehr einer andren Hülle oder Gestalt zu
+               bedürfen. Und doch liegt jeder Religion eine Personificirung, eine Art der
+               Versinnlichung zum Grunde, ein Anthropomorphismus in höherem oder geringerem Grade.
+               Sie wird auch dem unaufhörlich vorschweben, der nicht gewohnt ist, die Summe alles
+               moralisch Guten in Ein Ideal zusammenzufassen, und sich in Verhältniss zu diesem
+               Wesen zu denken; sie wird ihm Antrieb zur Thärigkeit, Stoff aller Glükseligkeit sein.
+               Fest durch die Erfahrung überzeugt, dass seinem Geiste Fortschreiten in höherer
+               moralischer Stärke möglich ist, wird er mit muthigem Eifer nach dem Ziele streben,
+               das er sich stekt. Der Gedanke der Möglichkeit der Vernichtung seines Daseins wird
+               ihn nicht schrekken, sobald seine räuschende Einbildungskraft nicht mehr im Nichtsein
+               das Nichtsein noch fühlt. Seine unabänderliche Abhängigkeit von äussren Schiksalen
+               drükt ihn nicht; gleichgültiger gegen äussres Geniessen und Entbehren, blikt er nur
+               auf das rein Intellekruelle und Moralische hin, und kein Schiksal vermag etwas über
+               das Innere seiner Seele. Sein Geist fühlt sich durch Selbstgenügsamkeit unabhängig,
+               durch die Fülle seiner Ideen, und das Bewusstsein seiner innren Stärke über den
+               Wandel der Dinge gehoben. Wenn er nun in seine Vergangenheit zurükgeht, Schritt vor
+               Schritt aufsucht wie er jedes Ereigniss bald auf diese, bald auf jene Weise benuzte,
+               wie er nach und nach zu dem ward, was er jezt ist, wenn er so Ursach und Wirkung,
+               Zwek und Mittel, alles in sich vereint sieht, und dann voll des edelsten Stolzes,
+               dessen endliche Wesen fähig sind, ausruft:</p>
+            <lg>
+               <l>Hast Du's nicht alles selbst vollendet,</l>
+               <l>Heiligglühend Herz?<note type="footnote" n="xvi)" resp="gnd-116890657">
+                     <hi>
+                        <persName ref="gnd-118540238">Goethe</persName>, <title>Prometheus</title> Vers
+                        32. Die Lesart „du’s“ beweist, daß <persName ref="gnd-118554727">Humboldt</persName>
+                        das Gedicht aus dem ersten Druck in <bibl>
+                           <author>
+                              <persName ref="gnd-118556312">Jacobi</persName>s</author> Buche „<title>Über
+                              die Lehre des <persName ref="gnd-118616242">Spinoza</persName>
+                           </title>“ (<date when="1785">1785</date>)</bibl> kannte, nicht <bibl>aus
+                           dem <date when="1789">1789</date> erschienenen <biblScope unit="volume">achten Bande</biblScope> der ersten <title>Gesammtausgabe der
+                              Schriften <persName ref="gnd-118540238">Goethe</persName>s</title>
+                        </bibl>, wo „du“ steht; vgl. <bibl>
+                           <author>
+                              <persName ref="gnd-118540238">Goethe</persName>s</author>
+                           <title>Werke</title>
+                           <biblScope unit="volume">2</biblScope>, <biblScope unit="volume">313</biblScope>
+                           <placeName ref="geo-2812482">weimar</placeName>ische Ausgabe.</bibl>
+                     </hi>
+                  </note>
+               </l>
+            </lg>
+            <p>wie müssen da in ihm alle die Ideen von Alleinsein, von Hülflosigkeit, von Mangel an
+               Schuz, und Trost, und Beistand verschwinden, die man gewöhnlich da glaubt, weine
+               persönliche, vernünftige, ordnende Ursach der Kette des Endlichen fehl? <pb n="1.68" xml:id="pbI68"/> Dieses Selbstgefühl, dieses in und durch sich Sein wird ihn auch
+               nicht hart und unempfindlich gegen andre Wesen machen, sein Herz nicht der
+               theilnehmenden Liebe und jeder wohlwollenden Neigung verschliessen. Eben die Idee der
+               Vollkommenheit, die warlich nicht bloss kalte Idee des Verstandes ist, sondern warmes
+               Gefühl des Herzens sein kann, auf die sich seine ganze Wirksamkeit bezieht, trägt
+               sein Dasein in das Dasein andrer über. Es liegt ja in ihnen gleiche Fähigkeit
+               grösserer Vollkommenheit; diese Vollkommenheit kann er hervorbringen, oder erhöhen.
+               Er ist noch nicht ganz von dem höchsten Ideale aller Moralität durchdrungen, solange
+               er noch sich oder andre einzeln zu betrachten vermag, solange nicht alle geistige
+               Wesen in der Summe der in ihnen einzeln zerstreut liegenden Vollkommenheit in seiner
+               Vorstellung zusammenfliessen. Vielleicht ist seine Vereinigung mit den übrigen, ihm
+               gleichartigen Wesen noch innige seine Theilnahme an ihrem Schiksal noch wärmer, je
+               mehr sein und ihr Schiksal, seiner Vorstellungsart nach, allein von ihm und von ihnen
+               abhängt!</p>
+            <p>So ist es, dünkt mich, unleugbar, dass Moralität und Religion ganz und gar nicht
+               nothwendig mit einander verbunden sind, dass jene ohne diese gleich rein und lauter,
+               gleich stark und fruchtbar sein kann. Denn weder das, was die Moral zur Pflicht
+               macht, noch das, was ihren Gesezen gleichsam die Sanktion giebt, was ihnen Interesse
+               für den Willen leiht, ist von Religionsideen abhängig. Die Beschaffenheit der
+               Handlungen, die wir Pflichten nennen, entspringt theils aus der innren Natur der
+               menschlichen Seele, theils aus der näheren Anwendung auf die Verhältnisse der
+               Menschen gegen einander. Die Wirksamkeit der Religion aber beruht ganz auf der
+               individuellen Beschaffenheit des Charakters, ist im strengsten Verstande subjektiv.
+               Der kalte, bloss nachdenkende Mensch, in dem die Erkenntniss nie in Empfindung
+               übergeht, dem es genug ist das Verhältniss der Dinge und Handlungen einzusehn, um
+               seinen Willen danach zu bestimmen, bedarf keines Religionsgrundes, um tugendhaft zu
+               handlen, und, soviel es seinem Charakter nach möglich ist, tugendhaft zu sein. Wo
+               hingegen die Fähigkeit zu empfinden sehr stark ist, wo jeder Gedanke leicht Gefühl
+               wird, wo die Seele einen starken Hang fühlt, aus sich heraus in andre überzugehn, an
+               andre sich anzuschliessen; da werden Religionsideen wirksame Triebfedern sein. Indess
+               doch auch da nur mit Ausnahme. Es giebt Charaktere, in welchen <pb n="1.69" xml:id="pbI69"/> eine so innige Konsequenz aller Ideen und Empfindungen herrscht,
+               die eine so grosse Tiefe der Erkenntniss und des Gefühls besizen, dass daraus eine
+               Stärke und Selbstständigkeit hervorgeht, welche das Hingeben des ganzen Seins an ein
+               fremdes Wesen, das Vertrauen auf fremde Kraft, wodurch sich der Einfluss der Religion
+               vorzüglich äussert, weder fordert, noch erlaubt. Auch die Lagen, welche erfordert
+               werden, um auf Religionswahrheiten zurükzukommen, sind nach Verschiedenheit der
+               Charaktere verschieden. Bei dem einen ist jede starke Rührung — Freude oder Kummer —
+               bei dem andren nur das frohe Gefühl aus dem Genuss entspringender Dankbarkeit dazu
+               hinreichend. Die lezteren Charaktere verdienen vielleicht nicht die wenigste
+               Schäzung. Sie sind auf der einen Seite stark genug, um im Unglük nicht fremde Hülfe
+               zu suchen, und haben auf der andren zu viel Sinn für das Gefühl, geliebt zu werden,
+               um nicht an die Idee des Genusses gern die Idee eines liebevollen Gebers zu knüpfen.
+               Unabhängig von der Empfindung und der Verschiedenheit des Charakters ist nun zwar
+               das, was in den Religionsideen rein Intellektuelles liegt, die Begriffe von Absicht,
+               Ordnung, Zwekmässigkeit, Vollkommenheit. Allein diese sind auch der Religion nicht
+               eigen. Die Idee von Vollkommenheit wird zuerst aus der lebendigen Natur geschöpft,
+               dann auf die leblose übergetragen, endlich nach und nach bis zu dem Allvollkommnen
+               hinauf von allen Schranken entblösst. Nun aber bleiben lebendige und leblose Natur
+               dieselben, und ist es nicht möglich die ersten Schritte zu thun, und doch vor dem
+               lezten stehen zu bleiben?</p>
+            <p>Ich kehre nun zu dem Gegenstande zurük, von dem ich ausgieng, zu der Frage: inwiefern
+               der Gesezgeber sich der Religion zu seinen Absichten bedienen darf? Alle Gesezgebung
+               muss von dem Gesichtspunkte der Bildung des Bürgers, als Menschen, ausgehn. Denn der
+               Staat ist nichts, als ein Mittel, diese Bildung zu befördern, oder vielmehr die
+               Hindernisse wegzuräumen, die ihr im aussergesellschaftlichen Zustande im Wege stehn
+               würden. Das Ideal eines Staats wäre der, in welchem die natürliche Beschaffenheit
+               theils des Bodens und der Produkte, theils der Einwohner und ihres Charakters, dann
+               die künstlichen Anstalten theils zur Befriedigung der physischen Bedürfnisse, theils
+               zur Verfeinerung des Geschmaks, und Beförderung der Künste, theils endlich zur
+               Verbreitung wissenschaftlicher Kenntnisse, und Erhöhung der Sittlichkeit, in welchem,
+               sage ich, diese alle das gehörige absolute und relative Maass gegen einander hätten.
+               Wie viel oder wenig <pb n="1.70" xml:id="pbI70"/> unsre wirkliche Staaten sich diesem
+               Idcale nähern, sollte die Statistik bestimmen. Allein alsdann erforderte diese
+               Wissenschaft eine ganz andre Bearbeitung, als sie bis jezt erhalten hat, wo sie nur
+               unsichre Zeichen zur Beurtheilung des verschiednen Werths der Staaten, bloss Data der
+               natürlichen Beschaffenheit des Landes und des Reichthumsseiner Erzeugnisse, der
+               Bevölkerung, der Einrichtungen zur Hervorbringung, Bearbeitung und Vertauschung der
+               Produkte an die Hand giebt. Die Mittel, welche der Gesezgeber anwendet, um die
+               moralische Bildung seiner Bürger zu befördern, sind immer in dem Grade zwekmässig und
+               nüzlich, in dem sie die innere Entwiklung der Fähigkeiten und Neigungen begünstigen.
+               Denn alle Bildung hat ihren Ursprung allein in dem Innren der Seele, und kann durch
+               äussre Veranstaltungen nur veranlasst, nie hervorgebracht werden. Dass nun die
+               Religion, welche ganz auf Ideen, Empfindungen und innrer Ueberzeugung beruht, ein
+               solches Mittel sei, ist unleugbar. Wir bilden den Künstler, indem wir sein Auge an
+               den Meisterwerken der Kunst üben, seine Einbildungskraft mit den schönen Gestalten
+               der Produkte des Alterthums nähren. Eben so muss der sittliche Mensch gebildet werden
+               durch das Anschauen hoher moralischer Vollkommenheit, im Leben durch Umgang, und
+               durch zwekmässiges Studium der Geschichte endlich durch das Anschauen der höchsten
+               idealischen Vollkommenheit im Bilde der Gottheit. Aber diese leztere Ansicht ist, wie
+               ich im Vorigen gezeigt zu haben glaube, nicht für jedes Auge gemacht, oder, um ohne
+               Bild zu reden, diese Vorstellungsart ist nicht jedem Charakter angemessen. Wäre sie
+               es aber auch; so ist sie doch nur da wirksam, wo sie aus dem Zusammenhänge aller
+               Ideen und Empfindungen entspringt, wo sie mehr von selbst aus dem Inneren der Seele
+               hervorgeht, als von aussen in dieselbe gelegt wird. Veranlassung, mit Religionsideen
+               vertraut zu werden, Begünstigung des freien Untersuchungsgeistes, Leitung desselben
+               auf diese Gegenstände sind folglich die einzigen Mittel, deren der Gesezgeber sich
+               bedienen darf; geht er weiter, nimmt er gewisse bestimmte Ideen in Schuz, fodert er
+               statt wahrer Ueberzeugung Glauben auf Autorität; so hindert er das Aufstreben des
+               Geistes, die Entwiklung der Seelenkräfte, so bringt er vielleicht durch Gewinnung der
+               Einbildungskraft, durch augenblikliche Rührungen Gesezmässigkeit der Handlungen
+               seiner Bürger, aber nie wahre Tugend hervor. Denn wahre Tugend ist unabhängig von
+               aller und unverträglich mit befohlner, und auf Autorität geglaubter Religion. </p>
+            <pb n="1.71" xml:id="pbI71"/>
+            <p>
+               Wenn jedoch gewisse Religionsgrundsäze auch nur
+               gesezmässige Handlungen hervorbringen, ist diess nicht genug um den Staat zu
+               berechtigen, sie, auch auf Kosten der allgemeinen Denkfreiheit, zu verbreiten? Die
+               Absicht des Staats wird erreicht, wenn seine Geseze streng befolgt werden; und der
+               Gesezgeber hat seiner Pflicht ein Genüge gethan, wenn er weise Geseze giebt und ihre
+               Beobachtung von seinen Bürgern zu erhalten weiss. Ueberdiess passt jener aufgestellte
+               Begriff von Tugend nur auf einige wenige Classen der Mitglieder eines Staats, nur auf
+               die, welche ihre äussre Lage in den Stand sezt, einen grossen Theil ihrer Zeitund
+               ihrer Kräfte dem Geschäfte ihrer innren Bildung zu weihen. Die Sorgfalt des Staats
+               muss sich auf die grössere Anzahl erstrekken, und diese ist jenes höheren Grades der
+               Moralität unfähig.</p>
+            <p>Ich erwähne hier nicht mehr der Säze, welchen ich den ersten Theil dieses Aufsazes
+               gewidmet habe, und die in der That den Grund dieser Einwürfe umstossen, der Säze
+               nemlich, dass die Staatseinrichtung an sich nicht Zwek, sondern nur Mittel zur
+               Bildung des Menschen ist, und dass es daher dem Gesezgeber nicht gnügen kann, seinen
+               Aussprüchen Autorität zu verschaffen, wenn nicht zugleich die Mittel, wodurch diese
+               Autorität bewirkt wird, gut, oder doch unschädlich sind. Es ist aber auch unrichtig,
+               dass dem Staate allein die Handlungen seiner Bürger, und ihre Gesezmässigkeit wichtig
+               sei. Ein Staat ist eine so zusammengesezte und verwikkelte Maschine, dass Geseze, die
+               immer nur einfach, allgemein, und von geringer Anzahl sein müssen, unmöglich allein
+               darin hinreichen können. Das Meiste bleibt immer den freiwilligen einstimmigen
+               Bemühungen der Bürger zu thun übrig. Man braucht nur den Wohlstand kultivirter und
+               aufgeklärter Nationen mit der Dürftigkeit roher und ungebildeter Völker zu
+               vergleichen, um von diesem Saze überzeugt zu werden. Daher sind auch die Bemühungen
+               aller, die sich je mit Staatseinrichttungen beschäftigt haben, immer dahin gegangen,
+               das Wohl des Staats zum eignen Interesse des Bürgers zu machen, und den Staat in eine
+               Maschine zu verwandeln, die durch die innere Kraft ihrer Triebfedern in Gang erhalten
+               würde, und nicht unaufhörlich neuer äussrer Einwirkungen bedürfte. Wenn die neueren
+               Staaten sich eines Vorzugs vor den alten rühmen dürfen; so ist es vorzüglich, weil
+               sie diesen Grundsaz mehr realisirten. Selbst dass sie sich der Religion als eines
+               Bildungsmittels bedienen, ist ein Beweis davon. <pb n="1.72" xml:id="pbI72"/> Doch
+               auch die Religion, insofern nemlich durch gewisse bestimmte Säze nur gute Handlungen
+               bewirkt werden sollen, wie es hier der Fall ist, ist ein fremdes, von aussen
+               einwirkendes Mittel. Daher muss es immer des Gesezgebers eifrigstes Streben bleiben,
+               die Bildung der Bürger bis dahin zu erhöhen, dass sie alle Triebfedern zur
+               Beförderung des Zweks des Staats allein in der Idee des Nuzens finden, welchen ihnen
+               die Staatseinrichtung zu Erreichung ihrer individuellen Absichten gewährt. Zu dieser
+               Einsicht aber ist Aufklärung und hohe Geistesbildung nothwendig, die da nicht
+               einporkommen können, wo der freie Untersuchungsgeist durch Geseze beschränkt
+               wird.</p>
+            <p>Nur dass man sich überzeugt hält: ohne bestimmte geglaubte Religionssäze könne auch
+               äussre Ruhe und Sittlichkeit nicht bestehn, ohne sie sei es der bürgerlichen Gewalt
+               unmöglich, das Ansehen der Geseze zu erhalten, macht, dass man jenen Betrachtungen
+               kein Gehör giebt. Und doch bedürfte der Einfluss, den Religionssäze, die auf diese
+               Weise angenommen werden, haben sollen, wohl erst einer strengeren und genaueren
+               Prüfung. Bei dem roheren Theile des Volks rechnet man von allen Religionswahrheiten
+               am meisten auf die Ideen künftiger Belohnungen und Bestrafungen. Diese mindern den
+               Hang zu unsittlichen Handlungen nicht, befördern nicht die Neigung zum Guten,
+               verbessern also den Charakter nicht; sie wirken bloss auf die Einbildungskraft, haben
+               folglich, wie Bilder der Phantasie überhaupt, Einfluss auf die Art zu handlen, ihr
+               Einfluss wird aber auch durch alles das vermindert und aufgehoben, was die
+               Lebhaftigkeit der Einbildungskraft schwächt. Nimmt man nun hinzu, dass diese
+               Erwartungen so entfernt, und darum, selbst nach den Vorstellungen der Gläubigsten, so
+               ungewiss sind, dass die Ideen von nachheriger Reue, künftiger Besserung, gehofter
+               Verzeihung – welche durch gewisse Religionsbegriffe so sehr begünstigt werden — ihnen
+               einen grossen Theil ihrer Wirksamkeit wieder nehmen; so ist es unbegreiflich, wie
+               diese Ideen mehr wirken sollten, als die Vorstellung bürgerlicher Strafen, die nah,
+               bei guten Polizeianstalten gewiss, und weder durch Reue, noch nachfolgende Besserung
+               abwendbar sind, wenn man nur die Bürger von Kindheit an eben so mit diesen, als mit
+               jenen Folgen sittlicher und unsittlicher Handlungen bekannt machte. Unleugbar aber
+               wirken freilich auch weniger aufgeklärte Religionsbegriffe bei einem grossen Theile
+               des Volks auf eine edlere Art. Der Gedanke, Gegenstand der Fürsorge eines <pb n="1.73" xml:id="pbI73"/> allweisen und vollkommnen Wesens zu sein, giebt ihnen
+               mehr Würde die Zuversicht einer endlosen Dauer führt sie auf höhere Gesichtspunkte,
+               bringt mehr Absicht und Plan in ihre Handlungen, das Gefühl der liebevollen Güte der
+               Gottheit giebt ihrer Seele eine ähnliche Stimmung; kurz die Religion flösst ihnen
+               Sinn für die Schönheit der Tugend ein. Allein wo die Religion diese Wirkungen haben
+               soll, da muss sie schon in den Zusammenhang der Ideen und Empfindungen ganz
+               übergegangen sein, welches nicht leicht möglich ist, wenn der freie
+               Untersuchungsgeist gehemmt und alles auf den Glauben zurükgeführt wird; da muss auch
+               schon Sinn für bessere Gefühle vorhanden sein, da entspringt sie mehr aus einem nur
+               noch unentwikkelten Hange zur Sittlichkeit, auf den sie hernach nur wieder
+               zurükwirkt. Und überhaupt wird ja niemand den Einfluss der Religion auf die
+               Sittlichkeit ganz ableugnen wollen; es fragt sich nur immer, ob er von einigen
+               bestimmten Religionssäzen abhängt? und dann ob er so entschieden ist, dass Moralität
+               und Religion darum in unzertrennlicher Verbindung mit einander stehn? Beide Fragen
+               müssen, glaub' ich, verneint werden. Die Tugend stimmt so sehr mit den ursprünglichen
+               Neigungen des Menschen überein, die Gefühle der Liebe, der Verträglichkeit, der
+               Gerechtigkeit haben so etwas Süsses, die der uneigennüzigen Thätigkeit, der
+               Aufopferung für andre etwas so Erhebendes, die Verhältnisse, welche daraus im
+               häuslichen und im gesellschaftlichen Leben überhaupt entspringen, sind so beglükkend,
+               dass es weit weniger nothwendig ist neue Triebfedern zu tugendhaften Handlungen
+               hervorzusuchen, als nur denen, welche schon von selbst in der Seele liegen, freiere
+               und ungehindertere Wirksamkeit zu verschaffen.</p>
+            <p>Wollte man aber auch weiter gehn, wollte man neue Beförderungsmittel hinzufügen; so
+               dürfte man doch nie einseitig vergessen, ihren Nuzen gegen ihren Schaden abzuwägen.
+               Wie vielfach aber der Schade eingeschränkter Denkfreiheit ist, bedarf wohl, nachdem
+               es so oft gesagt und wieder gesagt ist, keiner weitläuftigen Auseinandersezung mehr.
+               Erstrekte er sich bloss auf die Resultate der Untersuchungen, brächte er bloss
+               Unvollständigkeit oder Unrichtigkeit in unsrer wissenschaftlichen Erkenntniss hervor;
+               so möchte es vielleicht einigen Schein haben, wenn man den Nuzen, den man für den
+               Charakter davon erwartet – auch erwarten darf! — dagegen abwägen wollte. Allein so
+               ist der Nachtheil bei weitem beträchtlicher. Der Nuzen freier Untersuchung <pb n="1.74" xml:id="pbI74"/> dehnt sich auf unsre ganze Art, nicht bloss zu denken,
+               sondern zu handlen aus. In einem Manne, der gewohnt ist, Wahrheit und Irrthum, ohne
+               Rüksicht auf äussre Verhältnisse, für sich und gegen andre zu beurtheilen, und von
+               andren beurtheilt zu hören, sind alle Principien des Handlens durchdachter,
+               konsequenter, aus höheren Gesichtspunkten hergenommen, als in dem, dessen
+               Untersuchungen unaufhörlich von Umständen geleitet werden, die nicht in der
+               Untersuchung selbst liegen. Untersuchung und Ueberzeugung, die aus der Untersuchung
+               entspringt, ist Selbstthätigkeit; Glaube Vertrauen auf fremde Kraft, fremde
+               intellektuelle oder moralische Vollkommenheit. Daher entsteht in dem untersuchenden
+               Denker mehr Selbstständigkeit, mehr Festigkeit; in dem vertrauenden Gläubigen mehr
+               Schwäche, mehr Unthätigkeit. Es ist wahr, dass der Glaube, da wo er ganz herrscht und
+               jeden Zweifel erstikt, einen unüberwindlicheren Muth, eine ausdaurendere Stärke
+               hervorbringt; die Geschichte aller Schwärmer lehrt es. Allein diese Stärke ist nur da
+               wünschenswerth, wo es auf einen äussren bestimmten Erfolg ankommt, zu dem bloss
+               maschinenmässiges Wirken erfordert wird; nicht da, wo man eignes Beschliessen,
+               durchdachte, auf Gründen der Vernunft beruhende Handlungen, oder gar innere
+               Vollkommenheit erwartet. Denn diese Stärke selbst beruht gerade auf Schwäche, auf der
+               Unterdrükkung aller eignen Thätigkeit der Vernunft. Zweifel sind nur dem quälend,
+               welcher glaubt, nie dem, welcher bloss der eignen Untersuchung folgt. Denn überhaupt
+               sind diesem die Resultate weit weniger wichtig, als jenem. Er ist sich, während der
+               Untersuchung, der Thätigkeit, der Stärke seiner Seele bewusst, er fühlt, dass seine
+               wahre Vollkommenheit, seine Glükseligkeit eigentlich auf dieser Stärke beruht; statt
+               dass Zweifel an den Säzen, die er bisher für wahr hielt, ihn drükken sollten, so
+               freut es ihn, dass seine Denkkraft soviel gewonnen hat, Irrthümer einzusehen, die ihr
+               vorher verborgen blieben. Der Glaube hingegen kann nur Interesse an dem Resultat
+               selbst finden, denn für ihn liegt in der erkannten Wahrheit nichts mehr. Zweifel, die
+               seine Vernunft erregt, peinigen ihn. Denn sie sind nicht, wie in dem selbstdenkenden
+               Kopfe, neue Mittel zur Wahrheit zu gelangen; sie nehmen ihm bloss die Gewissheit,
+               ohne ihm ein Mittel anzuzeigen, sie auf eine andre Weise wiederzuerhalten. Diese
+               Betrachtung, weiter verfolgt, führt auf die Bemerkung, dass es überhaupt nicht gut
+               ist, einzelnen Resultaten eine so grosse Wichtigkeit beizumessen. zu glauben, dass
+               entweder so viele andre Wahr- <pb n="1.75" xml:id="pbI75"/> heiten, oder so viele
+               äussre oder innere nüzliche Folgen von ihnen abhängen. Es wird dadurch zu leicht ein
+               Stillstand in der Untersuchung hervorgebracht, und so arbeiten manchmal die freiesten
+               und aufgeklärtesten Behauptungen gerade gegen den Grund, ohne den sie selbst nie
+               hätten einporkommen können. So wichtig ist Geistesfreiheit; so schädlich jede
+               Einschränkung derselben. Auf der andren Seite hingegen fehlt es dem Staate nicht an
+               Mitteln, die Geseze aufrecht zu erhalten, Verbrechen zu verhüten, Sittlichkeit zu
+               befördern. Man verstopfe, soviel es möglich ist, die Quellen unsittlicher Handlungen,
+               welche in der Staatseinrichtung selbst liegen, man wende jedes andre Mittel zur
+               Verhütung noch nicht begangner Verbrechen an, man schärfe die Aufsicht der Polizei
+               auf die schon begangnen, man strafe auf eine zwekmässige Weise, und man wird seines
+               Zweks nicht verfehlen. Und vergisst man denn, dass die Geistesfreiheit selbst, und
+               die Aufklärung, die nur unter ihrem Schuze gedeiht, das wirksamste aller
+               Beförderungsmittel der Sittlichkeit ist? Wenn alle übrige nur den Ausbrüchen wehren:
+               so wirkt sie auf Neigungen und Gesinnungen; wenn alle übrige nur eine
+               Uebereinstimmung äussrer Handlungen hervorbringen, so schaft sie eine innere Harmonie
+               des Willens und des Bestrebens. Wann wird man aber auch endlich aufhören, die äussren
+               Folgen der Handlungen höher zu achten, als die innre geistige Stimmung, aus der sie
+               fliessen; wann wird der Mann aufstehn, der für die Gesezgebung ist, was Rousseau der
+               Erziehung war, der den Gesichtspunkt von den äussren physischen Erfolgen hinweg auf
+               die innere Bildung des Menschen zurükzieht?</p>
+            <p>Man glaube auch nicht, dass jene Geistesfreiheit und Aufklärung nur für einige Wenige
+               des Volks sei, dass für den grösseren Theil desselben, dessen Geschäftigkeit freilich
+               durch die Sorge für die physischen Bedürfnisse des Lebens erschöpft wird, sie unnüz
+               bleibe, oder gar nachtheilig werde, dass man auf ihn nur durch Verbreitung bestimmter
+               Säze, durch Einschränkung der Denkfreiheit wirken könne. Es liegt schon an sich etwas
+               die Menschheit Herabwürdigendes in dem Gedanken, irgend einem Menschen das Recht
+               abzusprechen, Mensch zu sein. Keiner steht auf einer so niedrigen Stufe der Kultur,
+               dass er zu Erreichung einer höheren unfähig wäre; und sollten auch die aufgeklärteren
+               religiösen und philosophischen Ideen auf einen grossen Theil der Bürger nicht
+               unmittelbar übergehn können, sollte man dieser Classe von Menschen, um sich an ihre
+               Ideen anzuschmiegen, die Wahrheit <pb n="1.76" xml:id="pbI76"/> in einem andren
+               Kleide vortragen müssen, als man sonst wählen würde, sollte man genöthigt sein, mehr
+               zu ihrer Einbildungskraft und zu ihrem Herzen, als zu ihrer kalten Vernunft zu reden;
+               so verbreitet sich doch die Erweiterung, welche alle wissenschaftliche Erkenntniss
+               durch Freiheit und Aufklärung erhält, auch bis auf sie hinunter, so dehnen sich doch
+               die wohlthätigen Folgen des regen uneingeschränkten Untersuchungsgeistes auf den
+               Geist und den Charakter der ganzen Nation bis in ihre geringsten Individua hin aus. </p>
+            <p>Ich seze zu diesen Gründen nichts mehr hinzu, und habe überhaupt geglaubt, bei der
+               Beantwortung der Einwürfe, welche man mir entgegenstellen könnte, mit Recht kürzer
+               sein zu dürfen. Wenn der Saz: dass der Zwek des Menschen im Menschen liegt, in seiner
+               innren moralischen Bildung, einmal unerschütterlich fest steht, wenn er Grundsaz
+               alles Handlens gegen, alles Wirkens auf Menschen, folglich erstes und höchstes
+               Princip alles Naturrechts, aller Erziehung und Gesezgebung geworden ist; so bedarf
+               die Erhaltung der gränzenlosesten Freiheit zu denken, zu untersuchen, und die
+               angestellten Untersuchungen, die gefundnen Resultate andren mitzutheilen keiner
+               Vertheidigung mehr. Und diesen Saz aufzustellen, ihn von allen Seiten zu zeigen, ihn
+               mit allen seinen Gründen auszuführen, war der einzige Zwek dieses Aufsazes.</p>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte</title>
+            </head>
+            <p>Handschrift (22 Quartseiten, ohne Titel) im Archiv in <placeName ref="geo-2823708">Tegel</placeName>. Ebenda ist der Beginn einer Umarbeitung des Aufsatzes (7
+               Quartseiten, ohne Titel) erhalten, die aber nur bis S. 51 unsres Textes gediehen
+               ist.</p>
+            <p>Der Aufsatz fällt in die Zeit zwischen dem <date when="1788-08">August 1788</date>,
+               wo der zitierte Artikel von <persName ref="gnd-11877414X">Hermes</persName> und <persName ref="gnd-118755552">Stolberg</persName>s Polemik gegen <persName ref="gnd-118607626">Schiller</persName>s <title>Götter Griechenlands</title> erschienen, und
+                  <persName ref="gnd-118554727">Humboldt</persName>s <date when="1789-07-15">Mitte Juli
+                  1789</date> erfolgtem Abschied aus <placeName ref="geo-2918632">Göttingen</placeName>, eher wohl gegen Ende als gegen Anfang dieses Zeitraums,
+               wie die Emanzipation von den <placeName ref="geo-2950159">berlin</placeName>er aufklärenden
+               und sentimentalen Kreisen und der wachsende Einfluß <persName ref="gnd-118534416">Forster</persName>s beweisen. Dieser lernte die Abhandlung „<title>über den
+                  Einfluß des Theismus, Atheismus und Skeptizismus auf die Sitten der
+                  Menschen</title>“ wahrscheinlich bei <persName ref="gnd-118554727">Humboldt</persName>s
+               Aufenthalt in <placeName ref="geo-2874225">Mainz</placeName> im <date when="1789-09">September 1789</date> kennen, während er selbst mit der Abfassung seines vielfach
+               ähnliche Gedanken behandelnden Aufsatzes über Proselytenmacherei beschäftigt war, und
+               wünschte ihn für den zweiten Band seiner Kleinen Schriften zu gewinnen, der auch
+               Beiträge jüngerer Freunde enthalten sollte (<bibl>
+                        <title>Jugendbriefe <persName ref="gnd-118554700">Alexander von Humboldt</persName>s an <persName ref="gnd-117218421">Wegener</persName>
+                  </title>
+                        <biblScope unit="page">S. 72</biblScope>
+                    </bibl>). <persName ref="gnd-118554727">Humboldt</persName> scheint ausweichend, wenn nicht ablehnend geantwortet zu haben, wenigstens mußte <persName ref="gnd-118534416">Forster</persName> seine Bitte im <date when="1791">Jahre 1791</date> brieflich  erneuern, worauf <persName ref="gnd-118554727">Humboldt</persName> eine Umarbeitung angefangen zu haben scheint, die indessen bald liegen blieb. Am <date when="1791-08-16">16.
+                  August des Jahres</date> lehnte er dann <persName ref="gnd-118534416">Forster</persName>s Anerbieten definitiv ab, da er die Arbeit erst einer
+               gründlichen Revision unterziehen müsse, zu der ihm augenblicklich die Stimmung fehle.
+               Bald darauf aber wurden die ganze zweite Hälfte und vereinzelte Sätze aus der ersten
+               fast wörtlich dem siebenten und achten Kapitel der Schrift über die Grenzen der
+               Staatswirksamkeit einverleibt.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

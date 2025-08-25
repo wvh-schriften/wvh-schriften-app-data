@@ -1,0 +1,539 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Über den Geist der Menschheit</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Zweiter Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1904">1904</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif02humbuoft/page/n1/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+        <creation>
+           <date when="1797-12-16">26. Dezember 1797</date>
+        </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-2988507">Paris</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Bruchstück</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philosophie</term>
+                <term>Anthropologie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+    </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="2.324" xml:id="pbII324"/>
+            <head>
+               <title type="main">Über den Geist der Menschheit</title>
+            </head>
+            <div type="text">
+               <head>
+                  <title type="sub">Einleitung</title>
+               </head>
+               <list rend="arabic">
+                  <item n="1">
+                     <p>Der Mensch, dem es ein Bedürfniss ist, in seinem Denken und Handeln Folge
+                        und Einheit zu beobachten, kann sich nicht begnügen, bei der Beurtheilung
+                        der Gegenstände seiner Thätigkeit, und der Wahl seiner Mittel nur bedingten
+                        Rücksichten zu folgen, zum Maassstabe dessen, was gut und wünschenswürdig
+                        ist, bloss Dinge anzunehmen, die selbst nur in Beziehung auf andere Werth
+                        haben; er muss ein letztes Ziel, einen ersten und absoluten Maassstab
+                        aufsuchen, und dies Letzte muss eng und unmittelbar mit seiner innern Natur
+                        verwandt seyn.</p>
+                        </item>
+                  <item n="2">
+                     <p>Hätte er indess seinem Forschungsgeiste in einer andern Zeit auch engere
+                        Grenzen setzen können, so wäre es ihm doch in der jetzigen unmöglich.
+                        Solange noch in den äusseren Verhältnissen der Menschen Vieles fest und
+                        unerschüttert steht, braucht alles nur damit vergliechen zu werden, ist
+                        unmittelbar nur die Frage nothwendig: ob diesen Grundsäulen menschlicher
+                        Wohlfahrt Gefahr droht? Wenn aber alles ausser uns wankt, so ist allein noch
+                        in unserm Innern eine sichere Zuflucht offen, und seitdem in einem der
+                        bedeutendsten und cultivirtesten Theile der Erde eine wirkliche Umkehrung
+                        aller Verhältnisse Statt gefunden hat, ist es immer zweifelhaft, wieviel
+                        sich in den übrigen davon erhalten wird? zumal, da jene Umkehrung in einem
+                        philosophischen <pb n="2.325" xml:id="pbII325"/> Zeitalter als das
+                        einzig-Rechtmässige, als etwas absolut- und moralisch Nothwendiges
+                        vorgestellt wird.</p>
+                        </item>
+                  <item n="3">
+                     <p>Aber jenes Streben nach etwas Letztem und Unbedingtem hat noch einen andern
+                        Grund der Nothwendigkeit. Alles Mittelbare und Bedingte kann immer nur
+                        einseitig entweder unsern Verstand oder unsre Empfindung befriedigen; nur
+                        für das, was unser eigentliches und inneres Wesen nahe berührt, erwärmt sich
+                        unsre ganze, also unsre beste und wahrhaft menschliche Natur.</p>
+                        </item>
+                  <item n="4">
+                     <p>Der Mensch muss daher Etwas aufsuchen, dem er, als einem letzten Ziele alles
+                        unterordnen, und nach dem er, als nach einem absoluten Maassstab, alles
+                        beurtheilen kann. Dies kann er nicht anders, als in sich selbst finden, da
+                        in dem Inbegriff aller Wesen sich nur auf ihn allein alles bezieht; es kann
+                        sich aber weder auf seinen augenblicklichen Genuss, noch auf sein Glück
+                        überhaupt beziehen, da es vielmehr ein edler Vorzug seiner Natur ist, den
+                        Genuss verschmähen und das Glück entbehren zu können; es kann daher nur in
+                        seinem inneren Werth, in seiner höheren Vollkommenheit liegen.</p>
+                        </item>
+                  <item n="5">
+                     <p>Die Würde des Menschen ist es also, die er aufzusuchen, und die Frage, die
+                        er zu beantworten hat, ist die: was ist dasjenige, wonach, als nach einem
+                        allgemeinen Maassstabe der Werth der Dinge für den Menschen, und der Werth
+                        der Menschen gegen einander bestimmt werden kann? wie ist es zu erkennen, wo
+                        es vorhanden ist? wie hervorzubringen, wo es noch zu fehlen
+                     scheint?</p>
+                        </item>
+                  <item n="6">
+                     <p>Da es auf Alle Anwendung finden soll, muss es etwas Allgemeines seyn, da es
+                        aber niemanden einfallen kann, verschiedene Naturen nach einem einzigen
+                        Muster zu modeln, muss es der Verschiedenheit der Individuen keinen Eintrag
+                        thun. Es muss also Etwas seyn, das, immer Eins und eben dasselbe, auf
+                        mannigfaltige Weise ausgeführt werden kann.</p>
+                        </item>
+                  <item n="7">
+                     <p>Indem er dies unbekannte Etwas und die Mittel, dahin zu gelangen, aufsucht,
+                        so lange also, als er theoretisch verfährt, muss er, von der Möglichkeit
+                        eines allgemeinen Zusammenwirkens ausgehend, sein Augenmerk auf alle, auf
+                        die Veredlung des ganzen Menschengeschlechts richten. Indem er aber jene
+                        Mittel praktisch ausführen will, muss er sich in sich selbst einschliessen,
+                        weil es thörigt wäre in einen bestimmten Plan aufzunehmen, was nicht
+                        bestimmt in der eigenen Willkühr steht. Der Verstand sucht seine Totalität
+                        in der Welt und kennt keine andern Grenzen, als die <pb n="2.326" xml:id="pbII326"/> auch die ihrigen sind; der Wille findet die seinige in
+                        dem Individuum, und geht nie über dasselbe hinaus.</p>
+                        </item>
+                  <item n="8">
+                     <p>Soll aber beides nicht mit einander in Widerspruch stehen, so muss jenes
+                        Problem so aufgelöst werden, dass sein eignes Vorrücken zum Ziele zugleich
+                        die allgemeine Annährung aller zu demselben, und zwar geradezu und
+                        unmittelbar (nicht bloss in so fern er ein einzelner Theil des Ganzen ist)
+                        befördert. Seine eigne Ausbildung muss die übrigen, selbst ohne und sogar
+                        wider ihren Willen nöthigen auch und zwar mit der seinigen übereinstimmende
+                        Fortschritte in der ihrigen zu machen. Die durchgängige Wechselwirkung des
+                        theoretischen Verstandes und des praktischen Willen bringt immer eine Art zu
+                        handeln hervor, bei der wir mit vollkommen individueller Energie doch nur
+                        eine einzelne Rolle in einem allgemeinen Plan ausführen.</p>
+                        </item>
+                  <item n="9">
+                     <p>Was er sucht, kann die Moral allein ihm nicht gewähren, und es kann daher
+                        nicht als etwas schon Bekanntes angesehen werden. Denn obgleich der
+                        moralische Werth allein alle menschliche Würde bestimmt, so ist er doch nur
+                        auf einen Theil unsres Wesens, nur auf die Gesinnung, eingeschränkt. Hier
+                        wird auch Bildung, hier überhaupt etwas so Allgemeines verlangt dass es den
+                        ganzen Menschen in allen seinen Kräften und allen seinen Aeusserungen
+                        umfasst.</p>
+                        </item>
+                  <item n="10">
+                     <p>Denn das ist gerade der unterscheidende Charakter dessen, wonach wir hier
+                        streben, dass es über den Werth jeder menschlichen Energie, jedes
+                        menschlichen Werkes den höchsten Ausspruch fällen, und eben so gut ob ein
+                        Gedicht ächt dichterisch, ein philosophisches System ächt philosophisch, als
+                        ob ein Charakter ächt menschlich ist? entscheiden muss.</p>
+                        </item>
+                  <item n="11">
+                     <p>Es giebt nemlich Ein Gepräge, womit alles Grosse, was von dem Menschen
+                        ausgeht, nothwendig gestempelt ist, weil es das Gepräge grosser Menschheit
+                        selbst ist; und dies Gepräge aufzufinden und seine Züge überall
+                        wiederzuerkennen, ist das Geschäft, das wir vorhaben.</p>
+                        </item>
+                  <item n="12">
+                     <p>Um nun dahin wirklich zu gelangen, kann der Mensch einen doppelten Weg
+                        einschlagen: einen Erfahrungs- und einen Vernunftweg.</p>
+                        </item>
+                  <item n="13">
+                     <p>Erfahrungsweg. – Er blickt um sich her und wählt sich diejenigen Individuen
+                        aus, welche ihm den besten und höchsten <pb n="2.327" xml:id="pbII327"/>
+                        Begriff vollendeter Menschheit geben. Da er das Ideal selbst nicht anschauen
+                        kann, hält er sich an seine treuesten Abdrücke. Aus der Masse der Zeiten und
+                        Nationen sucht er sich die Dichter, Künstler, Philosophen und Naturforscher
+                        aus, die in einem wahrhaft grossen Stile gearbeitet haben, die jede dieser
+                        Gattungen am reinsten in ihrer besten Eigenthümlichkeit darstellen. Vor
+                        allem aber versäumt er nicht, aus dem Leben selbst diejenigen Menschen
+                        herbeizurufen, welche ihm durch ihre innere Beschaffenheit und ihre äussre
+                        Gestalt am sichtbarsten das Bild einer hohen und edeln Menschheit
+                        zeichnen.</p>
+                        </item>
+                  <item n="14">
+                     <p>Alle vergleicht er sorgfältig unter einander, und vorzüglich betrachtet er
+                        in allen dasjenige Gemeinsame, was sie für ihn auf eine so hohe Stufe des
+                        inneren Werthes stellt. Bei dieser Betrachtung gelangt er nach und nach zu
+                        folgenden Punkten:</p>
+                        </item>
+                  <item n="15">
+                     <p>dies ihm noch unbekannte Etwas ist 1., nichts Mechanisches; es lässt sich
+                        nicht durch blosse Befolgung vollständig angegebener Regeln nachmachen, ja
+                        durch den blossen Verstand, und ohne es, vermöge einer gewissen schon
+                        vorhandenen Aehnlichkeit, selbst gewissermaassen zu versuchen, nicht einmal
+                        begreifen. Wer keinen Sinn dafür hat, sieht es nicht; und wer es sieht, kann
+                        es nicht aussprechen. </p>
+                            <p>Bei der Kunst ist dies ganz offenbar. Niemand
+                        hat noch bisher begriffen oder erklärt, wie ein ächt künstlerischer Gedanke
+                        entsteht, und noch weniger, wie er ausgeführt wird; obgleich fast jeder es
+                        dunkel ahndet, und viele es deutlich fühlen.</p>
+                     <p>Nicht weniger sichtbar ist es im praktischen Leben. Die Energie, mit der wir
+                        die Pflicht bloss um der Pflicht willen erfüllen, lässt sich nicht mehr mit
+                        Worten deutlich machen. Unsre Natur will es, darum ist es so. Dies sieht man
+                        deutlich daran, dass sie dem unverdorbnen Gefühl sonnenklar ist, dem
+                        verschrobenen abgeschmackt und lächerlich erscheint. Wie viel weniger aber
+                        lassen sich noch die zarteren Regungen vorzüglich weiblicher Seelen
+                        aussprechen, welche gerade die grösseste Feinheit und Schönheit des
+                        Charakters verrathen. Die Seele fühlt diese Unmöglichkeit selbst so sehr,
+                        dass sie sich nur demjenigen entfaltet, der sie versteht, und sich
+                        instictmässig vor dem Blick des Ungeweihten zurückzieht.</p>
+                     <p>Dem Philosophen kann man zwar eine grosse Strecke hindurch Schritt vor
+                        Schritt vermöge blosser Verstandesoperationen nachfolgen. Aber es ist ein
+                        unfehlbares Zeichen, dass seine Philo- <pb n="2.328" xml:id="pbII328"/>
+                        sophie nicht bis zu den ersten Gründen hinaufsteigt, wenn nicht endlich Ein
+                        Punkt kommt, wo man nicht mehr analytisch verfahren kann, und wo nur der
+                        Versuch entscheidet, ob man zum Philosophen gebohren ist, oder nicht.</p>
+                     <p>Bei dem Naturforscher ist es am schwersten zu begreifen, und würde eine
+                        eigne weitläufige Auseinandersetzung erfordern. Wir begnügen uns zu
+                        bemerken, dass hier die schwierigen Punkte für den Beobachter der lebendigen
+                        Natur der Begriff des Lebens, für den der todten der Begriff der Bewegung in
+                        dem dynamischen, der Begriff der Verwandtschaft in dem chemischen Theil
+                        ist.</p>
+                     <p>Selbst die Mathematik ist am wenigsten hiervon ausgenommen. Das, worauf sie
+                        ganz und gar beruht, die Construction lässt sich nur zeigen und nachmachen,
+                        nie erklären. Denn es ist mehr darin, als ein blosser Begriff, und dies Mehr
+                        ist nicht aus der sinnlichen Natur genommen.</p>
+                     <p>Es giebt nur zwei Wege, etwas eigenetlich begreiflich zu machen; 1., wenn
+                        man es in der Natur ausser uns wirklich vorzeigt. 2., wenn man Begriffe
+                        aufweist, von denen es als eine nothwendige Folge abhängt. Das, wovon wir
+                        hier reden, befindet sich in keinem beider Fälle, und dadurch zeigt es, dass
+                        es 1., die Frucht einer Selbstthätigkeit (nicht bloss aus der äussern Natur
+                        Hergenommenes), 2., einer ursprünglichen Thätigkeit ist, dass es nichts
+                        Früheres mehr giebt, von dem es abhienge, und woraus es also begriffen
+                        werden könnte.</p>
+                     <p>Da es nun möglich seyn muss, jedes rein geistige Geschäft bis zu einer
+                        Handlung ursprünglicher Selbstthätigkeit zu verfolgen, so muss es auch in
+                        jeder nothwendig Einen unbegreiflichen Punkt geben, bei dem die Operationen
+                        des blosses Verstandes nicht mehr ausreichen.</p>
+                        </item>
+                  <item n="16">
+                     <p>Was sich in diesen so ausgezeichneten Menschen findet, ist 2., nichts, was
+                        bloss Nutzen oder Vegnügen gewährt, dem Menschen bloss Mittel an die Hand
+                        giebt, oder unmittelbar nur seinen sinnlichen Neigungen schmeichelt; es
+                        greift tief in die Menschheit ein, und stärkt ihre innersten Kräfte.</p>
+                     <p>So unterscheiden wir den ächten Dichter, der uns einen tiefen Blick in uns
+                        selbst und die Welt eröfnet, von dem bloss angenehmen oder beredten; den
+                        idealisch gebildeten Menschen von dem bloss nützlichen Geschäftsmann, dem
+                        bloss gutmüthigen Hausvater oder dem bloss unterhaltenden Gesellschafter u.
+                        s. f. </p>
+                  </item>
+                  <pb n="2.329" xml:id="pbII329"/>
+                  <item n="17">
+                     <p>Es ist 3., von der Art, dass, wer es besitzt, dadurch zugleich eine höhere
+                        Menschheit an sich trägt. Wäre indess auch er für sich nur einseitig
+                        ausgebildet, hätte sich dies eigentlich Grosse in ihm nicht durchgängige
+                        Herrschaft verschaffen können, so wird es doch an sich allemal in jedes Bild
+                        vollendeter Menschheit hineinpassen, und in der Wirkung auf andre diese
+                        immer nähren und stärken.</p>
+                     <p>Nur der ächte Dichter wirkt wohlthätig auf den Charakter; jeder andre ist
+                        für die innere Bildung entweder verderblich oder gleichgültig. In diesem
+                        Sinne moralisch zu seyn ist die erste Forderung, die an jeden Künstler
+                        ergeht. Wenn der grosse Künstler nicht immer auch grosser Mensch ist, so ist
+                        es nur, weil er nicht in allen Punkten seines Wesens und in allen
+                        Augenblicken seines Lebens Künstler ist.</p>
+                  </item>
+                  <item n="18">
+                     <p>Auf dieser Verwandtschaft des Treflichen jeglicher Art mit dem Treflichen
+                        der Menschheit überhaupt beruht die Möglichkeit einen einzigen Standpunkt zu
+                        finden, aus welchem sich alles vergleichen und alles beurtheilen lässt. Ohne
+                        einen solchen aber könnte der Mensch sich weder, was ihn umgiebt, gehörig
+                        aneignen, noch bildend darauf zurückwirken; nicht die Welt in seine
+                        Individualität hinübertragen, noch den Stempel dieser der Welt wiederum
+                        aufdrücken, was doch allein das letzte Ziel seiner Bestrebungen, die einzige
+                        Quelle wahrhaft menschlicher Genüsse seyn kann.</p>
+                        </item>
+                  <item n="19">
+                     <p>Es ist daher ein Irrthum, wenn man den einzelnen Gattungen menschlicher
+                        Thätigkeit besondere Gesetze vorschreibt, durch deren Befolgung sie zugleich
+                        der allgemeinen Würde der Menschheit getreu bleiben sollen. – Unmittelbar
+                        und allein dadurch, dass die Kunst wahre Kunst und die Philosophie wahre
+                        Philosophie ist, wirkt sie wohlthätig auf den Charakter ein.</p>
+                        </item>
+                  <item n="20">
+                     <p>Jene ausgezeichneten Menschen, die uns hier zum Vorbilde dienen, haben 4.,
+                        immer eine entschiedene und originelle Individualität. – Man bilde sich nur
+                        vollkommen zum Menschen aus, und man erscheint sicherlich auch als ein
+                        eigener Mensch, und eben so ist es mit dem Künstler, dem Philosophen, dem
+                        Naturforscher, nur immer nach Maassgabe des Spielraums, welchen die
+                        allgemeine Treflichkeit der Mannigfaltigkeit im Einzelnen in jeder Gattung
+                        erlaubt.</p>
+                        </item>
+                  <item n="21">
+                     <p>Was jene Menschen zu grossen Menschen macht, kennt 5., keine Grenze der
+                        Vervollkommnung. Es bildet sich ins Un- <pb n="2.330" xml:id="pbII330"/>
+                        endliche hin aus, es giebt keinen Punkt, bei dem es seinen Endzweck
+                        erreicht, sein Maass erschöpft hat; es ist die Energie einer lebendigen
+                        Kraft, und das Leben wächst durch das Leben.</p>
+                        </item>
+                  <item n="22">
+                     <p>Aber es ist endlich 6., auch rund um sich her fruchtbar und begeisternd.
+                        Selbst lebendig sendet es überall belebende Funken von sich aus; und in
+                        dieser allgemeinen Wirksamkeit hat es zugleich drei dieselbe wesentlich
+                        auszeichnende Eigenschaften.</p>
+                        </item>
+                  <item n="23">
+                     <p>Erstlich: es wirkt nicht durch angelegte Plane, absichtliche Veränderungen,
+                        überhaupt nicht durch eine auf die andern gerichtete Thätigkeit. Bloss
+                        dadurch dass es da ist, dass es handelt und wahrgenommen wird, übt es seine
+                        bildende Kraft aus.</p>
+                        </item>
+                  <item n="24">
+                     <p>Zweitens: es wirkt auf Menschen der verschiedensten Individualität. Es ist
+                        ihm genug, nur etwas von demjenigen anzutreffen, worin es selber besteht; wo
+                        es davon nur den leisesten Schimmer entdeckt, wo nur die Schlacken, die es
+                        verhüllen, nicht zu roh und undurchdringlich sind, da erweckt es den halb
+                        erlischenen Funken und facht ihn zur erwärmenden Flamme an.</p>
+                        </item>
+                  <item n="25">
+                     <p>Drittens: es macht diejenigen, auf die es einwirkt, nicht gerade der
+                        Individualität gleich, die es, da, wo es sich befindet, selbst an sich
+                        trägt, es giebt ihnen ferner nicht allein gar keine bestimmte Form, sondern
+                        bestimmt sie, diejenige, die ihnen die eigenthümlichste ist, aufzufinden.
+                        Denn es weckt ihre innere geistige Lebenskraft und diese bildet natürlich
+                        denjenigen Charakter in ihnen, der allein ihnen gemäss ist.</p>
+                     <p>Der redendste Beweis dieser Behauptung ist die Liebe. Nirgends, als in ihr,
+                        wirkt das, wovon wir hier reden, so stark und so bestimmt, und daher bringt
+                        die ächte Liebe nie Gleichheit, sondern immer nur idealische
+                        Uebereinstimmung der Charaktere hervor. Beide Liebende rücken jeder in der
+                        Eigenthümlichkeit seines Charakters, und beide gemeinschaftlich in der
+                        Annäherung zu dem Ideale vor, das sie beide in Einen Begriff und in dem
+                        Spiegel ihrer durch die Leidenschaft begeisterten Einbildungskraft in Ein
+                        Bild zusammenschliesst.</p>
+                        </item>
+                  <item n="26">
+                     <p>Der Mensch wirkt überhaupt entweder durch seine Person, oder sein Werk. Aber
+                        der grosse Mensch prägt seine Person auch seinem Werke ein, und erhält
+                        dadurch sein Daseyn weit über die Spanne seines Lebens hinaus. Daher kann
+                        man alle Bücher und Kunstwerke in lebendige und todte abtheilen; nur jene
+                        können bilden, diese allein belehren.</p>
+                        </item>
+                  <pb n="2.331" xml:id="pbII331"/>
+                  <item n="27">
+                     <p>Indem also der Mensch, dem letzten Ziel seines moralischen Strebens
+                        nachforschend, diejenigen Individuen vergleicht, welche ihm den besten und
+                        höchsten Begriff vollendeter Menschheit gewähren, findet er in ihnen allen
+                        etwas, das, da es in seinen Wirkungen gleich ist, auch in seiner
+                        Beschaffenheit Gleichheit und Uebereinstimmung ankündigt.</p>
+                        </item>
+                  <item n="28">
+                     <p>Er sieht, dass es in allen, trotz der Verschiedenheit ihres Charakters,
+                        zugleich die allgemeine Menschheit erhöht und die besondre Eigenthümlichkeit
+                        stärkt, zugleich diejenigen, die es besitzen, stenger in ihrer
+                        Individualität, und den, der sich ihnen nähert, in der seinigen erhält; er
+                        erkennt daran, dass nur dies der gemeinsame Mittelpunkt ist, aus welchem die
+                        ganze Menschheit zugleich erkannt, beurtheilt und gebildet werden kann.
+                        Gerade ein solcher Mittelpunkt aber ist es, in den er sich zu stellen bemüht
+                        ist.</p>
+                        </item>
+                  <item n="29">
+                     <p>Nachdem er also dies unbekannte Etwas in seinen allgemeinen Wirkungen
+                        erkannt hat, hat er es in seiner besondern Beschaffenheit aufzusuchen; und
+                        was er dafür hält, mit den allgemeinen Merkmalen zu vergleichen, die er nun
+                        aufgefunden hat. Wenn er dann auf diesem Wege etwas findet, das, auf keine
+                        bedingte (mechanische) Weise entstanden, auch zu keinem bedingten
+                        (materialen) Ziel führt, das überall, wo es sich zeigt, zugleich den Begriff
+                        der Menschheit erweitert und den des Individuums bestimmt, und indem es die
+                        Vervollkommnung dessen, der es besitzt, über alle Schranken hinaus zu
+                        erweitern fähig ist, zugleich auf andre bildend und fruchtbar einwirkt, und
+                        was hinwiederum, wo diese Eigenschaften vorhanden sind, sie immer und
+                        unausbleiblich begleitet; so ist es sicher, was er suchte, gefunden, und
+                        damit sein Geschäft vollendet zu haben.</p>
+                        </item>
+                  <item n="30">
+                     <p>Um uns für die Folge der Untersuchung verständlicher zu machen, wollen wir
+                        jenem noch unbekannten Etwas vorläufig einen Namen geben, und es <emph>den
+                           Geist der Menschheit</emph> nennen – eine Benennung, die sich fürs erste
+                        schon dadurch rechtfertigt, dass es in der That dasjenige ist, wodurch die
+                        achtungswürdigsten Individuen auch als die besten und höchsten Menschen
+                        erscheinen.</p>
+                        </item>
+                  <item n="31">
+                     <p>Vernunftweg. – Es soll die Bestimmung des Menschen, als das letzte Ziel
+                        seines Strebens, und der höchste Maassstab seiner Beurtheilung aufgesucht
+                        werden. Nun aber ist die Be- <pb n="2.332" xml:id="pbII332"/> stimmung des
+                        Menschen, als eines freien und selbstthätigen Wesens allein in ihm selbst
+                        enthalten.</p>
+                        </item>
+                  <item n="32">
+                     <p>Der grösseste Mensch ist daher der, welcher den Begriff der Menschheit in
+                        der höchsten Stärke, und in der grössesten Ausdehnung darstellt; und einen
+                        Menschen beurtheilen heisst nichts andres, als fragen: welchen Inhalt er der
+                        Form der Menschheit zu geben gewusst hat? welchen Begriff man sich von der
+                        Menschheit überhaupt zu bilden hätte, wenn er das einzige Muster wäre, aus
+                        welchem man denselben abnehmen könnte?</p>
+                        </item>
+                  <item n="33">
+                     <p>Der Begriff der Menschheit aber ist nichts anders, als die lebendige Kraft
+                        des Geistes, der sie beseelt, aus ihr spricht, sich in ihr thätig und
+                        wirksam erweist.</p>
+                        </item>
+                  <item n="34">
+                     <p>Der Gegenstand unsres vorliegenden Geschäfts ist folglich die Untersuchung
+                        des Geistes der Menschheit; und in drei auf einander folgenden Büchern
+                        werden wir nach einander die Fragen:</p>
+                     <p rend="center">worin dieser Geist besteht?</p>
+                     <p rend="center">wie er erkannt? und</p>
+                     <p rend="center">wie er gebildet wird?</p>
+                     <p>zu beantworten haben.</p>
+                  </item>
+               </list>
+            </div>
+            <div type="addition">
+               <head>
+                  <title type="sub">Schluss-Anmerkung</title>
+               </head>
+               <p>Es war nicht leicht, einen Ausdruck zu finden, welcher das Wesen der Menschheit
+                  auf eine zugleich allgemeine, und doch eigenthümlichere Weise, als
+                     <emph>Wesen</emph> und <emph>Kraft</emph> selbst, bezeichnete. Wenn er passend
+                  seyn sollte, so musste er zugleich auf ihre sinnliche und unsinnliche Natur
+                  bezogen werden können, und noch ausserdem, dass er das darin eigenthümlich
+                  Herrschende sey, anzeigen.</p>
+               <p>In beiden Rücksichten schien <emph>Geist</emph> unter allen Wörtern, deren man
+                  sich hätte bedienen können, das Schicklichste; 1., weil es ursprünglich von etwas
+                  Sinnlichem, dem Verstärken reizender Getränke durch die Absonderung der
+                  wässerigten Theile (Weingeist) hergenommen ist. 2., weil es, streng genommen, nie,
+                  es sey denn mit einem besondern Zusatz, das rein Unsinnliche bezeichnet. Man sagt
+                  richtiger: <emph>Seele und Körper</emph>, als <emph>Geist und Körper</emph>, und
+                  sehr häufig <emph>reiner Geist</emph>. 3., weil es gerade das eigenthümliche Wort
+                  für dasjenige Unsinnliche ist, dem wir <pb n="2.333" xml:id="pbII333"/> gerade
+                  noch genug Körperliches einräumen, um erscheinen zu können, das Synonym von
+                  Gespenst. <emph>Die Seelen der Verstorbenen wandeln als Geister umher</emph>. 4.,
+                  weil es selbst in dieser Bedeutung mehr Realität hat, etwas Kräftigeres und
+                  Stärkeres anzeigt, als das sonst gleichbedeutende Gespenst. So drück es eine
+                  tiefer liegende Verwirrung aus, wenn man sagt: <emph>er sieht Geister, als er
+                     sieht Gespenster</emph>. 5., weil es im psychologischen Gebrauch nie auf das,
+                  was bloss mechanisch ist, angewandt wird. Man sagt nie <emph>ein
+                     geistreicher</emph>, immer <emph>ein sinnreicher Mechaniker</emph>, nie
+                     <emph>ein geistreicher</emph>, immer <emph>ein sinnreicher Versuch</emph>. Eben
+                  so ist auch <emph xml:lang="fr">spirituel</emph> und <emph xml:lang="fr">ingenieux</emph> verschieden. 6., weil es immer die ganze Beschaffenheit einer
+                  Sache, ihr Wesen, nicht eine einzelne Bestimmung andeutet, und daher nie von
+                  demjenigen gebraucht wird, was durch eine einzelne Kraftäusserung hervorkommt,
+                  wenigstens nicht insofern, als man dies zugleich ausdrückt. Man sagt nie
+                     <emph>eine geistreiche</emph>, immer <emph>eine sinnreiche Erfindung</emph>,
+                  selbst wenn das Erfundene wirklich geistreich wäre. (Doch liegt in dieser
+                  Einschränkung offenbar etwas Willkührliches.) 7., weil <emph>geistreich</emph> und
+                     <emph>geistvoll</emph> immer nur da gebraucht werden, wo Tiefe der rein
+                  intellectuellen Kräfte mit Lebendigkeit der sinnlichen Einbildungskraft
+                  zusammenkommt. Man sagt immer nur uneigentlich, <emph>ein geistvoller
+                     Metaphysiker, Mathematiker, Logiker</emph>. 8., endlich weil Geist zugleich das
+                  herrschende, eigenthümliche und ächte Wesen, im Gegensatz des
+                     <emph>Buchstabens</emph> anzeigt.</p>
+               <p>Alle neueren Sprachen haben Ausdrücke, die diesem entsprechen, und in allen ist es
+                  dieselbe Metapher. Nur hat keine ihr für den gegenwärtigen Gebrauch eine so
+                  passende Modification gegeben. Im Italiänischen ist <emph xml:lang="it">spirto</emph> mehr mystisch, als philosophisch; im Französischen ist vom
+                  ursprünglichen Begriff der Distillation vorzüglich die Verfeinerung genommen; im
+                  Englischen das Belebende und Feurige des verstärkten Getränks (<emph xml:lang="en">well spirited</emph>).</p>
+               <p>Im Deutschen allein ist der Begriff der Kraft, des ächten Wesens herrschend
+                  geblieben. Ganz ursprünglich nemlich rühren alle diese Wörter von dem Begriff des
+                     <emph>Hauchs</emph>, des <emph>Windes</emph> her. Erst davon, und erst als
+                  Metapher für etwas Unsinnliches sind sie auf das Verfahren der Distillation (als
+                  nemlich das Ausziehen des Weniger-Materiellen) übergetragen. Indess hat die
+                  psychologische Bedeutung wiederum bald mehr, bald weniger von <pb n="2.334" xml:id="pbII334"/> dieser zweiten Metapher an sich gerissen. Am meisten
+                  offenbar im Französischen. Im Deutschen ist die uranfängliche Bedeutung sehr
+                  herrschend geblieben, und die zweite Metapher zeigt sich nur in einigen
+                  Redensarten, wie: <emph>den Geist aus einer Sache ziehen</emph> u. s. f. Selbst
+                  die uranfängliche Bedeutung scheint (nach der Analogie von <emph>Gischt</emph>)
+                  sehr stark gewesen zu seyn; und diese Stärke hat sich besser enthalten, weil die
+                  Wurzel selbst Deutsch (also durch Ton und Eigenthümlichkeit uns näher) ist,
+                  dahingegen <emph xml:lang="it">spirto</emph>, <emph xml:lang="fr">esprit</emph>
+                  und <emph xml:lang="en">spirit</emph> von <emph xml:lang="la">spiritus</emph> und
+                  diess von <emph xml:lang="grc">πνεῦμα</emph> herkommt und weder <emph xml:lang="la">spiritus</emph> noch <emph xml:lang="grc">πνεῦμα</emph> bei den
+                  Alten philosophisch gebraucht wurden.</p>
+               <p>Der unsinnliche Gebrauch dieser Ausdrücke bei den Alten ist erst durch das
+                  Christenthum entstanden, und kommt aus dem Hebräischen her (dies ist noch näher zu
+                  bestimmen), und vorzüglich sind die psychologischen Anwendungen des Worts
+                     <emph>Geist</emph> bei den Neueren ihnen fremd. Kannten sie das Rectificiren
+                  geistiger Getränke nicht? oder warum blieb diese Metapher unbenutzt?</p>
+               <p>Dagegen wäre das <placeName ref="geo-390903">Griechische</placeName> <emph xml:lang="grc">ἀρετὴ</emph> ausserordentlich
+                  gut, was wir hier verlangen auszudrücken, da es die volle, ächte, und
+                  eigenthümliche Kraft anzeigt und ebensogut von der innern, als äussern Bildung
+                  gebraucht wird. Es ist besser, als Geist, weil es nicht, wie jede Metapher, dem
+                  Misbrauche unterworfen ist, und weil es den Begriff rein aus der Natur, nicht aus
+                  unserer Ansicht derselben nimmt, weil es ein Werk des beobachtenden Sinnes, nicht
+                  der Einbildungskraft ist. Freilich aber hat es eben darum auch eine Nüance weniger
+                  und verliert, durch seine mehr pragmatische Kraft, an Idealität. <emph xml:lang="la">Virtus</emph>, <emph xml:lang="fr">vertu</emph>, <emph xml:lang="en">virtue</emph>, <emph xml:lang="it">virtù</emph> und unser
+                     <emph>Tugend</emph> haben eigentlich denselben Umfang, aber sie haben ihn in
+                  der Anwendung nicht behalten, weil nur die <placeName ref="geo-390903">Griechen</placeName> den Begriff in seiner ganzen
+                  Eigenthümlichkeit bewahrt haben.</p>
+               <p>Dass die <placeName ref="geo-390903">Griechen</placeName> <emph>Geist</emph> in der psychologischen Bedeutung nicht
+                  kannten, und dass nur <emph>Tugend</emph> bei ihnen eine Rolle spielt, beweist
+                  ihre mehr pragmatische, und doch nicht minder idealische Nüchternheit; dass bei
+                  uns <emph>Geist</emph> eine so kraftvolle, und eben dadurch wieder weniger
+                  spirituale Bedeutung hat, und wir auf der andern Seite eben so wieder auch für
+                     <emph xml:lang="grc">ἀρετὴ</emph> eine eigne Wurzel haben, ist ein Vorzug
+                  unsrer Sprache, den sie mit keiner andern theilt.</p>
+            </div>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte </title>
+            </head>
+            <p>Handschrift (15 halbbeschriebene Quartseiten, ohne Titel) im Archiv in <placeName ref="geo-2823708">Tegel</placeName>.</p>
+            <p>
+                    <persName ref="gnd-118554727">Humboldt</persName>s <placeName ref="geo-2988507">paris</placeName>er
+               Tagebuch enthält unter dem <date when="1797-12-26">26. Dezember 1797</date> die
+               lakonische Notiz: <quote>Die Idee zu der Schrift über die letzte Bestimmung des
+                  Menschen und den großen Stil im Denken, Dichten und Handeln gefaßt</quote>. Da
+               weitere Bemerkungen im Tagebuch fehlen, so dürfte der uns erhaltene Entwurf, bei dem
+               auch das Wasserzeichen auf die ersten <placeName ref="geo-2988507">paris</placeName>er
+               Monate weist, wohl an diesem Tage niedergeschrieben sein; nur die Schlußanmerkung,
+               die andre Tinte zeigt, scheint später hinzugefügt. Das Werk selbst, zu dem das
+               erhaltene Manuskript die Einleitung bilden sollte, ist nie ausgeführt worden. Der
+               Zusammenhang des Planes mit dem Ideenkomplex, aus dem <title>Das achtzehnte
+                  Jahrhundert</title> erwuchs, liegt am Tage; auch an die Einleitung zu dem Buche
+               über <title>Hermann und Dorothea</title> sei nochmals erinnert.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

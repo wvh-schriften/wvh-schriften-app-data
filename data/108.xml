@@ -1,0 +1,896 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rezension von Jacobis Woldemar</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1794-08">August 1794</date>
+         </creation>
+<settingDesc>
+            <setting>
+                <placeName ref="geo-2895044">Jena</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Rezension</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Literatur</term>
+                <term>Philosophie</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="1.288" xml:id="pbI288"/>
+            <head>
+               <title type="main">Rezension von <persName ref="gnd-118556312">Jacobi</persName>s
+                     <title>Woldemar</title>
+               </title>
+               <title type="sub">Philosophie</title>
+               <title type="sub">
+                  <bibl>
+                     <pubPlace ref="geo-554234">Königsberg</pubPlace>, b. <publisher>
+                                <persName ref="gnd-118786113">Nicolovius</persName>
+                            </publisher>:
+                        <title>Woldemar</title> (vom <author>
+                                <persName ref="gnd-118556312">Hn. Geh.
+                           Rath Jacobi</persName>
+                            </author> in <pubPlace ref="geo-2934246">Düsseldorf</pubPlace>) <date when="1794">1794</date>. I. Th. XXI S. Vorb.
+                     u. 190 S. 2. Th. VI S. Vorb. u. 294 S. 8. </bibl>
+               </title>
+            </head>
+            <p>Wenn ein philosophisches System nach seiner inneren Consequenz und Uebereinstimmung
+               mit der selbsterkannten Wahrheit objectiv beurtheilt ist; kann es nunmehr auch
+               subjectiv mit dem Geiste und dem Charakter seines Urhebers verglichen, und untersucht
+               werden, mit welchem Grade der Nothwendigkeit es aus seiner Individualität entspringt,
+               und welche Eigenthümlichkeit diese in dieser Rücksicht an sich trägt. Je wichtiger
+               das einzige Ziel alles Philosophirens, die Erkenntniss aussersinnlicher Wahrheiten
+               und die strenge Prüfung der Festigkeit dieser Erkenntniss ist; desto interessanter
+               muss die Beschäftigung seyn, dem Gange, auf welchem mehrere Köpfe dahin zu gelangen
+               strebten, mit Aufmerksamkeit nachzuforschen. So wie aber diess Interesse weniger von
+               dem objectiven Werthe der Systeme an sich, als von der originellen Individualität
+               ihrer Urheber abhängt; eben so wird auch diese Beschäftigung selbst nicht sowohl
+               unmittelbar der Philosophie, als Wissenschaft, als vielmehr dem Philosophen
+               erspriesslich seyn, der sie vornimmt. Zwar kann das Ideal einer wahren Philosophie —
+               wenn diese nemlich die vollständige Ausmessung aller menschlichen Vermögen zum Grunde
+               legen muss, um darnach die Möglichkeit objectiver Erkenntniss zu bestimmen, und die
+               allgemeinen Gesetze der Thätig- <pb n="1.289" xml:id="pbI289"/> keit jener Vermögen
+               zu entdecken — gewiss nur aus dem vereinten Streben aller menschlichen Kräfte
+               hervorgehn. Allein auch bei Systemen, denen man schlechterdings Wahrheit und
+               Allgemeingültigkeit abzusprechen genöthigt wäre, könnte der enge Zusammenhang mit der
+               Kraft, die sie schuf, die Aufmerksamkeit anhaltend fesseln. Erschiene daher auch je
+               der Zeitpunkt, in welchem alle denkende Köpfe sich über Eine Philosophie vereinigt
+               hätten; so würde dennoch das Studium der bisherigen Systeme schon in dieser Hinsicht
+               immer nothwendig bleiben. Am meisten aber würde diess der Fall bei den Systemen
+               solcher Männer seyn, die ihr ganzes höheres Daseyn in ihre philosophische
+               Ueberzeugung am innigsten verwebt haben; wie denn hierin, um ein Beispiel anzuführen,
+               vielleicht niemand die <placeName ref="geo-390903">Griechen</placeName> übertroffen
+               hat, deren Systeme fast durchaus die Frucht ihrer gesammten Kräfte in der grössesten
+               Harmonie ihres Strebens sind, und die niemand als Philosophen vollständig würdigen
+               wird, der sie nicht als Menschen aufzufassen Sinn genug hat. Hieraus ergiebt sich
+               also eine zwiefache und so verschiedene Behandlung der philosophischen Geschichte,
+               dass sie schwerlich von weniger, als zwei ganz verschieden gebildeten Köpfen mit
+               Hofnung des Erfolgs versucht werden darf. Denn wenn der eine das hier angenommene
+               einzig wahre System unausgesetzt vor Augen haben muss; so müssen dem andern mehr die
+               verschiednen möglichen Richtungen des philosophischen Geistes gegenwärtig seyn. Wenn
+               der eine mit unerbittlicher Strenge alles zurückweisen muss, was sich von seiner
+               einzigen Norm entfernt; so muss der andre mit einer liberaleren Vielseitigkeit sich
+               gänzlich seinen eignen Meynungen entreissen, und die fremde Vorstellungsart
+               schlechterdings nur als eine eigne, ganz und gar aber nicht — sey es auch noch so
+               sehr gegen seine eigne Ueberzeugung — als eine unrichtige betrachten. Giebt es nun
+               eine Philosophie, die auf Dingen beruht, über die sich nicht durch Beweis und
+               Gegenbeweis streiten lässt, sondern die nur ein übereinstimmendes oder
+               widersprechendes Gefühl bejahen oder verneinen kann; so wird bei dieser der
+               subjective Zusammenhang mit der Individualität ihres Urhebers auch für ihren Inhalt
+               selbst wichtig seyn. In gewisser Hinsicht aber muss dieser Fall bei jeder denkbaren
+               Philosophie eintreten. Denn jede muss zuletzt auf ein unmittelbares Bewusstseyn, als
+               auf eine Thatsache, fussen. Indess kann es auch philosophische Systeme geben, welche
+               mehrere solcher Thatsachen zum Grunde legen. Von dieser Art ist nun <pb n="1.290" xml:id="pbI290"/> ganz und gar diejenige, welche der <persName ref="gnd-118556312">Herausgeber</persName> der <title>Briefsammlung Eduard Allwills</title> als die
+               seinige schildert. <quote>Was er erforscht hatte,</quote> sagt er in der Vorrede zu
+               diesem Buche S. XV. von sich selbst, <quote>suchte er sich selbst so einzuprägen,
+                  dass es ihm bliebe. Alle seine wichtigsten Ueberzeugungen beruhten auf
+                  unmittelbarer Anschauung; seine Beweise und Widerlegungen auf zum Theil (wie ihn
+                  däuchte) nicht genug bemerkten, zum Theil noch nicht genug verglichenen
+                  Thatsachen.</quote> Bei einer solchen Theorie giebt es — und diess allein raubt
+               derselben gewiss noch nicht die Möglichkeit der Allgemeingültigkeit — keine andre Art
+               der Ueberzeugung, als dass ich den andern in eben die Lage versetze, in der ich
+               selbst einer solchen Anschauung theilhaftig, mir einer solchen Thatsache bewusst
+               wurde. Die Flamme, die hier leuchten soll, vermag nur die Flamme, die schon brennt,
+               zu entzünden. Sehr richtig fährt daher der <persName ref="gnd-118556312">Vf.</persName> jener Stelle von sich weiter fort: <quote>Er musste also, wenn er
+                  seine Ueberzeugungen andern mittheilen wollte, darstellend zu Werke gehn.</quote>
+               Diess nun zu thun, hat der <persName ref="gnd-118556312">Vf.</persName> in jenem
+               Werk, wie in diesem versucht, in welchem er (Th. 1. Vorb. S. XV.) ausdrücklich auf
+               die hier angeführte Stelle der früher erschienenen Schrift Anweisung giebt. Man muss
+               daher diese längere Abschweifung der Unmöglichkeit verzeihen, auf eine andre Weise
+               den Zweck des angezeigten Werks vollständig darzulegen, und zu der Eigenthümlichkeit
+               desselben gehörig vorzubereiten. In wiesern nun jede unmittelbare Anschauung alle
+               Erklärung ausschliesst, die niemals andre, als mittelbare Einsicht gewährt, und in
+               wiefern das, worauf diese Anschauungen und Thatsachen beruhen — wenn das, was sich
+               darauf gründet, auf Allgemeingültigkeit Anspruch machen soll — nicht Einem einzelnen,
+               sondern der Menschheit angehören muss — insofern bestimmt der <persName ref="gnd-118556312">Vf.</persName> die Absicht seiner Schrift noch näher dahin:
+                  <quote>Menschheit, wie sie ist, erklärlich oder unerklärlich, auf das
+                  gewissenhafteste vor Augen zu legen.</quote>
+               <note type="footnote" n="i)" resp="gnd-116890657">
+                  <hi>
+                     <title>Woldemar</title> 1, XVI.</hi>
+               </note> Gewiss nicht bloss ein erhabener Zweck, sondern auch ein schwieriges
+               Unternehmen! Wem es gelingen soll, der muss selbst eine hohe Menschheit in sich
+               tragen, muss oft und streng sich selbst geprüft, und mit ruhiger Beurtheilung das
+               Zufällige seines Wesens von dem Nothwendigen geschieden haben, wodurch er unmittelbar
+               mit der Menschheit in ihrer reinen idealischen Gestalt verwandt <pb n="1.291" xml:id="pbI291"/> ist. Nur solch ein Mann kann den Eindruck hervorzaubern, mit dem
+               der gleichgestimmte Leser so viele Stellen des <title>Woldemar</title> verlassen
+               wird; und wenn andre literärische Produkte nur einzelne Talente des Schriftstellers
+               beweisen, so stellen solche, als das gegenwärtige, das ganze Daseyn des Menschen dar.
+               Doppelt erhöht wird dieser Reiz aber dadurch, dass in der vorliegenden Schrift nur
+               von praktischer Philosophie die Rede ist; dass jede Zeile das reinste, ächteste,
+               sittliche Gefühl, mit dem zartesten und beweglichsten Schönheitssinn auf das innigste
+               verbunden, athmet; und dass man weniger über Menschheit raisonniren hört, als
+               Personen, deren jede wenigstens in Einer Hinsicht ein Repräsentant der Menschheit
+               heissen kann, in interessanten Situationen selbst thätig erblickt.</p>
+            <p>Ein Paar seltene Charaktere, aus dem stärksten und zugleich feinsten Stoffe gebildet,
+               den die Menschheit ertragen, und in die edelste Form gegossen, die sie annehmen kann,
+               in einfachen, aber den Geist wie das Herz gleich stark anziehenden Lagen in Handlung
+               gesetzt, dienen dem <persName ref="gnd-118556312">Vf.</persName> zum Vehikel, an
+               ihnen den Begriff der ächten Tugend, und Moralität in ihrer Reinheit darzustellen.
+               Mit ausserordentlich günstigen Anlagen zu Erreichung einer hohen sittlichen
+               Schönheit, und mit natürlicher Stimmung zur Erfüllung jeder Pflicht des Wohlwollens,
+               der Selbstverläugnung und des Edelmuths gebohren, hat sich <persName ref="person-000016">Woldemar</persName> gewöhnt, seine Moralität nicht bloss aus
+               sich selbst, aus der Kraft seiner praktischen Vernunft, sondern auch aus der Mitte
+               der Triebe hervorgehen zu sehen, mit deren Widerstand sie sonst am heftigsten zu
+               kämpfen hat. Zu dieser glücklichen Organisation gesellt sich bei ihm die, auf
+               Vernunftgründe gestützte Ueberzeugung, dass etwas so Hohes und Göttliches, als die
+               Tugend, auch nothwendig aus unvermittelter Selbstthätigkeit entspringen muss, und
+               weder von äusseren Formen und Vorschriften abhängig gemacht, noch durch Construction
+               von Begriffen zu Erreichung bestimmter Zwecke gleichsam künstlich aufgebaut werden
+               kann. Glühende Wärme des Gefühls, lebhafte Einbildungskraft, und vorzüglich eine
+               innige Harmonie seines ganzen Wesens, besonders eine enge Verbindung seiner denkenden
+               und empfindenden Kräfte, fesseln ihn überall unauflöslich an angeschaute Realität, an
+               freie Selbstthätigkeit, und entfernen ihn überall von bloss begriffener Idealität,
+               von auch nur scheinbarem Zwange. So bewirken alle diese Gründe vereint, dass er, bei
+               den richtigsten theoretischen Ueberzeugungen von dem Wesen der <pb n="1.292" xml:id="pbI292"/> Tugend und Sittlichkeit, in der Ausübung mehr Pflichten erfüllt,
+               die er liebt, als sich Gesetzen unterwirft, die er achtet, dass Gehorsam ihm
+               überhaupt fremder ist, als es Menschen geziemt, und dass er die Vorschriften der
+               Tugend nur in den Handlungen des Tugendhaften aufsucht, der, nach seinem Ausdruck,
+               eben so der Sittlichkeit durch die That die Regel vorschreibt, als das Genie der
+                  Kunst.<note type="footnote" n="ii)" resp="gnd-116890657">
+                  <hi>
+                     <title>Woldemar</title> 2, 163. 205.</hi>
+               </note> Kein Wunder also, dass er nicht selten seinem sittlichen Gefühl, auch ohne
+               die nothwendige jedesmalige genaue Prüfung, zuviel einzuräumen, und den Eingebungen
+               seines Herzens in zu stolzem Vertrauen zu unbedingte Folge zu leisten Gefahr läuft.
+               Mit diesem Charakter tritt <persName ref="person-000016">Woldemar</persName> in den
+               Kreis einer Familie, von der sein Bruder, <persName ref="person-000017">Biderthal</persName>, ein Mitglied ist, und die sich nicht minder durch Bande der
+               Liebe, als der Verwandtschaft an einander gekettet sieht. Kleine Veranlassungen aus
+               den gewöhnlichen Begebenheiten des täglichen Lebens lassen Gespräche über das, was
+               schicklich und anständig, und wenn sich die Unterredung von der minder bedeutenden
+               Veranlassung zu allgemeineren Grundsätzen erhebt, über das, was sittlich und
+               tugendhaft ist, über die Unterschiede in der Moralität des jetzigen Jahrhunderts und
+               des Alterthums u. s. f. entstehen, in welchen — ausser dem wichtigen philosophischen
+               Gehalt — sich der Charakter <persName ref="person-000016">Woldemar</persName>s und
+               der übrigen auftretenden Personen wie von selbst vor dem Leser entwickelt. Unter
+               allen, die <persName ref="person-000016">Woldemar</persName> umgeben, zieht <persName ref="person-000018">Henriette</persName>, <persName ref="person-000017">seines
+                  Bruders</persName> noch unverheirathete Schwägerin, seine Aufmerksamkeit am
+               meisten auf sich. Sie stimmt seine vorherigen Begriffe über das andre Geschlecht
+               gänzlich um. Neben der ganzen und vollen Weiblichkeit findet er in ihr ein gewisses
+               Etwas, das er mit seiner allgemeinen Meynung über ihr Geschlecht nicht zu vereinigen
+               weiss, etwas Höheres und Grösseres; und nach und nach schlingen sich ihre Herzen bis
+               zur innigsten Verbindung an einander. In <persName ref="person-000016">Woldemar</persName> hieng diese Freundschaft mit seinen wichtigsten und höchsten
+               Ideen, mit seinem eigensten Wesen zusammen. Mitten in dem Wechsel von Empfindungen
+               und Trieben, neben dem Entstehen und Untergehen mannigfaltiger Neigungen, fühlte er
+               auch etwas Festes und Unvergängliches in sich. In den Momenten, wo sein Inneres am
+               harmonischsten gestimmt war, wuchs auch diess Gefühl am lebhaftesten empor; und nur
+               auf diesem Unvergänglichen, Uebermenschlichen gleichsam konnte die ächte Tugend, die
+               Verwandtschaft des Sterblichen mit dem Gött- <pb n="1.293" xml:id="pbI293"/> lichen,
+               beruhen. Dennoch war daneben die Veränderlichkeit der menschlichen Natur so sichtbar,
+               selbst das Gefühl jenes höheren Etwas wurde nicht selten dadurch verdunkelt, sein
+               Daseyn sogar war so unbegreiflich; es musste das dringendste Bedürfniss für ihn
+               werden, sich unumstössliche Gewissheit desselben zuzusichern. <persName ref="person-000016">Woldemar</persName>, den diess alles noch stärker und
+               lebhafter, als gewöhnlich, bewegte, rang nach dieser Gewissheit auf seine Weise.
+               Gefühl, Anschauung, bestätigte Wirklichkeit giengen ihm über alles. In einem andern
+               Wesen musste er finden, was er in sich selbst ahndete. So musste er lernen,
+                  <quote>dass seine Weisheit kein Gedicht sey.</quote>
+               <note type="footnote" n="iii)" resp="gnd-116890657">
+                  <hi>
+                     <title>Woldemar</title> 2, 171.</hi>
+               </note> Lange hatte er diess mit sich herumgetragen, lange gesucht, von glücklichem
+               Finden geträumt. Endlich deutete <persName ref="person-000018">Henriette</persName>
+               den Traum, und wie nun seine Freundschaft nur aus dem höchsten Gefühl der reinsten
+               Tugend entsprang, so lehnte sich seine Tugend selbst wieder an die Freundschaft, als
+               an eine schwesterliche Stütze. Nicht zwar als hätte es ihr an eigner Stärke
+               gemangelt, aber weil vereinzelt gleichsam ihre Wesenheit entwich, und die
+               unumstössliche Gewissheit ihres wirklichen Daseyns verschwand. Mit starken, aber
+               gewiss unendlich feinen Fäden war in diese Empfindung der Freundschaft der Eindruck
+               verwebt, dessen Weiblichkeit und vorzüglich schöne Weiblichkeit auf den reizbar und
+               reingestimmten Mann niemals verfehlen kann. Mit einem Manne hätte <persName ref="person-000016">Woldemar</persName>s Freundschaft andre Modificationen
+               angenommen, überhaupt vermochte nur eine weibliche Seele jenen Traum ihm zu deuten,
+               und es bedarf mancher Mittelerläuterungen, wenn sein eignes Geständniss, <quote>dass
+                  jeder weibliche Reiz an <persName ref="person-000018">Henriette</persName>n ihm
+                  sichtbarer, als allen andern gewesen, dass, wie <persName ref="person-000018">Henriette</persName>, noch kein Mädchen ihm gefallen,</quote> mit seiner
+               Versicherung, <quote>dass seine Empfindung zu ihr nichts mit ihrem Geschlechte zu
+                  thun gehabt,</quote> nicht in Widerspruch stehen soll.<note type="footnote" n="iv)" resp="gnd-116890657">
+                  <hi>
+                     <title>Woldemar</title> 2, 38.</hi>
+               </note> Mit Bedauern sieht der Leser, der die Ahndungen seines Tactes um so lieber
+               bestätigt oder widerlegt fände, als schon die Feinheit des Gegenstandes seine
+               Ausmerksamkeit anzieht, dass die Geschichte die feineren Nüancen des Verhältnisses
+               unbestimmt lässt: nur mit Mühe entdeckt der Kundige hie und da leise Winke. Aber was
+                  <persName ref="person-000016">Woldemar</persName> suchte, und wie er es suchte,
+               konnte er nur in einer weiblichen Seele finden. Durch die Natur seines Wesens
+               nothwendig geleitet, und durch seine äussere Lage begünstigt, gehört das andre
+               Geschlecht grössten- <pb n="1.294" xml:id="pbI294"/> theils dem inneren Leben und
+               Weben in eignen Ideen und Empfindungen an. Sich darauf in hoher Einfachheit
+               beschränkend, ist das weibliche Gemüth zwar vielleicht ein minder reiches und
+               starkes, aber gewiss ein reineres Bild desselben, als jedes andre, und daher am
+               meisten fähig, das zu gewähren, was <persName ref="person-000016">Woldemar</persName>
+               schmerzlich entbehrte. Jener Trieb aber, nach dessen Gewissheit er so ängstlich
+               strebte, und der doch kein andrer ist, als den die Philosophie sonst den
+               uneigennützigen, die Aeusserung der praktischen Vernunft, zu nennen pflegt, ist als
+               blosser Trieb im Weibe schon um eben so viel reger und ununterbrochener lebhaft, als
+               diess alle Neigungen und Gefühle überhaupt in ihm sind. Allein auch in seiner höheren
+               Natur ist er deutlicher sichtbar. Unter allen Geschöpfen, die sich nach eignem Willen
+               bestimmen, sind die Weiber der steten, immer wiederkehrenden Ordnung der Natur
+               gleichsam am nächsten geblieben. Dadurch und durch die Mitwirkung ihres feineren
+               Schönheitssinnes sind alle ihre, auch eigennützigen Triebe reiner und harmonischer
+               gestimmt, und schon ihre sanfte Schwäche verhütet ein zu häufiges Einmischen der
+               heftigen, wechselnden Begierde. Endlich scheinen sie unmittelbar aus der Hand der
+               Natur zu kommen. Weniger, wie bei dem Manne, von eigenmächtigen Handlungen des bei
+               diesem stärkeren und thätigeren Willens durchkreuzt, ist der Inbegriff ihres Wesens
+               ein mehr durch die Natur und die Lage der Umstände gegebenes Ganze. Was man in
+               demselben antrift, ist sichrer aus ihrer inneren Beschaffenheit hervorgegangenes Werk
+               der Natur, als eigne Schöpfung. Wer aber vertraut nicht lieber dem Zeugniss des
+               Unvergänglichen, als der Stimme des immer wechselnden Menschen? So musste <persName ref="person-000016">Woldemar</persName> sowohl durch die Eigenthümlichkeit seines
+               Charakters, als durch das, was er vermisste, fester an ein weibliches Geschöpf
+               gefesselt werden; und so überrascht in der That die Wahrheit jenes Geständnisses, das
+               er selbst von der Wirkung der weiblichen Reize <persName ref="person-000018">Henriette</persName>ns ablegt. Vielleicht hätte der Leser diess Verhältniss
+               schärfer durchdrungen, wenn diese Nüancen desselben in ein helleres Licht gesetzt
+               worden wären. Jetzt muss es ihm schwer werden, sich, vorzüglich von <persName ref="person-000018">Henriette</persName>n, ein wahres und richtiges, besonders nur
+               ein bestimmtes Bild zu entwerfen, da er, wenigstens wenn er sich in <persName ref="person-000016">Woldemar</persName>s Seele versetzt, nicht genug veranlasst
+               wird, sie sich ganz so weiblich zu denken, als sie in der That ist. Oder soll er
+               vielleicht mit Fleiss ungewiss bleiben? soll er auf der andern Seite alles auf einen
+               Selbstbetrug <pb n="1.295" xml:id="pbI295"/> in <persName ref="person-000016">Woldemar</persName> schieben? soll er, um der Entwicklung der Geschichte
+               ungeduldiger entgegen zu sehen, unter der Freundschaft eigentliche Liebe vermuthen?
+               Allein gewiss wäre diese Vermuthung irrig, und <persName ref="person-000016">Woldemar</persName>s Zuneigung zu <persName ref="person-000018">Henriette</persName>n würde im höchsten Verstande rein genannt werden können,
+               wenn Liebe ein Flecken heissen dürfte. Nicht bloss weil das, was ihn zuerst an
+                  <persName ref="person-000018">Henriette</persName>n fesselte, rein moralisch war,
+               muss von selbst jede sinnliche Begierde schweigen. Da das, wonach er sehnsuchtsvoll
+               ringt, gerade das absolute Gegentheil alles Vergänglichen, Wechselnden, Körperlichen
+               ist; muss ihn die leiseste Beimischung einer sinnlichen Empfindung empören. Wenn er
+               Gewissheit des nur dunkel Geahndeten erhalten will, darf er es nicht wieder in leicht
+               täuschender Verbindung mit fremdartigem Stoffe erblicken, muss er von diesem es
+               sorgfältig abscheiden, und geläutert seinem inneren Auge darstellen. Für den, der am
+               Unvergänglichen hängt, verliert das Vergängliche seinen Reiz. In <persName ref="person-000016">Woldemar</persName> haben sich nicht die denkenden und
+               empfindenden Kräfte, beide für sich gebildet und gepflegt, erst in ihrer Reife
+               vereinigt; sie sind gleichsam von Kindheit an mit einander aufgewachsen, und
+               eigentlich haben die ersteren die letzteren erzogen. Denn die Einheit erstrebende
+               Vernunft — die sich immer leichter mit der Phantasie, von der sie ihren Ideen Symbole
+               leiht, verbindet — ist stärker in ihm, als der zergliedernde Verstand. Daher sein
+               Ringen nach allem Unvermittelten, Reinen, nach dem absoluten Daseyn. Von diesem allem
+               aber existirt in der Wirklichkeit nichts. Alles ist da vermittelt, gezeugt,
+               vermischt, nur bedingungsweis existirend. So entsteht in Charakteren dieser Gattung
+               Abneigung gegen die empirische Wirklichkeit, und in Rücksicht auf die
+               Empfindungsweise Abneigung gegen die Sinnlichkeit. Das Gefühl drängt sich mit
+               vermehrter Stärke zu den rein geistigen Empfindungen zurück; die Einbildungskraft
+               wächst zu ungewöhnlichen Graden; man erblickt das sonderbare Phänomen, dass die
+               übergrosse Stärke der Empfindung gegen die ursprünglichste aller, die äussere,
+               abstumpft. Ueberall wird man ungewöhnliche Glut der Phantasie mit Kälte der Sinne
+               gepaart finden. Am wenigsten aber hätte <persName ref="person-000018">Henriette</persName> in <persName ref="person-000016">Woldemar</persName> Liebe
+               zu entzünden vermocht. Wenn die Freundschaft nur Mannigfaltigkeit verlangt zu
+               gemeinschaftlicher Verstärkung; so fodert die Liebe Ungleichartigkeit zu
+               gegenseitiger Ergänzung. <persName ref="person-000016">Woldemar</persName> aber und
+                  <persName ref="person-000018">Henriette</persName>, wie <persName ref="person-000016">Woldemar</persName> sie ansah, waren gleich. Nach der Art, wie
+               sie auf ihn wirkte, nach dem, was er in ihr fand, <pb n="1.296" xml:id="pbI296"/>
+               fiel vor seinen Augen der Unterschied des Geschlechts — so mächtig derselbe auch
+               mitgewirkt hatte, um es nur möglich zu machen, dass er diess fand — hinweg; und er
+               beurtheilt sich vollkommen richtig, wenn er sagt, <quote>dass ihm eine Verbindung mit
+                  ihr eben so unmöglich sey, als der Gedanke, eine Person seines eigenen Geschlechts
+                  zu heirathen.</quote>
+               <note type="footnote" n="v)" resp="gnd-116890657">
+                  <hi>
+                     <title>Woldemar</title>1, 170.</hi>
+               </note>
+            </p>
+            <p>Mit tiefer psychologischer Einsicht und feiner poetischer Kunst hat der <persName ref="gnd-118556312">Vf.</persName> durch die Entwicklung der Eigenthümlichkeiten
+                  <persName ref="person-000016">Woldemar</persName>s und die Darstellung seines
+               Verhältnisses mit <persName ref="person-000018">Henriette</persName>n das sonderbar
+               scheinende Widerstreben, ihr seine Hand zu geben, nach und nach sorgfältig
+               vorbereitet. Der Leser begreift nicht bloss <persName ref="person-000016">Woldemar</persName>s Gemüthsstimmung; er fühlt es gleichsam mit ihm, wie
+               unmöglich es ihm seyn musste, da, wo er, nach <persName ref="gnd-118594893">Plato</persName>s schönem Bilde,<note type="footnote" n="vi)" resp="gnd-116890657">
+                  <hi>Vgl. die mit S. 246a beginnenden Darlegungen im <title>Phaidros</title>.</hi>
+               </note> Flügel suchte, sich in höhere Sphären zu schwingen, sich durch die
+               alltäglicheren Verhältnisse einer Ehe an die Erde fesseln zu lassen. Dennoch hätte
+               man wohl jenes sonderbare Gewebe scheinbar widerstreitender Empfindungen reiner
+               durchschaut, wenn es in dem Plane des <persName ref="gnd-118556312">Vf.</persName>
+               gelegen hätte, den Vorschlag der Verbindung auf eine andre Weise herbeizuführen, als
+               durch die, in der That beinahe zudringliche Sorgfalt der Freunde <persName ref="person-000016">Woldemar</persName>s. Zu leicht wird man veranlasst, einen
+               Theil der Abneigung auch dieser beizumessen. Etwas so Zartes, als das stille Bündniss
+               zweier Herzen, scheut jede, auch die leiseste Berührung. Nur aus sich will es
+               hervorgehen; nur in unentweihter Einsamkeit will es sich entwickeln, und die Hand,
+               die sich ihm naht, kann es vernichten, ehe sie es berührt. <persName ref="person-000018">Henriette</persName> wird also nicht <persName ref="person-000016">Woldemar</persName>s Gattin; allein sie selbst verbindet ihn
+               mit ihrer vertrauten Freundin <persName ref="person-000019">Allwina</persName>.
+               Entzückend schön ist das fortdauernde trauliche Zusammenleben dieser drei Menschen
+               geschildert. Wo wir, den einfachen Wegen der Natur folgend, mit allen ungetheilten
+               Kräften geniessen, da gewinnt der Genuss einen gewissen innern Gehalt, der, von
+               aussen gegeben, nur bearbeitet, nicht erst neugeschaffen zu werden braucht. Mit der
+               Anstrengung ist daher Erholung gepaart, und die eine führt die andre wechselweis
+               herbei. Diess empfand jetzt <persName ref="person-000016">Woldemar</persName>. Er
+               hatte bis dahin mehr in Ideen und selbstgeschaffenen Gefühlen gelebt; ohne jenen
+               himmlischen Sphären fremder zu werden — sein Verhältniss mit <persName ref="person-000018">Henriette</persName>n blieb ja das nemliche — kehrte <pb n="1.297" xml:id="pbI297"/> er in Allwinens Armen, im Schoosse des glücklichsten
+                  häuslich<persName ref="person-000020">e</persName>n Lebens, mehr zu der
+               menschlichen Erde zurück, und <quote>eine gewisse Befreundung mit Dingen dieser
+                  Erde</quote> — heisst es einmal (Th. 2. S. 68.) bei einer andern Gelegenheit sehr
+               gut — ist <quote>süsser, als die Weisen denken.</quote> Aber noch war er nicht zu
+               dauernder Ruhe bestimmt. Es fehlte seinem Charakter an dem Einzigen, worauf sie
+               sicher gegründet werden kann, an strenger Zucht, an ernster Selbstbeherrschung. Er
+               hätte sie nur durch ein Geschenk des Zufalls genossen. Sehr gut bereiten die
+               ängstlichen Besorgnisse <persName ref="person-000017">Biderthal</persName>s, der
+                  <persName ref="person-000016">seines Bruders</persName> Betragen für eine
+               Entfernung von dem Gange der Natur ansieht, den man nie ungestraft verlässt, den
+               nahen Sturm vor. Bald darauf erscheint er selbst. <persName ref="person-000018">Henriette</persName>ns <persName ref="person-000020">Vater</persName> hatte eine
+               tiefe Abneigung gegen <persName ref="person-000016">Woldemar</persName> gefasst. Mit
+               einem, allein durch Gewohnheit und äussere Lagen gebildeten Charakter bemerkte er
+                  <persName ref="person-000016">Woldemar</persName>s Abweichungen von der
+               gewöhnlichen Bahn, ohne sie zu begreifen; sah in ihnen bloss einen gänzlich
+               verkehrten Sinn, und sprach ihm geradezu allen Glauben an Gott und an Menschen ab.
+               Die Besorgniss, <persName ref="person-000018">Henriette</persName> möchte ihm ihre
+               Hand geben, quälte ihn anhaltend, und als er an einer Krankheit tödtlich danieder
+               lag, verlangte er von ihr das feierliche Gelübde, sich nie mit ihm zu verbinden.
+               Nichts, selbst nicht die Versicherung, dass <persName ref="person-000016">Woldemar</persName> schon mit <persName ref="person-000019">Allwina</persName>
+               verlobt sey, vermochte ihm seine Unruhe zu benehmen. <persName ref="person-000018">Henriette</persName>n empörte der Gedanke, gegen ihren Freund gleichsam in ein
+               Bündniss zu treten, und ihm feierlich zu entsagen. Aber der Anblick des sterbenden
+                  <persName ref="person-000020">Vater</persName>s, und die Ermattung selbst ihrer
+               körperlichen Kräfte in dem fürchterlichen Kampf zwangen ihren Lippen das Gelübde ab.
+               Der nunmehr beruhigte <persName ref="person-000020">Vater</persName> verschied bald
+               darauf. <persName ref="person-000016">Woldemar</persName>n blieb der Vorfall
+               verschwiegen. Erst einige Zeit nachher entdeckte er ihn durch einen Zufall. Er
+               bewegte ihn heftig, und, wiederholter Kämpfe ungeachtet, konnte er die Folgen dieser
+               Bewegung nicht ganz in sich unterdrücken. Ungefähr um dieselbe Zeit war <persName ref="person-000018">Henriette</persName> durch nachtheilige Stadtgerüchte über ihr
+               Verhältniss mit <persName ref="person-000016">Woldemar</persName> verstimmt worden.
+               Diess zufällige Zusammentreffen zwei verschiedener Eindrücke brachte in ihrem
+               gegenseitigen Betragen zwar keine Kälte, aber etwas Fremdes, Ungewohntes hervor, das
+               in jedem in dem Grade mehr zunahm, als er es in dem andern bemerkte. <persName ref="person-000018">Henriette</persName> wagte endlich eine Erklärung. Sie bat
+               ihn, dass sie in ihrem äussern Betragen einige Schritte rückwärts thun möchten.
+                  <persName ref="person-000016">Woldemar</persName>, in dem sich diese Bitte mit dem
+               abgelegten <pb n="1.298" xml:id="pbI298"/> Gelübde verband, wurde durch die vereinte
+               Wirkung von beidem auf das gewaltsamste erschüttert. <persName ref="person-000018">Henriette</persName>, schien es ihm, sey auf seine Unkosten allzunachgiebig gegen
+               andre. <quote>Was muss ihr der seyn, den sie so leicht aufopfert?</quote>
+               <note type="footnote" n="vii)" resp="gnd-116890657">
+                  <hi>Dieser Satz ist kein Zitat aus <title>Woldemar</title>.</hi>
+               </note> Mit Meisterhand ist nun der Fortschritt gezeichnet, den dieser furchtbare
+               Zweifel an dem, was ihm das Heiligste und Liebste war, in <persName ref="person-000016">Woldemar</persName>s Seele machte; wie er auf <persName ref="person-000018">Henriette</persName>n zurückwirkte; wie die Momente, wo einer
+               oder der andre den Knoten zu lösen oder zu zerschneiden entschlossen war, unbenutzt
+               vorübergiengen; wie die Art, wie jeder dem andern erschien, mit jedem Tage das
+               Misverständniss vermehrte, die Entwicklung verzögerte. Auf das heiterste und
+               glücklichste Leben folgte eine schreckliche, quaalenvolle Zeit. Glücklicher Weise
+               erfährt endlich <persName ref="person-000018">Henriette</persName>, dass <persName ref="person-000016">Woldemar</persName> um das Geheimniss des Gelübdes weiss.
+               Jetzt ist ihr auf einmal <persName ref="person-000016">Woldemar</persName>s
+               Umänderung klar. Nach einem Gespräche über <persName ref="person-000016">Woldemar</persName>s Charakter, über welchen der Leser hier die letzten
+               Aufschlüsse erhält, über Tugend und Moralität überhaupt, (einem Gespräche, das den
+               schönsten Theil dieser merkwürdigen Schrift ausmacht,) eilt <persName ref="person-000018">Henriette</persName> zu <persName ref="person-000016">Woldemar</persName>, beginnt ihm ihr Bekenntniss abzulegen, Verzeihung bei ihm zu
+               suchen. Bei diesen Worten fühlt sich <persName ref="person-000016">Woldemar</persName> getroffen. Es fällt, wie ein Schleier, von seinen Augen; er
+               wird seiner Verirrung gewahr. Was sie von ihm erfleht, fühlt er, muss er von ihr
+               erhalten. Das stolze Selbstvertrauen, durch das er gefallen war, schwindet; wie er
+               ungerecht gegen <persName ref="person-000018">Henriette</persName>n gewesen war,
+               läuft er jetzt Gefahr, es gegen sich zu werden. Aber auch hier kehrt er bald wieder
+               um. Die vorige Traulichkeit, der alte Friede kommen zurück, und <persName ref="person-000016">Woldemar</persName> schliesst mit dem Ausspruch: <quote>Wer
+                  sich auf sein Herz verlässt, ist ein Thor — Richtet nicht!</quote>, dem <persName ref="person-000018">Henriette</persName>
+               <persName ref="gnd-118532464">Fenelon</persName>s Worte zur Seite stellt:
+                  <quote>Vertrauet der Liebe. Sie nimmt alles; aber sie giebt alles.</quote>
+               <note type="footnote" n="viii)" resp="gnd-116890657">
+                  <hi>
+                     <title>Woldemar</title> 2, 281.</hi>
+               </note>
+            </p>
+            <p>
+               <persName ref="person-000016">Woldemar</persName> hatte sich gewöhnt, sich mit einer
+               gewissen Sicherheit seinem moralischen Gefühl zu überlassen, ohne Ausnahme den
+               Regungen seines Herzens zu folgen. Auch konnte er diess in den meisten Fällen ohne
+               Gefahr. Es ist sogar unläugbar ein höherer Grad der Tugend, wenn die Ausübung der
+               Pflicht selbst zur Gewohnheit wird, wenn sie in das Wesen der sonst
+               entgegenstrebenden Neigungen übergeht, und nicht jede pflicht- <pb n="1.299" xml:id="pbI299"/> mässige Handlung erst eines neuen Kampfes bedarf. Wie edel auch
+               das Ringen des Pflichtgefühls gegen die Neigung seyn mag; so ist es doch immer ein
+               Zustand des Krieges, und wer segnet nicht mehr die wohlthätige Hand des Friedens?
+               Aber der Friede muss nicht durch Nachgiebigkeit erkauft seyn; er muss sein Entstehen
+               der Niederlage des Feindes, seine Dauer dem Bewusstseyn der fortdauernden Stärke
+               danken. Der wahrhaft tugendhafte Mann ist tugendhaft, weil seine Gesinnung es ist,
+               weil diese sich einmal durch alle seine Empfindungen und Neigungen ergossen hat. Aber
+               er hört darum nicht auf, wachsam zu seyn, er entnervt nicht seine Stärke. Sobald der
+               Fall der Gefahr eintritt, weiss er die Stimme der Sinnlichkeit zu verachten, allein
+               dem dürren Buchstaben des Gesetzes zu gehorchen. Und gegen diese Gefahr sichert
+               keine, noch so glückliche Organisation, keine, noch so feine geistige Ausbildung.
+               Diess zeigt <persName ref="person-000016">Woldemar</persName>s Beispiel auf eine sehr
+               treffende Weise. Seitdem er das Geheimniss von <persName ref="person-000018">Henriette</persName>ns Gelübde erfuhr, fühlte sich sein Stolz beleidigt, seine
+               Selbstsucht gekränkt. Ihm allein sollte sie angehören, für ihn sollte sie alles andre
+               vergessen; nun trat sie am Sterbebett ihres <persName ref="person-000020">Vater</persName>s gleichsam einem Bündniss gegen ihn bei, nun konnte sie ihm
+               etwas verheimlichen, nun wollte sie etwas, das ihn betraf, fremden Rücksichten
+               aufopfern. Indess war seine Freundschaft zu ihr wirklich gross und selten. An ihr
+               zweifeln hiess ihm an dem Daseyn der Tugend, an seinem besten Selbst, an dem allein
+               Göttlichen im Menschen zweifeln. Daran knüpften sich die minder edlen Regungen seiner
+               Neigung. Der Abfall von ihm verwandelte sich in einen Abfall von dem besten Theile
+               der Menschheit. Nur unter dieser täuschenden Gestalt, nur indem er die Hülle der
+               Tugend selbst anzog, vermochte der eigennützige Trieb einen <persName ref="person-000016">Woldemar</persName> zu verführen; allein unter dieser musste
+               es ihm auch gerade bei einem, nicht an Zucht und Gehorsam gewöhnten <persName ref="person-000016">Woldemar</persName> gelingen. Dass er aus Stolz fiel, beweist
+               sein augenblickliches Zurückkehren, indem <persName ref="person-000018">Henriette</persName> die Worte: <quote>Bekenntniss, Verzeihung</quote> aussprach.
+               Diess ist ein tief aus der menschlichen Seele genommener Zug. Der ungerechte Stolz
+               einer nicht unedlen Seele sinkt, wenn er sich überbefriedigt sieht, plötzlich zur
+               Demuth herab. Sehr richtig warnt daher <persName ref="person-000016">Woldemar</persName> vor allzusichrem Selbstvertrauen. Schön und weiblich setzt
+                  <persName ref="person-000018">Henriette</persName>
+               <persName ref="gnd-118532464">Fenelon</persName>s Worte hinzu. Wer der Liebe
+               vertraut, wird weniger straucheln. Der Liebe geht die Demuth schwesterlich zur Seite,
+               und jede Abweichung von dem <pb n="1.300" xml:id="pbI300"/> Wege der Pflicht
+               entspringt mehr oder minder aus Selbstsucht, also aus einer Art des Stolzes. Allein
+               sollte auch das Vertrauen auf Liebe überall eine sichere Schutzwehr seyn? Sie war es
+               in dem Fall, in dem sich <persName ref="person-000016">Woldemar</persName> zu
+                  <persName ref="person-000018">Henriette</persName>n befand, und diess kann dem
+                  <persName ref="gnd-118556312">Vf.</persName> hier genügen. Sonst würde auch er sie
+               gewiss nicht allgemein dafür anerkennen. Wie edel auch ein Trieb seyn mag, so ist er
+               immer etwas sinnlich Bedingtes, und nicht fähig, weder sichre — denn im Gebiete der
+               Sinnlichkeit sind tausendfältige, auch dem Wachsamsten nicht immer bemerkbare
+               Täuschungen möglich — noch weniger aber reine Moralität zu b<persName ref="gnd-119120461">egründen. Allerdings ist der uneigennützige Trieb im Menschen
+                  ein göttlicher Trieb. Allein</persName> er ist göttlich, insofern die Kraft
+               gleichsam übermenschlich ist, das Interesse des Individuums der Allgemeinheit des
+               Gesetzes unterzuordnen. Trieb ist er nur insofern, als das Göttliche eines Körpers
+               bedarf, um im Menschen zu wohnen.</p>
+            <p>Die Schwierigkeiten, mit welchen man gewöhnlich zu kämpfen hat, um einen, in ein
+               ästhetisches Gewand gekleideten philosophischen Inhalt rein abzuscheiden, fallen bei
+               der gegenwärtigen Schrift so gut als ganz hinweg. Was dem <persName ref="gnd-118556312">Vf.</persName> von philosophischen Ideen am Herzen gelegen
+               hat, ist mit so starken Zügen gezeichnet, drückt sich selbst in den geschilderten
+               Charakteren so unverkennbar aus, und geht schon aus dem Geiste, der das Ganze so
+               lebendig durchwaltet, so freiwillig hervor, dass der Leser keinen Augenblick
+               zweifelhaft bleiben kann. Wäre diess aber noch möglich, so dürfte er sich nur an die,
+               von dem <persName ref="gnd-118556312">Vf.</persName> in seinen frühern Schriften
+               geäusserten Ueberzeugungen wieder zurückerinnern. Denn — um diess beiläufig zu
+               bemerken — nur in den Schriften weniger Männer wird man eine solche bewundernswürdige
+               Einheit antreffen, als ein tiefes und anhaltendes Studium in den Schriften des
+                  <persName ref="gnd-118556312">Vf.</persName> nirgends vermissen kann. <quote>Nach
+                  meinem Urtheil</quote> — heisst es einmal in den Briefen über die Lehre des
+                  <persName ref="gnd-118616242">Spinoza</persName> (2te Aufl. S. 42.) — <quote>ist
+                  das grösseste Verdienst des Forschers, Daseyn zu enthüllen, und zu offenbaren.
+                  Erklärung ist ihm Mittel, Weg zum Ziele, nächster — niemals letzter Zweck. Sein
+                  letzter Zweck ist, was sich nicht erklären lässt: das Unauflösliche, Unmittelbare,
+                  Einfache.</quote> Dieser Ueberzeugung, die den philosophischen Charakter des
+                  <persName ref="gnd-118556312">Vf.</persName> auf das treffendste schildert,
+               getreu, geht er in dem System der praktischen Philosophie, das im
+                  <title>Woldemar</title> seinem ganzen Wesen nach dargelegt ist, (Th. 1. S. 130.)
+               von einem <quote>menschlichen Instinct</quote> aus, auf dem alle Tugend zu- <pb n="1.301" xml:id="pbI301"/> letzt beruht, <quote>der den Menschen zwingt, sich aus
+                  den Tiefen seines Wesens dieselbe hervorzuschaffen.</quote> Dieser Instinct der
+               menschlichen, oder überhaupt jeder sinnlich vernünftigen Natur ist ihm (vergl. Ed.
+                  <title>Allwills Briefsamml</title>. Vorr. S. XVI. Anm.) diejenige Energie, welche
+               die Art und Weise ihrer Selbstthätigkeit, durch deren Kraft man sich jede ihrer
+               Handlungen als alleinthätig angefangen und fortgesetzt denken muss, ursprünglich
+               (ohne Hinsicht auf noch nicht erfahrne Lust oder Unlust) bestimmt.<note type="footnote" n="ix)" resp="gnd-116890657">
+                  <hi>Wörtlich lautet dort die Definition: <quote>Ich nenne Instinkt diejenige
+                        Energie, welche die Art und Weise der Selbsttätigkeit, womit jede Gattung
+                        lebendiger Naturen als die Handlung ihres eigentümlichen Daseins selbst
+                        anfangend und alleintätig fortsetzend gedacht werden muß, ursprünglich (ohne
+                        Hinsicht auf noch nicht erfahrene Lust und Unlust) bestimmt.</quote>
+                  </hi>
+               </note> Insofern diese Naturen bloss in ihrer vernünftigen Eigenschaft betrachtet
+               werden, hat derselbe die Erhaltung und Erhöhung des persönlichen Daseyns, des
+               Selbstbewusstseyns, der Einheit des reflectirten Bewusstseyns mittelst
+               continuirlicher durchgängiger Verknüpfung: — Zusammenhang zum Gegenstande; und
+               insofern man in der höchsten Abstraction die vernünftige Eigenschaft rein absondert,
+               geht der Instinct einer solchen blossen Vernunft allein auf Personalität mit
+               Ausschliessung der Person und des Daseyns, weil beide hier nothwendig wegfallende
+               Individualität verlangen. Die reine Wirksamkeit dieses letzten Instincts könnte
+               reiner Wille, das Herz der blossen Vernunft heissen, und wenn man ihr, als einer
+               Indication, philosophisch nachgienge, würde sich aus ihr unter anderm auch die
+               Erscheinung eines unstreitig vorhandnen kategorischen Imperativs der Sittlichkeit
+               vollkommen begreiflich finden lassen. Dieser Instinct umfasst also die doppelte Natur
+               des Menschen. Er geht auf Erhaltung des Daseyns, wie jeder Trieb überhaupt; allein
+               als auch der vernünftigen Natur angehörend, nur auf Erhaltung des dem Menschen
+               eigenthümlichen Dasevns. Die eigenthümliche Natur des Menschen aber ist Vernunft und
+               Freiheit. Vermöge dieses Instincts ist sich der Mensch daher einer Kraft bewusst, mit
+               welcher er, allen Antrieben der Sinne entgegen, allein der Vernunft zu folgen vermag;
+               ja er fühlt sich sogar, diess zu thun, durch einen unaustilgbaren Trieb gedrungen.
+               Wie dieser Trieb entsteht, wie er wirkt, begreift er nicht; versucht er auch, wenn er
+               weise ist, nicht zu erklären. Denn erklären lässt sich nur das Abhängige,
+               Vermittelte; dieser Trieb aber ist das Letzte, Unvermittelte. Allein seines Da- <pb n="1.302" xml:id="pbI302"/> seyns und seiner höheren Natur ist er sich mit einer
+               über allen Zweifel erhabenen Gewissheit bewusst; er fühlt, dass er selbst nur durch
+               ihn mit allem Göttlichen verwandt, dass er <quote>der Odem Gottes ist in dem Gebilde
+                  von Erde.</quote>
+               <note type="footnote" n="x)" resp="gnd-116890657">
+                  <hi>
+                     <title>Über die Lehre des <persName ref="gnd-118616242">Spinoza</persName>
+                     </title> S. XLIII.</hi>
+               </note> Was dieser Trieb in seiner Reinheit schaft, ist Tugend; und weil Uebung der
+               Tugend nichts anders, als Wirksamkeit des Menschen in seinem eigenthümlichsten Daseyn
+               ist, so ist mit der Tugend zugleich unmittelbar Glückseligkeit verbunden. Denn
+               dasselbe Bewusstseyn, durch das wir den Ursprung der Tugend aus dem bessern Theil
+               unsers Wesens gewahr werden, lehrt uns auch, <quote>dass die höchste Glückseligkeit
+                  nicht eine gewisse Art des äusserlichen Zustandes, sondern eine Beschaffenheit des
+                  Gemüths, eine Eigenschaft der Person ist.</quote> (Th. 1. S. 124.) Und so ist es
+               die Tugend, welche <quote>dem Menschen zugleich die Geheimnisse seiner Natur und
+                  seiner Glückseligkeit heller offenbart.</quote>(Th. 1. S. 130.) Auf diesem
+               Fundament ruht das System der praktischen Philosophie des <persName ref="gnd-118556312">Vf.</persName> Wie ungewöhnlich nun auch mancher Ausdruck, wie
+               fremd die ganze Darstellungsart Lesern scheinen mag, welche sich einmal streng an die
+               bisherigen Systeme halten; so werden sie derselben nicht absprechen können, dass die
+               höchste Reinheit der Moralität darin unentweiht geblieben ist. Denn das Einzige,
+               worauf alles endlich zurückgeführt wird, ist die Kraft der praktischen Vernunft, die
+               uneingeschränkte Freiheit des Willens. Alle materialen Grundsätze sind gänzlich
+               entfernt; und derjenige, der zwar nirgends förmlich ausgedrückt ist, den aber die
+               ganze Ideenreihe deutlich anzeigt, ist lediglich formal, und allein in der Form der
+               menschlichen Vernunft enthalten, auf welcher des Menschen persönliches Daseyn beruht,
+               dessen Erhaltung und Erhöhung jener Instinct zum Gegenstande hat. Allein die Moral
+               ist, dieser Vorstellungsart zufolge, auch wiederum nicht bloss eine aus Formeln und
+               Vernunftsätzen bestehende Theorie, der es, wie consequent sie auch an sich seyn
+               möchte, noch immer an äussrer Wahrheit, an praktischer Nothwendigkeit mangeln könnte;
+               sie ist durch die festesten und in der Natur selbst sichtbarsten Bande mit der
+               Wirklichkeit verknüpft, und geht aus dem innersten Wesen des Menschen hervor. Wenn er
+               Mensch heissen, nicht die Stimme seines eignen Gefühls übertäuben will, muss er ihr
+               Gehorsam leisten. Jener Trieb ist unläugbar im Menschen vorhanden, und insofern
+               Instinct diejenige <pb n="1.303" xml:id="pbI303"/> innere bewegende Kraft ist, welche
+               ursprünglich mit der Eigenthümlichkeit eines Wesens gegeben ist, kann er auch mit
+               Recht Instinct genannt werden. Genau untersucht wird hier sogar nichts anders zum
+               Grunde gelegt, als eben das, wovon auch das rechtverstandene Moralsystem der
+               kritischen Philosophie ausgeht — sittliches Gefühl, Gewissen, Freiheit. Allein es ist
+               hier auf einem durchaus andern, völlig eignen Wege gefunden, und wird auf einem
+               andern herbeigeführt. Daher stellt es auch gerade seinen Ursprung in ein vorzüglich
+               helles Licht, zeigt noch klärer die Verbindung zwischen dem Moralgesetz, und der
+               wirklichen Natur des Menschen, enthüllt gleichsam noch mehr die Thatsachen der
+               Freiheit und des sittlichen Gefühls, und giebt dadurch selbst zur Aufbauung der
+               endlichen, von allen Seiten genügenden Philosophie die treflichsten Winke. Einen
+               solchen Wink glauben wir z. B. darin zu entdecken, dass dem Instinct, der allem zum
+               Grunde liegt, durchgängiger Zusammenhang zum Gegenstand gegeben, und also im Menschen
+               ein Grundtrieb nach innerer und äusserer Ueber einstimmung festgestellt wird, aus dem
+               sich — wenn es hier der Ort wäre, solchen Entwicklungen vorzugreifen — auch, unter
+               andern wichtigen Folgen für die theoretische und praktische Philosophie, der
+               nothwendige Zusammenhang der Glückseligkeit mit der Tugend streng beweisen lassen
+               würde. Allein die Einsicht dieses Zusammenhanges bleibt immer ein tiefer Blick in die
+               innerste Natur des Menschen. Den alten Philosophen, vorzüglich dem <persName ref="gnd-118650130">Aristoteles</persName>, entgieng er nicht.<note type="footnote" n="xi)" resp="gnd-116890657">
+                  <hi>Vgl. <persName ref="gnd-118556312">Jacobi</persName>s eigene
+                     Auseinandersetzung der ethischen Prinzipien des <persName ref="gnd-118650130">Aristoteles</persName> im <title>Woldemar</title> 2, 242.</hi>
+               </note> Ihnen war der Mensch zu sehr ein Ganzes; ihre Philosophie gieng zu sehr von
+               den dunklen, aber richtigen Ahndungen des Wahrheitssinnes aus. Sie verfielen aber zum
+               Theil in ein entgegengesetztes Extrem, und läugneten alle Abhängigkeit von der Hand
+               des Geschicks. Die neuere Philosophie hat zu sehr durch fremde Hand verknüpft, was,
+               seiner Natur nach, schon verschwistert ist. Es bleibt einer künftigen vorbehalten,
+               durch ein noch tieferes Eindringen in die Natur des sittlichen Gefühls, und seiner
+               Wirksamkeit in dem ganzen Wesen des Menschen, das streng darzuthun, wofür die
+               Empfindung des natürlichen, aber gutgestimmten Menschen von selbst so laut spricht.
+               Dass aber jenem Triebe, jenem ursprünglichen Instincte nicht etwa unbestimmte
+               Begriffe, oder dunkle Gefühle zum Grunde liegen, <pb n="1.304" xml:id="pbI304"/>
+               beweisen unter mehreren merkwürdigen Stellen dieser Schrift vorzüglich die Worte
+                  <persName ref="person-000016">Woldemar</persName>s (Th. 1. S. 135.) in dem
+               Gespräche mit <persName ref="person-000017">Biderthal</persName>. Nachdem er gezeigt
+               hat, wie der Begriff wichtiger und höher ist, als die Empfindung, und wie das ganze
+               menschliche Bestreben dahin geht, unsre Empfindungen in Begriffe zu verwandeln, kommt
+               er auf die Frage, worin die Vortreflichkeit des Menschen bestehe? <quote>Die
+                  Gaben,</quote> antwortet er sich selbst, <quote>sind mancherlei; aber jeder ist
+                  vortreflich in seinem Maass, dessen Vernunft seine Empfindungen, Begierden und
+                  Leidenschaften überschaut und beherrscht. Ich sage beherrscht! denn Empfindungen,
+                  Begierden und Leidenschaften müssen da seyn, wenn menschliche Vernunft da seyn
+                  soll. Aus stumpfen Sinnen werden nie helle Begriffe hervorgehen; und wo Schwäche
+                  der Triebe und Begierden ist, da kann weder Tugend noch Weisheit eine Stelle
+                  finden. Kein Volk; keine Obrigkeit! Keine Obrigkeit; keine Gemeine! Je zahlreicher
+                  aber und je rüstiger die Menge, desto grösser das Fürstenthum! Und gleich einem
+                  Fürstenthum ist die Vernunft, wovon ich rede. Ihr gehört jenes herrschende Gefühl,
+                  jene herrschende Idee, wodurch allen übrigen Ideen und Gefühlen ihre Stelle
+                  angewiesen wird, und ein höchster unveränderlicher Wille in die Seele kommt; von
+                  ihr kommt jener auf unüberwindliche Liebe gegründeter unüberwindlicher Glaube,
+                  und, mit diesem Glauben, jener heilige Gehorsam, welcher besser ist, denn
+                  Opfer.</quote> Das in dieser letzten Stelle über Liebe und Glauben Gesagte betrift
+               die Verbindung der Moral mit der Religion, und erhält seine vollkommene Aufklärung
+               aus den Briefen über die Lehre des <persName ref="gnd-118616242">Spinoza</persName>.
+               Vorr. S. XLI—XLV. §. XXXIX—XLVI. Was also wohl das Resultat der ganzen Philosophie
+               des <persName ref="gnd-118556312">Vf.</persName> überhaupt seyn dürfte, dass sie
+               nemlich Wahrheit und Daseyn, um seinem eignen Ausdruck zu folgen, scharf aufzufinden,
+               und klar zu enthüllen, die Thatsachen, von welchen ausgegangen werden muss,
+               darzustellen, und den Weg des ferneren Ganges im Ganzen zu zeigen, mehr als
+               vielleicht irgend eine andre, mit oft bewundernswürdigem Glücke bemüht ist; das ist
+               gewiss in noch höherem Grade das Resultat des in dem <persName ref="person-000016">Woldemar</persName> entworfenen Moralsystems. Allein wie bei seinen übrigen
+               philosophischen Aeusserungen, so möchte man auch hier manchmal wünschen, dass es ihm
+               gefallen haben möchte, die Begriffe noch genauer zu analysiren, die Sätze in
+               strengerer Folge aus einander herzuleiten, ja selbst hie und da dem Ausdruck eine
+               grössere Bestimmtheit zu <pb n="1.305" xml:id="pbI305"/> geben, um noch mehr jedem
+               möglichen Misverständniss zuvorzukommen. Ueberall würde der Vortrag dadurch mehr
+               Fasslichkeit und grössere philosophische Strenge erhalten; wo aber das System selbst
+               noch einer Prüfung bedarf, da würde eine solche Methode zugleich den Vortheil, auch
+               diese zu erleichtern, gewähren. Allein freilich könnte diess Unternehmen, wie schon
+               der <persName ref="gnd-118556312">Vf.</persName> selbst einmal (Br. üb. d. Lehre d.
+                  <persName ref="gnd-118616242">Spinoza</persName>. Vorr. S. XXIV.) bemerkt,
+               vollkommen nur in einem eignen sehr kritischen Werke geschehen, in welchem er sein
+               Gedankensystem von Grund aus, und im Zusammenhange mit allen seinen Folgen darlegte;
+               und wenn der Leser sich ihm schon zum lebhaftesten Dank für das, was er empfängt,
+               verpflichtet fühlt, ist er freilich nicht berechtigt, auch noch auf eine neue Gabe
+               Anspruch zu machen. So reich aber die gegenwärtige Schrift auch an philosophischem
+               Gehalt ist; so ist sie doch auf der andern Seite zugleich ein freies dichterisches
+               Product, und verdient vorzüglich als Kunstwerk, dass die prüfende Aufmerksamkeit
+               dabei verweile. Auch alle philosophische Absicht entfernt, ist das Ganze ein schönes,
+               anziehendes Gemählde interessanter Situationen; die Reihe der Begebenheiten geht, nur
+               durch sich selbst bestimmt, mit ungezwungener Leichtigkeit fort, und das Raisonnement
+               scheint wie von selbst und ohne Absicht hineinverwebt. Die Geschichte, welche dem
+               Ganzen zum Vehikel dient, ist nicht reich an Erfindung, noch ihr Faden verwickelt —
+               ein einfaches Familienleben in Verhältnissen, die fast durchaus mehr durch die
+               Empfindungsweise der handelnden Personen, als durch äussre Vorfälle bestimmt werden.
+               Allein gerade diess foderte auch sowohl die philosophische, als poetische Absicht des
+                  <persName ref="gnd-118556312">Vf.</persName> Je weniger Abweichungen die
+               Dazwischenkunft äussrer Begebenheiten veranlasste, desto reiner konnten sich die
+               Charaktere aus ihrer Individualität entwickeln, und diese vollkommen zu schildern,
+               war unstreitig sein Hauptzweck. Und in der That verräth auch die Art ihrer Zeichnung,
+               ihrer Haltung, ihrer Auflösung, da wo die Verwicklung manchmal auf den höchsten Grad
+               steigt, eine seltne Feinheit der Beobachtung und eine gleich ungewöhnliche Gabe der
+               Darstellung. Es gehörte ein eigner grosser Gehalt dazu, die einzelnen Züge zu
+               Menschen, wie sie hier geschildert sind, zusammenzutragen, und reife psychologische
+               Einsicht, sie, der Natur entsprechend, in Ein Bild zu vereinigen. Denn die hier
+               gezeichneten Charaktere sind nicht bloss wegen ihrer wirklichen Vortreflichkeit
+               selten, sondern besitzen auch <pb n="1.306" xml:id="pbI306"/> einen Grad der
+               Originalität, der ihnen vor manchem, auch nicht ungeweihtem Auge etwas Fremdes, wenn
+               nicht gerade Unnatürliches geben kann. Zwar existiren gewiss, zum Glück und zur Ehre
+               der Menschheit, Individuen von gleich eindringendem Geiste, gleich grosser Wärme des
+               Gefühls, gleich zartem Schönheitssinn, Menschen, denen also eben so wenig weder das
+               Mühen nach äusseren Endzwecken, noch die blosse Thätigkeit der intellectuellen Kräfte
+               genügt, die sich eben so ein eignes und gerade das liebste Geschäft daraus machen,
+               gleichsam in der Mitte ihrer Empfindungen zu leben. Allein selten, und auch diess hat
+               die Natur mit Weisheit geordnet, werden sie von den äussern Gegenständen so wenig
+               gestört, und seltner noch von ihren Verhältnissen selbst so dringend veranlasst,
+               sich, wenn der Ausdruck erlaubt ist, so in ihren Gefühlen zu verlieren, so anhaltend
+               über ihnen zu verweilen, sie endlich so dauernd und so mächtig herrschend in sich
+               werden zu lassen, als man hier, vorzüglich in einigen Epochen, an <persName ref="person-000016">Woldemar</persName> und an seinen Freunden bemerkt. Was in der
+               Natur einzeln, in verschiedenen Lagen, in längeren Zeiten zerstreut ist, das ist hier
+               sehr natürlich näher zusammengerückt, und macht nur dadurch einen verschiednen,
+               weniger gewohnten Eindruck. Es würde daher kaum wunderbar scheinen dürfen, wenn
+               einige Situationen, z. B. <persName ref="person-000016">Woldemar</persName>s
+               Abneigung, sich mit <persName ref="person-000018">Henriette</persName>n zu
+               verheirathen, und besonders die Art, wie beide sich, auf die Veranlassung eines
+               Misverständnisses, gegenseitig quälen, wo Eine einfache Erklärung sie verglichen
+               haben würde, einigen Lesern, vorzüglich beim ersten Anblick, nicht ganz natürlich
+               scheinen sollten. Nicht zwar als könnten dergleichen im wirklichen Leben nicht
+               vorkommen, da jeder Leser sich vielleicht nicht unähnlicher erinnern wird; nicht auch
+               als entsprängen sie nicht aus den Charakteren, wie sie einmal geschildert sind, oder
+               als wären die Umstände nicht gehörig auseinander gesetzt, die sie nicht bloss
+               möglich, sondern sogar nothwendig machten; sondern bloss weil es ein mächtiger
+               Unterschied ist, etwas in der wirklichen Natur und in der nachahmenden Schilderung zu
+               erblicken. Es ist damit gerade ebenso, als mit der Erscheinung, dass es Dinge giebt,
+               die beides zu komisch und zu tragisch sind, um z. B. auf dem Theater Glauben zu
+               finden, und die dennoch im Leben wirklich und sogar nicht selten vorkommen. Wie
+               nemlich die Natur immer die Gewissheit der Wirklichkeit unmittelbar mit sich führt,
+               so ist die Nachahmung zu leicht von einem gewissen Mistrauen gegen ihre <pb n="1.307" xml:id="pbI307"/> Treue begleitet. Von diesem veranlasst geht man leicht dem Wege
+               nach, auf dem sie eine Situation herbeiführt, um ihre Möglichkeit zu beurtheilen; und
+               wie streng und genau dieser gezeichnet seyn mag, so zerstreut, (noch ungerechnet,
+               dass es oft geheime, kaum bemerkbare Ursachen giebt, welche aller Darstellung
+               entschlüpfen,) schon diese Vergleichung die Beobachtung, und verändert den Eindruck.
+               Vorzüglich bei der Schilderung von Charakteren mag es also, auch innerhalb der
+               empirischen Wahrheit, noch eine gewisse Grenze der poetischen Wahrscheinlichkeit
+               geben; vorzüglich da mag nur eine gewisse Abweichung von der gewöhnlichen
+               Menschennatur, die dem Gefühl eines jeden zum Maassstabe des Natürlichen dient,
+               erlaubt seyn. So gefährlich aber auch die Klippe war, die dem <persName ref="gnd-118556312">Vf.</persName>, welcher, seiner Absicht gemäss, einmal keine
+               andre moralische Gestalten, als gerade die geschilderten, wählen konnte, hier drohte;
+               so glücklich hat er sie zu überwinden verstanden, und auch die Zweifel, von welchen
+               wir eben sprachen, werden gewiss bei tieferem Studium der gezeichneten Charaktere
+               verschwinden. Vertraut mit dem Wesen der poetischen Kunst, weiss er, auch was völlig
+               subjectiv scheint, noch an die nothwendigen Bedingungen der menschlichen Natur
+               anzuknüpfen; mit kluger Vorsicht lässt er jede neue Wendung des Charakters so
+               vollständig vorbereiten, und so lange verweilen, und mit meisterhaftem Talent
+               versucht er durch eine schöne, an mehr als Einer Stelle hinreissende Sprache den
+               Leser so in sein Interesse zu verweben, dass sein Gefühl in die gleiche Stimmung
+               übergeht. Nun ist ihm jeder folgende Schritt klar, nun theilt er ihn selbst. Immer
+               aber bleibt in Charakteren, wie <persName ref="person-000016">Woldemar</persName> und
+                  <persName ref="person-000018">Henriette</persName>, wie sie durch <persName ref="person-000016">Woldemar</persName> umgebildet ist, gleichsam eine gewisse
+               Schwierigkeit zurück. Wie schön und edel sie sind, wie tief sie ergreifen und
+               erschüttern; so spannen sie doch das Interesse auf eine beunruhigende Weise. Es
+               schmerzt, wenn man sieht, dass sie in der glücklichsten äusseren Lage, mit den besten
+               Kräften, die das Geschick seinen Günstlingen zu schenken vermag, ihre Zufriedenheit
+               und Thätigkeit durch Leiden unterbrechen, die man in die Versuchung kommen möchte,
+               selbstgeschaffen zu nennen. Sanft und schön ruht daher der Blick auf einigen andern
+               Gestalten aus, die mit weiser Oekonomie an ihre Seite gestellt sind. Welcher Leser
+               erinnert sich nicht hiebei an <persName ref="person-000019">Allwina</persName>, an
+               das liebenswürdige Geschöpf, das in der höchsten Anspruchlosigkeit, sich selbst
+               unbewusst, einen Schatz von Tiefe und Grösse des Charakters be- <pb n="1.308" xml:id="pbI308"/> wahrt, das schwere Verhältniss zwischen <persName ref="person-000016">Woldemar</persName> und <persName ref="person-000018">Henriette</persName>n allein durch Unbefangenheit des Sinnes fasst, und durch
+               hingebende Liebe in schönen Einklang auflöst? Auch <persName ref="person-000018">Henriette</persName>ns beide verheirathete Schwestern haben in dieser Rücksicht
+               keinen unbeträchtlichen Antheil an der Wirkung des Ganzen; und selbst der alte
+                  <persName ref="person-000020">Hornich</persName>, wie er nur durch äussre
+               Verhältnisse gebildet ist, und nur im Aeussern lebt, trägt durch seine contrastirende
+               Gestalt wesentlich dazu bei, der Gruppe Mannigfaltigkeit zu geben, die von einer
+               andern Seite her Einheit erhält. Denn <persName ref="person-000016">Woldemar</persName> ist es, seine Art zu seyn, die sich nach und nach allen
+               übrigen mehr oder minder mittheilt, an welche sich alles andre anschliesst. Dass sein
+               Charakter sich entwickelte, dass er zu dem Grade der Ruhe und Festigkeit käme, der
+               ihm so sehr mangelte, und nach dem er sich so innig sehnte, ist das letzte Ziel
+               dieses schönen, mannigfaltig verflochtenen Ganzen. Diesem Ziele arbeitet alles in
+               grosser Einheit entgegen. So wie <persName ref="person-000016">Woldemar</persName>
+               auftritt, erregt sein Charakter bei dem Leser, wie bei seinen Freunden, Besorgnisse.
+               Wie er da ist, fühlt man lebhaft, ist er noch nicht zur Stätigkeit und Ruhe gediehen;
+               er muss noch viele Prüfungen bestehen, neue Umwandlungen erleiden. In der Folge
+               steigt die Verwicklung, und noch gerade den nächsten Augenblick vor der Auflösung hat
+               sie den höchsten Gipfel erreicht, so dass man sich durch diese doppelt überrascht
+               sieht. Dennoch ist es gerade diese Auflösung, mit welcher mancher Leser minder
+               zufrieden seyn dürfte. Wie man sich <persName ref="person-000016">Woldemar</persName>
+               bis dahin zu denken gewohnt gewesen ist, mit der Grösse und Festigkeit, mit dieser
+               eigentlichen Stärke des Charakters, hätte man ihn, wenn er je fallen konnte, lieber
+               sich durch eigne Kraft wieder aufrichten sehen, als an der Hand eines Dritten, sey es
+               auch die Hand der Geliebten. Es ist schwer zu beurtheilen, ob in dem Plane des
+                  <persName ref="gnd-118556312">Vf.</persName> ein solcher Ausgang möglich war.
+               Allein in dem Charakter selbst, so wie er entwickelt ist scheint keine Unmöglichkeit
+               zu liegen. Wenn er auf dem Wege fortgieng, auf dem er war, wenn er, endlich an aller
+               Menschenwürde und Menschenkraft verzweifelnd, sich einem völligen Unglauben, einer
+               alles verachtenden Härte überliess; so mussten gerade durch diess Uebergewicht der
+               entgegengesetzten Gefühle jene sanfteren und natürlicheren nach eben dem Gesetz von
+               selbst wieder lebhaft werden, nach welchem jede Kraft gerade dann am regsamsten wird,
+               wenn ihr der gänzliche Untergang droht. Je schrecklicher die Einöde war, in welche
+                  <persName ref="person-000016">Woldemar</persName>s Seele sich um- <pb n="1.309" xml:id="pbI309"/> geschaffen fühlte, desto mächtiger musste die leiseste Regung
+               dieser Empfindungen wirken; der Rückweg war nun schneller als die Verirrung; und
+                  <persName ref="person-000016">Woldemar</persName> kehrte so durch sich selbst zum
+               Glauben an Tugend und Menschheit, und mit ihm zum Glauben an <persName ref="person-000018">Henriette</persName>n zurück. Aber er dankte seine Rettung
+               nicht minder dem Gefühle der Liebe; Vertrauen auf Liebe trat nicht minder an die
+               Stelle des stolzeren Selbstvertrauens; der Sieg der Liebe war vielmehr um so grösser,
+               wenn sie nicht <persName ref="person-000018">Henriette</persName>ns Wort, wenn sie
+               nur ihr Andenken, nur was <persName ref="person-000018">Henriette</persName> in
+                  <persName ref="person-000016">Woldemar</persName>s Seele gestiftet hatte, zu Hülfe
+               zu rufen brauchte. Die einzelnen Rollen sind mit grosser Zweckmässigkeit unter die
+               auftretenden Personen vertheilt, und die Charaktere mit vieler Kunst gezeichnet und
+               durchgeführt. Der wichtigste ist <persName ref="person-000016">Woldemar</persName>
+               selbst. Von diesem ist aber schon in dem Versuche geredet worden, den wir oben
+               gemacht haben, einen Abriss der ganzen Schrift zu liefern, und zwar einen Abriss, der
+               gerade ihre Eigenthümlichkeiten, und nur diese darstellte, und gerade demjenigen
+               Leser vielleicht am meisten willkommen wäre, der das Werk selbst schon gelesen hätte.
+                  <persName ref="person-000018">Henriette</persName> ist zu genau mit <persName ref="person-000016">Woldemar</persName> verbunden, als dass dadurch nicht zugleich
+               auch die Schilderung ihres Charakters hinlänglich geprüft wäre. Indess ist dieser
+               fast unter allen der schwierigste, aber auch vor allen mit feiner Kunst behandelt. In
+               den Lagen, in welche sie durch <persName ref="person-000016">Woldemar</persName>
+               versetzt wird, kann es nicht fehlen, dass man nicht hie und da einen Augenblick die
+               ganze, volle Weiblichkeit in ihr vermissen sollte. Wir erinnern hier an ihre eigne
+               Weigerung, sich mit <persName ref="person-000016">Woldemar</persName> zu verbinden,
+               an die Gespräche, die länger, raisonnirender, belehrender sind, als wir sie von der
+               Anspruchlosigkeit der Frauen erwarten. Allein bei genauerer Untersuchung entdeckt
+               sich, dass gerade, was hier minder weiblich erscheint, sich durch die höchste
+               Weiblichkeit auflöst. Nur um ihren Freund ihrer Freundin zu schenken, thut sie selbst
+               Verzicht auf ihn; nur aus der höchsten Liebe zu ihm, einer Liebe, die beide Wesen in
+               ihrem ganzen Daseyn zusammenschmelzt, folgt sie ihm in dem ihm nun einmal
+               eigenthümlichen Ideengange; nur an dem letzten Gespräch, in dem es <persName ref="person-000016">Woldemar</persName>s Rettung gilt, nimmt sie einen lebhaften
+               und mehr thätigen Antheil. Von <persName ref="person-000019">Allwina</persName> ist
+               schon im Vorigen gesprochen. Auch die übrigen Personen sind mit Bestimmtheit und
+               Sorgfalt gezeichnet, und aller Gleichheit ungeachtet, welche Freundschaft und
+               gemeinschaftliches Leben ihnen gegeben hat, unterscheidet sich der redliche, aber so
+               leicht <pb n="1.310" xml:id="pbI310"/> ängstlich besorgte <persName ref="person-000017">Biderthal</persName> sehr merklich von dem kühneren, mehr
+               raisonnirenden <persName ref="person-000021">Dorenburg</persName>. In der Schilderung
+               des alten <persName ref="person-000020">Hornich</persName> liegt eine eigne Natur und
+               Wahrheit, und es gehörte viel Kunst der Behandlung dazu, einen Charakter, der so
+               manche wirkliche Härten hat, dennoch bis auf einen gewissen Grad liebenswürdig
+               erscheinen zu lassen. — So wenig sich auch die Sprache des <persName ref="gnd-118556312">Vf.</persName> in ihrer Eigenthümlichkeit mit wenigen Worten
+               charakterisiren lässt, so ist sie dennoch zu eindringend und schön, um sie ganz zu
+               übergehen. Vorzüglich glücklich ist er in dem, was gerade andern so selten gelingt,
+               in Schilderungen hoher und zarter Seelenstimmungen, wovon wir unter so vielen nur
+               folgende wenige Th. 1. S. 39. 40. S. 186—190. Th. 2. S. 17—19. S. 46. 47.ff. zu
+               Beweisen anführen wollen.</p>
+            <p>Gleichsam als bald längere, bald kürzere Episoden sind in diese Schrift theils eine
+               Menge treflicher psychologischer Bemerkungen, theils interessante Raisonnements über
+               wichtige Gegenstände aus dem Gebiete der Philosophie des Lebens verwebt. Vorzüglich
+               unter den letzteren zeichnen sich Th. 1. S. 24. u. 40. über Freundschaft und Liebe;
+               S. 51—63. über die Wahl der Gesellschaft; S. 80—103. über das Uebermaass in Pracht
+               und Einfachheit; Th. 2. S. 37—46. über das weibliche Geschlecht, und mehrere andre
+               aus. In dem letzten ausführlichen Gespräch über Tugend und Moralität giebt der
+                  <persName ref="gnd-118556312">Vf.</persName> zugleich (Th. 2. S. 210—244. u. Beil.
+               S. 285—294.) einen körnigten Auszug aus der Moral des <persName ref="gnd-118650130">Aristoteles</persName>, der das Gedankensystem des <persName ref="gnd-118650130">Stagiriten</persName> in bündiger Kürze und mit philosophischer Präcision
+               darstellt, und den wir ebensowenig als die vortrefliche Uebersetzung eines schönen
+               Stücks aus dem <persName ref="gnd-118595237">Plutarch</persName>
+               <note type="footnote" n="xii)" resp="gnd-116890657">
+                  <hi>
+                     <persName ref="gnd-118556312">Jacobi</persName> giebt dort einen knappen Auszug
+                     aus den Biographieen des <persName ref="gnd-118647288">Agis</persName> und
+                        <persName ref="gnd-119120461">Kleomenes</persName>.</hi>
+               </note> (Th. 2. S. 178—205.) unerwähnt lassen können. Dass endlich die gegenwärtige
+               Schrift eine Vollendung einiger schon vor mehreren Jahren erschienenen Fragmente ist,
+               wird für den grössten Theil der Leser nicht erst einer Erwähnung bedürfen.</p>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte</title>
+            </head>
+            <p>Erster Druck: <bibl>
+                  <title>
+                     <orgName ref="gnd-6146667-0">Allgemeine Literaturzeitung</orgName>
+                  </title> vom Jahre <date when="1794">1794</date>
+                  <biblScope unit="issue">3</biblScope>, <biblScope unit="page">801–807</biblScope>
+                     (<biblScope unit="number">Nr. 315</biblScope>, <date when="1794-09-26">26.
+                     September</date>). <biblScope unit="page">809–816</biblScope> (<biblScope unit="number">Nr. 316</biblScope>, <date when="1794-09-27">27.
+                  September</date>). <biblScope unit="page">817–821</biblScope> (<biblScope unit="number">Nr. 317</biblScope>, <date when="1794-09-27">27.
+                  September</date>)</bibl>.</p>
+            <p>Am <date when="1794-01-31">31. Januar 1794</date> sandte <persName ref="gnd-118556312">Jacobi</persName> an <persName ref="gnd-118554727">Humboldt</persName> seine eben fertig gewordene neue Bearbeitung des <title>Woldemar</title> und knüpfte damit den seit langer Zeit abgerissenen Faden ihrer freundschaftlichen Beziehungen wieder an (<bibl>
+                  <title>
+                     <persName ref="gnd-118556312">Jacobi</persName>s auserlesener
+                     Briefwechsel</title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">141</biblScope>
+               </bibl>); am <date when="1794-03-01">1. März</date> kam die Sendung in <placeName ref="geo-2895044">Jena</placeName> in <persName ref="gnd-118554727">Humboldt</persName>s Hände (Tagebuch). Als dieser kurze Zeit darauf von <persName ref="gnd-117140791">Schütz</persName> und <persName ref="gnd-118554514">Hufeland</persName> zur Mitarbeiterschaft an der <orgName ref="gnd-6146667-0">Allgemeinen Literaturzeitung</orgName> aufgefordert wurde, nahm er es unter der
+               Bedingung an, nur wenige und ihm selbst interessante Bücher besprechen zu wollen, und
+               erbot sich zu einer Rezension des <persName ref="gnd-118556312">Jacobi</persName>schen Romans, ohne die Schwierigkeit der Aufgabe in seiner
+               Situation zu verkennen. Bei der Herzlichkeit seiner persönlichen Beziehungen zu dem
+               Verfasser und <persName ref="gnd-118556312">Jacobi</persName>s Empfindlichkeit konnte
+               er, der den Roman als Kunstwerk nicht hoch schätzte und für eine mißglückte
+               Nachahmung <persName ref="gnd-118540238">Goethe</persName>s hielt (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1794-12-10">10. Dezember
+                  1794</date>), seine wahre Meinung über das Ganze nur sehr schonend zum Ausdruck
+               bringen und mußte sich daher an eine Paraphrase des philosophischen Inhalts und eine
+               psychologische Zergliederung der Charaktere halten, auch hier stets besorgt der
+               Eigenliebe des Autors nicht zu nahe zu treten. Es ist daher erklärlich, daß ihm die
+               Arbeit fatal und äußerst mühevoll erschien und er selbst mit dem Inhalt und besonders
+               der Diktion unzufrieden war (an <persName ref="gnd-116519770">Brinkmann</persName>,
+                  <date when="1794-09-14">14. September</date> und <date when="1794-11-03">3.
+                  November 1794</date>; an <persName ref="gnd-118607626">Schiller</persName>, <date when="1795-09-14">14. September 1795</date>). Um ganz sicher zu gehen, schickte er
+               die Rezension vor dem Abdruck im Manuskript am <date when="1794-08-25">25.
+                  August</date> an <persName ref="gnd-118556312">Jacobi</persName> zur Begutachtung
+               (Tagebuch), der sie umgehend am <date when="1794-09-02">2. September</date> höchst
+               befriedigt zurücksandte und in seinem Begleitbriefe noch genauer auf einzelne Punkte
+               aus der Psychologie seiner Personen zu sprechen kam (<bibl>
+                  <title>
+                     <persName ref="gnd-118556312">Jacobi</persName>s auserlesener
+                     Briefwechsel</title>
+                  <biblScope unit="volume">2</biblScope>, <biblScope unit="page">174</biblScope>
+               </bibl>). Ende des Monats erschien sie dann gedruckt. Als <date when="1796">zwei
+                  Jahre später</date>
+               <persName ref="gnd-118607987">Friedrich Schlegel</persName> seine vernichtende
+               Rezension über den <title>Woldemar</title>
+               schrieb, meinte <persName ref="gnd-118554727">Humboldt</persName> dadurch ärger
+               mitgenommen zu sein als <persName ref="gnd-118556312">Jacobi</persName> selbst (an
+                  <persName ref="gnd-118556312">Jacobi</persName>, <date when="1797-01-23">23.
+                  Januar 1797</date>), bekannte aber unverhohlen sein volles Einverständnis damit
+               (an <persName ref="gnd-116519770">Brinkmann</persName>, <date when="1796-12-09">9.
+                  Dezember 1796</date>). Von <persName ref="gnd-118607626">Schiller</persName> ist
+               keine Beurteilung der Rezension bekannt; <persName ref="gnd-118540238">Goethe</persName>, dem <persName ref="gnd-118554727">Humboldt</persName> ein
+               Exemplar übersandt hatte, sprach sich gegen <persName ref="gnd-118607626">Schiller</persName> und <persName ref="gnd-118556312">Jacobi</persName>
+               anerkennend aus (<bibl>
+                  <title>Briefe </title>
+                  <biblScope unit="volume">10</biblScope>, <biblScope unit="page">201</biblScope>.
+                     <biblScope unit="page">206</biblScope>
+               </bibl>). Ob eine scharfe Äußerung <persName ref="gnd-118607987">Friedrich
+                  Schlegel</persName>s sich auf die Rezension bezieht, ist fraglich (<bibl>
+                  <title>Briefe an seinen Bruder <persName ref="gnd-118607960">August
+                        Wilhelm</persName>
+                  </title> S. <biblScope unit="page">211</biblScope>; vgl. auch S. <biblScope unit="page">288</biblScope>)</bibl>. Äußerst charakteristisch ist der
+               ausführliche Gedankenaustausch über <persName ref="gnd-118554727">Humboldt</persName>s Kritik im <bibl>
+                  <title>Briefwechsel zwischen <persName ref="gnd-118626175">Rahel</persName> und
+                        <persName ref="gnd-119357704">David Veit</persName>
+                  </title> (<biblScope unit="volume">1</biblScope>, <biblScope unit="page">272</biblScope>. <biblScope unit="volume">2</biblScope>, <biblScope unit="page">5</biblScope>. <biblScope unit="page">11</biblScope>. <biblScope unit="page">17</biblScope>. <biblScope unit="page">21</biblScope>. <biblScope unit="page">40</biblScope>. <biblScope unit="page">51</biblScope>)</bibl>. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

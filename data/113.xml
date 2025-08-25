@@ -1,0 +1,1069 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pindar</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1795-11">November 1795</date>
+         </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-2823708">Tegel</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Essay</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Antike</term>
+                <term>Literatur</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <pb n="1.411" xml:id="pbI411"/>
+            <head>
+               <title type="main">
+                  <persName ref="gnd-118594427">Pindar</persName>
+                  <note type="footnote" n="1)" resp="gnd-118554727">Alte Schriftsteller über
+                        <persName ref="gnd-118594427">Pindar</persName>s Leben. Aristodemus. <bibl>
+                        <title>Schol. <persName ref="gnd-118594427">Pind</persName>. ad P.</title>
+                        <biblScope unit="volume">III</biblScope>
+                        <biblScope unit="page">137</biblScope>. </bibl>
+                  </note>
+               </title>
+            </head>
+            <div type="index">
+               <list rend="roman">
+                  <item n="I">Charakter und Lage — historisch.</item>
+                  <item n="II">Schilderung seiner Gedichte und Beurtheilung ihrer einzelnen Theile —
+                     kritisch.</item>
+                  <item n="III">Schilderung und Beurtheilung seines dichterischen Charakters
+                     überhaupt — rein philosophisch.</item>
+               </list>
+            </div>
+            <div type="chapter" n="I">
+               <head>
+                  <title type="main">I.</title>
+               </head>
+               <div type="section" n="1">
+                  <head>
+                     <title type="sub">
+                        <hi>(Gesichtspunkt bei Beurtheilung der alten Dichter überhaupt)</hi>
+                     </title>
+                     <title type="sub">1.</title>
+                  </head>
+                  <p>Die alten Dichter überhaupt dürfen nicht anders, als mit Rücksicht auf ihre
+                     individuelle Lage beurtheilt werden, wenn nicht bei der Bestimmung des
+                     Charakters ihrer Producte die bloss zufälligen Züge mit den wahrhaft
+                     eigenthümlichen verwechselt werden sollen.</p>
+               </div>
+               <div type="section" n="2">
+                  <head>
+                     <title type="sub">
+                        <hi>(des <persName ref="gnd-118594427">Pindar</persName> insbesondre.)</hi>
+                     </title>
+                     <title type="sub">2.</title>
+                  </head>
+                  <p>In einem ganz vorzüglichen Sinne findet diess beim <persName ref="gnd-118594427">Pindar</persName> Statt, da dieser zugleich eine
+                     geheiligte und eine öffentliche Person <pb n="1.412" xml:id="pbI412"/> war. —
+                     Er war der bestellte Sänger des <persName ref="gnd-118503642">Phöbus</persName>
+                     <note type="footnote" n="2)" resp="gnd-118554727">
+                        <persName ref="gnd-118592246">Pausanias</persName>
+                        <bibl>
+                           <biblScope unit="book">X</biblScope>
+                           <biblScope unit="chapter">24</biblScope>. </bibl>
+                     </note> — nahm Theil an den Geschenken, die der Gott empfieng,<note type="footnote" n="3)" resp="gnd-118554727">
+                        <persName ref="gnd-119483904">Thomas Magister</persName>. <bibl>
+                           <title>Gen. <persName ref="gnd-118594427">Pind</persName>.</title>
+                           <biblScope unit="verses">16-18</biblScope>. </bibl>
+                        <persName ref="gnd-118592246">Pausanias</persName>
+                        <bibl>
+                           <biblScope unit="book">IX</biblScope>
+                           <biblScope unit="chapter">23</biblScope>. </bibl>
+                        <persName ref="gnd-118595237">Plutarch</persName>. <bibl>
+                           <title>De sera num. vind.</title>
+                           <biblScope unit="page">989</biblScope>
+                           <biblScope unit="line">24</biblScope>. </bibl>
+                        <persName ref="gnd-172967503">Castellanus</persName>. <bibl>
+                           <title>De festis Graec.</title>
+                           <biblScope unit="page">165</biblScope>. </bibl>
+                     </note> — und sein ausgebreiteter Ruhm<note type="footnote" n="4)" resp="gnd-118554727">
+                        <persName ref="gnd-118594893">Platon</persName>. <bibl>
+                           <title>De LL.</title>
+                           <biblScope unit="book">3</biblScope>
+                           <biblScope unit="page">590f</biblScope>. </bibl>
+                        <bibl>
+                           <title>Menon</title>
+                           <biblScope unit="page">16g</biblScope>. </bibl>
+                        <persName ref="gnd-118637622">Aeschines</persName>, cp. 4. <persName ref="gnd-118525859">Diogenes Laertius</persName>. <bibl>
+                           <biblScope unit="book">4</biblScope>
+                           <biblScope unit="section">31</biblScope>
+                           <biblScope unit="page">246</biblScope>
+                           <publisher>Ed. Amstel.</publisher>
+                        </bibl>
+                        <persName ref="gnd-118672037">Dionysius Halic</persName>. <bibl>
+                           <biblScope unit="volume">2</biblScope>
+                           <biblScope unit="page">68</biblScope>
+                           <biblScope unit="line">44</biblScope>
+                           <publisher>Ed. Wechel</publisher>
+                        </bibl>
+                        <persName ref="gnd-11882158X">Longinus</persName>. <bibl>
+                           <title>De sublimitate</title>
+                           <biblScope unit="section">33</biblScope>. </bibl>
+                        <persName ref="gnd-118650815">Athenaios</persName>. <bibl>
+                           <biblScope unit="book">XIII</biblScope>
+                           <biblScope unit="chapter">2</biblScope>
+                           <biblScope unit="page">564d</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118553569">Horatius</persName>,
+                           <title>Carmina</title>, <biblScope unit="book">IV</biblScope>, <biblScope unit="poem">2</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118595083">Plinius</persName>, <title>Naturalis
+                              Historia</title>, <biblScope unit="book">II</biblScope>, <biblScope unit="chapter">12</biblScope>, <biblScope unit="section">9</biblScope>. </bibl>
+                        <persName ref="gnd-118597396">Quintilian</persName>. <bibl>
+                           <biblScope unit="book">X</biblScope>
+                           <biblScope unit="chapter">1</biblScope>
+                           <biblScope unit="page">740</biblScope>
+                           <publisher>Ed. Hack.</publisher>
+                        </bibl>
+                        <persName ref="gnd-118640763">Macrobius</persName>. <bibl>
+                           <biblScope unit="book">5</biblScope>
+                           <biblScope unit="chapter">17</biblScope>
+                           <biblScope unit="page">50-51</biblScope>
+                           <publisher>Ed. Lugd.</publisher>
+                        </bibl>
+                     </note> machte ihn zum Organ jeder öffentlichen Feier bei Siegen und Festen im
+                     ganzen <placeName ref="geo-390903">Griechenland</placeName>.<note type="footnote" n="5)" resp="gnd-118554727">
+                        <persName ref="gnd-119483904">Thomas Magister</persName>. <persName ref="gnd-118797948">Solinus</persName>, c. 9. Aelianus, l. 4. c. 15.
+                           <persName ref="gnd-119483904">Thomas Magister</persName>. Tzetzes in
+                           <persName ref="gnd-118550292">Hesiod</persName>um. <bibl>
+                           <biblScope unit="page">104b</biblScope>
+                           <publisher>Ed. Heins.</publisher>
+                        </bibl>
+                        <persName ref="gnd-118637622">Aeschines</persName>, cp. 4. <persName ref="gnd-118592246">Pausanias</persName>. <bibl>
+                           <biblScope unit="book">I</biblScope>
+                           <biblScope unit="chapter">8</biblScope>
+                           <biblScope unit="page">20</biblScope>. </bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="section" n="3">
+                  <head>
+                     <title type="sub">3.</title>
+                  </head>
+                  <p>Daher entspringt die festliche Würde und Erhabenheit, die ihn so vorzüglich
+                     auszeichnet, und die vermehrt wurde durch seinen nationellen <note type="footnote" n="6)" resp="gnd-118554727"> Geschlecht und Herkunft. <bibl>
+                           <persName ref="gnd-119483904">Thom. Mag.</persName>
+                           <title>Pyth.</title>
+                           <biblScope unit="volume">V</biblScope>, <biblScope unit="page">99</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118594427">Pindar</persName>s Bruder selbst Kämpfer.
+                              <title>Gen. <persName ref="gnd-118594427">Pind</persName>.</title>
+                           <biblScope unit="verse">4-5</biblScope>. </bibl>
+                     </note> und individuellen Charakter.</p>
+               </div>
+               <div type="section" n="4">
+                  <head>
+                     <title type="sub">
+                        <hi>(Einfluss des Böotischen Charakters auf ihn.)</hi>
+                     </title>
+                     <title type="sub">4.</title>
+                  </head>
+                  <p>Der Hauptzug des Böotischen Charakters ist unbehülfliche Schwere, und
+                     körperliche Stärke. Dann Hang zur Musik, insbesondre der Flöte.</p>
+               </div>
+               <div type="section" n="5">
+                  <head>
+                     <title type="sub">5.</title>
+                  </head>
+                  <p>Wenn man diess verbindet, scheint Hang zu körperlicher Thätigkeit und
+                     körperlichem Genuss hervorzugehn. Ueberhaupt kann man wohl die Böotischen
+                     Nationalzüge nach andern Nationen desselben Aeolischen Stammes beurtheilen. Im
+                     Ganzen kam der Aeolische Charakter dem Dorischen unstreitig näher, als dem
+                     Attischen. Schon die grössere Aehnlichkeit der Mundarten spricht dafür, so wie
+                     dass beide Stämme soviele, und fast bloss lyrische Dichter besassen. Man darf
+                     daher wohl den Aeoliern den Hauptzug der Dorier gleichfalls beilegen, vermöge
+                     dessen diese weniger der Phantasie und einer müssigen Speculation, als der
+                     Wirklichkeit und den reellen Verhältnissen des praktischen Lebens angehörten.
+                     In den Doriern, wenigstens in den Lacedämoniern, aber <pb n="1.413" xml:id="pbI413"/> hatten diese Züge eine sehr veredelte Gestalt gewonnen. Es
+                     herrschte daher auf der einen Seite mehr Seelengrösse und Strenge der Sitten,
+                     aber auf der andern auch mehr Rigidität und daher weniger Neigung zu
+                     künstlerischem Talent. Von beiden das Gegentheil zeigen in Lesbos die
+                     Aeolischen Sitten, und die Neigung zur Musik in den Thebanern deutet auf diese
+                     Verwandtschaft hin, wenn gleich Himmelsstrich und Landesart diese künstlerische
+                     Anlage in ungünstige Schranken einschloss.</p>
+               </div>
+               <div type="section" n="6">
+                  <head>
+                     <title type="sub">6.</title>
+                  </head>
+                  <p>Nachdem es auf diese Weise, durch Hülfe der Lesbischen Dichterschule
+                     begreiflich geworden ist, wie ein <persName ref="gnd-118594427">Pindar</persName> in Theben aufstehen konnte, sieht man zugleich, dass eine
+                     entschieden lyrische Stimmung und Hang zu gemeinschaftlicher Freude bei
+                     Familien und Bürgerfesten im <persName ref="gnd-118594427">Pindar</persName>
+                     durch den Nationalcharakter bestätigt wurde. Ausserdem aber lassen sich auch
+                     Spuren dieses letzteren in der gleichsam patriarchalischen Gesinnung des
+                     Dichters, seiner fast austeren Frömmigkeit, der Bitterkeit in der häufigen
+                     Erwähnung seiner Hasser<note type="footnote" n="7)" resp="gnd-118554727">
+                        <bibl>
+                           <persName ref="gnd-118525859">Diogenes Laert.</persName>
+                           <biblScope unit="book">2</biblScope>, <biblScope unit="section">46</biblScope>, <biblScope unit="page">108</biblScope>, <biblScope unit="edition">Amstel.</biblScope>. </bibl>
+                        <bibl>
+                           <title>Schol. ad P.</title>
+                           <biblScope unit="volume">II</biblScope>, <biblScope unit="page">97,
+                              131</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-115232710">Suidas</persName> v. Bacchylides. </bibl>
+                        <bibl>
+                           <persName ref="gnd-100961223">Steph. Byzant.</persName>
+                           <biblScope unit="lemma">Ἰουλίς</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118650815">Athen.</persName>
+                           <biblScope unit="book">10</biblScope>, <biblScope unit="chapter">21</biblScope>, <biblScope unit="page">455c</biblScope>. </bibl>
+                        <bibl>Ibique Casaubonus.</bibl>
+                     </note> und Neider, dem häufigeren Einmischen seiner eignen Person,<note type="footnote" n="8)" resp="gnd-118554727">
+                        <bibl>
+                           <persName ref="gnd-118595237">Plut.</persName>
+                           <title>De laude sui</title>, <biblScope unit="page">957, 539</biblScope>. </bibl>
+                        <bibl>
+                           <title>Ed. Francof.</title>
+                        </bibl>
+                     </note> dem ihm Schuld gegebenen Eigennutz, und der Feierlichkeit oder
+                     Heftigkeit seines Ganges entdecken. </p>
+               </div>
+               <div type="section" n="7">
+                  <head>
+                     <title type="sub">
+                        <hi>(Sein individueller Charakter.)</hi>
+                     </title>
+                     <title type="sub">7.</title>
+                  </head>
+                  <p>Zu einem Herold der Götter und Helden passt auch <persName ref="gnd-118594427">Pindar</persName>s individueller Charakter. Tiefe Ehrfurcht für
+                     Seelengrösse und Tugend; mit edlem Stolz verbundenes Bewusstseyn seiner eignen
+                     Würde; endlich der milde und heitre Frohsinn, welcher zum freien Erguss der
+                     Empfindungen einladet, machen die Hauptzüge aus, welche seine Gedichte
+                     verrathen.</p>
+               </div>
+               <div type="section" n="8">
+                  <head>
+                     <title type="sub">8.</title>
+                  </head>
+                  <p>Zuerst zeichnet sich seine Frömmigkeit aus, die mehr Ernst, Würde und Furcht
+                     zeigt, als man sonst bei <placeName ref="geo-390903">Griechischen</placeName>
+                     Dichtern gewohnt ist. Daher seine Besorgniss, die Gottheit durch irgend <pb n="1.414" xml:id="pbI414"/> einen Ausdruck zu beleidigen, und seine Vorsicht
+                     in der Verwerfung unheiliger oder abgeschmackter Fabeln. — Historische
+                        Beweise.<note type="footnote" n="9)" resp="gnd-118554727">
+                        <bibl>
+                           <persName ref="gnd-119483904">Thom. Mag.</persName> Bildsäule des
+                              <persName ref="gnd-118503642">Apollon</persName> Boedromios und
+                              <persName ref="gnd-118639560">Hermes</persName> Agoraeos. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118592246">Pausan.</persName>
+                           <biblScope unit="book">9</biblScope>, <biblScope unit="chapter">17</biblScope>. </bibl>
+                        <bibl>
+                           <title>Schol. <persName ref="gnd-118594427">Pind</persName>.</title> ad
+                              <title>Pyth.</title>
+                           <biblScope unit="verse">137</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118595237">Plut.</persName>
+                           <title>
+                                        <persName ref="gnd-122673093">Numa</persName>
+                                    </title>, <biblScope unit="page">113</biblScope>, <biblScope unit="edition">
+                                        <persName ref="gnd-100961223">Steph</persName>. 62c</biblScope>, <biblScope unit="edition">Francof.</biblScope>. </bibl>
+                        <bibl>
+                           <title>Contra Colot.</title>, <biblScope unit="page">2022</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118595237">Plutarch</persName>us <title>Ne suauiter
+                              quidem vivi posse secundum <persName ref="gnd-118530585">Epicur</persName>i decreta</title>, <biblScope unit="edition">Francof.</biblScope>, <biblScope unit="page">1103a</biblScope>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118594044">Philostratus</persName>, Umgang mit
+                              <persName ref="gnd-118511181">Persephone</persName>. </bibl>
+                        <bibl>
+                           <persName ref="gnd-118592246">Pausan.</persName>
+                           <biblScope unit="book">9</biblScope>, <biblScope unit="chapter">23</biblScope>. </bibl>
+                        <bibl> Falsche Anekdote: <persName ref="gnd-118973878">Castor und
+                              Pollux</persName> rufen ihn aus einstürzendem Haus. <persName ref="gnd-118797948">Solinus</persName>, <biblScope unit="chapter">1</biblScope>. Ibique <persName ref="gnd-119114119">Salmasius</persName>. </bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="section" n="9">
+                  <head>
+                     <title type="sub">9.</title>
+                  </head>
+                  <p>An diese schliesst sich zunächst die Verehrung der Helden der Vorzeit an, die
+                     er oft als Mittelpersonen zwischen den Göttern und seinen Siegern braucht. In
+                     diesen schätzt er am meisten gerade Tapferkeit und ofne Stärke. Daher sind
+                        <persName ref="gnd-118639552">Herkules</persName>, <persName ref="gnd-118500384">Achill</persName>, <persName ref="gnd-118501194">Ajax</persName>, <persName ref="gnd-118557092">Jason</persName> mehrmals
+                     bei ihm wiederkehrende Figuren; dagegen <persName ref="gnd-118589385">Ulyss</persName> selbst durch <persName ref="gnd-11855333X">Homer</persName>s Namen nicht gegen seinen Tadel geschützt wird.</p>
+               </div>
+               <div type="section" n="10">
+                  <head>
+                     <title type="sub">10.</title>
+                  </head>
+                  <p>Ebenso ist seine ganze moralische Gesinnung <note type="footnote" n="i)" resp="gnd-116890657">
+                        <bibl> Hier ist die Anmerkung gestrichen: <persName ref="gnd-118595237">Plutarch</persName>us <title>περὶ ψυχογονίας</title>, <biblScope unit="page">1893</biblScope>. </bibl>
+                     </note> auf Offenheit, Treue und Genügsamkeit, auf Bürgereintracht,<note type="footnote" n="10)" resp="gnd-118554727">
+                        <bibl>
+                           <title>Epigr. Leonidae</title>. <biblScope unit="edition">Ed.
+                              Ox.</biblScope>. </bibl>
+                     </note> Friedfertigkeit und Familienglück, dabei aber auf ein edles Streben
+                     nach grossen Thaten, nur verbunden mit Beschränkung unmässiger Wünsche
+                     gerichtet. Neid, Selbstsucht und hinterlistige Gleissnerei erbittern ihn bis
+                     zur Härte.</p>
+               </div>
+               <div type="section" n="11">
+                  <head>
+                     <title type="sub">11.</title>
+                  </head>
+                  <p>Aber jede Grösse verschwindet umsonst, wenn nicht die Stimme des Nachruhms sie
+                     verherrlicht. Diese ertönen zu lassen, ist er bestimmt; bei diesem Geschäft
+                     stehn ihm die <persName ref="gnd-118820656">Musen</persName> vorzüglich bei;
+                     und wenn er dem Haufen, der ihn nicht fasst, misfällt, so hat er doch den
+                     Beifall der Weisen.</p>
+               </div>
+               <div type="section" n="12">
+                  <head>
+                     <title type="sub">12.</title>
+                  </head>
+                  <p>In diesem ernsten, strengen, feierlichen Charakter herrscht doch durchaus milde
+                     Sanftmuth und heitre Fröhlichkeit. Die <persName ref="gnd-118702335">Charitinnen</persName> sind es, welchen der Dichter am häufigsten opfert,
+                     und wo er die wünschenswürdigsten Dinge nennt, vergisst er nie <pb n="1.415" xml:id="pbI415"/> des sinnlichen Lebensgenusses, erhöht durch die Freuden
+                     der Musik und des Gesanges. Diess schloss sich an seine Frömmigkeit an, da der
+                     Gottesdienst zugleich immer mit Kunstgenuss verbunden war. — Gesang seiner
+                     Töchter bei Nacht. Schöne Stimmen der Böotierinnen.</p>
+               </div>
+               <div type="section" n="13">
+                  <head>
+                     <title type="sub">13.</title>
+                  </head>
+                  <p>Von <persName ref="gnd-118594427">Pindar</persName>s sanfteren Gefühlen zeugt
+                     seine Liebe zum schönen <persName ref="person-000015">Theoxenus</persName>. So
+                     viel sich einsehen lässt, beruhte sie auf dem begeisterten Gefühl einer
+                     reizbaren und empfänglichen Seele für Schönheit und Jugend, und hat mit
+                        <persName ref="gnd-118594893">Plato</persName>ischer und <persName ref="gnd-118615270">Sokrat</persName>ischer Knabenliebe keine Aehnlichkeit.
+                     In <persName ref="person-000015">Theoxenus</persName> Armen und im Theater
+                     starb er. </p>
+               </div>
+               <div type="section" n="14">
+                  <head>
+                     <title type="sub">14.</title>
+                  </head>
+                  <p>Auf diese Weise war über <persName ref="gnd-118594427">Pindar</persName>s
+                     ganzes Leben ein Glanz verbreitet, in welchem Grösse und Anmuth sich gatteten.
+                     Hieraus muss man es sich erklären, wenn er öfter auf das Lob des Reichthums in
+                     seinen Gedichten zurückkommt, und wenn er die Macht der Könige höher erhebt,
+                     als einem <placeName ref="geo-390903">Griechen</placeName> zu geziemen scheint.
+                     Ueberhaupt war er wohl der eigentlichen Volksregierung nicht geneigt, und es
+                     lässt sich aus dem Ganzen seines Charakters schliessen, dass er den ruhigen
+                     Lebensgenuss in der Sicherheit des Friedens unsichern Gefahren unendlich
+                     vorziehen musste. Vielleicht daher sein Abrathen vom Perserkrieg. Wenn an den
+                     Anekdoten von seiner Begierde nach Reichthümern etwas Wahres ist, wie sich
+                     alles wohl kaum abläugnen lässt, so gehört dieser Charakterzug hieher, und die
+                     Tempel und Bildsäulen, die er weihte, zeigen wenigstens, wie diese Neigung mit
+                     seinem Streben nach Ruhm und selbst mit seinen moralischen Gesinnungen
+                     zusammenhieng.</p>
+               </div>
+               <div type="section" n="15">
+                  <pb n="1.416" xml:id="pbI416"/>
+                  <head>
+                     <title type="sub">15.</title>
+                  </head>
+                  <p>So ist <persName ref="gnd-118594427">Pindar</persName>, von dem es nicht
+                     bekannt ist, dass er sonst ein bürgerliches Amt bekleidet hätte, im genauesten
+                     Verstande als ein öffentlicher Sänger, und als ein heiliger Dichter, gleichsam
+                     als Priester anzusehen. Dadurch und durch einen Antheil Böotischen und
+                     Aeolischen Naturels bekommt er eine Würde, einen Ernst, und eine Strenge, die
+                     ihn den Hebräischen Sängern auch im Charakter beinah ähnlich machen würde, wenn
+                     nicht die <placeName ref="geo-390903">Griechische</placeName> Leichtigkeit,
+                     Milde und Sinnlichkeit wieder alle Spur eigentlicher Gleichheit
+                     verwischten.</p>
+               </div>
+               <div type="section" n="16">
+                  <head>
+                     <title type="sub">16.</title>
+                  </head>
+                  <p>Ueber seine intellectuelle Ausbildung giebt die Geschichte so gut als keinen
+                     Aufschluss. Indess sind seine Lehrer, Zeitgenossen zu erwähnen, sein Umgang mit
+                        <persName ref="gnd-118500856">Aeschylos </persName>und seine Reisen zu
+                     untersuchen. — Fortschreitung seiner Bildung; Zeitfolge der Oden.</p>
+               </div>
+               <div type="section" n="17">
+                  <head>
+                     <title type="sub">
+                        <hi>(Aeussre Beschaffenheit seiner Gedichte;)</hi>
+                     </title>
+                     <title type="sub">17.</title>
+                  </head>
+                  <p>Ausser der individuellen Lage des Dichters selbst muss zur Beurtheilung seines
+                     poetischen Charakters auch noch die zufällige und äussre Beschaffenheit seiner
+                     Gedichte hinzugenommen werden.</p>
+               </div>
+               <div type="section" n="18">
+                  <head>
+                     <title type="sub">
+                        <hi>(aller lyrischen überhaupt)</hi>
+                     </title>
+                     <title type="sub">18.</title>
+                  </head>
+                  <p> Alle lyrischen Gedichte waren für den Gesang, die meisten für eine Art
+                     theatralischer Aufführung bestimmt, so dass <pb n="1.417" xml:id="pbI417"/> sie
+                     immer mit Musik, häufig mit Tanz begleitet waren. Der Dichter lehrte sie
+                     diejenigen, welche sie aufführten, und meistentheils war er selbst der
+                     Tonkünstler. Inwiefern gilt das alles auch von <persName ref="gnd-118594427">Pindar</persName>? Schickte er bloss seine Gedichte, oder unterrichtete
+                     Chöre nach den auswärtigen Ländern, für die er dichtete?</p>
+               </div>
+               <div type="section" n="19">
+                  <head>
+                     <title type="sub">19.</title>
+                  </head>
+                  <p>Daher kam so vieles auf den Vortrag und auf denjenigen Theil der Poesie an, der
+                     sich auf denselben bezieht. Der Dichter musste mehr suchen dem sinnlichen Theil
+                     der Kunst ein Genüge zu thun, und die höheren Foderungen wurden ihm williger
+                     nachgelassen. Auch war er, als <placeName ref="geo-390903">Griech</placeName>e,
+                     schon durch die Eigenthümlichkeit seines Nationalcharakters sich vorzugsweise
+                     nach jener Seite zu wenden aufgefodert.</p>
+               </div>
+               <div type="section" n="20">
+                  <head>
+                     <title type="sub">
+                        <hi>(aller lyrischen überhaupt)</hi>
+                     </title>
+                     <title type="sub">20.</title>
+                  </head>
+                  <p>Aber <persName ref="gnd-118594427">Pindar</persName> kann überdiess nur nach
+                     Einer Art seiner Gedichte von uns beurtheilt werden, und diese ist
+                     unglücklicherweise in soviele zufällige Schranken eingeengt, dass der Einfluss
+                     dieser aufs neue von seinem reinen Charakter geschieden werden muss. Wir
+                     besitzen nur seine Siegshymnen. Diese waren nicht an wirklich grosse und
+                     verdiente Männer gerichtet, sondern an Könige, deren reich genährte Gespanne,
+                     oder an Athleten, die mit der Kraft ihrer Glieder den Preis gewannen. (Tiefere
+                     Untersuchungen über die Wagenführer, und Athleten. Aristagoras in Nem. II. war
+                     doch Prytane.) Selten also war die Person des Helden, und nie, insofern sie den
+                     Sieg gewonnen hatte, merkwürdig. Nur das Vaterland, die Familie des Siegers und
+                     der Sieg selbst konnte des Preises gewürdigt werden.</p>
+               </div>
+               <div type="section" n="21">
+                  <head>
+                     <title type="sub">21.</title>
+                  </head>
+                  <p>Aber auch dieser Sieg selbst hatte an sich nichts Grosses und Wichtiges, weder
+                     in dem Guten, das er schafte, noch in den Kräften, die ihn errangen. Er war die
+                     Frucht des Reichthums im Wagen- und Pferderennen, körperlicher Kräfte und einer
+                     anhaltenden, bis ans Illiberale gränzenden körperlichen Uebung in den übrigen
+                     Kämpfen, und selbst wo der Wettkampf die Kunst <pb n="1.418" xml:id="pbI418"/>
+                     betrift (wovon im <persName ref="gnd-118594427">Pindar</persName> nur Ein
+                     Beispiel vorkommt), ist es sehr zweifelhaft, ob der Preis mehr der Stärke oder
+                     mehr dem Talent gebührte.</p>
+               </div>
+               <div type="section" n="22">
+                  <head>
+                     <title type="sub">22.</title>
+                  </head>
+                  <p>Aber auf der andern Seite war der Preis, der in diesen Spielen errungen wurde,
+                     der höchste, dessen ein <placeName ref="geo-390903">Griech</placeName>e sich
+                     rühmen konnte; und gegen ihn blieb selbst das grösseste Bürgerverdienst und der
+                     schönste Kampf fürs Vaterland zurück. <placeName ref="geo-390903">Griechenland</placeName> kannte für jede Grösse einen eignen Dank. Stille
+                     Ehrfurcht, Liebe und Vertrauen belohnten das ächte Verdienst; aber lautes
+                     Frohlocken, exaltirte Begeisterung, und ein Preis, an dem die Sinnlichkeit und
+                     die Phantasie mehr, als Geist und Herz Antheil nahmen, erhoben den Sieger der
+                     Kampfspiele.</p>
+               </div>
+               <div type="section" n="23">
+                  <head>
+                     <title type="sub">23.</title>
+                  </head>
+                  <p>Ihre Feier war eine Feier der Phantasie. Alles was die so reizbare
+                     Einbildungskraft des <placeName ref="geo-390903">Griechen</placeName> zu
+                     befeuern vermochte, kam bei den Kampfspielen zusammen: die ungeheure Menge des
+                     Volks, das nationale Vorurtheil, da nur <placeName ref="geo-390903">Hellenen</placeName> diese Feier theilen durften, die nahe Verbindung der
+                     Spiele mit heiligen Gebräuchen, das ehrwürdige Alter der Einrichtung, das sich
+                     bis in das Dunkel der Heldenzeit verlor, der Wettkampf verschiedener <placeName ref="geo-390903">Griech</placeName>ischer Stämme in der Person ihrer
+                     Kämpfer, endlich die Grösse des Schauspiels selbst, die Schönheit und Stärke
+                     der Ringerkörper, die Pracht der Gespanne, die wetteifernde Anstrengung der
+                     Kräfte.</p>
+               </div>
+               <div type="section" n="24.1">
+                  <head>
+                     <title type="sub">24.</title>
+                  </head>
+                  <p>Diese sinnliche und phantastische Stimmung zu erhöhen, trug grade der Umstand
+                     nicht wenig bei, dass der Wettkampf nicht ernsthaft, sondern ein blosses Spiel,
+                     eine völlig freie Aeusserung der Kräfte war. Jeder ernstliche Kampf hätte durch
+                     die Wichtigkeit seines Gegenstandes mehr den Verstand oder das Herz
+                     interessirt, und die Phantasie niedergedrückt, oder zerstreut. Dieser hingegen
+                     hob sie vielmehr in leichtem Spiel in die Höhe, da er nur gleichsam die Form
+                     eines Kampfes behalten hatte, und der Sieger in ihm nur den blossen Schall des
+                     Ruhmes verfolgte.</p>
+               </div>
+               <div type="section" n="24.2">
+                  <head>
+                     <title type="sub">24. b.</title>
+                  </head>
+                  <p>Was den Ruhm in Kampfspielen noch vor jeder andern Gattung der Ehre
+                     auszeichnete, und ihn besonders zu einem <pb n="1.419" xml:id="pbI419"/>
+                     Gegenstande der Phantasie und einer dichterischen Behandlung machte, war die
+                     Art, wie er erworben wurde. Jeder andre Ruhm wird langsam, nach und nach, durch
+                     mehrere zusammentreffende Handlungen und Umstände, die immer noch eine
+                     ungleiche Beurtheilung und Würdigung zulassen, errungen; und wenn er einmal
+                     erworben ist, muss er erhalten werden, er lebt nur in der fortdauernden Meynung
+                     der Menschen, auf die also auch fortgewirkt werden muss. Bei den Kampfspielen
+                     war nur Ein Schritt zu thun, und es war alles gewonnen. Der Sieg musste
+                     errungen werden; diess geschah auf eine entschiedene unverkennbare Weise. Alle
+                     Meynung des Ruhms hieng jetzt allein an der Meynung des Sieges und hier war
+                     nicht mehr Ungleichheit der Beurtheilung oder Besorgniss des Verlustes zu
+                     fürchten. (Zu untersuchen, ob nachheriges Unterliegen, oder irgend eine Art der
+                     Aufführung und des Betragens die Ehre eines Olympioniken wieder zu schmälern
+                     vermochte.) Dadurch wurde die Erkämpfung eines Kampfsieges so sehr einer
+                     Vergötterung ähnlich, und diess hat <persName ref="gnd-118594427">Pindar</persName> vortreflich benutzt.</p>
+               </div>
+               <div type="section" n="25">
+                  <head>
+                     <title type="sub">25</title>
+                  </head>
+                  <p>Ist aber der Ruhm, dessen die Sieger in den vier grossen Spielen genossen, nur
+                     einmal aus der Reizbarkeit der Phantasie der <placeName ref="geo-390903">Griechen</placeName>, auf die hier von allen Seiten eingewirkt wurde,
+                     erklärbar, so verwebte sich nun dieser Gedanke in alle gesellschaftliche und
+                     bürgerliche Einrichtungen. Jetzt war der Ruhm des Siegers, durch den er
+                     zugleich sein Vaterland verherrlichte, in der That etwas Grosses, und wie
+                     gering sein wirkliches und persönliches Verdienst seyn mochte, so stand er
+                     dennoch bloss durch den Platz, auf den er sich geschwungen hatte, auf einer
+                     unendlichen Höhe. — Veränderungen in der Meynung von der Grösse der
+                     Kampfspiele. Inwiesern schon zu <persName ref="gnd-118594427">Pindar</persName>s Zeit?</p>
+               </div>
+               <div type="section" n="26">
+                  <head>
+                     <title type="sub">26</title>
+                  </head>
+                  <p>Anstatt also dass die Geringfügigkeit des Gegenstandes dem Dichter hätte zu
+                     schaflen machen sollen, hatte er vielmehr jede Kraft anzustrengen, demselben
+                     gleich zu bleiben. Da indess die Grösse desselben nur eine sinnliche war, so
+                     bestimmte diess zugleich den Charakter der Siegshymnen, und so stimmt dieser
+                     Gegenstand nicht wenig mit dem individuellen und nationellen Charakter
+                        <persName ref="gnd-118594427">Pindar</persName>s, seiner Lebensart und
+                     seiner Beschäftigungen überein — obgleich sich der ganze Umfang seines Genies
+                     und Charakters <pb n="1.420" xml:id="pbI420"/> nicht genau ausmessen lässt, da
+                     die Behandlung dieser Gegenstände fast die einzige Quelle ist, aus der man
+                     schöpfen kann.</p>
+               </div>
+            </div>
+            <div type="chapter" n="II">
+               <head>
+                  <title type="main">II.</title>
+               </head>
+               <div type="section" n="27">
+                  <head>
+                     <title type="sub">
+                        <hi>(Innere Natur und Beschaffenheit der Siegshymnen im Ganzen.)</hi>
+                     </title>
+                     <title type="sub">27.</title>
+                  </head>
+                  <p>
+                     <persName ref="gnd-118594427">Pindar</persName>s Dichtercharakter zu schildern
+                     ist nur an den Siegshymnen möglich. Die Fragmente seiner übrigen Stücke geben
+                     nur Muthmaassungen an die Hand. Die Siegshymnen sollten den errungenen Sieg
+                     verkündigen, den Ruhm des Siegers verherrlichen, und vorzüglich als Ausdruck
+                     der Freude und Anruf an die Gottheit die Feier des Sieges zu begehen
+                     dienen.</p>
+               </div>
+               <div type="section" n="28">
+                  <head>
+                     <title type="sub">28.</title>
+                  </head>
+                  <p>Die Stimmung, in welche der Dichter sich und die Zuhörer versetzen musste, war
+                     daher aus Empfindungen der Grösse und der Freude vermischt. Diese
+                     hervorzubringen gab der einzelne specielle Sieg nichts oder nur sehr wenig her;
+                     dieser Gegenstand war allen <placeName ref="geo-390903">Griechen</placeName> zu
+                     nah und zu bekannt, als dass der Dichter dabei hätte verweilen dürfen. Daher
+                     kommt schlechterdings keine Schilderung der Kampfspiele selbst im <persName ref="gnd-118594427">Pindar</persName> vor; nur auf besondre einzelne
+                     Umstände spielt er hie und da an. Das Einzige, was er von seinem Gegenstande
+                     entlehnen kann, ist die allgemeine Idee des Ruhms und der Grösse, die mit den
+                     Siegen verbunden war, und die Geschichte der Vorfahren und der Vaterstadt des
+                     Siegers.</p>
+               </div>
+               <div type="section" n="29">
+                  <head>
+                     <title type="sub">29.</title>
+                  </head>
+                  <p>Hier aber eröfnet sich ihm auch ein weites Feld für die Phantasie. Von der
+                     Familie des Siegers oder seiner Vaterstadt geht er leicht zu den berühmtesten
+                     Helden <placeName ref="geo-390903">Griechenland</placeName>s über. Durch diese
+                     bahnt er sich den Weg zu den Göttern, und so knüpft er den Sieger zuletzt an
+                     diese an. Nun ist er in dem Gebiete, welches mehr, als irgend ein anderes der
+                     dichterischen Einbildungskraft, und besonders der begeisterten phantastischen
+                     Stimmung angemessen ist, welche die Kampfspiele so ausgezeichnet begleiteten.
+                     In diesem verweilt er daher auch am häufigsten und längsten, indess er dagegen
+                     der grösseren und verdienstvolleren <pb n="1.421" xml:id="pbI421"/> Thaten der
+                     näheren Vorfahren, selbst des Kampfs für die Freiheit nur sparsam und
+                     vorübergehend erwähnt.</p>
+               </div>
+               <div type="section" n="30">
+                  <head>
+                     <title type="sub">30.</title>
+                  </head>
+                  <p>Dadurch also wird der Hauptcharakter des Dichters glänzend, erhaben und
+                     feierlich. Aber indess er die Phantasie auf diese Weise leicht erhebt und
+                     beschäftigt, mischt er der Empfindung zugleich noch einen grösseren und
+                     würdigeren Gehalt bei. Der Sieg, der nicht anders als durch Kampf zu erringen
+                     war, führte natürlich die Vorstellung der Anstrengung herbei, die er kostete,
+                     und die schwindelnde Höhe, auf welcher der begeisterte Dichter den Sieger sah,
+                     erinnerte an die Gefahr, sich des Sieges zu überheben. Aus diesen beiden
+                     Quellen entspringen vorzüglich die ernsten Betrachtungen, durch welche das
+                     Gefühl der Freude auf der einen Seite zwar gemässigt, aber auf der andern auch
+                     würdiger und dauernd gemacht wird.</p>
+               </div>
+               <div type="section" n="31">
+                  <head>
+                     <title type="sub">31.</title>
+                  </head>
+                  <p>Allein auch hier herrscht dieselbe Erhabenheit, welche den Dichter überall
+                     auszeichnet. Die Unveränderlichkeit des Schicksals, die Vergleichung der
+                     Nichtigkeit der Menschen mit der Macht und Grösse der Götter sind das oft in
+                     mannigfaltiger Behandlung wiederkehrende Thema. So verbindet sich überall in
+                     der Wirkung, die <persName ref="gnd-118594427">Pindar</persName> hervorbringt,
+                     gehaltvolle Tiefe mit anmuthiger Fülle und Leichtigkeit. (<title>N.</title> IV.
+                     10—14.) Die Stimmung, in die seine besten Stücke den Leser versetzen, ist
+                     gemeinschaftlich durch die grössesten und erhabensten Ideen der Vernunft, und
+                     die glänzendsten und lachendsten Bilder der Phantasie bewirkt, und durch den
+                     Gebrauch von beidem strebt er Einem und demselben Ziele entgegen.</p>
+               </div>
+               <div type="section" n="32">
+                  <head>
+                     <title type="sub">32.</title>
+                  </head>
+                  <p>Diess Ziel ist nemlich ein Gefühl der Ruhe und Heiterkeit, dem aber eine sichre
+                     und grosse Grundlage zur Stütze dient. Darum ergreift er zuerst das Gefühl
+                     mächtig durch die ernste Vorstellung der furchtbaren Macht der Gottheit, und
+                     der Wandelbarkeit des menschlichen Glücks, durch die Erinnerung an ungünstige
+                     Schicksale, deren Erwähnung er oft sucht, statt sie zu <pb n="1.422" xml:id="pbI422"/> vermeiden, und durch warnende Sentenzen; darum sucht er
+                     selbst die Einbildungskraft so oft, sey es durch den Inhalt und den Gegenstand
+                     seiner Schilderungen, oder durch die Darstellung und die Wahl des Ausdrucks,
+                     mehr lebhaft zu erschüttern, als bloss angenehm zu bewegen. Aber am Ende werden
+                     diese beunruhigenden Gefühle immer wiederum ausgeglichen und in eine
+                     gleichförmige Stimmung aufgelöst, die, zufrieden mit dem steten Gange des
+                     Schicksals und dem Willen der Götter, sich dem Genuss der Gegenwart, aber mit
+                     weiser Mässigung überlässt. Mit dem Genuss wird immer zugleich auf edle
+                     Thätigkeit hingewiesen, und innere Grösse und äusserer Ruhm immer als
+                     wechselsweis sich erwerbend und belohnend dargestellt.</p>
+               </div>
+               <div type="section" n="33">
+                  <head>
+                     <title type="sub">33.</title>
+                  </head>
+                  <p>Durch die Einmischung so ernster und würdiger Betrachtungen gewinnt <persName ref="gnd-118594427">Pindar</persName>, dass die Stimmung der Grösse, in die
+                     er den Leser versetzt, mehr Würde und Feierlichkeit empfängt. Es ist keine
+                     irrdische, sondern eine himmlische Höhe, auf die sich der Dichter versetzt
+                     sieht. Diese aber mahlt er mehr für den <emph>äussern</emph>, als den
+                        <emph>innern</emph> Sinn aus. Daher der strahlende Glanz, der über alle
+                     seine Schilderungen ausgegossen ist, und die Fülle der Bilder und des
+                     Ausdrucks, die mit erhabner Leichtigkeit dahinrollt. Daher verweilt er so gern
+                     auch bei Gegenständen sinnlicher Pracht und Grösse; und der Glanz des Goldes,
+                     die Macht der Könige, der Schall des Ruhms, lauter Objecte, auf die ihn der
+                     Gegenstand seiner Dichtungen so nothwendig führen musste, verwebt er dadurch so
+                     sehr in den Charakter seiner Poesie, dass er sie nicht von seinem Stoff zu
+                     empfangen, sondern willkührlich zu wählen scheint.</p>
+               </div>
+               <div type="section" n="34">
+                  <head>
+                     <title type="sub">34.</title>
+                  </head>
+                  <p>Die Grösse, deren Gefühl der Dichter hervorbringt, ist nicht gerade Grösse der
+                     Gesinnungen, der Empfindungen, oder einzelner Thaten, es ist Grösse der
+                     Existenz, des Daseyns, des Lebens überhaupt. Wer sie besitzt, geniesst
+                     ungetrübte Ruhe, ist mit allem moralisch und physisch Grossen und Glänzenden
+                     verwandt, einig mit den Göttern und mit dem Schicksal. Daher stammt die Ruhe,
+                     die Heiterkeit, die strahlende Erhabenheit, die den <persName ref="gnd-118594427">Pindar</persName> vorzugsweise auszeichnet, und die sich
+                     so ganz von jener andern Gattung des Erhabenen unterscheidet, welche die
+                     moralische Grösse im <pb n="1.423" xml:id="pbI423"/> Kampf gegen die physische
+                     darstellt, und sonst von den lyrischen Dichtern oft gebraucht wird.</p>
+               </div>
+               <div type="section" n="35">
+                  <head>
+                     <title type="sub">35.</title>
+                  </head>
+                  <p>Damit hängt es zusammen, dass ....</p>
+               </div>
+            </div>
+            <div type="chapter" n="III">
+               <head>
+                  <title type="main">[III].</title>
+               </head>
+               <div type="section" n="40">
+                  <head>
+                     <title type="sub">[40.]</title>
+                  </head>
+                  <p>.... vor allen andern <persName ref="gnd-118557092">Jason</persName>, und
+                        <persName ref="gnd-118639552">Herkules</persName> beim <persName ref="person-000016">Telamon</persName>. Auf ähnliche Weise sind auch alle
+                     übrigen Gegenstände behandelt, die er aufführt, wenn sie auch nicht lebendige
+                     Wesen sind. Alles tritt in einem gewissen Charakter auf; nichts wird bloss den
+                     Sinnen, alles zugleich dem Gemüth und der Empfindung geschildert. Fast die
+                     treflichste Charakterscene, der Gesang <persName ref="gnd-118503642">Apoll</persName>s und der <persName ref="gnd-118820656">Musen</persName> in
+                     der 1. <title>Pyth. Ode</title>.</p>
+               </div>
+               <div type="section" n="41">
+                  <head>
+                     <title type="sub">41.</title>
+                  </head>
+                  <p>Der Umfang, aus welchem die <persName ref="gnd-118594427">Pindar</persName>ischen Charaktere genommen sind, ist freilich nicht gross.
+                     Göttermacht, Heldengrösse, uneigennützige Ruhmbegierde, Verfolgung des Lasters,
+                     Beschützung alles Guten, strenge Offenheit und Gerechtigkeit, Neigung zu
+                     Bürgereintracht und Familienliebe, und fröhliche Stimmung zum Genuss des
+                     Lebens, mit den Zügen, die diesen entgegengesetzt sind, umschliessen ihn
+                     ziemlich genau. Dennoch fehlt es innerhalb dieses Kreises nicht an
+                     Mannigfaltigkeit.</p>
+               </div>
+               <div type="section" n="42">
+                  <head>
+                     <title type="sub">42.</title>
+                  </head>
+                  <p>Hauptfiguren <persName ref="gnd-118594427">Pindar</persName>s. Die Götter: im
+                     Allgemeinen, die höchste Macht, tadellose Weisheit, Gerechtigkeit und Güte,
+                     aber furchtbarer und unerbittlicher Zorn gegen die, welche sie beleidigen.
+                     Einzelne: <persName ref="gnd-118558897">Jupiter</persName>. der höchste
+                     Inbegriff jenes Charakters. <persName ref="gnd-118503642">Apollon</persName>.
+                     Durchaus jugendlich, mit grosser Heftigkeit, aber vor allen mit Kunst und
+                     Weisheit begabt. Eine ganz eigne (ob sie wohl noch sonst irgendwo vorkommt?)
+                     Vorstellung ist <persName ref="gnd-118503642">Apoll</persName> beim <persName ref="gnd-11903588X">Chiron</persName>. Die Götternatur, ihre Kraft und
+                     Weisheit ist hier mit der Unerfahrenheit sterblicher Jugend verknüpft, und der
+                     weise Greis ehrt die eine, indem er die andre belehrt. Die <persName ref="gnd-118702335">Charitinnen</persName>, sanfte und liebliche Gestalten,
+                     die Geberinnen alles Glänzenden, Lachenden und Fröhlichen. Einige allegorische
+                        <pb n="1.424" xml:id="pbI424"/> Figuren, z. B. Hesychia. Die übrigen Götter
+                     nur im Vorbeigehn, nach ihren gewöhnlichen Charakteren erwähnt.</p>
+               </div>
+               <div type="section" n="43">
+                  <head>
+                     <title type="sub">43.</title>
+                  </head>
+                  <p>Die Helden. <persName ref="gnd-118639552">Herkules</persName>, der Inbegriff
+                     aller Kraft und Tapferkeit. <persName ref="gnd-118557092">Jason</persName>,
+                     neben jenen Heldenvorzügen, vorzüglich zum Frieden geneigt, und von
+                     uneigennützigem Edelmuth. <persName ref="gnd-118501194">Ajax</persName>, eine
+                     merkwürdige, in gewissem Dunkel gehaltene Gestalt. Die <persName ref="gnd-118973878">Dioskuren</persName>, sanft, voll zärtlicher
+                     Bruderliebe, zum Wohlwollen und zur Hülfe geneigt. Völlig friedliche, nur zum
+                     Wohlthun bereite, und durch Weisheit hervorstechende Charaktere sind <persName ref="gnd-11903588X">Chiron</persName> und <persName ref="gnd-118500864">Aeskulap</persName>. Vorzüglich ist der erstere schön und charakteristisch
+                     geschildert. Gegenbilder dieser grossen und edlen Naturen geben die <persName ref="gnd-118884786">Titanen</persName>, <persName ref="gnd-1102380962">Ixion</persName>, <persName ref="gnd-1124166831">Pelias</persName>,
+                        <persName ref="gnd-118589385">Odysseus</persName> und andre. Weibliche
+                     Charaktere werden nur sehr wenig berührt. Ganz in den Heldencharakter
+                     übergegangen ist die Weiblichkeit in der <persName ref="gnd-11856840X">Kyrene</persName>. Wenige aber doch hübsch gezeichnete Züge der
+                     Weiblichkeit kommen bei Gelegenheit der <persName ref="gnd-1172448302">Koronis</persName>, <persName ref="gnd-1331606268">Evadne</persName>, und
+                     in dem Fragment an <persName ref="gnd-118635808">Xenophon</persName> über die
+                        <placeName ref="geo-259289">Korinth</placeName>ischen Mädchen vor. Indess
+                     erhebt sich hier nichts über die gewöhnliche Änsicht. Wichtiger sind die
+                     Schilderungen einiger Völker und Lebensarten, vorzüglich der <placeName ref="place-000004">Hyperborä</placeName>er und des Lebens in den <placeName ref="place-000003">glücklichen Inseln</placeName>. Hie und da scheinen
+                     Charaktere, die besser hätten benutzt werden können, vernachlässigt, z. B.
+                        <persName ref="gnd-118579878">Medea</persName>.</p>
+               </div>
+               <div type="section" n="44">
+                  <head>
+                     <title type="sub">44.</title>
+                  </head>
+                  <p>Wo also die Einmischung des Epischen im <persName ref="gnd-118594427">Pindar</persName> wirklich gelungen ist, da stellt er einzelne Bilder —
+                     wirkliche Personen und Charaktere oder Handlungen und Begebenheiten — auf, die,
+                     indem sie die Phantasie beschäftigen, zugleich das Gemüth seiner lyrischen
+                     Absicht gemäss stimmen. Die Eigenthümlichkeit des Dichters zeigt sich alsdann
+                     darin, dass er auf der einen Seite der Phantasie ein ausführlicheres,
+                     glänzenderes, reicheres Gemählde darbietet, und auf der andern dennoch das
+                     Gemüth durch den festen und bestimmten Charakter seiner Züge stärker
+                     erschüttert, so dass durch beides zusammengenommen die Stimmung, die er
+                     hervorbringt, und in der extensiver Reichthum sich mit intensiver Stärke
+                     verbindet, zwar minder heftig und plötzlich, aber voller, dauernder, und mehr
+                     über die ganze Seele verbreitet ist, als bei andern lyrischen Dichtern. Fehler
+                     hingegen, in welche er nicht <pb n="1.425" xml:id="pbI425"/> selten verfällt,
+                     sind theils epische Episoden da einzuweben, wo sie der lyrischen Absicht eher
+                     schaden, als nützen, oder sie weiter, als in dieser Rücksicht vortheilhaft ist,
+                     fortzuführen. </p>
+               </div>
+               <div type="section" n="45">
+                  <head>
+                     <title type="sub">
+                        <hi>(<persName ref="gnd-118594427">Pindar</persName>s didaktischer Theil,
+                           seine Sentenzen.)</hi>
+                     </title>
+                     <title type="sub">45.</title>
+                  </head>
+                  <p>Das zweite hauptsächliche Mittel, dessen sich der Dichter zu seiner Absicht
+                     bedient, sind die Sentenzen. Diese braucht er zuweilen beinah mit zu
+                     freigebiger Hand, und fast überall dienen sie ihm, die verschiedenen Theile
+                     längerer Abschnitte seiner Gedichte, oder des Ganzen selbst zu verbinden.</p>
+               </div>
+               <div type="section" n="46">
+                  <head>
+                     <title type="sub">46.</title>
+                  </head>
+                  <p>Ihr Inhalt ist nicht von sehr grossem Umfang und ganz aus der Sphäre genommen,
+                     aus welcher er zugleich seinen epischen Stoff, insofern derselbe Charakter an
+                     sich trägt, schöpft. Fast alle sind eigentliche Aussprüche der Weisheit, und
+                     sagen oft nur in veränderten Formen die einfachen Verhältnisse aus, in welchen
+                     der Mensch auf der einen Seite zu den Göttern und dem Schicksal, auf der andern
+                     zu seinem Vaterlande, seinen Mitbürgern, seiner Familie steht. Nur sehr wenige
+                     (näher zu untersuchende) beziehen sich auf mehr verborgne, nur gewissen
+                     Vorstellungsarten eigenthümliche Meynungen. (Ol. II. v. 96—140. Nem. VI. v.
+                     1—13.) Vorzüglich beschäftigt sich der Dichter häufig mit der gegenseitigen
+                     Lage der Götter und Menschen, und indem er beide beständig einander nähert,
+                     dennoch aber die Ueberlegenheit der ersteren unaufhörlich darstellt, erfüllt er
+                     die Seele wechselsweis mit den Gefühlen von Würde und Ehrfurcht. Eigentlich
+                     feine Sentenzen, intellectuelle Raisonnements, nüancirte Empfindungen sind ihm
+                     durchaus fremd. Ueberall spricht ein gerader und schlichter, durch Erfahrung
+                     geleiteter, scharf und tief in die wahren Verhältnisse der Dinge eindringender,
+                     rein moralischer Sinn, nirgends ein grübelnder, spitzfindiger oder auch nur
+                     vorzüglich entwickelnder Verstand.</p>
+               </div>
+               <div type="section" n="47">
+                  <head>
+                     <title type="sub">47.</title>
+                  </head>
+                  <p>Nie also geben seine Sentenzen dem Geist eine abgesonderte Beschäftigung. Indem
+                     sie an die wichtigsten Verhältnisse der menschlichen Natur erinnern, und ihre
+                     wirkliche Beschaffenheit in einfacher Wahrheit aufdecken, rühren sie das ganze
+                     Gemüth <pb n="1.426" xml:id="pbI426"/> und diejenige Empfindung, die durch den
+                     Einfluss der wirklichen Lage der Dinge entsteht, und wieder auf diese
+                     zurückwirkt. Ihre Tendenz ist schlechterdings moralisch. Allein indem sie so
+                     der Natur völlig nah bleiben, fehlt es ihnen dennoch nicht an idealischem
+                     Schwunge. Denn sie stellen die Natur selbst in einer unendlichen Erweiterung,
+                     einer in Stufen fortgehenden Erhöhung dar, die unter dem Bilde des Helden und
+                     Göttercharakters der Phantasie näher gebracht wird. Der Totaleindruck wird nun
+                     nur um so grösser, da die begeisterte Stimmung, in welche die Einbildungskraft
+                     versetzt wird, durch die Wahrheit und Innigkeit des natürlichen Gefühls, an das
+                     sich der Dichter zuerst wendet, mehr Gehalt und Dauer empfängt. <persName ref="gnd-118594427">Pindar</persName>s Eigenthümlichkeit — denn im Ganzen
+                     bezeichnet derselbe Charakter alle frühere <placeName ref="geo-390903">Griechische</placeName> Dichter — liegt hiebei darin, dass seine Weisheit
+                     noch gediegener und kraftvoller, aber auch noch einfacher und auf einen noch
+                     kleineren Kreis beschränkt, die Aussicht ins Idealische aber mehr für die
+                     Phantasie und die Sinne, glänzender und lachender ausgemahlt ist.</p>
+               </div>
+               <div type="section" n="48">
+                  <head>
+                     <title type="sub">
+                        <hi>(Einheit der <persName ref="gnd-118594427">Pindar</persName>ischen
+                           Gedichte.)</hi>
+                     </title>
+                     <title type="sub">48.</title>
+                  </head>
+                  <p>Nichts musste bei den Siegshymnen so schwierig seyn, als in diesem Stoff ein
+                     lyrisches Ganzes hervorzubringen. Der Sieger sollte gepriesen werden. Das Thema
+                     war hier immer der Ruhm, die Hauptempfindung die Freude. Aber beides war zu
+                     einförmig und unbestimmt, als dass leicht ein individuelles lyrisches Ganze
+                     daraus hätte gebildet werden können. Auch giebt es mehrere Oden im <persName ref="gnd-118594427">Pindar</persName>, die im eigentlichsten Verstande
+                     blosse Siegesfeier sind, einzelne poetische Schönheiten besitzen, aber im
+                     Ganzen, und vor allem, von Musik entblösst, keine Wirkung machen. Auch findet
+                     sich in sehr vielen eine gewisse Einförmigkeit der Anlage, die sie in drei
+                     Stücke, eine Exposition, Verkündigung des Sieges, eine historische oder
+                     sententiöse Digression, und ein Zurückkehren zu dem Sieger und seinem Lobe,
+                     sehr natürlich abtheilt.</p>
+               </div>
+               <div type="section" n="49">
+                  <head>
+                     <title type="sub">49.</title>
+                  </head>
+                  <p>An eine Einheit, wie man sie in andern lyrischen Dichtern findet, die eine
+                     einzelne Empfindung, ein einzelnes Bild, einen <pb n="1.427" xml:id="pbI427"/>
+                     einzelnen Gedanken aufstellen, zu denken verbietet daher schon die
+                     episch-lyrische Gattung, die uns allein von <persName ref="gnd-118594427">Pindar</persName> übrig ist. So wie seine Gedichte längere, durch
+                     wechselnde Schilderungen und Gedanken fortlaufende Stücke sind, so erregen sie
+                     auch eine Reihe von Empfindungen und Vorstellungen, in welcher zugleich auf die
+                     Uebergänge von der einen zur andern, und auf das, was in allen herrschend ist,
+                     bei der Beurtheilung geachtet werden muss.</p>
+               </div>
+               <div type="section" n="50">
+                  <head>
+                     <title type="sub">50.</title>
+                  </head>
+                  <p>In den Uebergängen herrscht die grösseste lyrische Freiheit. Die Phantasie
+                     allein bringt sie gewöhnlich herbei, und die blosse Erwähnung eines
+                     Gegenstandes ist dem Dichter ein hinlänglicher Grund, um bei diesem zu
+                     verweilen. Oft indess beruht auch die neue Wendung auf einer Sentenz, zu
+                     welcher das Vorige führte, und die nun wieder für sich eines Beispiels zum
+                     Belege bedarf. Manchmal sind die Uebergänge loser, als sich auf irgend eine
+                     Weise vertheidigen lässt. Allein auch im Ganzen muss man keine strenge,
+                     gebundene Folge erwarten. Der Dichter lässt seine Phantasie in der Stimmung, in
+                     die er sich versetzt hat, frei herumschweifen; ergreift alles, was sich,
+                     derselben gemäss, auf seinem Wege ihm darbietet, und bricht am Ende
+                     willkührlich ab, wenn er sich zu weit verirrt hat.</p>
+               </div>
+               <div type="section" n="51">
+                  <head>
+                     <title type="sub">51.</title>
+                  </head>
+                  <p>Indess ist hierin doch nicht ganz soviel Willkührliches, als es auf den ersten
+                     Anblick vielleicht scheinen möchte. Zwar ist es gewiss, dass <persName ref="gnd-118594427">Pindar</persName>s Gesänge keinen so künstlich
+                     angelegten Plan, und nicht so sorgfältig einander angepasste Theile kennen, als
+                     andre spätere lyrische Stücke; auch scheint es wohl, als hätte der Dichter sich
+                     wenigstens oft begnügt, nur durch eine Reihe lose verbundener Schilderungen und
+                     Betrachtungen, unterstützt von der Sprache und dem Rhythmus, die Gemüther der
+                     Zuhörer zur Feier des Sieges zu stimmen, und als habe er nur allgemein das
+                     Gebiet überschlagen, das ihm die jedesmalige Veranlassung öfnete, und hier mit
+                     willkührlicher Freiheit die einzelnen Gegenstände gewählt. Indess wirken
+                     dennoch wenn nicht alle, doch die schönsten Oden als ein Ganzes auf die
+                     Einbildungskraft, indem entweder Ein Thema durchgeführt oder wenigstens Eine
+                     dauernde Empfindung durch alle Theile des Stücks hindurch unterhalten ist.
+                     Dieser letzten Art der Einheit bedient sich der Dichter oft mit <pb n="1.428" xml:id="pbI428"/> vorzüglichem Glücke. Jede Ode hat in dieser Rücksicht
+                     ihren eignen Ton, ihre eigne Haltung, bewegt sich schneller oder langsamer,
+                     erhebt sich stärker oder fliesst sanfter dahin. Vorzüglich zeichnen sich hierin
+                     einige aus, so wie andre, und nicht wenige, es wiederum so schwach andeuten,
+                     dass es sich kaum mit Genauigkeit bestimmen lässt. (Pyth. I.)</p>
+               </div>
+               <div type="section" n="52">
+                  <head>
+                     <title type="sub">52.</title>
+                  </head>
+                  <p>Sind also <persName ref="gnd-118594427">Pindar</persName>s Gedichte selten als
+                     Ausdrücke einzelner und bestimmter Empfindungen anzusehen, so sind sie doch
+                     Ergiessungen der Seele in einzelnen und dauernden Stimmungen, die ihren
+                     Charakter der Behandlung jedes Gegenstandes aufdrücken, den er berührt. Bei der
+                     Einförmigkeit seines Stoffs lässt sich hier keine grosse Mannigfaltigkeit
+                     erwarten. Feierliche Würde verbunden mit fröhlicher Anmuth verrathen sich so
+                     gut als überall. Allein ausserdem, dass bald mehr die eine, bald die andre das
+                     Uebergewicht hat, auch beide den Graden nach verschieden sind, so finden sich
+                     auch ganz eigenthümliche heftigere oder sanftere Stimmungen. Die letzteren
+                     zeichnen sich alsdann durch vorzüglichere Anmuth und Lieblichkeit aus, und
+                     merkwürdig ist es, dass auch die ersteren, selbst wenn der Dichter gegen Neid
+                     und Misgunst kämpft, diese Eigenschaften dennoch nie verläugnen.</p>
+               </div>
+               <div type="section" n="53">
+                  <head>
+                     <title type="sub">
+                        <hi>(Diction.)</hi>
+                     </title>
+                     <title type="sub">53.</title>
+                  </head>
+                  <p>
+                     <persName ref="gnd-118594427">Pindar</persName>s Sprache hat einen
+                     eigenthümlichen lyrischen Charakter. Kühne Metaphern, ungewöhnliche
+                     Zusammensetzungen, neue Verbindungen der Sätze geben dem Vortrag eine ganz
+                     eigne Farbe. In dem Vortrage selbst ist etwas Abgerissenes. Einzelne Theile
+                     sind vollendet und prächtig dargestellt; andre um sie herum mehr
+                     vernachlässigt. Daher wohl die nicht seltene Mattigkeit des Ausdrucks, selbst
+                     in den schönsten Stücken. (Ueber den Periodenbau ist mehr nachzudenken.) Dem
+                     Sinne schmiegt sich <persName ref="gnd-118594427">Pindar</persName>s Sprache
+                     erstaunlich an, und wie die Stimmung des Dichters wechselt, verändert sich auch
+                     augenblicklich der Ton des Vortrags.</p>
+               </div>
+               <div type="section" n="54">
+                  <head>
+                     <title type="sub">
+                        <hi>(Bestimmter Begriff der Siegshymnen, als Recapitulation des
+                           Vorigen.)</hi>
+                     </title>
+                     <title type="sub">54.</title>
+                  </head>
+                  <p>Ueber das Silbenmaass ist es schwer zu urtheilen, da wir es nur ohne
+                     begleitende Musik kennen. <persName ref="gnd-118594427">Pindar</persName> ist
+                     darin erstaunlich <pb n="1.429" xml:id="pbI429"/> genau, und bewahrt nicht
+                     bloss die Zahl und das Maass der Silben, sondern auch die einmal gewählten
+                     Abschnitte in sehr vielen Silbenmaassen. Jede rhythmische Periode hat einen
+                     sehr grossen Umfang, den unser Ohr kaum noch zu fassen vermag. Nie, ein
+                     einzigesmal ausgenommen, haben zwei Oden dasselbe Silbenmaass. (Ueber den
+                     Unterschied dieser Silbenmaasse von den kürzern, die ordentliche Kanons
+                     geworden sind, und ihre Gründe ist genauer nachzusuchen, wie auch über alles
+                     historische, was das Silbenmaass betrift.) Gewiss war jeder Rhythmus dem Ton
+                     der Ode angemessen; einigermaassen lässt sich diess auch jetzt noch zeigen, und
+                     man muss nie vergessen, dass es hier auf die Musik eigentlich ankam, und das
+                     Silbenmaass sich nur insofern zur Beurtheilung brauchen lässt, als es mit der
+                     Musik übereinstimmte.</p>
+               </div>
+               <div type="section" n="55">
+                  <head>
+                     <title type="sub">
+                        <hi>(Rhythmus.)</hi>
+                     </title>
+                     <title type="sub">55.</title>
+                  </head>
+                  <p>Am richtigsten stellt man sich daher die <persName ref="gnd-118594427">Pindar</persName>ischen Siegshymnen als musikalisch-poetische Ganze vor, in
+                     welchen der Dichter, ....</p>
+               </div>
+            </div>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte </title>
+            </head>
+            <p>Handschrift (34 halbbeschriebene Quartseiten, von denen S. 19—22 fehlen) im Archiv in
+                  <placeName ref="geo-2823708">Tegel</placeName>. — Erster Druck (ohne die
+               Anmerkungen: <bibl>
+                  <title>Sechs ungedruckte Aufsätze über das klassische Altertum von <persName ref="gnd-118554727">Wilhelm von Humboldt</persName>
+                  </title>, herausgegeben von <editor>
+                     <persName ref="gnd-116890657">Albert Leitzmann</persName>
+                  </editor>
+                  <biblScope unit="page">S. 34—54</biblScope> (<date when="1896">1896</date>)</bibl>.</p>
+            <p>In der Einsamkeit von <placeName ref="geo-2823708">Tegel</placeName> wandte sich
+                  <persName ref="gnd-118554727">Humboldt</persName> im Herbst <date when="1795">1795</date> wieder eingehender antiken Studien zu und es entstand der Plan, die
+               Resultate dieser Studien zu einem Aufsatz über die <placeName ref="geo-390903">Griechen</placeName>, ihre menschliche und dichterische Individualität
+               zusammenzufassen, um damit zugleich <persName ref="gnd-118607626">Schiller</persName>s Wunsch einer weiteren aktiven Teilnahme an den <orgName ref="gnd-4132118-2">Horen</orgName> genugzutun (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1795-08-01">1. August 1795</date>; an <persName ref="gnd-118607626">Schiller</persName>, <date when="1795-11-06">6. November
+                  1795</date>; an <persName ref="gnd-117444154">Wolf</persName>, <date when="1795-11-09">9. November 1795</date>). Unter <persName ref="gnd-118607626">Schiller</persName>s Mahnung und Anregung kam der Gedanke bald zu deutlicherer
+               Ausgestaltung: in einer Reihe einzelner Aufsätze sollte der <placeName ref="geo-390903">griechische</placeName> Dichtergeist in seinem Wesen und seiner
+               Entwicklung dargestellt und dabei in Rücksicht auf die so viel schon erörterte
+                  <persName ref="gnd-11855333X">Homer</persName>isch-epische Frage der Anfang mit
+               der lyrischen Poesie gemacht werden; von dieser sollten nacheinander <persName ref="gnd-118594427">Pindar</persName>, die Chöre und die Fragmente nebst den
+               Gedichten der Anthologie zur Behandlung kommen (an <persName ref="gnd-11856448X">Körner</persName>, <date when="1795-11-23">23. November 1795</date>; an <persName ref="gnd-118607626">Schiller</persName>, <date when="1795-11-27">27.
+                  November</date> und <date when="1795-12-04">4. Dezember 1795</date>). <persName ref="gnd-118607626">Schiller</persName>s Teilnahme zeigte sich auch weiterhin
+               durch die in seinen Briefen enthaltenen klärenden oder polemisierenden Bemerkungen,
+               wie er denn z. B. ein andres Einteilungsprinzip für den Stoff vorschlug
+                  (<title>Briefe</title> 4, 342). <persName ref="gnd-118554727">Humboldt</persName>
+               blieb indessen bei seiner erwähnten Disposition und schrieb in der Mitte des
+               Dezembers in raschem Wurf die Charakteristik <persName ref="gnd-118594427">Pindar</persName>s nieder (an <persName ref="gnd-118607626">Schiller</persName>,
+                  <date when="1795-12-14">14. Dezember 1795</date>). Neue Anregungen <persName ref="gnd-118607626">Schiller</persName>s und das für <persName ref="gnd-118554727">Humboldt</persName> typische rasche Unbefriedigtsein mit der eigenen Leistung
+               ließen jedoch die Arbeit sehr bald ins Stocken geraten und das Dilemma, ob auf diesem
+               spezielleren Wege fortgefahren oder nicht vielmehr die Aufgabe von allgemeineren
+               Erörterungen ausgehend besser und fruchtbarer behandelt werden solle, brachte dann
+               den ganzen Plan zu Falle (an <persName ref="gnd-117444154">Wolf</persName>, <date when="1796-01-05">5. Januar 1796</date>; an <persName ref="gnd-11856448X">Körner</persName> , <date when="1796-05-03">3. Mai 1796</date>). <persName ref="gnd-118554727">Humboldt</persName> ist dann nicht wieder auf ihn
+               zurückgekommen; der Plan einer Charakteristik des achtzehnten Jahrhunderts verdrängte
+               seit dem Anfang des Jahres <date when="1796">1796</date> für längere Zeit die antiken
+               Studien. </p>
+            <p>Leider ist das erhaltene Manuskript defekt: es fehlt der Eingang des dritten,
+               philosophischen Teils der Abhandlung und der Schluß des Ganzen, beidemal die innere
+               Hälfte eines in Quartformat gefalteten Bogens. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

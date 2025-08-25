@@ -1,0 +1,2711 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sokrates und Platon über die Gottheit, über die Vorsehung und Unsterblichkeit</title>
+            <author>
+               <surname>Humboldt</surname>
+               <forename>Wilhelm von</forename>
+            </author>
+            <editor>
+               <surname>Berigüete Pastor</surname>
+               <forename>Silvia</forename>
+            </editor>
+            <respStmt>
+               <resp>Curator</resp>
+               <persName xml:id="sbp">
+                  <surname>Berigüete Pastor</surname>
+                  <forename>Silvia</forename>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <title>Wilhelm von Humboldt: Schriften</title>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Independent Online Edition</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+            </availability>
+            <idno type="URI">https://www.wvh-schriften.de</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Wilhelm von Humboldts Werke. Erster Band</title>
+               <editor>
+                  <surname>Leitzmann</surname>
+                  <forename>Albert</forename>
+               </editor>
+               <publisher>Königlich Preussischen Akademie der Wissenschaften</publisher>
+               <pubPlace>Berlin</pubPlace>
+               <date when="1903">1903</date>
+               <idno type="URI">https://archive.org/details/gesammelteschrif01humbuoft/page/n5/mode/2up</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1785">1785</date>
+         </creation>
+         <settingDesc>
+            <setting>
+                <placeName ref="geo-2823708">Tegel</placeName>
+              </setting>
+         </settingDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="#type">
+                <term>Übersetzung</term>
+            </keywords>
+            <keywords scheme="#topic">
+                <term>Philologie</term>
+                <term>Antike</term>
+                <term>Religion</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="original">
+            <div type="introduction">
+               <pb n="1.1" xml:id="pbI1"/>
+               <head>
+                  <title type="main">
+                     <persName ref="gnd-118615270">Sokrates</persName> und <persName ref="gnd-118594893">Platon</persName> über die Gottheit, über die Vorsehung
+                     und Unsterblichkeit</title>
+               </head>
+               <p> Untersuchungen über das Dasein Gottes, und über die Wahrheiten der natürlichen
+                  Religion überhaupt scheinen der Lieblingsgegenstand der Philosophie unsrer Zeit
+                  geworden zu sein. Man hat diejenigen Theile der Philosophie verlassen, die, ohne
+                  auf brauchbare Resultate für das praktische Leben zu führen, nur dem Scharfsinn
+                  einige Nahrung versprachen; man hat die Gränzen des menschlichen Verstandes näher
+                  bestimmt, und Fragen, die ausser demselben zu liegen scheinen, und nur durch
+                  ungewisse Muthmassungen beantwortet werden können, lieber unerörtert gelassen.</p>
+               <p>Wenn man vormals alle Künste der Dialektik aufbot, um irgend eine Hypothese mit
+                  neuen Gründen zu unterstüzen; so hat man jezt alle Kräfte der Vernunft angewandt,
+                  um Wahrheiten in ein <pb n="1.2" xml:id="pbI2"/> helleres Licht zu sezen, von
+                  denen nicht bloss die Glükseligkeit des einzelnen Menschen, von denen die Ruhe
+                  ganzer Staaten abhängt. Aber man ist verschiedene Wege eingeschlagen. Einige haben
+                  strenge Demonstrationen gefordert, haben die Blössen der bisherigen Beweisgründe
+                  mit kühner Hand aufgedekt, und sich in die dunkelsten Tiefen der Metaphysik
+                  gewagt, um dort neue, unumstössliche zu finden. Andre haben jene Wahrheiten mehr
+                  dem geraden Menschenverstande empfohlen, zufrieden, wenn der uneingenommene
+                  Wahrheitsfreund sie überzeugend fände, doch unbekümmert, ob ein spizfündiger Kopf
+                  noch Zweifel dagegen erregen konnte. Beide Methoden haben ihren unstreitigen
+                  Werth. Man muss, wenn es möglich ist, Beweise haben, die jedem Einwurf, die jedem
+                  Zweifel Troz bieten; aber sie allein, was werden sie wirken? Sie gleichen einem
+                  Feuer, das leuchtet, ohne zu erwärmen; und wenn sie Ueberzeugung hervorbringen,
+                  ist diese Ueberzeugung darum die fruchtbare Mutter edler Gesinnungen und Thaten?
+                  Jene andern hingegen beleben das Herz, dass es, von den Wahrheiten der natürlichen
+                  Religion durchdrungen, die Pflicht jedes Verhältnisses williger erfüllt, jeden
+                  Schmerz des Lebens leichter trägt, jede Freude höher empfindet. Denn gewiss ist es
+                  nur das Eigenthum weniger Edlen, in dem blossen Anschaun ihrer eigenen Güte, und
+                  der Vollkommenheit des Ganzen glüklich zu sein.</p>
+               <p>Wenn etwas unserm Zeitalter Ehre bringt, wenn etwas seine grössere Aufklärung
+                  bewährt: so ist es vielleicht eben diese Richtung unsrer Philosophie, von der ich
+                  rede. Denn was heisst Aufklärung des Zeitalters, wenn nicht allgemeiner
+                     verbreitete<note type="footnote" n="i)" resp="gnd-116890657">
+                     <hi>Der erste Druck hat „verarbeitete“, was <persName ref="gnd-116890657">ich</persName> für einen Druck- oder Lesefehler halte.</hi>
+                  </note>, vorurtheilfreie Schäzung der Dinge, auf denen in jedem Verhältniss das
+                  Glük des denkenden Geistes beruht, wenn nicht die glüklichere Wahl der Mittel zu
+                  Erreichung dieses Zweks, wenn nicht die muthvollere Bekämpfung der Hindernisse,
+                  die diesem Zwek entgegen sind? Anders den Begriff der Aufklärung bestimmt, und
+                  Licht und Finsterniss, und fruchtbare Weisheit und todte Gelehrsamkeit, alles ist
+                  Eins.</p>
+               <p>Dennoch ist wiederum unläugbar, dass auch eben jezt viele sich weit von dem Wege
+                  der Vernunft und der ächten Weisheit entfernen. Diese scheinen sich vorzüglich auf
+                  zwei ganz entgegen- <pb n="1.3" xml:id="pbI3"/> gesezte Abwege zu verirren. Die
+                  einen stürzen nicht bloss die Beweisgründe um, worauf die Philosophie bisher die
+                  Wahrheiten der natürlichen Religion baute, sie läugnen diese Wahrheiten selbst,
+                  oder machen sie wenigstens durch Sophistereien von mancherlei Art so zweifelhaft
+                  und ungewiss, dass sie alles das Ermunternde und Beruhigende verlieren, was sie
+                  den Weisen aller Zeiten so schäzbar und ehrwürdig machte. Gehn sie vielleicht seit
+                  kurzem eine andre Bahn, folgen sie nicht mehr, blind gehorsam, den Pfaden
+                     <persName ref="gnd-118530585">Epikur</persName>s, und seines Nachahmers
+                     <persName ref="gnd-118575236">Lukrez</persName>, und sind auch ihnen
+                  gedankenloses Ohngefähr, und bildende Natur nur leere Schälle, ohne Sinn; so
+                  leihen sie dafür jezt die Waffen der spizfündigsten Metaphysik; so erschüttern sie
+                  die Gewissheit aller menschlichen Erkenntniss bis in ihre ersten Grundfesten; so
+                  lassen sie zwar der menschlichen Vernunft die <emph>Nothwendigkeit</emph>, diess
+                  für Wahrheit zu halten. Aber wenn sie fragen: ob es auch Wahrheit sei? — führen
+                  sie uns dann nicht durch diesen höchsten Grad des Skepticismus zu eben dem
+                  Resultate als ihre Vorgänger? Die andern hingegen nehmen zwar die Wahrheiten der
+                  Religion an, aber sie sprechen der Vernunft die Fähigkeit ab, sie beweisen zu
+                  können; sie wollen nicht raisonniren, sie wollen glauben; nicht denken, sondern
+                  empfinden. Denn diess, dünkt mich, sind die charakteristischen Kenntnisse der
+                  Schwärmer, von denen unser Zeitalter uns nur zu viele Beispiele aufstellt. Was
+                  Wunder, wenn man auf einem solchen Wege leicht ausgleitet? Wer der kalten Vernunft
+                  folgt, hat einen sichern Führer, hat feste Regeln, die ihn bald erinnem, wenn er
+                  sich vielleicht einmal vom Wege der Wahrheit entfernt. Aber wer führt uns, wenn
+                  wir uns bloss dunklen Gefühlen, Ahndungen, Träumen überlassen? wer bewahrt uns
+                  dann vor Glauben an Visionen, an Prophezeiungen, und Wunder kuren, und vor jeder
+                  andern Verirrung des menschlichen Verstandes?</p>
+               <p>Gleichzeitige Erscheinungen von so ganz verschiedener Natur haben in der That
+                  etwas Befremdendes. Es scheint sonderbar, den blindesten Glauben neben der
+                  erklärtesten Zweifelsucht zu sehn. Dennoch ist diess Phänomen in der Geschichte
+                  des menschlichen Verstandes nicht selten, so wenig selten, als bei dem nemlichen
+                  Menschen der Uebergang vom Unglauben zur Schwärmerei, oder vom Allglauben zum
+                  Nichtsglauben. Auch sind diese Uebergänge in der That weniger unerklärbar, als sie
+                  es beim ersten Anblik scheinen. Wenn der eine die Frucht des gewöhnlichen Unter-
+                     <pb n="1.4" xml:id="pbI4"/> richts sein mag; so haben, um den andern
+                  begreiflich zu machen, unpartheiische Wahrheitsforscher schon längst gezeigt, wie
+                  leichten Eingang die Grundsäze der natürlichen Religion in die Köpfe und Herzen
+                  der Menschen finden, wie beides ihre Einfalt und ihre Fasslichkeit sie dem
+                  Verstande empfehlen, und wie dieser erst gleichsam verstimmt sein müsse, um ihnen
+                  seinen Beifall zu versagen. Diejenigen also, welche jene Wahrheiten läugnen, sind
+                  selten gewohnt, eigene Untersuchungen mit Schärfe und Genauigkeit anzustellen.
+                  Auch ist es bequemer, dasjenige System ungeprüft anzunehmen, was den Neigungen und
+                  Leidenschaften am meisten schmeichelt, was der Mühe eines beschwerlichen
+                  Nachdenkens überhebt. Dennoch finden sich oft in ihrem Leben Verhältnisse, wo auch
+                  sie das Bedürfniss einer beruhigenden Ueberzeugung fühlen, einer Ueberzeugung, die
+                  sie in ihren ehemaligen Grundsäzen vergebens suchen, und da sie nicht gewohnt sind
+                  zu raisonniren, so glauben sie.</p>
+               <p>Unter diesen Umständen, bei diesen häufigen Angriffen auf Vernunft und Wahrheit
+                  von der einen, und den eben so häufigen Vertheidigungen derselben von der andern
+                  Seite, schien es mir nicht uninteressant zu sein, einmal zu untersuchen, wie man
+                  in den blühendsten Zeiten <placeName ref="geo-264371">Athen</placeName>s und
+                     <placeName ref="geo-8354456">Rom</placeName>s über diese Gegenstände gedacht
+                  habe. Ich fasste daher den Vorsaz, aus den philosophischen Schriften der
+                     <placeName ref="geo-390903">Griechen</placeName> und Römer mehrere Stükke,
+                  welche diese Materie behandeln, in unsre Sprache zu übersezen, und zu versuchen,
+                  ob ich sie zu einem Ganzen ordnen könnte. Unter mehreren Vortheilen, die ich mir
+                  von dieser Arbeit versprach, schien sie mir vorzüglich die Vergleichung zwischen
+                  unsrem, und jenem Zeitalter erleichtern zu können — eine Vergleichung, die gewiss
+                  in mehrern Rüksichten wichtig sein würde, zu welcher aber auch die gleich beim
+                  ersten Anblik auffallende Aehnlichkeit beider Perioden in dem beständigen Kampfe
+                  der Wahrheit und Vernunft gegen Zweifelsucht und Schwärmerei eine angenehme
+                  Veranlassung giebt. Zwar bedarf die Wahrheit zu ihrer Empfehlung keiner
+                  Autoritäten; es ist vielmehr gefährlich, sich ihrer zu dieser Absicht zu bedienen.
+                  Allein dennoch scheint sie gleichsam an Würde, an Stärke der Ueberzeugung zu
+                  gewinnen, wenn man sieht, mit welchem Eifer die Weisen des Alterthums sie
+                  behauptet haben, nachdem sie dieselben fast auf eben den Wegen, als die Forscher
+                  neuerer Zeiten, gesunden hatten; und aus gleichem Grunde erscheinen Zweifel und
+                  Angriffe minder gefährlich, die <pb n="1.5" xml:id="pbI5"/> man auch damals schon
+                  mit so wenig glüklichem Erfolge versucht hat. Besonders aber könnte diese
+                  Vergleichung zu einem richtigeren Urtheil über unser Zeitalter Veranlassung geben.
+                  Die Betrachtung der Höhe, zu der die Philosophie in unsren Tagen gestiegen ist,
+                  kann leicht dazu verführen, mit undankbarer Vergessenheit dessen, was die heutige
+                  Philosophie den älteren <placeName ref="geo-390903">griechischen</placeName> und
+                  römischen Weltweisen schuldig ist, unser Jahrhundert für unendlich aufgeklärter,
+                  als alle vorhergehenden, zu halten. Und eben so kann auf der andern Seite der
+                  Anblik so grosser Verirrungen des Verstandes, und der so häufigen Uebel, welche
+                  Zweifelsucht und Schwärmerei hervorbrachten, zu Ungerechtigkeiten gegen unser
+                  Zeitalter, und zu einem Urtheil verleiten, das demselben die Stufe der Aufklärung
+                  abspricht, auf der es steht. Noch mehr wurde ich in dem Vorsaze, diese
+                  Uebersezungen zu verfertigen, bestärkt, da ein Mann, in dem Deutschland schon
+                  längst nicht bloss einen seiner scharfsinnigsten Philosophen, sondern auch einen
+                  seiner feinsten Schriftsteller verehrt, und dem ich den grössten Theil meiner
+                  Bildung schuldig zu sein mit innigster Dankbarkeit bekenne, dieser Idee seinen
+                  Beifall schenkte. Auch war ich schon zur Ausführung geschritten, als andre
+                  Beschäftigungen, andre Studien, besonders aber das Gefühl der Schwierigkeiten, und
+                  meiner nicht hinreichenden Kräfte bei meiner Arbeit, die neben der
+                  ausgebreitetsten Bekanntschaft mit den Werken der neuern Weltweisheit zugleich die
+                  grösste Belesenheit in den Schriften der Alten, und eine nicht gemeine Kenntniss
+                  ihrer Philosophie erfordert, als, sag’ ich, alle diese Gründe mich nöthigten, die
+                  bereits angefangene Arbeit wieder aufzugeben. Ich lasse indess hier einige
+                  Fragmente, die ich vollendet hatte, folgen, und ich werde glauben, nichts ganz
+                  unnüzes gethan zu haben, wenn diese Probe vielleicht einem Manne von grösserer
+                  Sach- und Sprachkenntniss Veranlassung giebt, seine Musse der Ausführung dieses
+                  Planes zu widmen.</p>
+               <p>Die hier übersezten Stükke hab' ich aus dem <persName ref="gnd-118594893">Platon</persName> und <persName ref="gnd-118635808">Xenophon</persName>
+                  gewählt. Ueberaus vortreflich ist gewiss <persName ref="gnd-118594893">Platon</persName>s Beweis für das Dasein Gottes. Wenigstens hat uns die
+                  Philosophie noch bis auf den heutigen Tag keinen besseren und überzeugenderen
+                  geliefert. Herr <persName ref="gnd-118537636">Garve</persName> sagt in seinen
+                  Anmerkungen zu <persName ref="gnd-118686798">Ferguson</persName>s
+                     <title>Grundsäzen der Moralphilosophie</title>: „Mich dünkt, die Frage: ist ein
+                  Gott? wenn sie auf die ersten Grundbegriffe zurükgeführt wird. woraus sie
+                  entstanden war, ist keine andre, als diese: <pb n="1.6" xml:id="pbI6"/> ist das
+                  Denken der Grund aller Bewegung, oder ist die Bewegung der Grund des Denkens? sind
+                  die mechanischen Kräfte die Quelle der geistigen, oder die geistigen Kräfte die
+                  Quelle der körperlichen?“ und in einer andern Stelle: „Der, welcher glaubt, dass
+                  der Geist und die denkende Kraft das erste und älteste war; dass diese Kraft
+                  ursprünglicher und unabhängiger ist, als die Kräfte der Materie; dass durch sie
+                  die Bewegungen der Körperwelt ihren Ursprung nahmen: der ist der Deist im
+                  allgemeinsten Verstande.“<note type="footnote" n="ii)" resp="gnd-116890657">
+                     <hi>
+                        <persName ref="gnd-118686798">Adam Ferguson</persName>s <title>Grundsätze
+                           der Moralphilosophie</title> S. 358. 359; die Übersetzung erschien
+                           <placeName ref="geo-2879139">Leipzig</placeName>
+                        <date>1772</date>.</hi>
+                  </note>Was aber sucht <persName ref="gnd-118594893">Platon</persName> so sehr, und
+                  mit so vielen Gründen zu beweisen, als eben dieses, dass das Immaterielle — was er
+                  unter dem Ausdruk: <emph>Seele</emph> versteht — früher existirte, als die
+                  Körperwelt; dass diese erst durch jenes geordnet, und in Bewegung gesezt ward? Es
+                  wäre hier eine nicht unschikliche Gelegenheit zu weitläuftigeren Untersuchungen,
+                  worin der Zusammenhang dieser Ideen des <persName ref="gnd-118594893">Platon</persName> mit andern Systemen seines Zeitalters gezeigt werden könnte;
+                  allein ich muss mich begnügen, nur Eine Anmerkung hinzuzufügen, die vielleicht zum
+                  besseren Verständniss des Folgenden nicht unnüz sein wird. <persName ref="gnd-118594893">Platon</persName> redet bloss von Bewegung, und scheint
+                  keine andre Veränderung in der Natur zu kennen. Die neuere Philosophie reduzirt
+                  alle Veränderungen auf zwei Klassen, auf Vorstellung und Bewegung — jene in der
+                  Geister-, diese in der Körperwelt. Ich lasse es jezt unerörtert, in wiefern alle
+                  Veränderungen der Körper auf den einzigen Begriff der Bewegung zurükgeführt werden
+                  können. Genauere Untersuchungen über die Beschaffenheit unsrer Sinne, und die Art,
+                  wie sie Eindrükke von aussen her empfangen, scheinen andre Resultate zu geben.
+                  Aber die ausführlichere Auseinandersezung dieser Materie würde mich zu weit von
+                  meinem Zwek entfernen. Auf alle Fälle hat <persName ref="gnd-118594893">Platon</persName> die Art, wie Geister, und wie Körper wirken, nicht gehörig
+                  von einander unterschieden, sondern Vorstellung und Bewegung in Eine Klasse
+                  geworfen; ein Fehler, der indess in einem Zeitalter, wo die Begriffe von der
+                  Immaterialität der Seele noch so wenig allgemein, und gereinigt waren, desto
+                  verzeihlicher ist, da noch jezt manche Philosophen in einen ähnlichen Irrthum zu
+                  verfallen scheinen. <persName ref="gnd-118635808">Xenophon</persName>s Beweise
+                  sind weniger streng und genau, aber desto fasslicher für den Menschenverstand,
+                  desto empfehlender für das Herz!</p>
+               <p>
+                  <pb n="1.7" xml:id="pbI7"/> Die Einwürfe gegen diese Beweisthümer sind schon eben
+                  die, welche man nachher in so verschiedenen Einkleidungen wiederholt hat. </p>
+               <p>Wenn man den <persName ref="gnd-118594893">Platon</persName> das System seiner
+                  Gegner vortragen hört, so sollte man glauben, er habe es aus <persName ref="gnd-118726102">la Mettrie</persName>, oder dem <title>Système de la
+                     nature</title> entlehnt. Eben die Ideen von einem blinden Verhängniss, von
+                  einer ordnenden Natur, von Bewegungen in der Materie ohne bewegende Ursach. Auch
+                  die Einwürfe gegen die Vorsehung sind noch jezt fast die nemlichen. Ist das Auge
+                  darum zum Sehen geschaffen, weil es zum Sehen bequem ist? Ist es der Würde der
+                  Gottheit nicht unanständig, auch für das Einzelne, für das Kleine zu sorgen?
+                  Warum, wenn eine weise Güte die Schiksale der Menschen lenkt, ist das Laster so
+                  oft glüklicher, als die Tugend? u. s. f.</p>
+               <p>Ich sollte mich vielleicht noch einen Augenblik dabei verweilen, zu zeigen, dass
+                  es auch in dem Zeitalter der <persName ref="gnd-118615270">Sokrates</persName> und
+                     <persName ref="gnd-118594893">Platone</persName> Schwärmer und Betrüger, wie
+                  jezt, gab, und dass nur vielleicht die Mittel verschieden waren, deren sie sich zu
+                  ihren Zwekken bedienen. Es würde mir leicht werden, mehrere Stellen, als Beläge
+                  hiezu, selbst aus dem <persName ref="gnd-118594893">Platon</persName> zu sammlen,
+                  der sich in den bittersten Ausdrükken über sie beklagt, und ihnen im 10ten Buch
+                  seiner Geseze kein mildes Schiksal bestimmt.<note type="footnote" n="iii)" resp="gnd-116890657">
+                     <hi>Die Erörterung <persName ref="gnd-118594893">Platon</persName>s, auf die
+                        hier Bezug genommen wird, findet sich in den <title>Gesetzen</title> S.
+                        909a.</hi>
+                  </note> Allein grossentheils sind diess bekannte, schon mehrmals gesagte Dinge,
+                  und noch neuerlich hat <persName ref="gnd-117444154">Herr Wolf</persName> diese
+                  Materie ausführlich abgehandelt.<note type="footnote" n="iv)" resp="gnd-116890657">
+                     <hi>Im Septemberheft <date>1787</date> der <orgName ref="zdb-4144698-7">Berlinischen Monatsschrift</orgName> (10, 200) veröffentlichte <persName ref="gnd-117444154">Friedrich August Wolf</persName> einen Aufsatz
+                           <title>„Ein Beitrag zur Geschichte des magnetischen Somnambulismus aus
+                           dem Altertum“</title>, worin er ausführlich die antiken Nachrichten über
+                        Kuren durch divinatorischen Schlaf behandelt.</hi>
+                  </note>
+               </p>
+            </div>
+            <div type="text" n="1">
+               <head>
+                  <title type="main">
+                     <persName ref="gnd-118635808">Xenophon</persName>s Denkwürdigkeiten des
+                        <persName ref="gnd-118615270">Sokrates</persName>.</title>
+                  <title type="sub">B. I. K. 4.<note type="footnote" n="v)" resp="gnd-116890657">
+                        <hi>Die Übersetzung beginnt mit dem 2. und schließt mit dem 18. Paragraphen
+                           des Kapitels.</hi>
+                     </note>
+                  </title>
+                  <title type="sub">
+                     <persName ref="gnd-118615270">Sokrates</persName> und <persName ref="person-000007">Aristodem</persName>. </title>
+               </head>
+               <p>
+                  <persName ref="gnd-118615270">Sokrates</persName> erfuhr, dass <persName ref="person-000007">Aristodem</persName> der Kleine (so nannte man ihn) weder
+                  den Göttern opferte, noch die Orakel befragte, sondern <pb n="1.8" xml:id="pbI8"/>
+                  jeden, den er diess thun sah, verlachte. Hör einmal, sprach er eines Tages zu ihm,
+                  hast Du wohl schon Menschen wegen ihrer Geschicklichkeiten, wegen ihrer Talente
+                  bewundert?</p>
+               <p>„O ja, schon oft, <persName ref="gnd-118615270">Sokrates</persName>,“ antwortete
+                     <persName ref="person-000007">Aristodem</persName>.</p>
+               <p>Und diess wären?</p>
+               <p>„In der Epopee <persName ref="gnd-11855333X">Homer</persName>, im Dithyramb
+                     <persName ref="gnd-102398828">Melanippides</persName>, im Trauerspiel <persName ref="gnd-118615688">Sophokles</persName>, in der Bildhauerkunst <persName ref="gnd-118741438">Polyklit</persName>, in der Mahlerei <persName ref="gnd-118772651">Zeuxis</persName>."</p>
+               <p>Aber wer verdient Deinem Urtheile nach mehr Bewunderung: der Künstler, der
+                  unbeseelte, unbewegliche Bilder hervorbringt, oder der Schöpfer beseelter,
+                  selbstthätiger Wesen?</p>
+               <p>„Offenbar der leztere, <persName ref="gnd-118615270">Sokrates</persName>,
+                  vorausgesezt, dass er nicht zufälligerweise, sondern mit Absicht handle.“</p>
+               <p>Wo Du also einen augenscheinlichen Zwek, einen augenscheinlichen Nuzen siehst,
+                  schreibst Du das dem Zufalle, oder einer verständigen Absicht zu?</p>
+               <p>„Wenn ein Zwek da ist, offenbar einer verständigen Absicht.“</p>
+               <p>Der nun, welcher die Menschen zuerst schuf, beabsichtigte doch wohl nur ihren
+                  Nuzen, indem er ihnen die sinnlichen Werkzeuge beilegte: das Auge, um, was
+                  sichtbar ist, zu sehn, das Ohr, um, was hörbar ist, zu hören? Wozu dienten ihnen
+                  alle Gerüche, hätte er ihnen nicht eine Nase gegeben, sie zu empfinden? Wie
+                  könnten sie das Süsse und Scharfe schmekken, wie alles das Vergnügen geniessen,
+                  das ihnen der Gaumen verschaft, hätten sie nicht die Zunge von ihm erhalten, durch
+                  die sie die verschiedenen Arten des Geschmaks unterscheiden? Scheint es Dir nicht
+                  ferner eine absichtsvolle Einrichtung zu sein, dass unser Auge, weil es so überaus
+                  empfindlich ist, durch die Augenlieder, wie durch Thüren, verschlossen wird, die
+                  sich öfnen, so oft wir das Auge zum Sehen brauchen, und sich im Schlaf wieder
+                  schliessen; dass die Augenwimpern die Stelle eines Schleiers<note type="footnote" n="1)" resp="gnd-118554727">
+                     <lang xml:lang="grc">ἡθμόν</lang>, ein Seigetuch, Durchschlag. Diese Metapher
+                     schien mir im Deutschen unverständlich. Auch <persName ref="gnd-118520814">Cicero</persName> in seiner Nachahmung dieser <persName ref="gnd-118635808">Xenophon</persName>tischen Stelle hat sie nicht beibehalten. Er sagt vallo
+                     pilorum, Nat. Deor. II. 57. [<quote>
+                        <lang xml:lang="la">Munitaeque sunt palpebrae tamquam vallo pilorum, quibus
+                           et apertis oculis, si quid incideret, repelleretur et somno
+                           conniventibus, cum oculis ad cernendum non egeremus, ut qui tamquam
+                           involuti quiescerent</lang>
+                     </quote>
+                     <title>De natura deorum</title> 2, 143.] </note> vertreten, damit auch die Luft
+                  dem Auge nicht schade; dass die Augenbraunen, gleich einem Dache, den Schweiss,
+                  der etwa vom Kopfe herabträufelt, abhalten; dass das Ohr alle Schälle empfängt,
+                  und nie <pb n="1.9" xml:id="pbI9"/> voll wird; dass die Vorderzähne bei allen
+                  Thieren mehr zum Zerschneiden, die Bakkenzähne mehr zum Zermalmen bestimmt sind;
+                  dass der Mund, durch den alle Thiere die Speisen, die sie lieben, geniessen, nah
+                  an die Augen und an die Nase gestellt ist; dass hingegen das, was Ekel erregt,
+                  durch Kanäle abgeführt wird, die weit von den sinnlichen Werkzeugen entfernt sind?
+                  Kannst Du alle diese absichtsvollen Einrichtungen dem Zufalle zuschreiben, oder
+                  vielmehr, kannst Du nur noch darüber zweifelhaft sein? </p>
+               <p>„Nein, in der That nicht, <persName ref="gnd-118615270">Sokrates</persName>:
+                  sondern ich erkenne darin, wenn ich es so betrachte, das Werk eines Urhebers, der
+                  weise, und für die Lebendigen mit zärtlicher Liebe besorgt ist.“</p>
+               <p>Und noch mehr. Dass allen Menschen die Begierde angebohren ist, andere Geschöpfe
+                  ihrer Art hervorzubringen, dass den Müttern vorzüglich die Neigung eingepflanzt
+                  ist, ihre Jungen zu ernähren, und zu beschüzen; diess, so wie die heftige Liebe
+                  zum Leben, und die eben so heftige Furcht vor dem Tode, die jeder Kreatur eigen
+                  ist, zeigt gewiss von den Anordnungen eines Wesens, welches das Dasein und die
+                  Erhaltung der Lebendigen will. Aber auch auf einem andern Wege kannst Du Dich von
+                  der Wirklichkeit eines solchen Wesens überzeugen. Du glaubst doch Verstand zu
+                  besizen, nicht wahr?</p>
+               <p>„O! Frage weiter, lieber <persName ref="gnd-118615270">Sokrates</persName>, und
+                  ich werde Dir antworten.“</p>
+               <p>Ausser Dir aber sollte es nichts Verständiges mehr geben? Du weisst doch, dass Du
+                  von allen den Substanzen, aus welchen Dein Körper zusammengesezt ist. immer nur
+                  einen kleinen Antheil empfangen hast: dass von einer jeden noch eine ungeheure
+                  Menge ausser Dir in der übrigen Welt zerstreut ist. In welchem Verhältnisse steht
+                  z. B. die wenige Erde und das wenige Wasser in Deinem Körper gegen die Masse der
+                  Erde und des Wassers. Die noch ausser Dir existirt? Und den Verstand solltest Du
+                  durch ein glükliches Ohngefähr allein an Dich gerissen haben? Nur der sollte
+                  ausser Dir nurgends vorhanden sein? Und alle jene bewundernswürdigen, zahllosen
+                  Dinge sollten ihre vortrefliche Ordnung unverständigen Ursachen danken?</p>
+               <p>„Doch, <persName ref="gnd-118615270">Sokrates</persName>. Denn ich sehe ja
+                  nirgends die Schöpfer und Beherrscher der Erde, so wie ich die Künstler irrdischer
+                  Kunstwerke sehe.“</p>
+               <p>Aber Du siehst auch Deine eigene Seele nicht. und doch beherrscht sie Deinen
+                  Körper. Du könntest also auch mit gleichem <pb n="1.10" xml:id="pbI10"/> Rechte
+                  Deine eigenen Handlungen dem Zufalle, nicht der Ueberlegung zuschreiben.</p>
+               <p>„Ich verkenne, ich verachte ja auch die Gottheit nicht, erwiederte <persName ref="person-000007">Aristodem</persName>; ich halte sie ja vielmehr für ein zu
+                  erhabenes Wesen, als dass sie meines Dienstes bedürfte.“</p>
+               <p>Je erhabener das Wesen ist, <persName ref="person-000007">Aristodem</persName>,
+                  das Dich seiner Sorgfalt würdigt, desto mehr solltest Du es ehren.</p>
+               <p>„Ich würde die Götter auch nicht vernachlässigen, <persName ref="gnd-118615270">Sokrates</persName>, wenn ich nur glaubte, dass sie sich um die Menschen
+                  bekümmerten.“</p>
+               <p>Und Du kannst noch daran zweifeln? Den Menschen allein unter allen Thieren
+                  stellten sie aufrecht: ein Vortheil, durch den er nicht allein weiter um sich
+                  blikken, und den Himmel und die Gestirne, und alles, was über ihm ist, besser
+                  betrachten kann, sondern wodurch er auch mehr vor Gefahren gesichert ist. Allen
+                  übrigen Thieren gaben sie nur Füsse, um sich damit von einem Orte zum andern zu
+                  bewegen; nur der Mensch empfing noch die Hände, und durch sie fast alle die
+                  Vortheile, welche ihn glüklicher machen, als es die Thiere sind. Alle Thiere sind
+                  mit einer Zunge versehn; doch nur die Zunge des Menschen ist so gebildet, dass sie
+                  durch tausend mannigfaltige Bewegungen artikulirte Töne hervorbringt, durch die
+                  wir einander unsere Gedanken, wie es uns gefällt, mittheilen können. Die
+                  Vergnügungen der Liebe endlich sind allen übrigen Thieren nur in einer gewissen,
+                  bestimmten Zeit des Jahres vergönnt; uns allein steht es frei, sie bis ins Alter
+                  ununterbrochen fortzugeniessen. Aber Gott begnügte sich nicht, nur für unsern
+                  Körper zu sorgen; er verlieh (und diess ist sein wichtigstes Geschenk) auch dem
+                  Menschen die vollkommenste Seele. Denn wo ist ein Geschöpf auf dem Erdboden ausser
+                  dem Menschen, dessen Seele sich emporzuschwingen vermöchte bis zum Dasein der
+                  Götter, die so viele grosse erhabene Dinge so bewundernswürdig geordnet haben? Wer
+                  ausser dem Menschen verehrt sie? Welches Thier ist fähiger, als der Mensch, sich
+                  vor Hunger, oder Durst, oder Kälte, oder Hize zu verwahren, sich in Krankheiten zu
+                  heilen, seinen Leib zu stärken und auszubilden, neue Kenntnisse zu erwerben, und,
+                  was es gehört, gesehen, erfahren hat, ins Gedächtniss zurükzurufen? Und doch bist
+                  Du noch nicht überzeugt, dass der Mensch in Vergleichung mit den übrigen Thieren
+                  gleich einem Gotte lebt, und sich eben so sehr durch die Vorzüge seines Körpers,
+                  als durch die Vorzüge seines Geistes über sie erhebt? Ich sage durch beide. Denn
+                     <pb n="1.11" xml:id="pbI11"/> verbände er z. B. den Leib eines Stiers mit der
+                  Vernunft eines Menschen; so würde er nicht nach seinem Wohlgefallen handeln
+                  können. Auf der andern Seite haben die Thiere, welchen die Natur zwar Hände, aber
+                  nicht menschliche Vernunft gab, nichts voraus. Wie kannst Du also, Du, der Du
+                  beide so wichtige Vortheile in Dir vereinigst, noch zweifeln, ob die Götter für
+                  Dich Sorge tragen? Was müssten sie denn thun, um Dich zu überzeugen?</p>
+               <p>„Sie müssten mir Rathgeber senden, wie Du sagst, dass sie thun, um mich in meinen
+                  Handlungen zu leiten.“</p>
+               <p>Aber wenn sie den <placeName ref="geo-264371">Athen</placeName>ern durch Orakel
+                  weissagen, weissagen sie dann nicht auch Dir? Und nicht eben so, wenn sie allen
+                     <placeName ref="geo-390903">Griechen</placeName>, oder dem ganzen
+                  Menschengeschlechte Zeichen und Vorbedeutungen senden? Oder bist Du immer allein
+                  ausgeschlossen, immer allein vernachlässigt? Glaubst Du wohl, dass die Götter den
+                  Menschen das Vorurtheil eingepflanzt hätten, als wären sie fähig, ihnen Gutes und
+                  Böses zuzufügen, wenn sie diese Macht nicht wirklich besässen? Würden denn die
+                  Menschen die Täuschung so viele Zeitalter hindurch nicht inne geworden sein? Und
+                  siehst Du nicht auch, dass die ältesten und weisesten unter den Sterblichen, die
+                  ältesten und weisesten Städte und Nationen die Götter am meisten verehrten, und
+                  dass die aufgeklärtesten Zeitalter auch die meiste Religion besassen? Bedenke,
+                  Lieber, fuhr <persName ref="gnd-118615270">Sokrates</persName> fort, dass Deine
+                  Seele Deinen Körper nach ihrer Willkühr regiert. Sollte nun nicht eben so auch die
+                  Seele des Weltalls alle Dinge nach ihrem Gefallen beherrschen? Dein Auge reicht
+                  auf mehrere Stadien hinaus, und das Auge der Gottheit sollte nicht alles auf
+                  einmal überschauen können? Deine Seele kann sich um Dinge, die hier, die in
+                  Aegypten, die in Sicilien vorgehn, bekümmern; und dem göttlichen Verstande sollte
+                  es unmöglich sein, für alles auf einmal Sorge zu tragen? So wie Du im Umgange mit
+                  Menschen durch Gefälligkeiten und Dienste, die Du ihnen leistest, diejenigen
+                  kennen lernst, die Dir wieder Dienste und Gefälligkeiten erweisen wollen; so wie
+                  Du ihre Klugheit prüfst, indem Du sie um Rath fragst; so mache es auch mit den
+                  Göttern. Diene ihnen, und versuche, ob sie Dir vielleicht etwas von dem entdekken,
+                  was den Menschen verborgen ist; und Du wirst gewiss die Gottheit für ein so
+                  grosses, so erhabenes Wesen erkennen, dass sie alles auf einmal überschauen, alles
+                  wahrnehmen, überall zugleich gegenwärtig sein, und ihre Sorgfalt auf alles
+                  erstrekken kann.</p>
+            </div>
+            <div type="text" n="2">
+               <pb n="1.12" xml:id="pbI12"/>
+               <head>
+                  <title type="sub">B. IV. K. 3.<note type="footnote" n="vi)" resp="gnd-116890657">
+                        <hi>Die Übersetzung beginnt mit dem 3. und schließt mit dem 17. Paragraphen
+                           des Kapitels.</hi>
+                     </note>
+                  </title>
+               </head>
+               <p>Sage mir, sprach eines Tages <persName ref="gnd-118615270">Sokrates</persName> zum
+                     <persName ref="gnd-102393273">Euthydem</persName>, ist es Dir wohl je
+                  eingefallen, darüber nachzudenken, wie gütig die Götter für alle Bedürfnisse der
+                  Menschen gesorgt haben?</p>
+               <p>„Noch nie, <persName ref="gnd-118615270">Sokrates</persName>,“ erwiederte
+                     <persName ref="gnd-102393273">Euthydem</persName>.</p>
+               <p>Aber sie gaben uns doch, um diess zuerst zu erwähnen, das Licht; und Du weisst
+                  doch, dass wir dessen bedürfen?</p>
+               <p>„Allerdings. Denn vermöge der Einrichtung unsres Auges würden wir ohne Licht den
+                  Blinden ähnlich sein.“</p>
+               <p>Wir bedürfen ferner der Ruhe; und sie haben dazu die bequemste Zeit, die Nacht,
+                  geschaffen.</p>
+               <p>„Auch diess verdient unsern Dank.“</p>
+               <p>Die Sonne, die ein lichtvoller Körper ist, zeigt uns die Zeiten des Tages an, und
+                  erleuchtet alle Gegenstände für unser Auge. Weil aber die Nacht finster ist, und
+                  alle Gegenstände unkenntlich macht; so lassen die Götter die Gestirne aufgehen,
+                  welche die Zeiten der Nacht bestimmen, und uns eine Menge unsrer Geschäfte
+                  erleichtern. Und der Mond deutet uns nicht nur die Theile der Nacht, sondern auch
+                  die Theile des Monats an.</p>
+               <p>„Allerdings.“</p>
+               <p>Ferner lassen die Götter die Nahrung, die wir brauchen, auf dem Erdboden wachsen,
+                  lassen dazu schikliche Jahrszeiten mit einander abwechseln, und verschaffen uns
+                  dadurch tausend mannigfaltige Dinge, nicht allein zu unserm Nuzen, sondern auch zu
+                  unserm Vergnügen.</p>
+               <p>„Auch diess zeugt von ihrer Liebe für die Menschen.“</p>
+               <p>Sie haben uns auch das Wasser gegeben, dessen Nuzen für uns so vielfach ist. Denn
+                  durch das Wasser keimen und wachsen mit Hülfe der Erde und der Jahrszeiten alle
+                  uns nüzliche Pflanzen; das Wasser ernährt uns selbst, und macht alle unsre Speise
+                  verdaulicher, gesunder, und angenehmer. Und eben darum, weil wir desselben zu so
+                  vielem Gebrauche bedürfen, haben sie es uns auf das reichlichste mitgetheilt.</p>
+               <p>„Abermals ein Beweis ihrer Fürsorge!“</p>
+               <p>Nebst dem Wasser haben sie uns das Feuer verliehen, das <pb n="1.13" xml:id="pbI13"/> uns gegen Kälte und Finsterniss schüzt, und zu jedem Handwerk,
+                  zur Verfertigung aller den Menschen nüzlichen Werkzeuge nothwendig ist. Denn fast
+                  keins von allen Geräthen, die wir im Leben brauchen, wird ohne Feuer
+                  verfertigt.</p>
+               <p>„Auch diess zeigt eine überschwengliche Sorgfalt für die Menschen.“</p>
+               <p>Und ist es nicht wunderbar, dass sie uns von allen Seiten so reichlich mit Luft
+                  umgossen haben, durch die wir nicht nur unser Leben erhalten, sondern die Meere
+                  durchschiffen, um uns einer dem andern unsre Bedürfnisse aus den entferntesten
+                  Gegenden zuzuführen? nicht wunderbar, dass die Sonne, wenn sie sich im Winter
+                  wendet, zu uns kommt, einige Pflanzen zur Reife bringt, andere, deren Zeit vorüber
+                  ist, troknet, dass sie sich, nach Vollendung dieses Geschäfts, nicht weiter
+                  nähert, sondern gleichsam aus Furcht, uns durch zu grosse Hize zu schaden, sich
+                  von neuem wegwendet, darauf, weil wir, gienge sie noch weiter fort, vor Kälte
+                  erstarren müssten, wieder umdreht, sich uns abermals nähert, und den Standpunkt am
+                  Himmel wählt, der für uns der vortheilhafteste ist?</p>
+               <p>„Allerdings scheint auch diese Einrichtung den Nuzen der Menschheit zu
+                  beabsichten.“</p>
+               <p>Und das gewiss nicht minder, dass die Sonne sich so allmählich nähert, und so
+                  allmählich wieder entfernt, dass wir, ohne es selbst zu merken, den äussersten
+                  Grad beider Arten von Witterung erreichen. Denn wir würden gewiss weder die Hize,
+                  noch die Kälte ertragen können, wenn sie auf einmal einbrächen.</p>
+               <p>„Sehr richtig, <persName ref="gnd-118615270">Sokrates</persName>; nur das Eine
+                  überleg' ich noch, ob die Götter wohl noch eine andere Absicht hatten, als für die
+                  Menschen zu sorgen; und da stosse ich nur bei der einzigen Betrachtung an, dass
+                  doch auch die Thiere alles diess mit uns geniessen.“</p>
+               <p>Gut, <persName ref="gnd-102393273">Euthydem</persName>, sind aber die Thiere nicht
+                  selbst zu unserm Nuzen geschaffen? Denn welches Thier zieht wohl so viel Vortheile
+                  von den übrigen Thieren, als der Mensch, dem sie noch mehr Nuzen gewähren, als
+                  selbst die Pflanzen? Wenigstens nährt und bereichert er sich durch sie, nicht
+                  weniger als durch diese. Viele Völker bedienen sich gar nicht der Erdfrüchte zu
+                  ihren Speisen, sondern leben bloss von der Milch, von dem Käse, von dem Fleisch
+                  ihrer Heerden; und überall werden die nüzlichsten <pb n="1.14" xml:id="pbI14"/>
+                  Thiere gebändigt und zahm gemacht, und als Gehülfen im Kriege, und in tausend
+                  andern Geschäften gebraucht.<note type="footnote" n="2)" resp="gnd-118554727">
+                     <persName ref="gnd-118615270">Sokrates</persName> schränkt hier die Liebe und
+                     Sorgfalt der Gottheit in viel zu enge Gränzen ein. Bei allen ihren wohlthätigen
+                     Einrichtungen soll sie <emph>bloss</emph> den Nuzen der Menschen beabsichtet,
+                     die Thiere <emph>bloss</emph> seinetwegen geschaffen haben. Weit edler, der
+                     Gottheit weit würdiger ist es gewiss, alle Lebendigen zum Zwek der gütigen
+                     Veranstaltungen des Schöpfers zu machen. Und diese Wahrheit ist auch in der
+                     Natur unverkennbar. Freilich nüzen die Thiere dem Menschen, freilich sind sie
+                     seinetwegen geschaffen. Allein diess ist nicht ihre einzige, nicht einmal ihre
+                     vorzüglichste Bestimmung. Sie sind geschaffen, um Wohlsein zu geniessen; denn
+                     sie sind des Wohlseins fähig. Aber der Schöpfer verband immer mehrere Endzwekke
+                     mit einander. Daher sollen sie auch die Glükseligkeit der Menschen befördern.
+                     Befördern nicht auch gegenseitig die Menschen das Wohlsein der Thiere? Sind
+                     nicht auch sie wiederum wegen der Thiere geschaffen? Denn nirgends in der
+                     ganzen Schöpfung kann man sagen: diess ist das Mittel, diess ist der Zwek.
+                     Alles ist Mittel, alles ist Zwek. — Aber <persName ref="gnd-118615270">Sokrates</persName>, oder vielmehr <persName ref="gnd-118635808">Xenophon</persName>, bedarf keiner Vertheidigung wegen dieser Stelle. Wenn
+                     er sich so einseitig ausdrükt; so folgt daraus nicht, dass er sich wirklich so
+                     eingeschränkte Begriffe von den Absichten Gottes machte. Er wollte hier bloss
+                     den Einwurf des <persName ref="gnd-102393273">Euthydem</persName> beantworten,
+                     und dazu war, was er sagte, schon hinlänglich.</note>
+               </p>
+               <p>„Auch hierin muss ich Dir Recht geben. Denn täglich sieht man selbst diejenigen
+                  unter ihnen, die weit stärker als der Mensch sind, ihm so unterthan werden, dass
+                  er sich ihrer nach Gefallen bedienen kann.“</p>
+               <p>Es giebt so viele nüzliche vortrefliche Dinge, die aber von verschiedener Natur
+                  und Beschaffenheit sind. Daher verliehen uns die Götter für eine jede Gattung
+                  derselben angemessene sinnliche Werkzeuge, durch die wir alle diese Güter
+                  geniessen. Ausserdem aber machten sie uns durch den Verstand fähig, uns an
+                  ehemalige sinnliche Empfindungen zu erinnern, Folgerungen daraus zu ziehn, auf
+                  diese Weise die Brauchbarkeit jedes einzelnen Dinges kennen zu lernen, und
+                  Veranstaltungen zu treffen, wie wir das Nüzliche geniessen, und das Schädliche
+                  vermeiden können. Und dass sie uns die Sprache verliehen, durch die wir einander
+                  Unterricht über alles Nüzliche mittheilen, in Gesellschaft leben, Geseze geben,
+                  und Staaten verwalten können!</p>
+               <p>„Du hast Recht, <persName ref="gnd-118615270">Sokrates</persName>, die Götter
+                  tragen gewiss eine grosse Sorgfalt für uns.“</p>
+               <p>Auch bei zukünftigen Dingen, und wann wir nicht im Stande sind, vorauszusehn, was
+                  uns nüzlich sein wird, helfen sie uns, enthüllen uns auf unser Befragen durch
+                  Orakel die Zukunft, und lehren uns, wie sie am besten für uns ausfallen werde. </p>
+               <pb n="1.15" xml:id="pbI15"/>
+               <p>„Dich, <persName ref="gnd-118615270">Sokrates</persName>, scheinen sie hierin noch mehr zu begünstigen, da sie Dir, auch unbefragt, anzeigen, wie Du handlen sollst.“</p>
+               <p>Doch auch Du, <persName ref="gnd-102393273">Euthydem</persName>, wirst gewiss
+                  erfahren, dass ich die Wahrheit rede; warte nur nicht. bis Du die Gestalten der
+                  Götter erblikst, sondern begnüge Dich, sie aus ihren Werken zu erkennen, um sie zu
+                  verehren und anzubeten. Bedenke nur, dass diess die Art ist, wie Götter sich
+                  offenbaren. Denn auch die übrigen Wesen in der Natur, die uns Wohlthaten erweisen,
+                  thun diess nicht vor unsern Augen; und der, welcher die ganze Welt, in der so viel
+                  Schönes, so viel Vortrefliches ist, geschaffen hat, und fortdauern lässt, der sie
+                  zu unsrem Nuzen ewig unentkräftet, ewig blühend, und unveraltet erhält, dem sie
+                  unwandelbar, und schneller als ein Gedanke gehorcht; er ist zwar in seinen
+                  erhabenen Wirkungen sichtbar, allein ihn selbst, wie er diess anordnet, sehen wir
+                  nicht. Verstattet denn selbst die Sonne, die doch allen sichtbar ist, starr in sie
+                  hineinzusehn? Blendet sie nicht das Auge, das sie verwegen anzublikken wagt? Auch
+                  die Diener der Gottheit sind unsichtbar, wie Du finden wirst. Wir werden wohl
+                  gewahr, dass der Bliz von oben herabfährt, dass er zerschmettert, worauf er
+                  stösst; aber wie er herabschiesst, wie er trift, wie er wieder verschwindet, sehen
+                  wir nicht. Eben so ist es auch mit dem Winde. Wir bemerken seine Wirkungen, wir
+                  empfinden sein Annähern, aber ihn selbst sehen wir nicht. Ferner: wenn irgend
+                  etwas Verwandtschaft mit der Gottheit hat, so ist es gewiss unsre Seele; und auch
+                  sie sehen wir nicht, fühlen nur, dass sie uns beherrscht. Alles diess muss man
+                  erwägen, nicht, was unsichtbar ist, geringschäzen, sondern die Macht aus den
+                  Wirkungen erkennen, und darum die Gottheit verehren.</p>
+               <p>„Gewiss, lieber <persName ref="gnd-118615270">Sokrates</persName>, ich werde sie
+                  nie, auch nicht in dem kleinsten Stükke vernachlässigen. Nur das macht mich
+                  muthlos, dass, wie es mir scheint, kein Sterblicher im Stande ist, die Wohlthaten
+                  der Götter mit gleichem Dank zu erwiedern.“</p>
+               <p>Werde darum nicht muthlos, <persName ref="gnd-102393273">Euthydem</persName>. Du
+                  erinnerst Dich wohl noch, dass jemand das Orakel zu Delphi fragte, wie er den
+                  Göttern wohlgefällig werden könne. <emph>Durch das Gesez des Staats</emph>, war
+                  die Antwort des Gottes. Nun ist es überall Gesez, sich die Götter nach seinem
+                  Vermögen durch Opfer günstig zu machen. Kann man sie aber besser, frömmer
+                  verehren, als wie sie selbst es gebieten?<note type="footnote" n="3)" resp="gnd-118554727">Man tadelt vielleicht die Anwendung, welche <persName ref="gnd-118635808">Xenophon</persName> hier von dem in der That so vortreflichen Orakelspruch
+                     bloss auf Opfer und äusserlichen Gottesdienst macht. Allein er bleibt doch
+                     dabei nicht stehn, er empfiehlt doch auch Gehorsam, Vertrauen, Liebe gegen die
+                     Götter. Uebrigens ist sowohl diese Stelle, als so viele andre in den obigen
+                     Gesprächen ein Beweis, wie ehrwürdig und heilig den weisesten Männern zu allen
+                     Zeiten die Religion des Staates war, weil sie einsahn, dass aus ihr allein der
+                     grösste Theil der Bürger seine Verbindlichkeiten gegen den Staat, und gegen
+                     seine Mitbürger herleitet, dass er auf sie allein alle seine Hofnungen baut,
+                     und nur im Vertrauen auf sie sein Leben für das Vaterland wagt. In der Periode,
+                     in welcher <persName ref="gnd-118615270">Sokrates</persName> lebte, kam nun
+                     noch hinzu, dass sich überhaupt fast gar keine Aufklärung fand, dass jezt
+                     allgemeinbekannte Wahrheiten bloss geheim gehaltnes Eigenthum einiger wenigen
+                     Weisen blieben, und dass Religion und Staatsverfassung zu nah mit einander
+                     verbunden waren, als dass man die erstere, ohne Schaden der leztem, hätte
+                     angreifen können.</note>Allein man muss nicht weniger thun, <pb n="1.16" xml:id="pbI16"/> als man vermag. Sonst zeigt man, dass man sie nicht achtet.
+                  Man muss sie aus allen Kräften verehren, und dann mit Zuversicht die grösseste
+                  Glükseligkeit von ihnen erwarten. Von welchen andern Wesen auch, als von ihnen, da
+                  sie die wichtigsten Wohlthaten zu gewähren im Stande sind, dürfte man sich
+                  grössere Hofnungen machen; und auf welche andre Weise, als wenn man ihnen zu
+                  gefallen strebt? Aber gefallen kann man ihnen nur durch den strengsten
+                  Gehorsam.</p>
+            </div>
+            <div type="text" n="3">
+               <head>
+                  <title type="main">
+                     <persName ref="gnd-118594893">Platon</persName>
+                  </title>
+                  <title type="sub">Zehntes Buch der <title>Geseze</title>.<note type="footnote" n="vii)" resp="gnd-116890657">
+                        <hi>Die eigentliche Übersetzung umfaßt S. 887c—907d des Originals, während
+                           das Vorhergehende vom Anfang des 10. Buches an nur auszüglich, wenn auch
+                           hie und da wörtlich wiedergegeben ist.</hi>
+                     </note>
+                  </title>
+               </head>
+               <p>Einst auf einer Reise nach <placeName ref="geo-258763">Kreta</placeName> begegnete
+                     <persName ref="gnd-118594893">Platon</persName> nahe bei <placeName ref="geo-259627">Gnossus</placeName> dem <persName ref="person-000008">Megill</persName> und <persName ref="person-000009">Klinias</persName>. Der
+                  erstere war ein <placeName ref="geo-12041331">Spart</placeName>er, der andre ein
+                     <placeName ref="geo-258763">Kret</placeName>er, und beide hatten von den
+                     <placeName ref="geo-259627">Gnoss</placeName>iern den Auftrag erhalten,
+                  Anführer und Gesezgeber eines neuen Pflanzvolks zu werden. Diess gab zu häufigen
+                  Unterredungen über die Gesezgebung zwischen ihnen und dem <persName ref="gnd-118594893">Platon</persName> Anlass, und aus diesen Gesprächen
+                  entstanden die vortreflichen Bücher über die Geseze; worin also nicht, wie sonst,
+                     <persName ref="gnd-118615270">Sokrates</persName>, sondern <persName ref="gnd-118594893">Platon</persName> selbst unter dem Namen des <placeName ref="geo-264371">Athen</placeName>ischen Fremdlings auftritt. Den ganzen Plan
+                  des <persName ref="gnd-118594893">Platon</persName>ischen Werks zu entwikkeln,
+                  gehört nicht zu meiner gegenwärtigen Absicht; ich begnüge mich, nur den
+                  Zusammenhang anzuzeigen, in dem die folgende Unter- <pb n="1.17" xml:id="pbI17"/>
+                  suchung über das Dasein, und die Vorsehung Gottes mit dem eigentlichen Gegenstande
+                  des Gesprächs steht.</p>
+               <p>
+                        <persName ref="gnd-118594893">Platon</persName> kommt im zehnten Buch seines Werks
+                  auf diejenigen Verbrechen, die, wie er sagt, vorzüglich Folgen der
+                  Ausschweifungen, und der Zügellosigkeit der Jugend sind. Er nennt Verlezung der
+                  obrigkeitlichen Rechte, Uebertretung der kindlichen Pflichten, Entweihung heiliger
+                  Oerter, Verachtung und Beleidigung der Gottheit. Bei diesem leztern Punkte hält er
+                  sich am längsten auf, weil er darin den Ursprung der meisten andern Verbrechen zu
+                  finden glaubt. Er sucht also nicht bloss hier die wirksamste Strafe festzusezen,
+                  sondern auch die Ursachen aus dem Wege zu räumen, aus welchen diese Verachtung der
+                  Götter entstehn könnte.</p>
+               <p>„Nur aus einer der drei folgenden Ursachen, sagt er, kann es herrühren, wenn die
+                  Menschen über die Götter spotten, oder sie auf irgend eine andre Art durch Worte
+                  oder Handlungen beleidigen. Entweder glauben sie überhaupt nicht, dass es Götter
+                  giebt; oder wenn sie auch an ihrem Dasein nicht zweifeln, so sind sie doch nicht
+                  überzeugt, dass sie sich um die Regierung der Welt, und vorzüglich um die
+                  Angelegenheiten und Schiksale der Menschen bekümmern, oder bilden sich gar ein,
+                  die Götter, wenn sie auch einmal über ihre Laster erzürnt wären, durch Opfer und
+                  Geschenke besänftigen zu können. Denn nach den Religionsbegriffen, welche die
+                  Geseze sie lehren, würde die Furcht vor dem Unwillen, und der künftigen Strafe der
+                  Götter ihnen nie eine gesezwidrige Handlung, oder einen irreligiösen Ausdruk
+                  erlauben. Doch wie, fährt er fort, ist dem Uebel zu steuern? Da könnten sie uns
+                  leicht mit Recht den Vorwurf machen, dass wir die sanften Gesezgeber nicht wären,
+                  für die wir gelten wollten; und von uns fordern, sie erst zu überzeugen, und die
+                  Schriften der Dichter und Redner zu widerlegen, woraus sie ihre Religionsmeinungen
+                  schöpfen.“</p>
+               <p>„Und sollte es denn so schwer sein, fällt ihm hier <persName ref="person-000009">Klinias</persName> ins Wort, das Dasein der Götter zu beweisen? Die
+                  Betrachtung der Sonne, der Erde, und der Gestirne, des zwekmässigen Wechsels der
+                  verschiedenen Jahrszeiten; dass alle Völker, <placeName ref="geo-390903">Griechen</placeName> und Nichtgriechen, eine Gottheit verehren —“ „Mit diesen
+                  Beweisen, unterbricht ihn der <placeName ref="geo-264371">Athen</placeName>ische
+                  Fremdling, möchten sie Dich bald verlachen. Die Ursache ihrer Verirrungen ist
+                  nicht bloss, wie Du vielleicht glaubst, ein ungemässigter Hang zum Vergnügen, eine
+                  zügellose Begierde allen ihren Leidenschaften zu fröhnen; es ist <pb n="1.18" xml:id="pbI18"/> etwas weit schlimmeres, das Ihr Ausländer gar nicht kennt,
+                  eine grobe Unwissenheit, die dabei das Ansehn der tiefsten Weisheit hat. Du musst
+                  nemlich wissen, dass es bei uns, theils in prosaischen, theils in poetischen
+                  Schriften, verschiedene Systeme über die Entstehung der Welt und den Ursprung der
+                  Götter giebt — dergleichen man bei Euch, wegen der Vortreflichkeit Eurer
+                  Gesezgebung, gar nicht findet. Nach diesen hat der Himmel und die übrige
+                     Körperwelt<note type="footnote" n="4)" resp="gnd-118554727">
+                     <lang xml:lang="grc">οὐρανοῦ τῶν τε ἄλλων</lang>: <persName ref="gnd-100335993">Serranus</persName> übersezt zwar <lang xml:lang="la">coeli aliorumque ..
+                        deorum</lang>. Allein diess scheint mir nicht richtig. Denn einmal ist es
+                     grammatisch nicht nothwendig, das Wort <lang xml:lang="grc">ἄλλων</lang> an das
+                     vorhergehende <lang xml:lang="grc">θεῶν</lang> zu ziehn; und zweitens passt
+                     auch deorum, dünkt mich, nicht gut in den Sinn. Denn <persName ref="gnd-118594893">Platon</persName> tadelt immer, wie man aus dem ganzen
+                     Gespräche sieht, dass man die Entstehung der Körperwelt der Entstehung der
+                     Geisterwelt vorangehen lässt. Aus dem <persName ref="gnd-118550292">Hesiodus</persName>
+                     <title>Theog</title>. v. 43 erhellet das hier gesagte noch mehr: <cit>
+                        <quote>
+                           <lg type="poem" xml:lang="grc">
+                              <l>θεῶν γένος αἰδοῖον πρῶτον κλείουσιν ἀοιδῇ</l>
+                              <l>ἐξ ἀρχῆς, οὓς Γαῖα καὶ Οὐρανὸς εὐρὺς ἔτικτεν,</l>
+                              <l>οἵ τ᾽ ἐκ τῶν ἐγένοντο θεοί, δωτῆρες ἐάων.</l>
+                           </lg>
+                        </quote>
+                        <bibl>Theog. v. 43</bibl>
+                     </cit>
+                  </note> zuerst und früher als alle andre Dinge existirt, und erst nachher sind die
+                  Götter entstanden, deren Schiksale und Begebenheiten denn der Reihe nach erzählt
+                  werden. In wiefern nun diese Systeme zu andern Zwekken nüzlich sein mögen, ist bei
+                  ihrem Alter schwer zu entscheiden. Aber zu einer eifrigeren Verehrung der Götter,
+                  oder zu einer grösseren Ehrfurcht gegen die Eltern tragen sie gewiss nichts bei.
+                  Doch ich überlasse jene ältere Weltweisen ihrem Schiksale. Auch unsre neuern
+                  Philosophen haben Schuld an dem Unheil. Wenn wir ihnen die Beweise für das Dasein
+                  Gottes vortrügen, die Du erwähntest, wenn wir ihnen Sonne, Mond, Gestirne, und
+                  Erde, als eben so viel Gottheiten und göttliche Wesen vorstellten; so würden sie
+                  uns mit ihrer Weisheit bald überführen, dass diess alles nur todte Stein und
+                  Erdmassen sind, die sich um die menschlichen Angelegenheiten nicht bekümmern
+                  können, und dass alles, was man von ihnen erzählt, nur in ausgeschmükten,
+                  wahrscheinlich gemachten Mährchen bestehe. Was sollen wir nun aber thun, meine
+                  Freunde? Sollen wir die Sache der Götter wider ihre Gegner vertheidigen, und diess
+                  gleichsam als eine Einleitung unsren Gesezen über diesen Gegenstand
+                  vorausschikken? Oder sollen wir diese Untersuchungen fahren lassen, und in unsrem
+                  Hauptgeschäfte, in der Gesezgebung, ununterbrochen fortfahren? Denn freilich
+                  dürfte wohl die Ein- <pb n="1.19" xml:id="pbI19"/> leitung länger werden, als das
+                  Gesez selbst. Ein System, wie das, was ich Euch oben vorgelegt habe, würde, auch
+                  wenn es nur Einer behauptete, schon schwer zu widerlegen sein; wie vielmehr aber
+                  jezt, da es so viele Anhänger findet?“</p>
+               <p>
+                  <persName ref="person-000009">Klinias</persName> und <persName ref="person-000008">Megill</persName> stimmen der erstern Meinung bei.</p>
+               <p>„Schon oft, sagen sie, wiederholten wir es, dass wir bei unsrem Geschäfte weder
+                  auf Kürze, noch auf Länge Rüksicht nehmen müssen. Es treibt uns ja niemand, und
+                  würde es nicht lächerlich sein, das Kürzere dem Besseren vorzuziehn? um so mehr da
+                  es doch sicherlich überaus wichtig ist, Gewissheit in der Ueberzeugung zu haben,
+                  dass es eine gütige, die Gerechtigkeit mehr, als irgend ein Mensch, liebende
+                  Gottheit giebt. Welchen schöneren vortreflicheren Eingang könnten wir zu unsren
+                  Gesezen finden? Lass uns daher, <placeName ref="geo-264371">Athen</placeName>ischer Fremdling, diese Untersuchung mit der möglichsten
+                  Genauigkeit anstellen, und nichts übergehen, was nur irgend dazu gehört.“</p>
+               <p>Hierauf beginnt die Untersuchung auf folgende Art:</p>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">Der Athener</persName>
+                  </speaker>
+                  <p>Deine Bitte, <persName ref="person-000009">Klinias</persName>, ist zu dringend,
+                     als dass ich länger zögern könnte. Aber wie ist es möglich, sich ohne
+                     Erbitterung in der Nothwendigkeit zu sehn, das Dasein der Götter noch beweisen
+                     zu müssen? Wie ist es möglich, nicht auf diejenigen zu zürnen, die uns zu
+                     diesen Untersuchungen nöthigen? Von ihrer Kindheit, ja von der Muttermilch an,
+                     hörten sie diese Lehren bald im Scherze, bald im Ernste von Müttern und Ammen;
+                     waren bei den Opfern, und den sie begleitenden Schauspielen zugegen, wo alles
+                     nur darauf Bezug hatte, und die Kindern sonst so viel Vergnügen machen;
+                     wussten, wie ihre Eltern mit der eifrigsten Inbrunst zu den Göttern beteten,
+                     und sie für sich, und für sie anriefen; sahen und hörten, wie alle <placeName ref="geo-390903">Griechen</placeName> und Ausländer, beim Aufgange und
+                     Untergange der Sonne und des Mondes, die Gottheit verehrten, und dadurch jeden
+                     Verdacht, als bezweifelten sie nur im geringsten ihr Dasein, vertilgten; und
+                     dennoch sezen sie sich jezt über diess alles hinweg, und nöthigen uns, ohne nur
+                     irgend Einen triftigen Grund für sich zu haben, die jezigen Unter- suchungen
+                     anzustellen. Wie kann man sie, wenn man diess bedenkt, mit sanften Worten
+                     zurecht weisen, und sie über das Dasein der Götter belehren? Und dennoch müssen
+                     wir es versuchen, dürfen uns dennoch nicht eben so vom Zorn hinreissen lassen,
+                     als sie von dem Taumel der Sinnlichkeit. Lasst uns daher allen Unmuth in uns
+                     unterdrükken und ohne Erbitterung mit <pb n="1.20" xml:id="pbI20"/> Sanftmuth
+                     zu diesen armen, seelekranken Menschen reden. Wir wollen thun, als hätten wir
+                     einen von ihnen vor uns: „Mein Sohn“, wollen wir zu ihm sagen, „Du bist noch
+                     jung. Du wirst noch oft bei reifern Jahren viele der Grundsäze, die Du jezt für
+                     wahr hältst, verändern, und zu ganz entgegengesezten übergehn. Warte doch also
+                     bis dahin, ehe Du Dich über das entscheidest, was das wichtigste ist. Was aber
+                     kann es mehr sein, als richtig über die Götter zu denken, und edel zu leben?
+                     Bilde Dir auch nicht etwa ein, dass Du und Deine Freunde zuerst diese Meinungen
+                     über die Götter hegten. Ich kann Dir mit Gewissheit das Gegentheil versichern.
+                     Zu allen Zeiten sind bald mehrere, bald wenigere von dieser Krankheit
+                     angestekt. Aber keiner — auch das kannst Du mir glauben — hat das Dasein der
+                     Götter in seiner Jugend geläugnet, der bis in sein Alter dabei verharret wäre.
+                     Noch eher haften zwar auch nicht bei vielen, aber doch bei einigen, die beiden
+                     andern vorerwähnten Krankheiten, dass die Götter sich nicht um die Menschen
+                     bekümmern, oder sich doch leicht durch Gebete und Opfer versöhnen lassen, wenn
+                     sie auch daran Theil nehmen. Warte daher, wenn Du mir folgen willst, mit Deinem
+                     Urtheil, bis diese Materien Dir deutlicher sind, überlege nur indess fleissig,
+                     wie es sich wohl damit verhalten könnte, und versäume nicht, Dich des
+                     Unterrichts andrer, vorzüglich des Gesezgebers, zu bedienen. Denn ihm kommt es
+                     zu, Dich jezt und künftig über diese Gegenstände zu belehren. Wage es aber ja
+                     nicht, bis zu diesem Zeitpunkte auf irgend eine Weise gegen die Götter zu
+                     handlen.“</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Klinias</persName>
+                  </speaker>
+                  <p>Bis hieher, Fremdling, ist, was Du gesagt hast, vortreflich.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">
+                                <persName ref="gnd-118726102">D. A.
+                        </persName>
+                            </persName>
+                  </speaker>
+                  <p>Aber bemerkst Du auch wohl, dass wir uns hier, ohne es selbst gewahr zu werden,
+                     in ein sonderbares System verwikkelt haben?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p> In welches, Fremdling?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>In ein System, das von vielen für das weiseste unter allen gehalten wird!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Erkläre Dich deutlicher!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Sogleich. Sie behaupten, dass alles, was gewesen ist, ist, und sein wird, sein
+                     Dasein entweder der Natur, oder der Kunst, oder dem Zufall zu danken habe.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Und sollten sie darin nicht Recht haben?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wie könnten Weise, wie sie, irren? Lass uns ihnen <pb n="1.21" xml:id="pbI21"/>
+                     aber doch ein wenig folgen, und sehn. was sie sich eigentlich gedacht
+                     haben!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Von Herzen gern!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aller Wahrscheinlichkeit nach, sagen sie, sind die grössesten, vortreflichsten
+                     Dinge Werke der Natur und des Zufalls, der Kunst gehören die unbedeutenderen
+                     zu. Denn sie borgt den ersten Hauptstoff von der Natur, und formt nur, und
+                     bildet daraus die kleineren Dinge, die wir Kunstwerke nennen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie verstehen sie diess?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ich will mich gleich deutlicher erklären. Ihrem System nach sind die Erde, das
+                     Feuer, das Wasser, die Luft insgesammt durch die Natur und den Zufall — beides
+                     leblose Wesen — hervorgebracht; die Kunst hat keinen Theil daran. Eben so sind
+                     alle übrigen Körper entstanden: unser Erdball, die Sonne, der Mond, und die
+                     Gestirne. Denn der Zufall hat alles, ein jedes nemlich nach den ihm eigenen
+                     Kräften, unter einander geworfen, und so hat es sich nach seinen verschiedenen
+                     Beschaffenheiten mit einander verbunden, das Warme mit dem Kalten, das Trokne
+                     mit dem Nassen, das Weiche mit dem Harten, und so fort durch eine blinde
+                     Nothwendigkeit immer ein Entgegengeseztes mit dem andern. Hieraus und auf diese
+                     Weise ist der ganze Himmel entstanden, und alles, was unter dem Himmel ist, die
+                     Thiere, die Pflanzen, der Wechsel der Jahrszeiten, nicht mit Hülfe eines
+                     Verstandes, oder eines Gottes, oder der Kunst, sondern durch die Natur und den
+                     Zufall. Aus diesen, und später als sie, ist die Kunst entsprungen — sterblich,
+                     und von sterblichen Menschen erfunden — und hat lange nachher Werke
+                     hervorgebracht, die, ohne eigentlich etwas Wahres, Reelles, an sich zu tragen,
+                     nur Phänomene sind, die bloss unter einander Verwandtschaft haben, wie Werke
+                     der Mahlerei, der Musik, und der übrigen mit diesen beiden wetteifernden
+                     Künste. Soll die Kunst ja etwas Reelles hervorbringen; so muss sie sich mit der
+                     Natur vereinigen, wie es in der Heilkunst. Oekonomik, und der Gymnastik
+                     geschieht. Selbst die Staatskunst hat nur wenig Verwandtschaft mit der Natur,
+                     und die Gesezgebungskunst gar keine. Daher sie denn auch lauter falsche
+                     Grundsäze aufstellt.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie das?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Die Götter, um ihrer zuerst zu erwähnen, existiren, (ich rede noch immer in
+                     ihrem System fort,) nicht wirklich in der Natur, sondern danken ihr Dasein
+                     allein der Kunst und den Ge- <pb n="1.22" xml:id="pbI22"/> sezen. Daher sind
+                     sie auch nach den verschiedenen Nationen verschieden, je nachdem sich die
+                     Gesezgeber mehr oder weniger einander genähert haben. Eben so ist, was wir
+                     Tugend nennen, etwas andres nach der Natur, etwas andres nach den Gesezen; und
+                     was gerecht ist, lässt sich nach der Natur ganz und gar nicht bestimmen. Die
+                     Menschen sind von je her darüber uneins gewesen, haben ihre Meinungen bald auf
+                     diese, bald auf jene Weise verändert, und immer das angenommen, und durch
+                     Geseze bestätigt, was ihnen jedesmal das richtigste schien. Natur und Wahrheit
+                     aber haben keinen Theil daran. Solche Lehrsäze, lieben Freunde, empfehlen jene
+                     weisen Männer der Jugend bald in prosaischen, bald in poetischen Schriften, und
+                     sezen dann noch hinzu: nur das sei Recht, was jeder mit Gewalt sich erringe.
+                     Diess ist denn die Quelle der Zügellosigkeit unsrer jungen Bürger, dass sie die
+                     Götter nicht glauben, die das Gesez zu glauben befiehlt! Diess ist die Quelle
+                     der Unruhen im Staat, dass sie nach der, ihrem Wahn nach, einzig natürlichen
+                     Glükseligkeit streben: über alle zu herrschen, und keiner von den Gesezen
+                     verordneten Gewalt zu gehorchen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Was für ein System hast Du uns vorgetragen, Fremdling, welche Pest für die
+                     Jugend, zum Verderben des Staats und ihrer Familien!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Sehr richtig, <persName ref="person-000009">Klinias</persName>. Aber was soll
+                     der Gesezgeber thun, wenn diess schon lange gegen ihn vorbereitet ist? Soll er
+                     sich mitten in der Stadt hinstellen, und bloss befehlen, die von den Gesezen
+                     angenommenen Götter zu glauben und zu verehren, und über alles, was edel und
+                     gerecht ist, was sich auf Tugend und Laster bezieht, den Vorschriften der
+                     Geseze gemäss zu denken, und so zu handlen? ihnen drohen, wenn sie seinen
+                     Gesezen nicht gehorchen würden, diesen mit dem Tode, jenen mit Geissel und
+                     Kerker, einen andren mit Schande, Mangel, und Verbannung zu bestrafen? Und soll
+                     er nirgends Ueberzeugungsgründe hinzufügen, ihre Herzen zu erweichen, und sie
+                     zurükzuführen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Ganz und gar nicht, Fremdling. Vielmehr, giebt es irgend, auch noch so kleine,
+                     Ueberzeugungsgründe für diese Wahrheiten; so darf der Gesezgeber — wenn er nur
+                     irgend diesen Namen verdienen soll — nicht müde werden; sondern [muss] das
+                     hergebrachte Gesez durch Beweise für das Dasein der Götter unterstüzen, der
+                     Kunst und den Gesezen das Wort reden, und zeigen, dass sie durch die Natur,
+                     oder nicht weniger, als die Natur <pb n="1.23" xml:id="pbI23"/> selbst,
+                     existiren, weil sie Früchte des Verstandes sind. Denn diess hast Du, dünkt
+                     mich, auf die überzeugendste Art dargethan.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Du bist sehr enthusiastisch für unser Unternehmen, lieber <persName ref="person-000009">Klinias</persName>; aber bedenkst Du auch wohl, ob es
+                     nicht zu schwer sein wird, so lange und verwikkelte Beweise dem Volke
+                        vorzutragen?<note type="footnote" n="5)" resp="gnd-118554727">Ich gehe zwar in dieser
+                        Stelle von <persName ref="gnd-100335993">Serrans</persName> und <persName ref="gnd-118532855">Ficin</persName>s Uebersezungen ab. [<persName ref="gnd-100335993">De Serres</persName> übersetzt: <quote>
+                           <lang xml:lang="la">Nonne difficile est ea verbis assequi, quae a vulgo
+                              dicuntur et infinita quadam rerum ubertate cumulantur?“</lang>
+                        </quote>; bei <persName ref="gnd-118532855">Ficino</persName> lautet die
+                        Stelle: „<quote>
+                           <lang xml:lang="la">Nonne arduum est ea rationibus prosequi, quae ita per
+                              omnes divulgata sunt ipsaque prolixa sunt nec brevitatem
+                              patiuntur?</lang>
+                        </quote>] Aber sowohl wegen des Zusammenhangs, als besonders der Worte <lang xml:lang="grc">εἰς πλήθη λεγόμενα</lang> scheint mir der Sinn, wie ich
+                        ihn ausgedrükt habe, richtiger gefasst zu sein.</note>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wir haben uns ja bei andren Dingen, bei den Gastmälern, bei der Tonkunst, so
+                     lange, ohne zu ermüden, verweilt; und bei Untersuchungen über die Gottheit
+                     wollten wir es nicht? Eine vernünftige Gesezgebung erhält gewiss keine geringe
+                     Stüze dadurch, wenn das Gesez immer zugleich Grund und Beweis angiebt. Denn
+                     alsdann bleibt es gewiss unumstösslich. Was schadet es auch, wenn unsre Geseze
+                     anfangs ein wenig schwer zu verstehn sind? Der langsamere Kopf kann sie ja
+                     öfter überlesen. Und was Du von der Länge sagst; so darf uns diese, wenn wir
+                     den Nuzen erwägen, nicht zurükhalten. In der That es wäre unverzeihlich, Säze
+                     von der Art nicht nach allen Kräften zu vertheidigen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000008">Megill</persName>
+                  </speaker>
+                  <p>
+                     <persName ref="person-000009">Klinias</persName>, dünkt mich, hat Recht,
+                     Fremdling.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Das hat er, und wir müssen ihm folgen. Wären die Grundsäze, deren ich vorhin
+                     erwähnte, nicht gleichsam in der ganzen Welt ausgebreitet, so brauchten wir
+                     freilich nicht das Dasein der Götter zu vertheidigen; allein so ist es
+                     nothwendig. Und wem ziemt diese Vertheidigung mehr, als dem Gesezgeber, da jene
+                     schändlichen Menschen die ehrwürdigsten Geseze unter die Füsse treten?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Gewiss keinem.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So sage mir denn von neuem, <persName ref="person-000009">Klinias</persName> —
+                     denn wir müssen immer gemeinschaftlich untersuchen — scheint es Dir nicht auch,
+                     dass unsre Gegner Feuer, Wasser, Erde und Luft für die ersten aller Dinge
+                     halten, dass sie diese zusammengenommen die Natur nennen, und dass sie erst aus
+                     ihnen die geistige Substanz, <pb n="1.24" xml:id="pbI24"/> die Seele, entstehn
+                     lassen? Mich dünkt sogar, diess scheint nicht bloss so, sondern es liegt
+                     offenbar in ihren Behauptungen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Hätten wir da nicht auf einmal die Quelle von allen den unsinnigen Meinungen
+                     derer entdekt, die sich bis jezt mit Untersuchungen über die Natur beschäftigt
+                     haben? Denke ja recht aufmerksam darüber nach. Denn es wäre doch in der That
+                     kein kleiner Gewinn für uns, wenn die Anhänger und Vertheidiger so
+                     gottesläugnerischer Systeme sich unrichtiger Schlussfolgen schuldig gemacht
+                     hätten. Und mir kommt es so vor.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Auch mir, Fremdling. Doch sage mir, worin eigentlich sie geirrt haben.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aber ich werde fremde, unbekannte Säze zu Hülfe nehmen müssen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Immerzu. Du fürchtest, wie ich sehe, Dich von den Gränzen der Gesezgebung zu
+                     entfernen; aber können wir auf keinem andren Wege das Dasein der Götter
+                     vertheidigen, so müssen wir auch diesen einschlagen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ich würde daher, wie ungewohnt es auch klingen mag, also anfangen. In allen den
+                     Systemen, aus welchen jene verkehrten Grundsäze über die Götter entstanden
+                     sind, wird das, was die erste Ursache alles Entstehens und alles Untergehens
+                     ist, nicht für das Erste, sondern für das Lezte angenommen; das Lezte hingegen
+                     wird an die Stelle des Ersten gesezt. Daher alle Irrthümer über das Wesen der
+                     Götter.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Ich verstehe Dich noch nicht recht.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Alle jene Philosophen haben, dünkt mich, die Seele,<note type="footnote" n="6)" resp="gnd-118554727">
+                        <persName ref="gnd-118594893">Platon</persName> versteht unter <hi xml:lang="grc">ψυχή</hi> in diesem ganzen Gespräche alles
+                           <emph>Immaterielle</emph> überhaupt. Mir schien vorzüglich in Rüksicht
+                        auf die <emph>Weltseele</emph>, auf die im Folgenden verschiedentlich
+                        angespielt wird, der Ausdruk <emph>Seele</emph> im Deutschen der
+                        passendste.</note> ihre Kräfte, und vorzüglich ihre Entstehung sehr wenig
+                     gekannt. Denn sie haben nicht gewusst, dass sie früher, als alle andre Dinge,
+                     folglich auch früher, als die ganze Körperwelt existirt hat, und dass sie
+                     allein jede Veränderung, jede Umbildung hervorbringt. Und wenn diess wahr ist,
+                     wenn die Seele wirklich älter ist, als der Körper; so muss auch, was mit der
+                     Seele verwandt ist, früher da gewesen sein, als das, was zum Körper gehört.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie anders?</p>
+               </sp>
+               <pb n="1.25" xml:id="pbI25"/>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Alles Geistige, Meinung, Fürsorge, Verstand, Kunst, Gesez u. s. f. war also
+                     eher da, eh’ es etwas Körperliches, etwas Hartes und Weiches, etwas Schweres
+                     und Leichtes gab; und die grössesten, ersten Dinge und Veränderungen sind
+                     folglich Werke der Kunst, da hingegen die Werke der Natur, so wie die Natur
+                     selbst — von der sie auch einen unrichtigen Begriff haben — später entstanden,
+                     und der Kunst und dem Verstande untergeordnet sind.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>In wiefern tadelst Du ihren Begriff von der Natur?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Sie nennen die Natur die Entstehung der ersten Dinge, und sezen die Körper
+                     voran. Wenn aber nicht das Feuer, nicht die Luft, sondern die Seele zuerst
+                     existirt hat: so kann man ja diess mit Recht die natürliche Ordnung der Dinge
+                     nennen. Aber freilich muss erst bewiesen werden, dass die Seele älter ist, als
+                     die Körper; und wollen wir nicht gleich zu diesem Beweise schreiten?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Warum nicht?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So müssen wir uns denn nur hüten, dass uns nicht irgend ein junger
+                     sophistischer Trugschluss täusche. Wenn er uns, die wir schon Greise sind,
+                     lokte, und uns auf einmal wieder entschlüpfte; so gäbe er uns gewiss dem
+                     Gelächter der Leute Preis, und zeigte ihnen. dass wir, die wir so grosse Dinge
+                     unternehmen, auch in den kleinsten verunglükken. Wir wollen uns einmal
+                     vorstellen, wir hätten, wir drei, durch einen Fluss zu gehn. Würd' es Euch da
+                     nicht vernünftig scheinen, wenn ich, als der jüngste von Euch, und der am
+                     meisten gewohnt wäre. Flüsse zu durchwaten, Euch vorschlüge, zuerst zu
+                     versuchen, und Euch indess am sichern Ufer zu lassen. Denn ich könnte ja dann
+                     sehn, ob wohl auch Ihr Aeltere durchkommen könntet, und wenn ich das sähe, Euch
+                     mit meiner grösseren Erfahrung helfen; fände ich aber das Gegentheil, so hätte
+                     ich die Gefahr über mich genommen. Der Fall, in dem wir uns jezt befinden, ist
+                     diesem fast gleich. Unsre Untersuchung ist tief, und für Eure Kräfte vielleicht
+                     unergründlich; leicht kann Euch ein Schwindel befallen: leicht könnt Ihr durch
+                     Fragen, an die Ihr nicht gewöhnt seid, gefangen werden; und dann würdet ihr
+                     Verdruss und Schande davon haben. Ich will mich selbst erst fragen; indess
+                     sollt Ihr ganz ruhig zuhören; und dann will ich mir selbst wieder antworten.
+                     Und so will ich die ganze Untersuchung durchgehn, bis ich bewiesen habe, dass
+                     die Seele früher da gewesen ist, als der Körper.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Vortreflich, Fremdling; mach es nur. wie Du sagst.</p>
+               </sp>
+               <pb n="1.26" xml:id="pbI26"/>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun wohlan denn! Wenn wir aber je die Gottheit anrufen müssen, so lasst uns
+                     jezt bei dem Beweise ihres eigenen Daseins ihren Beistand erbitten, und durch
+                     ihn, wie durch einen festen Anker gesichert, die Untersuchung beginnen. Wenn
+                     man mir, wie ich eben sagte, Fragen vorlegte; so glaub’ ich auf folgende Art am
+                     sichersten antworten zu können. Gesezt z. B. man fragte mich: „Wie, Fremdling,
+                     ist alles in Ruhe, oder alles in Bewegung, oder giebt es Dinge, die sich
+                     bewegen, und Dinge, die ruhen?“ so würde ich antworten: es giebt Dinge, die
+                     ruhen, und Dinge, die sich bewegen. — „Muss aber nicht immer ein Ort da sein,
+                     in welchem das Ruhende ruht, und das sich Bewegende sich bewegt“ — Allerdings.
+                     — „Und geschieht die Bewegung nicht bei einigen Dingen in Einem, bei andern in
+                     mehreren Orten?“ — Du verstehst doch unter der Bewegung in Einem Orte
+                     diejenigen Dinge, die, ohne ihren Standpunkt zu verändern, nur in der Mitte
+                     einen Schwung erhalten, so wie man von Kugeln sagt, dass sie still stehn, da
+                     sie sich doch im Grunde herumdrehn? — „Ganz recht.“ — Bei diesem Herumdrehn
+                     muss dieselbe Bewegung den grössesten und den kleinsten Zirkel herumtreiben,
+                     sich verhältnissmässig unter die kleineren, und unter die grösseren vertheilen,
+                     und also selbst nach eben diesem Verhältniss bald kleiner, bald grösser sein.
+                     Darum ist sie eben so bewundernswürdig, weil sie, was beinah unmöglich scheinen
+                     sollte, nach richtigem Verhältniss zugleich den kleineren und den grösseren
+                     Zirkeln Langsamkeit und Geschwindigkeit mittheilt. — „Du hast vollkommen
+                     Recht.“ — Und mit der Bewegung in mehreren Orten meinst Du doch solche Körper,
+                     die während der Bewegung ihre Stelle verändern, sie mögen nun immer denselben
+                     Mittelpunkt zur Basis haben, oder mehrere, wie beim Herumwälzen? Wenn sie so
+                     aufeinander stossen, so trennen sie sich, wenn sie ruhenden Körpern begegnen;
+                     treffen sie aber auf Körper, die gleichfalls in Bewegung, und nach Einem Punkte
+                     mit ihnen gerichtet sind; so verbinden sie sich untereinander, und mit den
+                     Körpern, die sich zwischen ihnen beiden befinden. — „Du hast meine Meinung
+                     völlig richtig gefasst.“ — Nun aber nehmen die Körper durch die Verbindung mit
+                     andern zu, so wie sie durch die Trennung abnehmen; vorausgesezt nemlich, dass
+                     jeder seine vorige Beschaffenheit behält. Denn sonst werden sie durch jede
+                     dieser Veränderungen vernichtet. — „Allein was muss mit ihnen vorgehen, wenn
+                     sie entstehn sollen?“ — Der erste Stoss muss einen Zuwachs erhalten, durch den
+                     er in den <pb n="1.27" xml:id="pbI27"/> zweiten Zustand, und von diesem in den
+                     folgenden übergeht. Denn erst nach drei verschiedenen Zuständen wird er den
+                     Sinnen bemerkbar. Durch diese Veränderungen und Uebergänge entstehen alle
+                     Dinge; und so lange sie ihre erste Beschaffenheit behalten, existiren sie,
+                     sobald sie aber diese verändern, werden sie vernichtet. Sind wir nicht jezt,
+                     meine Freunde, alle Arten der Bewegung durchgegangen, zwei allein
+                     ausgenommen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Und diese zwei sind?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Eben die, Lieber, um die wir diese ganze Untersuchung angestellt haben.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Erkläre Dich ein wenig deutlicher.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wir redeten doch von der Seele?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nun ja! —</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So höre denn! Die eine dieser Bewegungen ist die, welche andere Dinge bewegt,
+                     sich selbst aber nie bewegen kann; die andre hingegen die, welche sich und
+                     andre Dinge beständig fort in Bewegung sezt, indem sie alle Verbindung und
+                     Trennung, alle Zunahme und Abnahme, alles Entstehen und Untergehen
+                     hervorbringt. Wollen wir nun nicht die erste dieser Bewegungen, die andre Dinge
+                     verändert, aber wiederum stets von andren verändert wird, für die neunte Art
+                     der Bewegung annehmen, und derjenigen, welche sich und andre Dinge in Bewegung
+                     sezt, zu jeder Art des Handlens, und des Leidens fähig ist, und mit Recht der
+                     Grund aller Verändrung und aller Bewegung genannt werden kann, den zehnten Plaz
+                     anweisen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aber welcher unter diesen Arten von Bewegung werden wir in Absicht der
+                     Wirksamkeit und der Thätigkeit den Vorzug geben?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Natürlich keiner andern, als der selbstthätigen; denn dieser müssen alle
+                     übrigen nachstehn.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Sehr richtig! Jezt haben wir nur noch einen oder zwei Punkte in dein bisher
+                     Gesagten zu verbessern.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Und welche, Fremdling?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Einmal war es falsch, dass wir der Bewegung, von der wir zulezt redeten, den
+                     zehnten Plaz anwiesen, da sie doch, wie Du selbst zugiebst, sowohl der
+                     Entstehung, als der Wirksamkeit nach, die erste ist; dann hätten wir die,
+                     welche nach dieser die zweite ist, nicht für die neunte annehmen sollen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Aus welchem Grunde nicht?</p>
+               </sp>
+               <pb n="1.28" xml:id="pbI28"/>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aus folgendem. Wenn ein Ding von einem andern bewegt wird, und dieses wieder
+                     von einem andern, und dieses wieder von einem dritten, und immer so fort; wird
+                     dann irgend eins dieser Dinge den Grund der Bewegung enthalten? Unmöglich. Wie
+                     kann etwas, das von einem andern Dinge bewegt wird, der Grund der Bewegung
+                     sein? Aber wenn etwas sich selbst Bewegendes eine Veränderung in einem andern
+                     Dinge hervorbringt, und diess wieder in einem andern, und wenn auf diese Art
+                     tausend und zehntausend Dinge verändert werden, was wird alsdann den Grund
+                     aller dieser Veränderung enthalten, wenn nicht die erste Veränderung der sich
+                     selbst bewegenden Substanz?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Offenbar nur sie.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Auch folgende Frage wollen wir uns wieder zur eigenen Beantwortung vorlegen.
+                     Wenn alles zugleich still stände — eine Hypothese, welche die meisten unsrer
+                     Gegner kühn genug sind anzunehmen — wo, bei welchen Substanzen müsste alsdann
+                     die erste Bewegung anfangen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nothwendig bei den selbstthätigen. Denn diese können nicht vorher durch etwas
+                     andres in Bewegung gesezt werden, da vor ihnen gar keine Bewegung vorhanden
+                     ist.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Also liegt der Grund aller Bewegungen, sowohl derjenigen, welche nun schon
+                     aufgehört hat, als derjenigen, welche noch immer fortdauert, allein in der
+                     selbstthätigen Bewegung. Müssen wir nicht daher dieser das höchste Alter, und
+                     die grösseste Wirksamkeit zuschreiben? und den Dingen, welche selbst von andern
+                     die Bewegung erhalten, die sie wiederum andern mittheilen, die zweite Stelle
+                     nach ihnen anweisen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie könnten wir anders?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So weit wären wir jezt in unserm Beweise gekommen. Nun weiter! Was legen wir
+                     einem Körper für eine Eigenschaft bei, wenn wir in ihm — er bestehe nun aus
+                     Erde, Wasser, oder Feuer, er sei einfach, oder zusammengesezt — eine solche
+                     erste Bewegung erblikken?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Fragst Du mich vielleicht, ob wir einem solchen Körper, der sich durch sich
+                     selbst bewegt, Leben zuschreiben?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nichts anders; ob wir ihm Leben zuschreiben?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Und wie? Wenn wir in einem Körper eine Seele gewahr werden, suchen wir denn
+                     nicht den Grund seines Lebens allein in ihr?</p>
+               </sp>
+                <pb n="1.29" xml:id="pbI29"/>
+                <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allein in ihr.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun gieb einmal recht Acht! Kannst Du nicht an jeglichem Dinge dreierlei
+                     unterscheiden, die Substanz, oder die Sache selbst, die Erklärung und den Namen
+                     desselben? Kannst Du nicht gleichfalls über jedes Ding zwei Fragen aufwerfen:
+                     die eine mit Voraussezung des Namens nach der Erklärung; die andere umgekehrt
+                     mit Voraussezung der Erklärung nach dem Namen? Ich will mich durch ein Beispiel
+                     erklären. Es giebt Zahlen, wie Du weisst, die aus zwei gleichen Theilen
+                     bestehn. Ihr Name ist: gerade Zahlen. Ihre Erklärung: Zahlen, die in zwei
+                     gleiche Theile zerfallen. Nun ist es völlig gleichviel, ob ich Dir den Namen
+                     sage, und Dich nach der Erklärung frage; oder ob ich umgekehrt Dir die
+                     Erklärung sage, und Dich nach dem Namen frage. Denn beide, sowohl Name, als
+                     Erklärung, bezeichnen nur Eine und ebendieselbe Zahl.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Sehr richtig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Was ist nun die Erklärung dessen, was wir Seele nennen? Ist nicht die Seele
+                     eben das, wovon wir sprechen: eine selbstthätige Bewegungskraft?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Als eine selbstthätige Bewegungskraft erklärst Du daher das Wesen, das wir
+                     insgemein Seele nennen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ja, und wenn diess richtig ist, so haben wir unwidersprechlich bewiesen, dass
+                     die Seele der Grund des Entstehens, und der Bewegung aller Dinge ist, soviel
+                     ihrer sind, gewesen sind, und noch sein werden. Denn von ihr allein entspringt
+                     jede Veränderung und jede Bewegung. Oder scheint Dir der Beweis noch
+                     mangelhaft?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Keinesweges. Es ist vielmehr auf das vollkommenste dargethan, dass die Seele
+                     früher, als alle übrigen Dinge existirt hat, und die Quelle aller Bewegung
+                     ist.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wird nicht ferner die Bewegung der leblosen Körper, die nicht durch sie selbst,
+                     sondern durch andre in ihnen hervorgebracht wird, um Eine, oder um so viel
+                     Stufen, als man will, jener ersteren nachstehn?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Offenbar.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Es war also völlig richtig, wahr, und unwiderleglich, was wir vorhin
+                     behaupteten, dass die Seele früher da gewesen ist, als der Körper, und dass
+                     derselbe der Seele untergeordnet ist, die ihn nach den Gesezen der Natur
+                     beherrscht.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <pb n="1.30" xml:id="pb30"/>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun aber gaben wir doch zu — Du erinnerst Dich dessen noch? — dass, wenn die
+                     Seele älter wäre, als der Körper, auch die Eigenschaften der Seele älter sein
+                     müssten, als die Eigenschaften des Körpers? </p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Das gaben wir zu.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Folglich sind Denkungsart, Charakter, Wille, Nachdenken, Wahrheit, Fürsorge,
+                     und Gedächtniss früher da gewesen, als körperliche Länge, Breite, Tiefe, und
+                     Stärke, vorausgesezt nemlich, dass die Seele eher existirt hat, als der
+                     Körper.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nothwendig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Müssen wir nicht auch, wenn wir einmal die Seele zur Ursache aller Dinge
+                     annehmen, eingestehn, dass sie die Quelle alles Guten und Edlen, sowie alles
+                     Schlechten und Unedlen, alles Gerechten und Ungerechten, und aller übrigen
+                     einander entgegengesezten Eigenschaften ist?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie könnten wir anders?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ferner: wenn die Seele alle Dinge, die sich nur irgendwo bewegen, regiert und
+                     belebt, muss sie denn nicht auch den Himmel regieren?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nothwendig auch ihn.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Regiert ihn aber nur Eine, oder mehrere? Ich will für Euch antworten: Mehrere.
+                     Denn weniger als zwei dürfen wir nicht annehmen: eine wohlthätige, und eine,
+                     die das Gegentheil davon ist.<note type="footnote" n="7)" resp="gnd-118554727">Der
+                        Irrthum, dass <persName ref="gnd-118594893">Platon</persName> hier zwei
+                        Grundwesen annimmt, ein gutes und ein böses, kann seiner Philosophie wohl
+                        nicht zu einem grossen Vorwurf gereichen, wenn man bedenkt, wie sichtbare
+                        Spuren sich noch bis in unsre Zeiten von dieser Idee erhalten haben. Auch
+                        wurden in der That viele Schritte dazu erfordert, ehe man zu der Einsicht
+                        gelangen konnte, dass auch die scheinbaren Unvollkommenheiten in den Plan
+                        des weisesten und gütigsten Schöpfers gehören, weil sie in Rüksicht aufs
+                        Ganze nicht mehr Unvollkommenheiten sind.</note>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Sehr richtig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So lenkt also die Scele alles, was im Himmel, auf der Erde, und im Meere
+                     geschieht, mit den ihr eignen Arten der Bewegungen, die wir Wollen, Ueberlegen,
+                     Sorgen, Entschliessen, richtig und falsch urtheilen, die wir Freude und
+                     Betrübniss, Muth und Furcht, Hass und Liebe nennen. So bringen alle diese
+                     Grundbewegungen, indem sie die Bewegungen der Körper, welche gleichsam eine
+                     zweite untergeordnete Klasse ausmachen, mit sich vereinigen, alle Zunahme und
+                     Abnahme, alle Verbindung und <pb n="1.31" xml:id="pbI31"/> Trennung hervor;
+                     ferner alles, was hieraus entsteht, das Heisse und Kalte, das Schwere und
+                     Leichte, das Harte und Weiche, das Schwarze und Weisse, das Herbe, Süsse und
+                     Bittre. Und so lange die Seele mit der Vernunft vereint ist — sie, selbst eine
+                     Gottheit, mit einer Gottheit — so beglükt sie alles durch ihre Weisheit;
+                     gesellt sich aber die Thorheit zu ihr, so geschieht gerade das Gegentheil. Ist
+                     diess nun so richtig, oder bleibt noch ein Zweifel übrig?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Keiner.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Doch zu welcher Gattung der Seelen werden wir diejenige rechnen, welche den
+                     Himmel, die Erde, und dieses ganze Weltgebäude beherrscht? zu den vernünftigen
+                     und tugendhaften, oder zu den entgegengesezten? Sollten wir vielleicht auf
+                     folgende Art hierauf antworten?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie meinst Du, Fremdling?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Also, Lieber. Wenn die Umwälzung und die Laufbahn des Himmels und der
+                     himmlischen Körper den Bewegungen, den Wirkungen, oder besser dem Denken des
+                     Verstandes gleicht, wenn beide mit einander in Verwandtschaft stehn; so ist
+                     offenbar, dass die vortreflichste Seele die Welt beherrscht. und dass sie es
+                     ist, welche die Welt diese Laufbahn führt.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Offenbar.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Und dass es im Gegentheil die unvollkommene Seele ist, wenn die Welt sich auf
+                     eine unzwekmässige, unordentliche Weise bewegt.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Auch diess ist vollkommen richtig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Allein welches ist nun die Bewegung des Verstandes? Hierauf ist es in der That
+                     schwer, richtig zu antworten. Billigerweise muss ich also die Antwort mit Euch
+                     gemeinschaftlich übernehmen, meine Freunde.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Freilich.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aber wollen wir mit unsern sterblichen Augen den Verstand selbst anblikken und
+                     erforschen? Dass es uns da nur nicht eben so gehe, als wenn man zu starr in die
+                     Sonne sieht. Man ist dann am hellen Mittag mitten im Finstern. Weit sichrer
+                     werden wir unsre Blikke auf das Bild des Verstandes wenden.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie verstehst Du das?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ich meine, welcher Bewegung der Verstand wohl ähnlich ist, wenn wir sein Bild
+                     von einer jener zehn Bewegungen her- <pb n="1.32" xml:id="pbI32"/> nehmen
+                     wollen? Ich werde sie noch einmal in Euer Gedächtniss zurükrufen, und dann
+                     lasst uns gemeinschaftlich antworten.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Sehr wohl.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Soviel ich mich noch erinnere, nahmen wir zuerst an, dass einige Dinge in
+                     Bewegung, andre in Ruhe sind.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Ja!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ferner, dass von den Dingen, welche in Bewegung sind, einige sich in Einem,
+                     andre in verschiedenen Orten bewegen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Auch diess ist ganz richtig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Und die erstere dieser Bewegungen — die sich wie die Kugeln, die man zu
+                     drechseln pflegt, immer um Einen Mittelpunkt herumdreht — ist es, welche den
+                     Bewegungen des Verstandes nothwendig am nächsten kommen, und ihnen unter allen
+                     andern am ähnlichsten sein muss.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie so, Fremdling?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Beide, der Verstand, und jene dem Herumdrehen solcher gedrechselten Kugeln so
+                     ähnliche Bewegung um Einen feststehenden Mittelpunkt herum, bewegen sich immer
+                     auf die nemliche Weise, in dem nemlichen Ort, in der nemlichen Lage sowohl
+                     gegen den Mittelpunkt, als der Theile gegen einander, nach der nemlichen Regel,
+                     und der nemlichen Ordnung.<note type="footnote" n="8)" resp="gnd-118554727">Diese
+                        Vergleichung scheint beim ersten Anblik sehr sonderbar. Allein man bedenke
+                        nur, dass Körper, die sich um einen feststehenden Mittelpunkt schwingen, nie
+                        ihren Ort verändern, und dass diese Art der Bewegung gewiss die
+                        regelmässigste unter allen nur denkbaren ist; und man wird finden, dass,
+                        wenn die Operationen des Verstandes mit irgend einer körperlichen Bewegung
+                        verglichen werden sollen, diese wenigstens die einzige dazu schikliche
+                        ist.</note> Niemand wird uns, wenn wir diess behaupten, den Vorwurf machen
+                     können, dass wir uns schlecht auf treffende Gleichnisse verständen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Gewiss nicht.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aus eben diesem Grunde aber ist auf der andern Seite diejenige Bewegung, welche
+                     sich nie auf die nemliche Weise, nie an dem nemlichen Orte, nie in der
+                     nemlichen Lage weder gegen den Mittelpunkt, noch der Theile gegen einander
+                     bewegt, in der es ferner weder Regel, noch Ordnung, noch Verhältniss giebt, der
+                     Bewegung des Unverstandes am ähnlichsten.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun ist es nicht mehr schwer zu entscheiden, ob, da doch eine Seele alles
+                     lenkt, die Umwälzung des Himmels unter <pb n="1.33" xml:id="pbI33"/> der
+                     Fürsorge und Leitung einer vollkommenen, oder einer unvollkommenen stehe?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nein, Fremdling, nach dem, was wir jezt mit einander abgemacht haben, dürfen
+                     wir nicht anders annehmen, als dass eine mit jeder Vollkommenheit ausgerüstete
+                     Seele das Weltgebäude beherrscht, sei es nun allein, oder in Gemeinschaft mit
+                     mehreren.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Du hast unsre Schlüsse vortreflich gefasst, <persName ref="person-000009">Klinias</persName>. Merke nur noch ein wenig auf Folgendes. Wenn die Seele
+                     alle Dinge zusammengenommen, die Sonne, den Mond, und die übrigen Gestirne
+                     lenkt, lenkt sie denn nicht auch jedes einzelne?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie könnte sie anders?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So wollen wir denn einmal über einen dieser Körper mit einander reden. Was wir
+                     von ihm sagen, werden wir auf alle übrigen Dinge anwenden können.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Und welchen wählst Du zu dieser Absicht?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Die Sonne z. B. Jedermann sieht ihren Körper, niemand aber ihre Seele, eben so
+                     wenig als die Seele irgend eines Thiers, es mag leben oder todt sein. Sehr
+                     wahrscheinlich also, dass sie, ihrer Natur nach, keinem unsrer körperlichen
+                     Sinne empfindbar ist, dass sie nur von dem Geiste gedacht werden kann. Mit dem
+                     Verstande allein müssen wir daher versuchen, uns folgenden Begriff von ihr zu
+                     machen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Welchen, Fremdling?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wenn die Seele die Sonne regiert, so muss es auf eine von folgenden drei Arten
+                     geschehn. Diess können wir, ohne Gefahr zu irren, behaupten.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Von was für Arten redest Du?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Sie muss entweder den runden sichtbaren Körper selbst bewohnen, und ihn eben so
+                     überall hinbewegen, als unsre Seele uns bewegt; oder, selbst mit einem feuer-
+                     oder, wie einige behaupten, luftartigen Körper bekleidet, durch die Kraft ihres
+                     Körpers den Körper der Sonne von aussen fortstossen; oder endlich — und diess
+                     ist die dritte Art — alles Körpers entblösst sein, und sich andrer höchst
+                     wundervoller, unbegreiflicher Kräfte bedienen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Auf eine von diesen drei Arten muss also die Seele nothwendig die Sonne
+                     regieren. Aber dem sei, wie ihm wolle, ob diese Seele die Sonne und das Licht
+                     gleichsam wie in einem Wagen uns zuführe, oder ob sie von aussen, oder auf
+                     irgend eine andre Weise, welche es auch sei, auf sie wirke; so muss doch <pb n="1.34" xml:id="pbI34"/> jeder Mensch eingestehn, dass sie ein Wesen
+                     höherer Art, dass sie eine Gottheit ist. Oder kann er es anders?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Ohne den äussersten Grad des Unverstandes gewiss nicht.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Werden wir aber anders von dem Monde, und den übrigen Gestirnen, von den Jahren
+                     und Monaten, von dem Wechsel der Jahrszeiten reden? Auch diess alles ist von
+                     Einer, oder mehreren mit jeglicher Vollkommenheit begabten Seelen
+                     hervorgebracht. Werden wir nicht auch diese Seelen für Gottheiten erkennen, sie
+                     mögen nun, indem sie den Himmel beherrschen, in den Körpern selbst wohnen, oder
+                     auf diese, oder jene Weise dabei wirksam sein? Und muss man also nicht
+                     eingestehn, dass das ganze Weltall mit Göttern angefüllt ist?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Niemand, Fremdling, ist thöricht genug, es zu läugnen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So können wir denn nun, lieber <persName ref="person-000009">Klinias</persName>
+                     und <persName ref="person-000008">Megill</persName>, diejenigen verlassen,
+                     welche das Dasein der Götter bisher nicht glaubten. Wir haben ihnen nun enge
+                     Schranken gesezt, haben ihnen nun genau den Weg vorgeschrieben, den sie gehn
+                     müssen, wenn sie uns antworten wollen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Welche Schranken, welchen Weg meinst Du?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Den, dass sie nun entweder uns folgen, und den übrigen Theil ihres Lebens
+                     hindurch das Dasein der Götter für wahr halten, oder uns zeigen müssen, dass
+                     wir Unrecht hatten, die Seele für das erste aller Dinge, für den Ursprung aller
+                     übrigen anzunehmen, so wie alles, was wir aus diesem Saz weiter folgern. Lasst
+                     uns nur noch einmal sehn, ob wir ihnen das Dasein der Götter hinreichend
+                     bewiesen haben, oder ob unsrem Beweise noch etwas fehlt?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Gewiss nicht das geringste, Fremdling.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun so haben denn diese Untersuchungen ein Ende; und so wollen wir denn jezt
+                     die zurükzuführen suchen, die zwar das Dasein der Götter nicht bezweifeln, aber
+                     doch nicht glauben, dass sie sich um die menschlichen Angelegenheiten
+                     bekümmern. „Dein Glaube an die Götter, mein Lieber,“ wollen wir zu einem von
+                     ihnen sagen, „rührt vielleicht von einer gewissen Verwandtschaft zwischen Dir
+                     und ihnen her, die Dich antreibt, sie zu erkennen und zu verehren. Aber das
+                     Glük, welches Du ungerechte, lasterhafte Menschen in ihren Familien, und im
+                     Staate geniessen siehst, bringt in Dir eine Geringschäzung gegen sie hervor.
+                     Freilich ist diess Glük kein wahres Glük, aber es wird doch — so Unrecht es
+                     auch ist — dafür gehalten, wird doch in Gedichten <pb n="1.35" xml:id="pbI35"/>
+                     und andern Schriften von mancherlei Art als ein solches gepriesen. Vielleicht
+                     siehst Du selbst sogar lasterhafte Menschen das späteste Alter erreichen, und
+                     noch ihre Enkel in den höchsten Ehrenstellen hinterlassen; vielleicht
+                     entspringen hieraus Deine Zweifel. Du hörst oder bist vielleicht selbst
+                     Augenzeuge von schändlichen Handlungen, von Ungerechtigkeiten gegen andre, und
+                     nimmst wahr, dass eben sie die Mittel sind, durch die sich gewisse Menschen aus
+                     dem Staube zu den höchsten Würden, ja zum Throne emporschwingen. Die Götter als
+                     die Urheber hievon anzuklagen, erlaubt Dir Deine Verwandtschaft mit ihnen
+                     nicht. Also auf der einen Seite von Unverstand, auf der andern von Furcht, die
+                     Götter zu beleidigen, getrieben, bist Du in die Krankheit verfallen, zwar ihr
+                     Dasein zu glauben, aber anzunehmen, dass sie die menschlichen Angelegenheiten
+                     geringschäzen und vernachlässigen. Dieser Irrthum könnte Dich bald zu einem
+                     noch grössern Leichtsinn gegen die Götter verführen; wir wollen daher
+                     versuchen, Dich, wo möglich, durch unsre Beweise davon zu heilen, und zu dem,
+                     was wir schon gegen die gesagt haben, welche sogar das Dasein der Götter
+                     bezweifeln, noch die folgende Untersuchung fügen.“ Ihr, <persName ref="person-000009">Klinias</persName> und <persName ref="person-000008">Megill</persName>, werdet wohl wieder, wie vorhin, die Stelle des Jünglings
+                     vertreten, und für ihn antworten. Sollte aber irgend eine Schwierigkeit uns in
+                     der Untersuchung aufstossen, so werde ich sie auf mich nehmen, und Euch mit
+                     über den Strom helfen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Vortreflich! Mach es nur, wie Du sagst; auch wir wollen unser Möglichstes
+                     thun.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Der Beweis, dass die Götter sich um das Kleine nicht minder bekümmern, als um
+                     das Grösseste, wird uns nicht schwer werden. Denn wir machten ja schon vorhin
+                     mit einander aus, dass sie jede Vollkommenheit besizen, und dass die Fürsorge
+                     fürs Ganze ihr eigentlichstes Geschäft ist.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings kamen wir darin überein.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So lass uns denn nun untersuchen, in welcher Rüksicht eigentlich wir die Götter
+                     vollkommen nannten? Nimm einmal z. B. Mässigkeit und Weisheit. Sind diess nicht
+                     Vollkommenheiten, so wie ihr Gegentheil Unvollkommenheiten?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nothwendig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ist nicht auch ferner Tapferkeit eine Vollkommenheit, und Feigheit das
+                     Gegentheil davon?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie anders?</p>
+               </sp>
+               <pb n="1.36" xml:id="pbI36"/>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nennen wir nicht die eine Gattung dieser Dinge edel, die andre unedel?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Ja.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Und müssen wir nun nicht zugeben, dass die leztere wohl uns, nie aber, weder in
+                     grossem, noch in geringem Maasse, den Göttern zukommen könne?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Das müssen wir zugeben.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wie aber? Nachlässigkeit, Trägheit, Weichlichkeit, werden wir die zu den
+                     Vollkommenheiten der Seele rechnen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie könnten wir es?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Also zu den Unvollkommenheiten?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nothwendig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Und die ihnen entgegenstehenden Eigenschaften zu der entgegengesezten
+                     Klasse?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Zu der entgegengesezten.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun endlich! Hassen wir nicht den weichlichen, nachlässigen Müssiggänger, den
+                     der Dichter<note type="footnote" n="9)" resp="gnd-118554727">
+                        <persName ref="gnd-118550292">Hesiodus</persName>
+                        <title>Tagwerke</title>. B. I. v. 302: <lg type="poem" xml:lang="grc">
+                           <l>τῷ δὲ θεοὶ νεμεσῶσι καὶ ἀνέρες, ὅς κεν ἀεργὸς</l>
+                           <l>ζώῃ, κηφήνεσσι κοθούροις εἴκελος ὀργήν,</l>
+                           <l>οἵ τε μελισσάων κάματον τρύχουσιν ἀεργοὶ</l>
+                           <l>ἔσθοντες.</l>
+                        </lg>
+                     </note> sehr treffend mit den trägen Wespen vergleicht?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Lasst uns daher ja nicht der Gottheit eine Eigenschaft beilegen, die sie selbst
+                     hassen muss; und lasst uns niemanden eine solche Behauptung erlauben.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Niemanden.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Würde wohl der unser Lob auch nur einigermaassen verdienen, der, wenn ihm
+                     aufgetragen wäre, etwas zu besorgen, sich um etwas zu bekümmern, nur immer auf
+                     das Grosse sein Augenmerk richtete, und das Kleine vernachlässigte? Gewiss
+                     nicht; denn — bedenkt es selbst einmal — könnte er wohl, er möchte nun ein
+                     Gott, oder ein Mensch sein, aus einem andern Grunde so handlen, als aus einem
+                     von folgenden zweien?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Von welchen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ich meine: er müsste entweder glauben, dass die Vernachlässigung des Kleinen in
+                     Rüksicht aufs Ganze gleichviel gelte; oder, wenn er das nicht glaubte, so
+                     müsste er sich der Trägheit <pb n="1.37" xml:id="pbI37"/> und Weichlichkeit
+                     überlassen. Oder könnte wohl seine Nachlässigkeit noch aus einem andren Grunde
+                     entspringen? Denn das nennen wir nicht Nachlässigkeit, wenn es jemanden
+                     unmöglich ist, für alles zu sorgen, und wenn er aus diesem Grunde — sei es das
+                     Grosse. oder das Kleine — vernachlässigt; wenn z. B. irgend ein Gott, oder
+                     Sterblicher zu schwach wäre, für alles Sorge zu tragen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nein.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Jezt müssen unsre beiden Gegner uns dreien antworten. Beide gestehen das Dasein
+                     der Götter ein; aber der eine hält sie für bestechlich, der andre glaubt, dass
+                     sie das Kleine vernachlässigen. Einmal gebt Ihr doch beide zu, dass die Götter
+                     alles sehen und hören, dass ihnen nichts von allem verborgen ist, was in dem
+                     Gebiete der Sinne und des Verstandes liegt. Räumt Ihr das ein, oder nicht?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings räumen wir das ein.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Ferner: dass sie alles vermögen, was der vereinigten Macht aller Sterblichen
+                     und aller Unsterblichen möglich ist?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie könnten unsre Gegner diess läugnen wollen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Endlich sind wir alle Fünfe übereingekommen, dass sie höchst gut und vollkommen
+                     sind.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Ganz richtig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun wir ihnen diese Eigenschaften beigelegt haben, wäre es wohl noch möglich
+                     zuzugeben, dass sie irgend etwas aus Trägheit, oder Weichlichkeit thäten? Bei
+                     uns entsteht Trägheit aus Müssiggang und Weichlichkeit, und Müssiggang aus
+                     Feigheit. Ein Gott kann nicht feige sein; wenn er also etwas vernachlässigt, so
+                     kann die Ursache davon nie in seiner Trägheit, oder in seiner Weichlichkeit
+                     liegen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nie.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aber wenn die Götter das Kleine bei der Regierung des Ganzen verabsäumen, so
+                     müssen sie doch entweder überzeugt sein, dass die Sorgfalt fürs Kleine nicht
+                     nothwendig ist, oder sie müssen das Gegentheil hievon glauben?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Ein drittes bleibt nicht übrig.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Was willst Du nun lieber annehmen, mein Bester? Sollen die Götter aus
+                     Unwissenheit nachlässig sein, darum, weil sie nicht einsehn, dass man auch für
+                     das Kleine sorgen muss? Oder, von dieser Nothwendigkeit überzeugt, es nur so
+                     machen, wie die schwächsten, elendesten Menschen thun? Sie wissen recht <pb n="1.38" xml:id="pbI38"/> gut, dass sie besser handlen könnten, als sie
+                     handlen, aber aus Hang zum Vergnügen, oder aus Furcht vor irgend einem Ungemach
+                     unterlassen sie es.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Es lässt sich weder das eine, noch das andre denken.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Weiter! Gehören die Menschen und ihre Schiksale nicht zu der beseelten Natur,
+                     und verehren nicht sie unter allen Thieren die Götter am meisten?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings, wie es scheint.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Und wir sind doch, so wie alle Thiere und der ganze Himmel, ihr Eigenthum?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nicht anders.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun nenne man unsre Angelegenheiten gross, oder klein in den Augen der Götter;
+                     in keinem Fall würde es sich für sie ziemen, ihr Eigenthum — uns — zu
+                     vernachlässigen, desto weniger sich für sie ziemen, je vollkommener sie sind,
+                     je aufmerksamer sie für etwas sorgen. Lasst uns auch noch Folgendes in
+                     Betrachtung ziehn!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Was, Fremdling?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wie in Rüksicht auf Leichtigkeit, oder Schwierigkeit unsre Sinne, und unsre
+                     Kräfte einander immer entgegenstehn.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wie verstehst Du diess?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Etwas Kleines zu sehn, zu thun, ist weit schwerer, als etwas Grosses. Aber zu
+                     tragen, in unsre Gewalt zu bekommen, zu besorgen, ist es weit leichter.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Nun ferner! Seze, ein Arzt sollte einen ganzen Körper heilen, und besässe auch
+                     Willen und Fähigkeit dazu. Wenn er da bloss für das Grosse sorgen, aber das
+                     Kleine, die einzelnen Theile, vernachlässigen wollte, würde sich dabei der
+                     ganze Körper je wohl befinden?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Niemals.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Eben so wenig wird Steuermännern, Feldherrn, Verwaltern, Staatsmännern und wen
+                     ich noch sonst nennen könnte, das Grosse ohne das Kleine nüzlich sein. Denn die
+                     Baumeister sagen ganz richtig: Der kleine Stein liegt nicht ohne den
+                     grossen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Sehr wahr.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Lasst uns also doch ja nicht die Gottheit unter menschliche Werkmeister
+                     herabsezen! Sie bearbeiten mit gleichem Fleisse das Grosse und das Kleine, nur
+                     nach Maassgabe ihrer Geschiklichkeit mehr oder weniger genau und vollkommen.
+                     Und Gott, <pb n="1.39" xml:id="pbI39"/> der Höchstweise, er, der die Fähigkeit
+                     für alles zu sorgen mit dem Willen dazu vereint, Gott sollte das Kleine, wofür
+                     die Sorgfalt so leicht ist, vernachlässigen; sollte den trägen Weichlingen
+                     ähnlich sein, die aus Arbeitsscheu für das Grosse allein sorgen!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Fern sei ein solcher, gleich falscher und unerlaubter Gedanke von uns!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>So haben wir ja wohl den, welcher die Gottheit der Nachlässigkeit beschuldigte,
+                     hinlänglich widerlegt?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Gewiss.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Unsre Beweise haben ihn genöthigt, seinen Irrthum zu gestehn. Jezt, glaub’ ich,
+                     müssen wir nur noch etwas hinzusezen, das ihn, wie ein Zaubermittel,
+                     fessle.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Und was ist das, Lieber?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wir wollen ihm zeigen, dass der, welcher für das Ganze sorgt, auch alles zum
+                     Wohl und zur Vollkommenheit des Ganzen geordnet hat; dass jeder Theil immer nur
+                     die ihm angemessnen Veränderungen hervorbringt und leidet; und dass es Aufseher
+                     giebt, die über jede, noch so kleine Veränderung — sie bestehe in Wirken, oder
+                     in Leiden — in jeden, auch den kleinsten Theilen des Ganzen, wachen. Du selbst,
+                     schwacher Sterblicher, bist gleichfalls ein solcher, obwohl kleiner Theil, und
+                     arbeitest mit zum Nuzen des Ganzen, Du bedenkst nur nicht, dass alles für das
+                     Ganze, und für dessen Glükseligkeit entsteht. Denn das Ganze ist nicht
+                     Deinetwegen; nein, Du bist seinetwegen da.<note type="footnote" n="10)" resp="gnd-118554727">Ich fürchte, hier den Sinn verfehlt zu haben. Die Worte <lang xml:lang="grc">ὅπως ᾖ ἡ τῷ τοῦ παντὸς βίῳ ὑπάρχουσα εὐδαίμων οὐσία</lang>
+                        sind mir nicht ganz deutlich, und es kann leicht ein tieferer Sinn darin
+                        verstekt liegen, als welchen ich in der Uebersezung ausgedrükt habe.</note>
+                     Jeder Arzt, jeder erfahrene Künstler arbeitet immer fürs Ganze. Die
+                     Vollkommenheit des Ganzen ist sein Zwek. Nach dem Ganzen bildet er den Theil,
+                     nicht umgekehrt jenes nach diesem. Du bist nun unzufrieden, weil Du nicht
+                     einsiehst, wie, vermöge der Gleichheit Eures Ursprungs, das, was für Dich das
+                     Beste ist, auch zugleich dem Ganzen eben so wie Dir nüzt. Denn was blieb dem
+                     Schöpfer anders übrig — da immer dieselbe Seele bald mit diesem, bald mit jenem
+                     Körper vereint ist, da sie so viele Veränderungen bald durch sich, bald durch
+                     andre erfährt — als sie, nach Art der Knöchelspieler, immerfort zu versezen,
+                     die besser gewordene in einen besseren, die schlechter gewordene in einen
+                     schlechteren, <pb n="1.40" xml:id="pbI40"/> jede aber in einen ihr angemessenen
+                     Ort, damit jeder ein Schiksal zu Theil werde, wie sie es verdient?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Was meinst Du damit?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Mich dünkt, ich zeige die Art an, wie es den Göttern am leichtesten werden
+                     muss, für das Ganze zu sorgen. Denn wenn ein Künstler bei seinem Werke immer
+                     jedes einzelne Ding in Rüksicht aufs Ganze — das er nie aus den Augen verlöre —
+                     umbildete; das Feuer z. B. in beseeltes Wasser verwandelte u. s. f., nicht aber
+                     mehrere Dinge in Eins vereinte, oder Eins in mehrere trennte, indem er sie
+                     durch die erste, zweite, oder dritte Entstehung durchgehn liesse; so würde es
+                     der Umbildungen eine unübersehbare Menge geben. Meine Methode hingegen macht
+                     die Sorgfalt fürs Ganze weit leichter.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Aber auf welche Art, Fremdling?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Auf folgende. Alle unsre Handlungen haben ihren Grund in unsrer Seele; auf der
+                     einen Seite liegt zwar viel Tugend darin, auf der andren aber auch viel
+                     Lasterhaftigkeit; beide, Seele und Leib, sind zwar nicht ewig, so wie es die
+                     Götter sind, aber sie sind wenigstens unvergänglich. Denn gienge je die eine
+                     oder der andre völlig unter, so könnten nie neue Thiere entstehen. Das Gute
+                     endlich, ich meine das moralische Gute, ist seiner Natur nach immer nüzlich,
+                     hingegen das Böse immer schädlich. Alles diess sah unser Beherrscher, und
+                     ordnete jeden einzelnen Theil des Ganzen auf eine Art an, wie die Tugend am
+                     leichtesten siegen könnte, das Laster am sichersten unterliegen müsste. Er
+                     bestimmte nemlich in Rüksicht aufs Ganze, wie jedes Ding, je nachdem es anders
+                     und anders würde, auch seine Stelle verändern, und welche Oerter es bewohnen
+                     sollte. Wie wir aber werden wollten, diess überliess er unsrer Willkühr. Denn
+                     jeder hat doch gewöhnlich den Charakter, der seinen Neigungen gemäss ist.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Keinen andren.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Er versezt daher immerfort alles Beseelte; doch die Ursach dieser Versezung
+                     liegt in den Wesen selbst; und die Versezung an sich stimmt mit dem Willen, und
+                     den Gesezen des Schiksals überein. Diejenigen, deren Charakter sich weniger
+                     verändert hat, werden auch weniger versezt, und bleiben fast immer auf
+                     derselben Oberfläche. Aber die, welche sich mehr verändert haben, und
+                     schlechter geworden sind, sinken in die Tiefe hinab, in jene unterirrdischen
+                     Orte, den Hadäs, oder wie wir sie sonst nennen mögen, und werden von Furcht,
+                     und schreklichen Träumen <pb n="1.41" xml:id="pbI41"/> beunruhigt, so lange sie
+                     leben, und wenn sie von ihren Leibern getrennt sind. Diejenigen Seelen, welche
+                     durch ihren eignen Willen, und durch eine mächtig gewordene Gewohnheit grössere
+                     Fortschritte im Laster oder in der Tugend gemacht haben, werden, wenn sie sich
+                     zu der göttlichen Tugend gesellen, in glükseligere, völlig heilige Orte
+                     versezt; haben sie sich aber auf die entgegengesezte Seite gewandt, so erhalten
+                     sie ganz entgegengesezte Wohnpläze. Diess, Jüngling, der Du Dich von den
+                     Göttern vernachlässigt glaubst, ist die von den Bewohnern des Olymps
+                     eingeführte Ordnung. Die schlechtere Seele muss sich immer zu den schlechteren,
+                     die bessere zu den besseren gesellen, um da im Leben, und in jeglichem Tode
+                     alles zu thun und zu leiden, was Aehnlichgesinnte von einander erwarten können.
+                     Und weder Du, noch irgend ein andrer Unglüklicher, dürfet Euch je schmeicheln.
+                     Euch dieser Ordnung zu entziehn. Sie ist unverbrüchlicher, als jede andre, und
+                     Du hast wohl Ursach auf Deiner Hut zu sein. Denn nie wirst Du der Aufsicht der
+                     Götter entgehn,<note type="footnote" n="11)" resp="gnd-118554727">Wer erinnert sich
+                        nicht bei dieser Stelle an <title>Psalm</title> 139. v. 8. u. f.?:
+                           <quote>Führe ich gen Himmel, so bist du da. Bettete ich mir in die Hölle,
+                           siehe, so bist du auch da. Nähme ich Flügel der Morgenröte und bliebe am
+                           äussersten Meer, so würde mich doch deine Hand daselbst führen und deine
+                           Rechte mich halten.</quote>
+                     </note> und würdest Du so klein, dass Du Dich in dem Mittelpunkt der Erde
+                     verbärgest, oder so gross, dass Du Dich zum Himmel emporschwängst. Immer wirst
+                     Du die Strafe empfangen, die Du verdienst, Du magst hier auf Erden bleiben,
+                     oder in den Hadäs, oder in einen noch grausenvolleren Wohnplaz versezt werden.
+                     Und eben so ist es mit denen, welche Du durch Frevelthaten aus dem Staube in
+                     die Höhe steigen sahst. Du glaubtest sie nun auf einmal vom Unglük zum Glük
+                     übergegangen, und dachtest in ihren Handlungen, wie in einem Spiegel, die
+                     Sorglosigkeit der Götter in Rüksicht auf die Menschen zu sehn. Allein Du
+                     wusstest nicht, wie auch sie zum Nuzen des Ganzen beitragen. Solltest Du aber
+                     wohl diese Kenntniss für überflüssig halten — sie, ohne welche Du nie einen
+                     Plan Deines Lebens entwerfen, ohne welche Du nie beurtheilen kannst, was Dein
+                     Glük und Dein Unglük ausmachen wird? Wenn Du durch <persName ref="person-000009">Klinias</persName>, und uns übrigen Greise von der
+                     Nichtigkeit Deiner bisherigen Behauptungen überzeugt bist; so ist diess schon
+                     ein grosses Geschenk der Götter. Doch scheint Dir <pb n="1.42" xml:id="pbI42"/>
+                     irgend ein Beweis noch mangelhaft, so höre, wenn Du vernünftig sein willst,
+                     unser Gespräch mit dem Dritten an. Denn das Dasein der Götter, und ihre
+                     Fürsorge für die Menschen hab’ ich, dünkt mich, nicht übel dargethan. Nur dass
+                     sich diese Götter auch nicht durch Geschenke ungerechter Menschen bestechen
+                     lassen — ein Saz, den man niemanden zugeben darf — müssen wir noch nach allen
+                     Kräften beweisen.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Vortreflich! Wir wollen Deinem Vorschlage folgen!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Bei den Göttern selbst! so sage uns denn, auf welche Art sie bestechlich sind,
+                     wenn sie es doch einmal sein sollen? Sage uns, wer sie sind? welchen Charakter
+                     sie haben? Sie sind doch wohl Herrscher? denn sie regieren immerfort den ganzen
+                     Himmel.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Aber welchen Herrschern sind sie, oder welche sind ihnen ähnlich? damit wir
+                     doch das Grössere gegen das Kleinere halten können. Gleichen sie vielleicht den
+                     Wagenführern, wenn sie im Wettstreit mit einander kämpfen, oder den
+                     Steuerleuten? Vielleicht können wir sie auch mit den Befehlshabern der Heere
+                     vergleichen, oder mit den Aerzten, welche die Krankheiten des Leibes bekämpfen,
+                     oder mit den Akkersleuten, die, immer zitternd für das Wachsthum ihrer Früchte,
+                     die gewöhnliche schlimme Jahrszeit erwarten, oder mit den Hütern der Heerden?
+                     Denn der Himmel, gestanden wir ja ein, ist voll des Guten und Bösen, und des
+                     lezteren ist mehr. Es giebt also da einen unaufhörlichen Streit, der eine
+                     bewundernswürdige Wachsamkeit erfordert. Die Götter und die Dämonen kämpfen auf
+                     unsrer Seite, weil wir ihr Eigenthum sind. Aber Ungerechtigkeit, Zügellosigkeit
+                     und Thorheit würden uns ins Verderben stürzen, wenn Gerechtigkeit,
+                     Enthaltsamkeit und Weisheit uns nicht wieder retteten — sie, die in den Seelen
+                     der Götter wohnen. Auch auf Erden findet sich etwas Aehnliches. Denn gewisse
+                     niederträchtige, ungerechte Seelen verschwören sich gegen ihre Wächter
+                     (verstehe darunter, wen Du willst, Hunde, Hirten, oder mächtige Herrscher) und
+                     erschleichen — denn so machen sie es, sagt man — durch Schmeicheleien und
+                     bezaubernde Liebkosungen die Freiheit, andre ungestraft zu übervortheilen.
+                     Diess Laster, immer mehr zu begehren, als andre besizen, nennen wir bei den
+                     Körpern Krankheit, bei den Jahrszeiten Seuche, in den Staaten und
+                     Regierungsverfassungen, mit verändertem Namen, Ungerechtigkeit.</p>
+               </sp>
+               <sp>
+                  <pb n="1.43" xml:id="pbI43"/>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>So nennen wir es.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Zu behaupten, dass die Götter den Ungerechten gern verzeihen, wenn sie ihnen
+                     nur einen Theil ihres Gewinns abgeben, heisst, sie mit Hunden vergleichen,
+                     welchen die Wölfe einen Theil ihrer Beute überlassen, und die dafür, durch das
+                     Geschenk zahm gemacht, ihnen die Erlaubniss ertheilen, die Heerden zu
+                     zerreissen. Oder liegt wohl etwas anders in der Behauptung?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Nichts anders.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Und mit welcher von den vorhin genannten Personen kannst Du wohl die Götter
+                     vergleichen, wenn Du Dich nicht lächerlich machen willst? Etwa mit
+                     Steuerleuten, die, durch Wein und Opferfett bestochen, Schiff und Schiffer
+                     untergehn lassen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Gewiss nicht.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Oder mit Wagenführern, welche, durch Geschenke überredet, den Sieg andern in
+                     die Hände spielen?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Welch eine Vergleichung, Fremdling!</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Oder mit Feldherrn, oder Aerzten, oder Akkersleuten, oder Hirten, oder endlich
+                     Hunden, die von den Wölfen besänftigt werden?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Behüte der Himmel! Wie könnten wir so etwas behaupten?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Sind nicht vielmehr die Götter die erhabensten Wächter, und über die
+                     erhabensten Dinge?</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Gewiss.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Sie übertreffen an Wachsamkeit alle übrigen Wesen, sie sorgen für die
+                     vortreflichsten Dinge, und wir wollten sie unter unvernünftige Thiere, oder
+                     auch nur unter mittelmässige Menschen herabwürdigen? Denn schon diese würden
+                     gewiss nicht die Gerechtigkeit übertreten, wenn ihnen auch ungerechte Menschen
+                     Geschenke dafür anböten.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Keinesweges. Eine solche Behauptung wäre empörend; und mich dünkt, wer diese
+                     Meinung von den Göttern hat, ist unter allen Gottesverächtern der schändlichste
+                     und verwegenste. </p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Wir haben nun, glaub’ ich, die drei vorgelegten Stükke hinlänglich bewiesen:
+                     das Dasein der Götter, ihre Fürsorge für die Menschen, ihre Unbestechlichkeit
+                     gegen die Ungerechten.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Allerdings. Wir alle haben die Richtigkeit Deiner Beweise eingestanden.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000010">D. A. </persName>
+                  </speaker>
+                  <p>Die hartnäkkige Streitsucht jener schlechten Menschen hat mich heftiger, als
+                     sonst reden lassen. Ich habe es gethan, da- <pb n="1.44" xml:id="pbI44"/> mit
+                     sie sich nicht einbilden mögen, mit ihren Beweisen zu siegen, und, ihren
+                     Grundsäzen über die Götter zufolge, alles, was sie wollen, thun zu dürfen.
+                     Darum habe ich Lust bekommen, etwas jugendlicher zu reden. Wenn es uns auch nur
+                     etwas geglükt ist, unsre Gegner dahin zu bringen, sich selbst, so wie sie sind,
+                     zu hassen, und die entgegengesezte Denkungsart zu lieben; so haben wir diese
+                     Einleitung zu unsren Gesezen vortreflich angewandt.</p>
+               </sp>
+               <sp>
+                  <speaker>
+                     <persName ref="person-000009">Kl.</persName>
+                  </speaker>
+                  <p>Wir können es hoffen. Wenn es aber auch nicht ist; so wird diese Untersuchung
+                     dem Gesezgeber nie Schande machen.</p>
+               </sp>
+            </div>
+         </div>
+         <div type="notes">
+            <head>
+               <title type="main">Bemerkungen zur Entstehungsgeschichte</title>
+            </head>
+            <p>Erster Druck: <bibl>
+                  <editor>
+                     <persName ref="gnd-104197102">Zöllner</persName>
+                  </editor>s <title>
+                     <orgName ref="zdb-012829099">Lesebuch für alle Stände zur Beförderung edler
+                        Grundsätze, echten Geschmacks und nützlicher Kenntnisse</orgName>
+                  </title>
+                  <biblScope unit="issue">8</biblScope>, <biblScope unit="page">186—256</biblScope>
+                     (<date when="1787">1787</date>), <biblScope unit="issue">9</biblScope>,
+                     <biblScope unit="page">1—21</biblScope> (<date when="1790">1790</date>)</bibl>.
+                  <persName ref="gnd-104197102">Zöllner</persName> begleitet den Abdruck der ersten
+               Hälfte mit folgender Anmerkung: <quote>Es mag sein, dass diese Bruchstücke alter
+                  griechischer Philosophie manchem meiner Leser zu trocken scheinen; sicherlich
+                  giebt es auch andre, denen sie höchst interessant sind. Was der <persName ref="gnd-118554727">Herr Verfasser</persName> in der Einleitung von sich selbst
+                  sagt, ist gewiss in unsern Tagen der Fall mehrerer denkenden Männer und desto mehr
+                  bin ich demselben verbunden, dass er meiner dringenden Bitte, dass er diese bloss
+                  zu seinem eigenen Vergnügen unternommene Arbeit meinem Lesebuche einverleiben
+                  möchte, nachgegeben hat. Denen, welche nicht ohne Ursache klagen, dass ernsthafte
+                  Studien und sonderlich Vertraulichkeit mit den Alten jetzt zu verschwinden
+                  scheinen, kann ich unmöglich die Nachricht vorenthalten, dass diese männliche
+                  Einleitung zu der nachfolgenden Übersetzung aus der Feder eines zwanzigjährigen
+                  Kavaliers geflossen und die Übersetzung selbst schon vor zwei Jahren von ihm
+                  gemacht ist.</quote>
+            </p>
+            <p>Der Gedanke, die Probleme der natürlichen Religion durch eine Reihe übersetzter
+               Stücke aus den philosophischen Schriften der Alten mit angeschlossener Erläuterung
+               und kritischer Würdigung zu beleuchten, erwuchs im Jahre <date>1785</date> wohl
+               unmittelbar aus den Anregungen <persName ref="gnd-11868468X">Engel</persName>s in
+               seinen in diesem Jahre nach <persName ref="gnd-118587668">Nicolai</persName>s Zeugnis
+               (Sammlung der deutschen Abhandlungen, welche in der <orgName ref="gnd-15514-7">königlichen Akademie der Wissenschaften</orgName> zu <placeName ref="geo-2950159">Berlin</placeName> vorgelesen worden <date>1803</date> S. 9) den Brüdern Humboldt
+               gehaltenen Privatvorlesungen über Philosophie. Es ist nicht unmöglich, daß <persName ref="gnd-11868468X">Engel</persName> seinerseits dabei unter dem Einflusse
+                  <persName ref="gnd-118537636">Garve</persName>s stand, der in seiner <placeName ref="geo-2879139">leipzig</placeName>er Zeit den gleichen, aber niemals
+               ausgeführten Plan hatte (Briefwechsel zwischen <persName ref="gnd-118537636">Garve</persName> und <persName ref="gnd-117012599">Zollikofer</persName> S. 181).
+               Doch ließ die Schwierigkeit der Aufgabe es damals nur zu einigen Fragmenten von
+               Übertragungen aus <persName ref="gnd-118635808">Xenophon</persName> und <persName ref="gnd-118594893">Platon</persName> kommen und an die eigentliche Erörterung der
+               Philosopheme wurde noch keine Hand angelegt. Ein Zufall brachte nach zwei Jahren zu
+               ungünstiger Zeit eine dem Verfasser selbst durchaus nicht willkommene Veranlassung
+               zur Veröffentlichung: auf <persName ref="gnd-116611839">Kunth</persName>s Vorschlag
+               erbat <persName ref="gnd-104197102">Zöllner</persName> die Übersetzungen zur Aufnahme
+               in sein den Aufklärungstendenzen dienendes Lesebuch für alle Stände und <persName ref="gnd-118554727">Humboldt</persName>, im Begriff nach der <orgName ref="gnd-2024330-3">Universität Frankfurt</orgName> abzureisen, mußte im <date when="1787-09">September 1787</date> in aller Eile eine Durchsicht vornehmen sowie
+               Anmerkungen und eine Einleitung beifügen (an <persName ref="gnd-118550152">Henriette
+                  Herz</persName>, <date when="1787-12">Dezember 1787</date>). <persName ref="gnd-11868468X">Engel</persName> ist auch der Mann, dem <persName ref="gnd-118554727">Humboldt</persName> in der Einleitung den größten Teil seiner
+               Bildung schuldig zu sein dankbar bekennt, nicht <persName ref="gnd-118580744">Mendelssohn</persName>, wie <persName ref="gnd-118547380">Haym</persName> später
+               (Briefe von <persName ref="gnd-118554727">Humboldt</persName> an <persName ref="gnd-118786113">Nicolovius</persName> S. 114) irrtümlicherweise annahm: daß
+                  <persName ref="gnd-118554727">Humboldt</persName> beim Vortrag der Morgenstunden
+               zugegen gewesen sei (<bibl>
+                  <persName ref="gnd-116141115">Kayserling</persName>, <title>
+                     <persName ref="gnd-118580744">Moses Mendelssohn</persName>
+                  </title>
+                  <biblScope unit="volume">3</biblScope>
+                  <biblScope unit="page">S. 455</biblScope>
+               </bibl>), ist eine durch nichts verbürgte Tradition und die Stelle spricht von einem
+               Lebenden, nicht von einem Toten.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
