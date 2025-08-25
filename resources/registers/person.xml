@@ -1,0 +1,2948 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:id="pb-persons">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Local Authority File: Person register</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Wilhelm von Humboldt: Schriften</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>An independent digital edition of Wilhelm von Humboldt's (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy/>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <standOff>
+      <listPerson>
+      <person xml:id="gnd-118594893">
+                <persName type="main">Platon</persName>
+                <persName type="sort">Platon</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0427"/>
+                </birth>
+                <death>
+                    <date when="-0347"/>
+                </death>
+                <note type="bio">Griech. Philosoph, Begründer der Akademie</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118615270" when="2025-07-30">
+                <persName type="main">Sokrates</persName>
+                <persName type="sort">Sokrates</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0469"/>
+                </birth>
+                <death>
+                    <date when="-0399"/>
+                </death>
+                <note type="bio">Griech. Philosoph, Meister des <persName ref="gnd-118594893">Platon</persName> und <persName ref="gnd-118635808">Xenophon</persName>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118530585">
+                <persName type="main">Epikur</persName>
+                <persName type="sort">Epikur</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0341"/>
+                </birth>
+                <death>
+                    <date when="-0270"/>
+                </death>
+                <note type="bio">Gründer der epikureischen Schule</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118575236">
+                <persName type="main">Lucretius Carus, Titus</persName>
+                <persName type="sort">Lucretius Carus, Titus</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0094"/>
+                </birth>
+                <death>
+                    <date when="-0055"/>
+                </death>
+                <note type="bio">Verfasser eines Lehrgedichts, das die Philosophie Epikurs darstellt</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118635808">
+                <persName type="main">Xenophon</persName>
+                <persName type="sort">Xenophon</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0430"/>
+                </birth>
+                <death>
+                    <date when="-0354"/>
+                </death>
+                <note type="bio">Griechischer Feldherr, Schriftsteller und Schüler des Sokrates. Hrsg. der <title>Anabasis</title> unter dem Pseud. Themistogenes Syracusanus</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140293-5">Sokratiker</occupation>
+            </person>
+            <person xml:id="gnd-118537636" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Garve, Christian</persName>
+                <persName type="sort">Garve, Christian</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1742-01-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4008216-7">Breslau</placeName>
+                </birth>
+                <death>
+                    <date when="1798-12-01"/>
+                    <placeName ref="https://d-nb.info/gnd/4008216-7">Breslau</placeName>
+                </death>
+                <note type="bio">Moralphilosoph der Spätaufklärung und Übersetzer und Kommentator philosophischer Werke</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4037945-0">Mathematiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4130948-0">Buchhändler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4123227-6">Freimaurer</occupation>
+            </person>
+            <person xml:id="gnd-118686798">
+                <persName type="main">Ferguson, Adam</persName>
+                <persName type="sort">Ferguson, Adam</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1723"/>
+                </birth>
+                <death>
+                    <date when="1816"/>
+                </death>
+                <note type="bio">Schott. Geschichtsschreiber und Philosoph; Historiker, Moralphilosoph</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4155430-9">Geschichtsschreiber</occupation>
+            </person>
+            <person xml:id="gnd-116890657">
+                <persName type="main">Leitzmann, Albert</persName>
+                <persName type="sort">Leitzmann, Albert</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1867-08-03"/>
+                    <placeName ref="https://d-nb.info/gnd/4036934-1">Magdeburg</placeName>
+                </birth>
+                <death>
+                    <date when="1950-04-16"/>
+                    <placeName ref="https://d-nb.info/gnd/4028557-1">Jena</placeName>
+                </death>
+                <note type="bio">Dt. Literaturwissenschaftler. Hrsg. der von der Preußischen
+                  Akademie der Wissenschaften initiierten Edition der <title>Gesammelten Schriften
+                     <persName ref="gnd-118554727">Wilhelm von Humboldts</persName>
+                    </title> (1903–1936), die bis heute ein zentrales
+                  Referenzwerk der Humboldt-Forschung darstellt</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167889-8">Literaturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4156858-8">Germanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167889-8">Literaturwissenschaftler</occupation>
+            </person>
+            <person xml:id="gnd-117444154">
+                <persName type="main">Wolf, Friedrich August</persName>
+                <persName type="sort">Wolf, Friedrich August</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1759-02-15"/>
+                    <placeName ref="https://d-nb.info/gnd/1214192653">Hainrode/Hainleite</placeName>
+                </birth>
+                <death>
+                    <date when="1824-08-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4037694-1">Marseille</placeName>
+                </death>
+                <note type="bio">Altphilologe, Deutschland, Professor der Philosophie, Altertumsforscher</note>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4258832-7">Altertumswissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+            </person>
+            <person xml:id="gnd-100335993" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Serres, Jean de</persName>
+                <persName type="sort">Serres, Jean de</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1540"/>
+                </birth>
+                <death>
+                    <date when="1598"/>
+                    <placeName ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+                </death>
+                <note type="bio">Franz.-Schweizer Historiker und Theologe; calvinist. Bekannt für seine lateinische Übersetzung von <persName key="gnd-118594893">Platons</persName> Werken</note>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4130322-2">Prediger</occupation>
+            </person>
+            <person xml:id="gnd-118550292">
+                <persName type="main">Hesiod</persName>
+                <persName type="sort">Hesiod</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Epiker. Verfasser der <title>Theogonie</title> und
+                  <title>Werke und Tage</title>, die wichtige Einblicke in die griechische Mythologie und
+                  Landwirtschaft geben</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118641190" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Mose, Biblische Person</persName>
+                <persName type="sort">Mose, Biblische Person</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Zentralfigur im Pentateuch, Anführer der Israeliten beim Auszug aus Ägypten und Gesetzgeber</note>
+            </person>
+            <person xml:id="gnd-118580744">
+                <persName type="main">Mendelssohn, Moses</persName>
+                <persName type="sort">Mendelssohn, Moses</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1729-09-06"/>
+                    <placeName ref="https://d-nb.info/gnd/4011536-7">Dessau</placeName>
+                </birth>
+                <death>
+                    <date when="1786-01-04"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Bedeutendster Vertreter der jüdischen Emanzipation in Deutschland; Vater von Abraham Mendelssohn Bartholdy</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167889-8">Literaturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4066567-7">Wissenschaftler</occupation>
+            </person>
+            <person xml:id="gnd-122673093">
+                <persName type="main">Numa, Pompilius</persName>
+                <persName type="sort">Numa, Pompilius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0753"/>
+                </birth>
+                <death>
+                    <date when="-0672"/>
+                </death>
+                <note type="bio">Sagenhafter zweiter König von Rom; soll ab 715 v. Chr. regiert haben</note>
+            </person>
+            <person xml:id="gnd-118583158">
+                <persName type="main">Muḥammad</persName>
+                <persName type="sort">Muḥammad</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0570"/>
+                </birth>
+                <death>
+                    <date when="0632"/>
+                </death>
+                <note type="bio">Stifter des Islam</note>
+                <occupation ref="https://d-nb.info/gnd/4175942-4">Prophet</occupation>
+                <occupation ref="https://d-nb.info/gnd/4177745-1">Religionsstifter</occupation>
+            </person>
+            <person xml:id="gnd-119073293">
+                <persName type="main">Egeria</persName>
+                <persName type="sort">Egeria</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Röm. Quellgöttin</note>
+                <occupation ref="https://d-nb.info/gnd/4232375-7">Nymphe</occupation>
+            </person>
+            <person xml:id="gnd-118520814" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Cicero, Marcus Tullius</persName>
+                <persName type="sort">Cicero, Marcus Tullius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0106"/>
+                    <placeName ref="https://d-nb.info/gnd/4427172-4">Arpino</placeName>
+                </birth>
+                <death>
+                    <date when="-0043"/>
+                    <placeName ref="https://d-nb.info/gnd/4086517-4">Formia</placeName>
+                </death>
+                <note type="bio">Röm. Staatsmann, Redner und Philosoph</note>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4048755-6">Rechtsanwalt</occupation>
+            </person>
+            <person xml:id="gnd-118640674" when="2025-07-30" resp="wvh">
+                <persName type="main">Lykurg, von Sparta</persName>
+                <persName type="sort">Lykurg, von Sparta</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Legendärer spartanischer Gesetzgeber</note>
+            </person>
+            <person xml:id="gnd-118615394">
+                <persName type="main">Solon</persName>
+                <persName type="sort">Solon</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0640"/>
+                    <placeName ref="https://d-nb.info/gnd/4003366-1">Athen</placeName>
+                </birth>
+                <death>
+                    <date when="-0560"/>
+                </death>
+                <note type="bio">Athen. Staatsmann, Gesetzgeber u. Lyriker, zählt zu den Sieben Weisen</note>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+            </person>
+            <person xml:id="gnd-118554727" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Humboldt, Wilhelm von</persName>
+                <persName type="sort">Humboldt, Wilhelm von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1767-06-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4046948-7">Potsdam</placeName>
+                </birth>
+                <death>
+                    <date when="1835-04-08"/>
+                    <placeName ref="https://d-nb.info/gnd/5007835-5">Tegel</placeName>
+                </death>
+                <note type="bio">Preußischer Gelehrter, Sprachforscher, Bildungsreformer und Diplomat. Älterer Bruder von <persName ref="gnd-118554700">Alexander von Humboldt</persName>
+                </note>
+                <tei:occupation ref="https://d-nb.info/gnd/4066567-7">Wissenschaftler</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4224183-2">Linguist</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4012401-0">Diplomat</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4028781-6">Journalist</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4018333-6">Freiherr</tei:occupation>
+            </person>
+        <person xml:id="gnd-118556312" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Jacobi, Friedrich Heinrich</persName>
+                <persName type="sort">Jacobi, Friedrich Heinrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1743-01-25"/>
+                    <placeName ref="https://d-nb.info/gnd/4013255-9">Düsseldorf</placeName>
+                </birth>
+                <death>
+                    <date when="1819-03-10"/>
+                    <placeName ref="https://d-nb.info/gnd/4127793-4">München</placeName>
+                </death>
+                <note type="bio">Dt. Philosoph, bekannt für seine Kritik am Rationalismus und seine Beiträge zur Frühromantik</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4029050-5">Jurist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4128272-3">Kaufmann</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118540238" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Goethe, Johann Wolfgang von</persName>
+                <persName type="sort">Goethe, Johann Wolfgang von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1749-08-28"/>
+                    <placeName ref="https://d-nb.info/gnd/4018118-2">Frankfurt am Main</placeName>
+                </birth>
+                <death>
+                    <date when="1832-03-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4065105-8">Weimar</placeName>
+                </death>
+                <note type="bio">Dt. Dichter, Naturforscher und Staatsmann, bedeutender Vertreter der
+Weimarer Klassik. Freund <persName ref="gnd-118554727">Wilhelm von Humboldts</persName>
+                </note>
+                <tei:occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4176310-5">Publizist</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4029050-5">Jurist</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4041423-1">Naturwissenschaftler</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4185044-0">Theaterintendant</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4037215-7">Maler</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4200345-3">Zeichner</tei:occupation>
+            </person>
+            <person xml:id="gnd-118616242" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Spinoza, Benedictus de</persName>
+                <persName type="sort">Spinoza, Benedictus de</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1632-11-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4001783-7">Amsterdam</placeName>
+                </birth>
+                <death>
+                    <date when="1677-02-21"/>
+                    <placeName ref="https://d-nb.info/gnd/4011446-6">Den Haag</placeName>
+                </death>
+                <note type="bio">Philosoph der Aufklärung, bekannt für seine <title>Ethik</title> und pantheistischen Ansichten</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4143454-7">Augenoptiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118534416" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Forster, Georg</persName>
+                <persName type="sort">Forster, Georg</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1754-11-27"/>
+                    <placeName ref="https://d-nb.info/gnd/7748619-5">Mokry Dwór</placeName>
+                </birth>
+                <death>
+                    <date when="1794-01-10"/>
+                    <placeName ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+                </death>
+                <note type="bio">Naturforscher, Ethnologe und Revolutionär in der Zeit der Aufklärung. Forster gilt als einer der ersten Vertreter der wissenschaftlichen Reiseliteratur</note>
+                <occupation ref="https://d-nb.info/gnd/4041423-1">Naturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4153098-6">Ethnologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4017917-5">Forschungsreisender</occupation>
+                <occupation ref="https://d-nb.info/gnd/4798807-1">Reiseschriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4020214-8">Geograf</occupation>
+                <occupation ref="https://d-nb.info/gnd/4123227-6">Freimaurer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4177943-5">Revolutionär</occupation>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+            </person>
+            <person xml:id="gnd-118607626" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Schiller, Friedrich</persName>
+                <persName type="sort">Schiller, Friedrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1759-11-10"/>
+                    <placeName ref="https://d-nb.info/gnd/4037443-9">Marbach am Neckar</placeName>
+                </birth>
+                <death>
+                    <date when="1805-05-09"/>
+                    <placeName ref="https://d-nb.info/gnd/4065105-8">Weimar</placeName>
+                </death>
+                <note type="bio">Bedeutender deutschsprachiger Dichter und Dramatiker. Professor für Geschichte in Jena und enger Freund <persName ref="gnd-118554727">Wilhelm von Humboldts</persName>
+                </note>
+                <tei:occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4152967-4">Erzähler</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4167564-2">Librettist</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</tei:occupation>
+            </person>
+            <person xml:id="gnd-124742386">
+                <persName type="main">Stolberg, Friedrich</persName>
+                <persName type="sort">Stolberg, Friedrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1892-11-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4057878-1">Straßburg</placeName>
+                </birth>
+                <death>
+                    <date when="1975-03-02"/>
+                    <placeName ref="https://d-nb.info/gnd/4021643-3">Goslar</placeName>
+                </death>
+                <note type="bio">Dt. Architekt, Höhlenforscher, Museums- u. Archivdirektor in Nordhausen, tätig im Stadtbauamt Potsdam, Stadtbauamt Goslar, Veröffentlichungen zur Burgenkunde</note>
+                <occupation ref="https://d-nb.info/gnd/4002844-6">Architekt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4556655-0">Speläologe</occupation>
+            </person>
+            <person xml:id="gnd-116765275">
+                <persName type="main">Gombert, Albert</persName>
+                <persName type="sort">Gombert, Albert</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1839-09-21"/>
+                    <placeName ref="https://d-nb.info/gnd/1053550049">Göritz (Hirschberg)</placeName>
+                </birth>
+                <death>
+                    <date when="1908-08-18"/>
+                </death>
+                <note type="bio">Dt. Germanist und Gymnasiallehrer</note>note&gt;
+                <occupation ref="https://d-nb.info/gnd/4156858-8">Germanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398796-5">Oberlehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4224183-2">Linguist</occupation>
+            </person>
+            <person xml:id="gnd-118504118">
+                <persName type="main">Arndt, Ernst Moritz</persName>
+                <persName type="sort">Arndt, Ernst Moritz</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1769-12-26"/>
+                    <placeName ref="https://d-nb.info/gnd/1137736151">Groß Schoritz</placeName>
+                </birth>
+                <death>
+                    <date when="1860-01-29"/>
+                    <placeName ref="https://d-nb.info/gnd/4007666-0">Bonn</placeName>
+                </death>
+                <note type="bio">1812 Privatsekretär des Freiherrn von Stein; Abgeordneter von Solingen im Frankfurter Parlament 1848</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4447167-1">Freiheitskämpfer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4032009-1">Komponist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4176310-5">Publizist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4139824-5">Volkskundler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4224183-2">Linguist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4000135-0">Abgeordneter</occupation>
+            </person>
+            <person xml:id="gnd-11877414X" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Hermes, Johann Timotheus</persName>
+                <persName type="sort">Hermes, Johann Timotheus</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1738-05-31"/>
+                </birth>
+                <death>
+                    <date when="1821-07-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4008216-7">Breslau</placeName>
+                </death>
+                <note type="bio">Dt. Schriftsteller und ev. Theologe; Von <persName key="gnd-118540238">Goethe</persName> und <persName key="gnd-118607626">Schiller</persName> wurde er trotz oder gerade wegen seines Erfolges verspottet</note>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+            </person>
+            <person xml:id="gnd-116863498">
+                <persName type="main">Meiners, Christoph</persName>
+                <persName type="sort">Meiners, Christoph</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1747-07-31"/>
+                    <placeName ref="https://d-nb.info/gnd/7579928-5">Warstade</placeName>
+                </birth>
+                <death>
+                    <date when="1810-05-01"/>
+                    <placeName ref="https://d-nb.info/gnd/4021477-1">Göttingen</placeName>
+                </death>
+                <note type="bio">Dt. Philosoph, Ethnograph, Historiker; Prof. ("ordentl. Lehrer d. Weltweisheit") in Göttingen, Königl. Großbritannischer Hofrath</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4153098-6">Ethnologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4485235-6">Kulturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4160419-2">Hofrat</occupation>
+            </person>
+            <person xml:id="gnd-118530941">
+                <persName type="main">Eros, Gott</persName>
+                <persName type="sort">Eros, Gott</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Gott der Liebe</note>
+            </person>
+            <person xml:id="gnd-118626574">
+                <persName type="main">Vergilius Maro, Publius</persName>
+                <persName type="sort">Vergilius Maro, Publius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0070"/>
+                    <placeName ref="https://d-nb.info/gnd/1058583514">Andiast</placeName>
+                </birth>
+                <death>
+                    <date when="-0019"/>
+                    <placeName ref="https://d-nb.info/gnd/4080536-0">Brindisi</placeName>
+                </death>
+                <note type="bio">Augusteischer antiker Dichter aus dem Kreis des Maecenas</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-11850083X">
+                <persName type="main">Äneas</persName>
+                <persName type="sort">Äneas</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Gestalt d. griech.-röm. Mythologie</note>
+            </person>
+            <person xml:id="gnd-135589746">
+                <persName type="main">Anchises</persName>
+                <persName type="sort">Anchises</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Sagengestalt der griech.-röm. Mythologie</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-1143256182">
+                <persName type="main">Ascanius</persName>
+                <persName type="sort">Ascanius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0500"/>
+                </birth>
+                <note type="bio">Kinderheld in Virgils Äneas, Sohn von Äneas und der Trojerin Creusa. Stammvater des Adelsgeschlechts der Julier</note>
+            </person>
+            <person xml:id="gnd-117218421" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Wegener, Wilhelm Gabriel</persName>
+                <persName type="sort">Wegener, Wilhelm Gabriel</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1767"/>
+                </birth>
+                <death>
+                    <date when="1837"/>
+                </death>
+                <note type="bio">Dt. evangelischer Pfarrer und Jugendfreund <persName key="gnd-118554700">Alexander von Humboldt</persName>s</note>
+                <occupation ref="https://d-nb.info/gnd/4132592-8">Pfarrer</occupation>
+            </person>
+            <person xml:id="gnd-118538489">
+                <persName type="main">Gentz, Friedrich von</persName>
+                <persName type="sort">Gentz, Friedrich von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1764-05-02"/>
+                    <placeName ref="https://d-nb.info/gnd/4008216-7">Breslau</placeName>
+                </birth>
+                <death>
+                    <date when="1832-06-09"/>
+                    <placeName ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+                </death>
+                <note type="bio">Politiker, Schriftsteller; u.a. königlich-preuß. Kriegsrat in Berlin</note>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4176310-5">Publizist</occupation>
+            </person>
+            <person xml:id="gnd-116920475">
+                <persName type="main">Guglia, Eugen</persName>
+                <persName type="sort">Guglia, Eugen</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1857-08-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+                </birth>
+                <death>
+                    <date when="1919-07-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4021912-4">Graz</placeName>
+                </death>
+                <note type="bio">Öst. Historiker, Journalist und Schriftsteller. Herausgeber der Biographie von
+                      Friedrich von Gentz</note>
+                <occupation ref="https://d-nb.info/gnd/4028781-6">Journalist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4177294-5">Redakteur</occupation>
+            </person>
+            <person xml:id="gnd-116167580">
+                <persName type="main">Biester, Johann Erich</persName>
+                <persName type="sort">Biester, Johann Erich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1749-11-17"/>
+                    <placeName ref="https://d-nb.info/gnd/4036483-5">Lübeck</placeName>
+                </birth>
+                <death>
+                    <date when="1816-02-18"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Buchbesitz: SLUB Dresden</note>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167838-2">Literarhistoriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+                <occupation ref="https://d-nb.info/gnd/4176310-5">Publizist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4029050-5">Jurist</occupation>
+            </person>
+            <person xml:id="gnd-118613723">
+                <persName type="main">Shakespeare, William</persName>
+                <persName type="sort">Shakespeare, William</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1564-04-23"/>
+                    <placeName ref="https://d-nb.info/gnd/4118849-4">Stratford-upon-Avon</placeName>
+                </birth>
+                <death>
+                    <date when="1616-04-23"/>
+                    <placeName ref="https://d-nb.info/gnd/4118849-4">Stratford-upon-Avon</placeName>
+                </death>
+                <note type="bio">Engl. Dichter und Dramatiker</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4052154-0">Schauspieler</occupation>
+            </person>
+            <person xml:id="gnd-118720961">
+                <persName type="main">Karl Theodor, Mainz, Erzbischof</persName>
+                <persName type="sort">Karl Theodor, Mainz, Erzbischof</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1744-02-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4037372-1">Mannheim</placeName>
+                </birth>
+                <death>
+                    <date when="1817-02-10"/>
+                    <placeName ref="https://d-nb.info/gnd/4048989-9">Regensburg</placeName>
+                </death>
+                <note type="bio">kurfürstlicher Statthalter von Erfurt; bischöfl. Koadjutor von Mainz, Worms und Konstanz</note>
+                <occupation ref="https://d-nb.info/gnd/4015471-3">Erzbischof</occupation>
+                <occupation ref="https://d-nb.info/gnd/4166203-9">Kurfürst</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-100804500">
+                <persName type="main">Ernesti, Johann August</persName>
+                <persName type="sort">Ernesti, Johann August</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1707-08-04"/>
+                    <placeName ref="https://d-nb.info/gnd/4345572-4">Bad Tennstedt</placeName>
+                </birth>
+                <death>
+                    <date when="1781-09-11"/>
+                    <placeName ref="https://d-nb.info/gnd/4035206-7">Leipzig</placeName>
+                </death>
+                <note type="bio">Evangelisch-lutherischer Theologe, Philologe und Pädagoge; 1731 Konrektor und 1734-1762 Rektor der Thomasschule in Leipzig, Dienstvorgesetzter von Johann Sebastian Bach; ab 1742 auch Prof. an der Univ. Leipzig</note>
+                <occupation ref="https://d-nb.info/gnd/4015882-2">Evangelischer Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4158589-6">Gymnasiallehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199252-0">Rektor</occupation>
+            </person>
+            <person xml:id="gnd-118553569">
+                <persName type="main">Horatius Flaccus, Quintus</persName>
+                <persName type="sort">Horatius Flaccus, Quintus</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0065"/>
+                    <placeName ref="https://d-nb.info/gnd/4302067-7">Venosa</placeName>
+                </birth>
+                <death>
+                    <date when="-0008"/>
+                    <placeName ref="https://d-nb.info/gnd/4050471-2">Rom</placeName>
+                </death>
+                <note type="bio">Augusteischer römischer Dichter aus dem Kreis des Maecenas</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-116123907">
+                <persName type="main">Beaulieu-Marconnay, Karl Olivier von</persName>
+                <persName type="sort">Beaulieu-Marconnay, Karl Olivier von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1811-09-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4039406-2">Minden (Westf)</placeName>
+                </birth>
+                <death>
+                    <date when="1889-04-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4012995-0">Dresden</placeName>
+                </death>
+                <note type="bio">Schriftsteller, Diplomat, Historiker; Freiherr; Sohn von Wilhelm Ernst von Beaulieu-Marconnay (1777-1855)</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4012401-0">Diplomat</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4018333-6">Freiherr</occupation>
+            </person>
+            <person xml:id="gnd-11855333X" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Homer</persName>
+                <persName type="sort">Homer</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Epiker, mythischer Author der <title>Ilias</title> und <title>Odyssee</title>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="person-000002" when="2025-07-31" resp="wvh-schriften">
+        <persName type="main">Ossian (fiktiver Gestalt)</persName>
+        <persName type="sort">4222107-9</persName>
+        <gender value="M">male</gender>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Fiktiver keltischer Dichter, bekannt durch die angeblichen Übersetzungen von James Macpherson</note>
+     </person>
+            <person xml:id="gnd-118626175">
+                <persName type="main">Varnhagen, Rahel</persName>
+                <persName type="sort">Varnhagen, Rahel</persName>
+                <gender value="F">female</gender>
+                <birth>
+                    <date when="1771-05-19"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </birth>
+                <death>
+                    <date when="1833-03-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Dt. Schriftstellerin und Salonnière, bekannt für ihren literarischen Salon
+                      in Berlin</note>
+                <occupation ref="https://d-nb.info/gnd/4053311-6">Schriftstellerin</occupation>
+            </person>
+            <person xml:id="gnd-118804944">
+                <persName type="main">Scaliger, Joseph Juste</persName>
+                <persName type="sort">Scaliger, Joseph Juste</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1540-08-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4079641-3">Agen</placeName>
+                </birth>
+                <death>
+                    <date when="1609-01-21"/>
+                    <placeName ref="https://d-nb.info/gnd/4074118-7">Leiden</placeName>
+                </death>
+                <note type="bio">Calvinistischer Philologe u. Humanist; Professor in Genf und seit 1593 in Leiden</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4160777-6">Humanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+            </person>
+            <person xml:id="gnd-116467541">
+                <persName type="main">Casaubon, Isaac</persName>
+                <persName type="sort">Casaubon, Isaac</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1559-02-18"/>
+                    <placeName ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+                </birth>
+                <death>
+                    <date when="1614-07-01"/>
+                    <placeName ref="https://d-nb.info/gnd/4074335-4">London</placeName>
+                </death>
+                <note type="bio">Studium in Genf; 1582 Professor in Genf, 1596-99 in Montpellier, 1600-1605 in Paris, 1605-1610 Königl. Bibliothekar in Paris; ab 1610 in London</note>
+                <occupation ref="https://d-nb.info/gnd/4160777-6">Humanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+            </person>
+            <person xml:id="gnd-119114119">
+                <persName type="main">Saumaise, Claude</persName>
+                <persName type="sort">Saumaise, Claude</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1596-04-15"/>
+                    <placeName ref="https://d-nb.info/gnd/4118583-3">Semur-en-Auxois</placeName>
+                </birth>
+                <death>
+                    <date when="1653-09-03"/>
+                    <placeName ref="https://d-nb.info/gnd/4139786-1">Spa</placeName>
+                </death>
+                <note type="bio">Franz. Gelehrter, Altphilologe; 1632 Prof. in Leiden</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4029050-5">Jurist</occupation>
+            </person>
+            <person xml:id="gnd-118549855">
+                <persName type="main">Herodot</persName>
+                <persName type="sort">Herodot</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Historiker u. Schriftsteller; Geschichtsschreiber; Historiograph, Geograph u. Völkerkundler</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4155430-9">Geschichtsschreiber</occupation>
+                <occupation ref="https://d-nb.info/gnd/4020214-8">Geograf</occupation>
+                <occupation ref="https://d-nb.info/gnd/4153098-6">Ethnologe</occupation>
+            </person>
+            <person xml:id="gnd-118633600">
+                <persName type="main">Winckelmann, Johann Joachim</persName>
+                <persName type="sort">Winckelmann, Johann Joachim</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1717-12-09"/>
+                    <placeName ref="https://d-nb.info/gnd/4057260-2">Stendal</placeName>
+                </birth>
+                <death>
+                    <date when="1768-06-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4078411-3">Triest</placeName>
+                </death>
+                <note type="bio">Begründer der klassischen Archäologie und Wegbereiter der modernen Kunstwissenschaft; wirkte 1748-1754 als Bibliothekar und Sekretär Heinrich von Bünaus auf Schloss Noethnitz bei Dresden; 1755-1768 in Rom tätig</note>
+                <occupation ref="https://d-nb.info/gnd/4191824-1">Archäologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+                <occupation ref="https://d-nb.info/gnd/4332106-9">Antiquar</occupation>
+            </person>
+            <person xml:id="gnd-118572121">
+                <persName type="main">Lessing, Gotthold Ephraim</persName>
+                <persName type="sort">Lessing, Gotthold Ephraim</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1729-01-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4029407-9">Kamenz</placeName>
+                </birth>
+                <death>
+                    <date when="1781-02-15"/>
+                    <placeName ref="https://d-nb.info/gnd/4008065-1">Braunschweig</placeName>
+                </death>
+                <note type="bio">Deutscher Schriftsteller, Kritiker und Philosoph, Bibliothekar. 1748 Rezensent an der Vossischen Zeitung Berlin. 1767 Dramaturg am Deutschen Nationaltheater Hamburg</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4165775-5">Kritiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-118590669">
+                <persName type="main">Otfrid, von Weißenburg</persName>
+                <persName type="sort">Otfrid, von Weißenburg</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0790"/>
+                </birth>
+                <death>
+                    <date when="0870"/>
+                </death>
+                <note type="bio">OSB</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4137184-7">Geistlicher</occupation>
+            </person>
+            <person xml:id="gnd-118500651">
+                <persName type="main">Adelung, Johann Christoph</persName>
+                <persName type="sort">Adelung, Johann Christoph</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1732-08-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4416105-0">Spantekow</placeName>
+                </birth>
+                <death>
+                    <date when="1806-09-10"/>
+                    <placeName ref="https://d-nb.info/gnd/4012995-0">Dresden</placeName>
+                </death>
+                <note type="bio">Dt. Sprachwissenschaftler, Lexikograph und Pädagoge. Ab 1769 redigierte er hier die Leipziger Zeitungen, ferner arbeitete er an der Jenaer Allgemeinen Literatur-Zeitung und der Allgemeinen deutschen Bibliothek mit.</note>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4247850-9">Lexikograf</occupation>
+                <occupation ref="https://d-nb.info/gnd/4156858-8">Germanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4028781-6">Journalist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4224183-2">Linguist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4160419-2">Hofrat</occupation>
+            </person>
+            <person xml:id="gnd-118718355">
+                <persName type="main">Gräter, Friedrich David</persName>
+                <persName type="sort">Gräter, Friedrich David</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1768-04-22"/>
+                </birth>
+                <death>
+                    <date when="1830-08-02"/>
+                </death>
+                <note type="bio">Rector u. erster Professor des Königl. Gymnas. ill. u. Ephorus des Königl. Contubernii Alumnor., der Königl. Westphälischen Gesellschaft der Alterthumsforscher zu Cassel, der Königl. Preuss. Akademie der Wissensch. ehm. teutscher Deputation, der teutschen Gesellschaft zu Leipzig, der Pegnesischen zu Nürnberg, der Königl. Scandinavischen Literaturgesellschaft zu Kopenhagen, und der Königl. antiquarischen Commission daselbst resp. wirklichem, correspondirendem und Ehrenmitglied</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398840-4">Skandinavist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4191824-1">Archäologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+            </person>
+            <person xml:id="gnd-118808850">
+                <persName type="main">Böckh, August</persName>
+                <persName type="sort">Böckh, August</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1785-11-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4029713-5">Karlsruhe</placeName>
+                </birth>
+                <death>
+                    <date when="1867-08-03"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Altphilologe, Altertumsforscher; a.o. Professor in Heidelberg, Kontakt mit Brentano, Arnim, Görres und Tieck; 1809: Ordinarius in Heidelberg; ab 1811: Professor an der Universität Berlin, dort enge Zusammenarbeit mit W. von Humboldt; Amt des Dekans und des Rektors; Förderer der Akademie der Wissenschaften; enger Vertrauter von Mendelssohn; seit 1814: Mitglied der Königlich Preußischen Akademie der Wissenschaften</note>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4142067-6">Althistoriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+            </person>
+            <person xml:id="gnd-118787969">
+                <persName type="main">Raumer, Rudolf von</persName>
+                <persName type="sort">Raumer, Rudolf von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1815-04-14"/>
+                    <placeName ref="https://d-nb.info/gnd/4008216-7">Breslau</placeName>
+                </birth>
+                <death>
+                    <date when="1876-08-30"/>
+                    <placeName ref="https://d-nb.info/gnd/4015299-6">Erlangen</placeName>
+                </death>
+                <note type="bio">Deutscher Germanist und Philologe; 1840 Privatdozent, 1858 Prof. der Philosophie, 1866-1876 Prof. der deutschen Sprache und Literatur an der Universität Erlangen, Prorektor</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4156858-8">Germanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+            </person>
+            <person xml:id="gnd-116725966">
+                <persName type="main">Brucker, Johann Jakob</persName>
+                <persName type="sort">Brucker, Johann Jakob</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1696-01-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4003614-5">Augsburg</placeName>
+                </birth>
+                <death>
+                    <date when="1770-11-26"/>
+                    <placeName ref="https://d-nb.info/gnd/4003614-5">Augsburg</placeName>
+                </death>
+                <note type="bio">Dt. ev. Theologe, Pädagoge und Philosophiehistoriker; Lehrer an der Universität in Jena; 1731 Mitglied der Akademie der Wissenschaften zu Berlin; 1744 Pfarrer an Heilig-Kreuz in Augsburg;  Rektor der Lateinschule in Kaufbeuren;  1757 Pfarrer an der St.-Ulrich-Kirche in Kaufbeuren</note>
+                <occupation ref="https://d-nb.info/gnd/4015882-2">Evangelischer Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4132592-8">Pfarrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4158589-6">Gymnasiallehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199252-0">Rektor</occupation>
+            </person>
+            <person xml:id="gnd-118595741">
+                <persName type="main">Pope, Alexander</persName>
+                <persName type="sort">Pope, Alexander</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1688-05-21"/>
+                    <placeName ref="https://d-nb.info/gnd/4074335-4">London</placeName>
+                </birth>
+                <death>
+                    <date when="1744-05-30"/>
+                    <placeName ref="https://d-nb.info/gnd/4128199-8">Twickenham</placeName>
+                </death>
+                <note type="bio">Engl. Dichter; Mitglied des Scriblerus Club</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118632477">
+                <persName type="main">Wieland, Christoph Martin</persName>
+                <persName type="sort">Wieland, Christoph Martin</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1733-09-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4716023-8">Oberholzheim</placeName>
+                </birth>
+                <death>
+                    <date when="1813-01-20"/>
+                    <placeName ref="https://d-nb.info/gnd/4065105-8">Weimar</placeName>
+                </death>
+                <note type="bio">Dt. Dichter, Übersetzer und Herausgeber, bedeutend für die deutsche
+                      Aufklärung</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-118627910">
+                <persName type="main">Voß, Johann Heinrich</persName>
+                <persName type="sort">Voß, Johann Heinrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1751-02-20"/>
+                </birth>
+                <death>
+                    <date when="1826-03-29"/>
+                    <placeName ref="https://d-nb.info/gnd/4023996-2">Heidelberg</placeName>
+                </death>
+                <note type="bio">Dt. Dichter u. bedeutender Übers. der Epen Homers (Ilias u. Odyssee) sowie der griechischen und römischen Klassiker</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4165775-5">Kritiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199252-0">Rektor</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-131480405">
+                <persName type="main">Heine, Heinrich</persName>
+                <persName type="sort">Heine, Heinrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1860-08-28"/>
+                </birth>
+                <death>
+                    <date when="1931-03-12"/>
+                </death>
+                <note type="bio">Mittelschullehrer, Gewerbelehrer, Mitglied im Nordhäuser Geschichts- und Altertumsverein, heimatkundliche Veröffentlichungen</note>
+                <occupation ref="https://d-nb.info/gnd/4313907-3">Heimatkundler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4035088-5">Lehrer</occupation>
+            </person>
+            <person xml:id="gnd-118679627">
+                <persName type="main">Diodor, Siculus</persName>
+                <persName type="sort">Diodor, Siculus</persName>
+               <gender value="M">male</gender>
+                <note type="bio">Bibliotheca historica; Griechischer Historiker z.Zt. Caesars und zu Beginn der Ära des Augustus</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4155430-9">Geschichtsschreiber</occupation>
+            </person>
+            <person xml:id="gnd-118503650">
+                <persName type="main">Apollodor, Grammaticus</persName>
+                <persName type="sort">Apollodor, Grammaticus</persName>
+                <gender value="M">male</gender>
+                <note type="bio">FGrH 244; Griech. Grammatiker aus Athen</note>
+                <occupation ref="https://d-nb.info/gnd/4158016-3">Grammatiker</occupation>
+            </person>
+            <person xml:id="gnd-11862234X">
+                <persName type="main">Thucydides</persName>
+                <persName type="sort">Thucydides</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Athener Stratege und einer der bedeutendsten antiken griechischen Geschichtsschreiber.</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+            </person>
+            <person xml:id="gnd-118559796" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Kant, Immanuel</persName>
+                <persName type="sort">Kant, Immanuel</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1724-04-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4031541-1">Königsberg</placeName>
+                </birth>
+                <death>
+                    <date when="1804-02-12"/>
+                    <placeName ref="https://d-nb.info/gnd/4031541-1">Königsberg</placeName>
+                </death>
+                <note type="bio">Dt. Philosoph der Aufklärung, bekannt v.a. durch sein Werk <title>Kritik der reinen Vernunft</title>. Von <persName key="gnd-118554727">Wilhelm von Humboldt</persName> besonders hochgeschätzt</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4041423-1">Naturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4003982-1">Autor</occupation>
+                <occupation ref="https://d-nb.info/gnd/4175743-9">Privatlehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+            </person>
+            <person xml:id="gnd-11876425X">
+                <persName type="main">Walzel, Oskar</persName>
+                <persName type="sort">Walzel, Oskar</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1864-10-28"/>
+                    <placeName ref="https://d-nb.info/gnd/4066009-6">Wien</placeName>
+                </birth>
+                <death>
+                    <date when="1944-12-29"/>
+                    <placeName ref="https://d-nb.info/gnd/4007666-0">Bonn</placeName>
+                </death>
+                <note type="bio">Öst. Literaturwissenschaftler, zählt zu den einflussreichsten Germanisten des 20. Jahrhunderts</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167889-8">Literaturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4156858-8">Germanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167889-8">Literaturwissenschaftler</occupation>
+            </person>
+            <person xml:id="gnd-116519770">
+                <persName type="main">Brinckmann, Carl Gustav von</persName>
+                <persName type="sort">Brinckmann, Carl Gustav von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1764-02-25"/>
+                </birth>
+                <death>
+                    <date when="1847-12-25"/>
+                </death>
+                <note type="bio">Schwed. Politiker und Schriftsteller</note>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-11856448X" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Körner, Christian Gottfried</persName>
+                <persName type="sort">Körner, Christian Gottfried</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1756-07-02"/>
+                    <placeName ref="https://d-nb.info/gnd/4035206-7">Leipzig</placeName>
+                </birth>
+                <death>
+                    <date when="1831-05-13"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Dt. Schriftsteller u. Jurist; Staatsrat; Freund <persName ref="gnd-118607626">Schillers</persName>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4029050-5">Jurist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4123227-6">Freimaurer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398825-8">Regierungsrat</occupation>
+            </person>
+            <person xml:id="gnd-116300914" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Körte, Wilhelm</persName>
+                <persName type="sort">Körte, Wilhelm</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1776-03-24"/>
+                </birth>
+                <death>
+                    <date when="1846-01-28"/>
+                </death>
+                <note type="bio">Literarhistoriker, Nachlassverwalter Gleims und Schwiegersohn <persName key="gnd-117444154">Friedrich August Wolfs</persName>
+                </note>
+                <tei:occupation ref="https://d-nb.info/gnd/4167838-2">Literarhistoriker</tei:occupation>
+            </person>
+            <person xml:id="gnd-118549553" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Herder, Johann Gottfried von</persName>
+                <persName type="sort">Herder, Johann Gottfried von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1744-08-25"/>
+                    <placeName ref="https://d-nb.info/gnd/4101115-6">Mohrungen</placeName>
+                </birth>
+                <death>
+                    <date when="1803-12-18"/>
+                    <placeName ref="https://d-nb.info/gnd/4065105-8">Weimar</placeName>
+                </death>
+                <note type="bio">Einer der einflussreichsten Schriftsteller und Denker deutscher Sprache im Zeitalter der Aufklärung, zusammen mit <persName key="gnd-118632477">Wieland</persName>, <persName key="gnd-118540238">Goethe</persName> und <persName key="gnd-118607626">Schiller</persName>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398098-3">Generalsuperintendent</occupation>
+                <occupation ref="https://d-nb.info/gnd/4127948-7">Schulleiter</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-118594427" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Pindar</persName>
+                <persName type="sort">Pindar</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Einer der bedeutendsten Lyriker des antiken Griechenlands, bekannt für seine Epinikien (Siegesoden), die für Sieger der panhellenischen Spiele wie die Olympischen Spiele verfasst wurden. Sein Stil war hochstilisiert und voller mythologischer Bezüge</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-118771272" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Wolzogen, Karoline von</persName>
+                <persName type="sort">Wolzogen, Karoline von</persName>
+                <gender value="F">female</gender>
+                <birth>
+                    <date when="1763-02-03"/>
+                    <placeName ref="https://d-nb.info/gnd/4105066-6">Rudolstadt</placeName>
+                </birth>
+                <death>
+                    <date when="1847-01-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4028557-1">Jena</placeName>
+                </death>
+                <note type="bio">Dt. Schriftstellerin; Schwägerin des Dichters <persName key="gnd-118607626">Friedrich Schiller</persName>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4053311-6">Schriftstellerin</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053311-6">Schriftstellerin</occupation>
+            </person>
+            <person xml:id="gnd-11852240X" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Cotta, Johann Friedrich von</persName>
+                <persName type="sort">Cotta, Johann Friedrich von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1764-04-27"/>
+                    <placeName ref="https://d-nb.info/gnd/4058282-6">Stuttgart</placeName>
+                </birth>
+                <death>
+                    <date when="1832-12-29"/>
+                    <placeName ref="https://d-nb.info/gnd/4058282-6">Stuttgart</placeName>
+                </death>
+                <note type="bio">Einflussreicher Verleger der Weimarer Klassik. Zu seinen wichtigsten Autoren zählten u. a. <persName key="gnd-118540238">Goethe</persName>, <persName key="gnd-118607626">Schiller</persName>, <persName key="gnd-118551981">Hölderlin</persName>, <persName key="gnd-118607057">Schelling</persName> und <persName key="gnd-118554700">Alexander von Humboldt</persName>.</note>
+                <occupation ref="https://d-nb.info/gnd/4138343-6">Verleger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061949-7">Unternehmer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4000135-0">Abgeordneter</occupation>
+                <occupation ref="https://d-nb.info/gnd/4130948-0">Buchhändler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+            </person>
+            <person xml:id="gnd-118554719">
+                <persName type="main">Humboldt, Caroline von</persName>
+                <persName type="sort">Humboldt, Caroline von</persName>
+                <gender value="F">female</gender>
+                <birth>
+                    <date when="1766-02-23"/>
+                    <placeName ref="https://d-nb.info/gnd/4039406-2">Minden (Westf)</placeName>
+                </birth>
+                <death>
+                    <date when="1829-03-26"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Geborene von Dacheröden, Ehefrau Wilhelm von
+                      Humboldts und eine bedeutende Briefautorin und Mäzenin der Künste. Sie führte
+                      einen einflussreichen Salon und begleitete ihren Mann auf diplomatischen Reisen,
+                      insbesondere nach Rom, wo sie zahlreiche Künstlerkontakte pflegt</note>
+                <occupation ref="https://d-nb.info/gnd/4013634-6">Ehefrau</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053311-6">Schriftstellerin</occupation>
+            </person>
+            <person xml:id="gnd-118554514" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Hufeland, Christoph Wilhelm</persName>
+                <persName type="sort">Hufeland, Christoph Wilhelm</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1762-08-12"/>
+                    <placeName ref="https://d-nb.info/gnd/4034508-7">Bad Langensalza</placeName>
+                </birth>
+                <death>
+                    <date when="1836-08-25"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Deutscher Arzt und Sozialhygieniker. Zu seinen berühmtesten Patienten zählten Friedrich Wilhelm III., Goethe, Schiller, Herder, Wieland und Heinke</note>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4194046-5">Therapeut</occupation>
+                <occupation ref="https://d-nb.info/gnd/4353908-7">Pathologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4268052-9">Leibarzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4123227-6">Freimaurer</occupation>
+            </person>
+            <person xml:id="gnd-118554700" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Humboldt, Alexander von</persName>
+                <persName type="sort">Humboldt, Alexander von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1769-09-14"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </birth>
+                <death>
+                    <date when="1859-05-06"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Dt. Naturforscher, Geograph und Begründer der modernen Geographie. Jüngerer Brüder <persName key="gnd-118554727">Wilhelm von Humboldt</persName>s</note>
+                <occupation ref="https://d-nb.info/gnd/4020214-8">Geograf</occupation>
+                <occupation ref="https://d-nb.info/gnd/4041423-1">Naturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4017917-5">Forschungsreisender</occupation>
+                <occupation ref="https://d-nb.info/gnd/4156443-1">Gelehrter</occupation>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4156312-8">Geheimer Rat</occupation>
+            </person>
+            <person xml:id="gnd-116208503" when="2025-07-31" resp="wvh-schriften">
+                <persName type="main">Blumenbach, Johann Friedrich</persName>
+                <persName type="sort">Blumenbach, Johann Friedrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1752-05-11"/>
+                    <placeName ref="https://d-nb.info/gnd/4021652-4">Gotha</placeName>
+                </birth>
+                <death>
+                    <date when="1840-01-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4021477-1">Göttingen</placeName>
+                </death>
+                <note type="bio">Dt. Naturforscher, Anthropologe und Begründer der modernen Rassenkunde. Prägte den Begriff „kaukasische Rasse“ und war ein einflussreicher Wissenschaftler der Aufklärung</note>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398977-9">Zoologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4277277-1">Paläontologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4142642-3">Anthropologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+            </person>
+            <person xml:id="gnd-118607987" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Schlegel, Friedrich von</persName>
+                <persName type="sort">Schlegel, Friedrich von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1772-03-10"/>
+                    <placeName ref="https://d-nb.info/gnd/4023349-2">Hannover</placeName>
+                </birth>
+                <death>
+                    <date when="1829-01-12"/>
+                    <placeName ref="https://d-nb.info/gnd/4012995-0">Dresden</placeName>
+                </death>
+                <note type="bio">Dt. Kulturphilosoph und Schriftsteller, der neben seinem Bruder <persName key="gnd-118607960">August Wilhelm Schlegel</persName> zu den wichtigsten Vertretern der „Jenaer Frühromantik“ zählt. Pionier der Sprachtypologie und bahnbrechender Indologe</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4165775-5">Kritiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167838-2">Literarhistoriker</occupation>
+            </person>
+            <person xml:id="gnd-118607960">
+                <persName type="main">Schlegel, August Wilhelm von</persName>
+                <persName type="sort">Schlegel, August Wilhelm von</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1767-09-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4023349-2">Hannover</placeName>
+                </birth>
+                <death>
+                    <date when="1845-05-12"/>
+                    <placeName ref="https://d-nb.info/gnd/4007666-0">Bonn</placeName>
+                </death>
+                <note type="bio">Berühmte Übersetzung der Werke Shakespeares, zusammen mit Ludwig Tieck, Dorothea Tieck und Wolf Heinrich von Baudissin</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4185045-2">Theaterkritiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4165775-5">Kritiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4415844-0">Orientalist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167564-2">Librettist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167889-8">Literaturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-119357704">
+                <persName type="main">Veit, David</persName>
+                <persName type="sort">Veit, David</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1771-11-08"/>
+                </birth>
+                <death>
+                    <date when="1814-02-15"/>
+                </death>
+                <note type="bio">Dt. Arzt und Naturforscher, der dank der ehelichen Verbindung seines
+                      Bruders mit Moses Mendelssohns Tochter Dorothea Schlegel mit aufgeklärten
+                      Intellektuellen verkehrte, u.a. Goethe und Rahel Varnhagen</note>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-121429741">
+                <persName type="main">Braun, Julius W.</persName>
+                <persName type="sort">Braun, Julius W.</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1843-11-28"/>
+                    <placeName ref="https://d-nb.info/gnd/4015525-0">Eschwege</placeName>
+                </birth>
+                <death>
+                    <date when="1895-10-05"/>
+                    <placeName ref="https://d-nb.info/gnd/5193748-7">Halensee</placeName>
+                </death>
+                <note type="bio">Dt. Kunsthistoriker und Schriftsteller, bekannt für seine Werke über
+                  antike Kunst und Architektur. Er wirkte als Professor und Kunstkritiker</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4128272-3">Kaufmann</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-117140791">
+                <persName type="main">Schütz, Christian Gottfried</persName>
+                <persName type="sort">Schütz, Christian Gottfried</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1747-05-19"/>
+                    <placeName ref="https://d-nb.info/gnd/1129883116">Dederstedt</placeName>
+                </birth>
+                <death>
+                    <date when="1832-05-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4023025-9">Halle (Saale)</placeName>
+                </death>
+                <note type="bio">Dt. Philologe, Philosoph u. Redakteur; Prof. in Halle u. Jena</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167838-2">Literarhistoriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+            </person>
+            <person xml:id="gnd-118523708">
+                <persName type="main">Alighieri, Dante</persName>
+                <persName type="sort">Alighieri, Dante</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1265-05-12"/>
+                    <placeName ref="https://d-nb.info/gnd/4017581-9">Florenz</placeName>
+                </birth>
+                <death>
+                    <date when="1321-09-14"/>
+                    <placeName ref="https://d-nb.info/gnd/4048629-1">Ravenna</placeName>
+                </death>
+                <note type="bio">Berühmter italienischer Dichter des Mittelalters, Autor der <title>Göttlichen Komödie</title>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-118615688">
+                <persName type="main">Sophocles</persName>
+                <persName type="sort">Sophocles</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Dichter, der v.a. Tragödien, daneben aber auch Elegien und Paeane schrieb</note>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118531395">
+                <persName type="main">Euripides</persName>
+                <persName type="sort">Euripides</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Tragödiendichter der Antike</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+            </person>
+            <person xml:id="gnd-118500856">
+                <persName type="main">Aischylos</persName>
+                <persName type="sort">Aischylos</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0525"/>
+                </birth>
+                <death>
+                    <date when="-0456"/>
+                </death>
+                <note type="bio">Gr. Tragödiendichter, bekannt für Werke wie die <title>Orestie</title>. Er gilt als
+                  einer der Begründer der griechischen Tragödie</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+            </person>
+            <person xml:id="gnd-118622277">
+                <persName type="main">Thomson, James</persName>
+                <persName type="sort">Thomson, James</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1700-09-11"/>
+                </birth>
+                <death>
+                    <date when="1748-08-27"/>
+                    <placeName ref="https://d-nb.info/gnd/4117006-4">Richmond, Va.</placeName>
+                </death>
+                <note type="bio">Schottischer Schriftsteller, Dichter</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4037215-7">Maler</occupation>
+            </person>
+            <person xml:id="gnd-118650130">
+                <persName type="main">Aristoteles</persName>
+                <persName type="sort">Aristoteles</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0384"/>
+                    <placeName ref="https://d-nb.info/gnd/4823144-7">Stagira</placeName>
+                </birth>
+                <death>
+                    <date when="-0322"/>
+                    <placeName ref="https://d-nb.info/gnd/4009713-4">Chalkide</placeName>
+                </death>
+                <note type="bio">Griechischer Philosoph; Universalgelehrter der Antike; Begründer zahlreicher Disziplinen u.a. Physik, Logik, Biologie, Ethik, Dichtungstheorie und Staatstheorie</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4035088-5">Lehrer</occupation>
+            </person>
+            <person xml:id="gnd-118635964">
+                <persName type="main">Young, Edward</persName>
+                <persName type="sort">Young, Edward</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1683-07-03"/>
+                </birth>
+                <death>
+                    <date when="1765-04-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4755858-1">Welwyn</placeName>
+                </death>
+                <note type="bio">Schriftsteller, Grossbritannien; Engl. Dichter; Studium d. Rechte in Oxford; 1728 Hofkaplan bei Georg II. in London</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4132592-8">Pfarrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118503952">
+                <persName type="main">Ariosto, Ludovico</persName>
+                <persName type="sort">Ariosto, Ludovico</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1474-09-08"/>
+                </birth>
+                <death>
+                    <date when="1533-07-06"/>
+                    <placeName ref="https://d-nb.info/gnd/4092153-0">Ferrara</placeName>
+                </death>
+                <note type="bio">It. Dichter des Renaissance, Verfasser des berühmten epischen Gedichts <title>Orlando furioso</title>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="person-000006" when="2025-07-31" resp="wvh-schriften">
+        <persName type="main">Dione (Mythologie)</persName>
+        <persName type="sort"/>
+        <gender value="F"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Eine titanische Göttin der griechischen Mythologie, oft als Mutter der Aphrodite in frühen Mythen genannt. Ihr Name wird manchmal mit dem weiblichen Gegenstück zu Zeus in Verbindung gebracht.</note>
+     </person>
+            <person xml:id="gnd-11876800X">
+                <persName type="main">Venus, Göttin</persName>
+                <persName type="sort">Venus, Göttin</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Römische Göttin der Liebe, Schönheit und Fruchtbarkeit, oft mit der
+                      griechischen Aphrodite gleichgesetzt. Schutzgöttin Roms, insbesondere in der
+                      Gestalt der Venus Genetrix</note>
+            </person>
+            <person xml:id="gnd-118800574">
+                <persName type="main">Juno</persName>
+                <persName type="sort">Juno</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Römische Göttin der Ehe und Geburt, Schutzgöttin der Frauen. Als Gemahlin
+                      Jupiters wurde sie als höchste weibliche Gottheit verehrt, analog zur griechischen
+                      Hera</note>
+                <occupation ref="https://d-nb.info/gnd/4021474-6">Göttin</occupation>
+            </person>
+            <person xml:id="gnd-118772635">
+                <persName type="main">Zeus, Gott</persName>
+                <persName type="sort">Zeus, Gott</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Oberster Gott der griechischen Mythologie, Herrscher des Olymps und Gott des
+                      Himmels, des Blitzes und des Donners</note>
+                <occupation ref="https://d-nb.info/gnd/4021662-7">Gott</occupation>
+            </person>
+            <person xml:id="gnd-118558897">
+                <persName type="main">Jupiter, Gott</persName>
+                <persName type="sort">Jupiter, Gott</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Oberster Gott des römischen Pantheons, Gott des Himmels und des Donners.
+                      Entspricht Zeus in der griechischen Mythologie und war Schutzherr des römischen
+                      Staates und seiner Gesetze</note>
+            </person>
+            <person xml:id="gnd-1189463628">
+                <persName type="main">Pallas</persName>
+                <persName type="sort">Pallas</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Kriegerin, Figur aus der griechischen Mythologie</note>
+            </person>
+            <person xml:id="gnd-118649809">
+                <persName type="main">Aphrodite, Göttin</persName>
+                <persName type="sort">Aphrodite, Göttin</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Griech. Göttin d. Liebe u. Schönheit</note>
+            </person>
+            <person xml:id="gnd-118678132">
+                <persName type="main">Diana, Göttin</persName>
+                <persName type="sort">Diana, Göttin</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Röm Göttin der Jagd, des Mondes und der Wildnis. Sie wurde oft als keusche Göttin dargestellt und war eine der wichtigsten Gottheiten der römischen Religion</note>
+            </person>
+            <person xml:id="gnd-118986155">
+                <persName type="main">Minerva</persName>
+                <persName type="sort">Minerva</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Römische Göttin der Weisheit, der strategischen Kriegsführung und der Künste,
+                      oft mit der griechischen Athena gleichgesetzt. Eine der Hauptgottheiten der
+                      römischen Religion und Schutzpatronin Roms</note>
+                <occupation ref="https://d-nb.info/gnd/4021474-6">Göttin</occupation>
+            </person>
+            <person xml:id="gnd-118651439">
+                <persName type="main">Bacchus</persName>
+                <persName type="sort">Bacchus</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Röm. Gott d. Weines u. d. Fruchtbarkeit</note>
+                <occupation ref="https://d-nb.info/gnd/4021662-7">Gott</occupation>
+            </person>
+            <person xml:id="gnd-118639552">
+                <persName type="main">Herakles</persName>
+                <persName type="sort">Herakles</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held der griech. Mythologie</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-119353008">
+                <persName type="main">Hebe</persName>
+                <persName type="sort">Hebe</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Griech. Göttin der Jugend</note>
+                <occupation ref="https://d-nb.info/gnd/4021474-6">Göttin</occupation>
+            </person>
+            <person xml:id="gnd-118503642">
+                <persName type="main">Apoll, Gott</persName>
+                <persName type="sort">Apoll, Gott</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Gott d. Mantik u. d. Künste; Gott der Schönen Künste, v.a. der Musik, und der Wissenschaften, v.a. der Medizin, Zwillingsbruder der Göttin Artemis (Diana). Entweder als unbekleideter Jüngling oder als Kitharaspieler in langem gegürteten Gewand und Mantel dargestellt. Andere Attribute sind Bogen und Pfeile, mit denen er Krankheiten und Tod versendet</note>
+            </person>
+        <person xml:id="gnd-118532855" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Ficinus, Marsilius</persName>
+                <persName type="sort">Ficinus, Marsilius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1433-10-19"/>
+                    <placeName ref="https://d-nb.info/gnd/4392330-6">Figline Valdarno</placeName>
+                </birth>
+                <death>
+                    <date when="1499-10-01"/>
+                    <placeName ref="https://d-nb.info/gnd/4240480-0">Florenz-Careggi</placeName>
+                </death>
+                <note type="bio">Ital. Arzt, Humanist und Philosoph, zentraler Vertreter des Florentiner Platonismus und Übersetzer von <persName key="gnd-118594893">Platon</persName>s Werken ins Lateinische. Als Priester verband er christliche Theologie mit neuplatonischen Ideen</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4160777-6">Humanist</occupation>
+            </person>
+            <person xml:id="gnd-104197102" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Zöllner, Johann Friedrich</persName>
+                <persName type="sort">Zöllner, Johann Friedrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1753-04-24"/>
+                    <placeName ref="https://d-nb.info/gnd/127054-0">Neudamm</placeName>
+                </birth>
+                <death>
+                    <date when="1804-09-12"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Aufgeklärter Pfarrer und Philosoph. Seine kritische Frage „Was ist Aufklärung?“ vom <date when="1783-12">Dezember 1783</date> in der <orgName ref="zdb-4144698-7">Berlinischen Monatsschrift</orgName> provozierte die berühmte Schrift <persName key="gnd-118559796">Immanuel Kants</persName> Beantwortung der Frage</note>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+                <occupation ref="https://d-nb.info/gnd/4209068-4">Propst</occupation>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4130322-2">Prediger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4123227-6">Freimaurer</occupation>
+            </person>
+            <person xml:id="gnd-118786113" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Nicolovius, Georg Heinrich Ludwig</persName>
+                <persName type="sort">Nicolovius, Georg Heinrich Ludwig</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1767-01-13"/>
+                    <placeName ref="https://d-nb.info/gnd/4031541-1">Königsberg</placeName>
+                </birth>
+                <death>
+                    <date when="1839-11-02"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Dt. Verleger, Pädagoge und Publizist. Bedeutender Vertreter der Aufklärung in Preußen</note>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4005081-6">Beamter</occupation>
+            </person>
+            <person xml:id="gnd-116611839" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Kunth, Gottlob Johann Christian</persName>
+                <persName type="sort">Kunth, Gottlob Johann Christian</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1757-06-12"/>
+                    <placeName ref="https://d-nb.info/gnd/4803270-0">Malschwitz-Baruth</placeName>
+                </birth>
+                <death>
+                    <date when="1829-11-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Gewerbepolitiker; preußischer Staatsmann. Väterlicher Freund und Lehrer der Brüder Humboldt</note>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+            </person>
+            <person xml:id="gnd-11868468X" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Engel, Johann Jakob</persName>
+                <persName type="sort">Engel, Johann Jakob</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1741-09-11"/>
+                    <placeName ref="https://d-nb.info/gnd/4230395-3">Parchim</placeName>
+                </birth>
+                <death>
+                    <date when="1802-06-28"/>
+                    <placeName ref="https://d-nb.info/gnd/4230395-3">Parchim</placeName>
+                </death>
+                <note type="bio">Dt. Schriftsteller, Philosoph und Dramaturg. Privatlehrer der Brüder Humboldt</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398844-1">Theaterdirektor</occupation>
+                <occupation ref="https://d-nb.info/gnd/4185045-2">Theaterkritiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4158589-6">Gymnasiallehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/7719046-4">Selbstverleger</occupation>
+            </person>
+            <person xml:id="gnd-116141115" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Kayserling, Meyer</persName>
+                <persName type="sort">Kayserling, Meyer</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1829-06-17"/>
+                    <placeName ref="https://d-nb.info/gnd/4093587-5">Gleidingen</placeName>
+                </birth>
+                <death>
+                    <date when="1905-04-21"/>
+                    <placeName ref="https://d-nb.info/gnd/4008684-7">Budapest</placeName>
+                </death>
+                <note type="bio">Dt.-jüdischer Historiker und Biograph von Moses Mendelssohn. 1867 wurde er Rabbiner der schweiz. Israeliten</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4176751-2">Rabbiner</occupation>
+            </person>
+            <person xml:id="gnd-118547380" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Haym, Rudolf</persName>
+                <persName type="sort">Haym, Rudolf</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1821-10-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4094132-2">Grünberg i. Schlesien</placeName>
+                </birth>
+                <death>
+                    <date when="1901-08-27"/>
+                    <placeName ref="https://d-nb.info/gnd/4196372-6">St. Anton am Arlberg</placeName>
+                </death>
+                <note type="bio">Dt. Literaturhistoriker, bekannt für seine Biographie von <persName key="gnd-118554727">Wilhelm von Humboldt</persName>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167838-2">Literarhistoriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4176310-5">Publizist</occupation>
+            </person>
+            <person xml:id="gnd-118550152" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Herz, Henriette</persName>
+                <persName type="sort">Herz, Henriette</persName>
+                <gender value="F">female</gender>
+                <birth>
+                    <date when="1764-09-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </birth>
+                <death>
+                    <date when="1847-10-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Dt. Literatin, Übersetzerin. Begründerin u. Leiterin eines literarischen Salons in <placeName key="geo-950159">Berlin</placeName>, den die Humboldt Brüder auch besuchten</note>
+                <tei:occupation ref="https://d-nb.info/gnd/4372438-3">Übersetzerin</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4053311-6">Schriftstellerin</tei:occupation>
+                <tei:occupation ref="https://d-nb.info/gnd/4132472-9">Erzieherin</tei:occupation>
+            </person>
+            <person xml:id="gnd-117012599" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Zollikofer, Georg Joachim</persName>
+                <persName type="sort">Zollikofer, Georg Joachim</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1730-08-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4051594-1">Sankt Gallen</placeName>
+                </birth>
+                <death>
+                    <date when="1788-01-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4035206-7">Leipzig</placeName>
+                </death>
+                <note type="bio">Schweizer reformierter Theologe der Aufklärung und Schriftsteller</note>
+                <occupation ref="https://d-nb.info/gnd/4015882-2">Evangelischer Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4132592-8">Pfarrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4215617-8">Kirchenlieddichter</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118587668">
+                <persName type="main">Nicolai, Friedrich</persName>
+                <persName type="sort">Nicolai, Friedrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1733-03-18"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </birth>
+                <death>
+                    <date when="1811-01-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Dt. Buchhändler, Verleger, Schriftsteller, Geschichtsschreiber, Kritiker, Verlagsbuchhändler in Berlin; besaß damals in Berlin wohl größte Privatbibliothek (16.000 Bände und 6.800 Gelehrtenbildnisse)</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4032009-1">Komponist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4165775-5">Kritiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4138343-6">Verleger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4398799-0">Musikverleger</occupation>
+                <occupation ref="https://d-nb.info/gnd/7719046-4">Selbstverleger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4130948-0">Buchhändler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4138343-6">Verleger</occupation>
+            </person>
+            <person xml:id="person-000007" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Aristodemos (Philosoph)</persName>
+        <persName type="sort"/>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Ein fanatischer Schüler des <persName key="gnd-118615270">Sokrates</persName>, für seine geringe Körpergröße und Ablehnung der athenischen Religion bekannt. Außer bei <persName key="gnd-118594893">Platon</persName> und <persName key="gnd-118635808">Xenophon</persName> nicht bezeugt</note>
+     </person>
+            <person xml:id="gnd-118772651">
+                <persName type="main">Zeuxis</persName>
+                <persName type="sort">Zeuxis</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Maler</note>
+                <occupation ref="https://d-nb.info/gnd/4037215-7">Maler</occupation>
+            </person>
+            <person xml:id="gnd-118741438">
+                <persName type="main">Polyclitus, Argivus</persName>
+                <persName type="sort">Polyclitus, Argivus</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Bronzebildhauer; Verf. einer (verlorenen) Schrift "Kanon"</note>
+                <occupation ref="https://d-nb.info/gnd/4139550-5">Bildhauer</occupation>
+            </person>
+            <person xml:id="gnd-102398828">
+                <persName type="main">Melanippides, Melius</persName>
+                <persName type="sort">Melanippides, Melius</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Antiker griechischer Dichter aus Melos.</note>
+            </person>
+            <person xml:id="gnd-102393273" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Euthydemus, Atheniensis</persName>
+                <persName type="sort">Euthydemus, Atheniensis</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Philosoph, möglicherweise Schüler von <persName ref="gnd-118615270">Sokrates</persName>
+                </note>
+            </person>
+            <person xml:id="person-000008" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Megillos</persName>
+        <persName type="sort">Megillos</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Eine vielleicht von <persName key="gnd-118594893">Platon</persName> frei erfundene Figur. Im Dialog ist er ein angesehener Bürger von <placeName key="geo-12041331">Sparta</placeName>
+                </note>
+     </person>
+            <person xml:id="person-000009" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Kleinias</persName>
+        <persName type="sort">Kleinias</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Eine vielleicht von <persName key="gnd-118594893">Platon</persName> frei erfundene Figur. Im Dialog ist er ein angesehener Bürger von <placeName key="geo-259627">Knossos</placeName>
+                </note>
+     </person>
+            <person xml:id="person-000010" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Der Athener</persName>
+        <persName type="sort">D.A.</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Anonymer Gesprächsteilnehmer aus <placeName key="geo-264371">Athen</placeName>. Hinter ihm verbirgt sich möglicherweise <persName key="gnd-118594893">Platon</persName> selbst</note>
+     </person>
+            <person xml:id="gnd-118726102" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">La Mettrie, Julien Offray de</persName>
+                <persName type="sort">La Mettrie, Julien Offray de</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1709"/>
+                    <placeName ref="https://d-nb.info/gnd/4118224-8">Saint-Malo</placeName>
+                </birth>
+                <death>
+                    <date when="1751"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Fr. Arzt, Schriftsteller und radikalaufklärerischer Philosoph. Bekannt durch seine atheistischen und amoralistischen Thesen</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+            </person>
+            <person xml:id="gnd-118755552">
+                <persName type="main">Stolberg-Stolberg, Friedrich Leopold zu</persName>
+                <persName type="sort">Stolberg-Stolberg, Friedrich Leopold zu</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1750-11-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4007941-7">Bad Bramstedt</placeName>
+                </birth>
+                <death>
+                    <date when="1819-12-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4038554-1">Melle</placeName>
+                </death>
+                <note type="bio">Dt. Dichter, Übersetzer, Jurist, Diplomat</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4012401-0">Diplomat</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="person-000013" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Inti/ Tayta Inti (Gottheit)</persName>
+        <persName type="sort">Inti</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Sonnengott der Inka. Der herrschende Inka wurde als Inkarnation von Inti betrachtet</note>
+     </person>
+            <person xml:id="gnd-119315238" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Diomedes, Argos, König, Fiktive Gestalt</persName>
+                <persName type="sort">Diomedes, Argos, König, Fiktive Gestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held der griech. Mythologie, zeitweise als Gott verehrt</note>
+            </person>
+            <person xml:id="gnd-11882158X">
+                <persName type="main">Longinus</persName>
+                <persName type="sort">Longinus</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Angeblicher Verf. der Schrift "De sublimitate"; nicht identisch mit Longinus, Cassius und Dionysius &lt;Halicarnassensis&gt;; Notname nach PAN (Vorwort XXIII) für einen unbekannten griech. Autor (ca. 1. Jh. n. Chr.). In der Autorenliste von PAN aber fälschlich mit den Lebensdaten des Longinus, Cassius (fehlt in PAN!) versehen. Von "PAN" wurde in der PND entsprechend korrigiert</note>
+            </person>
+            <person xml:id="gnd-118736558">
+                <persName type="main">Orestes</persName>
+                <persName type="sort">Orestes</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. mythol. Figur</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="person-000014" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Hegelochos</persName>
+        <persName type="sort">Hegelochus</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Griechischer Schauspieler der Antike, bekannt um 408 v. Chr.</note>
+     </person>
+            <person xml:id="gnd-102405301" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Sannyrion, Comicus</persName>
+                <persName type="sort">Sannyrion, Comicus</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Komödiendichter des 5. Jhs. v. Chr.</note>
+            </person>
+            <person xml:id="gnd-100059376" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Brunck, Richard Franz Philipp</persName>
+                <persName type="sort">Brunck, Richard Franz Philipp</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1729-12-30"/>
+                </birth>
+                <death>
+                    <date when="1803-06-12"/>
+                </death>
+                <note type="bio">Altphilologe und Herausgeber vieler griechischen Texte</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+            </person>
+            <person xml:id="gnd-118577964" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Marius Victorinus, Gaius</persName>
+                <persName type="sort">Marius Victorinus, Gaius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0281"/>
+                </birth>
+                <death>
+                    <date when="0362"/>
+                </death>
+                <note type="bio">Römischer Rhetor und christlicher Gelehrter der Spätantike</note>
+                <occupation ref="https://d-nb.info/gnd/4158016-3">Grammatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4048895-0">Redner</occupation>
+            </person>
+            <person xml:id="gnd-117428272" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Ansse de Villoison, Jean-Baptiste-Gaspard d'</persName>
+                <persName type="sort">Ansse de Villoison, Jean-Baptiste-Gaspard d'</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1750-03-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4514265-8">Corbeil</placeName>
+                </birth>
+                <death>
+                    <date when="1805-04-28"/>
+                    <placeName ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+                </death>
+                <note type="bio">Franz. Altphilologe, durch seine Entdeckung und Edition des <title>Codex Venetus A</title> der <title>Ilias</title> <persName key="gnd-11855333X">Homer</persName>s bekannt geworden</note>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+            </person>
+            <person xml:id="gnd-118589385">
+                <persName type="main">Odysseus, Fiktive Gestalt</persName>
+                <persName type="sort">Odysseus, Fiktive Gestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held d. griech. Mythologie</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118557092">
+                <persName type="main">Jason</persName>
+                <persName type="sort">Jason</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held d. griech. Mythol., Gemahl d. Medea</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118501194">
+                <persName type="main">Ajax, der Telamonier</persName>
+                <persName type="sort">Ajax, der Telamonier</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Sagenheld</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118500384">
+                <persName type="main">Achill</persName>
+                <persName type="sort">Achill</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held d. griech. Mythologie</note>
+            </person>
+            <person xml:id="gnd-118702335">
+                <persName type="main">Chariten</persName>
+                <persName type="sort">Chariten</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Die drei Grazien der griechischen Mythologie: Aglaia, Euphrosyne und
+                      Thalia. Göttinnen der Anmut, Schönheit und Lebensfreude, oft in Begleitung von
+                      Aphrodite dargestellt</note>
+                <occupation ref="https://d-nb.info/gnd/4021474-6">Göttin</occupation>
+            </person>
+            <person xml:id="person-000015" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Theoxenos</persName>
+        <persName type="sort">Theoxenos</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Junger Mann aus Tenedos, der in <persName key="gnd-118594427">Pindar</persName>s Fragmenten als Gegenstand von Bewunderung oder Liebe erwähnt wird. Seine historische Existenz ist ungewiss</note>
+     </person>
+        <person xml:id="person-000016" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Woldemar (Jacobis Woldemar)</persName>
+        <persName type="sort">Woldemar</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Der Protagonist in <persName key="gnd-118556312">Jacobis</persName> <title>Woldemar</title>, jüngerer Bruder Biederthals. Ein junger Mann, der mit den Themen Liebe, Leidenschaft und philosophische Fragen konfrontiert wird</note>
+     </person>
+            <person xml:id="person-000017" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Biderthal (Jacobis Woldemar)</persName>
+        <persName type="sort">Biderthal</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">In <title>Woldemar</title>, Dorenburgs vertrautester Freund und älterer Bruder Woldemars. Er taucht in verschiedenen philosophischen Diskussionen auf und dient möglicherweise als Kontrast zu Woldemars Ansichten</note>
+     </person>
+            <person xml:id="person-000018" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Hornich, Henriette (Jacobis Woldemar)</persName>
+        <persName type="sort">Henriette Hornich</persName>
+        <gender value="F"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">In <title>Woldemar</title>, mittlere Tochter von Eberhard Hornich, mit der Woldemar eine komplexe Beziehung hat. Sie symbolisiert für ihn die unglückliche Liebe</note>
+     </person>
+            <person xml:id="person-000019" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Allwina (Jacobis Woldemar)</persName>
+        <persName type="sort">Allwina</persName>
+        <gender value="F"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">In <title>Woldemar</title>, eine Freundin von Woldemar und Henriette, die eine tiefere philosophische Diskussion mit ihm führt und eine Rolle in seiner emotionalen Entwicklung spielt</note>
+     </person>
+            <person xml:id="person-000020" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Hornich, Eberhard (Jacobis Woldemar)</persName>
+        <persName type="sort">Eberhard Hornich</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">In <title>Woldemar</title>, der Vater von Henriette. Er hat eine autoritäre Haltung und spielt eine wichtige Rolle in der Beziehung zwischen Woldemar und Henriette</note>
+     </person>
+            <person xml:id="gnd-118532464">
+                <persName type="main">Fénelon, François de Salignac de La Mothe</persName>
+                <persName type="sort">Fénelon, François de Salignac de La Mothe</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1651-08-06"/>
+                    <placeName ref="https://d-nb.info/gnd/1148588434">Schloss Fénelon</placeName>
+                </birth>
+                <death>
+                    <date when="1715-01-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4009350-5">Cambrai</placeName>
+                </death>
+                <note type="bio">Französischer Schriftsteller und Theologe; Prinzenerzieher, Verfasser pädagogischer Schriften; ab 1695 Erzbischof von Cambrai</note>
+                <occupation ref="https://d-nb.info/gnd/4030020-1">Katholischer Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4047233-4">Priester</occupation>
+                <occupation ref="https://d-nb.info/gnd/4015471-3">Erzbischof</occupation>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+            </person>
+            <person xml:id="person-000021" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Dorenburg, Carl (Jacobis Woldemar)</persName>
+        <persName type="sort">Dorenburg, Carl (Jacobis Woldemar)</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">In <title>Woldemar</title>, Ehemann von Caroline Hornich (älteste Tochter von Eberhard Hornich). Er symbolisiert die politische und gesellschaftliche Dimension des Werkes</note>
+     </person>
+            <person xml:id="gnd-118595237" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Plutarch</persName>
+                <persName type="sort">Plutarch</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0045"/>
+                </birth>
+                <death>
+                    <date when="0120"/>
+                </death>
+                <note type="bio">Griechischer Biograph und Philosoph, bekannt für seine <title>Parallelbiographien</title>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118647288" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Agis III., Sparta, König</persName>
+                <persName type="sort">Agis III., Sparta, König</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0338"/>
+                </birth>
+                <death>
+                    <date when="-0331"/>
+                </death>
+                <note type="bio">Spartanischer König der Agiden-Dynastie, bekannt für seine Versuche, die sozialen und politischen Strukturen Spartas zu reformieren</note>
+            </person>
+            <person xml:id="gnd-119120461" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Kleomenes I., Sparta, König</persName>
+                <persName type="sort">Kleomenes I., Sparta, König</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Spartanischer König, bekannt für seine militärischen Reformen und Versuche, Sparta aus seiner politischen Krise zu retten</note>
+            </person>
+            <person xml:id="person-000023" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Lillien, Agnes von (Agnes von Lilien)</persName>
+        <persName type="sort">Agnes von Lillien</persName>
+        <gender value="F"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Fiktive Hauptfigur in <title>Agnes von Lilien</title>. Sie verkörpert Empfindsamkeit und moralisches Ideal</note>
+     </person>
+            <person xml:id="person-000024" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Alban (Agnes von Lilien)</persName>
+        <persName type="sort">Alban (Agnes von Lilien)</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Fiktive Figur in <title>Agnes von Lilien</title>. Er verkörpert Pflichtgefühl und sittliche Integrität, Kontrastfigur zu Julius</note>
+     </person>
+            <person xml:id="person-000025" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Julius (Agnes von Lilien)</persName>
+        <persName type="sort">Julius (Agnes von Lilien)</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Fiktive Figur in <title>Agnes von Lilien</title>. Charismatischer Freund von Agnes, er steht für Gefühl, Freiheit und politische Ambivalenz</note>
+     </person>
+            <person xml:id="person-000026" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Nordheim (Agnes von Lilien)</persName>
+        <persName type="sort">Nordheim (Agnes von Lilien)</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Fiktive Figur in <title>Agnes von Lilien</title>. Ein Adliger, der für Vernunft, Stabilität und gesellschaftliche Anerkennung steht. Späterer Ehemann von Agnes</note>
+     </person>
+            <person xml:id="person-000027" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Pfarrer von Hohenfels (Agnes von Lilien)</persName>
+        <persName type="sort">Pfarrer von Hohenfels</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Fiktive Figur in <title>Agnes von Lilien</title>. Ein Onkel von Agnes, bei dem sie liebevoll erzogen wird und ihr eine gute Ausbildung ermöglicht wird</note>
+     </person>
+            <person xml:id="gnd-118582682" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Mirabeau, Honoré-Gabriel de Riquetti de</persName>
+                <persName type="sort">Mirabeau, Honoré-Gabriel de Riquetti de</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1749"/>
+                    <placeName ref="https://d-nb.info/gnd/4228595-1">Pertuis</placeName>
+                </birth>
+                <death>
+                    <date when="1791"/>
+                    <placeName ref="https://d-nb.info/gnd/4228595-1">Pertuis</placeName>
+                </death>
+                <note type="bio">Französischer Politiker und Schriftsteller. Er beteiligte sich an der Französischen Revolution und nahm bis zu seinem plötzlichen Tod einflussreiche Positionen ein</note>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4176310-5">Publizist</occupation>
+            </person>
+            <person xml:id="gnd-118603426">
+                <persName type="main">Rousseau, Jean-Jacques</persName>
+                <persName type="sort">Rousseau, Jean-Jacques</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1712-06-28"/>
+                    <placeName ref="https://d-nb.info/gnd/4020137-5">Genf</placeName>
+                </birth>
+                <death>
+                    <date when="1778-07-02"/>
+                    <placeName ref="https://d-nb.info/gnd/4342057-6">Ermenonville</placeName>
+                </death>
+                <note type="bio">Bedeutender Aufklärer; Moralphilosoph, Schriftsteller, Komponist und Botaniker; zeitweilig im Exil in der Schweiz und in England</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+                <occupation ref="https://d-nb.info/gnd/4146402-3">Botaniker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4170836-2">Musikwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4032009-1">Komponist</occupation>
+            </person>
+            <person xml:id="gnd-118595083">
+                <persName type="main">Plinius Secundus, Gaius</persName>
+                <persName type="sort">Plinius Secundus, Gaius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0023"/>
+                    <placeName ref="https://d-nb.info/gnd/4085313-5">Como</placeName>
+                </birth>
+                <death>
+                    <date when="0079"/>
+                </death>
+                <note type="bio">Röm. Schriftsteller und Naturforscher. Verfasser der <title>Naturalis historia</title>, eines der frühesten enzyklopädischen Werke. Starb beim Ausbruch des Vesuvs</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4043375-4">Offizier</occupation>
+                <occupation ref="https://d-nb.info/gnd/4041423-1">Naturwissenschaftler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-11925235X">
+                <persName type="main">Pilâtre de Rozier, Jean-François</persName>
+                <persName type="sort">Pilâtre de Rozier, Jean-François</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1754"/>
+                    <placeName ref="https://d-nb.info/gnd/4039029-9">Metz</placeName>
+                </birth>
+                <death>
+                    <date when="1785"/>
+                </death>
+                <note type="bio">Franz. Ballonfahrer u. Physiker</note>
+                <occupation ref="https://d-nb.info/gnd/4045968-8">Physiker</occupation>
+            </person>
+            <person xml:id="gnd-117376280" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Tiedemann, Dieterich</persName>
+                <persName type="sort">Tiedemann, Dieterich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1748-04-03"/>
+                    <placeName ref="https://d-nb.info/gnd/4008146-1">Bremervörde</placeName>
+                </birth>
+                <death>
+                    <date when="1803-05-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4037446-4">Marburg</placeName>
+                </death>
+                <note type="bio">Dt. Philosoph, ab 1785 an der Universität Marburg tätig</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118533401" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Fischer, Kuno</persName>
+                <persName type="sort">Fischer, Kuno</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1824-07-23"/>
+                </birth>
+                <death>
+                    <date when="1907-07-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4023996-2">Heidelberg</placeName>
+                </death>
+                <note type="bio">Dt. Philosoph und Historiker. Verfasser der mehrbändigen <title>Geschichte der neueren Philosophie</title>
+                </note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167838-2">Literarhistoriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-116477547">
+                <persName type="main">Cauer, Paul</persName>
+                <persName type="sort">Cauer, Paul</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1854-12-17"/>
+                    <placeName ref="https://d-nb.info/gnd/4008216-7">Breslau</placeName>
+                </birth>
+                <death>
+                    <date when="1921-11-26"/>
+                    <placeName ref="https://d-nb.info/gnd/4040608-8">Münster (Westf)</placeName>
+                </death>
+                <note type="bio">Dt. Gymnasiallehrer und Klassischer Philologe. Verteidiger des
+                  humanistischen Gymnasiums im Kampf um die Reform der höheren Schule</note>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4127948-7">Schulleiter</occupation>
+            </person>
+            <person xml:id="gnd-117649031">
+                <persName type="main">Cauer, Eduard</persName>
+                <persName type="sort">Cauer, Eduard</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1823-08-18"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </birth>
+                <death>
+                    <date when="1881-09-29"/>
+                    <placeName ref="https://d-nb.info/gnd/4005728-8">Berlin</placeName>
+                </death>
+                <note type="bio">Dr. Historiker und Gymnasiallehrer. 1851 schrieb er das Vorwort zu einer
+                  Schrift von Wilhelm von Humboldt</note>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4127948-7">Schulleiter</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4158589-6">Gymnasiallehrer</occupation>
+            </person>
+            <person xml:id="gnd-117274003">
+                <persName type="main">Stern, Alfred</persName>
+                <persName type="sort">Stern, Alfred</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1846-11-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4021477-1">Göttingen</placeName>
+                </birth>
+                <death>
+                    <date when="1936-03-24"/>
+                    <placeName ref="https://d-nb.info/gnd/4068038-1">Zürich</placeName>
+                </death>
+                <note type="bio">Deutscher Historiker, Professor an der Universität Bern (1873-1887) und der ETH Zürich (1887-1928)</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4061414-1">Übersetzer</occupation>
+            </person>
+            <person xml:id="gnd-100796923">
+                <persName type="main">Feder, Johann Georg Heinrich</persName>
+                <persName type="sort">Feder, Johann Georg Heinrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1740-05-15"/>
+                    <placeName ref="https://d-nb.info/gnd/4314243-6">Schornweisach</placeName>
+                </birth>
+                <death>
+                    <date when="1821-05-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4023349-2">Hannover</placeName>
+                </death>
+                <note type="bio">Deutscher Philosoph und Pädagoge</note>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4145258-6">Bibliothekar</occupation>
+                <occupation ref="https://d-nb.info/gnd/4127948-7">Schulleiter</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118672037">
+                <persName type="main">Dionysius, Halicarnassensis</persName>
+                <persName type="sort">Dionysius, Halicarnassensis</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Rhetor und Historiker</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4155430-9">Geschichtsschreiber</occupation>
+            </person>
+            <person xml:id="gnd-117417270" when="2025-08-01" resp="wvh-schriften">
+                <persName type="main">Trewendt, Eduard</persName>
+                <persName type="sort">Trewendt, Eduard</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1817-06-19"/>
+                    <placeName ref="https://d-nb.info/gnd/4008216-7">Breslau</placeName>
+                </birth>
+                <death>
+                    <date when="1868-07-22"/>
+                </death>
+                <note type="bio">Deutscher Verleger und Buchhändler. In seinem Verlag erschienen mehrere Schriften aus dem Umkreis der klassischen deutschen Philologie, u.a. <persName key="gnd-118554727">Wilhelm von Humboldt</persName>s sprachwissenschaftliche Arbeiten (posthum)</note>
+                <occupation ref="https://d-nb.info/gnd/4138343-6">Verleger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4138343-6">Verleger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4130948-0">Buchhändler</occupation>
+            </person>
+            <person xml:id="gnd-119049546">
+                <persName type="main">Vieweg, Friedrich</persName>
+                <persName type="sort">Vieweg, Friedrich</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1761-03-11"/>
+                    <placeName ref="https://d-nb.info/gnd/4023025-9">Halle (Saale)</placeName>
+                </birth>
+                <death>
+                    <date when="1835-02-25"/>
+                    <placeName ref="https://d-nb.info/gnd/4008065-1">Braunschweig</placeName>
+                </death>
+                <note type="bio">Gründer des Vieweg-Verlages 1786 in Berlin</note>
+                <occupation ref="https://d-nb.info/gnd/4130948-0">Buchhändler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4013091-5">Drucker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4138343-6">Verleger</occupation>
+            </person>
+            <person xml:id="gnd-118695916">
+                <persName type="main">Göschen, Georg Joachim</persName>
+                <persName type="sort">Göschen, Georg Joachim</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1752-04-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4008135-7">Bremen</placeName>
+                </birth>
+                <death>
+                    <date when="1828-04-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4022085-0">Grimma</placeName>
+                </death>
+                <note type="bio">Deutscher Verlagsbuchhändler; 1784 Eröffnung der Buchhandlung in Leipzig; 1793 der Druckerei in Grimma</note>
+                <occupation ref="https://d-nb.info/gnd/4138343-6">Verleger</occupation>
+                <occupation ref="https://d-nb.info/gnd/4130948-0">Buchhändler</occupation>
+                <occupation ref="https://d-nb.info/gnd/4146801-6">Buchdrucker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4013091-5">Drucker</occupation>
+            </person>
+            <person xml:id="gnd-118754971">
+                <persName type="main">Schiller, Charlotte von</persName>
+                <persName type="sort">Schiller, Charlotte von</persName>
+                <gender value="F">female</gender>
+                <birth>
+                    <date when="1766-11-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4105066-6">Rudolstadt</placeName>
+                </birth>
+                <death>
+                    <date when="1826-07-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4007666-0">Bonn</placeName>
+                </death>
+                <note type="bio">ab 1790 Ehefrau und Witwe des Dichters Friedrich Schiller</note>
+                <occupation ref="https://d-nb.info/gnd/4053311-6">Schriftstellerin</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053311-6">Schriftstellerin</occupation>
+            </person>
+        <person xml:id="gnd-119483904">
+                <persName type="main">Thomas, Magister</persName>
+                <persName type="sort">Thomas, Magister</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1275"/>
+                </birth>
+                <death>
+                    <date when="1346"/>
+                </death>
+                <note type="bio">Scholien; Byzantin. Theologe u. Philologe</note>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199236-2">Philologe</occupation>
+            </person>
+        <person xml:id="gnd-118592246">
+                <persName type="main">Pausanias, Periegeta</persName>
+                <persName type="sort">Pausanias, Periegeta</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Reiseschriftsteller</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4798807-1">Reiseschriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4020214-8">Geograf</occupation>
+            </person>
+            <person xml:id="gnd-118511181">
+                <persName type="main">Persephone</persName>
+                <persName type="sort">Persephone</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Griech. Gottheit, Tochter des Zeus u. d. Demeter</note>
+                <occupation ref="https://d-nb.info/gnd/4021474-6">Göttin</occupation>
+            </person>
+            <person xml:id="gnd-118797948">
+                <persName type="main">Solinus, Gaius Iulius</persName>
+                <persName type="sort">Solinus, Gaius Iulius</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Verfasser eines Kompendiums von geographisch geordneten Merkwürdigkeiten</note>
+                <occupation ref="https://d-nb.info/gnd/4003982-1">Autor</occupation>
+            </person>
+            <person xml:id="gnd-118594044">
+                <persName type="main">Philostratus, Flavius</persName>
+                <persName type="sort">Philostratus, Flavius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0160"/>
+                </birth>
+                <death>
+                    <date when="0245"/>
+                </death>
+                <note type="bio">Vita Sophistarum; Vita Apollonii; Heroicus; Nero; De gymnastica; vermutlich auch Imagines; im Zweifelsfall sind die Werke ihm zuzuordnen; Griech. Schriftsteller u. Sophist aus Lemnos, der in Athen u. Rom wirkte . Er ist der bekannteste der wohl 4 Philostrati aus Lemnos</note>
+            </person>
+            <person xml:id="gnd-100961223">
+                <persName type="main">Stephanus, Byzantinus</persName>
+                <persName type="sort">Stephanus, Byzantinus</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Ein spätantiker Geograph und Lexikograph, bekannt für sein Werk <title>Ethnika</title>, ein geographisches Nachschlagewerk über antike Städte</note>
+                <occupation ref="https://d-nb.info/gnd/4158016-3">Grammatiker</occupation>
+            </person>
+            <person xml:id="gnd-118639560">
+                <persName type="main">Hermes</persName>
+                <persName type="sort">Hermes</persName>
+                <gender value="M">male</gender>
+                <note type="bio">In der griechischen Mythologie der Götterbote, Schutzgott der Reisenden,
+                      Händler und Diebe. Sohn des Zeus und der Maia. Er wird oft mit geflügelten
+                      Sandalen und dem Heroldstab (Kerykeion) dargestellt</note>
+                <occupation ref="https://d-nb.info/gnd/4021662-7">Gott</occupation>
+            </person>
+            <person xml:id="gnd-118973878">
+                <persName type="main">Dioskuren</persName>
+                <persName type="sort">Dioskuren</persName>
+                <gender value="M">male</gender>
+                <note type="bio">nur als Motiv in der Kunst und Literatur, ansonsten die Götter einzeln ansetzen</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118525859">
+                <persName type="main">Laertius, Diogenes</persName>
+                <persName type="sort">Laertius, Diogenes</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Vitae philosophorum; Verfasser einer Philosophiegeschichte</note>
+            </person>
+            <person xml:id="gnd-118637622">
+                <persName type="main">Aischines, Orator</persName>
+                <persName type="sort">Aischines, Orator</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="-0389"/>
+                </birth>
+                <death>
+                    <date when="-0314"/>
+                </death>
+                <note type="bio">Griech. Redner und Staatsmann</note>
+                <occupation ref="https://d-nb.info/gnd/4048895-0">Redner</occupation>
+                <occupation ref="https://d-nb.info/gnd/4046517-2">Politiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-115232710">
+                <persName type="main">Suida, Fiktive Gestalt</persName>
+                <persName type="sort">Suida, Fiktive Gestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Wurde früher für den Verfasser eines byzantin. Lexikons gehalten, tatsächlich handelt es sich um einen Werktitel.</note>
+                <occupation ref="https://d-nb.info/gnd/4247850-9">Lexikograf</occupation>
+            </person>
+            <person xml:id="gnd-102381690">
+                <persName type="main">Aristodem, Alexandrinus</persName>
+                <persName type="sort">Aristodem, Alexandrinus</persName>
+                <gender value="M">male</gender>
+                <note type="bio">FGrH 383: Thēbaika;  Pindaros-Kommentar; Geloia apomnēmoneumata; Griech. Grammatiker u. Historiker</note>
+            </person>
+            <person xml:id="gnd-118640763">
+                <persName type="main">Macrobius, Ambrosius Theodosius</persName>
+                <persName type="sort">Macrobius, Ambrosius Theodosius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0385"/>
+                </birth>
+                <death>
+                    <date when="0430"/>
+                </death>
+                <note type="bio">Lat. Grammatiker und Gelehrter</note>
+                <occupation ref="https://d-nb.info/gnd/4156443-1">Gelehrter</occupation>
+                <occupation ref="https://d-nb.info/gnd/4158016-3">Grammatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+            </person>
+            <person xml:id="gnd-118597396">
+                <persName type="main">Quintilianus, Marcus Fabius</persName>
+                <persName type="sort">Quintilianus, Marcus Fabius</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="0035"/>
+                </birth>
+                <death>
+                    <date when="0100"/>
+                </death>
+                <note type="bio">Römischer Rhetor, Redner</note>
+                <occupation ref="https://d-nb.info/gnd/4048895-0">Redner</occupation>
+            </person>
+            <person xml:id="gnd-118650815">
+                <persName type="main">Athenaios, Naucratites</persName>
+                <persName type="sort">Athenaios, Naucratites</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Sophist und Buntschriftsteller; Identität mit Athenaeus &lt;Epigrammaticus&gt; (AP 9.496) umstritten</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-172967503">
+                <persName type="main">Castellanus, Petrus</persName>
+                <persName type="sort">Castellanus, Petrus</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1585-03-07"/>
+                    <placeName ref="https://d-nb.info/gnd/4490916-0">Geraardsbergen</placeName>
+                </birth>
+                <death>
+                    <date when="1632-02-23"/>
+                    <placeName ref="https://d-nb.info/gnd/4074300-7">Löwen</placeName>
+                </death>
+                <note type="bio">Flämischer Mediziner, Gräzist, Jurist; Prof. graec. in Orléans und in Löwen</note>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4317125-4">Gräzist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4003157-3">Arzt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+            </person>
+            <person xml:id="gnd-118820656">
+                <persName type="main">Musen</persName>
+                <persName type="sort">Musen</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Schutzgöttinnen der Künste</note>
+                <occupation ref="https://d-nb.info/gnd/4021474-6">Göttin</occupation>
+            </person>
+            <person xml:id="gnd-11903588X">
+                <persName type="main">Cheiron, Sagengestalt</persName>
+                <persName type="sort">Cheiron, Sagengestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Der weiseste und gütigste aller Zentauren. Lehrer vieler antiker Helden,
+                      darunter Achilles, Jason und Asklepios. Er war für sein Wissen in Heilkunst,
+                      Astronomie und Kriegskunst bekannt</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118500864">
+                <persName type="main">Asklepios</persName>
+                <persName type="sort">Asklepios</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griech. Gott d. Heilkunde</note>
+                <occupation ref="https://d-nb.info/gnd/4021662-7">Gott</occupation>
+            </person>
+            <person xml:id="gnd-1102380962">
+                <persName type="main">Ixion (Mythologie)</persName>
+                <persName type="sort">Ixion (Mythologie)</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Sagenhafter König der Lapithen; von Zeus an ein glühendes Rad gefesselt, da er sich der Gunst Heras rühmte</note>
+            </person>
+            <person xml:id="gnd-1124166831">
+                <persName type="main">Pelias, Fiktive Gestalt</persName>
+                <persName type="sort">Pelias, Fiktive Gestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held der griech. Mythologie; Sohn des Poseidon und der Tyro, der mit seinem Zwillingsbruder Neleus ausgesetzt, von einer Stute gesäugt und von Hirten aufgezogen wurde</note>
+            </person>
+            <person xml:id="gnd-118884786">
+                <persName type="main">Titanen</persName>
+                <persName type="sort">Titanen</persName>
+                <gender value="U">unknown</gender>
+                <note type="bio">Uralte Göttergeneration der griechischen Mythologie, Kinder von Uranos und
+                      Gaia. Sie führten einen Krieg gegen die Olympier (Titanomachie), wurden aber von
+                      Zeus besiegt und in den Tartaros verbannt</note>
+                <occupation ref="https://d-nb.info/gnd/4021662-7">Gott</occupation>
+            </person>
+            <person xml:id="gnd-11856840X">
+                <persName type="main">Kyrene, Nymphe</persName>
+                <persName type="sort">Kyrene, Nymphe</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Nymphe und Geliebte des Apollo, Mutter von Aristeus. Sie wurde zur
+                      Namensgeberin der Stadt Kyrene in Nordafrika</note>
+                <occupation ref="https://d-nb.info/gnd/4232375-7">Nymphe</occupation>
+            </person>
+            <person xml:id="gnd-1172448302">
+                <persName type="main">Koronis, Fiktive Gestalt</persName>
+                <persName type="sort">Koronis, Fiktive Gestalt</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Geliebte des Apoll und Mutter des Asklepios</note>
+            </person>
+            <person xml:id="gnd-1331606268">
+                <persName type="main">Euadne, Fiktive Gestalt</persName>
+                <persName type="sort">Euadne, Fiktive Gestalt</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Tochter des Iphis oder des Phylacus, galt als Beispiel für Gattentreue, warf sich in den brennenden Scheiterhaufen ihres Gatten Kapaneus, um mit ihm auch im Tode vereint zu sein</note>
+            </person>
+            <person xml:id="gnd-118579878">
+                <persName type="main">Medea</persName>
+                <persName type="sort">Medea</persName>
+                <gender value="F">female</gender>
+                <note type="bio">Gestalt d. griech. Mythol.</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-116474874">
+                <persName type="main">Fester, Richard</persName>
+                <persName type="sort">Fester, Richard</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1860-09-20"/>
+                    <placeName ref="https://d-nb.info/gnd/4018118-2">Frankfurt am Main</placeName>
+                </birth>
+                <death>
+                    <date when="1945-01-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4019275-1">Garmisch-Partenkirchen</placeName>
+                </death>
+                <note type="bio">1887 bis 1892 Hilfsarbeiter am Generallandesarchiv in Karlsruhe und Mitarbeiter der badischen historischen Kommission</note>
+                <occupation ref="https://d-nb.info/gnd/4025098-2">Historiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+            </person>
+            <person xml:id="person-000028" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Penaten (Gottheiten)</persName>
+        <persName type="sort">Penaten</persName>
+        <gender value="U"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Hausgötter der römischen Religion, Schutzgötter des Haushalts und der Vorräte</note>
+     </person>
+            <person xml:id="person-000029" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Poros (Gottheit)</persName>
+        <persName type="sort">Poros</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Personifikation von Fülle und Gelegenheit in <persName key="gnd-118594893">Platon</persName>s <title>Symposion</title>, wo er als Vater des Eros auftritt</note>
+     </person>
+            <person xml:id="person-000030" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Penia (Gottheit)</persName>
+        <persName type="sort">Penia</persName>
+        <gender value="F"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Personifikation von Armut in <persName key="gnd-118594893">Platon</persName>s <title>Symposion</title>, wo sie als Mutter des Eros auftritt</note>
+     </person>
+        <person xml:id="person-000031" when="2025-08-01" resp="wvh-schriften">
+        <persName type="main">Bragur (Fiktive Figur)</persName>
+        <persName type="sort">Bragur (Fiktive Figur)</persName>
+        <gender value="M"/>
+        <birth>
+           <date/>
+           <placeName/>
+        </birth>
+        <death>
+           <date/>
+           <placeName/>
+        </death>
+        <note type="bio">Fiktiver nordischer Dichter, inspiriert von <persName key="person-000002">Ossian</persName> und der skandinavischen Sagenwelt</note>
+     </person>
+        <person xml:id="gnd-118620916">
+                <persName type="main">Tasso, Torquato</persName>
+                <persName type="sort">Tasso, Torquato</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1544-03-11"/>
+                    <placeName ref="https://d-nb.info/gnd/4140588-2">Sorrent</placeName>
+                </birth>
+                <death>
+                    <date when="1595-04-25"/>
+                    <placeName ref="https://d-nb.info/gnd/4050471-2">Rom</placeName>
+                </death>
+                <note type="bio">Ital. Dichter</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-119059738">
+                <persName type="main">Agamemnon</persName>
+                <persName type="sort">Agamemnon</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Mytholog. literar. Gestalt</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118803271">
+                <persName type="main">Patroklos</persName>
+                <persName type="sort">Patroklos</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Freund des Achilleus</note>
+                <occupation ref="https://d-nb.info/gnd/4140220-0">Literarische Gestalt</occupation>
+                <occupation ref="https://d-nb.info/gnd/4306746-3">Fiktive Gestalt</occupation>
+            </person>
+            <person xml:id="gnd-119291002">
+                <persName type="main">Hektor</persName>
+                <persName type="sort">Hektor</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held der griechischen Mythologie, Sohn von König Priamos und Hekabe</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-11952354X">
+                <persName type="main">Neptun, Gott</persName>
+                <persName type="sort">Neptun, Gott</persName>
+                <gender value="M">male</gender>
+                <note type="bio">röm. Meeresgott, Äquivalent zu Poseidon</note>
+            </person>
+            <person xml:id="gnd-1019103213">
+                <persName type="main">Menelaos, Fiktive Gestalt</persName>
+                <persName type="sort">Menelaos, Fiktive Gestalt</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Held der griech. Mythologie; Sohn des Atreus u. der Aerope; jüngerer Bruder des Agamemnon; Gemahl der Helena</note>
+            </person>
+            <person xml:id="gnd-11871774X">
+                <persName type="main">Glaukos</persName>
+                <persName type="sort">Glaukos</persName>
+                <gender value="M">male</gender>
+                <note type="bio">König der Lykier; Kämpfer im Trojanischen Krieg</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-118621769">
+                <persName type="main">Theokrit</persName>
+                <persName type="sort">Theokrit</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Griechischer Bukoliker</note>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+            <person xml:id="gnd-118525263">
+                <persName type="main">Diderot, Denis</persName>
+                <persName type="sort">Diderot, Denis</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1713-10-05"/>
+                    <placeName ref="https://d-nb.info/gnd/4099044-8">Langres</placeName>
+                </birth>
+                <death>
+                    <date when="1784-07-31"/>
+                    <placeName ref="https://d-nb.info/gnd/4044660-8">Paris</placeName>
+                </death>
+                <note type="bio"/>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4045790-4">Philosoph</occupation>
+                <occupation ref="https://d-nb.info/gnd/4168391-2">Lyriker</occupation>
+            </person>
+            <person xml:id="gnd-118569651" when="2025-08-25" resp="wvh-schriften">
+                <persName type="main">Laokoon</persName>
+                <persName type="sort">Laokoon</persName>
+                <gender value="M">male</gender>
+                <note type="bio">Ein sagenhafter trojanischer Priester. Er und seine beiden jungen Söhne werden von riesigen gottgesandten Schlangen angegriffen als Laokoon sich dagegen aussprach, das Trojanische Pferd in die Stadt zu bringen.</note>
+                <occupation ref="https://d-nb.info/gnd/4221861-5">Sagengestalt</occupation>
+            </person>
+            <person xml:id="gnd-117404322">
+                <persName type="main">Tomaschek, Karl</persName>
+                <persName type="sort">Tomaschek, Karl</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1828"/>
+                    <placeName ref="https://d-nb.info/gnd/4026515-8">Iglau</placeName>
+                </birth>
+                <death>
+                    <date when="1878"/>
+                </death>
+                <note type="bio">Professor der deutschen Sprache und Literatur in Graz und Wien</note>
+                <occupation ref="https://d-nb.info/gnd/4156858-8">Germanist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+            </person>
+            <person xml:id="gnd-116483350">
+                <persName type="main">Harnack, Otto</persName>
+                <persName type="sort">Harnack, Otto</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1857-11-23"/>
+                    <placeName ref="https://d-nb.info/gnd/4015299-6">Erlangen</placeName>
+                </birth>
+                <death>
+                    <date when="1914-03-22"/>
+                    <placeName ref="https://d-nb.info/gnd/4006021-4">Besigheim</placeName>
+                </death>
+                <note type="bio">Goetheforscher; Philosophische Dissertation, Göttingen, 1880</note>
+                <occupation ref="https://d-nb.info/gnd/4028781-6">Journalist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4167838-2">Literarhistoriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4140241-8">Dramatiker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4025243-7">Hochschullehrer</occupation>
+            </person>
+            <person xml:id="gnd-118824775">
+                <persName type="main">Böttiger, Carl August</persName>
+                <persName type="sort">Böttiger, Carl August</persName>
+                <gender value="M">male</gender>
+                <birth>
+                    <date when="1760-06-08"/>
+                    <placeName ref="https://d-nb.info/gnd/4278871-7">Reichenbach im Vogtland</placeName>
+                </birth>
+                <death>
+                    <date when="1835-11-17"/>
+                    <placeName ref="https://d-nb.info/gnd/4012995-0">Dresden</placeName>
+                </death>
+                <note type="bio">Dt. Pädagoge, Museumsbegründer, Hrsg. d. Teutschen Merkur</note>
+                <occupation ref="https://d-nb.info/gnd/4191824-1">Archäologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4199241-6">Klassischer Philologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4044300-0">Pädagoge</occupation>
+                <occupation ref="https://d-nb.info/gnd/4028781-6">Journalist</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+                <occupation ref="https://d-nb.info/gnd/4033654-2">Kunsthistoriker</occupation>
+                <occupation ref="https://d-nb.info/gnd/4059756-8">Theologe</occupation>
+                <occupation ref="https://d-nb.info/gnd/4053309-8">Schriftsteller</occupation>
+            </person>
+        </listPerson>
+   </standOff>
+</TEI>

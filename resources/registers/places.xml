@@ -1,0 +1,693 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pb-places">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Local Authority File: Place register</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Wilhelm von Humboldt: Schriften</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>An independent digital edition of Wilhelm von Humboldt's (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy/>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <standOff>
+      <listPlace>
+      <place type="P.PPLC" xml:id="geo-264371" when="2025-07-31" resp="wvh-schriften">
+                <placeName type="main">Athen (Antike)</placeName>
+                <placeName type="sort">Athen (Antike)</placeName>
+                <location>
+                    <geo>37.98376 23.72784</geo>
+                </location>
+                <country>Greece</country>
+                <region>Attica</region>
+                <note>Athen war in der Antike Zentrum von Demokratie, Philosophie und Bildung. Für <persName ref="gnd-118554727">Wilhelm von Humboldt</persName> galt das antike Athen als Modell einer freien, geistig schöpferischen Gesellschaft. Seine Bildungsreform war von der Idee getragen, ähnliche Bedingungen zur Entfaltung des Menschen zu schaffen</note>
+                <tei:ptr xmlns:tei="http://www.tei-c.org/ns/1.0" type="geonames" target="https://www.geonames.org/264371"/>
+                <tei:ptr xmlns:tei="http://www.tei-c.org/ns/1.0" type="info" target="https://en.wikipedia.org/wiki/Athens"/>
+            </place>
+            <place xml:id="geo-258763" type="T.ISL">
+                <placeName type="main">Kreta</placeName>
+                <placeName type="sort">Kreta</placeName>
+                <location>
+                    <geo>35.20523 24.90308</geo>
+                </location>
+                <country>Greece</country>
+                <region>Crete</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/258763"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Crete"/>
+            </place>
+            <place type="S.ANS" xml:id="geo-259627" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Knossos</placeName>
+                <placeName type="sort">Knossos</placeName>
+                <location>
+                    <geo>35.29799 25.16304</geo>
+                </location>
+                <country>Greece</country>
+                <region>Crete</region>
+                <note>Antike minoische Stadt auf <placeName key="geo-258763">Kreta</placeName>, bekannt für ihren Palast und die Legenden um den Minotaurus</note>
+                <ptr type="geonames" target="https://www.geonames.org/259627"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Knossos"/>
+            </place>
+            <place type="S.RUIN" xml:id="geo-12041331" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Sparta (Antike)</placeName>
+                <placeName type="sort">Sparta (Antike)</placeName>
+                <location>
+                    <geo>37.08209 22.42381</geo>
+                </location>
+                <country>Greece</country>
+                <region>Peloponnese</region>
+                <note>Antike griechische Polis, oft als Gegenmodell zu <placeName key="geo-264371">Athen</placeName> betrachtet. In <tei:persName xmlns:tei="http://www.tei-c.org/ns/1.0" key="gnd-118554727">Humboldt</tei:persName>s politischen Überlegungen zur antiken Erziehung und Staatsform wird Sparta als negatives Beispiel der Disziplinierung thematisiert</note>
+                <tei:ptr xmlns:tei="http://www.tei-c.org/ns/1.0" type="geonames" target="https://www.geonames.org/12041331"/>
+                <tei:ptr xmlns:tei="http://www.tei-c.org/ns/1.0" type="info" target="https://undefined"/>
+            </place>
+            <place type="P.PPLA3" xml:id="geo-2812482" when="2025-07-31" resp="wvh-schriften">
+                <placeName type="main">Weimar</placeName>
+                <placeName type="sort">Weimar</placeName>
+                <location>
+                    <geo>50.9803 11.32903</geo>
+                </location>
+                <country>Germany</country>
+                <region>Thuringia</region>
+                <note>Kulturelles Zentrum der Weimarer Klassik, eng verbunden mit <persName key="gnd-118540238">Goethe</persName>, <persName key="gnd-118607626">Schiller</persName> und der dt. Literaturgeschichte</note>
+                <ptr type="geonames" target="https://www.geonames.org/2812482"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Weimar"/>
+            </place>
+            <place type="A.PCLI" xml:id="geo-390903" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Griechenland (Antikes)</placeName>
+                <placeName type="sort">Griechenland (Antikes)</placeName>
+                <location>
+                    <geo>39 22</geo>
+                </location>
+                <country>Greece</country>
+                <region/>
+                <note>Das antike Griechenland war eine Hauptquelle für <persName key="gnd-118554727">Wilhelm von Humboldt</persName>s humanistisches Bildungsideal. Besonders das attische Griechenland diente ihm als Modell für kulturelle und geistige Freiheit</note>
+                <ptr type="geonames" target="https://www.geonames.org/390903"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Greece"/>
+            </place>
+            <place type="A.PCLH" xml:id="geo-8354456" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Rom (Imperium Romanum)</placeName>
+                <placeName type="sort">Rom (Imperium Romanum)</placeName>
+                <location>
+                    <geo>41.8925 12.48499</geo>
+                </location>
+                <country>Italy</country>
+                <region/>
+                <note>Das antike Rom war zentraler Gegenstand von <persName key="gnd-118554727">Humboldt</persName>s klassisch-philologischen Studien. Er analysierte insbesondere das Verhältnis von Sprache, Staat und Bildung in der römischen Antike</note>
+                <ptr type="geonames" target="https://www.geonames.org/8354456"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Imperium_romanum"/>
+            </place>
+            <place type="P.PPLA" xml:id="geo-3081368" when="2025-07-31" resp="wvh-schriften">
+                <placeName type="main">Wrocław (ehem. Breslau)</placeName>
+                <placeName type="sort">Wrocław (ehem. Breslau)</placeName>
+                <location>
+                    <geo>51.1 17.03333</geo>
+                </location>
+                <country>Poland</country>
+                <region>Lower Silesia</region>
+                <note>
+                    <hi>Breslau</hi> ist der historische Name von Wrocław, einer Großstadt im heutigen Polen. Im 18. und 19. Jh. gehörte sie Preußen</note>
+                <ptr type="geonames" target="https://www.geonames.org/3081368"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Wroc%C5%82aw"/>
+            </place>
+            <place type="A.PCLI" xml:id="geo-3175395" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Italien</placeName>
+                <placeName type="sort">Italien</placeName>
+                <location>
+                    <geo>42.83333 12.83333</geo>
+                </location>
+                <country>Italy</country>
+                <region/>
+                <note>
+                    <persName key="gnd-118554727">Wilhelm von Humboldt</persName> reiste <date from="1803" to="1805">zwischen 1803 und 1805</date> durch Italien. Dort vertiefte er seine Studien zur Antike, Kunst und Sprache. Italien prägte entscheidend seine Vorstellung vom Verhältnis zwischen Ästhetik und Bildung</note>
+                <ptr type="geonames" target="https://www.geonames.org/3175395"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Italy"/>
+            </place>
+            <place type="P.PPLA" xml:id="geo-2910831" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Hannover</placeName>
+                <placeName type="sort">Hannover</placeName>
+                <location>
+                    <geo>52.37052 9.73322</geo>
+                </location>
+                <country>Germany</country>
+                <region>Lower Saxony</region>
+                <note>Residenzstadt im Kurfürstentum Hannover. Während <persName key="gnd-118554727">Wilhelm von Humboldt</persName>s diplomatischer Laufbahn war Hannover wiederholt Ort diplomatischer Verhandlungen im deutschen Raum</note>
+                <ptr type="geonames" target="https://www.geonames.org/2910831"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Hanover_Region"/>
+            </place>
+            <place type="P.PPLC" xml:id="geo-2950159" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Berlin</placeName>
+                <placeName type="sort">Berlin</placeName>
+                <location>
+                    <geo>52.52437 13.41053</geo>
+                </location>
+                <country>Germany</country>
+                <region>State of Berlin</region>
+                <note>Ehemalige Hauptstadt Preußens. Unter Friedrich II., wurde Berlin zum Mittelpunkt der Aufklärungsbewegung</note>
+                <ptr type="geonames" target="https://www.geonames.org/2950159"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Berlin"/>
+            </place>
+            <place type="P.PPLX" xml:id="geo-2823708" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Tegel</placeName>
+                <placeName type="sort">Tegel</placeName>
+                <location>
+                    <geo>52.57601 13.29389</geo>
+                </location>
+                <country>Germany</country>
+                <region>State of Berlin</region>
+                <note>Geburtsort <persName key="gnd-118554727">Wilhelm von Humboldt</persName>s. Das dortige Schloss Tegel wurde später Familiensitz der Humboldts und ist eng mit seiner Kindheit, Jugend und seinem Bildungsweg verbunden</note>
+                <ptr type="geonames" target="https://www.geonames.org/2823708"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Tegel"/>
+            </place>
+            <place type="P.PPLA3" xml:id="geo-2918632" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Göttingen</placeName>
+                <placeName type="sort">Göttingen</placeName>
+                <location>
+                    <geo>51.53443 9.93228</geo>
+                </location>
+                <country>Germany</country>
+                <region>Lower Saxony</region>
+                <note>Universitätsstadt in Niedersachsen. <persName key="gnd-118554727">Wilhelm von Humboldt</persName> studierte hier <date from="1789">ab 1789</date> klassische Philologie und lernte wichtige Vertreter der deutschen Aufklärung kennen</note>
+                <ptr type="geonames" target="https://www.geonames.org/2918632"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/G%C3%B6ttingen"/>
+            </place>
+            <place type="P.PPLA" xml:id="geo-2874225" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Mainz</placeName>
+                <placeName type="sort">Mainz</placeName>
+                <location>
+                    <geo>49.98419 8.2791</geo>
+                </location>
+                <country>Germany</country>
+                <region>Rheinland-Pfalz</region>
+                <note>Stadt am Rhein, ein politisch und kulturell bedeutendes Zentrum zur Zeit der Französischen Revolution. <persName key="gnd-118554727">Wilhelm von Humboldt</persName> beobachtete aufmerksam die dortigen politischen Entwicklungen während der kurzlebigen Mainzer Republik (<date from="1792" to="1793">1792/93</date>)</note>
+                <ptr type="geonames" target="https://www.geonames.org/2874225"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Mainz"/>
+            </place>
+            <place xml:id="geo-3017382" type="A.PCLI">
+                <placeName type="main">Frankreich</placeName>
+                <placeName type="sort">Frankreich</placeName>
+                <location>
+                    <geo>46 2</geo>
+                </location>
+                <country>France</country>
+                <region/>
+                <note type="bio">Einheitsstaat in Westeuropa. Als im Sommer 1789 die Revolution ausbrach, reiste
+                      Humboldt mit seinem ehemaligen Tutor Joachim Heinrich Campe nach Paris, um die
+                      Französische Revolution hautnah mitzuerleben</note>
+                <ptr type="geonames" target="https://www.geonames.org/3017382"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/France"/>
+            </place>
+            <place type="P.PPL" xml:id="geo-12503954" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Burgörner-Altdorf</placeName>
+                <placeName type="sort">Burgörner-Altdorf</placeName>
+                <location>
+                    <geo>51.62532 11.51325</geo>
+                </location>
+                <country>Germany</country>
+                <region>Saxony-Anhalt</region>
+                <note>Eine Höhenburg in Sachsen-Anhalt, Deutschland. Eigentum der Familie von Dachröden, kam die Burg durch Heirat an <persName key="gnd-118554727">Wilhelm von Humboldt</persName>. Hier lernte sich sogar das spätere Ehepaar kennen</note>
+                <ptr type="geonames" target="https://www.geonames.org/12503954"/>
+                <ptr type="info" target="https://undefined"/>
+            </place>
+            <place xml:id="geo-2873852" type="P.PPL">
+                <placeName type="main">Mansfeld</placeName>
+                <placeName type="sort">Mansfeld</placeName>
+                <location>
+                    <geo>51.59234 11.45223</geo>
+                </location>
+                <country>Germany</country>
+                <region>Saxony-Anhalt</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2873852"/>
+                <ptr type="info" target="https://de.wikipedia.org/wiki/Mansfeld"/>
+            </place>
+            <place xml:id="geo-6269134" type="T.PEN">
+                <placeName type="main">Indien</placeName>
+                <placeName type="sort">Indien</placeName>
+                <location>
+                    <geo>22.20775 76.97021</geo>
+                </location>
+                <country>India</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/6269134"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Indian_subcontinent"/>
+            </place>
+            <place xml:id="geo-1814991" type="A.PCLI">
+                <placeName type="main">China</placeName>
+                <placeName type="sort">China</placeName>
+                <location>
+                    <geo>35 105</geo>
+                </location>
+                <country>China</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/1814991"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/China"/>
+            </place>
+            <place xml:id="geo-2929670" type="P.PPLA">
+                <placeName type="main">Erfurt</placeName>
+                <placeName type="sort">Erfurt</placeName>
+                <location>
+                    <geo>50.9787 11.03283</geo>
+                </location>
+                <country>Germany</country>
+                <region>Thuringia</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2929670"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Erfurt"/>
+            </place>
+            <place xml:id="geo-2921044" type="A.PCLI">
+                <placeName type="main">Deutschland</placeName>
+                <placeName type="sort">Deutschland</placeName>
+                <location>
+                    <geo>51.5 10.5</geo>
+                </location>
+                <country>Germany</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2921044"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Germany"/>
+            </place>
+            <place type="A.ADM1" xml:id="geo-6269131" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">England</placeName>
+                <placeName type="sort">England</placeName>
+                <location>
+                    <geo>52.16045 -0.70312</geo>
+                </location>
+                <country>United Kingdom</country>
+                <region>England</region>
+                <note>Land, dessen Bildungswesen und Verfassungsstruktur <persName key="gnd-118554727">Wilhelm von Humboldt</persName> eingehend analysierte. <date from="1790" to="1791">1790/91</date> bereiste er England und führte dort Beobachtungen durch, die in seine Bildungstheorie einflossen</note>
+                <ptr type="geonames" target="https://www.geonames.org/6269131"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/England"/>
+            </place>
+            <place type="P.PPLA3" xml:id="geo-2879139" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Leipzig</placeName>
+                <placeName type="sort">Leipzig</placeName>
+                <location>
+                    <geo>51.33962 12.37129</geo>
+                </location>
+                <country>Germany</country>
+                <region>Saxony</region>
+                <note>Dt. kreisfreie Stadt im Freistaat Sachsen. Während der Zeit der Aufklärung war sie ein wichtiger Ort des Buchdrucks</note>
+                <ptr type="geonames" target="https://www.geonames.org/2879139"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Leipzig"/>
+            </place>
+            <place xml:id="geo-8378481" type="A.ADM1H">
+                <placeName type="main">Arabien</placeName>
+                <placeName type="sort">Arabien</placeName>
+                <location>
+                    <geo>32.51939 36.48243</geo>
+                </location>
+                <country>Syria</country>
+                <region>Daraa</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/8378481"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Arabia_Petraea"/>
+            </place>
+            <place xml:id="geo-267008" type="P.PPLA2">
+                <placeName type="main">Tyros</placeName>
+                <placeName type="sort">Tyros</placeName>
+                <location>
+                    <geo>33.27333 35.19389</geo>
+                </location>
+                <country>Lebanon</country>
+                <region>South Governorate</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/267008"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Tyre%2C_Lebanon"/>
+            </place>
+            <place xml:id="geo-2658434" type="A.PCLI">
+                <placeName type="main">Schweiz</placeName>
+                <placeName type="sort">Schweiz</placeName>
+                <location>
+                    <geo>47.00016 8.01427</geo>
+                </location>
+                <country>Switzerland</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2658434"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Switzerland"/>
+            </place>
+            <place xml:id="geo-357994" type="A.PCLI">
+                <placeName type="main">Ägypten (Altes)</placeName>
+                <placeName type="sort">Ägypten (Altes)</placeName>
+                <location>
+                    <geo>27 30</geo>
+                </location>
+                <country>Egypt</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/357994"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Egypt"/>
+            </place>
+            <place xml:id="geo-6252001" type="A.PCLI">
+                <placeName type="main">USA (Vereinigte Staaten)</placeName>
+                <placeName type="sort">USA (Vereinigte Staaten)</placeName>
+                <location>
+                    <geo>39.76 -98.5</geo>
+                </location>
+                <country>United States</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/6252001"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/United_States"/>
+            </place>
+            <place xml:id="geo-2782113" type="A.PCLI">
+                <placeName type="main">Österreich</placeName>
+                <placeName type="sort">Österreich</placeName>
+                <location>
+                    <geo>47.33333 13.33333</geo>
+                </location>
+                <country>Austria</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2782113"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Austria"/>
+            </place>
+            <place xml:id="geo-6255148" type="L.CONT">
+                <placeName type="main">Europa</placeName>
+                <placeName type="sort">Europa</placeName>
+                <location>
+                    <geo>48.69096 9.14062</geo>
+                </location>
+                <country/>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/6255148"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Europe"/>
+            </place>
+            <place xml:id="geo-6549834" type="A.ADM4H">
+                <placeName type="main">Auleben</placeName>
+                <placeName type="sort">Auleben</placeName>
+                <location>
+                    <geo>51.4333 10.9333</geo>
+                </location>
+                <country>Germany</country>
+                <region>Thuringia</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/6549834"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Auleben"/>
+            </place>
+        <place type="P.PPLC" xml:id="geo-2988507" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Paris</placeName>
+                <placeName type="sort">Paris</placeName>
+                <location>
+                    <geo>48.85341 2.3488</geo>
+                </location>
+                <country>France</country>
+                <region>Île-de-France</region>
+                <note>Metropole der Aufklärung. <persName ref="gnd-118554727">Wilhelm von Humboldt</persName> lebte <date from="1797" to="1801">von 1797 bis 1801</date> in Paris, wo er enge Kontakte zu französischen Intellektuellen pflegte und an seinem Bildungskonzept arbeitete</note>
+                <ptr type="geonames" target="https://www.geonames.org/2988507"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Paris"/>
+            </place>
+            <place type="P.PPLA3" xml:id="geo-2895044" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Jena</placeName>
+                <placeName type="sort">Jena</placeName>
+                <location>
+                    <geo>50.92878 11.5899</geo>
+                </location>
+                <country>Germany</country>
+                <region>Thuringia</region>
+                <note>Jena war im 18. und 19. Jahrhundert ein bedeutendes Zentrum der Aufklärung und der Frühromantik. Dort verkehrten u.a. <persName ref="gnd-118607626">Schiller</persName>, <persName key="gnd-118540238">Goethe</persName> und <persName key="gnd-118554727">Humboldt</persName> selbst</note>
+                <ptr type="geonames" target="https://www.geonames.org/2895044"/>
+                <ptr type="info" target="https://undefined"/>
+            </place>
+            <place xml:id="geo-734890" type="T.MT">
+                <placeName type="main">Olymp</placeName>
+                <placeName type="sort">Olymp</placeName>
+                <location>
+                    <geo>40.08175 22.34954</geo>
+                </location>
+                <country>Greece</country>
+                <region>Central Macedonia</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/734890"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Mount_Olympus"/>
+            </place>
+            <place xml:id="geo-298885" type="S.ANS">
+                <placeName type="main">Troja</placeName>
+                <placeName type="sort">Troja</placeName>
+                <location>
+                    <geo>39.95732 26.23909</geo>
+                </location>
+                <country>Türkiye</country>
+                <region>Canakkale</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/298885"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Troy"/>
+            </place>
+            <place xml:id="geo-6691831" type="P.PPLC">
+                <placeName type="main">Vatikan</placeName>
+                <placeName type="sort">Vatikan</placeName>
+                <location>
+                    <geo>41.90268 12.45414</geo>
+                </location>
+                <country>Vatican City</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/6691831"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Vatican_City"/>
+            </place>
+            <place type="P.PPLA" xml:id="geo-3164603" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Venedig</placeName>
+                <placeName type="sort">Venedig</placeName>
+                <location>
+                    <geo>45.43713 12.33265</geo>
+                </location>
+                <country>Italy</country>
+                <region>Veneto</region>
+                <note>Stadt im Nordosten Italiens. <persName key="gnd-118554727">Wilhelm von Humboldt</persName> besuchte Venedig während seiner Italienreise Anfang des 19. Jahrhunderts. Die Stadt beeindruckte ihn als Beispiel für die Verbindung von politischer Geschichte, Kunst und klassischer Bildung in der europäischen Kultur</note>
+                <ptr type="geonames" target="https://www.geonames.org/3164603"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Venice"/>
+            </place>
+            <place type="P.PPL" xml:id="geo-2911522" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Halle (Saale)</placeName>
+                <placeName type="sort">Halle (Saale)</placeName>
+                <location>
+                    <geo>51.48158 11.97947</geo>
+                </location>
+                <country>Germany</country>
+                <region>Saxony-Anhalt</region>
+                <note>Großstadt im Süden von Sachsen-Anhalt in Deutschland</note>
+                <ptr type="geonames" target="https://www.geonames.org/2911522"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Halle_%28Saale%29"/>
+            </place>
+            <place type="S.RUIN" xml:id="place-000002" when="2025-08-01" resp="wvh-schriften">
+        <placeName type="main">Dionysostheater</placeName>
+        <placeName type="sort">Dionysostheater</placeName>
+        <country/>
+        <region/>
+        <location>
+            <geo/>
+        </location>
+        <note>Das wichtigste Theater im antiken Griechenland, wo alljährlich die Festspiele der Dionysien gefeiert wurden. Es liegt am Südhang der Athener Akropolis</note>
+     </place>
+            <place type="P.PPLA2" xml:id="geo-259289" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Korinth</placeName>
+                <placeName type="sort">Korinth</placeName>
+                <location>
+                    <geo>37.94007 22.9513</geo>
+                </location>
+                <country>Greece</country>
+                <region>Peloponnese</region>
+                <note>Eine der bedeutendsten Städte des antiken Griechenlands, bekannt für ihren Reichtum, Handel und ihre strategische Lage auf der Landenge von Korinth</note>
+                <ptr type="geonames" target="https://www.geonames.org/259289"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Corinth"/>
+            </place>
+            <place xml:id="geo-679836" type="L.RGNH">
+                <placeName type="main">Dakien (Antike)</placeName>
+                <placeName type="sort">Dakien (Antike)</placeName>
+                <location>
+                    <geo>46 25</geo>
+                </location>
+                <country>Romania</country>
+                <region/>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/679836"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Dacia"/>
+            </place>
+            <place type="null" xml:id="place-000003" when="2025-08-01" resp="wvh-schriften">
+        <placeName type="main">Glückliche Inseln (Mythologischer Ort)</placeName>
+        <placeName type="sort">Glückliche Inseln (Mythologischer Ort)</placeName>
+        <country/>
+        <region/>
+        <location>
+            <geo/>
+        </location>
+        <note>Mythischer Aufenthaltsort der Seligen in der griechischen Mythologie, oft mit den Elysischen Feldern gleichgesetzt. Sie galten als paradiesische Inseln am westlichen Rand der Welt, auf denen tugendhafte Seelen oder von den Göttern bevorzugte Menschen ein ewiges Leben führten</note>
+     </place>
+            <place type="null" xml:id="place-000004" when="2025-08-01" resp="wvh-schriften">
+        <placeName type="main">Hyperborea</placeName>
+        <placeName type="sort">Hyperborea</placeName>
+        <country/>
+        <region/>
+        <location>
+            <geo/>
+        </location>
+        <note>Ein sagenhaftes, von den antiken griechischen Geographen und Mythographen weit im Norden lokalisiertes paradiesisches Land mit einer engen Verbindung mit dem Gott <persName key="gnd-118503642">Apollon</persName>
+                </note>
+     </place>
+     <place type="null" xml:id="place-000005" when="2025-08-01" resp="wvh-schriften">
+        <placeName type="main">Askra</placeName>
+        <placeName type="sort">Askra</placeName>
+        <country/>
+        <region/>
+        <location>
+            <geo>38°19′37″N 23°04′27″E</geo>
+        </location>
+        <note>Eine Stadt im antiken Böotien, vor allem als Heimat des Dichters Hesiod</note>
+     </place>
+     <place type="null" xml:id="place-000006" when="2025-08-01" resp="wvh-schriften">
+        <placeName type="main">Ionien</placeName>
+        <placeName type="sort">Ionien</placeName>
+        <country/>
+        <region/>
+        <location>
+            <geo>38.2°N 27.5°E</geo>
+        </location>
+        <note>Die Bezeichnung einer antiken Landschaft an der Westküste Kleinasiens, der heutigen Türkei, die auf den griechischen Stamm der Ionier zurückgeht</note>
+     </place>
+        <place xml:id="geo-554234" type="P.PPLA">
+                <placeName type="main">Kaliningrad (ehem. Königsberg)</placeName>
+                <placeName type="sort">Kaliningrad (ehem. Königsberg)</placeName>
+                <location>
+                    <geo>54.70649 20.51095</geo>
+                </location>
+                <country>Russia</country>
+                <region>Kaliningrad Oblast</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/554234"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Kaliningrad"/>
+            </place>
+            <place type="P.PPLA" xml:id="geo-2934246" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Düsseldorf</placeName>
+                <placeName type="sort">Düsseldorf</placeName>
+                <location>
+                    <geo>51.22172 6.77616</geo>
+                </location>
+                <country>Germany</country>
+                <region>North Rhine-Westphalia</region>
+                <note>Landeshauptstadt Nordrhein-Westfalens. Heimatstadt <persName key="gnd-118556312">Jacobi</persName>s</note>
+                <ptr type="geonames" target="https://www.geonames.org/2934246"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/D%C3%BCsseldorf"/>
+            </place>
+            <place type="L.CONT" xml:id="geo-6255147" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Asien</placeName>
+                <placeName type="sort">Asien</placeName>
+                <location>
+                    <geo>29.84064 89.29688</geo>
+                </location>
+                <country/>
+                <region/>
+                <note>Kontinent, dessen Sprachenvielfalt <persName key="gnd-118554727">Wilhelm von Humboldt</persName> faszinierte. Besonders die indischen und austronesischen Sprachstrukturen beeinflussten seine sprachphilosophischen Theorien</note>
+                <ptr type="geonames" target="https://www.geonames.org/6255147"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Asia"/>
+            </place>
+            <place type="L.BTL" xml:id="geo-7932565" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Thermopylae</placeName>
+                <placeName type="sort">Thermopylae</placeName>
+                <location>
+                    <geo>38.79594 22.53617</geo>
+                </location>
+                <country>Greece</country>
+                <region/>
+                <note>Historischer Ort in Griechenland, bekannt für die Schlacht von 480 v. Chr., Symbol für Opfermut und Tugend</note>
+                <ptr type="geonames" target="https://www.geonames.org/7932565"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Thermopylae"/>
+            </place>
+            <place type="P.PPLA3" xml:id="geo-2918752" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Gotha</placeName>
+                <placeName type="sort">Gotha</placeName>
+                <location>
+                    <geo>50.94823 10.70193</geo>
+                </location>
+                <country>Germany</country>
+                <region>Thuringia</region>
+                <note>Residenzstadt des Herzogtums Sachsen-Gotha. Im 18. Jahrhundert ein Zentrum der Aufklärung und bedeutender Verlagsort</note>
+                <ptr type="geonames" target="https://www.geonames.org/2918752"/>
+                <ptr type="info" target="https://undefined"/>
+            </place>
+            <place type="P.PPLA3" xml:id="geo-2925533" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Frankfurt am Main</placeName>
+                <placeName type="sort">Frankfurt am Main</placeName>
+                <location>
+                    <geo>50.11552 8.68417</geo>
+                </location>
+                <country>Germany</country>
+                <region>Hesse</region>
+                <note>Wichtiger Ort für Buchhandel und Politik im 18./19. Jahrhundert. Sitz des Bundestages <date from="1815">ab 1815</date>
+                </note>
+                <ptr type="geonames" target="https://www.geonames.org/2925533"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Frankfurt"/>
+            </place>
+            <place type="P.PPLA3" xml:id="geo-3031133" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Boulogne-sur-Mer</placeName>
+                <placeName type="sort">Boulogne-sur-Mer</placeName>
+                <location>
+                    <geo>50.72485 1.61373</geo>
+                </location>
+                <country>France</country>
+                <region>Hauts-de-France</region>
+                <note>Französische Hafenstadt am Ärmelkanal</note>
+                <ptr type="geonames" target="https://www.geonames.org/3031133"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Itius_Portus"/>
+            </place>
+            <place type="P.PPLA" xml:id="geo-2661604" when="2025-08-01" resp="wvh-schriften">
+                <placeName type="main">Basel</placeName>
+                <placeName type="sort">Basel</placeName>
+                <location>
+                    <geo>47.55839 7.57327</geo>
+                </location>
+                <country>Switzerland</country>
+                <region>Basel-City</region>
+                <note>Schweizer Universitätsstadt mit starker humanistischer Tradition. Im 19. Jh. mit Wirkungsorten bedeutender Philologen verbunden</note>
+                <ptr type="geonames" target="https://www.geonames.org/2661604"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Basel"/>
+            </place>
+        <place xml:id="geo-2945024" type="P.PPLA3">
+                <placeName type="main">Braunschweig</placeName>
+                <placeName type="sort">Braunschweig</placeName>
+                <location>
+                    <geo>52.26594 10.52673</geo>
+                </location>
+                <country>Germany</country>
+                <region>Lower Saxony</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2945024"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Braunschweig"/>
+            </place>
+            <place xml:id="geo-2935022" type="P.PPLA">
+                <placeName type="main">Dresden</placeName>
+                <placeName type="sort">Dresden</placeName>
+                <location>
+                    <geo>51.05089 13.73832</geo>
+                </location>
+                <country>Germany</country>
+                <region>Saxony</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2935022"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Dresden"/>
+            </place>
+            <place xml:id="geo-2761367" type="A.ADM1">
+                <placeName type="main">Wien</placeName>
+                <placeName type="sort">Wien</placeName>
+                <location>
+                    <geo>48.2082 16.37169</geo>
+                </location>
+                <country>Austria</country>
+                <region>Vienna</region>
+                <note/>
+                <ptr type="geonames" target="https://www.geonames.org/2761367"/>
+                <ptr type="info" target="https://en.wikipedia.org/wiki/Vienna"/>
+            </place>
+        </listPlace>
+   </standOff>
+</TEI>

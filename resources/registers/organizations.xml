@@ -1,0 +1,118 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pb-organizations">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Local Authority File: Organization register</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Wilhelm von Humboldt: Schriften</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>An independent digital edition of Wilhelm von Humboldt's (1767–1835) complete works, presented in a modern, accessible, and sustainable format. The ongoing project offers TEI-encoded texts in a fully searchable and user-friendly interface.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy/>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <standOff>
+      <listOrg>
+      <org xml:id="gnd-35994-4">
+                <orgName type="main">Frankreich. Assemblée Nationale Constituante (1789 - 1791)</orgName>
+                <orgName type="sort">Frankreich. Assemblée Nationale Constituante (1789 - 1791)</orgName>
+                <orgName type="sort">Die Konstituante</orgName>
+                <note>französisch <hi xml:lang="fr">Assemblée nationale constituante</hi>. Die französische Nationalversammlung, die vom <date when="1789-07-09">9. Juli 1789</date> bis zum <date when="1791-09-02">2. September 1791</date> mit dem Ziel tagte, Frankreich eine erste Verfassung zu
+                      geben</note>
+            </org>
+            <org xml:id="gnd-1011674-6">
+                <orgName type="main">Berliner Stadtbibliothek</orgName>
+                <orgName type="sort">Berliner Stadtbibliothek</orgName>
+                <note>öffentl. Bibliothek 6.6.1901 auf Beschluss der Berliner Stadtverordnetenversammlung gegründet, 15.10.1907 eröffnet, 1.10.1995 Fusion mit Amerika-Gedenkbibliothek zur Zentral und Landesbibliothek Berlin; Von außerordentlicher Bedeutung war Übernahme der Bibliothek des Sammlers Georg August Freund (1836-1914), die dieser der Stadt Berlin bereits testamentarisch 1894 zugesagt hatte. Die fast 10.000 Bd. Literatur aus allen Wissensgebieten blieben zunächst gesondert aufgestellt, wurden dann aber nach und nach in Hauptbestand eingearbeitet, wobei insbesondere Abt. Geographie entscheidenden Zuwachs erhielt. (Fabian Handbuch)</note>
+            </org>
+            <org xml:id="gnd-4132118-2">
+        <orgName type="main">Die Horen</orgName>
+        <orgName type="sort">4132118-2</orgName>
+        <note>Eine von <persName ref="gnd-118607626">Friedrich Schiller</persName> herausgegebene Literaturzeitschrift (1795–1797), die als Forum für die deutschen Klassiker diente. Enthielt Werke von <persName ref="gnd-118540238">Goethe</persName>, <persName ref="gnd-118607626">Schiller</persName> selbst und anderen bedeutenden Autoren</note>
+    </org>
+            <org xml:id="gnd-6146667-0">
+                <orgName type="main">Allgemeine Literatur-Zeitung</orgName>
+                <orgName type="sort">Expedition der Allgemeinen Literaturzeitung (Jena)</orgName>
+                <note>Eine <date when="1785">1785</date> in <placeName ref="geo-2895044">Jena</placeName> gegründete und <date from="1803" to="1849">1803 bis 1849</date> in <placeName ref="geo-4023025-9">Halle</placeName> weitergeführte Literaturzeitschrift, die zur auflagenstärksten und einflussreichsten
+                      deutschsprachigen Zeitung dieser Art wurde.</note>
+            </org>
+            <org xml:id="gnd-6145654-8">
+                <orgName type="main">Johann Friedrich Ungersche Buchdruckerei und Schriftgießerei</orgName>
+                <orgName type="sort">Johann Friedrich Ungersche Buchdruckerei und Schriftgießerei</orgName>
+                <note/>
+            </org>
+        <org xml:id="zdb-012829099">
+        <orgName type="main">Lesebuch für alle Stände zur Beförderung edler Grundsätze, echten Geschmacks und nützlicher Kenntnisse</orgName>
+        <orgName type="sort">Lesebuch für alle Stände zur Beförderung edler Grundsätze, echten Geschmacks und nützlicher Kenntnisse</orgName>
+        <note>Aufklärerisch geprägte periodische Sammlung von Texten zur moralischen, ästhetischen und praktischen Bildung breiter Gesellschaftsschichten. In <placeName key="geo-2879139">Leipzig</placeName> von <persName key="gnd-104197102">Johann Karl Zöllner</persName> herausgegeben</note>
+    </org>
+    <org xml:id="zdb-1059621398">
+        <orgName type="main">Musen-Almanach</orgName>
+        <orgName type="sort">Musen-Almanach</orgName>
+        <note>Literarische Zeitschrift, die erstmals <date when="1770">1770</date> erschien und als Plattform für Poesie, Prosa und literarische Diskussionen der deutschen Klassik und Romantik diente</note>
+    <org xml:id="zdb-011285230">
+        <orgName type="main">Teutscher Merkur</orgName>
+        <orgName type="sort">Teutscher Merkur</orgName>
+        <note>Einflussreiche literarische Zeitschrift im 18. Jh., herausgegeben von <persName key="gnd-118632477">Christoph Martin Wieland</persName>
+                    </note>
+    </org>
+    <org xml:id="zdb-023811471">
+        <orgName type="main">Deutsches Museum. Wochenschrift zur Erweiterung der Kenntnisse
+                      und des Geschmacks</orgName>
+        <orgName type="sort">Deutsches Museum</orgName>
+        <note>Eine aufklärerische Zeitschrift, die von 1776 bis 1788 in <placeName key="geo-2879139">Leipzig</placeName> veröffentlicht wurde</note>
+    </org>
+    <org xml:id="zdb-98929482X">
+        <orgName type="main">Neue Literatur und Völkerkunde</orgName>
+        <orgName type="sort">Neue Literatur und Völkerkunde</orgName>
+        <note>Eine aufklärerische Zeitschrift, die <date from="1787" to="1791">von 1787 bis 1791</date> in <placeName key="geo-2879139">Leipzig</placeName> veröffentlicht wurde</note>
+    </org>
+    </org>
+        <org xml:id="gnd-15514-7">
+                <orgName type="main">Königliche Akademie der Wissenschaften (Berlin)</orgName>
+                <orgName type="sort">Königliche Akademie der Wissenschaften (Berlin)</orgName>
+                <note>Akademie der Wissenschaften 1744 durch Zusammenschluss der Königlich Preußischen Sozietät der Wissenschaften mit der Société Littéraire Berlin entstanden</note>
+            </org>
+            <org xml:id="gnd-2024330-3">
+                <orgName type="main">Universität Frankfurt (Oder, 1506-1811)</orgName>
+                <orgName type="sort">Universität Frankfurt (Oder, 1506-1811)</orgName>
+                <note>1. brandenburgische Landesuniversität 26.4.1506 gegründet, August 1811 geschlossen und mit der Universität Breslau vereinigt</note>
+            </org>
+        <org xml:id="zdb-4144698-7">
+        <orgName type="main">Berlinische Monatsschrift</orgName>
+        <orgName type="sort">Berlinische Monatsschrift</orgName>
+        <note>Eine bedeutende dt. Zeitschrift des 18. Jahrhunderts. Forum für philosophische und politische Diskussionen, darunter auch Werke von <persName key="gnd-118559796">Immanuel Kant</persName>
+                </note>
+    </org>
+    <org xml:id="zdb-2694221-5">
+        <orgName type="main">Neue Thalia. Eine Monatsschrift</orgName>
+        <orgName type="sort">Neue Thalia. Eine Monatsschrift</orgName>
+        <note>Literarische Zeitschrift, herausgegeben von Friedrich Schiller. Sie erschien <date from="1785" to="1793">von 1785 bis 1793</date>, zunächst in <placeName key="geo-2879139">Leipzig</placeName>, später in <placeName key="geo-2895044">Jena</placeName>
+                </note>
+    </org>
+    <org xml:id="zdb-011244518">
+        <orgName type="main">Allgemeine deutsche Bibliothek</orgName>
+        <orgName type="sort">Allgemeine deutsche Bibliothek</orgName>
+        <note>Von <persName key="gnd-118587668">Friedrich Nicolai</persName> herausgegebene Rezensionszeitschrift. Sie erschien <date from="1765" to="1806">von 1765 bis 1806</date> und galt als Sprachrohr der Berliner Aufklärung</note>
+    </org>
+    <org xml:id="zdb-2175874-8">
+        <orgName type="main">Neue allgemeine deutsche Bibliothek</orgName>
+        <orgName type="sort">Neue allgemeine deutsche Bibliothek</orgName>
+        <note>Titel der <orgName key="zdb-011244518">Allgemeinen deutschen Bibliothek</orgName> Zeitschrift seit <date when="1793">1793</date>
+                </note>
+    </org>
+        <org xml:id="gnd-10189053-9">
+                <orgName type="main">Schulbuchhandlung (Braunschweig)</orgName>
+                <orgName type="sort">Schulbuchhandlung (Braunschweig)</orgName>
+                <note>1786-1799 geleitet von Joachim Heinrich Campe, danach von Friedrich Vieweg; Buchhandlung und Verlag, ab 1787; 1787-1799 geleitet von Johann Heinrich Campe, danach von Friedrich Vieweg</note>
+            </org>
+        </listOrg>
+   </standOff>
+</TEI>
