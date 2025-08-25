@@ -1,0 +1,5 @@
+<div>
+    <div data-template="search:query">
+        <div data-template="search:show-hits"/>
+    </div>
+</div>

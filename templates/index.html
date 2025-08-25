@@ -1,0 +1,126 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <meta name="description" content="Die digitale Edition von Wilhelm von Humboldts Schriften – TEI-basiert, durchsuchbar und frei zugänglich. Jetzt online lesen, forschen und entdecken."/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/logo-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/logo-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/logo-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/logo-64.png" sizes="64x64"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald&amp;display=swap"/>
+    <link rel="stylesheet" href="resources/css/wvh-theme.css"/>
+    <link rel="stylesheet" href="resources/css/custom-theme.css"/>
+
+    <title data-template="config:app-title"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <custom-style>
+    <style>
+        section .sub{
+            width:50%;
+            opacity:0;
+            transition:opacity 0.4s;
+        }
+        section:hover .sub{
+            opacity:1;
+        }
+                    .upload-panel {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                min-width: 360px;
+            }
+            @media (max-width: 600px) {
+
+    section .sub {
+        width: 100%; /* Full width to avoid narrow columns */
+    }
+}
+            
+            aside .upload {
+                --paper-card-header: {
+                    background-color: #607D8B;
+                }
+                ;
+                --paper-card-header-text: {
+                    font-family: "Oswald", Verdana, "Helvetica", sans-serif;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: white;
+                }
+                ;
+            }
+            
+            aside .upload {
+                width: 100%;
+            }
+            
+            .parent-link iron-icon {
+                padding-right: 4px;
+            }
+
+            .parent-link {
+                display: block;
+                margin-bottom: 10px;
+                margin-top: 16px;
+                padding: 6px 0;
+                border-bottom: thin solid var(--paper-grey-300);
+            }
+            pb-page{
+                background-image: url(resources/images/klassik.png);
+                background-repeat: repeat-y;
+            }
+            
+            
+    </style>
+    </custom-style>
+</head>
+<body>
+    
+    <div class="splash"/>
+    <script>
+        const facets = document.getElementById('facets');
+        if (facets) {
+            facets.addEventListener('pb-custom-form-loaded', function(ev) {
+                const elems = ev.detail.querySelectorAll('.facet');
+                elems.forEach(facet =&gt; {
+                    facet.addEventListener('change', () =&gt; {
+                        const table = facet.closest('table');
+                        if (table) {
+                            const nested = table.querySelectorAll('.nested .facet').forEach(nested =&gt; {
+                                if (nested != facet) {
+                                    nested.checked = false;
+                                }
+                            });
+                        }
+                        facets.submit();
+                    });
+                });
+            });
+        }
+    </script>
+</body>
+<div class="wrapper">
+    <div class="main-grid">
+        <header>
+
+            <h1>Wilhelm von Humboldt: Schriften</h1>
+
+            <div class="subtitle">
+                <h2 class="description">Digitalausgabe</h2>
+            <div class="date">Version: August 2025</div>
+        </div>
+        </header>
+        <section class="uebersicht">
+            <h2>Texte</h2>
+            <a class="button-link" href="uebersicht.html">Liste anzeigen</a>
+            <p class="sub">Vollständige Übersicht von den Gesammelten Schriften.</p>
+        </section>
+        <section class="durchsuchen">
+            <h2>Suche</h2>
+            <a class="button-link" href="durchsuchen.html">Durchsuchen</a>
+            <p class="sub">Suche mit verschiedenen Facetten und Filtern.</p>
+        </section>
+</div>
+    </div>
+</html>
