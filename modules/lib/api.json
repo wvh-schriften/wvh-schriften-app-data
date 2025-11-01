@@ -714,7 +714,7 @@
 						"required": true,
 						"schema": {
 							"type": "string",
-							"example": "test/F-rom.xml"
+							"example": "101.xml"
 						}
 					},
 					{
@@ -722,7 +722,7 @@
 						"in": "query",
 						"schema": {
 							"type": "string",
-							"example": "shakespeare.odd"
+							"example": "wvh-schriften.odd"
 						}
 					},
 					{
@@ -860,7 +860,7 @@
 						"required": true,
 						"schema": {
 							"type": "string",
-							"example": "test/F-rom.xml"
+							"example": "101.xml"
 						},
 						"description": "Path to the XML document"
 					},
@@ -934,7 +934,7 @@
 						"required": true,
 						"schema": {
 							"type": "string",
-							"example": "test/F-rom.xml"
+							"example": "101.xml"
 						}
 					},
 					{
@@ -1239,7 +1239,7 @@
 						"in": "query",
 						"schema": {
 							"type": "string",
-							"example": "shakespeare.odd"
+							"example": "wvh-schriften.odd"
 						}
 					},
 					{
